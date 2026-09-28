@@ -1,5 +1,5 @@
 <style type="text/css">
-/* Páginas de conteúdo Unikitchen — documento (mesmo estilo da seção 11 do CSS personalizado) */
+/* Páginas de conteúdo Unikitchen (gerado da seção 11 do CSS personalizado) */
 html body .uk-pg,
 html body .uk-pg * {
     box-sizing: border-box;
@@ -11,8 +11,6 @@ html body .uk-pg {
     font-family: 'Urbane', sans-serif !important;
     color: #555555;
 }
-
-/* Abertura */
 html body .uk-pg .uk-pg__abertura {
     max-width: 760px;
     margin: 0 auto 64px;
@@ -44,12 +42,8 @@ html body .uk-pg .uk-pg__titulo::after {
     margin: 22px auto 0;
     background: #c49a45;
 }
-html body .uk-pg .uk-pg__texto {
-    margin: 0 !important;
-    font-size: 16px !important;
-    font-weight: 300 !important;
-    line-height: 1.7 !important;
-    color: #666666 !important;
+/* Componentes extras dos cards: listas {
+    margin-top: 12px !important;
 }
 html body .uk-pg .uk-pg__lista {
     margin: 14px 0 0 !important;
@@ -75,7 +69,8 @@ html body .uk-pg .uk-pg__lista li::before {
     height: 1px;
     background: #c49a45;
 }
-/* Documento longo (Política de Privacidade, termos…): uma coluna de leitura */
+/* Documento longo (Política de Privacidade,
+termos…): uma coluna de leitura */
 html body .uk-pg .uk-doc {
     max-width: 780px;
     margin: 0 auto;
@@ -173,10 +168,17 @@ html body .uk-pg .uk-doc__data {
     text-transform: uppercase;
     color: #999999;
 }
+
 @media (max-width: 767px) {
-    html body .uk-pg { padding: 44px 16px 56px; }
-    html body .uk-pg .uk-pg__abertura { margin-bottom: 40px; }
-    html body .uk-pg .uk-pg__titulo { font-size: 24px !important; }
+    html body .uk-pg {
+        padding: 44px 16px 56px;
+    }
+    html body .uk-pg .uk-pg__abertura {
+        margin-bottom: 40px;
+    }
+    html body .uk-pg .uk-pg__titulo {
+        font-size: 24px !important;
+    }
     html body .uk-pg .uk-doc__intro {
         padding: 24px 20px !important;
         margin-bottom: 40px !important;

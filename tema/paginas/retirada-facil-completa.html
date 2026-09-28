@@ -1,5 +1,5 @@
 <style type="text/css">
-/* Páginas de conteúdo Unikitchen (mesmo estilo da seção 11 do CSS personalizado) */
+/* Páginas de conteúdo Unikitchen (gerado da seção 11 do CSS personalizado) */
 html body .uk-pg,
 html body .uk-pg * {
     box-sizing: border-box;
@@ -11,8 +11,6 @@ html body .uk-pg {
     font-family: 'Urbane', sans-serif !important;
     color: #555555;
 }
-
-/* Abertura */
 html body .uk-pg .uk-pg__abertura {
     max-width: 760px;
     margin: 0 auto 64px;
@@ -51,8 +49,6 @@ html body .uk-pg .uk-pg__texto {
     line-height: 1.7 !important;
     color: #666666 !important;
 }
-
-/* Grade de cards */
 html body .uk-pg .uk-pg__grade {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -78,7 +74,8 @@ html body .uk-pg .uk-pg__icone {
     background-position: left center;
     background-size: contain;
 }
-html body .uk-pg .uk-pg__icone--rastreio { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z'/%3E%3Ccircle cx='12' cy='11' r='2'/%3E%3C/svg%3E"); }
+html body .uk-pg .uk-pg__icone--rastreio { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z'/%3E%3Ccircle cx='12' cy='11' r='2'/%3E%3C/svg%3E");
+}
 html body .uk-pg .uk-pg__card h3 {
     margin: 0 0 12px !important;
     font-family: 'Urbane', sans-serif !important;
@@ -99,8 +96,20 @@ html body .uk-pg .uk-pg__card strong {
     font-weight: 600;
     color: #1a1a1a;
 }
+/* Componentes extras dos cards: listas,
+destaque e links */
 html body .uk-pg .uk-pg__card p + p {
-    margin-top: 16px !important;
+    margin-top: 12px !important;
+}
+html body .uk-pg .uk-pg__card p a {
+    color: #1a1a1a !important;
+    font-weight: 600;
+    text-decoration: underline !important;
+    text-decoration-color: #c49a45 !important;
+    text-underline-offset: 3px;
+}
+html body .uk-pg .uk-pg__card p a:hover {
+    color: #c49a45 !important;
 }
 html body .uk-pg .uk-pg__link {
     display: inline-block;
@@ -118,7 +127,10 @@ html body .uk-pg .uk-pg__link {
 html body .uk-pg .uk-pg__link:hover {
     color: #c49a45 !important;
 }
-/* Passo a passo numerado (ex.: Retirada) */
+/* Documento longo (Política de Privacidade {
+    max-width: 780px;
+    margin: 0 auto;
+}
 html body .uk-pg .uk-pg__passos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -151,7 +163,6 @@ html body .uk-pg .uk-pg__passo p {
     line-height: 1.7 !important;
     color: #666666 !important;
 }
-/* Subtítulo de bloco dentro da página (ex.: "Nossas unidades") */
 html body .uk-pg .uk-pg__subtitulo {
     margin: 0 0 32px !important;
     font-family: 'Urbane', sans-serif !important;
@@ -170,7 +181,6 @@ html body .uk-pg .uk-pg__subtitulo::after {
     margin: 12px auto 0;
     background: #c49a45;
 }
-/* Grade de 3 colunas e detalhes do card de unidade */
 html body .uk-pg .uk-pg__grade--3 {
     grid-template-columns: repeat(3, 1fr);
 }
@@ -192,11 +202,25 @@ html body .uk-pg .uk-pg__card-rotulo + p {
     }
 }
 @media (max-width: 767px) {
-    html body .uk-pg { padding: 44px 16px 56px; }
-    html body .uk-pg .uk-pg__abertura { margin-bottom: 40px; }
-    html body .uk-pg .uk-pg__titulo { font-size: 24px !important; }
-    html body .uk-pg .uk-pg__texto { font-size: 15px !important; }
-    html body .uk-pg .uk-pg__card { padding: 32px 24px; }
+    html body .uk-pg {
+        padding: 44px 16px 56px;
+    }
+    html body .uk-pg .uk-pg__abertura {
+        margin-bottom: 40px;
+    }
+    html body .uk-pg .uk-pg__titulo {
+        font-size: 24px !important;
+    }
+    html body .uk-pg .uk-pg__texto {
+        font-size: 15px !important;
+    }
+    html body .uk-pg .uk-pg__grade {
+        grid-template-columns: 1fr;
+        margin-bottom: 48px;
+    }
+    html body .uk-pg .uk-pg__card {
+        padding: 32px 24px;
+    }
     html body .uk-pg .uk-pg__passos {
         grid-template-columns: 1fr;
         gap: 32px;
