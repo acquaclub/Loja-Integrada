@@ -181,3 +181,34 @@ Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179
 - ✅ Página de produto: nome à esquerda, código e marca juntos, sem texto de contato duplicado, painel lateral flutuante escondido, setas das miniaturas corrigidas, breadcrumb limpo.
 - ✅ Um único `<h1>` por página de produto: `script-descricao-titulo.js` troca o h1 da descrição por h2 (confirmado no console: 1 h1). Correção definitiva ainda pendente na origem: modelo de descrição e produtos existentes.
 - Pendentes de design: banners (corte no celular), atalhos do celular (emojis), cards/títulos da vitrine ("Produtos relacionados").
+
+---
+
+## Pendências consolidadas (28/09/2026, fim do dia)
+
+### Dados e rastreamento
+1. Acionadores de WhatsApp no GTM: `Acionador | WhatsApp` (Google Ads, 2 anos) ≠ `Acionador | WhatsApp [SITE NOVO]` (Meta). Os leads de WhatsApp podem não estar chegando ao Google Ads.
+2. Tag `Remarketing do Google Ads`: conferir o ID de conversão (pode ser de conta antiga).
+3. Aplicativo Google Analytics não envia dados: abrir chamado na Loja Integrada.
+4. Duas propriedades GA4 (396078289 e 346482005): identificar a oficial e arquivar a outra.
+5. Contêiner antigo `GTM-WVCN28L`: arquivar.
+6. Melhoria: eventos GA4 pelo GTM (view_item, search, clique no WhatsApp) usando o dataLayer do aplicativo.
+
+### Design
+7. Banners: altura fixa com corte (principalmente no celular).
+8. Atalhos de categoria no celular: trocar emojis por ícones.
+9. Vitrine: título "Produtos relacionados" fora do padrão; setas do carrossel da vitrine.
+10. Confirmar código/marca alinhados e logos das marcas maiores (após o cache).
+
+### Arquivos e conteúdo (lojista)
+11. Logos Falmec, InSinkErator e Smeg; SVGs das marcas recortados rente ao desenho.
+12. Logo Unikitchen reexportado sem margem; ícone quadrado da loja (512×512).
+13. Descrições de produto: `<h1>` → `<h2>` na origem (modelo + produtos existentes).
+14. Padronização das fotos de produto (quadradas, mesmo fundo).
+15. Conferir se as 12 páginas institucionais do rodapé existem.
+
+### Limpeza técnica
+16. CSS: remover código morto (seção 5 da tarja, regras de #rodape, seletores de newsletter, .single_footer, !important em @keyframes, regras duplicadas, seletores #cabecalho.fixed/.menu.flutuante) e revisar a seção 16 (força 'FontAwesome').
+17. `.listagem-item img` atinge também selos/bandeiras dos cards.
+18. Fontes: converter TTF → WOFF2 e avaliar peso 400.
+19. Blocos movidos por jQuery após o carregamento (barra de benefícios, marcas, atalhos): causam salto de layout (CLS).
