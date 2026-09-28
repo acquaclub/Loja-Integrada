@@ -624,6 +624,11 @@ html body .listagem .listagem-item:hover {
     box-shadow: none !important;
     transform: none !important;
 }
+/* Tracejados do tema nos itens das setas do carrossel */
+html body .listagem .flex-direction-nav li {
+    border: 0 !important;
+    background: none !important;
+}
 /* Caixa tracejada do tema (área do antigo botão de compra) */
 html body .listagem-item .acoes-produto {
     display: none !important;
