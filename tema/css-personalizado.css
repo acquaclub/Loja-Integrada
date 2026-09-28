@@ -924,3 +924,42 @@ html body .acoes-produto .produto-mais-info {
 html body .wpp-produto-cta {
     margin-top: 8px !important;
 }
+
+/* Nome do produto: alinhado à esquerda, escrita normal, Urbane seminegrito */
+html body .info-principal-produto .nome-produto {
+    text-align: left !important;
+    text-transform: none !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 26px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.2px !important;
+    line-height: 1.3 !important;
+    color: #1a1a1a !important;
+    margin: 10px 0 12px 0 !important;
+}
+
+/* Títulos dentro da descrição (vêm do HTML da descrição de cada produto) */
+html body #descricao article.description h1 {
+    font-size: 26px !important;
+    line-height: 1.25 !important;
+    letter-spacing: 1px !important;
+}
+html body #descricao article.description h2 {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+    color: #666666 !important;
+}
+
+@media (max-width: 767px) {
+    html body .info-principal-produto .nome-produto {
+        font-size: 20px !important;
+    }
+    html body #descricao article.description h1 {
+        font-size: 20px !important;
+    }
+    html body #descricao article.description h2 {
+        font-size: 12px !important;
+        letter-spacing: 1.5px !important;
+    }
+}
