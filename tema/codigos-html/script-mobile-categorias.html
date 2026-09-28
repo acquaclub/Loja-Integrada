@@ -1,0 +1,88 @@
+<!--
+  Painel Loja Integrada > Códigos HTML
+  Descrição: script-mobile-categorias.html
+  Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
+-->
+<!-- ATALHOS RÁPIDOS MOBILE UNIKITCHEN -->
+<div class="mobile-quick-categories visible-phone" id="quickCategoriesMobile">
+  <div class="quick-cat-scroll">
+    <a href="/coifas-" class="quick-cat-item">
+      <span class="quick-icon">🌪️</span>
+      <span>Coifas</span>
+    </a>
+    <a href="/cooktops-e-rangetops" class="quick-cat-item">
+      <span class="quick-icon">🔥</span>
+      <span>Cooktops</span>
+    </a>
+    <a href="/adegas" class="quick-cat-item">
+      <span class="quick-icon">🍷</span>
+      <span>Adegas</span>
+    </a>
+    <a href="/churrasqueiras" class="quick-cat-item">
+      <span class="quick-icon">🥩</span>
+      <span>Churrasqueiras</span>
+    </a>
+    <a href="/fornos-" class="quick-cat-item">
+      <span class="quick-icon">🍕</span>
+      <span>Fornos</span>
+    </a>
+    <a href="/misturadores-e-torneiras" class="quick-cat-item">
+      <span class="quick-icon">🚰</span>
+      <span>Metais</span>
+    </a>
+    <a href="/refrigeradores-e-frezzers" class="quick-cat-item">
+      <span class="quick-icon">❄️</span>
+      <span>Refrigeradores</span>
+    </a>
+  </div>
+</div>
+
+<style>
+.mobile-quick-categories {
+  background: #ffffff;
+  padding: 15px 0 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.quick-cat-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 14px;
+  padding: 0 15px;
+  -webkit-overflow-scrolling: touch;
+}
+.quick-cat-scroll::-webkit-scrollbar {
+  display: none;
+}
+.quick-cat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 72px;
+  text-decoration: none !important;
+  color: #333333 !important;
+  font-size: 11px;
+  font-weight: 600;
+  text-align: center;
+}
+.quick-icon {
+  width: 50px;
+  height: 50px;
+  background: #f8f9fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+</style>
+
+<script>
+$(document).ready(function(){
+  if ($('#quickCategoriesMobile').length > 0 && $('.conteiner-principal').length > 0) {
+    $('.conteiner-principal').prepend($('#quickCategoriesMobile'));
+  }
+});
+</script>

@@ -1,0 +1,80 @@
+<!--
+  Painel Loja Integrada > Códigos HTML
+  Descrição: script-whatsapp-home.js
+  Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
+-->
+<!-- BOTÃO FLUTUANTE DE WHATSAPP - EXCLUSIVO HOME -->
+<a href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Unikitchen%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." 
+   target="_blank" 
+   rel="noopener" 
+   class="wpp-flutuante-home" 
+   aria-label="Fale Conosco no WhatsApp">
+  <div class="wpp-balao">
+    <strong>Dúvidas ou Orçamentos?</strong>
+    <span>Fale no WhatsApp</span>
+  </div>
+  <div class="wpp-icone-circle">
+    <i class="fab fa-whatsapp"></i>
+  </div>
+</a>
+
+<style>
+.wpp-flutuante-home {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none !important;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.wpp-flutuante-home:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+.wpp-balao {
+  background: #ffffff;
+  color: #1a1a1a;
+  padding: 8px 14px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  border: 1px solid #eaeaea;
+}
+.wpp-balao strong {
+  font-family: 'Urbane', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.wpp-balao span {
+  font-family: 'Urbane', sans-serif;
+  font-size: 11px;
+  color: #25D366;
+  font-weight: 600;
+}
+.wpp-icone-circle {
+  width: 54px;
+  height: 54px;
+  background-color: #25D366;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 18px rgba(37, 211, 102, 0.4);
+  font-size: 28px;
+}
+@media (max-width: 767px) {
+  .wpp-balao {
+    display: none; /* No celular mostra apenas o círculo flutuante para não poluir a tela */
+  }
+  .wpp-flutuante-home {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+</style>
