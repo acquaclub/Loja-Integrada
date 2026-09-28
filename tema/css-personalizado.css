@@ -128,7 +128,6 @@ html body .botao.principal:hover {
 html.js-revelar body .listagem .listagem-item {
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 html.js-revelar body .listagem .listagem-item.revelado {
     opacity: 1;
@@ -136,7 +135,7 @@ html.js-revelar body .listagem .listagem-item.revelado {
 }
 @keyframes pulsoCarrinho {
     0% { transform: scale(1); }
-    50% { transform: scale(1.25); color: #c49a45; }
+    50% { transform: scale(1.25); }
     100% { transform: scale(1); }
 }
 .animar-carrinho {
