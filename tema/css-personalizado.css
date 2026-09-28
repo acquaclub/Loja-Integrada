@@ -529,29 +529,33 @@ html body .wpp-produto-cta svg {
 }
 
 /* ==========================================================================
-   21. CORREÇÃO E EXIBIÇÃO PERFEITA DO LOGOTIPO (REPARADO E TESTADO)
+   21. LOGOTIPO (SVG) — LARGURA FIXA, SOBRA VERTICAL DO ARQUIVO RECORTADA
    ========================================================================== */
 html body #cabecalho .logo {
-    display: block !important;
+    display: inline-block !important;
     margin: 10px 0 !important;
     padding: 0 !important;
-    height: auto !important;
+    line-height: 0 !important;
+    text-indent: 0 !important;
     visibility: visible !important;
     opacity: 1 !important;
-}
-html body #cabecalho .logo a {
-    display: inline-block !important;
-    max-width: 100% !important;
-    height: auto !important;
 }
 html body #cabecalho .logo img {
-    max-height: 90px !important;
-    width: auto !important;
     display: block !important;
-    margin: 0 auto !important;
-    object-fit: contain !important;
+    width: 300px !important;
+    height: 60px !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center !important;
     visibility: visible !important;
     opacity: 1 !important;
+}
+@media (max-width: 767px) {
+    html body #cabecalho .logo img {
+        width: 190px !important;
+        height: 38px !important;
+    }
 }
 
 /* ==========================================================================
