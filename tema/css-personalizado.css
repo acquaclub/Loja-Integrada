@@ -1630,7 +1630,7 @@ html body #corpo .conteudo .btn-group > .dropdown-toggle {
 }
 
 /* --- Título da categoria/marca ("TRAMONTINA") --- */
-html body #corpo .conteudo h1.titulo,
+html body #corpo .conteudo h1.titulo:not(.nome-produto),
 html body #corpo .conteudo > h1 {
     font-family: 'Urbane', sans-serif !important;
     font-size: 22px !important;
