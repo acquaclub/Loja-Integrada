@@ -132,3 +132,18 @@ A verificação depende de liberar `www.unikitchen.com.br` no acesso de rede do 
 5. Itens 9 a 17: limpeza e desempenho.
 
 Cada correção fica versionada em `tema/`. Você copia e cola no painel.
+
+---
+
+## Atualização 28/09/2026: mudança de regras no checkout (comunicado da Loja Integrada)
+
+- O checkout deixa de executar códigos HTML/JS publicados em "Página de checkout", "Finalização do pedido" e "Todas as páginas".
+- GTM colado manualmente: para de funcionar no checkout. **Data divergente nos textos oficiais: 01/10/2026 no artigo e 05/10/2026 no aviso.** Planejar pela data mais cedo.
+- **Contradição no artigo oficial:** num trecho diz que "a Loja Integrada vai remover o código"; na FAQ, diz que o código continua carregando fora do checkout.
+- Aplicativo GTM + script manual ao mesmo tempo = container carregado 2x e conversões em dobro (confirmado pela documentação oficial). **Situação atual da loja.**
+- Com o aplicativo, no checkout só funcionam acionadores do tipo **Evento personalizado** (begin_checkout, add_shipping_info, add_payment_info, purchase…). Acionadores de clique, visibilidade, formulário, rolagem e variáveis DOM/JS param de funcionar nessa etapa.
+
+Ações:
+1. Confirmar que o aplicativo GTM usa `GTM-WMXKQ2QM` e remover o código manual "Google Tag Manager | BM01".
+2. Revisar tags/acionadores do container: remover GA4/Pixel duplicados com os aplicativos e trocar acionadores de página por eventos da plataforma.
+3. `script-rodape.html`: mudar para "Todas as páginas exceto checkout".
