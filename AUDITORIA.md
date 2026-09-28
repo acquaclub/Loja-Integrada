@@ -147,3 +147,13 @@ Ações:
 1. Confirmar que o aplicativo GTM usa `GTM-WMXKQ2QM` e remover o código manual "Google Tag Manager | BM01".
 2. Revisar tags/acionadores do container: remover GA4/Pixel duplicados com os aplicativos e trocar acionadores de página por eventos da plataforma.
 3. `script-rodape.html`: mudar para "Todas as páginas exceto checkout".
+
+### IDs de rastreamento confirmados (28/09/2026)
+
+| Ferramenta | Caminho | ID |
+|---|---|---|
+| Google Tag Manager | Aplicativo nativo (código manual BM01: remover) | `GTM-WMXKQ2QM` |
+| Google Analytics 4 | Aplicativo nativo | `G-WBGPWNLQDT` |
+| Pixel do Meta | Aplicativo nativo | `656247179541941` |
+
+Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179541941`, o que seria duplicação.
