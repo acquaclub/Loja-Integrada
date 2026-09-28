@@ -3,29 +3,11 @@
    ========================================================================== */
 
 /* ==========================================================================
-   1. DECLARAÇÃO DA FONTE URBANE
+   1. FONTE URBANE
+   A fonte é carregada pelos 3 códigos "Fonte Urbane" (Códigos HTML, tipo CSS, Cabeçalho),
+   embutida em WOFF2. Os arquivos .ttf do Gerenciador de Arquivos (cdn.awsli.com.br)
+   são bloqueados pelo navegador (CORS) e não devem ser usados em @font-face.
    ========================================================================== */
-@font-face {
-    font-family: 'Urbane';
-    src: url('https://cdn.awsli.com.br/1080/1080230/arquivos/urbane-light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Urbane';
-    src: url('https://cdn.awsli.com.br/1080/1080230/arquivos/urbane-demibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Urbane';
-    src: url('https://cdn.awsli.com.br/1080/1080230/arquivos/urbane-bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
 
 /* ==========================================================================
    2. APLICAÇÃO GLOBAL E LIMPEZA DE ESTILOS RESIDUAIS
