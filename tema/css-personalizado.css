@@ -729,9 +729,8 @@ html body #barraTopo .uk-topo-wpp:hover {
 }
 
 /* ==========================================================================
-   26. CABEÇALHO PRINCIPAL — LOGO | BUSCA | WHATSAPP NUMA LINHA (COMPUTADOR)
-   O link de WhatsApp é inserido pelo script-cabecalho-fixo.js.
-   Celular: layout do tema mantido, WhatsApp escondido (já existe o botão flutuante).
+   26. CABEÇALHO PRINCIPAL — LOGO À ESQUERDA E BUSCA À DIREITA NA MESMA LINHA (COMPUTADOR)
+   Celular: layout do tema mantido.
    ========================================================================== */
 @media (min-width: 980px) {
     html body #cabecalho > .conteiner > .row-fluid {
@@ -760,7 +759,8 @@ html body #barraTopo .uk-topo-wpp:hover {
     html body #cabecalho .logo {
         margin: 0 !important;
     }
-    /* Linha superior vazia (conta/login) que empurrava a busca para baixo */
+    /* Linha superior vazia (conta/login) que empurrava a busca para baixo.
+       Se a loja voltar a ter carrinho/login, remover esta regra. */
     html body #cabecalho .conteudo-topo .superior {
         display: none !important;
     }
@@ -771,27 +771,6 @@ html body #barraTopo .uk-topo-wpp:hover {
     }
     html body #cabecalho .conteudo-topo .busca {
         max-width: 720px !important;
-        margin: 0 auto !important;
-    }
-    html body #cabecalho .uk-topo-wpp {
-        display: inline-flex !important;
-        align-items: center !important;
-        gap: 8px !important;
-        white-space: nowrap !important;
-        font-family: 'Urbane', sans-serif !important;
-        font-size: 12px !important;
-        font-weight: 600 !important;
-        letter-spacing: 0.5px !important;
-        text-transform: uppercase !important;
-        text-decoration: none !important;
-        color: #1a1a1a !important;
-    }
-    html body #cabecalho .uk-topo-wpp:hover {
-        color: #1DA851 !important;
-    }
-}
-@media (max-width: 979px) {
-    html body #cabecalho .uk-topo-wpp {
-        display: none !important;
+        margin: 0 0 0 auto !important;
     }
 }
