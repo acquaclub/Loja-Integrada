@@ -1369,14 +1369,23 @@ html body #descricao h2.uk-desc-titulo {
         margin: 0 !important;
         padding: 16px 0 12px 0 !important;
         text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
     }
     html body #cabecalho .logo {
-        display: inline-block !important;
-        margin: 0 !important;
+        display: block !important;
+        float: none !important;
+        margin: 0 auto !important;
+        position: static !important;
     }
     html body #cabecalho .logo a {
         display: block !important;
+        float: none !important;
+        margin: 0 auto !important;
         line-height: 0 !important;
+    }
+    html body #cabecalho .logo img {
+        margin: 0 auto !important;
     }
     html body #cabecalho .logo img {
         width: 160px !important;
