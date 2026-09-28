@@ -907,9 +907,9 @@ html body .coluna .menu.lateral:not(.outras) .nivel-um > li.ativo > a {
     color: var(--uk-preto) !important;
     background: linear-gradient(var(--uk-dourado), var(--uk-dourado)) no-repeat left bottom / 32px 1px !important;
 }
-/* Bloco "outras" ganha um título */
+/* Bloco "outras" (marcas) ganha um título */
 html body .coluna .menu.lateral.outras::before {
-    content: "Navegue também";
+    content: "Marcas";
     display: block;
     padding: 0 0 12px 0;
     margin-bottom: 8px;
@@ -922,7 +922,11 @@ html body .coluna .menu.lateral.outras::before {
     background: linear-gradient(var(--uk-dourado), var(--uk-dourado)) no-repeat left bottom / 32px 1px;
 }
 
-/* --- Filtros (largura, modelo…) --- */
+/* --- Filtros: ficam só Função e Largura (vale para todas as categorias e marcas;
+       qualquer filtro novo criado no painel também fica escondido) --- */
+html body .coluna .filtro-coluna:not(.faceta-funcao):not(.faceta-largura) {
+    display: none !important;
+}
 html body .coluna .filtro-coluna .filtro,
 html body .coluna .filtro {
     margin: 0 !important;
@@ -942,6 +946,12 @@ html body .coluna .filtro .titulo {
     letter-spacing: 2px !important;
     text-transform: uppercase !important;
     color: var(--uk-preto) !important;
+}
+html body .coluna .filtro .atributo-lista {
+    max-height: none !important;
+    overflow: visible !important;
+    border: 0 !important;
+    box-shadow: none !important;
 }
 html body .coluna .filtro .atributo-lista ul,
 html body .coluna .filtro .atributo-lista li {
