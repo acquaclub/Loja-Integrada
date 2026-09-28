@@ -1879,6 +1879,42 @@ html body .uk-pg .uk-evento__logo {
     padding: 18px;
     background: #ffffff;
 }
+/* Lista de contatos por marca (ex.: Assistência Técnica) */
+html body .uk-pg .uk-marca {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 36px 32px;
+}
+html body .uk-pg .uk-marca h3 {
+    margin-bottom: 20px !important;
+}
+html body .uk-pg .uk-marca .uk-pg__card-rotulo {
+    margin: -12px 0 20px;
+}
+html body .uk-pg .uk-marca p + p {
+    margin-top: 10px !important;
+}
+html body .uk-pg .uk-marca__rot {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #999999;
+}
+html body .uk-pg .uk-marca p a {
+    font-weight: 400;
+    text-decoration: none !important;
+    word-break: break-word;
+}
+html body .uk-pg .uk-marca__dados {
+    flex: 1 1 auto;
+}
+html body .uk-pg .uk-marca .uk-pg__link {
+    align-self: flex-start;
+    margin-top: 24px;
+}
 html body .uk-pg .uk-evento__logo img {
     display: block;
     max-width: 100% !important;

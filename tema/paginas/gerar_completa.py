@@ -1,6 +1,6 @@
 """Gera a versão "completa" (com <style> embutido) de uma página de conteúdo,
 a partir da seção 11 do CSS personalizado. Inclui só os ícones usados na página.
-Uso: python3 tema/paginas/gerar_completa.py entrega
+Uso: python3 tema/paginas/gerar_completa.py entrega [--compacto]
 """
 import re, sys, os
 base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -40,6 +40,11 @@ def media(q):
 estilo = sec + '\n' + media('max-width: 979px') + '\n' + media('max-width: 767px')
 for v, c in [('var(--uk-dourado)', '#c49a45'), ('var(--uk-preto)', '#1a1a1a'), ('var(--uk-cinza)', '#666666')]:
     estilo = estilo.replace(v, c)
+if '--compacto' in sys.argv:
+    # versão compacta para páginas longas: sem recuos nem quebras desnecessárias
+    estilo = re.sub(r'\s*([{};,>])\s*', r'\1', estilo)
+    estilo = re.sub(r'\s+', ' ', estilo).replace(';}', '}').replace(': ', ':').replace(' !important', '!important')
+    html = re.sub(r'\n\s*', '\n', html)
 saida = ('<style type="text/css">\n/* Páginas de conteúdo Unikitchen (gerado da seção 11 do CSS personalizado) */\n'
          + estilo + '\n</style>\n' + html)
 open(os.path.join(base_dir, nome + '-completa.html'), 'w', encoding='utf-8').write(saida)
