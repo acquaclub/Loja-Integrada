@@ -167,3 +167,9 @@ Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179
 - ⚠️ Há duas propriedades GA4 com nome quase igual: 396078289 (recebendo dados) e 346482005 (a verificar).
 - ⚠️ O contêiner antigo `GTM-WVCN28L` não carrega no site e pode ser arquivado.
 - Pendente: acionadores `Acionador | WhatsApp` (Google Ads) e `Acionador | WhatsApp [SITE NOVO]` (Meta) são diferentes, então os leads de WhatsApp podem não estar chegando ao Google Ads. Também falta verificar o ID do `Remarketing do Google Ads`.
+
+### Outras mudanças (28/09/2026)
+
+- ✅ Aplicativo "Login Social via Google" desinstalado (carregava scripts do Google em todas as páginas e gerava erros no console).
+- ✅ Tarja preta de benefícios (imagem) removida pelo lojista. A seção 5 do CSS (regras da tarja) pode ser limpa.
+- Adiado: ícone quadrado da loja (manifest 192×192 usa o logo retangular).
