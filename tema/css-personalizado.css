@@ -1178,3 +1178,193 @@ html body #descricao h2.uk-desc-titulo {
         font-size: 20px !important;
     }
 }
+
+/* ==========================================================================
+   33. CELULAR (ATÉ 767PX) — CABEÇALHO, BANNER, BENEFÍCIOS, VITRINE E RODAPÉ
+   ========================================================================== */
+@media (max-width: 767px) {
+
+    /* --- Barra grafite fixa do tema (só com o ícone de casa) e o espaço que ela reservava --- */
+    html body .atalhos-mobile {
+        display: none !important;
+    }
+    html body #cabecalho {
+        padding-top: 0 !important;
+        background: #ffffff !important;
+    }
+    html body #cabecalho > .conteiner {
+        padding: 0 16px !important;
+    }
+
+    /* --- Logo centralizado e compacto --- */
+    html body #cabecalho > .conteiner > .row-fluid > .span3 {
+        float: none !important;
+        width: auto !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 16px 0 12px 0 !important;
+        text-align: center !important;
+    }
+    html body #cabecalho .logo {
+        display: inline-block !important;
+        margin: 0 !important;
+    }
+    html body #cabecalho .logo a {
+        display: block !important;
+        line-height: 0 !important;
+    }
+    html body #cabecalho .logo img {
+        width: 160px !important;
+        height: 32px !important;
+    }
+
+    /* --- Linha de busca: botão de menu + campo branco com borda fina --- */
+    html body #cabecalho .conteudo-topo,
+    html body #cabecalho .conteudo-topo .inferior {
+        float: none !important;
+        width: auto !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+    }
+    html body #cabecalho .busca-mobile {
+        display: flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+        float: none !important;
+        width: auto !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 0 14px 0 !important;
+        background: transparent !important;
+        border: 0 !important;
+        box-shadow: none !important;
+    }
+    html body #cabecalho .busca-mobile .atalho-menu {
+        flex: 0 0 44px !important;
+        float: none !important;
+        width: 44px !important;
+        height: 44px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        border-radius: 0 !important;
+        font-size: 18px !important;
+        line-height: 44px !important;
+        box-shadow: none !important;
+    }
+    html body #cabecalho .busca-mobile .busca {
+        flex: 1 1 auto !important;
+        position: relative !important;
+        float: none !important;
+        width: auto !important;
+        height: 44px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 1px solid #e0e0e0 !important;
+        border-radius: 0 !important;
+        background: #ffffff !important;
+        box-shadow: none !important;
+        overflow: hidden !important;
+    }
+    html body #cabecalho .busca-mobile .busca form {
+        height: 100% !important;
+        margin: 0 !important;
+    }
+    html body #cabecalho .busca-mobile .busca input {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 52px 0 14px !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        box-sizing: border-box !important;
+        font-family: 'Urbane', sans-serif !important;
+        font-size: 14px !important;
+        color: #444444 !important;
+    }
+    html body #cabecalho .busca-mobile .busca button {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        width: 44px !important;
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+        border-radius: 0 !important;
+        background: #1a1a1a !important;
+        color: #ffffff !important;
+        box-shadow: none !important;
+    }
+
+    /* --- Banner: sem setas (troca deslizando o dedo) e sem cortar a arte --- */
+    html body .secao-banners .flex-direction-nav {
+        display: none !important;
+    }
+    html body .secao-banners .flexslider .slides img,
+    html body #banner-home .flexslider .slides img {
+        height: auto !important;
+        object-fit: contain !important;
+    }
+    html body .secao-banners .flex-control-nav {
+        bottom: 10px !important;
+        right: 16px !important;
+    }
+
+    /* --- Benefícios em 2×2 --- */
+    html body .uk-beneficios {
+        padding: 20px 16px !important;
+        margin: 0 0 24px 0 !important;
+    }
+    html body .uk-beneficios__grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 18px !important;
+        column-gap: 12px !important;
+    }
+    html body .uk-beneficio {
+        align-items: flex-start !important;
+        gap: 10px !important;
+        padding: 0 !important;
+    }
+    html body .uk-beneficio svg {
+        width: 26px !important;
+        height: 26px !important;
+    }
+    html body .uk-beneficio__texto strong {
+        font-size: 11px !important;
+        letter-spacing: 0.5px !important;
+    }
+    html body .uk-beneficio__texto span {
+        font-size: 11px !important;
+    }
+
+    /* --- Vitrine: botão "Ver mais" que o tema mostra sobre a foto no celular --- */
+    html body .listagem-item .acoes-produto-responsiva {
+        display: none !important;
+    }
+
+    /* --- Rodapé: Institucional e Ajuda lado a lado, selos menores, espaço para o WhatsApp --- */
+    html body .uk-rodape__conteudo {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 28px 20px !important;
+    }
+    html body .uk-rodape__col--marca,
+    html body .uk-rodape__col:nth-child(4),
+    html body .uk-rodape__col:nth-child(5) {
+        grid-column: 1 / -1 !important;
+    }
+    html body .uk-rodape__selo {
+        max-width: 220px !important;
+    }
+    html body .uk-rodape__legal-conteudo {
+        padding-bottom: 96px !important;
+        font-size: 10px !important;
+    }
+}

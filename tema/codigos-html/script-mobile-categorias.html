@@ -2,87 +2,105 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-mobile-categorias.html
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
+  Só aparece no celular (classe visible-phone do tema). Fica logo abaixo do cabeçalho.
 -->
 <!-- ATALHOS RÁPIDOS MOBILE UNIKITCHEN -->
-<div class="mobile-quick-categories visible-phone" id="quickCategoriesMobile">
-  <div class="quick-cat-scroll">
-    <a href="/coifas-" class="quick-cat-item">
-      <span class="quick-icon">🌪️</span>
+<nav class="uk-atalhos visible-phone" id="quickCategoriesMobile" aria-label="Categorias">
+  <div class="uk-atalhos__lista">
+    <a href="/coifas-" class="uk-atalho">
+      <span class="uk-atalho__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3h4v5l6 6v2H4v-2l6-6z"/><path d="M4 19h16"/></svg></span>
       <span>Coifas</span>
     </a>
-    <a href="/cooktops-e-rangetops" class="quick-cat-item">
-      <span class="quick-icon">🔥</span>
+    <a href="/cooktops-e-rangetops" class="uk-atalho">
+      <span class="uk-atalho__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8.5" cy="9.5" r="2.5"/><circle cx="15.5" cy="9.5" r="2.5"/><circle cx="8.5" cy="15.5" r="1.8"/><circle cx="15.5" cy="15.5" r="1.8"/></svg></span>
       <span>Cooktops</span>
     </a>
-    <a href="/adegas" class="quick-cat-item">
-      <span class="quick-icon">🍷</span>
+    <a href="/adegas" class="uk-atalho">
+      <span class="uk-atalho__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2h4v4c0 1.5 2 2.5 2 5.5V21a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-9.5C8 8.5 10 7.5 10 6z"/><path d="M8 14h8"/></svg></span>
       <span>Adegas</span>
     </a>
-    <a href="/churrasqueiras" class="quick-cat-item">
-      <span class="quick-icon">🥩</span>
+    <a href="/churrasqueiras" class="uk-atalho">
+      <span class="uk-atalho__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h16a8 8 0 0 1-16 0z"/><path d="M8 17l-2 5M16 17l2 5M12 18v4"/><path d="M9 7c0-1.2 1-1.2 1-2.4M14 7c0-1.2 1-1.2 1-2.4"/></svg></span>
       <span>Churrasqueiras</span>
     </a>
-    <a href="/fornos-" class="quick-cat-item">
-      <span class="quick-icon">🍕</span>
+    <a href="/fornos-" class="uk-atalho">
+      <span class="uk-atalho__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><rect x="6" y="9" width="12" height="9" rx="1"/><path d="M7 6h.01M10 6h.01M17 6h-3"/></svg></span>
       <span>Fornos</span>
     </a>
-    <a href="/misturadores-e-torneiras" class="quick-cat-item">
-      <span class="quick-icon">🚰</span>
+    <a href="/misturadores-e-torneiras" class="uk-atalho">
+      <span class="uk-atalho__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21h6M8 21v-9a4 4 0 0 1 4-4h6v3"/><path d="M10 5h6M13 5v3"/><path d="M18 15v1.5"/></svg></span>
       <span>Metais</span>
     </a>
-    <a href="/refrigeradores-e-frezzers" class="quick-cat-item">
-      <span class="quick-icon">❄️</span>
+    <a href="/refrigeradores-e-frezzers" class="uk-atalho">
+      <span class="uk-atalho__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M6 10h12M9 5v2M9 13v3"/></svg></span>
       <span>Refrigeradores</span>
     </a>
   </div>
-</div>
+</nav>
 
 <style>
-.mobile-quick-categories {
+.uk-atalhos {
   background: #ffffff;
-  padding: 15px 0 10px 0;
   border-bottom: 1px solid #eeeeee;
+  padding: 14px 0 12px 0;
 }
-.quick-cat-scroll {
+.uk-atalhos__lista {
   display: flex;
   overflow-x: auto;
-  gap: 14px;
-  padding: 0 15px;
+  gap: 6px;
+  padding: 0 12px;
+  scrollbar-width: none;
   -webkit-overflow-scrolling: touch;
 }
-.quick-cat-scroll::-webkit-scrollbar {
+.uk-atalhos__lista::-webkit-scrollbar {
   display: none;
 }
-.quick-cat-item {
+.uk-atalho {
+  flex: 0 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 72px;
+  gap: 7px;
+  min-width: 74px;
   text-decoration: none !important;
-  color: #333333 !important;
+  font-family: 'Urbane', sans-serif;
   font-size: 11px;
   font-weight: 600;
+  color: #1a1a1a !important;
   text-align: center;
 }
-.quick-icon {
-  width: 50px;
-  height: 50px;
-  background: #f8f9fa;
-  border: 1px solid #e2e8f0;
+.uk-atalho__icone {
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  background: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 22px;
-  margin-bottom: 6px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+}
+.uk-atalho__icone svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: #c49a45;
+  stroke-width: 1.3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.uk-atalho:active .uk-atalho__icone {
+  border-color: #c49a45;
 }
 </style>
 
 <script>
 $(document).ready(function(){
-  if ($('#quickCategoriesMobile').length > 0 && $('.conteiner-principal').length > 0) {
-    $('.conteiner-principal').prepend($('#quickCategoriesMobile'));
+  var $atalhos = $('#quickCategoriesMobile');
+  if ($atalhos.length === 0) return;
+  if ($('#cabecalho').length > 0) {
+    $('#cabecalho').after($atalhos);
+  } else if ($('.conteiner-principal').length > 0) {
+    $('.conteiner-principal').prepend($atalhos);
   }
 });
 </script>
