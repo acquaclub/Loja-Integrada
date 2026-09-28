@@ -880,3 +880,28 @@ html body #barraTopo .uk-topo-wpp:hover {
         display: none !important;
     }
 }
+
+/* ==========================================================================
+   26B. AJUSTE DE ALTURA DO CABEÇALHO PRINCIPAL (COMPUTADOR)
+   O logo estava com 200×112 (altura automática pela proporção do arquivo),
+   esticando a linha para 154px. Aqui a caixa do link trava em 200×40.
+   ========================================================================== */
+@media (min-width: 980px) {
+    html body #cabecalho .logo a {
+        display: block !important;
+        width: 200px !important;
+        height: 40px !important;
+        line-height: 0 !important;
+        overflow: hidden !important;
+    }
+    html body #cabecalho .logo a img {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: none !important;
+        object-fit: cover !important;
+        object-position: center !important;
+    }
+    html body #cabecalho .menu.superior {
+        margin-top: 0 !important;
+    }
+}
