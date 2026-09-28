@@ -729,15 +729,73 @@ html body #barraTopo .uk-topo-wpp:hover {
 }
 
 /* ==========================================================================
-   26. CABEÇALHO PRINCIPAL — LOGO À ESQUERDA E BUSCA À DIREITA NA MESMA LINHA (COMPUTADOR)
-   Celular: layout do tema mantido.
+   26. CABEÇALHO PRINCIPAL (COMPUTADOR)
+   Faixa superior (inserida pelo script-cabecalho.js) | logo à esquerda + busca à direita | menu
+   Celular: layout do tema mantido, sem faixa superior.
    ========================================================================== */
 @media (min-width: 980px) {
+
+    /* --- Faixa superior: espaço reservado no topo para a página não "pular" ao carregar --- */
+    html body {
+        padding-top: 34px !important;
+    }
+    html body .uk-faixa-topo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 34px;
+        background: #1a1a1a;
+        z-index: 50;
+    }
+    html body .uk-faixa-topo__conteudo {
+        max-width: 2000px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Urbane', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #cfcfcf;
+    }
+    html body .uk-faixa-topo__grupo {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+    html body .uk-faixa-topo__sep {
+        width: 1px;
+        height: 12px;
+        background: #4a4a4a;
+    }
+    html body .uk-faixa-topo a {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        color: #ffffff !important;
+        text-decoration: none !important;
+        transition: color 0.2s ease;
+    }
+    html body .uk-faixa-topo a:hover {
+        color: #c49a45 !important;
+    }
+    html body .uk-faixa-topo svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* --- Linha principal: logo | busca, centralizados na vertical --- */
     html body #cabecalho > .conteiner > .row-fluid {
         display: flex !important;
         align-items: center !important;
         gap: 40px !important;
-        padding: 18px 0 !important;
+        padding: 20px 0 !important;
     }
     /* Remove os "clearfix" do tema, que viram espaços extras dentro do flex */
     html body #cabecalho > .conteiner > .row-fluid::before,
@@ -759,6 +817,10 @@ html body #barraTopo .uk-topo-wpp:hover {
     html body #cabecalho .logo {
         margin: 0 !important;
     }
+    html body #cabecalho .logo img {
+        width: 200px !important;
+        height: 40px !important;
+    }
     /* Linha superior vazia (conta/login) que empurrava a busca para baixo.
        Se a loja voltar a ter carrinho/login, remover esta regra. */
     html body #cabecalho .conteudo-topo .superior {
@@ -770,7 +832,51 @@ html body #barraTopo .uk-topo-wpp:hover {
         margin: 0 !important;
     }
     html body #cabecalho .conteudo-topo .busca {
-        max-width: 720px !important;
+        max-width: 560px !important;
         margin: 0 0 0 auto !important;
+    }
+
+    /* --- Menu: fonte da marca e sublinhado dourado no hover --- */
+    html body #cabecalho .menu.superior {
+        border-top: 1px solid #eeeeee !important;
+        border-bottom: 1px solid #eeeeee !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li > a,
+    html body #cabecalho .menu.superior .nivel-um > li > a strong,
+    html body #cabecalho .menu.superior .nivel-um > li > a span {
+        font-family: 'Urbane', sans-serif !important;
+        font-weight: 600 !important;
+        font-size: 12.5px !important;
+        letter-spacing: 1.5px !important;
+        text-transform: uppercase !important;
+        color: #1a1a1a !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li > a {
+        position: relative !important;
+        padding: 16px 16px !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li > a::after {
+        content: "";
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        bottom: 10px;
+        height: 1px;
+        background: #c49a45;
+        transform: scaleX(0);
+        transform-origin: left center;
+        transition: transform 0.25s ease;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li:hover > a::after {
+        transform: scaleX(1);
+    }
+    html body #cabecalho .menu.superior .nivel-um > li:hover > a,
+    html body #cabecalho .menu.superior .nivel-um > li:hover > a strong {
+        color: #1a1a1a !important;
+    }
+}
+@media (max-width: 979px) {
+    html body .uk-faixa-topo {
+        display: none !important;
     }
 }
