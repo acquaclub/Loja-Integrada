@@ -20,15 +20,21 @@
             var img = document.createElement('img');
             img.src = logo.currentSrc || logo.getAttribute('src');
             img.alt = 'Unikitchen';
+            // Tamanho inline: o logo nunca fica gigante, mesmo antes do CSS carregar
+            img.style.cssText = 'display:block !important;width:175px !important;height:35px !important;max-width:none !important;object-fit:cover !important;object-position:center !important;';
             link.textContent = '';
             link.appendChild(img);
+            var titulo = link.closest('.titulo');
+            if (titulo) titulo.style.cssText = 'margin:0 !important;line-height:0 !important;';
         }
 
         // WhatsApp no lugar de "Fale Conosco" e telefone
         var contatos = barra.querySelector('.canais-contato');
         if (contatos) {
+            contatos.style.setProperty('display', 'none', 'important');
             var wpp = document.createElement('a');
             wpp.className = 'uk-topo-wpp';
+            wpp.style.cssText = 'display:inline-flex !important;align-items:center !important;gap:8px !important;white-space:nowrap !important;text-decoration:none !important;';
             wpp.href = 'https://wa.me/' + NUMERO_WHATSAPP + '?text=' + encodeURIComponent('Olá! Vim pelo site da Unikitchen e gostaria de tirar uma dúvida.');
             wpp.target = '_blank';
             wpp.rel = 'noopener';
