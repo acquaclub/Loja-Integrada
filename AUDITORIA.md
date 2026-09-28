@@ -173,3 +173,11 @@ Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179
 - ✅ Aplicativo "Login Social via Google" desinstalado (carregava scripts do Google em todas as páginas e gerava erros no console).
 - ✅ Tarja preta de benefícios (imagem) removida pelo lojista. A seção 5 do CSS (regras da tarja) pode ser limpa.
 - Adiado: ícone quadrado da loja (manifest 192×192 usa o logo retangular).
+
+### Design e SEO (28/09/2026)
+
+- ✅ Cabeçalho: faixa superior com horário, logo 200×40, busca à direita, menu em Urbane.
+- ✅ Rodapé com razão social, CNPJ e endereço (Decreto 7.962/2013).
+- ✅ Página de produto: nome à esquerda, código e marca juntos, sem texto de contato duplicado, painel lateral flutuante escondido, setas das miniaturas corrigidas, breadcrumb limpo.
+- ✅ Um único `<h1>` por página de produto: `script-descricao-titulo.js` troca o h1 da descrição por h2 (confirmado no console: 1 h1). Correção definitiva ainda pendente na origem: modelo de descrição e produtos existentes.
+- Pendentes de design: banners (corte no celular), atalhos do celular (emojis), cards/títulos da vitrine ("Produtos relacionados").
