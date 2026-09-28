@@ -212,3 +212,9 @@ Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179
 17. `.listagem-item img` atinge também selos/bandeiras dos cards.
 18. Fontes: converter TTF → WOFF2 e avaliar peso 400.
 19. Blocos movidos por jQuery após o carregamento (barra de benefícios, marcas, atalhos): causam salto de layout (CLS).
+
+### Fonte Urbane (28/09/2026)
+
+- Causa: os .ttf em `cdn.awsli.com.br` eram bloqueados por CORS, e a Urbane **nunca carregava** no site (tudo caía na fonte de reserva).
+- ✅ Corrigido: Urbane embutida em WOFF2 (subconjunto para português, com kerning, ~9 KB por peso), em 3 códigos tipo CSS no Cabeçalho. Console: `document.fonts.check('600 14px Urbane') === true`.
+- Pendente: confirmar se a licença da Urbane (Device Fonts / Rian Hughes) permite uso web; revisar tamanhos visuais agora que a fonte real aparece.
