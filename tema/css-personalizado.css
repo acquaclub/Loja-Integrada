@@ -392,9 +392,10 @@ html.js-revelar body .listagem .listagem-item.revelado {
 }
 
 /* ==========================================================================
-   15. CUSTOMIZAÇÃO DOS BANNERS
+   15. CUSTOMIZAÇÃO DOS BANNERS (só o carrossel de banners da home;
+       as miniaturas da página de produto têm estilo próprio na seção 29)
    ========================================================================= */
-html body .flex-control-nav {
+html body .secao-banners .flex-control-nav {
     bottom: 25px !important;
     right: 40px !important;
     left: auto !important;
@@ -403,11 +404,11 @@ html body .flex-control-nav {
     padding: 0 !important;
     z-index: 10 !important;
 }
-html body .flex-control-nav li {
+html body .secao-banners .flex-control-nav li {
     display: inline-block !important;
     margin: 0 6px !important;
 }
-html body .flex-control-nav li a {
+html body .secao-banners .flex-control-nav li a {
     width: 24px !important;
     height: 3px !important;
     background: rgba(255, 255, 255, 0.4) !important;
@@ -419,12 +420,12 @@ html body .flex-control-nav li a {
     border: none !important;
     transition: all 0.3s ease !important;
 }
-html body .flex-control-nav li a.flex-active,
-html body .flex-control-nav li a:hover {
+html body .secao-banners .flex-control-nav li a.flex-active,
+html body .secao-banners .flex-control-nav li a:hover {
     background: #ffffff !important;
     width: 36px !important;
 }
-html body .flex-direction-nav a {
+html body .secao-banners .flex-direction-nav a {
     width: 50px !important;
     height: 50px !important;
     background-color: rgba(26, 26, 26, 0.1) !important;
@@ -434,7 +435,7 @@ html body .flex-direction-nav a {
     border-radius: 0 !important;
     transition: all 0.2s ease !important;
 }
-html body .flex-direction-nav a:hover {
+html body .secao-banners .flex-direction-nav a:hover {
     background-color: #1a1a1a !important;
     color: #ffffff !important;
 }
@@ -962,4 +963,79 @@ html body #descricao article.description h2 {
         font-size: 12px !important;
         letter-spacing: 1.5px !important;
     }
+}
+
+/* ==========================================================================
+   29. PÁGINA DE PRODUTO — SETAS DO CARROSSEL DE MINIATURAS (#carouselImagem)
+   Setas desenhadas em CSS (sem depender de fonte de ícones).
+   ========================================================================== */
+html body #carouselImagem {
+    position: relative !important;
+    padding: 0 36px !important;
+    margin: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+html body #carouselImagem .flex-direction-nav {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+html body #carouselImagem .flex-direction-nav a {
+    position: absolute !important;
+    top: 50% !important;
+    left: auto !important;
+    right: auto !important;
+    width: 28px !important;
+    height: 28px !important;
+    margin: -14px 0 0 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    overflow: hidden !important;
+    font-size: 0 !important;
+    color: transparent !important;
+    text-indent: 0 !important;
+    text-shadow: none !important;
+    transition: border-color 0.2s ease !important;
+    z-index: 5 !important;
+}
+html body #carouselImagem .flex-direction-nav a.flex-prev {
+    left: 0 !important;
+}
+html body #carouselImagem .flex-direction-nav a.flex-next {
+    right: 0 !important;
+}
+html body #carouselImagem .flex-direction-nav a::before {
+    content: "" !important;
+    display: block !important;
+    width: 7px !important;
+    height: 7px !important;
+    border-right: 1.5px solid #1a1a1a !important;
+    border-bottom: 1.5px solid #1a1a1a !important;
+    font-size: 0 !important;
+    background: none !important;
+}
+html body #carouselImagem .flex-direction-nav a.flex-prev::before {
+    transform: translateX(2px) rotate(135deg) !important;
+}
+html body #carouselImagem .flex-direction-nav a.flex-next::before {
+    transform: translateX(-2px) rotate(-45deg) !important;
+}
+html body #carouselImagem .flex-direction-nav a::after {
+    display: none !important;
+}
+html body #carouselImagem .flex-direction-nav a:hover {
+    border-color: #c49a45 !important;
+}
+html body #carouselImagem .flex-direction-nav a.flex-disabled {
+    opacity: 0.3 !important;
+    cursor: default !important;
 }
