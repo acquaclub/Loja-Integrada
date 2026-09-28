@@ -218,3 +218,9 @@ Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179
 - Causa: os .ttf em `cdn.awsli.com.br` eram bloqueados por CORS, e a Urbane **nunca carregava** no site (tudo caía na fonte de reserva).
 - ✅ Corrigido: Urbane embutida em WOFF2 (subconjunto para português, com kerning, ~9 KB por peso), em 3 códigos tipo CSS no Cabeçalho. Console: `document.fonts.check('600 14px Urbane') === true`.
 - Pendente: confirmar se a licença da Urbane (Device Fonts / Rian Hughes) permite uso web; revisar tamanhos visuais agora que a fonte real aparece.
+
+### Observações de operação (28/09/2026)
+
+- Códigos HTML/JS entram na hora; o CSS Avançado leva ~15–20 min; a **home pode ficar em cache por mais tempo** que as outras páginas (testar com `?teste=1` na URL).
+- Rodapé: a versão em sanfona no celular foi revertida a pedido; mantida a versão em colunas. A emenda marcas → rodapé na home fica no CSS principal.
+- CSS reorganizado em 12 seções (índice no topo). Equivalência verificada por comparação de estilos calculados (1400/900/390px) antes de publicar.
