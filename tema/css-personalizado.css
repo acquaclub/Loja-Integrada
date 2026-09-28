@@ -727,3 +727,71 @@ html body #barraTopo .uk-topo-wpp {
 html body #barraTopo .uk-topo-wpp:hover {
     color: #1DA851 !important;
 }
+
+/* ==========================================================================
+   26. CABEÇALHO PRINCIPAL — LOGO | BUSCA | WHATSAPP NUMA LINHA (COMPUTADOR)
+   O link de WhatsApp é inserido pelo script-cabecalho-fixo.js.
+   Celular: layout do tema mantido, WhatsApp escondido (já existe o botão flutuante).
+   ========================================================================== */
+@media (min-width: 980px) {
+    html body #cabecalho > .conteiner > .row-fluid {
+        display: flex !important;
+        align-items: center !important;
+        gap: 40px !important;
+        padding: 18px 0 !important;
+    }
+    /* Remove os "clearfix" do tema, que viram espaços extras dentro do flex */
+    html body #cabecalho > .conteiner > .row-fluid::before,
+    html body #cabecalho > .conteiner > .row-fluid::after,
+    html body #barraTopo > .conteiner > .row-fluid::before,
+    html body #barraTopo > .conteiner > .row-fluid::after {
+        display: none !important;
+    }
+    html body #cabecalho > .conteiner > .row-fluid > .span3,
+    html body #cabecalho > .conteiner > .row-fluid > .conteudo-topo {
+        float: none !important;
+        width: auto !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+    }
+    html body #cabecalho > .conteiner > .row-fluid > .conteudo-topo {
+        flex: 1 1 auto !important;
+    }
+    html body #cabecalho .logo {
+        margin: 0 !important;
+    }
+    /* Linha superior vazia (conta/login) que empurrava a busca para baixo */
+    html body #cabecalho .conteudo-topo .superior {
+        display: none !important;
+    }
+    html body #cabecalho .conteudo-topo .inferior > .span12 {
+        float: none !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    html body #cabecalho .conteudo-topo .busca {
+        max-width: 720px !important;
+        margin: 0 auto !important;
+    }
+    html body #cabecalho .uk-topo-wpp {
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 8px !important;
+        white-space: nowrap !important;
+        font-family: 'Urbane', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.5px !important;
+        text-transform: uppercase !important;
+        text-decoration: none !important;
+        color: #1a1a1a !important;
+    }
+    html body #cabecalho .uk-topo-wpp:hover {
+        color: #1DA851 !important;
+    }
+}
+@media (max-width: 979px) {
+    html body #cabecalho .uk-topo-wpp {
+        display: none !important;
+    }
+}
