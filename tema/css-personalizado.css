@@ -922,6 +922,53 @@ html body .coluna .menu.lateral.outras::before {
     background: linear-gradient(var(--uk-dourado), var(--uk-dourado)) no-repeat left bottom / 32px 1px;
 }
 
+/* --- Bloco "TIPO": subcategorias da categoria aberta (montado pelo script-coluna-tipo.js).
+       A árvore inteira de categorias do tema fica escondida; sem o script, sobra só o título. --- */
+html body .coluna .menu.lateral:not(.outras) .nivel-dois {
+    display: none !important;
+}
+html body .coluna .uk-tipo__titulo {
+    margin: 0 0 8px 0 !important;
+    padding: 0 0 12px 0 !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    line-height: 1.4 !important;
+    color: var(--uk-preto) !important;
+    background: linear-gradient(var(--uk-dourado), var(--uk-dourado)) no-repeat left bottom / 32px 1px !important;
+}
+html body .coluna .uk-tipo__lista {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+html body .coluna .uk-tipo__lista li {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    list-style: none !important;
+}
+html body .coluna .uk-tipo__lista a {
+    display: block !important;
+    padding: 8px 0 !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    color: var(--uk-cinza) !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease !important;
+}
+html body .coluna .uk-tipo__lista a:hover {
+    color: var(--uk-dourado) !important;
+}
+html body .coluna .uk-tipo__lista a.ativo {
+    color: var(--uk-preto) !important;
+}
+
 /* --- Filtros: ficam só Função e Largura (vale para todas as categorias e marcas;
        qualquer filtro novo criado no painel também fica escondido) --- */
 html body .coluna .filtro-coluna:not(.faceta-funcao):not(.faceta-largura) {
