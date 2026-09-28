@@ -104,8 +104,7 @@ html body .listagem-item .preco-venda {
    4B. CONSISTÊNCIA VISUAL DAS FOTOS DE PRODUTO
    ========================================================================== */
 html body .listagem-item img {
-    background-color: #f7f7f5;
-    mix-blend-mode: multiply;
+    background-color: #ffffff;
     object-fit: contain;
     aspect-ratio: 1 / 1;
     width: 100%;
@@ -595,8 +594,8 @@ html body .listagem-linha > li {
 
 html body .listagem-item .imagem-produto,
 html body .listagem-item img {
-    background-color: #fafafa !important;
-    border-radius: 2px !important;
+    background-color: #ffffff !important;
+    border-radius: 0 !important;
 }
 
 html body .listagem-item:hover {
