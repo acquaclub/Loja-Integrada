@@ -2,100 +2,134 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: Secao Marcas de Prestigio
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
+  Links das páginas de marca seguem o padrão /marca/<nome>.html (confirmado: tecno).
 -->
 <!-- SEÇÃO DE MARCAS DE PRESTÍGIO - UNIKITCHEN -->
-<div class="unikitchen-marcas-secao">
-  <div class="conteiner">
-    <div class="titulo-secao-marcas">
-      <h2>MARCAS DE PRESTÍGIO</h2>
-      <p>Trabalhamos com os maiores fabricantes de eletrodomésticos e metais do mundo</p>
-    </div>
-    
-    <div class="marcas-grid">
-      <div class="marca-item"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/logo-elettromec.png" alt="Elettromec" loading="lazy"></div>
-      <div class="marca-item"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/logo-doka.png" alt="Doka" loading="lazy"></div>
-      <div class="marca-item"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/logo-crissair.png" alt="Crissair" loading="lazy"></div>
-      <div class="marca-item"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/logo-lofra.png" alt="Lofra" loading="lazy"></div>
-      <div class="marca-item"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/logo-delonghi.png" alt="DeLonghi" loading="lazy"></div>
-      <div class="marca-item"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/logo-tecno.png" alt="Tecno" loading="lazy"></div>
-    </div>
+<section class="uk-marcas">
+  <div class="uk-marcas__cabecalho">
+    <h2 class="uk-marcas__titulo">Marcas de Prestígio</h2>
+    <p class="uk-marcas__subtitulo">Trabalhamos com os maiores fabricantes de eletrodomésticos, louças e metais do mundo</p>
   </div>
-</div>
+
+  <div class="uk-marcas__grade">
+    <a class="uk-marca" href="/marca/tramontina.html" title="Tramontina"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/tramontina.svg" alt="Tramontina" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/tecno.html" title="Tecno"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/tecno.svg" alt="Tecno" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/jacuzzi.html" title="Jacuzzi"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/jacuzzi.svg" alt="Jacuzzi" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/gorenje.html" title="Gorenje"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/gorenje.svg" alt="Gorenje" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/franke.html" title="Franke"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/franke.svg" alt="Franke" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/evol.html" title="Evol"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/evol.svg" alt="Evol" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/elettromec.html" title="Elettromec"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/elettromec.svg" alt="Elettromec" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/duravit.html" title="Duravit"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/duravit-logo.svg" alt="Duravit" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/doka.html" title="Doka"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/doka.svg" alt="Doka" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/docol.html" title="Docol"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/docol.svg" alt="Docol" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/deca.html" title="Deca"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/deca.svg" alt="Deca" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/codda.html" title="Codda"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/codda.svg" alt="Codda" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/bertazzoni.html" title="Bertazzoni"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/bertazzoni.svg" alt="Bertazzoni" loading="lazy"></a>
+    <a class="uk-marca" href="/marca/acqua.html" title="Acqua"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/acqua.svg" alt="Acqua" loading="lazy"></a>
+  </div>
+</section>
 
 <style>
-.unikitchen-marcas-secao {
+.uk-marcas {
   background: #ffffff;
-  padding: 45px 0;
+  padding: 64px 30px;
+  margin: 40px 0 0 0;
   border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  margin: 40px 0;
-  text-align: center;
+  box-sizing: border-box;
 }
-.titulo-secao-marcas h2 {
+.uk-marcas__cabecalho {
+  text-align: center;
+  margin-bottom: 36px;
+}
+html body .uk-marcas__titulo {
   font-family: 'Urbane', sans-serif !important;
   font-weight: 700 !important;
   font-size: 16px !important;
-  color: #1a1a1a !important;
   letter-spacing: 2.5px !important;
   text-transform: uppercase !important;
-  margin-bottom: 6px !important;
+  color: #1a1a1a !important;
+  margin: 0 0 8px 0 !important;
 }
-.titulo-secao-marcas p {
+.uk-marcas__subtitulo {
   font-family: 'Urbane', sans-serif;
+  font-weight: 300;
   font-size: 13px;
   color: #777777;
-  font-weight: 300;
-  margin-bottom: 30px;
+  margin: 0;
 }
-.marcas-grid {
+.uk-marcas__grade {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-top: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+.uk-marca {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-.marca-item {
-  display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
-  padding: 5px 15px;
-  transition: all 0.3s ease;
+  height: 110px;
+  padding: 0 20px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  box-sizing: border-box;
+  background: #ffffff;
+  transition: background-color 0.3s ease;
 }
-.marca-item img {
-  max-height: 42px;
-  max-width: 140px;
+.uk-marca img {
+  display: block;
+  max-width: 75%;
+  max-height: 38px;
+  width: auto;
+  height: auto;
   object-fit: contain;
   filter: grayscale(100%);
-  opacity: 0.5;
-  transition: all 0.3s ease;
+  opacity: 0.55;
+  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
 }
-.marca-item:hover img {
+.uk-marca:hover {
+  background: #fafaf8;
+}
+.uk-marca:hover img {
   filter: grayscale(0%);
   opacity: 1;
-  transform: scale(1.06);
+  transform: scale(1.05);
 }
-@media (max-width: 767px) {
-  .marcas-grid {
-    gap: 20px;
+@media (max-width: 979px) {
+  .uk-marcas {
+    padding: 44px 15px;
   }
-  .marca-item img {
-    max-height: 32px;
-    max-width: 110px;
+  .uk-marcas__grade {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .uk-marca {
+    height: 90px;
+  }
+}
+@media (max-width: 520px) {
+  .uk-marcas__grade {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .uk-marca {
+    height: 80px;
+  }
+  .uk-marca img {
+    max-height: 30px;
   }
 }
 </style>
 
 <script>
 $(document).ready(function(){
-  if ($('.unikitchen-marcas-secao').length > 0) {
-    if ($('.custom-footer-restored').length > 0) {
-      $('.custom-footer-restored').before($('.unikitchen-marcas-secao'));
-    } else if ($('#rodape').length > 0) {
-      $('#rodape').before($('.unikitchen-marcas-secao'));
-    } else {
-      $('.conteiner-principal').append($('.unikitchen-marcas-secao'));
-    }
+  var $secao = $('.uk-marcas');
+  if ($secao.length === 0) return;
+  if ($('.custom-footer-restored').length > 0) {
+    $('.custom-footer-restored').before($secao);
+  } else if ($('#rodape').length > 0) {
+    $('#rodape').before($secao);
+  } else {
+    $('.conteiner-principal').append($secao);
   }
 });
 </script>
