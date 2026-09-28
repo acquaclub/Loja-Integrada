@@ -1,7 +1,7 @@
 /*
   Painel Loja Integrada > Códigos HTML
   Descrição: script-interacoes.js
-  Local publicação: Rodapé | Página: Todas as páginas | Tipo: JavaScript
+  Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: JavaScript
 */
 (function () {
 
@@ -21,7 +21,7 @@
         var prepararProdutos = function () {
             document.querySelectorAll('.listagem-item:not(.revelado):not([data-revelar])').forEach(function (item) {
                 item.setAttribute('data-revelar', '');
-                if (item.getBoundingClientRect().top < window.innerHeight) {
+                if (window.innerHeight > item.getBoundingClientRect().top) {
                     item.classList.add('revelado');
                 } else {
                     observador.observe(item);
