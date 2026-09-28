@@ -1811,6 +1811,84 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
 }
 
 
+/* História (ex.: Nossa História): capítulos em coluna de leitura, galeria de fotos e cards de evento */
+html body .uk-pg .uk-hist {
+    max-width: 780px;
+    margin: 0 auto 64px;
+}
+html body .uk-pg .uk-hist__marco {
+    display: block;
+    margin: 0 0 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #c49a45;
+}
+html body .uk-pg .uk-hist p {
+    margin: 0 0 18px !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 1.85 !important;
+    color: #555555 !important;
+    text-align: left !important;
+}
+html body .uk-pg .uk-hist strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    margin: 0 0 80px;
+}
+html body .uk-pg .uk-galeria__item {
+    height: 280px;
+    overflow: hidden;
+    background: #f7f7f5;
+}
+html body .uk-pg .uk-galeria__item img {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.6s ease;
+}
+html body .uk-pg .uk-galeria__item:hover img {
+    transform: scale(1.04);
+}
+html body .uk-pg .uk-eventos {
+    display: grid;
+    gap: 2px;
+    margin: 0 0 24px;
+}
+html body .uk-pg .uk-evento {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+html body .uk-pg .uk-evento__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 180px;
+    height: 120px;
+    padding: 18px;
+    background: #ffffff;
+}
+html body .uk-pg .uk-evento__logo img {
+    display: block;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
+}
+
+
 /* ==========================================================================
    12. TABLET (ATÉ 979PX)
    ========================================================================== */
@@ -1823,6 +1901,12 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
     }
     html body .uk-pg .uk-pg__grade--3 {
         grid-template-columns: repeat(2, 1fr);
+    }
+    html body .uk-pg .uk-galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    html body .uk-pg .uk-galeria__item {
+        height: 220px;
     }
 }
 
@@ -2100,5 +2184,27 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
     }
     html body .uk-pg .uk-pg__faixa-item {
         border-left: 0;
+    }
+    html body .uk-pg .uk-hist {
+        margin-bottom: 44px;
+    }
+    html body .uk-pg .uk-hist p {
+        font-size: 15px !important;
+    }
+    html body .uk-pg .uk-galeria {
+        gap: 4px;
+        margin-bottom: 52px;
+    }
+    html body .uk-pg .uk-galeria__item {
+        height: 150px;
+    }
+    html body .uk-pg .uk-evento {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 24px;
+    }
+    html body .uk-pg .uk-evento__logo {
+        flex: 0 0 auto;
+        height: 110px;
     }
 }
