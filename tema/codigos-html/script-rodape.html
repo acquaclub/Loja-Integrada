@@ -10,7 +10,7 @@
 
       <div class="uk-rodape__col uk-rodape__col--marca">
         <p class="uk-rodape__titulo">Unikitchen</p>
-        <p class="uk-rodape__texto uk-rodape__tagline">Eletrodomésticos, louças e metais premium para cozinhas e áreas gourmet.</p>
+        <p class="uk-rodape__texto">Eletrodomésticos, louças e metais premium para cozinhas e áreas gourmet.</p>
         <p class="uk-rodape__texto">
           Av. Antônio Carlos Comitre, 1253<br>
           Parque Campolim, Sorocaba - SP<br>
@@ -19,8 +19,8 @@
         </p>
       </div>
 
-      <details class="uk-rodape__col uk-rodape__sanfona" open>
-        <summary class="uk-rodape__titulo">Institucional</summary>
+      <div class="uk-rodape__col">
+        <p class="uk-rodape__titulo">Institucional</p>
         <ul class="uk-rodape__lista">
           <li><a href="/pagina/nossa-historia.html">Nossa História</a></li>
           <li><a href="/pagina/marcas.html">Marcas</a></li>
@@ -29,10 +29,10 @@
           <li><a href="/pagina/confiabilidade.html">Confiabilidade</a></li>
           <li><a href="/pagina/central-de-atendimento.html">Central de Atendimento</a></li>
         </ul>
-      </details>
+      </div>
 
-      <details class="uk-rodape__col uk-rodape__sanfona" open>
-        <summary class="uk-rodape__titulo">Ajuda</summary>
+      <div class="uk-rodape__col">
+        <p class="uk-rodape__titulo">Ajuda</p>
         <ul class="uk-rodape__lista">
           <li><a href="/pagina/como-comprar.html">Como Comprar</a></li>
           <li><a href="/pagina/entrega.html">Entrega</a></li>
@@ -41,9 +41,9 @@
           <li><a href="/pagina/assistencia-tecnica.html">Assistência Técnica</a></li>
           <li><a href="/pagina/politica-de-privacidade.html">Política de Privacidade</a></li>
         </ul>
-      </details>
+      </div>
 
-      <div class="uk-rodape__col uk-rodape__col--atendimento">
+      <div class="uk-rodape__col">
         <p class="uk-rodape__titulo">Atendimento</p>
         <p class="uk-rodape__texto">
           Seg a qui: 9h às 18h<br>
@@ -62,15 +62,11 @@
         </ul>
       </div>
 
-      <div class="uk-rodape__col uk-rodape__col--selos">
-        <div class="uk-rodape__selo-bloco">
-          <p class="uk-rodape__titulo">Pagamento</p>
-          <img src="https://cdn.awsli.com.br/1080/1080230/arquivos/form--pagamento.svg" class="uk-rodape__selo" alt="Formas de pagamento" loading="lazy">
-        </div>
-        <div class="uk-rodape__selo-bloco">
-          <p class="uk-rodape__titulo">Segurança</p>
-          <img src="https://cdn.awsli.com.br/1080/1080230/arquivos/site-seguro.svg" class="uk-rodape__selo" alt="Site seguro" loading="lazy">
-        </div>
+      <div class="uk-rodape__col">
+        <p class="uk-rodape__titulo">Pagamento</p>
+        <img src="https://cdn.awsli.com.br/1080/1080230/arquivos/form--pagamento.svg" class="uk-rodape__selo" alt="Formas de pagamento" loading="lazy">
+        <p class="uk-rodape__titulo uk-rodape__titulo--espaco">Segurança</p>
+        <img src="https://cdn.awsli.com.br/1080/1080230/arquivos/site-seguro.svg" class="uk-rodape__selo" alt="Site seguro" loading="lazy">
       </div>
 
     </div>
@@ -174,30 +170,6 @@
   color: #bdbdbd;
   text-align: center;
 }
-/* Na home, o rodapé emenda na faixa das marcas: mesmo tom, sem espaço branco entre eles */
-.uk-marcas + .custom-footer-restored .uk-rodape {
-  margin-top: 0;
-  border-top: 0;
-}
-.uk-marcas + .custom-footer-restored .uk-rodape__conteudo {
-  border-top: 1px solid #e6e3dc;
-}
-.uk-rodape__sanfona > summary {
-  list-style: none;
-  cursor: default;
-}
-.uk-rodape__sanfona > summary::-webkit-details-marker {
-  display: none;
-}
-.uk-rodape__selo-bloco + .uk-rodape__selo-bloco {
-  margin-top: 28px;
-}
-@media (min-width: 768px) {
-  /* No computador as listas ficam sempre abertas */
-  .uk-rodape__sanfona > summary {
-    pointer-events: none;
-  }
-}
 @media (max-width: 979px) {
   .uk-rodape__conteudo {
     grid-template-columns: 1fr 1fr;
@@ -208,73 +180,13 @@
     grid-column: 1 / -1;
   }
 }
-@media (max-width: 767px) {
-  /* Celular: uma coluna, Institucional e Ajuda em sanfona, selos lado a lado */
-  .uk-rodape {
-    margin-top: 40px;
-  }
+@media (max-width: 520px) {
   .uk-rodape__conteudo {
     grid-template-columns: 1fr;
-    gap: 0;
-    padding: 28px 20px 8px;
-  }
-  .uk-rodape__col {
-    border-bottom: 1px solid #e6e6e6;
-    padding: 18px 0;
-  }
-  .uk-rodape__col--marca {
-    padding-top: 0;
-  }
-  .uk-rodape__col--selos {
-    border-bottom: 0;
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-  }
-  .uk-rodape__selo-bloco {
-    flex: 1 1 0;
-    min-width: 0;
-  }
-  .uk-rodape__selo-bloco + .uk-rodape__selo-bloco {
-    margin-top: 0;
-  }
-  .uk-rodape__tagline {
-    display: none;
-  }
-  .uk-rodape__titulo {
-    margin-bottom: 12px;
-  }
-  .uk-rodape__texto {
-    margin-bottom: 8px;
-  }
-  .uk-rodape__sanfona > summary {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-  }
-  .uk-rodape__sanfona > summary::after {
-    content: "";
-    width: 7px;
-    height: 7px;
-    border-right: 1.5px solid #1a1a1a;
-    border-bottom: 1.5px solid #1a1a1a;
-    transform: rotate(45deg);
-    transition: transform 0.2s ease;
-    margin-right: 4px;
-  }
-  .uk-rodape__sanfona[open] > summary::after {
-    transform: rotate(-135deg);
-  }
-  .uk-rodape__sanfona[open] > summary {
-    margin-bottom: 12px;
   }
   .uk-rodape__legal-conteudo {
     flex-direction: column;
-    gap: 4px;
-    padding: 16px 20px 84px;
-    font-size: 10px;
+    padding: 16px 20px;
   }
 }
 </style>
@@ -283,9 +195,5 @@
 (function () {
   var ano = document.querySelector('.uk-rodape__ano');
   if (ano) ano.textContent = new Date().getFullYear();
-  // No celular, Institucional e Ajuda começam fechados (toque no título para abrir)
-  if (window.matchMedia && window.matchMedia('(max-width: 767px)').matches) {
-    document.querySelectorAll('.uk-rodape__sanfona').forEach(function (d) { d.removeAttribute('open'); });
-  }
 })();
 </script>

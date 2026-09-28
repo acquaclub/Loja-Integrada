@@ -596,7 +596,7 @@ html body #barraTopo .uk-topo-wpp:hover {
 /* ==========================================================================
    7. HOME — BANNERS
    Barra de benefícios, marcas, atalhos do celular, WhatsApp flutuante e rodapé
-   têm o próprio estilo (inclusive no celular) nos respectivos Códigos HTML.
+   têm o próprio estilo nos respectivos Códigos HTML (ajustes de celular do rodapé: seção 12).
    ========================================================================== */
 html body .secao-banners {
     margin-bottom: 0;
@@ -624,6 +624,14 @@ html body .secao-banners .flexslider .slides img,
 html body #banner-home .flexslider .slides img {
     height: 520px !important;
     object-fit: cover !important;
+}
+/* Na home, o rodapé emenda na faixa das marcas: mesmo tom, sem espaço branco nem linha entre eles */
+html body .uk-marcas + .custom-footer-restored .uk-rodape {
+    margin-top: 0 !important;
+    border-top: 0 !important;
+}
+html body .uk-marcas + .custom-footer-restored .uk-rodape__conteudo {
+    border-top: 1px solid #e6e3dc !important;
 }
 /* Banner só na home */
 html body.pagina-produto .secao-banners,
@@ -1545,5 +1553,23 @@ html body #descricao h2.uk-desc-titulo {
     html body #descricao article.description h2 {
         font-size: 12px !important;
         letter-spacing: 1.5px !important;
+    }
+
+    /* --- Rodapé: Institucional e Ajuda lado a lado, selos menores, espaço para o WhatsApp --- */
+    html body .uk-rodape__conteudo {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 28px 20px !important;
+    }
+    html body .uk-rodape__col--marca,
+    html body .uk-rodape__col:nth-child(4),
+    html body .uk-rodape__col:nth-child(5) {
+        grid-column: 1 / -1 !important;
+    }
+    html body .uk-rodape__selo {
+        max-width: 220px !important;
+    }
+    html body .uk-rodape__legal-conteudo {
+        padding-bottom: 96px !important;
+        font-size: 10px !important;
     }
 }
