@@ -1,0 +1,308 @@
+<style type="text/css">
+/* Páginas de conteúdo Unikitchen — documento (mesmo estilo da seção 11 do CSS personalizado) */
+html body .uk-pg,
+html body .uk-pg * {
+    box-sizing: border-box;
+}
+html body .uk-pg {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 72px 20px 80px;
+    font-family: 'Urbane', sans-serif !important;
+    color: #555555;
+}
+
+/* Abertura */
+html body .uk-pg .uk-pg__abertura {
+    max-width: 760px;
+    margin: 0 auto 64px;
+    text-align: center;
+}
+html body .uk-pg .uk-pg__rotulo {
+    margin: 0 0 16px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important;
+    color: #c49a45 !important;
+}
+html body .uk-pg .uk-pg__titulo {
+    margin: 0 0 20px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 34px !important;
+    font-weight: 600 !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.5px !important;
+    text-transform: none !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-pg__titulo::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 1px;
+    margin: 22px auto 0;
+    background: #c49a45;
+}
+html body .uk-pg .uk-pg__texto {
+    margin: 0 !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+}
+html body .uk-pg .uk-pg__lista {
+    margin: 14px 0 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+html body .uk-pg .uk-pg__lista li {
+    position: relative;
+    margin: 0 0 8px !important;
+    padding: 0 0 0 18px !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+    list-style: none !important;
+}
+html body .uk-pg .uk-pg__lista li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    width: 8px;
+    height: 1px;
+    background: #c49a45;
+}
+/* Documento longo (Política de Privacidade, termos…): uma coluna de leitura */
+html body .uk-pg .uk-doc {
+    max-width: 780px;
+    margin: 0 auto;
+}
+html body .uk-pg .uk-doc__intro {
+    margin: 0 0 56px !important;
+    padding: 32px 36px !important;
+    background: #f7f7f5;
+    border-left: 2px solid #c49a45;
+}
+html body .uk-pg .uk-doc__intro p {
+    margin: 0 !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+    color: #555555 !important;
+}
+html body .uk-pg .uk-doc__intro p + p {
+    margin-top: 16px !important;
+}
+html body .uk-pg .uk-doc__secao {
+    padding: 40px 0 36px;
+    border-top: 1px solid #eeeeee;
+}
+html body .uk-pg .uk-doc__secao h2 {
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 16px !important;
+    margin: 0 0 20px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-doc__num {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #c49a45;
+}
+html body .uk-pg .uk-doc__secao p,
+html body .uk-pg .uk-doc__secao li {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+    color: #555555 !important;
+}
+html body .uk-pg .uk-doc__secao p {
+    margin: 0 0 14px !important;
+}
+html body .uk-pg .uk-doc__secao strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-doc__secao .uk-pg__lista {
+    margin: 4px 0 20px !important;
+}
+html body .uk-pg .uk-doc__secao .uk-pg__lista li {
+    font-size: 15px !important;
+}
+html body .uk-pg .uk-doc__secao a {
+    color: #1a1a1a !important;
+    text-decoration: underline !important;
+    text-decoration-color: #c49a45 !important;
+    text-underline-offset: 3px;
+}
+html body .uk-pg .uk-doc__assinatura {
+    margin-top: 16px;
+    padding-top: 40px;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+}
+html body .uk-pg .uk-doc__assinatura small {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999999;
+}
+html body .uk-pg .uk-doc__assinatura strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-doc__data {
+    display: block;
+    margin-top: 18px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999999;
+}
+@media (max-width: 767px) {
+    html body .uk-pg { padding: 44px 16px 56px; }
+    html body .uk-pg .uk-pg__abertura { margin-bottom: 40px; }
+    html body .uk-pg .uk-pg__titulo { font-size: 24px !important; }
+    html body .uk-pg .uk-doc__intro {
+        padding: 24px 20px !important;
+        margin-bottom: 40px !important;
+    }
+    html body .uk-pg .uk-doc__secao {
+        padding: 32px 0 28px;
+    }
+    html body .uk-pg .uk-doc__secao h2 {
+        font-size: 13px !important;
+        gap: 12px !important;
+    }
+    html body .uk-pg .uk-doc__secao p,
+    html body .uk-pg .uk-doc__secao li,
+    html body .uk-pg .uk-doc__intro p {
+        font-size: 14px !important;
+    }
+}
+</style>
+<div class="uk-pg">
+
+  <div class="uk-pg__abertura">
+    <p class="uk-pg__rotulo">Transparência e Segurança</p>
+    <h2 class="uk-pg__titulo">Política de Privacidade</h2>
+  </div>
+
+  <div class="uk-doc">
+
+    <div class="uk-doc__intro">
+      <p>Este documento, denominado Política de Privacidade, tem por finalidade estabelecer as regras sobre a coleta, o uso, o armazenamento e o tratamento de dados e informações dos usuários do site unikitchen.com.br, em estrita conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018). A Unikitchen, empresa responsável pela gestão do site e pela comercialização dos produtos, adota esta política para garantir a transparência e a segurança no tratamento dos dados.</p>
+      <p><em>O presente documento foi elaborado com a assessoria jurídica da Ramos Maurício Sociedade de Advogados, pessoa jurídica de direito privado, com sede à Rodovia João Leme dos Santos, 102/147 – Parque Reserva Fazenda Emperial – Sorocaba – SP, CEP 18052-780, inscrita no CNPJ sob o nº 09.364.694/0001-10.</em></p>
+    </div>
+
+    <div class="uk-doc__secao">
+      <h2><span class="uk-doc__num">01</span> Definições</h2>
+      <p>Para fins desta Política de Privacidade, aplicam-se as seguintes definições:</p>
+      <ul class="uk-pg__lista">
+        <li><strong>1.1 Unikitchen:</strong> Empresa responsável pela operação do site unikitchen.com.br e pela gestão dos dados coletados.</li>
+        <li><strong>1.2 Usuário:</strong> Toda pessoa física que acessar ou interagir com o site, devendo ter idade mínima de 18 (dezoito) anos.</li>
+        <li><strong>1.3 Cookies:</strong> Pequenos arquivos armazenados no dispositivo do usuário, enviados pelo servidor da plataforma Loja Integrada, com a finalidade de identificar o usuário e obter dados de acesso, como páginas navegadas ou links clicados, permitindo personalizar a experiência de uso.</li>
+        <li><strong>1.4 IP (Internet Protocol):</strong> Conjunto de números que identifica o dispositivo do usuário na internet.</li>
+        <li><strong>1.5 Logs:</strong> Registros de atividades do usuário no site.</li>
+        <li><strong>1.6 Session ID:</strong> Identificação da sessão do usuário no processo de inscrição ou utilização do site.</li>
+      </ul>
+    </div>
+
+    <div class="uk-doc__secao">
+      <h2><span class="uk-doc__num">02</span> Cadastro</h2>
+      <p>Para participar e usufruir do site, além de ter a idade mínima de 18 (dezoito) anos, o Cliente deverá fornecer na ocasião do cadastro as seguintes informações:</p>
+      <ul class="uk-pg__lista">
+        <li>Nome completo</li>
+        <li>Apelido</li>
+        <li>CPF</li>
+        <li>RG</li>
+        <li>Endereço completo</li>
+        <li>Telefone fixo</li>
+        <li>Data de nascimento</li>
+        <li>E-mail</li>
+        <li>Escolher uma senha</li>
+      </ul>
+    </div>
+
+    <div class="uk-doc__secao">
+      <h2><span class="uk-doc__num">03</span> Coleta e uso de dados</h2>
+      <p>A Unikitchen coleta e trata os dados pessoais dos usuários nas seguintes situações:</p>
+      <ul class="uk-pg__lista">
+        <li>Quando o usuário acessa e navega pelo site;</li>
+        <li>Ao interagir com ferramentas do site, fornecendo dados voluntariamente;</li>
+        <li>No contato por meio dos canais de comunicação disponibilizados;</li>
+        <li>Quando efetua compras ou transações comerciais;</li>
+        <li>Para fins de personalização da experiência de navegação;</li>
+        <li>Quando há coleta automática de informações via tecnologias como cookies e logs.</li>
+      </ul>
+      <p><strong>Os dados coletados poderão ser utilizados para:</strong></p>
+      <ul class="uk-pg__lista">
+        <li>Permitir a navegação e o funcionamento adequado do site;</li>
+        <li>Responder dúvidas e solicitações do usuário;</li>
+        <li>Efetuar comunicações pertinentes à atividade do site;</li>
+        <li>Fornecer acesso a áreas restritas e funcionalidades exclusivas;</li>
+        <li>Cumprir determinações legais ou judiciais;</li>
+        <li>Elaborar estatísticas para identificação do perfil do usuário e desenvolvimento de campanhas;</li>
+        <li>Garantir a segurança dos usuários e prevenir fraudes;</li>
+        <li>Atualizar os cadastros dos usuários para fins de contato por telefone, e-mail, SMS, entre outros;</li>
+        <li>Informar sobre promoções, eventos e novidades da Unikitchen e seus parceiros.</li>
+      </ul>
+      <p><strong>Sobre os e-mails e descadastramento de e-mails:</strong></p>
+      <ul class="uk-pg__lista">
+        <li>Os e-mails enviados pela Unikitchen não contêm anexos e tampouco solicitam dados dos usuários.</li>
+        <li>Caso o usuário não queira mais receber e-mails da Unikitchen, ele poderá clicar no link de descadastramento presente em todos os e-mails enviados.</li>
+      </ul>
+    </div>
+
+    <div class="uk-doc__secao">
+      <h2><span class="uk-doc__num">04</span> Armazenamento e segurança dos dados</h2>
+      <p>Os dados serão armazenados em ambiente seguro, seguindo as melhores práticas disponíveis. Apenas pessoas qualificadas e autorizadas pela Unikitchen terão acesso a tais informações. A Unikitchen não compartilhará, venderá ou cederá os dados dos usuários a terceiros, salvo nas hipóteses previstas nesta Política ou na LGPD.</p>
+      <p>A Unikitchen adota medidas de segurança como criptografia SSL e utiliza o Google Safe para proteção dos dados. Contudo, nenhum sistema de segurança é absolutamente inviolável, ficando a Unikitchen isenta de responsabilidade por danos decorrentes de falhas, vírus ou invasões, salvo nos casos de dolo ou culpa.</p>
+      <p>Os dados serão mantidos pelo prazo de 3 (três) anos. A exclusão poderá ser solicitada via e-mail (<a href="mailto:grupounikitchen@gmail.com">grupounikitchen@gmail.com</a>).</p>
+    </div>
+
+    <div class="uk-doc__secao">
+      <h2><span class="uk-doc__num">05</span> Direitos dos usuários</h2>
+      <p>O usuário poderá, a qualquer momento:</p>
+      <ul class="uk-pg__lista">
+        <li>Solicitar acesso aos seus dados armazenados;</li>
+        <li>Corrigir informações incorretas ou desatualizadas;</li>
+        <li>Solicitar a exclusão de dados desnecessários ou tratados inadequadamente;</li>
+        <li>Revogar consentimentos concedidos para o tratamento de dados;</li>
+        <li>Solicitar a exclusão total da conta e dos dados pessoais via e-mail.</li>
+      </ul>
+    </div>
+
+    <div class="uk-doc__secao">
+      <h2><span class="uk-doc__num">06</span> Disposições gerais</h2>
+      <p>A Unikitchen se reserva o direito de alterar esta Política de Privacidade a qualquer momento. É de responsabilidade do usuário consultar regularmente esta página para verificar eventuais modificações. Em caso de dúvidas, o usuário pode entrar em contato pelos meios disponíveis no site.</p>
+    </div>
+
+    <div class="uk-doc__secao">
+      <h2><span class="uk-doc__num">07</span> Lei aplicável e foro</h2>
+      <p>Esta Política de Privacidade será interpretada conforme a legislação brasileira, em especial a Lei Geral de Proteção de Dados Pessoais (LGPD). Fica eleito o Foro da Comarca de Sorocaba/SP para dirimir quaisquer questões relativas ao seu cumprimento, com renúncia expressa a qualquer outro foro.</p>
+    </div>
+
+    <div class="uk-doc__assinatura">
+      <small>Assessoria Jurídica</small>
+      <strong>Ramos Maurício Sociedade de Advogados</strong>
+      <span class="uk-doc__data">Última atualização: 2026</span>
+    </div>
+
+  </div>
+
+</div>

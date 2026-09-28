@@ -1568,6 +1568,106 @@ html body .uk-pg .uk-pg__link:hover {
 }
 
 
+/* Documento longo (Política de Privacidade, termos…): uma coluna de leitura */
+html body .uk-pg .uk-doc {
+    max-width: 780px;
+    margin: 0 auto;
+}
+html body .uk-pg .uk-doc__intro {
+    margin: 0 0 56px !important;
+    padding: 32px 36px !important;
+    background: #f7f7f5;
+    border-left: 2px solid #c49a45;
+}
+html body .uk-pg .uk-doc__intro p {
+    margin: 0 !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+    color: #555555 !important;
+}
+html body .uk-pg .uk-doc__intro p + p {
+    margin-top: 16px !important;
+}
+html body .uk-pg .uk-doc__secao {
+    padding: 40px 0 36px;
+    border-top: 1px solid #eeeeee;
+}
+html body .uk-pg .uk-doc__secao h2 {
+    display: flex !important;
+    align-items: baseline !important;
+    gap: 16px !important;
+    margin: 0 0 20px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-doc__num {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #c49a45;
+}
+html body .uk-pg .uk-doc__secao p,
+html body .uk-pg .uk-doc__secao li {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+    color: #555555 !important;
+}
+html body .uk-pg .uk-doc__secao p {
+    margin: 0 0 14px !important;
+}
+html body .uk-pg .uk-doc__secao strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-doc__secao .uk-pg__lista {
+    margin: 4px 0 20px !important;
+}
+html body .uk-pg .uk-doc__secao .uk-pg__lista li {
+    font-size: 15px !important;
+}
+html body .uk-pg .uk-doc__secao a {
+    color: #1a1a1a !important;
+    text-decoration: underline !important;
+    text-decoration-color: #c49a45 !important;
+    text-underline-offset: 3px;
+}
+html body .uk-pg .uk-doc__assinatura {
+    margin-top: 16px;
+    padding-top: 40px;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+}
+html body .uk-pg .uk-doc__assinatura small {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999999;
+}
+html body .uk-pg .uk-doc__assinatura strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-doc__data {
+    display: block;
+    margin-top: 18px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+
 /* ==========================================================================
    12. TABLET (ATÉ 979PX)
    ========================================================================== */
@@ -1822,5 +1922,21 @@ html body .uk-pg .uk-pg__link:hover {
     html body .uk-pg .uk-pg__botao {
         display: block;
         padding: 16px 20px;
+    }
+    html body .uk-pg .uk-doc__intro {
+        padding: 24px 20px !important;
+        margin-bottom: 40px !important;
+    }
+    html body .uk-pg .uk-doc__secao {
+        padding: 32px 0 28px;
+    }
+    html body .uk-pg .uk-doc__secao h2 {
+        font-size: 13px !important;
+        gap: 12px !important;
+    }
+    html body .uk-pg .uk-doc__secao p,
+    html body .uk-pg .uk-doc__secao li,
+    html body .uk-pg .uk-doc__intro p {
+        font-size: 14px !important;
     }
 }
