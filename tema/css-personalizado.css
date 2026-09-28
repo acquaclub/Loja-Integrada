@@ -913,3 +913,14 @@ html body #barraTopo .uk-topo-wpp:hover {
 html body .acoes-flutuante {
     display: none !important;
 }
+
+/* ==========================================================================
+   28. PÁGINA DE PRODUTO — AJUSTES DO BLOCO PRINCIPAL
+   ========================================================================== */
+/* Texto "Para mais informações entre em contato…": substituído pelo botão de WhatsApp */
+html body .acoes-produto .produto-mais-info {
+    display: none !important;
+}
+html body .wpp-produto-cta {
+    margin-top: 8px !important;
+}
