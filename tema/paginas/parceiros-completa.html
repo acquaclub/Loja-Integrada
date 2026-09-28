@@ -76,7 +76,11 @@ html body .uk-pg .uk-pg__icone {
 }
 html body .uk-pg .uk-pg__icone--consultoria { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 21l3.8-1 11.9-11.9a2 2 0 0 0 0-2.8l-1-1a2 2 0 0 0-2.8 0L3 16.2z'/%3E%3Cpath d='M13.5 5.5l5 5'/%3E%3Cpath d='M3 21h18'/%3E%3C/svg%3E");
 }
+html body .uk-pg .uk-pg__icone--entrega { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='5' width='18' height='16' rx='1'/%3E%3Cpath d='M16 3v4M8 3v4M3 10h18'/%3E%3Cpath d='M9 15.5l2 2 4-4'/%3E%3C/svg%3E");
+}
 html body .uk-pg .uk-pg__icone--atendimento { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='9' cy='7' r='4'/%3E%3Cpath d='M17 11l2 2 4-4'/%3E%3C/svg%3E");
+}
+html body .uk-pg .uk-pg__icone--parceria { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 3h12l4 6-10 12L2 9z'/%3E%3Cpath d='M2 9h20M9.5 3L8 9l4 12 4-12-1.5-6'/%3E%3C/svg%3E");
 }
 html body .uk-pg .uk-pg__card h3 {
     margin: 0 0 12px !important;
@@ -98,6 +102,28 @@ html body .uk-pg .uk-pg__card strong {
     font-weight: 600;
     color: #1a1a1a;
 }
+html body .uk-pg .uk-pg__cta {
+    padding: 64px 32px;
+    background: #1a1a1a;
+    text-align: center;
+}
+html body .uk-pg .uk-pg__cta h2 {
+    margin: 0 0 16px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    text-transform: none !important;
+    color: #ffffff !important;
+}
+html body .uk-pg .uk-pg__cta p {
+    max-width: 560px;
+    margin: 0 auto 32px !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #cfcfcf !important;
+}
 html body .uk-pg .uk-pg__botao {
     display: inline-block;
     padding: 18px 44px;
@@ -116,16 +142,6 @@ html body .uk-pg .uk-pg__botao:hover {
 html body .uk-pg .uk-pg__card p + p {
     margin-top: 12px !important;
 }
-html body .uk-pg .uk-pg__destaque {
-    margin: 18px 0 0 !important;
-    padding: 16px 18px !important;
-    background: #ffffff;
-    border-left: 2px solid #c49a45;
-    font-size: 13px !important;
-    font-weight: 300 !important;
-    line-height: 1.7 !important;
-    color: #555555 !important;
-}
 html body .uk-pg .uk-pg__card p a {
     color: #1a1a1a !important;
     font-weight: 600;
@@ -135,14 +151,6 @@ html body .uk-pg .uk-pg__card p a {
 }
 html body .uk-pg .uk-pg__card p a:hover {
     color: #c49a45 !important;
-}
-html body .uk-pg .uk-pg__telefone {
-    display: block;
-    margin: 4px 0 20px;
-    font-size: 26px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    color: #1a1a1a;
 }
 html body .uk-pg .uk-pg__card .uk-pg__botao {
     margin-top: 24px;
@@ -172,6 +180,12 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
     html body .uk-pg .uk-pg__card {
         padding: 32px 24px;
     }
+    html body .uk-pg .uk-pg__cta {
+        padding: 44px 20px;
+    }
+    html body .uk-pg .uk-pg__cta h2 {
+        font-size: 20px !important;
+    }
     html body .uk-pg .uk-pg__botao {
         display: block;
         padding: 16px 20px;
@@ -181,29 +195,38 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
 <div class="uk-pg">
 
   <div class="uk-pg__abertura">
-    <p class="uk-pg__rotulo">Central de Atendimento</p>
-    <h2 class="uk-pg__titulo">Estamos aqui para ouvir você</h2>
-    <p class="uk-pg__texto">Gostaria de fazer solicitações, sugestões ou reclamações? Fale com a nossa equipe.</p>
+    <p class="uk-pg__rotulo">Área do Profissional</p>
+    <h2 class="uk-pg__titulo">Arquitetos, designers e engenheiros</h2>
+    <p class="uk-pg__texto">Na Unikitchen, vocês encontram um parceiro estratégico para transformar projetos em realidade com excelência técnica e logística.</p>
   </div>
 
   <div class="uk-pg__grade">
-
-    <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--atendimento"></span>
-      <h3>Fale Conosco</h3>
-      <p>SAC (Serviço de Atendimento ao Cliente)</p>
-      <span class="uk-pg__telefone">(15) 99613-6016</span>
-      <p><strong>Horário de atendimento</strong><br>Segunda a Sexta: 09h às 18h<br>Sábados: 09h às 12h</p>
-      <a class="uk-pg__botao" href="https://wa.me/5515996136016?text=Ol%C3%A1!%20Vim%20pelo%20SAC%20do%20site%20e%20gostaria%20de%20atendimento." target="_blank" rel="noopener">Falar no WhatsApp</a>
-    </div>
-
     <div class="uk-pg__card">
       <span class="uk-pg__icone uk-pg__icone--consultoria"></span>
-      <h3>Informações Importantes</h3>
-      <p class="uk-pg__destaque"><strong>Atenção sobre marcas:</strong> algumas marcas podem não estar disponíveis para venda direta em nossa loja online devido a políticas comerciais.</p>
-      <p>Mesmo que o produto não esteja visível no site, você pode <strong>solicitar um orçamento</strong> personalizado. Nossa equipe consultará a disponibilidade em nossas lojas físicas para atender o seu projeto.</p>
+      <h3>Consultoria Técnica</h3>
+      <p>Nossa equipe especializada auxilia na especificação correta de louças, metais e eletrodomésticos, garantindo a compatibilidade técnica e estética com o seu projeto.</p>
     </div>
+    <div class="uk-pg__card">
+      <span class="uk-pg__icone uk-pg__icone--entrega"></span>
+      <h3>Entrega Programada</h3>
+      <p>Sabemos que cada etapa da obra tem seu tempo. Armazenamos os produtos em nosso CD e entregamos conforme o cronograma, evitando danos e roubos no canteiro.</p>
+    </div>
+    <div class="uk-pg__card">
+      <span class="uk-pg__icone uk-pg__icone--atendimento"></span>
+      <h3>Atendimento VIP</h3>
+      <p>Canal exclusivo de atendimento para profissionais, com agilidade em orçamentos, resolução de dúvidas e acompanhamento pós-venda dedicado ao seu cliente.</p>
+    </div>
+    <div class="uk-pg__card">
+      <span class="uk-pg__icone uk-pg__icone--parceria"></span>
+      <h3>Programa de Parceria</h3>
+      <p>Valorizamos o seu trabalho. Oferecemos condições comerciais especiais e um programa de relacionamento pensado para fortalecer nossa parceria a longo prazo.</p>
+    </div>
+  </div>
 
+  <div class="uk-pg__cta">
+    <h2>Seja um Parceiro Unikitchen</h2>
+    <p>Cadastre-se em nossa base de especificadores para receber novidades, convites para eventos exclusivos e acesso a condições especiais.</p>
+    <a class="uk-pg__botao" href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Sou%20profissional%20da%20%C3%A1rea%20(Arquiteto%2FDesigner%2FConstrutora)%20e%20gostaria%20de%20me%20cadastrar%20como%20parceiro." target="_blank" rel="noopener">Cadastrar meu escritório / construtora</a>
   </div>
 
 </div>

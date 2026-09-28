@@ -1,15 +1,15 @@
 """Gera a versão "completa" (com <style> embutido) de uma página de conteúdo,
-a partir da seção 11 do CSS personalizado. Inclui só os ícones usados na página.
+a partir de estilo-paginas.css. Inclui só os ícones usados na página.
 Uso: python3 tema/paginas/gerar_completa.py entrega [--compacto]
 """
 import re, sys, os
 base_dir = os.path.dirname(os.path.abspath(__file__))
-css = open(os.path.join(base_dir, '..', 'css-personalizado.css'), encoding='utf-8').read()
+css = open(os.path.join(base_dir, 'estilo-paginas.css'), encoding='utf-8').read()
 nome = sys.argv[1]
 html = open(os.path.join(base_dir, nome + '.html'), encoding='utf-8').read().split('\n', 1)[1]
 
 ini = css.index('html body .uk-pg,\nhtml body .uk-pg * {')
-fim = css.index('/* ==========================================================================\n   12. TABLET')
+fim = css.index('/* Tablet */')
 sec = re.sub(r'/\*.*?\*/', '', css[ini:fim], flags=re.S)
 classes_html = set(re.findall(r'\buk-[a-z0-9_-]+', html))
 
@@ -45,7 +45,7 @@ if '--compacto' in sys.argv:
     estilo = re.sub(r'\s*([{};,>])\s*', r'\1', estilo)
     estilo = re.sub(r'\s+', ' ', estilo).replace(';}', '}').replace(': ', ':').replace(' !important', '!important')
     html = re.sub(r'\n\s*', '\n', html)
-saida = ('<style type="text/css">\n/* Páginas de conteúdo Unikitchen (gerado da seção 11 do CSS personalizado) */\n'
+saida = ('<style type="text/css">\n/* Páginas de conteúdo Unikitchen (gerado de estilo-paginas.css) */\n'
          + estilo + '\n</style>\n' + html)
 open(os.path.join(base_dir, nome + '-completa.html'), 'w', encoding='utf-8').write(saida)
 print(nome + '-completa.html', len(saida), 'caracteres')
