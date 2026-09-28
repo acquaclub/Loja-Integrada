@@ -730,7 +730,7 @@ html body #barraTopo .uk-topo-wpp:hover {
 
 /* ==========================================================================
    26. CABEÇALHO PRINCIPAL (COMPUTADOR)
-   Faixa superior (inserida pelo script-cabecalho.js) | logo à esquerda + busca à direita | menu
+   Faixa superior (inserida pelo script-cabecalho-fixo.js) | logo à esquerda + busca à direita | menu
    Celular: layout do tema mantido, sem faixa superior.
    ========================================================================== */
 @media (min-width: 980px) {
