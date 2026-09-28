@@ -344,12 +344,9 @@ html body .listagem-item .quickview {
     display: none !important;
 }
 
-html body a.botao-comprar[title="Ver detalhes do produto"] {
-    opacity: 0;
-    transition: opacity 0.25s ease;
-}
-html body .listagem-item:hover a.botao-comprar[title="Ver detalhes do produto"] {
-    opacity: 1;
+/* Sem botão na vitrine: o card é acessado pela foto e pelo nome do produto */
+html body .listagem-item .botao-comprar {
+    display: none !important;
 }
 
 /* ==========================================================================
@@ -376,13 +373,13 @@ html body .custom-footer-restored .newsletter-cadastro {
 /* ==========================================================================
    14. SUPORTE PARA ANIMAÇÕES JAVASCRIPT
    ========================================================================= */
-html body .listagem .listagem-item {
+/* Só esconde o produto quando o script de interações está ativo (classe no <html>).
+   Sem o script, ou se ele falhar, os produtos aparecem normalmente. */
+html.js-revelar body .listagem .listagem-item {
     opacity: 0;
     transform: translateY(30px);
-    transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
-                transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-html body .listagem .listagem-item.revelado {
+html.js-revelar body .listagem .listagem-item.revelado {
     opacity: 1;
     transform: translateY(0);
 }
