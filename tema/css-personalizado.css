@@ -1046,7 +1046,7 @@ html body #carouselImagem .flex-direction-nav a.flex-disabled {
 html body .info-principal-produto .codigo-produto {
     display: flex !important;
     flex-wrap: wrap !important;
-    align-items: center !important;
+    align-items: baseline !important;
     gap: 6px 28px !important;
     margin: 0 0 20px 0 !important;
     padding: 0 0 18px 0 !important;
@@ -1056,8 +1056,19 @@ html body .info-principal-produto .codigo-produto {
     font-weight: 300 !important;
     color: #666666 !important;
 }
-html body .info-principal-produto .codigo-produto .pull-right {
+html body .info-principal-produto .codigo-produto > span {
     float: none !important;
+    display: inline-flex !important;
+    align-items: baseline !important;
+    gap: 6px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.2 !important;
+    font-size: 13px !important;
+}
+html body .info-principal-produto .codigo-produto > span > span {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
 }
 html body .info-principal-produto .codigo-produto b {
     font-size: 11px !important;
@@ -1067,14 +1078,18 @@ html body .info-principal-produto .codigo-produto b {
     color: #1a1a1a !important;
 }
 html body .info-principal-produto .codigo-produto a {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
     color: #666666 !important;
-    text-decoration: none !important;
-    border-bottom: 1px solid #d9d9d9 !important;
-    transition: color 0.2s ease, border-color 0.2s ease !important;
+    border: 0 !important;
+    text-decoration: underline !important;
+    text-decoration-color: #d9d9d9 !important;
+    text-underline-offset: 3px !important;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease !important;
 }
 html body .info-principal-produto .codigo-produto a:hover {
     color: #c49a45 !important;
-    border-color: #c49a45 !important;
+    text-decoration-color: #c49a45 !important;
 }
 
 /* ==========================================================================
@@ -1137,4 +1152,23 @@ html body .principal .acoes-produto {
     margin: 0 !important;
     padding: 0 !important;
     min-height: 0 !important;
+}
+
+/* ==========================================================================
+   32. PÁGINA DE PRODUTO — TÍTULO DA DESCRIÇÃO CONVERTIDO DE <h1> PARA <h2>
+   (conversão feita pelo script-descricao-titulo.js; mantém o visual da seção 28)
+   ========================================================================== */
+html body #descricao h2.uk-desc-titulo {
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 26px !important;
+    font-weight: 700 !important;
+    line-height: 1.25 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    color: #1a1a1a !important;
+}
+@media (max-width: 767px) {
+    html body #descricao h2.uk-desc-titulo {
+        font-size: 20px !important;
+    }
 }
