@@ -224,3 +224,11 @@ Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179
 - Códigos HTML/JS entram na hora; o CSS Avançado leva ~15–20 min; a **home pode ficar em cache por mais tempo** que as outras páginas (testar com `?teste=1` na URL).
 - Rodapé: a versão em sanfona no celular foi revertida a pedido; mantida a versão em colunas. A emenda marcas → rodapé na home fica no CSS principal.
 - CSS reorganizado em 12 seções (índice no topo). Equivalência verificada por comparação de estilos calculados (1400/900/390px) antes de publicar.
+
+### Páginas de conteúdo (28/09/2026)
+Refeitas no padrão do site (arquivos `tema/paginas/*-completa.html`, colar no modo código/HTML): Parceiros, Confiabilidade, Entrega, Política de Privacidade, Retirada Fácil, Troca e Devolução, Diferenciais e Logística, Central de Atendimento, Nossa História e Assistência Técnica (layout original de cards, 24 marcas).
+
+Pendências de conteúdo destas páginas:
+- WhatsApp do SAC (15) 99613-6016 × site (15) 99610-0914; horários diferentes entre topo, Retirada e Central.
+- Nossa História: "três showrooms" (o site só cita Sorocaba), "disponíveis 100% do tempo" e "uma das maiores referências" (comprovar).
+- Assistência Técnica: faltam contatos confiáveis de Doka, Mekal e Viking (hoje só com link para o site oficial); demais contatos conferidos por busca, confirmar por telefone os principais.
