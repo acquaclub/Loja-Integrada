@@ -1451,6 +1451,7 @@ html body .uk-pg .uk-pg__icone--estorno { background-image: url("data:image/svg+
 html body .uk-pg .uk-pg__icone--loja { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9l1.5-5h15L21 9'/%3E%3Cpath d='M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z'/%3E%3Cpath d='M5 13v8h14v-8M10 21v-5h4v5'/%3E%3C/svg%3E"); }
 html body .uk-pg .uk-pg__icone--defeito { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.1-.4-.4-2.1z'/%3E%3C/svg%3E"); }
 html body .uk-pg .uk-pg__icone--cancelar { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M9 9l6 6M15 9l-6 6'/%3E%3C/svg%3E"); }
+html body .uk-pg .uk-pg__icone--predio { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 21h18M5 21V8l7-5 7 5v13'/%3E%3Cpath d='M9 21v-5h6v5M9 11h.01M15 11h.01'/%3E%3C/svg%3E"); }
 html body .uk-pg .uk-pg__card h3 {
     margin: 0 0 12px !important;
     font-family: 'Urbane', sans-serif !important;
@@ -1753,6 +1754,45 @@ html body .uk-pg .uk-pg__card-rotulo + p {
 }
 
 
+/* Faixa de destaques (ex.: infraestrutura em Diferenciais e Logística) */
+html body .uk-pg .uk-pg__faixa {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 0 64px;
+    padding: 36px 0;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+html body .uk-pg .uk-pg__faixa-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 0 16px;
+    text-align: center;
+    border-left: 1px solid #eeeeee;
+}
+html body .uk-pg .uk-pg__faixa-item:first-child {
+    border-left: 0;
+}
+html body .uk-pg .uk-pg__faixa-item .uk-pg__icone {
+    margin: 0;
+    background-position: center;
+}
+html body .uk-pg .uk-pg__faixa-item span:last-child {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+/* Número no lugar do ícone, dentro do card */
+html body .uk-pg .uk-pg__card .uk-pg__passo-num {
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+
 /* ==========================================================================
    12. TABLET (ATÉ 979PX)
    ========================================================================== */
@@ -2034,5 +2074,13 @@ html body .uk-pg .uk-pg__card-rotulo + p {
     }
     html body .uk-pg .uk-pg__grade--3 {
         grid-template-columns: 1fr;
+    }
+    html body .uk-pg .uk-pg__faixa {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 28px;
+        margin-bottom: 44px;
+    }
+    html body .uk-pg .uk-pg__faixa-item {
+        border-left: 0;
     }
 }

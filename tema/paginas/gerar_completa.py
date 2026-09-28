@@ -10,7 +10,7 @@ html = open(os.path.join(base_dir, nome + '.html'), encoding='utf-8').read().spl
 
 ini = css.index('html body .uk-pg,\nhtml body .uk-pg * {')
 fim = css.index('/* ==========================================================================\n   12. TABLET')
-sec = css[ini:fim]
+sec = re.sub(r'/\*.*?\*/', '', css[ini:fim], flags=re.S)
 classes_html = set(re.findall(r'\buk-[a-z0-9_-]+', html))
 
 def regra_usada(seletor):
@@ -23,7 +23,7 @@ def filtra(bloco):
         partes = [x.strip() for x in seletor.strip().split(',')]
         partes = [x for x in partes if regra_usada(x)]
         if partes:
-            sel = ',\n'.join(re.sub(r'^/\*.*?\*/\s*', '', x, flags=re.S) for x in partes)
+            sel = ',\n'.join(partes)
             saida.append(sel + ' {' + corpo.rstrip() + '\n}')
     return '\n'.join(saida)
 
@@ -32,7 +32,7 @@ sec = filtra(sec)
 def media(q):
     a = css.index('@media (' + q + ') {', fim)
     b = css.index('\n}\n', a)
-    corpo = css[a:b]
+    corpo = re.sub(r'/\*.*?\*/', '', css[a:b], flags=re.S)
     regras = re.findall(r'(    html body \.uk-pg[^{]*\{[^}]*\})', corpo)
     regras = [r for r in regras if regra_usada(r.split('{')[0])]
     return '@media (' + q + ') {\n' + '\n'.join(regras) + '\n}' if regras else ''
