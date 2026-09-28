@@ -1793,6 +1793,24 @@ html body .uk-pg .uk-pg__card .uk-pg__passo-num {
 }
 
 
+/* Contato (ex.: Central de Atendimento): telefone em destaque e botão dentro do card */
+html body .uk-pg .uk-pg__telefone {
+    display: block;
+    margin: 4px 0 20px;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-pg__card .uk-pg__botao {
+    margin-top: 24px;
+}
+html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
+    background: #1a1a1a;
+    color: #ffffff !important;
+}
+
+
 /* ==========================================================================
    12. TABLET (ATÉ 979PX)
    ========================================================================== */
