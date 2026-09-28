@@ -1,0 +1,265 @@
+<style type="text/css">
+/* Páginas de conteúdo Unikitchen (mesmo estilo da seção 11 do CSS personalizado) */
+html body .uk-pg,
+html body .uk-pg * {
+    box-sizing: border-box;
+}
+html body .uk-pg {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 72px 20px 80px;
+    font-family: 'Urbane', sans-serif !important;
+    color: #555555;
+}
+
+/* Abertura */
+html body .uk-pg .uk-pg__abertura {
+    max-width: 760px;
+    margin: 0 auto 64px;
+    text-align: center;
+}
+html body .uk-pg .uk-pg__rotulo {
+    margin: 0 0 16px !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px !important;
+    text-transform: uppercase !important;
+    color: #c49a45 !important;
+}
+html body .uk-pg .uk-pg__titulo {
+    margin: 0 0 20px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 34px !important;
+    font-weight: 600 !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0.5px !important;
+    text-transform: none !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-pg__titulo::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 1px;
+    margin: 22px auto 0;
+    background: #c49a45;
+}
+html body .uk-pg .uk-pg__texto {
+    margin: 0 !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+}
+
+/* Grade de cards */
+html body .uk-pg .uk-pg__grade {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    margin: 0 0 72px;
+    background: #ffffff;
+}
+html body .uk-pg .uk-pg__card {
+    padding: 44px 44px 40px;
+    background: #f7f7f5;
+    transition: background-color 0.35s ease, box-shadow 0.35s ease;
+}
+html body .uk-pg .uk-pg__card:hover {
+    background: #ffffff;
+    box-shadow: 0 18px 50px -20px rgba(26, 26, 26, 0.18);
+}
+html body .uk-pg .uk-pg__icone {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 0 24px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+html body .uk-pg .uk-pg__icone--rastreio { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 21s-6-5.3-6-10a6 6 0 0 1 12 0c0 4.7-6 10-6 10z'/%3E%3Ccircle cx='12' cy='11' r='2'/%3E%3C/svg%3E"); }
+html body .uk-pg .uk-pg__card h3 {
+    margin: 0 0 12px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-pg__card p {
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+}
+html body .uk-pg .uk-pg__card strong {
+    font-weight: 600;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-pg__card p + p {
+    margin-top: 16px !important;
+}
+html body .uk-pg .uk-pg__link {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #c49a45;
+    padding-bottom: 3px;
+    transition: color 0.2s ease;
+}
+html body .uk-pg .uk-pg__link:hover {
+    color: #c49a45 !important;
+}
+/* Passo a passo numerado (ex.: Retirada) */
+html body .uk-pg .uk-pg__passos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    margin: 0 0 80px;
+    text-align: center;
+}
+html body .uk-pg .uk-pg__passo-num {
+    display: block;
+    margin: 0 0 14px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    color: #c49a45;
+}
+html body .uk-pg .uk-pg__passo h3 {
+    margin: 0 0 10px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-pg__passo p {
+    max-width: 280px;
+    margin: 0 auto !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+}
+/* Subtítulo de bloco dentro da página (ex.: "Nossas unidades") */
+html body .uk-pg .uk-pg__subtitulo {
+    margin: 0 0 32px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2.5px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-pg__subtitulo::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 1px;
+    margin: 12px auto 0;
+    background: #c49a45;
+}
+/* Grade de 3 colunas e detalhes do card de unidade */
+html body .uk-pg .uk-pg__grade--3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+html body .uk-pg .uk-pg__card-rotulo {
+    display: block;
+    margin: -4px 0 20px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+html body .uk-pg .uk-pg__card-rotulo + p {
+    margin-top: 0 !important;
+}
+@media (max-width: 979px) {
+    html body .uk-pg .uk-pg__grade--3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 767px) {
+    html body .uk-pg { padding: 44px 16px 56px; }
+    html body .uk-pg .uk-pg__abertura { margin-bottom: 40px; }
+    html body .uk-pg .uk-pg__titulo { font-size: 24px !important; }
+    html body .uk-pg .uk-pg__texto { font-size: 15px !important; }
+    html body .uk-pg .uk-pg__card { padding: 32px 24px; }
+    html body .uk-pg .uk-pg__passos {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 56px;
+    }
+    html body .uk-pg .uk-pg__grade--3 {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+<div class="uk-pg">
+
+  <div class="uk-pg__abertura">
+    <p class="uk-pg__rotulo">Retirada Fácil</p>
+    <h2 class="uk-pg__titulo">Retire na loja</h2>
+    <p class="uk-pg__texto">Compre online com conforto e retire em uma de nossas unidades exclusivas.</p>
+  </div>
+
+  <div class="uk-pg__passos">
+    <div class="uk-pg__passo">
+      <span class="uk-pg__passo-num">01</span>
+      <h3>Compre Online</h3>
+      <p>Escolha seus produtos no site e selecione a opção de retirada.</p>
+    </div>
+    <div class="uk-pg__passo">
+      <span class="uk-pg__passo-num">02</span>
+      <h3>Aguarde a Confirmação</h3>
+      <p>Espere o e-mail de aprovação e o aviso de que seu pedido está pronto.</p>
+    </div>
+    <div class="uk-pg__passo">
+      <span class="uk-pg__passo-num">03</span>
+      <h3>Venha nos Visitar</h3>
+      <p>Traga seu documento e o número do pedido para retirada. Aproveite para tomar um café conosco!</p>
+    </div>
+  </div>
+
+  <h2 class="uk-pg__subtitulo">Nossas unidades</h2>
+
+  <div class="uk-pg__grade uk-pg__grade--3">
+    <div class="uk-pg__card">
+      <span class="uk-pg__icone uk-pg__icone--rastreio"></span>
+      <h3>Acqua Exclusive</h3>
+      <span class="uk-pg__card-rotulo">Deca, Portinari, Hydra, Ceusa e Durafloor</span>
+      <p><strong>Endereço</strong><br>Rod. João Leme dos Santos, 147<br>Parque Reserva Fazenda Imperial<br>Sorocaba - SP, 18052-780</p>
+      <p><strong>Horário</strong><br>Seg a Sex: 09h às 18h<br>Sábados: 09h às 13h</p>
+      <a class="uk-pg__link" href="https://www.google.com/maps/search/?api=1&amp;query=Rod+Joao+Leme+dos+Santos+147+Sorocaba" target="_blank" rel="noopener">Ver no Google Maps</a>
+    </div>
+    <div class="uk-pg__card">
+      <span class="uk-pg__icone uk-pg__icone--rastreio"></span>
+      <h3>Unikitchen Sorocaba</h3>
+      <span class="uk-pg__card-rotulo">Louças, Metais e Eletrodomésticos</span>
+      <p><strong>Endereço</strong><br>Av. Antônio Carlos Comitre, 1253<br>Parque Campolim<br>Sorocaba - SP, 18047-620</p>
+      <p><strong>Horário</strong><br>Seg a Sex: 09h às 18h<br>Sábados: 09h às 13h</p>
+      <a class="uk-pg__link" href="https://www.google.com/maps/search/?api=1&amp;query=Av+Antonio+Carlos+Comitre+1253+Sorocaba" target="_blank" rel="noopener">Ver no Google Maps</a>
+    </div>
+    <div class="uk-pg__card">
+      <span class="uk-pg__icone uk-pg__icone--rastreio"></span>
+      <h3>Unikitchen Itapetininga</h3>
+      <span class="uk-pg__card-rotulo">Revestimentos, Louças, Metais e Eletrodomésticos</span>
+      <p><strong>Endereço</strong><br>Urban Mall - Av. Dr. José Ozi, 450<br>Vila Nova Itapetininga<br>Itapetininga - SP, 18203-265</p>
+      <p><strong>Horário</strong><br>Seg a Sex: 09h às 18h</p>
+      <a class="uk-pg__link" href="https://www.google.com/maps/search/?api=1&amp;query=Av+Dr+Jose+Ozi+450+Itapetininga" target="_blank" rel="noopener">Ver no Google Maps</a>
+    </div>
+  </div>
+
+</div>

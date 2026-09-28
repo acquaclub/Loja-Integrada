@@ -1668,6 +1668,76 @@ html body .uk-pg .uk-doc__data {
 }
 
 
+/* Passo a passo numerado (ex.: Retirada) */
+html body .uk-pg .uk-pg__passos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    margin: 0 0 80px;
+    text-align: center;
+}
+html body .uk-pg .uk-pg__passo-num {
+    display: block;
+    margin: 0 0 14px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    color: #c49a45;
+}
+html body .uk-pg .uk-pg__passo h3 {
+    margin: 0 0 10px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-pg__passo p {
+    max-width: 280px;
+    margin: 0 auto !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+}
+/* Subtítulo de bloco dentro da página (ex.: "Nossas unidades") */
+html body .uk-pg .uk-pg__subtitulo {
+    margin: 0 0 32px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2.5px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-pg__subtitulo::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 1px;
+    margin: 12px auto 0;
+    background: #c49a45;
+}
+/* Grade de 3 colunas e detalhes do card de unidade */
+html body .uk-pg .uk-pg__grade--3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+html body .uk-pg .uk-pg__card-rotulo {
+    display: block;
+    margin: -4px 0 20px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+html body .uk-pg .uk-pg__card-rotulo + p {
+    margin-top: 0 !important;
+}
+
+
 /* ==========================================================================
    12. TABLET (ATÉ 979PX)
    ========================================================================== */
@@ -1677,6 +1747,9 @@ html body .uk-pg .uk-doc__data {
     }
     html body .uk-faixa-topo {
         display: none !important;
+    }
+    html body .uk-pg .uk-pg__grade--3 {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -1938,5 +2011,13 @@ html body .uk-pg .uk-doc__data {
     html body .uk-pg .uk-doc__secao li,
     html body .uk-pg .uk-doc__intro p {
         font-size: 14px !important;
+    }
+    html body .uk-pg .uk-pg__passos {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 56px;
+    }
+    html body .uk-pg .uk-pg__grade--3 {
+        grid-template-columns: 1fr;
     }
 }
