@@ -21,6 +21,7 @@ Legenda de confiança: [Certeza] evidência direta no código · [Provável] inf
 | `script-botao-vitrine.html` | Rodapé (HTML) | Todas |
 | `script-rodape.html` | Rodapé (HTML) | Todas |
 | `script-interacoes.js` | Rodapé (JavaScript) | Todas |
+| `script-whatsapp-produto.js` | Rodapé (JavaScript) | Página do produto |
 | `google-tag-manager.html` | Cabeçalho (HTML) | Todas |
 | `dominio-facebook-pixel.html` | Cabeçalho (HTML) | Todas, exceto checkout |
 
@@ -93,7 +94,6 @@ Os scripts se sobrepõem bastante: o mesmo elemento (`.botao-comprar`, `.listage
 11. **Código morto:**
     - CSS de `#rodape` no mobile (o rodapé está escondido)
     - `.custom-footer-restored .single_footer` (essa classe não existe)
-    - `.wpp-produto-cta` (nenhum código cria esse botão; talvez o CTA de WhatsApp na página de produto tenha sido apagado sem querer)
     - Seção 0 "Paleta" vazia
     - `!important` dentro de `@keyframes`, que o navegador ignora
     
@@ -101,7 +101,12 @@ Os scripts se sobrepõem bastante: o mesmo elemento (`.botao-comprar`, `.listage
 12. **Regras duplicadas:** o nome do produto está com 14px na seção 4 e 13px na seção 24; o card está estilizado nas seções 12 e 24. [Certeza]
 13. **Evento `minicart_state_changed`:** não confirmei que a Loja Integrada dispara esse evento. Se não disparar, o pulso do carrinho nunca acontece. [Chute]
 14. **Links dos atalhos mobile:** `/coifas-`, `/fornos-` e `/refrigeradores-e-frezzers` ("frezzers") parecem slugs com erro. Precisa conferir se abrem a categoria ou dão 404. [Chute]
-15. **WhatsApp só na Home:** nas páginas de produto e categoria, onde a decisão de compra acontece, não há WhatsApp. Para eletros premium com orçamento, isso provavelmente custa conversão. [Provável]
+15. **Botão de WhatsApp na página de produto** (`script-whatsapp-produto.js`). *Correção de uma versão anterior desta auditoria: o botão existe; a afirmação de que faltava estava errada.* Problemas encontrados:
+    - **O botão sai preto e fica dourado no hover, não verde.** Ele recebe a classe `botao principal`, e a regra `html body .botao.principal` do CSS (seção 4, `!important`) é mais específica que `html body .wpp-produto-cta` (seção 20). Os estilos inline do script perdem para `!important`. [Certeza]
+    - **A mensagem pode citar o nome errado.** O nome do produto é buscado primeiro em `[itemprop="name"]`, que também pode existir no breadcrumb, na marca ou em produtos relacionados. A mensagem pode sair como "interesse no produto 'Início'". [Provável]
+    - O script espera `window.load` (todas as imagens carregadas), então o botão aparece segundos depois e empurra o layout. [Certeza]
+    - A constante `NUMERO_WHATSAPP` fica no escopo global. Se o código for incluído duas vezes, dá erro de JavaScript e pode derrubar os scripts seguintes (ver item 1). [Certeza]
+    - Nas páginas de categoria continua sem WhatsApp. [Certeza]
 16. **Acessibilidade:** o nome do produto é cortado em 2 linhas com altura fixa de 38px. Nomes longos de eletro (modelo, voltagem) perdem justamente a informação que diferencia um produto do outro. [Provável]
 17. **Newsletter removida:** foi uma decisão consciente, mas elimina a captação de e-mail. Vale reavaliar. [Provável]
 
