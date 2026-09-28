@@ -2,7 +2,9 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: Secao Marcas de Prestigio
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
-  Links das páginas de marca seguem o padrão /marca/<nome>.html (confirmado: tecno).
+  Links das páginas de marca seguem o padrão /marca/<nome>.html.
+  Sem página na loja (logo sem link): Duravit, Doka, Docol, Codda, Acqua.
+  Com página mas sem logo (pendente): Falmec, InSinkErator, Smeg.
 -->
 <!-- SEÇÃO DE MARCAS DE PRESTÍGIO - UNIKITCHEN -->
 <section class="uk-marcas">
@@ -19,13 +21,13 @@
     <a class="uk-marca" href="/marca/franke.html" title="Franke"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/franke.svg" alt="Franke" loading="lazy"></a>
     <a class="uk-marca" href="/marca/evol.html" title="Evol"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/evol.svg" alt="Evol" loading="lazy"></a>
     <a class="uk-marca" href="/marca/elettromec.html" title="Elettromec"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/elettromec.svg" alt="Elettromec" loading="lazy"></a>
-    <a class="uk-marca" href="/marca/duravit.html" title="Duravit"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/duravit-logo.svg" alt="Duravit" loading="lazy"></a>
-    <a class="uk-marca" href="/marca/doka.html" title="Doka"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/doka.svg" alt="Doka" loading="lazy"></a>
-    <a class="uk-marca" href="/marca/docol.html" title="Docol"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/docol.svg" alt="Docol" loading="lazy"></a>
+    <span class="uk-marca" title="Duravit"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/duravit-logo.svg" alt="Duravit" loading="lazy"></span>
+    <span class="uk-marca" title="Doka"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/doka.svg" alt="Doka" loading="lazy"></span>
+    <span class="uk-marca" title="Docol"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/docol.svg" alt="Docol" loading="lazy"></span>
     <a class="uk-marca" href="/marca/deca.html" title="Deca"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/deca.svg" alt="Deca" loading="lazy"></a>
-    <a class="uk-marca" href="/marca/codda.html" title="Codda"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/codda.svg" alt="Codda" loading="lazy"></a>
+    <span class="uk-marca" title="Codda"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/codda.svg" alt="Codda" loading="lazy"></span>
     <a class="uk-marca" href="/marca/bertazzoni.html" title="Bertazzoni"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/bertazzoni.svg" alt="Bertazzoni" loading="lazy"></a>
-    <a class="uk-marca" href="/marca/acqua.html" title="Acqua"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/acqua.svg" alt="Acqua" loading="lazy"></a>
+    <span class="uk-marca" title="Acqua"><img src="https://cdn.awsli.com.br/1080/1080230/arquivos/acqua.svg" alt="Acqua" loading="lazy"></span>
   </div>
 </section>
 
@@ -79,16 +81,16 @@ html body .uk-marcas__titulo {
 }
 .uk-marca img {
   display: block;
-  max-width: 75%;
-  max-height: 38px;
   width: auto;
-  height: auto;
+  height: 80px;
+  max-width: 85%;
+  max-height: none;
   object-fit: contain;
   filter: grayscale(100%);
-  opacity: 0.55;
+  opacity: 0.7;
   transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
 }
-.uk-marca:hover {
+a.uk-marca:hover {
   background: #fafaf8;
 }
 .uk-marca:hover img {
@@ -115,7 +117,7 @@ html body .uk-marcas__titulo {
     height: 80px;
   }
   .uk-marca img {
-    max-height: 30px;
+    height: 60px;
   }
 }
 </style>
