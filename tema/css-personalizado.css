@@ -1076,3 +1076,65 @@ html body .info-principal-produto .codigo-produto a:hover {
     color: #c49a45 !important;
     border-color: #c49a45 !important;
 }
+
+/* ==========================================================================
+   31. PÁGINA DE PRODUTO — LIMPEZA DO LOGO, CAMINHO DE PASTAS E ESPAÇAMENTO
+   ========================================================================== */
+/* Linha embaixo do logo: nas páginas internas o logo é um <h2>, que herda borda do tema */
+html body #cabecalho .logo,
+html body #cabecalho .logo a {
+    border: 0 !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+html body #cabecalho .logo::before,
+html body #cabecalho .logo::after {
+    display: none !important;
+}
+
+/* Caminho de pastas (breadcrumb): discreto, sem ícone de pasta, sem o item "CATEGORIAS" */
+html body .info-principal-produto .breadcrumbs,
+html body .breadcrumbs {
+    border: 0 !important;
+    margin: 0 0 14px 0 !important;
+    padding: 0 !important;
+}
+html body .breadcrumbs ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+html body .breadcrumbs li,
+html body .breadcrumbs a {
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    color: #999999 !important;
+    text-decoration: none !important;
+}
+html body .breadcrumbs a:hover {
+    color: #c49a45 !important;
+}
+html body .breadcrumbs li:last-child a {
+    color: #1a1a1a !important;
+}
+html body .breadcrumbs .fa-folder,
+html body .breadcrumbs .icon-folder-open,
+html body .breadcrumbs .icon-folder-close {
+    display: none !important;
+}
+html body .breadcrumbs li:has(> a[href$="/categoria"]) {
+    display: none !important;
+}
+html body .breadcrumbs li:last-child::after {
+    display: none !important;
+}
+
+/* Espaço vazio entre código/marca e o botão de WhatsApp */
+html body .info-principal-produto + .acoes-produto,
+html body .principal .acoes-produto {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 0 !important;
+}
