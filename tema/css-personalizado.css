@@ -612,3 +612,119 @@ html body .listagem-item .nome-produto {
     line-height: 1.4 !important;
     height: 38px !important;
 }
+
+/* ==========================================================================
+   25. CABEÇALHO FIXO (#barraTopo) — APARECE AO ROLAR, SÓ NO COMPUTADOR
+   Ordem: logo | busca | WhatsApp (logo e WhatsApp inseridos pelo script-cabecalho-fixo.js)
+   ========================================================================== */
+html body #barraTopo {
+    background: #ffffff !important;
+    border-bottom: 1px solid #eaeaea !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06) !important;
+    height: auto !important;
+    padding: 10px 0 !important;
+}
+html body #barraTopo > .conteiner > .row-fluid {
+    display: flex !important;
+    align-items: center !important;
+    gap: 30px !important;
+}
+html body #barraTopo > .conteiner > .row-fluid > [class*="span"] {
+    float: none !important;
+    width: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+}
+html body #barraTopo > .conteiner > .row-fluid > .span6 {
+    order: 2 !important;
+    flex: 1 1 auto !important;
+    max-width: 720px !important;
+    margin: 0 auto !important;
+}
+html body #barraTopo > .conteiner > .row-fluid > .span3:nth-child(2) {
+    order: 3 !important;
+}
+html body #barraTopo .canais-contato {
+    display: none !important;
+}
+
+/* Logo (mesmo recorte do cabeçalho principal, proporção 5:1) */
+html body #barraTopo .titulo {
+    margin: 0 !important;
+    line-height: 0 !important;
+}
+html body #barraTopo .titulo img {
+    display: block !important;
+    width: 175px !important;
+    height: 35px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+/* Busca */
+html body #barraTopo .busca {
+    position: relative !important;
+    height: 40px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 0 !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+}
+html body #barraTopo .busca form {
+    height: 100% !important;
+    margin: 0 !important;
+}
+html body #barraTopo .busca input {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 56px 0 14px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    box-sizing: border-box !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 14px !important;
+    color: #444444 !important;
+}
+html body #barraTopo .busca button {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 46px !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: #1a1a1a !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+html body #barraTopo .busca button:hover {
+    background: #c49a45 !important;
+}
+
+/* WhatsApp */
+html body #barraTopo .uk-topo-wpp {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    white-space: nowrap !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    color: #1a1a1a !important;
+}
+html body #barraTopo .uk-topo-wpp:hover {
+    color: #1DA851 !important;
+}
