@@ -157,3 +157,13 @@ Ações:
 | Pixel do Meta | Aplicativo nativo | `656247179541941` |
 
 Pendente: conferir se o contêiner GTM tem tags com `G-WBGPWNLQDT` ou `656247179541941`, o que seria duplicação.
+
+### Progresso do rastreamento (28/09/2026)
+
+- ✅ GTM manual (BM01) removido: só `GTM-WMXKQ2QM` carrega, via aplicativo.
+- ✅ `script-rodape.html` passou para "Todas as páginas exceto checkout".
+- ✅ Pixel duplicado corrigido: tag `Pixel | Meta Ads | PageView` pausada no GTM. Console: 1 PageView (`656247179541941`).
+- ✅ GA4 duplicado corrigido: tag `Tag | GA4` (`G-WBGPWNLQDT`) pausada no GTM. O Tempo real da propriedade 396078289 continua recebendo dados, então o aplicativo nativo funciona.
+- ⚠️ Há duas propriedades GA4 com nome quase igual: 396078289 (recebendo dados) e 346482005 (a verificar).
+- ⚠️ O contêiner antigo `GTM-WVCN28L` não carrega no site e pode ser arquivado.
+- Pendente: acionadores `Acionador | WhatsApp` (Google Ads) e `Acionador | WhatsApp [SITE NOVO]` (Meta) são diferentes, então os leads de WhatsApp podem não estar chegando ao Google Ads. Também falta verificar o ID do `Remarketing do Google Ads`.
