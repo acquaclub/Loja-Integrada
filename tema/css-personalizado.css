@@ -905,3 +905,11 @@ html body #barraTopo .uk-topo-wpp:hover {
         margin-top: 0 !important;
     }
 }
+
+/* ==========================================================================
+   27. PÁGINA DE PRODUTO — ESCONDE O PAINEL LATERAL FLUTUANTE (seta "←")
+   Em modo catálogo ele só repete foto, nome e o texto de contato.
+   ========================================================================== */
+html body .acoes-flutuante {
+    display: none !important;
+}
