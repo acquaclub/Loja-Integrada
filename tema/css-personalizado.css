@@ -1058,6 +1058,10 @@ html body .info-principal-produto .codigo-produto {
 }
 html body .info-principal-produto .codigo-produto > span {
     float: none !important;
+    position: static !important;
+    top: auto !important;
+    transform: none !important;
+    vertical-align: baseline !important;
     display: inline-flex !important;
     align-items: baseline !important;
     gap: 6px !important;
@@ -1158,6 +1162,7 @@ html body .principal .acoes-produto {
    32. PÁGINA DE PRODUTO — TÍTULO DA DESCRIÇÃO CONVERTIDO DE <h1> PARA <h2>
    (conversão feita pelo script-descricao-titulo.js; mantém o visual da seção 28)
    ========================================================================== */
+html body #descricao article.description h2.uk-desc-titulo,
 html body #descricao h2.uk-desc-titulo {
     font-family: 'Urbane', sans-serif !important;
     font-size: 26px !important;
@@ -1168,6 +1173,7 @@ html body #descricao h2.uk-desc-titulo {
     color: #1a1a1a !important;
 }
 @media (max-width: 767px) {
+    html body #descricao article.description h2.uk-desc-titulo,
     html body #descricao h2.uk-desc-titulo {
         font-size: 20px !important;
     }
