@@ -6,7 +6,9 @@
 (function () {
 
     // 1. SCROLL REVEAL (SURGIMENTO SUAVE DOS PRODUTOS)
-    // Produtos já visíveis na tela aparecem na hora; os de baixo surgem ao rolar.
+    // Os produtos surgem quando entram na tela (os que já estão visíveis aparecem logo no início).
+    // Nada é medido na hora de carregar: o próprio navegador avisa quem está na tela,
+    // sem forçar recálculo da página (apontado pelo PageSpeed como "reflow forçado").
     // Produtos carregados depois (paginação, filtros, carrossel) também são tratados.
     if ('IntersectionObserver' in window && 'MutationObserver' in window) {
         var observador = new IntersectionObserver(function (entradas) {
@@ -21,11 +23,7 @@
         var prepararProdutos = function () {
             document.querySelectorAll('.listagem-item:not(.revelado):not([data-revelar])').forEach(function (item) {
                 item.setAttribute('data-revelar', '');
-                if (window.innerHeight > item.getBoundingClientRect().top) {
-                    item.classList.add('revelado');
-                } else {
-                    observador.observe(item);
-                }
+                observador.observe(item);
             });
         };
 
