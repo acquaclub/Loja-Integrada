@@ -41,7 +41,60 @@
         }).observe(document.body, { childList: true, subtree: true });
     }
 
-    // 2. ACESSIBILIDADE (apontada pelo PageSpeed): região principal da página
+    // 2. MARCA EM CIMA DO NOME NOS CARDS (como na página do produto)
+    //    A marca é reconhecida pelo nome do produto, a partir desta lista (edite quando entrar uma marca nova).
+    //    Card sem marca reconhecida ganha um espaço vazio do mesmo tamanho, para os nomes ficarem alinhados.
+    var MARCAS = ['Bertazzoni', 'Tecno', 'Gorenje', 'Elica', 'U-Line', 'Cuisinart', 'Viking', 'Elettromec', 'Tramontina',
+        'Smeg', 'Falmec', 'Lofra', 'Mekal', 'Dometic', 'Invita', 'SodaStream', 'Evol', 'Fulgor Milano', 'Franke', 'Crissair',
+        'InSinkErator', 'Le Creuset', 'Cheffer', 'Speed Queen', 'Coyote', 'Weber', 'Lynx', 'Kamado Joe', 'De Bacco', 'Ooni',
+        'Duravit', 'Hansgrohe', 'Metalworks', 'TOTO', 'TECE', 'Victoria + Albert', 'Deca', 'Axor', 'Bette', 'Sabbia', 'Jacuzzi',
+        'BWT', 'Docol', 'Banhomais', 'Codda', 'Doka', 'Rubinettos', 'Novellini', 'Konkrë', 'Hydra', 'Denfa', 'Celite', 'Roca',
+        'Portinari', 'Tarkett', 'Ceusa', 'Derosso', 'Adamá', 'Santa Luzia', 'Atlas', 'Quick-Step', 'Durafloor', 'Arquitech',
+        'Glass Mosaic'];
+    var LETRA = 'A-Za-z0-9À-ÖØ-öø-ÿ';
+    var buscaMarcas = MARCAS.map(function (nome) {
+        var texto = nome.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        return { nome: nome, regra: new RegExp('(^|[^' + LETRA + '])' + texto + '(?=[^' + LETRA + ']|$)', 'i') };
+    });
+    var estiloMarca = document.createElement('style');
+    estiloMarca.textContent = 'html body .listagem-item .uk-card-marca{display:flex;align-items:center;gap:8px;margin:16px 0 0;'
+        + "font-family:'Urbane',sans-serif;font-size:10.5px;font-weight:700;line-height:1.4;letter-spacing:2.5px;text-transform:uppercase;color:#1a1a1a;text-align:left}"
+        + 'html body .listagem-item .uk-card-marca::before{content:"";flex:0 0 16px;height:1px;background:#c49a45}'
+        + 'html body .listagem-item .uk-card-marca.vazia{visibility:hidden}'
+        + 'html body .listagem .listagem-item .uk-card-marca + .nome-produto{margin-top:6px !important}';
+    document.head.appendChild(estiloMarca);
+
+    var marcarCards = function () {
+        document.querySelectorAll('.listagem-item:not([data-uk-marca])').forEach(function (item) {
+            item.setAttribute('data-uk-marca', '');
+            var nome = item.querySelector('.nome-produto');
+            if (!nome) return;
+            var titulo = nome.textContent;
+            var achada = null, posicao = Infinity;
+            buscaMarcas.forEach(function (m) {
+                var r = titulo.search(m.regra);
+                if (r > -1 && r < posicao) { posicao = r; achada = m.nome; }
+            });
+            var rotulo = document.createElement('div');
+            rotulo.className = 'uk-card-marca' + (achada ? '' : ' vazia');
+            rotulo.textContent = achada || '—';
+            nome.parentNode.insertBefore(rotulo, nome);
+        });
+    };
+    marcarCards();
+    if ('MutationObserver' in window) {
+        var marcaAgendada = false;
+        new MutationObserver(function () {
+            if (marcaAgendada) return;
+            marcaAgendada = true;
+            requestAnimationFrame(function () {
+                marcaAgendada = false;
+                marcarCards();
+            });
+        }).observe(document.body, { childList: true, subtree: true });
+    }
+
+    // 3. ACESSIBILIDADE (apontada pelo PageSpeed): região principal da página
     //    e nome nos botões que só têm ícone (setas dos carrosséis e menu do celular)
     var nomearBotoes = function () {
         var corpo = document.getElementById('corpo');
@@ -53,7 +106,7 @@
     if (document.readyState === 'complete') nomearBotoes();
     else window.addEventListener('load', nomearBotoes);
 
-    // 3. CARROSSÉIS DE PRODUTOS: ARRASTAR COM O MOUSE (no celular o tema já aceita o dedo)
+    // 4. CARROSSÉIS DE PRODUTOS: ARRASTAR COM O MOUSE (no celular o tema já aceita o dedo)
     //    Clicar, arrastar para o lado e soltar anda a fileira, como as setas.
     //    Depois de um arrasto, o clique não abre o produto sem querer.
     var estiloArrasto = document.createElement('style');
@@ -100,7 +153,7 @@
         if (e.target.closest && e.target.closest('.listagem .flex-viewport')) e.preventDefault();
     });
 
-    // 4. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
+    // 5. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
     //    O tema usa largura fixa por produto; com a página larga sobrava um pedaço do próximo card.
     //    A janela do carrossel passa a ter a largura exata dos produtos que cabem inteiros, centralizada.
     var ajustarJanelas = function () {
@@ -129,7 +182,7 @@
         esperaRedimensionar = setTimeout(ajustarJanelas, 250);
     });
 
-    // 5. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
+    // 6. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
     document.body.addEventListener('minicart_state_changed', function () {
         document.querySelectorAll('#cabecalho .carrinho, .menu.flutuante .carrinho').forEach(function (carrinho) {
             carrinho.classList.add('animar-carrinho');
