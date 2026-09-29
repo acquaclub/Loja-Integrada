@@ -313,7 +313,7 @@ html body #cabecalho .logo img {
         display: flex !important;
         align-items: center !important;
         gap: 40px !important;
-        padding: 12px 0 !important;
+        padding: 12px 0 2px !important;
     }
     /* Remove os "clearfix" do tema, que viram espaços extras dentro do flex */
     html body #cabecalho > .conteiner > .row-fluid::before,
@@ -432,10 +432,11 @@ html body #cabecalho .logo img {
     }
 
     /* Menu: centralizado, fonte da marca, sublinhado dourado no hover */
-    /* Linha de baixo em degradê dourado, só no centro (desenhada no fundo, sem mexer no posicionamento do submenu) */
+    /* Sem linha entre logo e menu; embaixo, traço em degradê dourado só no centro
+       (desenhado no fundo, sem mexer no posicionamento do submenu) e um respiro branco antes do banner */
     html body #cabecalho .menu.superior {
         margin-top: 0 !important;
-        border-top: 1px solid var(--uk-linha) !important;
+        border-top: 0 !important;
         border-bottom: 0 !important;
         box-shadow: none !important;
         background: #ffffff linear-gradient(90deg, rgba(196, 154, 69, 0), #c49a45 50%, rgba(196, 154, 69, 0)) no-repeat center bottom / 70% 1px !important;
@@ -449,6 +450,9 @@ html body #cabecalho .logo img {
         margin-bottom: 0 !important;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
+    }
+    html body #cabecalho .menu.superior {
+        margin-bottom: 16px !important;
     }
     html body #cabecalho .menu.superior .nivel-um > li > a strong,
     html body #cabecalho .menu.superior .nivel-um > li > a span {
@@ -480,9 +484,9 @@ html body #cabecalho .logo img {
     html body #cabecalho .menu.superior .nivel-um > li > a {
         position: relative !important;
         display: block !important;
-        height: 52px !important;
+        height: 46px !important;
         padding: 0 16px !important;
-        line-height: 52px !important;
+        line-height: 46px !important;
         border: none !important;
         transition: color 0.2s ease;
     }
@@ -491,7 +495,7 @@ html body #cabecalho .logo img {
         position: absolute;
         left: 16px;
         right: 16px;
-        bottom: 14px;
+        bottom: 11px;
         height: 1px;
         background: var(--uk-dourado);
         transform: scaleX(0);
