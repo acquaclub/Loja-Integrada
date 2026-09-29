@@ -126,6 +126,15 @@ a.uk-beneficio:hover .uk-beneficio__texto strong {
     font-size: 12px;
   }
 }
+/* Celular: só o título, alinhado ao meio do ícone */
+@media (max-width: 767px) {
+  html body .uk-beneficios .uk-beneficio {
+    align-items: center !important;
+  }
+  html body .uk-beneficios .uk-beneficio__texto span {
+    display: none !important;
+  }
+}
 </style>
 
 <script>
