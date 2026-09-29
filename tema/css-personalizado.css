@@ -313,7 +313,7 @@ html body #cabecalho .logo img {
         display: flex !important;
         align-items: center !important;
         gap: 40px !important;
-        padding: 20px 0 !important;
+        padding: 12px 0 !important;
     }
     /* Remove os "clearfix" do tema, que viram espaços extras dentro do flex */
     html body #cabecalho > .conteiner > .row-fluid::before,
@@ -460,7 +460,10 @@ html body #cabecalho .logo img {
     }
     html body #cabecalho .menu.superior .nivel-um > li > a {
         position: relative !important;
-        padding: 16px 16px !important;
+        display: block !important;
+        height: 52px !important;
+        padding: 0 16px !important;
+        line-height: 52px !important;
         border: none !important;
         transition: color 0.2s ease;
     }
@@ -469,7 +472,7 @@ html body #cabecalho .logo img {
         position: absolute;
         left: 16px;
         right: 16px;
-        bottom: 10px;
+        bottom: 14px;
         height: 1px;
         background: var(--uk-dourado);
         transform: scaleX(0);
@@ -1290,6 +1293,13 @@ html body .wpp-produto-cta:hover {
 }
 html body .wpp-produto-cta svg {
     flex-shrink: 0;
+}
+
+/* --- Respiro entre o menu e o bloco do produto (computador) --- */
+@media (min-width: 980px) {
+    html body .span12.produto {
+        padding-top: 32px !important;
+    }
 }
 
 /* --- Foto principal: zoom suave no hover --- */
