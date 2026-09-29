@@ -7,6 +7,7 @@
 // Topo da página de produto no modo catálogo, ao lado da foto:
 // marca (preta, com traço dourado) > nome > "Valores e condições sob consulta" > botão de WhatsApp >
 // garantias com ícone dourado > código do produto, discreto, no fim.
+// No celular, as miniaturas abaixo da foto ficam pequenas e deslizam com o dedo.
 // O texto padrão do tema ("Para mais informações entre em contato…") é escondido.
 (function () {
     var DOURADO = '#c49a45';
@@ -45,7 +46,21 @@
         + '.uk-topo__codigo > span{float:none !important;display:inline !important;margin:0 !important;padding:0 !important}'
         + '.uk-topo__codigo [itemprop="brand"]{display:none !important}'
         + '.uk-topo__codigo b{font-size:11px !important;font-weight:600 !important;letter-spacing:1px;text-transform:uppercase;color:#1a1a1a !important}'
-        + '.uk-topo__codigo [itemprop="sku"]{font-size:12px !important;letter-spacing:.5px;color:#666666 !important}';
+        + '.uk-topo__codigo [itemprop="sku"]{font-size:12px !important;letter-spacing:.5px;color:#666666 !important}'
+        // Celular: miniaturas pequenas (56px) numa faixa que desliza com o dedo, sem as setas
+        + '@media (max-width:767px){'
+        + 'html body .produto-thumbs #carouselImagem{padding:0 !important;margin:12px 0 0 !important}'
+        + 'html body .produto-thumbs #carouselImagem .flex-direction-nav{display:none !important}'
+        + 'html body .produto-thumbs #carouselImagem .flex-viewport{height:auto !important;overflow-x:auto !important;overflow-y:hidden !important;scrollbar-width:none}'
+        + 'html body .produto-thumbs #carouselImagem .flex-viewport::-webkit-scrollbar{display:none}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas{display:flex !important;gap:8px;width:max-content !important;margin:0 auto !important;padding:0 !important;transform:none !important}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas li{flex:0 0 56px !important;width:56px !important;height:56px !important;margin:0 !important;float:none !important}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas li a{display:block !important;width:56px !important;height:56px !important;padding:3px !important;box-sizing:border-box;'
+        + 'background:#ffffff !important;border:1px solid #e5e5e5 !important;border-radius:0 !important;box-shadow:none !important}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas li.active a{border-color:#1a1a1a !important}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas li a span{display:block !important;width:100% !important;height:100% !important;border:0 !important}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas li a img{display:block !important;width:100% !important;height:100% !important;max-width:none !important;object-fit:contain;border:0 !important}'
+        + '}';
 
     function icone(caminho) {
         return '<svg viewBox="0 0 24 24" fill="none" stroke="' + DOURADO + '" stroke-width="1.6" stroke-linecap="round" '
