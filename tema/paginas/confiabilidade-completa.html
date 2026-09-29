@@ -1,5 +1,5 @@
 <style type="text/css">
-/* Páginas de conteúdo Unikitchen (gerado da seção 11 do CSS personalizado) */
+/* Páginas de conteúdo Unikitchen (gerado de estilo-paginas.css) */
 html body .uk-pg,
 html body .uk-pg * {
     box-sizing: border-box;
@@ -73,6 +73,10 @@ html body .uk-pg .uk-pg__icone {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
+    
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
 }
 html body .uk-pg .uk-pg__icone--https { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18'/%3E%3C/svg%3E");
 }
@@ -152,6 +156,13 @@ html body .uk-pg .uk-pg__card p a {
 html body .uk-pg .uk-pg__card p a:hover {
     color: #c49a45 !important;
 }
+html body .uk-pg .uk-pg__card .uk-pg__botao {
+    margin-top: 24px;
+}
+html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
+    background: #1a1a1a;
+    color: #ffffff !important;
+}
 
 @media (max-width: 767px) {
     html body .uk-pg {
@@ -195,22 +206,22 @@ html body .uk-pg .uk-pg__card p a:hover {
 
   <div class="uk-pg__grade">
     <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--https"></span>
+      <span class="uk-pg__icone uk-pg__icone--https" aria-hidden="true">&nbsp;</span>
       <h3>Protocolo Seguro</h3>
       <p>Verifique o endereço do nosso site: ele começa com <strong>"https"</strong>. Esse "S" final indica que você está em um ambiente criptografado, onde seus dados trafegam de forma privada e protegida.</p>
     </div>
     <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--cadeado"></span>
+      <span class="uk-pg__icone uk-pg__icone--cadeado" aria-hidden="true">&nbsp;</span>
       <h3>Dados Blindados</h3>
       <p>O ícone de <strong>cadeado fechado</strong> na barra do seu navegador é a garantia de que a conexão é segura. Seus dados pessoais e de pagamento não podem ser visualizados por terceiros.</p>
     </div>
     <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--certificado"></span>
+      <span class="uk-pg__icone uk-pg__icone--certificado" aria-hidden="true">&nbsp;</span>
       <h3>Certificações Oficiais</h3>
       <p>Possuímos selos de segurança emitidos por empresas especializadas. Eles atestam que nossa plataforma é auditada constantemente para garantir a integridade das suas informações.</p>
     </div>
     <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--fraude"></span>
+      <span class="uk-pg__icone uk-pg__icone--fraude" aria-hidden="true">&nbsp;</span>
       <h3>Proteção Contra Fraudes</h3>
       <p>A Unikitchen <strong>nunca</strong> envia e-mails com arquivos executáveis (.exe) ou links suspeitos. Caso receba mensagens duvidosas sobre promoções ou concursos, não clique.</p>
     </div>

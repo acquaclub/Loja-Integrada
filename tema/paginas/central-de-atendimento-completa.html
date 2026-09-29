@@ -73,6 +73,10 @@ html body .uk-pg .uk-pg__icone {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
+    
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
 }
 html body .uk-pg .uk-pg__icone--consultoria { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 21l3.8-1 11.9-11.9a2 2 0 0 0 0-2.8l-1-1a2 2 0 0 0-2.8 0L3 16.2z'/%3E%3Cpath d='M13.5 5.5l5 5'/%3E%3Cpath d='M3 21h18'/%3E%3C/svg%3E");
 }
@@ -189,7 +193,7 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
   <div class="uk-pg__grade">
 
     <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--atendimento"></span>
+      <span class="uk-pg__icone uk-pg__icone--atendimento" aria-hidden="true">&nbsp;</span>
       <h3>Fale Conosco</h3>
       <p>SAC (Serviço de Atendimento ao Cliente)</p>
       <span class="uk-pg__telefone">(15) 99610-0914</span>
@@ -198,7 +202,7 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
     </div>
 
     <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--consultoria"></span>
+      <span class="uk-pg__icone uk-pg__icone--consultoria" aria-hidden="true">&nbsp;</span>
       <h3>Informações Importantes</h3>
       <p class="uk-pg__destaque"><strong>Atenção sobre marcas:</strong> algumas marcas podem não estar disponíveis para venda direta em nossa loja online devido a políticas comerciais.</p>
       <p>Mesmo que o produto não esteja visível no site, você pode <strong>solicitar um orçamento</strong> personalizado. Nossa equipe consultará a disponibilidade em nossas lojas físicas para atender o seu projeto.</p>
