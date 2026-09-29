@@ -4,12 +4,14 @@
   Local publicação: Rodapé | Página: Produto | Tipo: JavaScript
   Traz o próprio estilo (não depende do CSS Avançado). Só no computador; no celular fica a faixa do tema.
 */
-// Miniaturas do produto em coluna vertical, à esquerda da foto principal, com a mesma altura dela.
+// Miniaturas do produto em coluna vertical, à esquerda da foto principal. A foto fica numa moldura
+// de altura fixa (a coluna tem a mesma altura), então as setas ficam sempre no mesmo lugar.
 // Com muitas fotos, a coluna vira carrossel (setas para cima e para baixo, com começo e fim).
 // A selecionada fica maior. O clique usa a miniatura original do tema (escondida), então a troca
 // da foto principal continua a mesma. Setas sobre a foto e as setas do teclado (← →) passam de
 // uma foto para outra, parando na primeira e na última.
 (function () {
+    var ALTURA = 520; // altura fixa da moldura da foto e da coluna (px)
     var ESTILO =
         '@media (min-width:980px){'
         + '.uk-galeria-produto{display:flex !important;align-items:flex-start;gap:24px}'
@@ -17,15 +19,15 @@
         + '.uk-galeria-produto > .uk-galeria-produto__foto{order:1;flex:1 1 auto;min-width:0}'
         + '.uk-galeria-produto > .produto-thumbs{display:none !important}'
         // Coluna: seta para cima, janela com as miniaturas, seta para baixo
-        + '.uk-thumbs{flex:0 0 72px;display:flex;flex-direction:column;align-items:center}'
-        + '.uk-thumbs__janela{width:100%;overflow:hidden;scroll-behavior:smooth}'
-        + '.uk-thumbs__trilho{position:relative;display:flex;flex-direction:column;align-items:center;gap:12px;padding:4px 0}'
-        + '.uk-thumbs__item{flex:0 0 auto;display:flex;align-items:center;justify-content:center;width:52px;height:52px;padding:0;margin:0;'
+        + '.uk-thumbs{flex:0 0 64px;display:flex;flex-direction:column;align-items:center;height:' + ALTURA + 'px}'
+        + '.uk-thumbs__janela{flex:1 1 auto;width:100%;min-height:0;overflow:hidden;scroll-behavior:smooth}'
+        + '.uk-thumbs__trilho{position:relative;display:flex;flex-direction:column;align-items:center;gap:10px;padding:4px 0}'
+        + '.uk-thumbs__item{flex:0 0 auto;display:flex;align-items:center;justify-content:center;width:40px;height:40px;padding:0;margin:0;'
         + 'background:#ffffff;border:1px solid transparent;border-radius:0;box-shadow:none;cursor:pointer;opacity:.55;'
         + 'transition:width .3s ease,height .3s ease,opacity .3s ease,border-color .3s ease}'
         + '.uk-thumbs__item:hover{opacity:.9}'
-        + '.uk-thumbs__item.ativa{width:68px;height:68px;opacity:1;border-color:#1a1a1a}'
-        + '.uk-thumbs__item img{display:block;width:100% !important;height:100% !important;max-width:none !important;object-fit:contain;padding:4px;box-sizing:border-box}'
+        + '.uk-thumbs__item.ativa{width:54px;height:54px;opacity:1;border-color:#1a1a1a}'
+        + '.uk-thumbs__item img{display:block;width:100% !important;height:100% !important;max-width:none !important;object-fit:contain;padding:3px;box-sizing:border-box}'
         + '.uk-thumbs__seta{display:none;align-items:center;justify-content:center;flex:0 0 28px;width:100%;height:28px;padding:0;margin:0;'
         + 'background:none;border:0;box-shadow:none;cursor:pointer;transition:opacity .2s ease}'
         + '.uk-thumbs.tem-rolagem .uk-thumbs__seta{display:flex}'
@@ -36,7 +38,8 @@
         + '.uk-thumbs__seta:disabled{opacity:.2;cursor:default}'
         + '.uk-thumbs__seta:disabled::before{border-color:#1a1a1a}'
         // Setas sobre a foto principal (aparecem com o mouse em cima; somem na primeira e na última foto)
-        + '.uk-galeria-produto__foto{position:relative}'
+        + '.uk-galeria-produto__foto{position:relative;height:' + ALTURA + 'px;display:flex;align-items:center;justify-content:center;overflow:hidden}'
+        + '.uk-galeria-produto__foto #imagemProduto{width:auto !important;height:auto !important;max-width:100% !important;max-height:' + ALTURA + 'px !important;object-fit:contain}'
         + '.uk-foto-seta{position:absolute;top:50%;z-index:5;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin-top:-22px;padding:0;'
         + 'background:rgba(255,255,255,.85);border:1px solid #e0e0e0;border-radius:0;box-shadow:none;cursor:pointer;opacity:0;transition:opacity .3s ease,border-color .2s ease}'
         + '.uk-galeria-produto__foto:hover .uk-foto-seta{opacity:1}'
@@ -142,17 +145,10 @@
             botoes[destino].click();
         }
 
-        // A janela das miniaturas acompanha a altura da foto principal
+        // Com mais miniaturas do que cabem na altura da moldura, a coluna vira carrossel
         function ajustarAltura() {
-            var altura = blocoFoto.getBoundingClientRect().height;
-            if (altura < 150) return; // a foto ainda não carregou: espera o evento "load"
             janela.scrollTop = 0;
-            thumbs.classList.remove('tem-rolagem');
-            janela.style.maxHeight = altura + 'px';
-            if (trilho.scrollHeight > altura + 1) {
-                thumbs.classList.add('tem-rolagem');
-                janela.style.maxHeight = (altura - 56) + 'px';
-            }
+            thumbs.classList.toggle('tem-rolagem', trilho.scrollHeight > ALTURA);
             mostrarNaJanela(botoes[atual]);
             atualizarSetasColuna();
         }
@@ -167,9 +163,9 @@
             // primeira e última encostam nas pontas do carrossel
             if (botao === botoes[0]) { janela.scrollTop = 0; return; }
             if (botao === botoes[botoes.length - 1]) { janela.scrollTop = janela.scrollHeight; return; }
-            // posição da miniatura dentro do trilho (a selecionada tem 68px de altura)
+            // posição da miniatura dentro do trilho (a selecionada tem 54px de altura)
             var topo = botao.offsetTop;
-            var fundo = topo + 68;
+            var fundo = topo + 54;
             if (topo < janela.scrollTop) {
                 janela.scrollTop = Math.max(0, topo - 4);
             } else if (fundo > janela.scrollTop + janela.clientHeight) {
@@ -200,7 +196,6 @@
         ajustarAltura();
         marcar(inicial);
 
-        foto.addEventListener('load', ajustarAltura);
         window.addEventListener('resize', ajustarAltura);
     }
 
