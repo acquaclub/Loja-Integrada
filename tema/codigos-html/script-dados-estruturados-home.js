@@ -4,7 +4,7 @@
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: JavaScript
 */
 // Dados estruturados (schema.org) para o Google: o grupo e os três showrooms, com endereço,
-// telefone, horário e perfis oficiais. Ajudam a busca e o Maps a ligar o site às lojas físicas.
+// telefone, horário, marcas e perfis oficiais. Ajudam a busca e o Maps a ligar o site às lojas físicas.
 // Para mudar horário, telefone ou endereço, edite a lista LOJAS abaixo.
 (function () {
     if (document.querySelector('script[data-uk-dados-loja]')) return;
@@ -12,6 +12,15 @@
     var SITE = 'https://www.unikitchen.com.br/';
     var logo = document.querySelector('#cabecalho .logo img');
     var urlLogo = logo ? (logo.currentSrc || logo.src) : undefined;
+
+    // Marcas vendidas em cada loja (edite aqui quando entrar ou sair uma marca)
+    var MARCAS_UNIKITCHEN = ['Tramontina', 'Elettromec', 'Falmec', 'Viking', 'Evol', 'Tecno', 'Bertazzoni', 'Lofra',
+        'Celite', 'Jacuzzi', 'Sabbia', 'Roca', 'Gorenje'];
+    var MARCAS_ACQUA = ['Deca', 'Portinari', 'Ceusa', 'Hydra'];
+
+    function marcas(lista) {
+        return lista.map(function (nome) { return { '@type': 'Brand', 'name': nome }; });
+    }
 
     function horario(dias, abre, fecha) {
         return { '@type': 'OpeningHoursSpecification', 'dayOfWeek': dias, 'opens': abre, 'closes': fecha };
@@ -21,6 +30,7 @@
         '@type': 'Organization',
         '@id': SITE + '#grupo',
         'name': 'Grupo Unikitchen',
+        'description': 'Grupo de lojas de eletrodomésticos, louças, metais e revestimentos de alto padrão, com showrooms em Sorocaba e Itapetininga.',
         'url': SITE,
         'logo': urlLogo,
         'sameAs': ['https://www.instagram.com/unikitchen/'],
@@ -45,6 +55,8 @@
     var LOJAS = [
         {
             'name': 'Unikitchen - Eletrodomésticos, Louças e Metais',
+            'description': 'Loja de eletrodomésticos, louças e metais de alto padrão, com consultoria especializada.',
+            'brand': marcas(MARCAS_UNIKITCHEN),
             'telephone': '+55-15-3217-3499',
             'address': { 'streetAddress': 'Av. Antônio Carlos Comitre, 1253 - Parque Campolim', 'addressLocality': 'Sorocaba', 'postalCode': '18047-620' },
             'openingHoursSpecification': horarios(true),
@@ -53,6 +65,8 @@
         {
             'name': 'Acqua - Louças e Metais Deca & Pisos e Revestimentos Portinari',
             'url': 'https://www.acquaexclusive.com.br/',
+            'description': 'Loja de revestimentos, louças e metais, espaço conceito do Grupo Dexco.',
+            'brand': marcas(MARCAS_ACQUA),
             'sameAs': ['https://www.instagram.com/acquaexclusive/'],
             'telephone': '+55-15-3202-4531',
             'address': { 'streetAddress': 'Rod. João Leme dos Santos, 147 - Parque Reserva Fazenda Imperial', 'addressLocality': 'Sorocaba', 'postalCode': '18052-780' },
@@ -60,6 +74,8 @@
         },
         {
             'name': 'Unikitchen Itapetininga - Eletrodomésticos, Revestimentos, Louças e Metais',
+            'description': 'Loja de eletrodomésticos, revestimentos, louças e metais de alto padrão, com consultoria especializada.',
+            'brand': marcas(MARCAS_UNIKITCHEN),
             'telephone': '+55-15-3500-7995',
             'address': { 'streetAddress': 'Av. Dr. José Ozi, 450 - Urban Mall, Vila Nova Itapetininga', 'addressLocality': 'Itapetininga', 'postalCode': '18203-265' },
             'openingHoursSpecification': horarios(false),
