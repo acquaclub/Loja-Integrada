@@ -11,7 +11,7 @@
 (function () {
     var ESTILO =
         '#descricao article.description{max-width:960px;margin:0 auto}'
-        '#descricao .uk-sanfona{max-width:960px;margin:48px auto 0;border-top:1px solid #1a1a1a}'
+        + '#descricao .uk-sanfona{max-width:960px;margin:48px auto 0;border-top:1px solid #1a1a1a}'
         + '#descricao .uk-sanfona__item{border-bottom:1px solid #d9d6cf}'
         + '#descricao .uk-sanfona__botao{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;margin:0;padding:22px 4px;'
         + 'background:none;border:0;border-radius:0;box-shadow:none;cursor:pointer;text-align:left;'
