@@ -12,8 +12,8 @@
     var DOURADO = '#c49a45';
 
     var ESTILO =
-        '.uk-topo__marca{display:inline-block;margin:6px 0 0;font-family:\'Urbane\',sans-serif;font-size:12px;font-weight:700;'
-        + 'letter-spacing:3px;text-transform:uppercase;color:' + DOURADO + ' !important;text-decoration:none !important;transition:color .2s ease}'
+        '.uk-topo__marca{display:inline-block;margin:6px 0 0;font-family:\'Urbane\',sans-serif;font-size:13px;font-weight:700;'
+        + 'letter-spacing:3px;text-transform:uppercase;color:#9a7430 !important;text-decoration:none !important;transition:color .2s ease}'
         + '.uk-topo__marca:hover{color:#1a1a1a !important}'
         + '.info-principal-produto .nome-produto{margin-top:8px !important}'
         + '.uk-topo__consulta{margin:0 0 6px !important;padding:0 !important;font-family:\'Urbane\',sans-serif;font-size:16px !important;'
