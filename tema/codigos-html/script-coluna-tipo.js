@@ -1,7 +1,7 @@
 /*
   Painel Loja Integrada > Códigos HTML
   Descrição: script-coluna-tipo.js
-  Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: JavaScript
+  Local publicação: Rodapé | Página: Página da categoria | Tipo: JavaScript
   Estilo: seção 9 do CSS personalizado (.uk-tipo)
 */
 // Coluna lateral das categorias: troca a árvore inteira de categorias por um bloco "TIPO"
