@@ -359,19 +359,12 @@ html body #cabecalho .logo img {
         height: 100% !important;
     }
 
-    /* Busca */
+    /* Busca: tamanho, borda, fundo e botão ficam com a lupa do script-cabecalho-fixo.js */
     html body #cabecalho .busca {
         position: relative !important;
         display: block !important;
-        max-width: 560px !important;
-        height: 42px !important;
-        margin: 0 0 0 auto !important;
-        padding: 0 !important;
-        border: 1px solid var(--uk-borda) !important;
         border-radius: 0 !important;
-        background-color: #ffffff !important;
         box-shadow: none !important;
-        overflow: hidden !important;
     }
     html body #cabecalho .busca form {
         position: relative !important;
@@ -386,53 +379,15 @@ html body #cabecalho .logo img {
         max-width: 100% !important;
         height: 100% !important;
         margin: 0 !important;
-        padding: 0 60px 0 15px !important;
         border: none !important;
         background: transparent !important;
         box-sizing: border-box !important;
         font-family: 'Urbane', sans-serif !important;
         font-weight: 300;
-        font-size: 14px !important;
         color: var(--uk-texto) !important;
     }
-    html body #cabecalho .busca .botao-busca,
-    html body #cabecalho .busca button {
-        position: absolute !important;
-        top: 0 !important;
-        right: 0 !important;
-        bottom: 0 !important;
-        left: auto !important;
-        width: 48px !important;
-        height: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        border: none !important;
-        border-radius: 0 !important;
-        background-color: var(--uk-preto) !important;
-        background-image: none !important;
-        color: #ffffff !important;
-        cursor: pointer;
-    }
-    html body #cabecalho .busca .botao-busca i,
-    html body #cabecalho .busca button i,
-    html body #cabecalho .busca button:before {
-        position: static !important;
-        display: inline-block !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        font-size: 16px !important;
-    }
-    html body #cabecalho .busca .botao-busca:hover,
-    html body #cabecalho .busca button:hover {
-        background-color: var(--uk-dourado) !important;
-        background-image: none !important;
-    }
-
-    /* Menu: centralizado, fonte da marca, sublinhado dourado no hover */
-    /* Sem linha entre logo e menu; embaixo, traço em degradê dourado só no centro
+    /* Menu: centralizado, fonte da marca, sublinhado dourado no hover.
+       Sem linha entre logo e menu; embaixo, traço em degradê dourado só no centro
        (desenhado no fundo, sem mexer no posicionamento do submenu) e um respiro branco antes do banner */
     html body #cabecalho .menu.superior {
         margin-top: 0 !important;
@@ -441,7 +396,7 @@ html body #cabecalho .logo img {
         box-shadow: none !important;
         background: #ffffff linear-gradient(90deg, rgba(196, 154, 69, 0), #c49a45 50%, rgba(196, 154, 69, 0)) no-repeat center bottom / 70% 1px !important;
     }
-    /* Menu com altura travada em 52px e texto no meio: zera os espaços que o tema põe em volta */
+    /* Menu com altura travada em 46px e texto no meio: zera os espaços que o tema põe em volta */
     html body #cabecalho .menu.superior,
     html body #cabecalho .menu.superior .nivel-um,
     html body #cabecalho .menu.superior .nivel-um > li {
@@ -539,20 +494,6 @@ html body #barraTopo > .conteiner > .row-fluid > .span6 {
 html body #barraTopo > .conteiner > .row-fluid > .span3:nth-child(2) {
     order: 3 !important;
 }
-html body #barraTopo .canais-contato {
-    display: none !important;
-}
-html body #barraTopo .titulo {
-    margin: 0 !important;
-    line-height: 0 !important;
-}
-html body #barraTopo .titulo img {
-    display: block !important;
-    width: 175px !important;
-    height: 35px !important;
-    object-fit: cover !important;
-    object-position: center !important;
-}
 html body #barraTopo .busca {
     position: relative !important;
     height: 40px !important;
@@ -601,17 +542,13 @@ html body #barraTopo .busca button {
 html body #barraTopo .busca button:hover {
     background: var(--uk-dourado) !important;
 }
+/* WhatsApp do cabeçalho fixo (posição e alinhamento vêm do script) */
 html body #barraTopo .uk-topo-wpp {
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    white-space: nowrap !important;
     font-family: 'Urbane', sans-serif !important;
     font-size: 12px !important;
     font-weight: 600 !important;
     letter-spacing: 0.5px !important;
     text-transform: uppercase !important;
-    text-decoration: none !important;
     color: var(--uk-preto) !important;
 }
 html body #barraTopo .uk-topo-wpp:hover {
@@ -856,25 +793,25 @@ html body .listagem > ul > .listagem-linha {
     padding: 0 !important;
 }
 
-/* Foto: fundo branco, quadrada, zoom suave no hover */
+/* Foto: fundo branco, quadrada, zoom suave no hover (só as fotos do produto, não selos ou ícones do card) */
 html body .listagem-item .imagem-produto,
 html body .listagem-item .foto-produto {
     overflow: hidden !important;
 }
 html body .listagem-item .imagem-produto,
-html body .listagem-item img {
+html body .listagem-item .imagem-produto img {
     background-color: #ffffff !important;
     border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
 }
-html body .listagem-item img {
+html body .listagem-item .imagem-produto img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: contain;
     transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
 }
-html body .listagem-item:hover img {
+html body .listagem-item:hover .imagem-produto img {
     transform: scale(1.04) !important;
 }
 
@@ -1316,31 +1253,6 @@ html body .principal .acoes-produto {
     min-height: 0 !important;
 }
 
-/* --- Botão "Falar no WhatsApp" (o script-whatsapp-produto.js já aplica o estilo;
-       estas regras são reserva caso o estilo do script falhe) --- */
-html body .wpp-produto-cta {
-    display: inline-flex !important;
-    align-items: center;
-    gap: 8px;
-    margin-top: 8px !important;
-    padding: 13px 22px;
-    background-color: var(--uk-verde-wpp) !important;
-    color: #ffffff !important;
-    font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.3px;
-    text-transform: uppercase;
-    text-decoration: none !important;
-    transition: background-color 0.25s ease;
-}
-html body .wpp-produto-cta:hover {
-    background-color: var(--uk-verde-wpp-escuro) !important;
-    color: #ffffff !important;
-}
-html body .wpp-produto-cta svg {
-    flex-shrink: 0;
-}
-
 /* --- Respiro entre o menu e o bloco do produto (computador) --- */
 @media (min-width: 980px) {
     html body .span12.produto {
@@ -1514,11 +1426,9 @@ html body #descricao h2.uk-desc-titulo {
         line-height: 0 !important;
     }
     html body #cabecalho .logo img {
-        margin: 0 auto !important;
-    }
-    html body #cabecalho .logo img {
         width: 160px !important;
         height: 32px !important;
+        margin: 0 auto !important;
     }
 
     /* Linha de busca: botão de menu + campo branco com borda fina */
