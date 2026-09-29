@@ -798,6 +798,29 @@ html body .listagem .titulo-categoria::after {
     margin: 12px auto 0 auto !important;
     background: var(--uk-dourado) !important;
 }
+/* "Produtos relacionados" (página de produto): mesmo padrão dos títulos da home */
+html body .listagem.aproveite-tambem > .titulo {
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 72px 0 32px 0 !important;
+    background: none !important;
+    text-align: center !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    letter-spacing: 2.5px !important;
+    text-transform: uppercase !important;
+    color: var(--uk-preto) !important;
+}
+html body .listagem.aproveite-tambem > .titulo::after {
+    content: "" !important;
+    display: block !important;
+    width: 32px !important;
+    height: 1px !important;
+    margin: 12px auto 0 auto !important;
+    background: var(--uk-dourado) !important;
+}
 
 /* Cards: só o espaço separa um produto do outro */
 html body .listagem .listagem-item,
