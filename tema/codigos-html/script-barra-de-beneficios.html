@@ -9,7 +9,7 @@
   <div class="uk-beneficios__grid">
 
     <div class="uk-beneficio">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M17 11l2 2 4-4"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M17 11l2 2 4-4"/></svg>
       <div class="uk-beneficio__texto">
         <strong>Consultoria especializada</strong>
         <span>Atendimento dedicado ao seu projeto.</span>
@@ -17,23 +17,23 @@
     </div>
 
     <a class="uk-beneficio" href="/pagina/logistica.html">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="6" width="14" height="11" rx="1"/><path d="M15 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="2"/><circle cx="18" cy="18.5" r="2"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="6" width="14" height="11" rx="1"/><path d="M15 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="2"/><circle cx="18" cy="18.5" r="2"/></svg>
       <div class="uk-beneficio__texto">
         <strong>Entrega fracionada</strong>
         <span>Conforme o andamento da sua obra.</span>
       </div>
     </a>
 
-    <div class="uk-beneficio">
-      <span class="uk-beneficio__anos" aria-hidden="true"><b class="uk-anos-numero">20</b><i>anos</i></span>
+    <a class="uk-beneficio" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Ant%C3%B4nio%20Carlos%20Comitre%2C%201253%20-%20Parque%20Campolim%2C%20Sorocaba%20-%20SP" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.5s-7-6.3-7-12a7 7 0 0 1 14 0c0 5.7-7 12-7 12z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
       <div class="uk-beneficio__texto">
-        <strong>Desde 2006</strong>
-        <span>Tradição em eletros, louças e metais.</span>
+        <strong>Showroom em Sorocaba</strong>
+        <span>Veja e conheça os produtos de perto.</span>
       </div>
-    </div>
+    </a>
 
     <div class="uk-beneficio">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg>
       <div class="uk-beneficio__texto">
         <strong>Garantia oficial</strong>
         <span>Produtos originais com garantia do fabricante.</span>
@@ -75,30 +75,7 @@
   transition: stroke 0.2s ease;
 }
 a.uk-beneficio:hover svg {
-  stroke: #c49a45;
-}
-.uk-beneficio__anos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-shrink: 0;
-  width: 38px;
-  line-height: 1;
-  font-family: 'Urbane', sans-serif;
-  color: #1a1a1a;
-}
-.uk-beneficio__anos b {
-  font-size: 28px;
-  font-weight: 300;
-  letter-spacing: -0.5px;
-}
-.uk-beneficio__anos i {
-  margin-top: 2px;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
+  stroke: #1a1a1a;
 }
 .uk-beneficio__texto {
   display: flex;
@@ -141,15 +118,6 @@ a.uk-beneficio:hover .uk-beneficio__texto strong {
     width: 30px;
     height: 30px;
   }
-  .uk-beneficio__anos {
-    width: 30px;
-  }
-  .uk-beneficio__anos b {
-    font-size: 22px;
-  }
-  .uk-beneficio__anos i {
-    font-size: 8px;
-  }
   .uk-beneficio__texto strong {
     font-size: 12px;
     letter-spacing: 0.8px;
@@ -164,8 +132,6 @@ a.uk-beneficio:hover .uk-beneficio__texto strong {
 $(document).ready(function(){
   var $barra = $('.uk-beneficios');
   if ($barra.length === 0) return;
-  // Anos de história calculados a partir de 2006 (atualiza sozinho todo ano)
-  $barra.find('.uk-anos-numero').text(new Date().getFullYear() - 2006);
   if ($('.secao-banners').length > 0) {
     $('.secao-banners').after($barra);
   } else if ($('#banner-home').length > 0) {
