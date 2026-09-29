@@ -4,7 +4,7 @@
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: JavaScript
 */
 // Dados estruturados (schema.org) para o Google: o grupo e os três showrooms, com endereço,
-// telefone e horário. Ajudam a busca e o Maps a ligar o site às lojas físicas.
+// telefone, horário e perfis oficiais. Ajudam a busca e o Maps a ligar o site às lojas físicas.
 // Para mudar horário, telefone ou endereço, edite a lista LOJAS abaixo.
 (function () {
     if (document.querySelector('script[data-uk-dados-loja]')) return;
@@ -23,6 +23,7 @@
         'name': 'Grupo Unikitchen',
         'url': SITE,
         'logo': urlLogo,
+        'sameAs': ['https://www.instagram.com/unikitchen/'],
         'contactPoint': {
             '@type': 'ContactPoint',
             'telephone': '+55-15-99610-0914',
@@ -46,10 +47,13 @@
             'name': 'Unikitchen - Eletrodomésticos, Louças e Metais',
             'telephone': '+55-15-3217-3499',
             'address': { 'streetAddress': 'Av. Antônio Carlos Comitre, 1253 - Parque Campolim', 'addressLocality': 'Sorocaba', 'postalCode': '18047-620' },
-            'openingHoursSpecification': horarios(true)
+            'openingHoursSpecification': horarios(true),
+            'sameAs': ['https://www.instagram.com/unikitchen/']
         },
         {
             'name': 'Acqua - Louças e Metais Deca & Pisos e Revestimentos Portinari',
+            'url': 'https://www.acquaexclusive.com.br/',
+            'sameAs': ['https://www.instagram.com/acquaexclusive/'],
             'telephone': '+55-15-3202-4531',
             'address': { 'streetAddress': 'Rod. João Leme dos Santos, 147 - Parque Reserva Fazenda Imperial', 'addressLocality': 'Sorocaba', 'postalCode': '18052-780' },
             'openingHoursSpecification': horarios(false)
@@ -58,13 +62,14 @@
             'name': 'Unikitchen Itapetininga - Eletrodomésticos, Revestimentos, Louças e Metais',
             'telephone': '+55-15-3500-7995',
             'address': { 'streetAddress': 'Av. Dr. José Ozi, 450 - Urban Mall, Vila Nova Itapetininga', 'addressLocality': 'Itapetininga', 'postalCode': '18203-265' },
-            'openingHoursSpecification': horarios(false)
+            'openingHoursSpecification': horarios(false),
+            'sameAs': ['https://www.instagram.com/unikitchen/']
         }
     ];
 
     var dados = [GRUPO].concat(LOJAS.map(function (loja) {
         loja['@type'] = 'HomeGoodsStore';
-        loja.url = SITE;
+        loja.url = loja.url || SITE;
         loja.priceRange = '$$$';
         loja.image = urlLogo;
         loja.parentOrganization = { '@id': SITE + '#grupo' };
