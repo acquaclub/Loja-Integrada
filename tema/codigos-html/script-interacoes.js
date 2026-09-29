@@ -43,7 +43,19 @@
         }).observe(document.body, { childList: true, subtree: true });
     }
 
-    // 2. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
+    // 2. ACESSIBILIDADE (apontada pelo PageSpeed): região principal da página
+    //    e nome nos botões que só têm ícone (setas dos carrosséis e menu do celular)
+    var nomearBotoes = function () {
+        var corpo = document.getElementById('corpo');
+        if (corpo && !corpo.getAttribute('role')) corpo.setAttribute('role', 'main');
+        document.querySelectorAll('a.flex-prev:not([aria-label])').forEach(function (a) { a.setAttribute('aria-label', 'Anterior'); });
+        document.querySelectorAll('a.flex-next:not([aria-label])').forEach(function (a) { a.setAttribute('aria-label', 'Próximo'); });
+        document.querySelectorAll('.atalho-menu:not([aria-label])').forEach(function (a) { a.setAttribute('aria-label', 'Menu'); });
+    };
+    if (document.readyState === 'complete') nomearBotoes();
+    else window.addEventListener('load', nomearBotoes);
+
+    // 3. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
     document.body.addEventListener('minicart_state_changed', function () {
         document.querySelectorAll('#cabecalho .carrinho, .menu.flutuante .carrinho').forEach(function (carrinho) {
             carrinho.classList.add('animar-carrinho');
