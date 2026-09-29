@@ -999,6 +999,24 @@ html body .coluna .menu.lateral:not(.outras) .nivel-um > li.ativo > a {
     color: var(--uk-preto) !important;
     background: linear-gradient(var(--uk-dourado), var(--uk-dourado)) no-repeat left bottom / 32px 1px !important;
 }
+/* Nome dentro do link vem num <strong class="titulo"> que o tema trata como título
+   (outra fonte e muito espaço em volta): passa a herdar o estilo do link */
+html body .coluna .menu.lateral .nivel-um li > a strong,
+html body .coluna .menu.lateral .nivel-um li > a .titulo {
+    display: inline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: none !important;
+    font: inherit !important;
+    letter-spacing: inherit !important;
+    text-transform: inherit !important;
+    color: inherit !important;
+    line-height: inherit !important;
+}
+html body .coluna .menu.lateral .nivel-um li > a {
+    line-height: 1.4 !important;
+}
 /* Bloco "outras" (marcas) ganha um título */
 html body .coluna .menu.lateral.outras::before {
     content: "Marcas";
@@ -1066,13 +1084,19 @@ html body .coluna .uk-tipo__lista a.ativo {
 html body .coluna .filtro-coluna:not(.faceta-funcao):not(.faceta-largura) {
     display: none !important;
 }
+html body .coluna .filtro-coluna,
 html body .coluna .filtro-coluna .filtro,
+html body .coluna .filtro-coluna .atributo-lista,
 html body .coluna .filtro {
     margin: 0 !important;
     padding: 0 !important;
     border: 0 !important;
+    outline: 0 !important;
     background: transparent !important;
     box-shadow: none !important;
+}
+html body .coluna .filtro-coluna {
+    margin: 0 0 40px 0 !important;
 }
 html body .coluna .filtro .titulo {
     margin: 0 0 12px 0 !important;
