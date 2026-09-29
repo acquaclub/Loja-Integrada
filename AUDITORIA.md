@@ -240,3 +240,12 @@ Pendências de conteúdo destas páginas:
 - Home: barra de qualidades (consultoria, entrega fracionada, showroom, garantia) com ícones dourados; marcas maiores e sem fundo branco; setas e indicadores do banner redesenhados.
 - Produto: descrição em sanfona (script-produto-sanfona.js); fotos em moldura fixa, miniaturas em coluna com carrossel, setas e janela ampliada própria (script-produto-miniaturas.min.js — versão compacta por causa do limite de 15 mil caracteres).
 - Rodapé: link "Como Comprar" removido (página inativa); link "Marcas" aponta para página inativa até ser refeita.
+
+### Progresso (29/09/2026, tarde)
+- Produto: topo em modo catálogo (script-produto-topo.js): marca preta com traço dourado, "Valores e condições sob consulta", voltagem em botões retos, garantias com ícone dourado, código no fim; no celular, miniaturas de 56px deslizantes; escondidos o ícone de WhatsApp do tema e as bordas da caixa de ações vazia. "Produtos relacionados" no padrão dos títulos da home.
+- Cabeçalho: menu mais baixo (46px), sem linha entre logo e menu, degradê dourado embaixo. Celular: script-cabecalho-celular.js (logo centralizado, menu fino, lupa que abre a busca, pino do mapa).
+- Home: WhatsApp flutuante com "x" para fechar o balão; barra de qualidades só com título no celular.
+- CSS limpo (itens 22 e 23): blocos colados no fim reintegrados às seções, regras sobrescritas pelos scripts removidas; equivalência verificada (1400/900/390px).
+- PageSpeed (29/09): celular 31 (FCP 6,1 s, LCP 15,7 s, CLS 0); computador 33 (CLS 0,388). Correção aplicada: altura do banner reservada no computador (aguarda nova medição). Acessibilidade: contraste do subtítulo das marcas, nomes nas setas e no menu, região principal.
+- Dados estruturados: grupo + 3 showrooms (HomeGoodsStore) com endereço, horário, marcas e perfis — validados no teste de pesquisa aprimorada. Produto: só falta "offers" (esperado no modo catálogo). Casa Osten (SP) fica fora por ser espaço de terceiros.
+- Pendências com a loja: reexportar banners em JPG (1920×520, área segura 1200×440; celular 800×800), meta descrição da home, revisar terceiros (GTM possivelmente duplicado, Enviou, login Google, SDK Facebook, Analytics antigo, ebit).
