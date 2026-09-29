@@ -12,26 +12,26 @@
     var DOURADO = '#c49a45';
 
     var ESTILO =
-        '.uk-topo__marca{display:inline-block;margin:6px 0 0;font-family:\'Urbane\',sans-serif;font-size:11px;font-weight:700;'
+        '.uk-topo__marca{display:inline-block;margin:6px 0 0;font-family:\'Urbane\',sans-serif;font-size:12px;font-weight:700;'
         + 'letter-spacing:3px;text-transform:uppercase;color:' + DOURADO + ' !important;text-decoration:none !important;transition:color .2s ease}'
         + '.uk-topo__marca:hover{color:#1a1a1a !important}'
         + '.info-principal-produto .nome-produto{margin-top:8px !important}'
-        + '.uk-topo__consulta{margin:0 0 6px !important;padding:0 !important;font-family:\'Urbane\',sans-serif;font-size:15px !important;'
-        + 'font-weight:300 !important;line-height:1.6 !important;letter-spacing:.2px;color:#666666 !important}'
+        + '.uk-topo__consulta{margin:0 0 6px !important;padding:0 !important;font-family:\'Urbane\',sans-serif;font-size:16px !important;'
+        + 'font-weight:400 !important;line-height:1.6 !important;letter-spacing:.2px;color:#333333 !important}'
         + '.principal .produto-mais-info{display:none !important}'
-        + '.uk-topo__garantias{list-style:none;margin:28px 0 0 !important;padding:22px 0 0 !important;border-top:1px solid #eeeeee;display:grid;gap:12px}'
+        + '.uk-topo__garantias{list-style:none;margin:28px 0 0 !important;padding:22px 0 0 !important;border-top:1px solid #e5e5e5;display:grid;gap:14px}'
         + '.uk-topo__garantias li{display:flex;align-items:center;gap:12px;margin:0;padding:0;font-family:\'Urbane\',sans-serif;'
-        + 'font-size:13px;font-weight:300;line-height:1.4;color:#555555}'
-        + '.uk-topo__garantias svg{display:block;flex:0 0 18px;width:18px;height:18px}'
+        + 'font-size:14px;font-weight:400;line-height:1.4;color:#333333}'
+        + '.uk-topo__garantias svg{display:block;flex:0 0 20px;width:20px;height:20px}'
         + '.principal .codigo-produto.uk-topo__codigo{display:block !important;margin:22px 0 0 !important;padding:18px 0 0 !important;'
-        + 'border:0 !important;border-top:1px solid #eeeeee !important;font-family:\'Urbane\',sans-serif;font-size:11px !important;color:#999999 !important}'
+        + 'border:0 !important;border-top:1px solid #e5e5e5 !important;font-family:\'Urbane\',sans-serif;font-size:12px !important;color:#666666 !important}'
         + '.uk-topo__codigo > span{float:none !important;display:inline !important;margin:0 !important;padding:0 !important}'
         + '.uk-topo__codigo [itemprop="brand"]{display:none !important}'
-        + '.uk-topo__codigo b{font-size:11px !important;font-weight:600 !important;letter-spacing:1px;text-transform:uppercase;color:#999999 !important}'
-        + '.uk-topo__codigo [itemprop="sku"]{font-size:11px !important;letter-spacing:.5px;color:#999999 !important}';
+        + '.uk-topo__codigo b{font-size:11px !important;font-weight:600 !important;letter-spacing:1px;text-transform:uppercase;color:#1a1a1a !important}'
+        + '.uk-topo__codigo [itemprop="sku"]{font-size:12px !important;letter-spacing:.5px;color:#666666 !important}';
 
     function icone(caminho) {
-        return '<svg viewBox="0 0 24 24" fill="none" stroke="' + DOURADO + '" stroke-width="1.4" stroke-linecap="round" '
+        return '<svg viewBox="0 0 24 24" fill="none" stroke="' + DOURADO + '" stroke-width="1.6" stroke-linecap="round" '
             + 'stroke-linejoin="round" aria-hidden="true">' + caminho + '</svg>';
     }
 
