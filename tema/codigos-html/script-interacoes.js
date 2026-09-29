@@ -156,30 +156,59 @@
     // 5. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
     //    O tema usa largura fixa por produto; com a página larga sobrava um pedaço do próximo card.
     //    A janela do carrossel passa a ter a largura exata dos produtos que cabem inteiros, centralizada.
-    var ajustarJanelas = function () {
-        document.querySelectorAll('.listagem .flex-viewport').forEach(function (janela) {
-            janela.style.maxWidth = '';
-            var item = janela.querySelector('li');
-            if (!item) return;
+    //    A fileira fica invisível até ser ajustada (no instante em que o carrossel liga) e aparece com
+    //    um fade: assim não se vê o pedaço do próximo card nem o "pulo". Se algo falhar, aparece em 6 s.
+    var estiloJanela = document.createElement('style');
+    estiloJanela.textContent = '.listagem .flex-viewport{opacity:0;transition:opacity .3s ease}'
+        + '.listagem .flex-viewport.uk-ajustada{opacity:1}';
+    document.head.appendChild(estiloJanela);
+
+    var ajustarJanela = function (janela) {
+        janela.style.maxWidth = '';
+        var item = janela.querySelector('li');
+        if (item) {
             var estilo = getComputedStyle(item);
             var margemDireita = parseFloat(estilo.marginRight) || 0;
             var passo = item.getBoundingClientRect().width + (parseFloat(estilo.marginLeft) || 0) + margemDireita;
             var largura = janela.getBoundingClientRect().width;
-            if (!passo || !largura) return;
-            var cabem = Math.max(1, Math.floor((largura + margemDireita + 1) / passo));
-            var util = cabem * passo - margemDireita;
-            if (largura - util > 2) {
-                janela.style.maxWidth = util + 'px';
-                janela.style.marginLeft = 'auto';
-                janela.style.marginRight = 'auto';
+            if (passo && largura) {
+                var cabem = Math.max(1, Math.floor((largura + margemDireita + 1) / passo));
+                var util = cabem * passo - margemDireita;
+                if (largura - util > 2) {
+                    janela.style.maxWidth = util + 'px';
+                    janela.style.marginLeft = 'auto';
+                    janela.style.marginRight = 'auto';
+                }
             }
-        });
+        }
+        janela.classList.add('uk-ajustada');
     };
-    window.addEventListener('load', function () { setTimeout(ajustarJanelas, 300); });
+
+    // Vigia cada carrossel e ajusta assim que o tema o liga (quando a fileira ganha largura própria)
+    var inicioVigia = Date.now();
+    var vigiarCarrosseis = function () {
+        var pendentes = document.querySelectorAll('.listagem .flex-viewport:not(.uk-ajustada)');
+        pendentes.forEach(function (janela) {
+            var fileira = janela.querySelector('ul');
+            if (fileira && fileira.style.width) ajustarJanela(janela);
+        });
+        if (!document.querySelector('.listagem .flex-viewport:not(.uk-ajustada)')) return;
+        if (Date.now() - inicioVigia < 6000) {
+            requestAnimationFrame(vigiarCarrosseis);
+        } else {
+            document.querySelectorAll('.listagem .flex-viewport:not(.uk-ajustada)').forEach(function (janela) {
+                janela.classList.add('uk-ajustada');
+            });
+        }
+    };
+    requestAnimationFrame(vigiarCarrosseis);
+
     var esperaRedimensionar;
     window.addEventListener('resize', function () {
         clearTimeout(esperaRedimensionar);
-        esperaRedimensionar = setTimeout(ajustarJanelas, 250);
+        esperaRedimensionar = setTimeout(function () {
+            document.querySelectorAll('.listagem .flex-viewport').forEach(ajustarJanela);
+        }, 250);
     });
 
     // 6. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
