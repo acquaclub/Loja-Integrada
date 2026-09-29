@@ -43,6 +43,7 @@
         + 'border:0 !important;border-left:2px solid #c49a45 !important;border-radius:0 !important;text-align:left !important;'
         + "font-family:'Urbane',sans-serif;font-size:14px !important;font-weight:300;line-height:1.7;color:#555555 !important}"
         + '#descricao .alert-box strong,#descricao .guarantee strong{font-weight:600;color:#1a1a1a}'
+        + '#descricao .uk-sanfona__conteudo .guarantee{margin-top:16px !important}'
         + '@media (max-width:767px){#descricao .uk-sanfona{margin-top:32px}#descricao .uk-sanfona__botao{padding:18px 2px;font-size:12px}'
         + '#descricao table th,#descricao table td{padding:11px 8px;font-size:13px}#descricao table th{width:45%}}';
 
@@ -121,6 +122,19 @@
             item.appendChild(painel);
             sanfona.appendChild(item);
         });
+
+        // A caixa de garantia vai para dentro da seção "Garantia", se existir
+        var itemGarantia = [].filter.call(sanfona.querySelectorAll('.uk-sanfona__item'), function (it) {
+            return /garantia/i.test(it.querySelector('.uk-sanfona__botao').textContent);
+        })[0];
+        if (itemGarantia) {
+            var destino = itemGarantia.querySelector('.uk-sanfona__conteudo');
+            avisos = [].filter.call(avisos, function (a) {
+                if (!a.matches('.guarantee')) return true;
+                destino.appendChild(a);
+                return false;
+            });
+        }
 
         if (avisos.length) {
             var rodape = document.createElement('div');
