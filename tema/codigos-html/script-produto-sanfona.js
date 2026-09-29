@@ -62,6 +62,29 @@
         estilo.textContent = ESTILO;
         document.head.appendChild(estilo);
 
+        // Página contínua: tira borda e sombra das caixas do tema em volta da descrição
+        // (para antes de chegar no bloco com as fotos e o nome do produto)
+        var caixa = descricao;
+        for (var n = 0; n < 5 && caixa && caixa !== document.body; n++) {
+            if (caixa.querySelector('.info-principal-produto, #carouselImagem, .produto-imagem')) break;
+            caixa.style.setProperty('border', '0', 'important');
+            caixa.style.setProperty('box-shadow', 'none', 'important');
+            caixa.style.setProperty('background', 'transparent', 'important');
+            caixa = caixa.parentElement;
+        }
+
+        // Asteriscos soltos no texto (*palavra*) viram itálico
+        var andar = document.createTreeWalker(descricao, NodeFilter.SHOW_TEXT, null);
+        var textos = [];
+        while (andar.nextNode()) {
+            if (/\*[^*\n]+\*/.test(andar.currentNode.nodeValue)) textos.push(andar.currentNode);
+        }
+        textos.forEach(function (t) {
+            var span = document.createElement('span');
+            span.innerHTML = t.nodeValue.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\*([^*\n]+)\*/g, '<em>$1</em>');
+            t.parentNode.replaceChild(span, t);
+        });
+
         // Aviso e garantia saem das seções e ficam abertos, logo abaixo da sanfona
         var avisos = descricao.querySelectorAll('.alert-box, .guarantee');
 
