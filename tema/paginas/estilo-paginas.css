@@ -404,6 +404,15 @@ html body .uk-pg .uk-pg__card-rotulo + p {
 }
 
 
+/* Grade com um card só, centralizado (ex.: local de retirada) */
+html body .uk-pg .uk-pg__grade--1 {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /* Faixa de destaques (ex.: infraestrutura em Diferenciais e Logística) */
 html body .uk-pg .uk-pg__faixa {
     display: grid;

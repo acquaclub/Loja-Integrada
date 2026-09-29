@@ -175,9 +175,6 @@ html body .uk-pg .uk-pg__subtitulo::after {
     margin: 12px auto 0;
     background: #c49a45;
 }
-html body .uk-pg .uk-pg__grade--3 {
-    grid-template-columns: repeat(3, 1fr);
-}
 html body .uk-pg .uk-pg__card-rotulo {
     display: block;
     margin: -4px 0 20px;
@@ -190,15 +187,17 @@ html body .uk-pg .uk-pg__card-rotulo {
 html body .uk-pg .uk-pg__card-rotulo + p {
     margin-top: 0 !important;
 }
+html body .uk-pg .uk-pg__grade--1 {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+}
 html body .uk-pg .uk-pg__card .uk-pg__passo-num {
     margin-bottom: 20px;
     font-size: 34px;
 }
-@media (max-width: 979px) {
-    html body .uk-pg .uk-pg__grade--3 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+
 @media (max-width: 767px) {
     html body .uk-pg {
         padding: 44px 16px 56px;
@@ -224,9 +223,6 @@ html body .uk-pg .uk-pg__card .uk-pg__passo-num {
         gap: 32px;
         margin-bottom: 56px;
     }
-    html body .uk-pg .uk-pg__grade--3 {
-        grid-template-columns: 1fr;
-    }
 }
 </style>
 <div class="uk-pg">
@@ -234,7 +230,7 @@ html body .uk-pg .uk-pg__card .uk-pg__passo-num {
   <div class="uk-pg__abertura">
     <p class="uk-pg__rotulo">Retirada Fácil</p>
     <h2 class="uk-pg__titulo">Retire na loja</h2>
-    <p class="uk-pg__texto">Compre online com conforto e retire em uma de nossas unidades exclusivas.</p>
+    <p class="uk-pg__texto">Compre online com conforto e retire na Acqua, nosso centro de distribuição em Sorocaba.</p>
   </div>
 
   <div class="uk-pg__passos">
@@ -255,32 +251,16 @@ html body .uk-pg .uk-pg__card .uk-pg__passo-num {
     </div>
   </div>
 
-  <h2 class="uk-pg__subtitulo">Nossas unidades</h2>
+  <h2 class="uk-pg__subtitulo">Local de retirada</h2>
 
-  <div class="uk-pg__grade uk-pg__grade--3">
+  <div class="uk-pg__grade uk-pg__grade--1">
     <div class="uk-pg__card">
       <span class="uk-pg__icone uk-pg__icone--rastreio"></span>
       <h3>Acqua Exclusive</h3>
-      <span class="uk-pg__card-rotulo">Deca, Portinari, Hydra, Ceusa e Durafloor</span>
+      <span class="uk-pg__card-rotulo">Centro de distribuição e estoque</span>
       <p><strong>Endereço</strong><br>Rod. João Leme dos Santos, 147<br>Parque Reserva Fazenda Imperial<br>Sorocaba - SP, 18052-780</p>
       <p><strong>Horário de retirada</strong><br>Seg a Sex: 09h às 17h</p>
       <a class="uk-pg__link" href="https://www.google.com/maps/search/?api=1&amp;query=Rod+Joao+Leme+dos+Santos+147+Sorocaba" target="_blank" rel="noopener">Ver no Google Maps</a>
-    </div>
-    <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--rastreio"></span>
-      <h3>Unikitchen Sorocaba</h3>
-      <span class="uk-pg__card-rotulo">Louças, Metais e Eletrodomésticos</span>
-      <p><strong>Endereço</strong><br>Av. Antônio Carlos Comitre, 1253<br>Parque Campolim<br>Sorocaba - SP, 18047-620</p>
-      <p><strong>Horário de retirada</strong><br>Seg a Sex: 09h às 17h</p>
-      <a class="uk-pg__link" href="https://www.google.com/maps/search/?api=1&amp;query=Av+Antonio+Carlos+Comitre+1253+Sorocaba" target="_blank" rel="noopener">Ver no Google Maps</a>
-    </div>
-    <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--rastreio"></span>
-      <h3>Unikitchen Itapetininga</h3>
-      <span class="uk-pg__card-rotulo">Revestimentos, Louças, Metais e Eletrodomésticos</span>
-      <p><strong>Endereço</strong><br>Urban Mall - Av. Dr. José Ozi, 450<br>Vila Nova Itapetininga<br>Itapetininga - SP, 18203-265</p>
-      <p><strong>Horário de retirada</strong><br>Seg a Sex: 09h às 17h</p>
-      <a class="uk-pg__link" href="https://www.google.com/maps/search/?api=1&amp;query=Av+Dr+Jose+Ozi+450+Itapetininga" target="_blank" rel="noopener">Ver no Google Maps</a>
     </div>
   </div>
 
