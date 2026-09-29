@@ -1066,8 +1066,8 @@ html body .coluna .menu.lateral .nivel-um li > a {
 html body .coluna .menu.lateral .nivel-um li > a:hover {
     color: var(--uk-dourado) !important;
 }
-/* Categoria/marca atual (primeiro bloco) vira título da coluna */
-html body .coluna .menu.lateral:not(.outras) .nivel-um > li.ativo > a {
+/* "CATEGORIAS" (primeiro item da lista) é sempre o título da coluna, em qualquer categoria */
+html body .coluna .menu.lateral:not(.outras) .nivel-um > li > a {
     padding: 0 0 12px 0 !important;
     margin-bottom: 8px !important;
     font-size: 13px !important;
