@@ -1271,45 +1271,19 @@ html body .pagination ul > li.disabled > span {
     opacity: 0.3 !important;
 }
 
-/* --- Ordenação: "ORDENAR POR  Relevância ⌄" numa linha só, com traço fino embaixo.
+/* --- Ordenação: só o botão "ORDENAR POR ⌄" com traço fino embaixo (o rótulo "Relevância" do tema sai).
        O tema monta: .input-append > label "Relevância" + .btn-group > botão com a seta + lista.
        No modo catálogo, só Relevância e Ordem alfabética (preço, desconto e mais vendidos saem) --- */
 html body #corpo .conteudo .input-append {
     display: inline-flex !important;
     align-items: center !important;
-    height: 36px !important;
     margin: 0 !important;
     padding: 0 !important;
     border: 0 !important;
-    border-bottom: 1px solid var(--uk-preto) !important;
-    font-size: 13px !important;
-    white-space: nowrap !important;
-}
-html body #corpo .conteudo .input-append::before {
-    content: "Ordenar por";
-    margin-right: 12px;
-    font-family: 'Urbane', sans-serif;
-    font-size: 10.5px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--uk-cinza-claro);
+    vertical-align: middle !important;
 }
 html body #corpo .conteudo .input-append label {
-    display: inline-block !important;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    font-family: 'Urbane', sans-serif !important;
-    font-size: 13px !important;
-    font-weight: 400 !important;
-    line-height: 36px !important;
-    color: var(--uk-preto) !important;
-    cursor: pointer !important;
+    display: none !important;
 }
 html body #corpo .conteudo .input-append .btn-group {
     display: inline-flex !important;
@@ -1318,16 +1292,32 @@ html body #corpo .conteudo .input-append .btn-group {
 html body #corpo .conteudo .input-append .dropdown-toggle {
     display: inline-flex !important;
     align-items: center !important;
+    gap: 12px !important;
     height: 36px !important;
     margin: 0 !important;
-    padding: 0 4px 0 10px !important;
+    padding: 0 2px !important;
     background: transparent !important;
     background-image: none !important;
     border: 0 !important;
+    border-bottom: 1px solid var(--uk-preto) !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     text-shadow: none !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: var(--uk-preto) !important;
     cursor: pointer !important;
+    transition: color 0.2s ease, border-color 0.2s ease !important;
+}
+html body #corpo .conteudo .input-append .dropdown-toggle::before {
+    content: "Ordenar por";
+}
+html body #corpo .conteudo .input-append .dropdown-toggle:hover {
+    color: var(--uk-dourado) !important;
+    border-bottom-color: var(--uk-dourado) !important;
 }
 html body #corpo .conteudo .input-append .dropdown-toggle i {
     display: none !important;
@@ -1338,8 +1328,8 @@ html body #corpo .conteudo .input-append .dropdown-toggle::after {
     width: 6px;
     height: 6px;
     margin-top: -4px;
-    border-right: 1px solid var(--uk-preto);
-    border-bottom: 1px solid var(--uk-preto);
+    border-right: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
     transform: rotate(45deg);
 }
 html body #corpo .conteudo .input-append .dropdown-menu {
