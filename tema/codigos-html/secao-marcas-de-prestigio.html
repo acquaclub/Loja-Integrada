@@ -96,6 +96,8 @@ html body .uk-marcas__titulo {
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.7;
+  /* Alguns arquivos de logo vêm com fundo branco: "multiply" faz o branco sumir no fundo da faixa */
+  mix-blend-mode: multiply;
   transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
 }
 a.uk-marca:hover {
