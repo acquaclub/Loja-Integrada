@@ -2,21 +2,21 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-whatsapp-home.js
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
+  O "x" fecha só o balão; o círculo verde continua. Fechado, o balão não volta até o fim da visita.
 -->
 <!-- BOTÃO FLUTUANTE DE WHATSAPP - EXCLUSIVO HOME -->
-<a href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Unikitchen%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." 
-   target="_blank" 
-   rel="noopener" 
-   class="wpp-flutuante-home" 
-   aria-label="Fale Conosco no WhatsApp">
+<div class="wpp-flutuante-home">
   <div class="wpp-balao">
-    <strong>Dúvidas ou Orçamentos?</strong>
-    <span>Fale no WhatsApp</span>
+    <a class="wpp-balao__link" href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Unikitchen%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener">
+      <strong>Dúvidas ou Orçamentos?</strong>
+      <span>Fale no WhatsApp</span>
+    </a>
+    <button type="button" class="wpp-balao__fechar" aria-label="Fechar">&times;</button>
   </div>
-  <div class="wpp-icone-circle">
+  <a class="wpp-icone-circle" href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Unikitchen%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener" aria-label="Fale Conosco no WhatsApp">
     <i class="fab fa-whatsapp"></i>
-  </div>
-</a>
+  </a>
+</div>
 
 <style>
 .wpp-flutuante-home {
@@ -27,22 +27,24 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  text-decoration: none !important;
-  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.wpp-flutuante-home:hover {
-  transform: translateY(-5px) scale(1.03);
 }
 .wpp-balao {
+  position: relative;
   background: #ffffff;
-  color: #1a1a1a;
-  padding: 8px 14px;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+  border: 1px solid #eaeaea;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.wpp-balao.fechado {
+  display: none;
+}
+.wpp-balao__link {
   display: flex;
   flex-direction: column;
+  padding: 8px 30px 8px 14px;
   line-height: 1.2;
-  border: 1px solid #eaeaea;
+  text-decoration: none !important;
 }
 .wpp-balao strong {
   font-family: 'Urbane', sans-serif;
@@ -56,17 +58,45 @@
   color: #25D366;
   font-weight: 600;
 }
+.wpp-balao__fechar {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: none;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  line-height: 20px;
+  color: #999999;
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+.wpp-balao__fechar:hover {
+  color: #1a1a1a;
+  background: #f2f2f2;
+}
 .wpp-icone-circle {
   width: 54px;
   height: 54px;
   background-color: #25D366;
-  color: #ffffff;
+  color: #ffffff !important;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 18px rgba(37, 211, 102, 0.4);
   font-size: 28px;
+  text-decoration: none !important;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.wpp-icone-circle:hover {
+  transform: translateY(-4px) scale(1.05);
 }
 @media (max-width: 767px) {
   .wpp-balao {
@@ -78,3 +108,15 @@
   }
 }
 </style>
+
+<script>
+(function () {
+  var balao = document.querySelector('.wpp-flutuante-home .wpp-balao');
+  if (!balao) return;
+  try { if (sessionStorage.getItem('uk-wpp-balao-fechado')) balao.classList.add('fechado'); } catch (e) {}
+  balao.querySelector('.wpp-balao__fechar').addEventListener('click', function () {
+    balao.classList.add('fechado');
+    try { sessionStorage.setItem('uk-wpp-balao-fechado', '1'); } catch (e) {}
+  });
+})();
+</script>
