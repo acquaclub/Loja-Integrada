@@ -4,7 +4,7 @@
   Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: JavaScript
   Estilo: seções 5 (faixa superior) e 6 (cabeçalho fixo) do CSS personalizado; a troca de frases traz o próprio estilo
 */
-// Cabeçalhos: faixa superior (frases que se alternam + telefone e WhatsApp) e ajustes do cabeçalho fixo
+// Cabeçalhos: faixa superior (frases que se alternam + telefone e WhatsApp), busca com lupa e ajustes do cabeçalho fixo
 (function () {
     var NUMERO_WHATSAPP = '5515996100914';
     var ICONE_WHATSAPP = '<svg width="20" height="20" viewBox="0 0 448 512" aria-hidden="true"><path fill="#25D366" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>';
@@ -111,9 +111,90 @@
         }
     }
 
+    // Busca do cabeçalho (só no computador): no lugar do campo, uma lupa fina e um pino de mapa.
+    // Clicar na lupa abre o campo; Enter ou a lupa pesquisam; Esc ou clicar fora (com o campo vazio) fecham.
+    var LINK_MAPA = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Av. Antônio Carlos Comitre, 1253 - Parque Campolim, Sorocaba - SP, 18047-620');
+    var ICONE_LUPA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>';
+    var ICONE_PINO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.5s-7-6.3-7-12a7 7 0 0 1 14 0c0 5.7-7 12-7 12z"/><circle cx="12" cy="9.5" r="2.5"/></svg>';
+    var ESTILO_LUPA =
+        '@media (min-width: 980px){'
+        + 'html body #cabecalho .uk-lupa-linha{display:flex !important;align-items:center;justify-content:flex-end;gap:14px;width:100% !important}'
+        + 'html body #cabecalho .uk-lupa-linha .busca{flex:0 1 auto !important;width:420px !important;max-width:0 !important;margin:0 !important;opacity:0;'
+        + 'border:0 !important;border-bottom:1px solid #1a1a1a !important;height:36px !important;background:transparent !important;'
+        + 'transition:max-width .45s ease,opacity .3s ease !important}'
+        + 'html body #cabecalho.uk-busca-aberta .uk-lupa-linha .busca{max-width:420px !important;opacity:1}'
+        + 'html body #cabecalho .uk-lupa-linha .busca input{padding:0 4px !important;font-size:14px !important;outline:none !important;box-shadow:none !important}'
+        + 'html body #cabecalho .uk-lupa-linha .busca button,html body #cabecalho .uk-lupa-linha .busca .botao-busca{display:none !important}'
+        + 'html body #cabecalho .uk-lupa-btn{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;padding:0;margin:0;'
+        + 'border:0;background:none;color:#1a1a1a !important;cursor:pointer;transition:color .2s ease}'
+        + 'html body #cabecalho .uk-lupa-btn:hover{color:#c49a45 !important}'
+        + 'html body #cabecalho .uk-lupa-btn svg{width:22px;height:22px}'
+        + '}';
+
+    function montarLupa() {
+        if (window.innerWidth < 980) return;
+        var cabecalho = document.getElementById('cabecalho');
+        var busca = cabecalho && cabecalho.querySelector('.conteudo-topo .busca');
+        if (!busca || cabecalho.querySelector('.uk-lupa-btn')) return;
+        var form = busca.querySelector('form');
+        var campo = busca.querySelector('input[type="text"], input[type="search"], input:not([type])');
+        if (!form || !campo) return;
+
+        var estilo = document.createElement('style');
+        estilo.textContent = ESTILO_LUPA;
+        document.head.appendChild(estilo);
+
+        var linha = busca.parentNode;
+        linha.classList.add('uk-lupa-linha');
+
+        var lupa = document.createElement('button');
+        lupa.type = 'button';
+        lupa.className = 'uk-lupa-btn';
+        lupa.setAttribute('aria-label', 'Pesquisar');
+        lupa.setAttribute('aria-expanded', 'false');
+        lupa.innerHTML = ICONE_LUPA;
+
+        var pino = document.createElement('a');
+        pino.className = 'uk-lupa-btn';
+        pino.href = LINK_MAPA;
+        pino.target = '_blank';
+        pino.rel = 'noopener';
+        pino.setAttribute('aria-label', 'Como chegar ao showroom');
+        pino.title = 'Como chegar ao showroom';
+        pino.innerHTML = ICONE_PINO;
+
+        linha.appendChild(lupa);
+        linha.appendChild(pino);
+
+        function abrir() {
+            cabecalho.classList.add('uk-busca-aberta');
+            lupa.setAttribute('aria-expanded', 'true');
+            setTimeout(function () { campo.focus(); }, 50);
+        }
+        function fechar() {
+            cabecalho.classList.remove('uk-busca-aberta');
+            lupa.setAttribute('aria-expanded', 'false');
+        }
+        lupa.addEventListener('click', function () {
+            if (!cabecalho.classList.contains('uk-busca-aberta')) return abrir();
+            if (campo.value.trim()) {
+                if (form.requestSubmit) form.requestSubmit(); else form.submit();
+            } else {
+                fechar();
+            }
+        });
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') fechar();
+        });
+        document.addEventListener('click', function (e) {
+            if (!linha.contains(e.target) && !campo.value.trim()) fechar();
+        });
+    }
+
     function montar() {
         montarFaixaSuperior();
         montarCabecalhoFixo();
+        montarLupa();
     }
 
     if (document.readyState === 'loading') {
