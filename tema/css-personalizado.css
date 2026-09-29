@@ -651,6 +651,8 @@ html body .secao-banners .flex-control-nav {
 html body .secao-banners .flex-control-nav li {
     display: inline-block !important;
     margin: 0 6px !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
 }
 html body .secao-banners .flex-control-nav li a {
     display: block !important;
@@ -661,6 +663,10 @@ html body .secao-banners .flex-control-nav li a {
     background: rgba(255, 255, 255, 0.4) !important;
     box-shadow: none !important;
     text-indent: -9999px !important;
+    overflow: hidden !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    color: transparent !important;
     cursor: pointer !important;
     transition: all 0.3s ease !important;
 }
