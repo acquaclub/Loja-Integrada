@@ -1534,6 +1534,13 @@ html body #descricao h2.uk-desc-titulo {
         height: auto !important;
         object-fit: contain !important;
     }
+    /* Espaço do banner reservado desde o início (proporção das artes: 1920×600).
+       Sem isso, o banner nasce com altura 0 e empurra a barra de qualidades e os Destaques.
+       Se as artes mudarem de proporção, trocar os dois números abaixo. */
+    html body .secao-banners .flexslider,
+    html body #banner-home .flexslider {
+        min-height: calc(100vw * 600 / 1920) !important;
+    }
     html body .secao-banners .flex-control-nav {
         bottom: 10px !important;
         right: 16px !important;
