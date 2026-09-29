@@ -460,6 +460,77 @@ html body #cabecalho .logo img {
     html body #cabecalho .menu.superior .nivel-um > li:hover > a::after {
         transform: scaleX(1);
     }
+
+    /* Seta do "CATEGORIAS": fina, sem o quadrado preto do tema */
+    html body #cabecalho .menu.superior .nivel-um > li > a > i {
+        display: inline-block !important;
+        width: auto !important;
+        height: auto !important;
+        margin: 0 0 0 8px !important;
+        padding: 0 !important;
+        background: transparent !important;
+        border: 0 !important;
+        color: var(--uk-preto) !important;
+        font-size: 9px !important;
+        line-height: inherit !important;
+        vertical-align: middle !important;
+    }
+
+    /* Lista que abre no "CATEGORIAS" (e os subníveis): caixa branca com fio dourado em cima,
+       sombra suave, sem linhas entre os itens, seta fina nos que têm subcategorias */
+    html body #cabecalho .menu.superior .nivel-dois,
+    html body #cabecalho .menu.superior .nivel-tres {
+        min-width: 280px !important;
+        padding: 14px 0 !important;
+        background: #ffffff !important;
+        border: 0 !important;
+        border-top: 1px solid var(--uk-dourado) !important;
+        border-radius: 0 !important;
+        box-shadow: 0 18px 40px -12px rgba(26, 26, 26, 0.18) !important;
+    }
+    html body #cabecalho .menu.superior .nivel-dois li,
+    html body #cabecalho .menu.superior .nivel-tres li {
+        border: 0 !important;
+        background: none !important;
+    }
+    html body #cabecalho .menu.superior .nivel-dois li > a,
+    html body #cabecalho .menu.superior .nivel-tres li > a {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        gap: 16px !important;
+        height: auto !important;
+        padding: 9px 28px !important;
+        border: 0 !important;
+        background: none !important;
+        font-family: 'Urbane', sans-serif !important;
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        line-height: 1.4 !important;
+        letter-spacing: 0.3px !important;
+        text-transform: none !important;
+        color: #333333 !important;
+        transition: color 0.2s ease, background-color 0.2s ease, padding-left 0.2s ease !important;
+    }
+    html body #cabecalho .menu.superior .nivel-dois li > a:hover,
+    html body #cabecalho .menu.superior .nivel-tres li > a:hover {
+        padding-left: 32px !important;
+        background: #f7f7f5 !important;
+        color: var(--uk-dourado) !important;
+    }
+    html body #cabecalho .menu.superior .nivel-dois i,
+    html body #cabecalho .menu.superior .nivel-tres i {
+        display: none !important;
+    }
+    html body #cabecalho .menu.superior .nivel-dois li.com-filho > a::after {
+        content: "";
+        flex: 0 0 6px;
+        width: 6px;
+        height: 6px;
+        border-right: 1px solid currentColor;
+        border-bottom: 1px solid currentColor;
+        transform: rotate(-45deg);
+    }
 }
 
 
@@ -1032,11 +1103,23 @@ html body .coluna .menu.lateral.outras::before {
     background: linear-gradient(var(--uk-dourado), var(--uk-dourado)) no-repeat left bottom / 32px 1px;
 }
 
-/* --- Bloco "TIPO": subcategorias da categoria aberta (montado pelo script-coluna-tipo.js).
-       A árvore inteira de categorias do tema fica escondida; sem o script, sobra só o título. --- */
+/* --- Lista de categorias da coluna: todas as categorias principais, sem os subníveis
+       (as subcategorias da categoria aberta aparecem no bloco "TIPO"); a atual fica em preto --- */
 html body .coluna .menu.lateral:not(.outras) .nivel-dois {
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+}
+html body .coluna .menu.lateral:not(.outras) .nivel-tres,
+html body .coluna .menu.lateral:not(.outras) .nivel-dois i {
     display: none !important;
 }
+html body .coluna .menu.lateral:not(.outras) .nivel-dois li.uk-atual > a {
+    color: var(--uk-preto) !important;
+}
+
+/* --- Bloco "TIPO": subcategorias da categoria aberta (montado pelo script-coluna-tipo.js) --- */
 html body .coluna .uk-tipo__titulo {
     margin: 0 0 8px 0 !important;
     padding: 0 0 12px 0 !important;
@@ -1176,18 +1259,76 @@ html body .pagination ul > li.disabled > span {
     opacity: 0.3 !important;
 }
 
-/* --- Ordenação ("Relevância"): borda fina, sem botão cinza --- */
+/* --- Ordenação: um controle só, sem caixa. "ORDENAR POR  Relevância ⌄" com linha fina embaixo;
+       a seta do tema (triângulo) vira uma seta fina e a lista que abre segue o padrão do menu --- */
 html body #corpo .conteudo .btn-group > .btn,
 html body #corpo .conteudo .btn-group > .dropdown-toggle {
-    background: #ffffff !important;
+    height: 36px !important;
+    margin: 0 !important;
+    padding: 0 4px !important;
+    background: transparent !important;
     background-image: none !important;
-    border: 1px solid var(--uk-borda) !important;
+    border: 0 !important;
+    border-bottom: 1px solid var(--uk-preto) !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     text-shadow: none !important;
     font-family: 'Urbane', sans-serif !important;
     font-size: 13px !important;
-    color: var(--uk-texto) !important;
+    font-weight: 400 !important;
+    color: var(--uk-preto) !important;
+}
+html body #corpo .conteudo .btn-group > .btn:first-child::before {
+    content: "Ordenar por";
+    margin-right: 10px;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--uk-cinza-claro);
+}
+html body #corpo .conteudo .btn-group > .dropdown-toggle {
+    padding: 0 6px 0 10px !important;
+}
+html body #corpo .conteudo .btn-group .caret {
+    width: 6px !important;
+    height: 6px !important;
+    margin: -4px 0 0 0 !important;
+    border: 0 !important;
+    border-right: 1px solid var(--uk-preto) !important;
+    border-bottom: 1px solid var(--uk-preto) !important;
+    transform: rotate(45deg) !important;
+    vertical-align: middle !important;
+}
+html body #corpo .conteudo .btn-group .dropdown-menu {
+    min-width: 220px !important;
+    margin-top: 6px !important;
+    padding: 10px 0 !important;
+    background: #ffffff !important;
+    border: 0 !important;
+    border-top: 1px solid var(--uk-dourado) !important;
+    border-radius: 0 !important;
+    box-shadow: 0 18px 40px -12px rgba(26, 26, 26, 0.18) !important;
+}
+html body #corpo .conteudo .btn-group .dropdown-menu a {
+    padding: 8px 22px !important;
+    background: none !important;
+    background-image: none !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 13px !important;
+    color: #333333 !important;
+    transition: color 0.2s ease, background-color 0.2s ease !important;
+}
+html body #corpo .conteudo .btn-group .dropdown-menu a:hover {
+    background: #f7f7f5 !important;
+    color: var(--uk-dourado) !important;
+}
+
+/* --- Ícones do tema em quadradinho preto (setas de abrir/fechar): só a seta, sem o quadrado --- */
+html body #corpo i.fundo-secundario {
+    background: transparent !important;
+    color: var(--uk-preto) !important;
+    border-radius: 0 !important;
 }
 
 

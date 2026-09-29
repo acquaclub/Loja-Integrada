@@ -2,10 +2,11 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-coluna-tipo.js
   Local publicação: Rodapé | Página: Página da categoria | Tipo: JavaScript
-  Estilo: seção 9 do CSS personalizado (.uk-tipo)
+  Estilo: seção 9 do CSS personalizado (.uk-tipo e lista de categorias da coluna)
 */
-// Coluna lateral das categorias: troca a árvore inteira de categorias por um bloco "TIPO"
-// com só as subcategorias da categoria aberta (ou as irmãs, se ela não tiver subcategorias).
+// Coluna lateral das categorias:
+// - em cima, bloco "TIPO" com as subcategorias da categoria aberta (ou as irmãs, se ela for uma subcategoria);
+// - embaixo, a lista de todas as categorias principais, com a atual destacada (o CSS esconde os subníveis).
 (function () {
     function caminho(url) {
         return url.replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
@@ -29,19 +30,24 @@
         }
         if (!liAtual || liAtual.parentElement === arvore) return;
 
-        // Subcategorias da categoria aberta; se não houver, as categorias do mesmo nível.
-        // Categoria principal sem subcategorias (ex.: Banheiras): só esconde a árvore.
-        var filhos = liAtual.querySelector(':scope > ul');
-        if (!filhos && liAtual.parentElement.classList.contains('nivel-dois')) {
-            arvore.style.setProperty('display', 'none', 'important');
-            return;
+        // Destaca, na lista de categorias principais, a categoria (ou a "mãe" da subcategoria) aberta
+        var principal = liAtual;
+        while (principal && principal.parentElement && !principal.parentElement.classList.contains('nivel-dois')) {
+            principal = principal.parentElement.closest('li');
         }
+        if (principal) principal.classList.add('uk-atual');
+
+        // Subcategorias da categoria aberta; se não houver, as categorias do mesmo nível.
+        // Categoria principal sem subcategorias (ex.: Banheiras): sem bloco "TIPO".
+        var filhos = liAtual.querySelector(':scope > ul');
+        if (!filhos && liAtual.parentElement.classList.contains('nivel-dois')) return;
         var lista = filhos ? filhos : liAtual.parentElement;
         var itens = lista.querySelectorAll(':scope > li > a');
         if (!itens.length) return;
 
         var bloco = document.createElement('div');
         bloco.className = 'uk-tipo';
+        bloco.style.marginBottom = '40px';
         var html = '<p class="uk-tipo__titulo">Tipo</p><ul class="uk-tipo__lista">';
         for (var j = 0; j < itens.length; j++) {
             var ativo = caminho(itens[j].pathname) === atual ? ' class="ativo"' : '';
@@ -50,8 +56,7 @@
         html += '</ul>';
         bloco.innerHTML = html;
 
-        arvore.style.setProperty('display', 'none', 'important');
-        menu.appendChild(bloco);
+        menu.insertBefore(bloco, menu.firstChild);
     }
 
     if (document.readyState === 'loading') {
