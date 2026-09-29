@@ -11,9 +11,15 @@
 // da foto principal continua a mesma. Setas sobre a foto e as setas do teclado (← →) passam de
 // uma foto para outra, parando na primeira e na última.
 (function () {
-    var ALTURA = 520; // altura fixa da moldura da foto e da coluna (px)
+    var ALTURA = 520;         // altura fixa da moldura da foto e da coluna no computador (px)
+    var ALTURA_CELULAR = 360; // altura fixa da moldura da foto no celular (px)
     var ESTILO =
-        '@media (min-width:980px){'
+        // Moldura fixa da foto: a descrição começa sempre no mesmo ponto, qualquer que seja a foto
+        '.uk-moldura-foto{position:relative;height:' + ALTURA_CELULAR + 'px;display:flex;align-items:center;justify-content:center;overflow:hidden}'
+        + '.uk-moldura-foto #imagemProduto{width:auto !important;height:auto !important;max-width:100% !important;max-height:' + ALTURA_CELULAR + 'px !important;object-fit:contain}'
+        + '@media (min-width:980px){'
+        + '.uk-moldura-foto{height:' + ALTURA + 'px}'
+        + '.uk-moldura-foto #imagemProduto{max-height:' + ALTURA + 'px !important}'
         + '.uk-galeria-produto{display:flex !important;align-items:flex-start;gap:24px}'
         + '.uk-galeria-produto > .uk-thumbs{order:0}'
         + '.uk-galeria-produto > .uk-galeria-produto__foto{order:1;flex:1 1 auto;min-width:0}'
@@ -38,8 +44,6 @@
         + '.uk-thumbs__seta:disabled{opacity:.2;cursor:default}'
         + '.uk-thumbs__seta:disabled::before{border-color:#1a1a1a}'
         // Setas sobre a foto principal (aparecem com o mouse em cima; somem na primeira e na última foto)
-        + '.uk-galeria-produto__foto{position:relative;height:' + ALTURA + 'px;display:flex;align-items:center;justify-content:center;overflow:hidden}'
-        + '.uk-galeria-produto__foto #imagemProduto{width:auto !important;height:auto !important;max-width:100% !important;max-height:' + ALTURA + 'px !important;object-fit:contain}'
         + '.uk-foto-seta{position:absolute;top:50%;z-index:5;display:flex;align-items:center;justify-content:center;width:44px;height:44px;margin-top:-22px;padding:0;'
         + 'background:rgba(255,255,255,.85);border:1px solid #e0e0e0;border-radius:0;box-shadow:none;cursor:pointer;opacity:0;transition:opacity .3s ease,border-color .2s ease}'
         + '.uk-galeria-produto__foto:hover .uk-foto-seta{opacity:1}'
@@ -52,15 +56,12 @@
         + '}';
 
     function montar() {
-        if (window.innerWidth < 980 || document.querySelector('.uk-thumbs')) return;
-        var faixa = document.querySelector('.produto-thumbs');
         var foto = document.getElementById('imagemProduto');
-        if (!faixa || !foto) return;
-        var links = faixa.querySelectorAll('#carouselImagem .miniaturas li a');
-        if (links.length < 2) return;
+        if (!foto || document.querySelector('.uk-moldura-foto')) return;
+        var faixa = document.querySelector('.produto-thumbs');
 
-        // Coluna que contém a foto e a faixa de miniaturas
-        var coluna = faixa.parentElement;
+        // Coluna da foto (a mesma da faixa de miniaturas, quando existe)
+        var coluna = faixa ? faixa.parentElement : foto.closest('.span6') || foto.parentElement;
         var blocoFoto = foto;
         while (blocoFoto.parentElement && blocoFoto.parentElement !== coluna) blocoFoto = blocoFoto.parentElement;
         if (blocoFoto.parentElement !== coluna) return;
@@ -68,6 +69,15 @@
         var estilo = document.createElement('style');
         estilo.textContent = ESTILO;
         document.head.appendChild(estilo);
+
+        // A moldura vale sempre: computador, celular e produto com uma foto só
+        blocoFoto.classList.add('uk-moldura-foto');
+
+        // A coluna de miniaturas e as setas só entram no computador, com 2 fotos ou mais
+        var links = faixa ? faixa.querySelectorAll('#carouselImagem .miniaturas li a') : [];
+        // Produto com uma foto só: a faixa com 1 miniatura não serve para nada e empurraria a descrição
+        if (faixa && links.length < 2) faixa.style.setProperty('display', 'none', 'important');
+        if (window.innerWidth < 980 || links.length < 2) return;
 
         var thumbs = document.createElement('div');
         thumbs.className = 'uk-thumbs';
