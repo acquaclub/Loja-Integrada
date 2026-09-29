@@ -42,8 +42,9 @@
     ];
 
     function montar() {
-        var principal = document.querySelector('.principal');
-        var info = principal && principal.querySelector('.info-principal-produto');
+        // Parte do bloco do produto (há botões com a classe "principal" antes dele na página)
+        var info = document.querySelector('.info-principal-produto');
+        var principal = info && info.parentElement;
         var nome = info && info.querySelector('.nome-produto');
         if (!nome || principal.querySelector('.uk-topo__garantias')) return;
 
@@ -68,7 +69,7 @@
         nome.parentNode.insertBefore(consulta, nome.nextSibling);
 
         // Garantias e código vão para o fim do bloco (o botão de WhatsApp fica antes deles)
-        var fim = principal.querySelector('#DelimiterFloat');
+        var fim = principal.querySelector(':scope > #DelimiterFloat');
         var lista = document.createElement('ul');
         lista.className = 'uk-topo__garantias';
         lista.innerHTML = GARANTIAS.map(function (g) { return '<li>' + g[0] + '<span>' + g[1] + '</span></li>'; }).join('');
