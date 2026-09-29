@@ -5,16 +5,17 @@
   Traz o próprio estilo (não depende do CSS Avançado).
 */
 // Topo da página de produto no modo catálogo, ao lado da foto:
-// marca em dourado > nome > "Valores e condições sob consulta" > botão de WhatsApp >
+// marca (preta, com traço dourado) > nome > "Valores e condições sob consulta" > botão de WhatsApp >
 // garantias com ícone dourado > código do produto, discreto, no fim.
 // O texto padrão do tema ("Para mais informações entre em contato…") é escondido.
 (function () {
     var DOURADO = '#c49a45';
 
     var ESTILO =
-        '.uk-topo__marca{display:inline-block;margin:6px 0 0;font-family:\'Urbane\',sans-serif;font-size:13px;font-weight:700;'
-        + 'letter-spacing:3px;text-transform:uppercase;color:#9a7430 !important;text-decoration:none !important;transition:color .2s ease}'
-        + '.uk-topo__marca:hover{color:#1a1a1a !important}'
+        '.uk-topo__marca{display:inline-flex;align-items:center;gap:12px;margin:6px 0 0;font-family:\'Urbane\',sans-serif;font-size:13px;font-weight:700;'
+        + 'letter-spacing:3px;text-transform:uppercase;color:#1a1a1a !important;text-decoration:none !important;transition:color .2s ease}'
+        + '.uk-topo__marca::before{content:"";display:block;width:24px;height:1px;background:' + DOURADO + '}'
+        + '.uk-topo__marca:hover{color:#9a7430 !important}'
         + '.info-principal-produto .nome-produto{margin-top:8px !important}'
         + '.uk-topo__consulta{margin:0 0 6px !important;padding:0 !important;font-family:\'Urbane\',sans-serif;font-size:16px !important;'
         + 'font-weight:400 !important;line-height:1.6 !important;letter-spacing:.2px;color:#333333 !important}'
@@ -52,7 +53,7 @@
         estilo.textContent = ESTILO;
         document.head.appendChild(estilo);
 
-        // Marca em dourado, acima do nome
+        // Marca acima do nome
         var marca = info.querySelector('[itemprop="brand"] a');
         if (marca && marca.textContent.trim()) {
             var linkMarca = document.createElement('a');
