@@ -45,15 +45,16 @@
         var descricao = document.getElementById('descricao');
         if (!descricao || descricao.querySelector('.uk-sanfona')) return;
 
+        // Só age nas descrições do modelo com seções; as demais ficam como estão
+        var titulos = descricao.querySelectorAll('.section-title, .div-title');
+        if (!titulos.length) return;
+
         // Desliga o <style> que vem dentro da descrição (ele muda a página inteira)
         descricao.querySelectorAll('style').forEach(function (s) { s.remove(); });
 
         var estilo = document.createElement('style');
         estilo.textContent = ESTILO;
         document.head.appendChild(estilo);
-
-        var titulos = descricao.querySelectorAll('.section-title, .div-title');
-        if (!titulos.length) return;
 
         // Aviso e garantia saem das seções e ficam abertos, logo abaixo da sanfona
         var avisos = descricao.querySelectorAll('.alert-box, .guarantee');
