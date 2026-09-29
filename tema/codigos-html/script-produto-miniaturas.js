@@ -94,8 +94,26 @@
         if (faixa && links.length < 2) faixa.style.setProperty('display', 'none', 'important');
 
         // Janela ampliada própria (a do tema mostra uma foto só, sem passar para o lado)
-        var fotosGrandes = [].map.call(links, function (l) { return l.getAttribute('data-imagem-grande'); });
+        // Na janela ampliada usa 1200x1200 (a original de 2500x2500 é pesada e deixa a troca lenta)
+        var fotosGrandes = [].map.call(links, function (l) {
+            return (l.getAttribute('data-imagem-grande') || '').replace(/\/\d+x\d+\//, '/1200x1200/');
+        });
         if (!fotosGrandes.length) fotosGrandes = [foto.currentSrc || foto.src];
+        var preCarregadas = {};
+        function preCarregar(lista) {
+            lista.forEach(function (url) {
+                if (!url || preCarregadas[url]) return;
+                preCarregadas[url] = new Image();
+                preCarregadas[url].src = url;
+            });
+        }
+        // Fotos médias (troca na página) começam a baixar assim que a página termina de carregar
+        window.addEventListener('load', function () {
+            preCarregar([].map.call(links, function (l) {
+                var img = l.querySelector('img');
+                return img && img.getAttribute('data-mediumimg');
+            }));
+        });
         var aoTrocarFoto = null; // a coluna de miniaturas (computador) se registra aqui
         var amp = document.createElement('div');
         amp.className = 'uk-ampliada';
@@ -125,6 +143,9 @@
             [].forEach.call(links, function (l, j) { if (l.parentElement.classList.contains('active')) i = j; });
             if (typeof aoTrocarFoto === 'function' && window.ukFotoAtual !== undefined) i = window.ukFotoAtual;
             ampMostrar(i);
+            // a próxima e a anterior primeiro, depois as demais
+            preCarregar([fotosGrandes[i + 1], fotosGrandes[i - 1]]);
+            preCarregar(fotosGrandes);
             amp.classList.add('aberta');
             document.documentElement.style.overflow = 'hidden';
         }
