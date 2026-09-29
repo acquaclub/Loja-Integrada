@@ -2,40 +2,41 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-barra-de-beneficios.html
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
+  Barra de qualidades logo abaixo do banner. Ajustes de celular: seção 12 do CSS Avançado (.uk-beneficios).
 -->
-<!-- BARRA DE BENEFÍCIOS (ABAIXO DO BANNER) -->
+<!-- BARRA DE QUALIDADES (ABAIXO DO BANNER) -->
 <div class="uk-beneficios">
   <div class="uk-beneficios__grid">
 
     <div class="uk-beneficio">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M3 7v14M21 7v14M6 21V11m4 10V11m4 10V11m4 10V11M3 7l9-4 9 4"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M17 11l2 2 4-4"/></svg>
       <div class="uk-beneficio__texto">
-        <strong>Showroom Físico</strong>
-        <span>Sorocaba - SP</span>
+        <strong>Consultoria especializada</strong>
+        <span>Atendimento dedicado ao seu projeto.</span>
+      </div>
+    </div>
+
+    <a class="uk-beneficio" href="/pagina/logistica.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="6" width="14" height="11" rx="1"/><path d="M15 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="2"/><circle cx="18" cy="18.5" r="2"/></svg>
+      <div class="uk-beneficio__texto">
+        <strong>Entrega fracionada</strong>
+        <span>Conforme o andamento da sua obra.</span>
+      </div>
+    </a>
+
+    <div class="uk-beneficio">
+      <span class="uk-beneficio__anos" aria-hidden="true"><b class="uk-anos-numero">20</b><i>anos</i></span>
+      <div class="uk-beneficio__texto">
+        <strong>Desde 2006</strong>
+        <span>Tradição em eletros, louças e metais.</span>
       </div>
     </div>
 
     <div class="uk-beneficio">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="#1a1a1a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4"/></svg>
       <div class="uk-beneficio__texto">
-        <strong>Garantia Oficial</strong>
-        <span>Produtos 100% Originais</span>
-      </div>
-    </div>
-
-    <div class="uk-beneficio">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3" width="15" height="13" rx="2"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-      <div class="uk-beneficio__texto">
-        <strong>Entrega Especializada</strong>
-        <span>Logística para Eletros Premium</span>
-      </div>
-    </div>
-
-    <div class="uk-beneficio">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#c49a45" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg>
-      <div class="uk-beneficio__texto">
-        <strong>Atendimento Exclusivo</strong>
-        <span>Arquitetos &amp; Especificadores</span>
+        <strong>Garantia oficial</strong>
+        <span>Produtos originais com garantia do fabricante.</span>
       </div>
     </div>
 
@@ -46,7 +47,7 @@
 .uk-beneficios {
   background: #ffffff;
   border-bottom: 0;
-  padding: 40px 20px;
+  padding: 48px 30px;
   margin: 0;
   box-sizing: border-box;
 }
@@ -55,22 +56,49 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
 }
 .uk-beneficio {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  padding: 4px 24px;
-  border-left: 1px solid #e6e6e6;
-}
-.uk-beneficio:first-child {
-  border-left: 0;
+  gap: 18px;
+  padding: 0;
+  border: 0;
+  text-decoration: none !important;
+  color: inherit !important;
 }
 .uk-beneficio svg {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 38px;
   flex-shrink: 0;
+  transition: stroke 0.2s ease;
+}
+a.uk-beneficio:hover svg {
+  stroke: #c49a45;
+}
+.uk-beneficio__anos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 38px;
+  line-height: 1;
+  font-family: 'Urbane', sans-serif;
+  color: #1a1a1a;
+}
+.uk-beneficio__anos b {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+.uk-beneficio__anos i {
+  margin-top: 2px;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 .uk-beneficio__texto {
   display: flex;
@@ -80,7 +108,7 @@
 .uk-beneficio__texto strong {
   font-family: 'Urbane', sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.2;
   letter-spacing: 1.2px;
   text-transform: uppercase;
@@ -90,27 +118,37 @@
   font-family: 'Urbane', sans-serif;
   font-weight: 300;
   font-size: 13px;
-  line-height: 1.3;
-  color: #666666;
+  line-height: 1.4;
+  color: #555555;
+}
+a.uk-beneficio:hover .uk-beneficio__texto strong {
+  color: #c49a45;
 }
 @media (max-width: 979px) {
   .uk-beneficios {
-    padding: 24px 15px;
+    padding: 28px 15px;
     margin-bottom: 25px;
   }
   .uk-beneficios__grid {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 22px;
+    row-gap: 24px;
   }
   .uk-beneficio {
     justify-content: flex-start;
-    border-left: 0;
-    padding: 0 10px;
     gap: 12px;
   }
   .uk-beneficio svg {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
+  }
+  .uk-beneficio__anos {
+    width: 30px;
+  }
+  .uk-beneficio__anos b {
+    font-size: 22px;
+  }
+  .uk-beneficio__anos i {
+    font-size: 8px;
   }
   .uk-beneficio__texto strong {
     font-size: 12px;
@@ -120,18 +158,14 @@
     font-size: 12px;
   }
 }
-@media (max-width: 479px) {
-  .uk-beneficios__grid {
-    grid-template-columns: 1fr;
-    row-gap: 16px;
-  }
-}
 </style>
 
 <script>
 $(document).ready(function(){
   var $barra = $('.uk-beneficios');
   if ($barra.length === 0) return;
+  // Anos de história calculados a partir de 2006 (atualiza sozinho todo ano)
+  $barra.find('.uk-anos-numero').text(new Date().getFullYear() - 2006);
   if ($('.secao-banners').length > 0) {
     $('.secao-banners').after($barra);
   } else if ($('#banner-home').length > 0) {
