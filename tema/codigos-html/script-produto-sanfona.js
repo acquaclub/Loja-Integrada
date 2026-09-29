@@ -32,7 +32,12 @@
         + '#descricao table tr:last-child th,#descricao table tr:last-child td{border-bottom:0}'
         + '#descricao table strong{font-weight:600;color:#1a1a1a}'
         + '#descricao table caption{padding:0 0 10px;text-align:left;font-size:12px;font-style:normal;color:#999999}'
-        + '#descricao article.description p,#descricao .section p{text-align:left !important}'
+        + '#descricao article.description p,#descricao .section p{text-align:left !important;font-size:15px !important;font-weight:300 !important;line-height:1.75 !important;color:#555555 !important}'
+        + '#descricao article.description p strong{font-weight:600;color:#1a1a1a}'
+        // O tema desenha contorno em todas as tabelas: aqui fica só a linha fina entre as linhas
+        + '#descricao table,#descricao .table,#descricao .table-responsive{border:0 !important;box-shadow:none !important;border-radius:0 !important}'
+        + '#descricao table th,#descricao table td{border-top:0 !important;border-left:0 !important;border-right:0 !important;border-bottom:1px solid #eeeeee !important}'
+        + '#descricao table tr:last-child th,#descricao table tr:last-child td{border-bottom:0 !important}'
         + '#descricao .uk-sanfona__rodape{max-width:960px;margin:32px auto 0;display:grid;gap:2px}'
         + '#descricao .alert-box,#descricao .guarantee{margin:0 !important;padding:22px 26px !important;background:#f7f7f5 !important;'
         + 'border:0 !important;border-left:2px solid #c49a45 !important;border-radius:0 !important;text-align:left !important;'
