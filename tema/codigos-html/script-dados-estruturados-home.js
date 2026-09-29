@@ -31,32 +31,41 @@
         }
     };
 
+    // Seg a qui 9h–18h e sex 9h–17h nas três lojas; sábado 9h–13h só na matriz
+    function horarios(comSabado) {
+        var lista = [
+            horario(['Monday', 'Tuesday', 'Wednesday', 'Thursday'], '09:00', '18:00'),
+            horario('Friday', '09:00', '17:00')
+        ];
+        if (comSabado) lista.push(horario('Saturday', '09:00', '13:00'));
+        return lista;
+    }
+
     var LOJAS = [
         {
             'name': 'Unikitchen - Eletrodomésticos, Louças e Metais',
             'telephone': '+55-15-3217-3499',
             'address': { 'streetAddress': 'Av. Antônio Carlos Comitre, 1253 - Parque Campolim', 'addressLocality': 'Sorocaba', 'postalCode': '18047-620' },
-            'openingHoursSpecification': [
-                horario(['Monday', 'Tuesday', 'Wednesday', 'Thursday'], '09:00', '18:00'),
-                horario('Friday', '09:00', '17:00'),
-                horario('Saturday', '09:00', '13:00')
-            ]
+            'openingHoursSpecification': horarios(true)
         },
         {
             'name': 'Acqua - Louças e Metais Deca & Pisos e Revestimentos Portinari',
             'telephone': '+55-15-3202-4531',
-            'address': { 'streetAddress': 'Rod. João Leme dos Santos, 147', 'addressLocality': 'Sorocaba' }
+            'address': { 'streetAddress': 'Rod. João Leme dos Santos, 147 - Parque Reserva Fazenda Imperial', 'addressLocality': 'Sorocaba', 'postalCode': '18052-780' },
+            'openingHoursSpecification': horarios(false)
         },
         {
             'name': 'Unikitchen Itapetininga - Eletrodomésticos, Revestimentos, Louças e Metais',
             'telephone': '+55-15-3500-7995',
-            'address': { 'addressLocality': 'Itapetininga' }
+            'address': { 'streetAddress': 'Av. Dr. José Ozi, 450 - Urban Mall, Vila Nova Itapetininga', 'addressLocality': 'Itapetininga', 'postalCode': '18203-265' },
+            'openingHoursSpecification': horarios(false)
         }
     ];
 
     var dados = [GRUPO].concat(LOJAS.map(function (loja) {
         loja['@type'] = 'HomeGoodsStore';
         loja.url = SITE;
+        loja.priceRange = '$$$';
         loja.image = urlLogo;
         loja.parentOrganization = { '@id': SITE + '#grupo' };
         loja.address['@type'] = 'PostalAddress';
