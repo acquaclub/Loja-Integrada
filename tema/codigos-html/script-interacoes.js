@@ -100,7 +100,36 @@
         if (e.target.closest && e.target.closest('.listagem .flex-viewport')) e.preventDefault();
     });
 
-    // 4. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
+    // 4. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
+    //    O tema usa largura fixa por produto; com a página larga sobrava um pedaço do próximo card.
+    //    A janela do carrossel passa a ter a largura exata dos produtos que cabem inteiros, centralizada.
+    var ajustarJanelas = function () {
+        document.querySelectorAll('.listagem .flex-viewport').forEach(function (janela) {
+            janela.style.maxWidth = '';
+            var item = janela.querySelector('li');
+            if (!item) return;
+            var estilo = getComputedStyle(item);
+            var margemDireita = parseFloat(estilo.marginRight) || 0;
+            var passo = item.getBoundingClientRect().width + (parseFloat(estilo.marginLeft) || 0) + margemDireita;
+            var largura = janela.getBoundingClientRect().width;
+            if (!passo || !largura) return;
+            var cabem = Math.max(1, Math.floor((largura + margemDireita + 1) / passo));
+            var util = cabem * passo - margemDireita;
+            if (largura - util > 2) {
+                janela.style.maxWidth = util + 'px';
+                janela.style.marginLeft = 'auto';
+                janela.style.marginRight = 'auto';
+            }
+        });
+    };
+    window.addEventListener('load', function () { setTimeout(ajustarJanelas, 300); });
+    var esperaRedimensionar;
+    window.addEventListener('resize', function () {
+        clearTimeout(esperaRedimensionar);
+        esperaRedimensionar = setTimeout(ajustarJanelas, 250);
+    });
+
+    // 5. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
     document.body.addEventListener('minicart_state_changed', function () {
         document.querySelectorAll('#cabecalho .carrinho, .menu.flutuante .carrinho').forEach(function (carrinho) {
             carrinho.classList.add('animar-carrinho');
