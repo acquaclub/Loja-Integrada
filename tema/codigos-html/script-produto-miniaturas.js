@@ -2,14 +2,12 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-produto-miniaturas.js
   Local publicação: Rodapé | Página: Produto | Tipo: JavaScript
-  Traz o próprio estilo (não depende do CSS Avançado). Só no computador; no celular fica a faixa do tema.
+  Traz o próprio estilo (não depende do CSS Avançado).
 */
-// Miniaturas do produto em coluna vertical, à esquerda da foto principal. A foto fica numa moldura
-// de altura fixa (a coluna tem a mesma altura), então as setas ficam sempre no mesmo lugar.
-// Com muitas fotos, a coluna vira carrossel (setas para cima e para baixo, com começo e fim).
-// A selecionada fica maior. O clique usa a miniatura original do tema (escondida), então a troca
-// da foto principal continua a mesma. Setas sobre a foto e as setas do teclado (← →) passam de
-// uma foto para outra, parando na primeira e na última.
+// Foto do produto numa moldura de altura fixa (computador e celular): a descrição começa sempre
+// no mesmo ponto. No computador, com 2 fotos ou mais, as miniaturas ficam numa coluna vertical à
+// esquerda (carrossel com começo e fim) e há setas sobre a foto e no teclado (← →).
+// Clicar na foto abre uma janela ampliada própria, com setas, contador, começo e fim.
 (function () {
     var ALTURA = 520;         // altura fixa da moldura da foto e da coluna no computador (px)
     var ALTURA_CELULAR = 360; // altura fixa da moldura da foto no celular (px)
@@ -17,6 +15,23 @@
         // Moldura fixa da foto: a descrição começa sempre no mesmo ponto, qualquer que seja a foto
         '.uk-moldura-foto{position:relative;height:' + ALTURA_CELULAR + 'px;display:flex;align-items:center;justify-content:center;overflow:hidden}'
         + '.uk-moldura-foto #imagemProduto{width:auto !important;height:auto !important;max-width:100% !important;max-height:' + ALTURA_CELULAR + 'px !important;object-fit:contain}'
+        + '.uk-moldura-foto{cursor:zoom-in}'
+        // Janela ampliada (substitui a do tema): setas fixas, começo e fim, contador
+        + '.uk-ampliada{position:fixed;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;background:rgba(255,255,255,.97)}'
+        + '.uk-ampliada.aberta{display:flex}'
+        + '.uk-ampliada__foto{display:block;max-width:86vw;max-height:84vh;width:auto;height:auto;object-fit:contain;user-select:none}'
+        + '.uk-ampliada__botao{position:absolute;display:flex;align-items:center;justify-content:center;width:52px;height:52px;padding:0;margin:0;'
+        + 'background:#ffffff;border:1px solid #e0e0e0;border-radius:0;box-shadow:none;cursor:pointer;transition:border-color .2s ease}'
+        + '.uk-ampliada__botao:hover{border-color:#c49a45}'
+        + '.uk-ampliada__botao:disabled{visibility:hidden}'
+        + '.uk-ampliada__ant{left:24px;top:50%;margin-top:-26px}.uk-ampliada__prox{right:24px;top:50%;margin-top:-26px}'
+        + '.uk-ampliada__ant::before,.uk-ampliada__prox::before{content:"";display:block;width:12px;height:12px;border-right:1.5px solid #1a1a1a;border-bottom:1.5px solid #1a1a1a}'
+        + '.uk-ampliada__ant::before{transform:translateX(3px) rotate(135deg)}.uk-ampliada__prox::before{transform:translateX(-3px) rotate(-45deg)}'
+        + '.uk-ampliada__fechar{top:24px;right:24px}'
+        + '.uk-ampliada__fechar::before,.uk-ampliada__fechar::after{content:"";position:absolute;width:20px;height:1.5px;background:#1a1a1a;transform:rotate(45deg)}'
+        + '.uk-ampliada__fechar::after{transform:rotate(-45deg)}'
+        + ".uk-ampliada__contador{position:absolute;bottom:24px;left:0;right:0;text-align:center;font-family:'Urbane',sans-serif;font-size:12px;font-weight:600;letter-spacing:2px;color:#1a1a1a}"
+        + '@media (max-width:767px){.uk-ampliada__botao{width:44px;height:44px}.uk-ampliada__ant{left:8px}.uk-ampliada__prox{right:8px}.uk-ampliada__fechar{top:12px;right:12px}.uk-ampliada__foto{max-width:94vw}}'
         + '@media (min-width:980px){'
         + '.uk-moldura-foto{height:' + ALTURA + 'px}'
         + '.uk-moldura-foto #imagemProduto{max-height:' + ALTURA + 'px !important}'
@@ -77,6 +92,83 @@
         var links = faixa ? faixa.querySelectorAll('#carouselImagem .miniaturas li a') : [];
         // Produto com uma foto só: a faixa com 1 miniatura não serve para nada e empurraria a descrição
         if (faixa && links.length < 2) faixa.style.setProperty('display', 'none', 'important');
+
+        // Janela ampliada própria (a do tema mostra uma foto só, sem passar para o lado)
+        var fotosGrandes = [].map.call(links, function (l) { return l.getAttribute('data-imagem-grande'); });
+        if (!fotosGrandes.length) fotosGrandes = [foto.currentSrc || foto.src];
+        var aoTrocarFoto = null; // a coluna de miniaturas (computador) se registra aqui
+        var amp = document.createElement('div');
+        amp.className = 'uk-ampliada';
+        amp.setAttribute('role', 'dialog');
+        amp.setAttribute('aria-modal', 'true');
+        amp.innerHTML = '<img class="uk-ampliada__foto" alt="">'
+            + '<button type="button" class="uk-ampliada__botao uk-ampliada__ant" aria-label="Foto anterior"></button>'
+            + '<button type="button" class="uk-ampliada__botao uk-ampliada__prox" aria-label="Próxima foto"></button>'
+            + '<button type="button" class="uk-ampliada__botao uk-ampliada__fechar" aria-label="Fechar"></button>'
+            + '<div class="uk-ampliada__contador"></div>';
+        document.body.appendChild(amp);
+        var ampFoto = amp.querySelector('.uk-ampliada__foto');
+        var ampAnt = amp.querySelector('.uk-ampliada__ant');
+        var ampProx = amp.querySelector('.uk-ampliada__prox');
+        var ampContador = amp.querySelector('.uk-ampliada__contador');
+        var ampIndice = 0;
+
+        function ampMostrar(i) {
+            ampIndice = i;
+            ampFoto.src = fotosGrandes[i];
+            ampAnt.disabled = i === 0;
+            ampProx.disabled = i === fotosGrandes.length - 1;
+            ampContador.textContent = fotosGrandes.length > 1 ? (i + 1) + ' / ' + fotosGrandes.length : '';
+        }
+        function ampAbrir() {
+            var i = 0;
+            [].forEach.call(links, function (l, j) { if (l.parentElement.classList.contains('active')) i = j; });
+            if (typeof aoTrocarFoto === 'function' && window.ukFotoAtual !== undefined) i = window.ukFotoAtual;
+            ampMostrar(i);
+            amp.classList.add('aberta');
+            document.documentElement.style.overflow = 'hidden';
+        }
+        function ampFechar() {
+            amp.classList.remove('aberta');
+            document.documentElement.style.overflow = '';
+            // a foto da página fica na última foto vista
+            if (links[ampIndice]) {
+                if (typeof aoTrocarFoto === 'function') aoTrocarFoto(ampIndice);
+                else links[ampIndice].click();
+            }
+        }
+        function ampIr(passo) {
+            var destino = ampIndice + passo;
+            if (destino >= 0 && destino < fotosGrandes.length) ampMostrar(destino);
+        }
+        ampAnt.addEventListener('click', function () { ampIr(-1); });
+        ampProx.addEventListener('click', function () { ampIr(1); });
+        amp.querySelector('.uk-ampliada__fechar').addEventListener('click', ampFechar);
+        amp.addEventListener('click', function (e) { if (e.target === amp) ampFechar(); });
+        document.addEventListener('keydown', function (e) {
+            if (!amp.classList.contains('aberta')) return;
+            if (e.key === 'Escape') ampFechar();
+            if (e.key === 'ArrowLeft') ampIr(-1);
+            if (e.key === 'ArrowRight') ampIr(1);
+            e.stopImmediatePropagation();
+        }, true);
+        var toqueX = null;
+        amp.addEventListener('touchstart', function (e) { toqueX = e.touches[0].clientX; }, { passive: true });
+        amp.addEventListener('touchend', function (e) {
+            if (toqueX === null) return;
+            var dx = e.changedTouches[0].clientX - toqueX;
+            if (Math.abs(dx) > 50) ampIr(dx < 0 ? 1 : -1);
+            toqueX = null;
+        });
+        // Clique na foto abre a nossa janela no lugar da do tema (vale também para camadas de zoom por cima da foto)
+        window.addEventListener('click', function (e) {
+            if (amp.classList.contains('aberta') || e.target.closest('.uk-foto-seta, .uk-thumbs, .uk-ampliada')) return;
+            var r = blocoFoto.getBoundingClientRect();
+            if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) return;
+            e.preventDefault();
+            e.stopImmediatePropagation();
+            ampAbrir();
+        }, true);
         if (window.innerWidth < 980 || links.length < 2) return;
 
         var thumbs = document.createElement('div');
@@ -139,6 +231,7 @@
         var atual = 0;
         function marcar(i) {
             atual = i;
+            window.ukFotoAtual = i;
             botoes.forEach(function (b, j) {
                 b.classList.toggle('ativa', j === i);
                 b.setAttribute('aria-current', j === i ? 'true' : 'false');
@@ -205,6 +298,7 @@
         });
         ajustarAltura();
         marcar(inicial);
+        aoTrocarFoto = function (i) { botoes[i].click(); };
 
         window.addEventListener('resize', ajustarAltura);
     }
