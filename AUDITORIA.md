@@ -232,3 +232,11 @@ Pendências de conteúdo destas páginas:
 - WhatsApp do SAC (15) 99613-6016 × site (15) 99610-0914; horários diferentes entre topo, Retirada e Central.
 - Nossa História: "três showrooms" (o site só cita Sorocaba), "disponíveis 100% do tempo" e "uma das maiores referências" (comprovar).
 - Assistência Técnica: faltam contatos confiáveis de Doka, Mekal e Viking (hoje só com link para o site oficial); demais contatos conferidos por busca, confirmar por telefone os principais.
+
+### Progresso (29/09/2026)
+- Horários separados: showroom (topo e rodapé), SAC seg–sex 8h–15h (Central e rodapé), retirada seg–sex 9h–17h só na Acqua (Retirada Fácil). WhatsApp oficial (15) 99610-0914 em todo o site.
+- Páginas de conteúdo: ícones protegidos com &nbsp; (o editor apagava tags vazias); estilo das páginas separado em tema/paginas/estilo-paginas.css; CSS principal = CSS Avançado publicado.
+- Cabeçalho: frases que se alternam na faixa superior; busca com lupa e pino do mapa (principal e fixo).
+- Home: barra de qualidades (consultoria, entrega fracionada, showroom, garantia) com ícones dourados; marcas maiores e sem fundo branco; setas e indicadores do banner redesenhados.
+- Produto: descrição em sanfona (script-produto-sanfona.js); fotos em moldura fixa, miniaturas em coluna com carrossel, setas e janela ampliada própria (script-produto-miniaturas.min.js — versão compacta por causa do limite de 15 mil caracteres).
+- Rodapé: link "Como Comprar" removido (página inativa); link "Marcas" aponta para página inativa até ser refeita.
