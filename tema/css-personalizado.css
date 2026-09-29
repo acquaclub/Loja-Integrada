@@ -588,6 +588,14 @@ html body #banner-home .flexslider .slides img {
     height: 520px !important;
     object-fit: cover !important;
 }
+/* Espaço do banner reservado desde o início (computador): sem isso, o carrossel nasce com
+   altura 0 e empurra a página para baixo quando liga (Cumulative Layout Shift no PageSpeed) */
+@media (min-width: 980px) {
+    html body .secao-banners .flexslider,
+    html body #banner-home .flexslider {
+        min-height: 520px !important;
+    }
+}
 /* Na home, o rodapé emenda na faixa das marcas: mesmo tom, sem espaço branco nem linha entre eles */
 html body .uk-marcas + .custom-footer-restored .uk-rodape {
     margin-top: 0 !important;
