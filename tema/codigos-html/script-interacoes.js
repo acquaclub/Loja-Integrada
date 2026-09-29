@@ -53,7 +53,54 @@
     if (document.readyState === 'complete') nomearBotoes();
     else window.addEventListener('load', nomearBotoes);
 
-    // 3. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
+    // 3. CARROSSÉIS DE PRODUTOS: ARRASTAR COM O MOUSE (no celular o tema já aceita o dedo)
+    //    Clicar, arrastar para o lado e soltar anda a fileira, como as setas.
+    //    Depois de um arrasto, o clique não abre o produto sem querer.
+    var estiloArrasto = document.createElement('style');
+    estiloArrasto.textContent = '@media (hover:hover) and (pointer:fine){.listagem .flex-viewport{cursor:grab}'
+        + '.listagem .flex-viewport.uk-arrastando,.listagem .flex-viewport.uk-arrastando a{cursor:grabbing}'
+        + '.listagem .flex-viewport img{-webkit-user-drag:none;user-select:none}}';
+    document.head.appendChild(estiloArrasto);
+
+    var arrasto = null;
+    var cancelarClique = false;
+    document.addEventListener('mousedown', function (e) {
+        if (e.button !== 0) return;
+        var janela = e.target.closest('.listagem .flex-viewport');
+        if (!janela) return;
+        arrasto = { janela: janela, x: e.clientX, y: e.clientY };
+    });
+    document.addEventListener('mousemove', function (e) {
+        if (!arrasto) return;
+        if (Math.abs(e.clientX - arrasto.x) > 8) {
+            arrasto.janela.classList.add('uk-arrastando');
+            e.preventDefault();
+        }
+    });
+    document.addEventListener('mouseup', function (e) {
+        if (!arrasto) return;
+        var dx = e.clientX - arrasto.x;
+        var janela = arrasto.janela;
+        arrasto = null;
+        janela.classList.remove('uk-arrastando');
+        if (Math.abs(dx) < 40) return;
+        cancelarClique = true;
+        setTimeout(function () { cancelarClique = false; }, 0);
+        var seta = janela.parentElement.querySelector(dx < 0 ? '.flex-next' : '.flex-prev');
+        if (seta && !seta.classList.contains('flex-disabled')) seta.click();
+    });
+    document.addEventListener('click', function (e) {
+        if (cancelarClique && e.target.closest('.listagem .flex-viewport')) {
+            e.preventDefault();
+            e.stopPropagation();
+            cancelarClique = false;
+        }
+    }, true);
+    document.addEventListener('dragstart', function (e) {
+        if (e.target.closest && e.target.closest('.listagem .flex-viewport')) e.preventDefault();
+    });
+
+    // 4. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
     document.body.addEventListener('minicart_state_changed', function () {
         document.querySelectorAll('#cabecalho .carrinho, .menu.flutuante .carrinho').forEach(function (carrinho) {
             carrinho.classList.add('animar-carrinho');
