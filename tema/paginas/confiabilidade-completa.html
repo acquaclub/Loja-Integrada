@@ -82,8 +82,6 @@ html body .uk-pg .uk-pg__icone--https { background-image: url("data:image/svg+xm
 }
 html body .uk-pg .uk-pg__icone--cadeado { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='5' y='11' width='14' height='10' rx='1'/%3E%3Cpath d='M8 11V7a4 4 0 0 1 8 0v4'/%3E%3Cpath d='M12 15v2'/%3E%3C/svg%3E");
 }
-html body .uk-pg .uk-pg__icone--certificado { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='9' r='6'/%3E%3Cpath d='M9.5 9l1.8 1.8L14.8 7.3'/%3E%3Cpath d='M8.5 14l-1.5 7 5-3 5 3-1.5-7'/%3E%3C/svg%3E");
-}
 html body .uk-pg .uk-pg__icone--fraude { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z'/%3E%3Cpath d='M12 8v5M12 16h.01'/%3E%3C/svg%3E");
 }
 html body .uk-pg .uk-pg__card h3 {
@@ -156,6 +154,9 @@ html body .uk-pg .uk-pg__card p a {
 html body .uk-pg .uk-pg__card p a:hover {
     color: #c49a45 !important;
 }
+html body .uk-pg .uk-pg__grade--3 {
+    grid-template-columns: repeat(3, 1fr);
+}
 html body .uk-pg .uk-pg__card .uk-pg__botao {
     margin-top: 24px;
 }
@@ -163,7 +164,11 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
     background: #1a1a1a;
     color: #ffffff !important;
 }
-
+@media (max-width: 979px) {
+    html body .uk-pg .uk-pg__grade--3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 @media (max-width: 767px) {
     html body .uk-pg {
         padding: 44px 16px 56px;
@@ -194,6 +199,9 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
         display: block;
         padding: 16px 20px;
     }
+    html body .uk-pg .uk-pg__grade--3 {
+        grid-template-columns: 1fr;
+    }
 }
 </style>
 <div class="uk-pg">
@@ -204,7 +212,7 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
     <p class="uk-pg__texto">Para realizar suas compras com tranquilidade, adotamos os mais rigorosos padrões de segurança da informação.</p>
   </div>
 
-  <div class="uk-pg__grade">
+  <div class="uk-pg__grade uk-pg__grade--3">
     <div class="uk-pg__card">
       <span class="uk-pg__icone uk-pg__icone--https" aria-hidden="true">&nbsp;</span>
       <h3>Protocolo Seguro</h3>
@@ -214,11 +222,6 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
       <span class="uk-pg__icone uk-pg__icone--cadeado" aria-hidden="true">&nbsp;</span>
       <h3>Dados Blindados</h3>
       <p>O ícone de <strong>cadeado fechado</strong> na barra do seu navegador é a garantia de que a conexão é segura. Seus dados pessoais e de pagamento não podem ser visualizados por terceiros.</p>
-    </div>
-    <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--certificado" aria-hidden="true">&nbsp;</span>
-      <h3>Certificações Oficiais</h3>
-      <p>Possuímos selos de segurança emitidos por empresas especializadas. Eles atestam que nossa plataforma é auditada constantemente para garantir a integridade das suas informações.</p>
     </div>
     <div class="uk-pg__card">
       <span class="uk-pg__icone uk-pg__icone--fraude" aria-hidden="true">&nbsp;</span>
