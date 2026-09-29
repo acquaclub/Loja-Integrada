@@ -8,6 +8,7 @@
 // marca (preta, com traço dourado) > nome > "Valores e condições sob consulta" > botão de WhatsApp >
 // garantias com ícone dourado > código do produto, discreto, no fim.
 // No celular, as miniaturas abaixo da foto ficam pequenas e deslizam com o dedo.
+// Esconde o ícone de WhatsApp do tema e as bordas da caixa de ações vazia.
 // O texto padrão do tema ("Para mais informações entre em contato…") é escondido.
 (function () {
     var DOURADO = '#c49a45';
@@ -21,6 +22,8 @@
         + '.uk-topo__consulta{margin:0 0 6px !important;padding:0 !important;font-family:\'Urbane\',sans-serif;font-size:16px !important;'
         + 'font-weight:400 !important;line-height:1.6 !important;letter-spacing:.2px;color:#333333 !important}'
         + '.principal .produto-mais-info{display:none !important}'
+        // Caixa de ações vazia no modo catálogo: sem as bordas que viravam duas linhas soltas
+        + '.principal .acoes-produto{border:0 !important;box-shadow:none !important}'
         // Variações (ex.: Voltagem): rótulo curto e botões retos no padrão do site
         + '.principal .atributos{margin:22px 0 4px !important;padding:0 !important;border:0 !important}'
         + '.principal .atributo-comum{margin:0 0 14px !important;padding:0 !important}'
@@ -53,8 +56,8 @@
         + 'html body .produto-thumbs #carouselImagem .flex-direction-nav{display:none !important}'
         + 'html body .produto-thumbs #carouselImagem .flex-viewport{height:auto !important;overflow-x:auto !important;overflow-y:hidden !important;scrollbar-width:none}'
         + 'html body .produto-thumbs #carouselImagem .flex-viewport::-webkit-scrollbar{display:none}'
-        + 'html body .produto-thumbs #carouselImagem .miniaturas{display:flex !important;gap:8px;width:max-content !important;margin:0 auto !important;padding:0 !important;transform:none !important}'
-        + 'html body .produto-thumbs #carouselImagem .miniaturas li{flex:0 0 56px !important;width:56px !important;height:56px !important;margin:0 !important;float:none !important}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas{display:flex !important;gap:8px;width:max-content !important;margin:0 auto !important;padding:0 !important;list-style:none !important;transform:none !important}'
+        + 'html body .produto-thumbs #carouselImagem .miniaturas li{flex:0 0 56px !important;width:56px !important;height:56px !important;margin:0 !important;float:none !important;list-style:none !important}'
         + 'html body .produto-thumbs #carouselImagem .miniaturas li a{display:block !important;width:56px !important;height:56px !important;padding:3px !important;box-sizing:border-box;'
         + 'background:#ffffff !important;border:1px solid #e5e5e5 !important;border-radius:0 !important;box-shadow:none !important}'
         + 'html body .produto-thumbs #carouselImagem .miniaturas li.active a{border-color:#1a1a1a !important}'
@@ -73,7 +76,17 @@
         [icone('<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M17 11l2 2 4-4"/>'), 'Consultoria especializada']
     ];
 
+    // Ícone de WhatsApp do tema (quadradinho verde sem desenho): o contato é o botão verde do script-whatsapp-produto.js
+    function esconderIconeWhatsAppTema() {
+        document.querySelectorAll('i.fa.fa-whatsapp').forEach(function (i) {
+            if (i.closest('.wpp-produto-cta, .wpp-flutuante-home, .uk-rodape')) return;
+            var alvo = i.parentElement && i.parentElement.tagName === 'A' ? i.parentElement : i;
+            alvo.style.setProperty('display', 'none', 'important');
+        });
+    }
+
     function montar() {
+        esconderIconeWhatsAppTema();
         // Parte do bloco do produto (há botões com a classe "principal" antes dele na página)
         var info = document.querySelector('.info-principal-produto');
         var principal = info && info.parentElement;
@@ -119,4 +132,6 @@
     } else {
         montar();
     }
+    // O tema pode criar o ícone depois: confere de novo quando a página termina de carregar
+    window.addEventListener('load', esconderIconeWhatsAppTema);
 })();
