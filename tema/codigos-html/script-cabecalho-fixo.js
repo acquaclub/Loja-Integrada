@@ -111,38 +111,40 @@
         }
     }
 
-    // Busca do cabeçalho (só no computador): no lugar do campo, uma lupa fina e um pino de mapa.
-    // Clicar na lupa abre o campo; Enter ou a lupa pesquisam; Esc ou clicar fora (com o campo vazio) fecham.
+    // Busca (só no computador), no cabeçalho principal e no cabeçalho fixo que aparece ao rolar:
+    // no lugar do campo, uma lupa fina e um pino de mapa. Clicar na lupa abre o campo;
+    // Enter ou a lupa pesquisam; Esc ou clicar fora (com o campo vazio) fecham.
     var LINK_MAPA = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Av. Antônio Carlos Comitre, 1253 - Parque Campolim, Sorocaba - SP, 18047-620');
     var ICONE_LUPA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg>';
     var ICONE_PINO = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.5s-7-6.3-7-12a7 7 0 0 1 14 0c0 5.7-7 12-7 12z"/><circle cx="12" cy="9.5" r="2.5"/></svg>';
+    var R = ['html body #cabecalho', 'html body #barraTopo'];
+    function sel(sufixo) {
+        return R.map(function (r) { return r + sufixo; }).join(',');
+    }
     var ESTILO_LUPA =
         '@media (min-width: 980px){'
-        + 'html body #cabecalho .uk-lupa-linha{display:flex !important;align-items:center;justify-content:flex-end;gap:14px;width:100% !important}'
-        + 'html body #cabecalho .uk-lupa-linha .busca{flex:0 1 auto !important;width:420px !important;max-width:0 !important;margin:0 !important;opacity:0;'
-        + 'border:0 !important;border-bottom:1px solid #1a1a1a !important;height:36px !important;background:transparent !important;'
+        + sel(' .uk-lupa-linha') + '{display:flex !important;align-items:center;justify-content:flex-end;gap:14px;width:100% !important;margin:0 !important}'
+        + sel(' .uk-lupa-linha::before') + ',' + sel(' .uk-lupa-linha::after') + '{display:none !important}'
+        + sel(' .uk-lupa-linha .busca') + '{flex:0 1 auto !important;float:none !important;width:420px !important;max-width:0 !important;margin:0 !important;padding:0 !important;opacity:0;'
+        + 'border:0 !important;border-bottom:1px solid #1a1a1a !important;height:36px !important;background:transparent !important;overflow:hidden !important;'
         + 'transition:max-width .45s ease,opacity .3s ease !important}'
-        + 'html body #cabecalho.uk-busca-aberta .uk-lupa-linha .busca{max-width:420px !important;opacity:1}'
-        + 'html body #cabecalho .uk-lupa-linha .busca input{padding:0 4px !important;font-size:14px !important;outline:none !important;box-shadow:none !important}'
-        + 'html body #cabecalho .uk-lupa-linha .busca button,html body #cabecalho .uk-lupa-linha .busca .botao-busca{display:none !important}'
-        + 'html body #cabecalho .uk-lupa-btn{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;padding:0;margin:0;'
+        + 'html body #cabecalho.uk-busca-aberta .uk-lupa-linha .busca,html body #barraTopo.uk-busca-aberta .uk-lupa-linha .busca{max-width:420px !important;opacity:1}'
+        + sel(' .uk-lupa-linha .busca input') + '{padding:0 4px !important;font-size:14px !important;outline:none !important;box-shadow:none !important}'
+        + sel(' .uk-lupa-linha .busca button') + ',' + sel(' .uk-lupa-linha .busca .botao-busca') + '{display:none !important}'
+        + sel(' .uk-lupa-btn') + '{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;padding:0;margin:0;'
         + 'border:0;background:none;color:#1a1a1a !important;cursor:pointer;transition:color .2s ease}'
-        + 'html body #cabecalho .uk-lupa-btn:hover{color:#c49a45 !important}'
-        + 'html body #cabecalho .uk-lupa-btn svg{width:22px;height:22px}'
+        + sel(' .uk-lupa-btn:hover') + '{color:#c49a45 !important}'
+        + sel(' .uk-lupa-btn svg') + '{width:22px;height:22px}'
+        // No cabeçalho fixo, a coluna da busca deixa de ficar centralizada e encosta à direita, antes do WhatsApp
+        + 'html body #barraTopo > .conteiner > .row-fluid > .span6{max-width:none !important;margin:0 0 0 auto !important}'
         + '}';
 
-    function montarLupa() {
-        if (window.innerWidth < 980) return;
-        var cabecalho = document.getElementById('cabecalho');
-        var busca = cabecalho && cabecalho.querySelector('.conteudo-topo .busca');
-        if (!busca || cabecalho.querySelector('.uk-lupa-btn')) return;
+    function aplicarLupa(raiz) {
+        var busca = raiz && raiz.querySelector('.busca');
+        if (!busca || raiz.querySelector('.uk-lupa-btn')) return;
         var form = busca.querySelector('form');
         var campo = busca.querySelector('input[type="text"], input[type="search"], input:not([type])');
         if (!form || !campo) return;
-
-        var estilo = document.createElement('style');
-        estilo.textContent = ESTILO_LUPA;
-        document.head.appendChild(estilo);
 
         var linha = busca.parentNode;
         linha.classList.add('uk-lupa-linha');
@@ -167,16 +169,16 @@
         linha.appendChild(pino);
 
         function abrir() {
-            cabecalho.classList.add('uk-busca-aberta');
+            raiz.classList.add('uk-busca-aberta');
             lupa.setAttribute('aria-expanded', 'true');
             setTimeout(function () { campo.focus(); }, 50);
         }
         function fechar() {
-            cabecalho.classList.remove('uk-busca-aberta');
+            raiz.classList.remove('uk-busca-aberta');
             lupa.setAttribute('aria-expanded', 'false');
         }
         lupa.addEventListener('click', function () {
-            if (!cabecalho.classList.contains('uk-busca-aberta')) return abrir();
+            if (!raiz.classList.contains('uk-busca-aberta')) return abrir();
             if (campo.value.trim()) {
                 if (form.requestSubmit) form.requestSubmit(); else form.submit();
             } else {
@@ -189,6 +191,17 @@
         document.addEventListener('click', function (e) {
             if (!linha.contains(e.target) && !campo.value.trim()) fechar();
         });
+    }
+
+    function montarLupa() {
+        if (window.innerWidth < 980 || document.getElementById('uk-estilo-lupa')) return;
+        var estilo = document.createElement('style');
+        estilo.id = 'uk-estilo-lupa';
+        estilo.textContent = ESTILO_LUPA;
+        document.head.appendChild(estilo);
+        var cabecalho = document.getElementById('cabecalho');
+        aplicarLupa(cabecalho && cabecalho.querySelector('.conteudo-topo') ? cabecalho : null);
+        aplicarLupa(document.getElementById('barraTopo'));
     }
 
     function montar() {
