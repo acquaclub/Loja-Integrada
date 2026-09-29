@@ -138,15 +138,12 @@ a.uk-beneficio:hover .uk-beneficio__texto strong {
 </style>
 
 <script>
-$(document).ready(function(){
-  var $barra = $('.uk-beneficios');
-  if ($barra.length === 0) return;
-  if ($('.secao-banners').length > 0) {
-    $('.secao-banners').after($barra);
-  } else if ($('#banner-home').length > 0) {
-    $('#banner-home').after($barra);
-  } else {
-    $('#cabecalho').after($barra);
-  }
-});
+// Coloca a barra logo abaixo do banner na hora (sem esperar a página carregar),
+// para ela já aparecer no lugar e não empurrar os Destaques (Cumulative Layout Shift)
+(function () {
+  var barra = document.querySelector('.uk-beneficios');
+  if (!barra) return;
+  var alvo = document.querySelector('.secao-banners') || document.getElementById('banner-home') || document.getElementById('cabecalho');
+  if (alvo) alvo.parentNode.insertBefore(barra, alvo.nextSibling);
+})();
 </script>

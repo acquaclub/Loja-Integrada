@@ -94,13 +94,14 @@
 </style>
 
 <script>
-$(document).ready(function(){
-  var $atalhos = $('#quickCategoriesMobile');
-  if ($atalhos.length === 0) return;
-  if ($('#cabecalho').length > 0) {
-    $('#cabecalho').after($atalhos);
-  } else if ($('.conteiner-principal').length > 0) {
-    $('.conteiner-principal').prepend($atalhos);
-  }
-});
+// Coloca os atalhos logo abaixo do cabeçalho na hora (sem esperar a página carregar),
+// para não empurrarem o banner e os Destaques (Cumulative Layout Shift)
+(function () {
+  var atalhos = document.getElementById('quickCategoriesMobile');
+  if (!atalhos) return;
+  var cabecalho = document.getElementById('cabecalho');
+  var principal = document.querySelector('.conteiner-principal');
+  if (cabecalho) cabecalho.parentNode.insertBefore(atalhos, cabecalho.nextSibling);
+  else if (principal) principal.insertBefore(atalhos, principal.firstChild);
+})();
 </script>
