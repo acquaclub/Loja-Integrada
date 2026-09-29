@@ -1271,48 +1271,78 @@ html body .pagination ul > li.disabled > span {
     opacity: 0.3 !important;
 }
 
-/* --- Ordenação: um controle só, sem caixa. "ORDENAR POR  Relevância ⌄" com linha fina embaixo;
-       a seta do tema (triângulo) vira uma seta fina e a lista que abre segue o padrão do menu --- */
-html body #corpo .conteudo .btn-group > .btn,
-html body #corpo .conteudo .btn-group > .dropdown-toggle {
+/* --- Ordenação: "ORDENAR POR  Relevância ⌄" numa linha só, com traço fino embaixo.
+       O tema monta: .input-append > label "Relevância" + .btn-group > botão com a seta + lista.
+       No modo catálogo, só Relevância e Ordem alfabética (preço, desconto e mais vendidos saem) --- */
+html body #corpo .conteudo .input-append {
+    display: inline-flex !important;
+    align-items: center !important;
     height: 36px !important;
     margin: 0 !important;
-    padding: 0 4px !important;
-    background: transparent !important;
-    background-image: none !important;
+    padding: 0 !important;
     border: 0 !important;
     border-bottom: 1px solid var(--uk-preto) !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-    font-family: 'Urbane', sans-serif !important;
     font-size: 13px !important;
-    font-weight: 400 !important;
-    color: var(--uk-preto) !important;
+    white-space: nowrap !important;
 }
-html body #corpo .conteudo .btn-group > .btn:first-child::before {
+html body #corpo .conteudo .input-append::before {
     content: "Ordenar por";
-    margin-right: 10px;
+    margin-right: 12px;
+    font-family: 'Urbane', sans-serif;
     font-size: 10.5px;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--uk-cinza-claro);
 }
-html body #corpo .conteudo .btn-group > .dropdown-toggle {
-    padding: 0 6px 0 10px !important;
-}
-html body #corpo .conteudo .btn-group .caret {
-    width: 6px !important;
-    height: 6px !important;
-    margin: -4px 0 0 0 !important;
+html body #corpo .conteudo .input-append label {
+    display: inline-block !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
     border: 0 !important;
-    border-right: 1px solid var(--uk-preto) !important;
-    border-bottom: 1px solid var(--uk-preto) !important;
-    transform: rotate(45deg) !important;
-    vertical-align: middle !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 36px !important;
+    color: var(--uk-preto) !important;
+    cursor: pointer !important;
 }
-html body #corpo .conteudo .btn-group .dropdown-menu {
+html body #corpo .conteudo .input-append .btn-group {
+    display: inline-flex !important;
+    margin: 0 !important;
+}
+html body #corpo .conteudo .input-append .dropdown-toggle {
+    display: inline-flex !important;
+    align-items: center !important;
+    height: 36px !important;
+    margin: 0 !important;
+    padding: 0 4px 0 10px !important;
+    background: transparent !important;
+    background-image: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    cursor: pointer !important;
+}
+html body #corpo .conteudo .input-append .dropdown-toggle i {
+    display: none !important;
+}
+html body #corpo .conteudo .input-append .dropdown-toggle::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    margin-top: -4px;
+    border-right: 1px solid var(--uk-preto);
+    border-bottom: 1px solid var(--uk-preto);
+    transform: rotate(45deg);
+}
+html body #corpo .conteudo .input-append .dropdown-menu {
     min-width: 220px !important;
     margin-top: 6px !important;
     padding: 10px 0 !important;
@@ -1322,8 +1352,10 @@ html body #corpo .conteudo .btn-group .dropdown-menu {
     border-radius: 0 !important;
     box-shadow: 0 18px 40px -12px rgba(26, 26, 26, 0.18) !important;
 }
-html body #corpo .conteudo .btn-group .dropdown-menu a {
+html body #corpo .conteudo .input-append .dropdown-menu a {
+    display: block !important;
     padding: 8px 22px !important;
+    text-decoration: none !important;
     background: none !important;
     background-image: none !important;
     font-family: 'Urbane', sans-serif !important;
@@ -1331,9 +1363,17 @@ html body #corpo .conteudo .btn-group .dropdown-menu a {
     color: #333333 !important;
     transition: color 0.2s ease, background-color 0.2s ease !important;
 }
-html body #corpo .conteudo .btn-group .dropdown-menu a:hover {
+html body #corpo .conteudo .input-append .dropdown-menu a:hover {
     background: #f7f7f5 !important;
     color: var(--uk-dourado) !important;
+}
+html body #corpo .conteudo .input-append .dropdown-menu i {
+    display: none !important;
+}
+html body #corpo .conteudo .input-append .dropdown-menu li:has(a[href*="preco"]),
+html body #corpo .conteudo .input-append .dropdown-menu li:has(a[href*="promocao"]),
+html body #corpo .conteudo .input-append .dropdown-menu li:has(a[href*="mais_vendidos"]) {
+    display: none !important;
 }
 
 /* --- Ícones do tema em quadradinho preto (setas de abrir/fechar): só a seta, sem o quadrado --- */
