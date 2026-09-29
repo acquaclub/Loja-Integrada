@@ -252,7 +252,7 @@ html body #cabecalho .logo img {
 /* --- Computador --- */
 @media (min-width: 980px) {
 
-    /* Faixa superior grafite (horário, telefone, WhatsApp).
+    /* Faixa superior grafite: frases que se alternam à esquerda (script-cabecalho-fixo.js); telefone e WhatsApp fixos à direita.
        O espaço é reservado no topo para a página não "pular" ao carregar. */
     html body {
         padding-top: 34px !important;
@@ -275,22 +275,42 @@ html body #cabecalho .logo img {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 30px;
         font-family: 'Urbane', sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        letter-spacing: 1.5px;
-        text-transform: uppercase;
-        color: #cfcfcf;
+        font-size: 12.5px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        color: #e6e6e6;
     }
-    html body .uk-faixa-topo__grupo {
+    /* Frases: uma por vez, trocando com esmaecimento suave */
+    html body .uk-faixa-topo__frases {
+        position: relative;
+        flex: 1 1 auto;
+        height: 100%;
+        overflow: hidden;
+    }
+    html body .uk-faixa-topo__frase {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
         display: flex;
         align-items: center;
-        gap: 22px;
+        gap: 6px;
+        margin: 0 !important;
+        white-space: nowrap;
+        font-size: 12.5px !important;
+        font-weight: 400 !important;
+        line-height: 1 !important;
+        opacity: 0;
+        transform: translateY(8px);
+        pointer-events: none;
+        transition: opacity 0.6s ease, transform 0.6s ease;
     }
-    html body .uk-faixa-topo__sep {
-        width: 1px;
-        height: 12px;
-        background: #4a4a4a;
+    html body .uk-faixa-topo__frase.ativa {
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
     }
     html body .uk-faixa-topo a {
         display: inline-flex;
@@ -300,12 +320,41 @@ html body #cabecalho .logo img {
         text-decoration: none !important;
         transition: color 0.2s ease;
     }
+    html body .uk-faixa-topo .uk-faixa-topo__frase a {
+        text-decoration: underline !important;
+        text-decoration-color: rgba(255, 255, 255, 0.45) !important;
+        text-underline-offset: 3px;
+    }
     html body .uk-faixa-topo a:hover {
         color: var(--uk-dourado) !important;
+    }
+    html body .uk-faixa-topo .uk-faixa-topo__frase a:hover {
+        text-decoration-color: var(--uk-dourado) !important;
+    }
+    html body .uk-faixa-topo__contatos {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+    html body .uk-faixa-topo__sep {
+        width: 1px;
+        height: 12px;
+        background: #4a4a4a;
     }
     html body .uk-faixa-topo svg {
         width: 14px;
         height: 14px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+        html body .uk-faixa-topo__frase {
+            transition: none;
+            transform: none;
+        }
     }
 
     /* Linha principal: logo à esquerda, busca à direita, centralizados na vertical */
