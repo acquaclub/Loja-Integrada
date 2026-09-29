@@ -1112,13 +1112,19 @@ html body .coluna .menu.lateral.outras::before {
 /* --- Lista de categorias da coluna: todas as categorias principais, sem os subníveis
        (as subcategorias da categoria aberta aparecem no bloco "TIPO"); a atual fica em preto --- */
 html body .coluna .menu.lateral:not(.outras) .nivel-dois {
+    position: static !important;
     display: block !important;
+    width: auto !important;
     margin: 0 !important;
     padding: 0 !important;
     border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
 }
 html body .coluna .menu.lateral:not(.outras) .nivel-tres,
-html body .coluna .menu.lateral:not(.outras) .nivel-dois i {
+html body .coluna .menu.lateral:not(.outras) .nivel-dois i,
+html body .coluna .menu.lateral:not(.outras) .nivel-um > li > a > i {
     display: none !important;
 }
 html body .coluna .menu.lateral:not(.outras) .nivel-dois li.uk-atual > a {
