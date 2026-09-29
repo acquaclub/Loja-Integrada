@@ -432,12 +432,31 @@ html body #cabecalho .logo img {
     }
 
     /* Menu: centralizado, fonte da marca, sublinhado dourado no hover */
+    /* Linha de baixo em degradê dourado, só no centro (desenhada no fundo, sem mexer no posicionamento do submenu) */
     html body #cabecalho .menu.superior {
         margin-top: 0 !important;
-        background-color: #ffffff !important;
         border-top: 1px solid var(--uk-linha) !important;
-        border-bottom: 1px solid var(--uk-linha) !important;
+        border-bottom: 0 !important;
         box-shadow: none !important;
+        background: #ffffff linear-gradient(90deg, rgba(196, 154, 69, 0), #c49a45 50%, rgba(196, 154, 69, 0)) no-repeat center bottom / 70% 1px !important;
+    }
+    /* Menu com altura travada em 52px e texto no meio: zera os espaços que o tema põe em volta */
+    html body #cabecalho .menu.superior,
+    html body #cabecalho .menu.superior .nivel-um,
+    html body #cabecalho .menu.superior .nivel-um > li {
+        min-height: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li > a strong,
+    html body #cabecalho .menu.superior .nivel-um > li > a span {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        line-height: inherit !important;
     }
     html body #cabecalho .menu.superior .nivel-um {
         display: flex !important;
