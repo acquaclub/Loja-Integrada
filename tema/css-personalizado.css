@@ -743,6 +743,31 @@ html body .listagem .titulo-categoria::after {
     margin: 12px auto 0 auto !important;
     background: var(--uk-dourado) !important;
 }
+/* Título que leva à categoria: no hover fica dourado e o traço se alonga (dica de que é clicável).
+   Só vale para títulos com link; "Destaques", sem categoria, não muda. */
+html body .listagem .titulo-categoria,
+html body .listagem .titulo-categoria strong,
+html body .listagem .titulo-categoria a {
+    transition: color 0.25s ease !important;
+}
+html body .listagem .titulo-categoria a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+html body .listagem .titulo-categoria::after {
+    transition: width 0.3s ease !important;
+}
+html body .listagem .titulo-categoria:has(a[href]):hover,
+html body .listagem .titulo-categoria:has(a[href]):hover strong,
+html body .listagem .titulo-categoria:has(a[href]):hover a,
+html body .listagem a[href]:hover > .titulo-categoria,
+html body .listagem a[href]:hover > .titulo-categoria strong {
+    color: var(--uk-dourado) !important;
+}
+html body .listagem .titulo-categoria:has(a[href]):hover::after,
+html body .listagem a[href]:hover > .titulo-categoria::after {
+    width: 56px !important;
+}
 /* "Produtos relacionados" (página de produto): mesmo padrão dos títulos da home */
 html body .listagem.aproveite-tambem > .titulo {
     border: 0 !important;
