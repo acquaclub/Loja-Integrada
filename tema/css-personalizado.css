@@ -1321,7 +1321,7 @@ html body .wpp-produto-cta svg {
 /* --- Respiro entre o menu e o bloco do produto (computador) --- */
 @media (min-width: 980px) {
     html body .span12.produto {
-        padding-top: 32px !important;
+        padding-top: 16px !important;
     }
 }
 
