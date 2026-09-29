@@ -1011,6 +1011,12 @@ html body .listagem .flex-direction-nav a.flex-disabled {
    9. CATEGORIA E MARCA
    ========================================================================== */
 
+/* --- Caminho de pastas (Página inicial / Adegas…): só na página de produto; na listagem não aparece --- */
+html body.pagina-categoria .breadcrumbs,
+html body.pagina-marca .breadcrumbs {
+    display: none !important;
+}
+
 /* --- Título da página ("TRAMONTINA") --- */
 html body #corpo .conteudo h1.titulo:not(.nome-produto),
 html body #corpo .conteudo > h1 {
