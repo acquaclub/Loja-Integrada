@@ -157,10 +157,12 @@
     //    O tema usa largura fixa por produto; com a página larga sobrava um pedaço do próximo card.
     //    A janela do carrossel passa a ter a largura exata dos produtos que cabem inteiros, centralizada.
     //    A fileira fica invisível até ser ajustada (no instante em que o carrossel liga) e aparece com
-    //    um fade: assim não se vê o pedaço do próximo card nem o "pulo". Se algo falhar, aparece em 6 s.
+    //    um fade: assim não se vê o pedaço do próximo card nem o "pulo".
+    //    Trava de segurança: mesmo que o ajuste não aconteça, a fileira aparece sozinha em 3 s (só CSS).
     var estiloJanela = document.createElement('style');
-    estiloJanela.textContent = '.listagem .flex-viewport{opacity:0;transition:opacity .3s ease}'
-        + '.listagem .flex-viewport.uk-ajustada{opacity:1}';
+    estiloJanela.textContent = '@keyframes ukMostrarFileira{to{opacity:1}}'
+        + '.listagem .flex-viewport{opacity:0;animation:ukMostrarFileira .3s ease 3s forwards}'
+        + '.listagem .flex-viewport.uk-ajustada{opacity:1;animation:none;transition:opacity .3s ease}';
     document.head.appendChild(estiloJanela);
 
     var ajustarJanela = function (janela) {
@@ -184,21 +186,18 @@
         janela.classList.add('uk-ajustada');
     };
 
-    // Vigia cada carrossel e ajusta assim que o tema o liga (quando a fileira ganha largura própria)
+    // Vigia os carrosséis por alguns segundos (o tema cria a moldura da fileira só quando liga)
+    // e ajusta cada um assim que ele aparece com a largura definida.
     var inicioVigia = Date.now();
     var vigiarCarrosseis = function () {
-        var pendentes = document.querySelectorAll('.listagem .flex-viewport:not(.uk-ajustada)');
-        pendentes.forEach(function (janela) {
+        document.querySelectorAll('.listagem .flex-viewport:not(.uk-ajustada)').forEach(function (janela) {
             var fileira = janela.querySelector('ul');
             if (fileira && fileira.style.width) ajustarJanela(janela);
         });
-        if (!document.querySelector('.listagem .flex-viewport:not(.uk-ajustada)')) return;
-        if (Date.now() - inicioVigia < 6000) {
+        if (Date.now() - inicioVigia < 8000) {
             requestAnimationFrame(vigiarCarrosseis);
         } else {
-            document.querySelectorAll('.listagem .flex-viewport:not(.uk-ajustada)').forEach(function (janela) {
-                janela.classList.add('uk-ajustada');
-            });
+            document.querySelectorAll('.listagem .flex-viewport:not(.uk-ajustada)').forEach(ajustarJanela);
         }
     };
     requestAnimationFrame(vigiarCarrosseis);
