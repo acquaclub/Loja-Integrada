@@ -3,47 +3,71 @@
   Descrição: script-dados-estruturados-home.js
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: JavaScript
 */
-// Dados estruturados da loja (schema.org) para o Google: nome, logo, endereço do showroom,
-// telefones e horários. Ajudam a busca e o Maps a mostrar essas informações.
-// Para mudar horário, telefone ou endereço, edite o bloco LOJA abaixo.
+// Dados estruturados (schema.org) para o Google: o grupo e os três showrooms, com endereço,
+// telefone e horário. Ajudam a busca e o Maps a ligar o site às lojas físicas.
+// Para mudar horário, telefone ou endereço, edite a lista LOJAS abaixo.
 (function () {
     if (document.querySelector('script[data-uk-dados-loja]')) return;
 
+    var SITE = 'https://www.unikitchen.com.br/';
     var logo = document.querySelector('#cabecalho .logo img');
+    var urlLogo = logo ? (logo.currentSrc || logo.src) : undefined;
 
-    var LOJA = {
-        '@context': 'https://schema.org',
-        '@type': 'HomeGoodsStore',
-        'name': 'Unikitchen',
-        'description': 'Eletrodomésticos, louças e metais premium com consultoria especializada, showroom em Sorocaba e entrega fracionada.',
-        'url': 'https://www.unikitchen.com.br/',
-        'logo': logo ? (logo.currentSrc || logo.src) : undefined,
-        'image': logo ? (logo.currentSrc || logo.src) : undefined,
-        'telephone': '+55-15-3217-3499',
-        'address': {
-            '@type': 'PostalAddress',
-            'streetAddress': 'Av. Antônio Carlos Comitre, 1253 - Parque Campolim',
-            'addressLocality': 'Sorocaba',
-            'addressRegion': 'SP',
-            'postalCode': '18047-620',
-            'addressCountry': 'BR'
-        },
+    function horario(dias, abre, fecha) {
+        return { '@type': 'OpeningHoursSpecification', 'dayOfWeek': dias, 'opens': abre, 'closes': fecha };
+    }
+
+    var GRUPO = {
+        '@type': 'Organization',
+        '@id': SITE + '#grupo',
+        'name': 'Grupo Unikitchen',
+        'url': SITE,
+        'logo': urlLogo,
         'contactPoint': {
             '@type': 'ContactPoint',
             'telephone': '+55-15-99610-0914',
             'contactType': 'customer service',
             'availableLanguage': 'Portuguese'
-        },
-        'openingHoursSpecification': [
-            { '@type': 'OpeningHoursSpecification', 'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday'], 'opens': '09:00', 'closes': '18:00' },
-            { '@type': 'OpeningHoursSpecification', 'dayOfWeek': 'Friday', 'opens': '09:00', 'closes': '17:00' },
-            { '@type': 'OpeningHoursSpecification', 'dayOfWeek': 'Saturday', 'opens': '09:00', 'closes': '13:00' }
-        ]
+        }
     };
+
+    var LOJAS = [
+        {
+            'name': 'Unikitchen - Eletrodomésticos, Louças e Metais',
+            'telephone': '+55-15-3217-3499',
+            'address': { 'streetAddress': 'Av. Antônio Carlos Comitre, 1253 - Parque Campolim', 'addressLocality': 'Sorocaba', 'postalCode': '18047-620' },
+            'openingHoursSpecification': [
+                horario(['Monday', 'Tuesday', 'Wednesday', 'Thursday'], '09:00', '18:00'),
+                horario('Friday', '09:00', '17:00'),
+                horario('Saturday', '09:00', '13:00')
+            ]
+        },
+        {
+            'name': 'Acqua - Louças e Metais Deca & Pisos e Revestimentos Portinari',
+            'telephone': '+55-15-3202-4531',
+            'address': { 'streetAddress': 'Rod. João Leme dos Santos, 147', 'addressLocality': 'Sorocaba' }
+        },
+        {
+            'name': 'Unikitchen Itapetininga - Eletrodomésticos, Revestimentos, Louças e Metais',
+            'telephone': '+55-15-3500-7995',
+            'address': { 'addressLocality': 'Itapetininga' }
+        }
+    ];
+
+    var dados = [GRUPO].concat(LOJAS.map(function (loja) {
+        loja['@type'] = 'HomeGoodsStore';
+        loja.url = SITE;
+        loja.image = urlLogo;
+        loja.parentOrganization = { '@id': SITE + '#grupo' };
+        loja.address['@type'] = 'PostalAddress';
+        loja.address.addressRegion = 'SP';
+        loja.address.addressCountry = 'BR';
+        return loja;
+    }));
 
     var tag = document.createElement('script');
     tag.type = 'application/ld+json';
     tag.setAttribute('data-uk-dados-loja', '');
-    tag.textContent = JSON.stringify(LOJA);
+    tag.textContent = JSON.stringify({ '@context': 'https://schema.org', '@graph': dados });
     document.head.appendChild(tag);
 })();
