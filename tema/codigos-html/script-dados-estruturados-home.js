@@ -13,9 +13,15 @@
     var logo = document.querySelector('#cabecalho .logo img');
     var urlLogo = logo ? (logo.currentSrc || logo.src) : undefined;
 
-    // Marcas vendidas em cada loja (edite aqui quando entrar ou sair uma marca)
-    var MARCAS_UNIKITCHEN = ['Tramontina', 'Elettromec', 'Falmec', 'Viking', 'Evol', 'Tecno', 'Bertazzoni', 'Lofra',
-        'Celite', 'Jacuzzi', 'Sabbia', 'Roca', 'Gorenje'];
+    // Marcas por linha (edite aqui quando entrar ou sair uma marca)
+    var COZINHA = ['Bertazzoni', 'Tecno', 'Gorenje', 'Elica', 'U-Line', 'Cuisinart', 'Viking', 'Elettromec', 'Tramontina',
+        'Smeg', 'Falmec', 'Lofra', 'Mekal', 'Dometic', 'Invita', 'SodaStream', 'Evol', 'Fulgor Milano', 'Franke', 'Crissair',
+        'InSinkErator', 'Le Creuset', 'Cheffer', 'Speed Queen', 'Coyote', 'Weber', 'Lynx', 'Kamado Joe', 'De Bacco', 'Ooni'];
+    var BANHO = ['Duravit', 'Hansgrohe', 'Metalworks by Crismoe', 'TOTO', 'TECE', 'Victoria + Albert', 'Deca', 'Axor', 'Bette',
+        'Sabbia', 'Jacuzzi', 'BWT', 'Docol', 'Banhomais', 'Codda', 'Doka', 'Rubinettos', 'Novellini', 'Konkrë', 'Hydra', 'Denfa',
+        'Celite', 'Roca'];
+    var REVESTIMENTOS = ['Portinari', 'Tarkett', 'Ceusa', 'Derosso', 'Adamá', 'Santa Luzia', 'Atlas', 'Quick-Step', 'Pix',
+        'Durafloor', 'Arquitech', 'Glass Mosaic'];
     var MARCAS_ACQUA = ['Deca', 'Portinari', 'Ceusa', 'Hydra'];
 
     function marcas(lista) {
@@ -32,6 +38,7 @@
         'name': 'Grupo Unikitchen',
         'description': 'Grupo de lojas de eletrodomésticos, louças, metais e revestimentos de alto padrão, com showrooms em Sorocaba e Itapetininga.',
         'url': SITE,
+        'brand': marcas(COZINHA.concat(BANHO, REVESTIMENTOS)),
         'logo': urlLogo,
         'sameAs': ['https://www.instagram.com/unikitchen/'],
         'contactPoint': {
@@ -56,7 +63,7 @@
         {
             'name': 'Unikitchen - Eletrodomésticos, Louças e Metais',
             'description': 'Loja de eletrodomésticos, louças e metais de alto padrão, com consultoria especializada.',
-            'brand': marcas(MARCAS_UNIKITCHEN),
+            'brand': marcas(COZINHA.concat(BANHO)),
             'telephone': '+55-15-3217-3499',
             'address': { 'streetAddress': 'Av. Antônio Carlos Comitre, 1253 - Parque Campolim', 'addressLocality': 'Sorocaba', 'postalCode': '18047-620' },
             'openingHoursSpecification': horarios(true),
@@ -75,7 +82,7 @@
         {
             'name': 'Unikitchen Itapetininga - Eletrodomésticos, Revestimentos, Louças e Metais',
             'description': 'Loja de eletrodomésticos, revestimentos, louças e metais de alto padrão, com consultoria especializada.',
-            'brand': marcas(MARCAS_UNIKITCHEN),
+            'brand': marcas(COZINHA.concat(BANHO, REVESTIMENTOS)),
             'telephone': '+55-15-3500-7995',
             'address': { 'streetAddress': 'Av. Dr. José Ozi, 450 - Urban Mall, Vila Nova Itapetininga', 'addressLocality': 'Itapetininga', 'postalCode': '18203-265' },
             'openingHoursSpecification': horarios(false),
