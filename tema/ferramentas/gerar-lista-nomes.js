@@ -3,8 +3,10 @@
 // 2. F12 > Console > cole este código inteiro > Enter.
 // 3. Ele abre por trás a página de cada produto listado, lê o título da descrição
 //    (ex.: "Torneira Versa | Tramontina" → "Torneira Versa") e a linha logo abaixo dele,
-//    e COPIA para a área de transferência o código completo do script-nomes-lista.js.
-// 4. No painel, substitua o script-nomes-lista inteiro pelo que foi copiado (Ctrl+V).
+//    e monta o código completo do script-nomes-lista.js.
+// 4. Quando aparecer "Pronto", digite no Console:  copy(UK_LISTA_GERADA)  e Enter (copia o código).
+//    (O copy() do Console só funciona digitado direto, não dentro do gerador.)
+// 5. No painel, substitua o script-nomes-lista inteiro pelo que foi copiado (Ctrl+V).
 // Rodando em outra página depois, ele soma os produtos novos aos que já estão na lista instalada.
 (async function () {
     var lista = Object.assign({}, window.UK_NOMES || {});
@@ -54,9 +56,9 @@
         + '// NÃO edite à mão: gere de novo com o tema/ferramentas/gerar-lista-nomes.js (Console do navegador)\n'
         + '// e substitua este código inteiro pelo que ele copiar.\n'
         + 'var UK_NOMES = {\n' + linhas.join(',\n') + '\n};\n';
-    copy(codigo);
+    window.UK_LISTA_GERADA = codigo;
     if (semTitulo.length) console.log('Sem título na descrição (ficam com o nome normal):\n' + semTitulo.join('\n'));
     console.log('Pronto: ' + linhas.length + ' produtos na lista, ' + codigo.length + ' caracteres'
         + (codigo.length > 15000 ? ' — PASSOU DO LIMITE DE 15 MIL, me avise.' : '.')
-        + ' O código já está copiado: cole no script-nomes-lista.');
+        + '\n\n>>> Agora digite  copy(UK_LISTA_GERADA)  e aperte Enter para copiar. Depois cole no script-nomes-lista.');
 })();
