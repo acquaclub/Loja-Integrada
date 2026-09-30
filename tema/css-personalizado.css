@@ -316,7 +316,7 @@ html body #cabecalho .logo img {
         align-items: center !important;
         justify-content: center !important;
         padding: 26px 0 16px !important;
-        background: linear-gradient(90deg, rgba(196, 154, 69, 0), #c49a45 50%, rgba(196, 154, 69, 0)) no-repeat center bottom / 90px 1px !important;
+        background: linear-gradient(90deg, rgba(196, 154, 69, 0), #c49a45 50%, rgba(196, 154, 69, 0)) no-repeat center bottom / 200px 1px !important;
     }
     /* Remove os "clearfix" do tema, que viram espaços extras dentro do flex */
     html body #cabecalho > .conteiner > .row-fluid::before,
