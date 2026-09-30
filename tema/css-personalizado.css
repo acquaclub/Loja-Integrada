@@ -944,14 +944,17 @@ html body .listagem > ul > .listagem-linha {
     padding: 0 !important;
 }
 
-/* Foto: fundo branco, quadrada, zoom suave no hover (só as fotos do produto, não selos ou ícones do card) */
+/* Foto: quadro quadrado off-white, com respiro igual em volta do produto e zoom suave no hover.
+   O "multiply" funde o fundo branco de cada foto ao quadro: todas ficam no mesmo tom.
+   Vale para a foto principal e para a segunda foto que o tema mostra no hover (.imagem-zoom);
+   não pega selos ou ícones do card. */
 html body .listagem-item .imagem-produto,
 html body .listagem-item .foto-produto {
     overflow: hidden !important;
 }
-html body .listagem-item .imagem-produto,
-html body .listagem-item .imagem-produto img {
-    background-color: #ffffff !important;
+html body .listagem-item .imagem-produto {
+    background-color: #f6f5f2 !important;
+    isolation: isolate;
     border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -960,6 +963,13 @@ html body .listagem-item .imagem-produto img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: contain;
+    padding: 12% !important;
+    box-sizing: border-box !important;
+    background: transparent !important;
+    mix-blend-mode: multiply;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
     transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
 }
 html body .listagem-item:hover .imagem-produto img {
@@ -1003,55 +1013,82 @@ html body .listagem-item .preco-venda {
     letter-spacing: 0.5px !important;
 }
 
-/* Setas dos carrosséis: quadradas, finas, desenhadas em CSS */
+/* Setas dos carrosséis: só a seta fina, sem caixa, encostada na fileira e na altura do meio da foto.
+   Aparecem com o mouse sobre a vitrine e somem quando não há mais produtos para aquele lado.
+   Distância da fileira (--uk-folga) e altura da foto (--uk-meio): script-interacoes.js, seção 5. */
+html body .listagem .flexslider {
+    position: relative !important;
+}
 html body .listagem .flex-direction-nav li {
     border: 0 !important;
     background: none !important;
 }
 html body .listagem .flex-direction-nav a {
-    width: 36px !important;
-    height: 36px !important;
-    margin-top: -18px !important;
+    position: absolute !important;
+    top: var(--uk-meio, 40%) !important;
+    width: 44px !important;
+    height: 44px !important;
+    margin-top: -22px !important;
     padding: 0 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    background: #ffffff !important;
-    border: 1px solid var(--uk-borda) !important;
+    background: transparent !important;
+    border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
-    opacity: 1 !important;
-    overflow: hidden !important;
+    opacity: 0 !important;
+    overflow: visible !important;
     font-size: 0 !important;
     color: transparent !important;
     text-indent: 0 !important;
     text-shadow: none !important;
-    transition: border-color 0.2s ease !important;
+    transition: opacity 0.3s ease !important;
+}
+html body .listagem .flex-direction-nav a.flex-prev {
+    left: max(-30px, calc(var(--uk-folga, 0px) - 48px)) !important;
+    right: auto !important;
+}
+html body .listagem .flex-direction-nav a.flex-next {
+    right: max(-30px, calc(var(--uk-folga, 0px) - 48px)) !important;
+    left: auto !important;
 }
 html body .listagem .flex-direction-nav a::before {
     content: "" !important;
     display: block !important;
-    width: 8px !important;
-    height: 8px !important;
-    border-right: 1.5px solid var(--uk-preto) !important;
-    border-bottom: 1.5px solid var(--uk-preto) !important;
+    width: 14px !important;
+    height: 14px !important;
+    border-right: 1px solid var(--uk-preto) !important;
+    border-bottom: 1px solid var(--uk-preto) !important;
     font-size: 0 !important;
     background: none !important;
+    transition: border-color 0.2s ease !important;
 }
 html body .listagem .flex-direction-nav a.flex-prev::before {
-    transform: translateX(2px) rotate(135deg) !important;
+    transform: translateX(4px) rotate(135deg) !important;
 }
 html body .listagem .flex-direction-nav a.flex-next::before {
-    transform: translateX(-2px) rotate(-45deg) !important;
+    transform: translateX(-4px) rotate(-45deg) !important;
 }
 html body .listagem .flex-direction-nav a::after {
     display: none !important;
 }
-html body .listagem .flex-direction-nav a:hover {
+html body .listagem .flex-direction-nav a:hover::before {
     border-color: var(--uk-dourado) !important;
 }
-html body .listagem .flex-direction-nav a.flex-disabled {
-    opacity: 0.3 !important;
+html body .listagem .flexslider:hover .flex-direction-nav a,
+html body .listagem .flex-direction-nav a:focus-visible {
+    opacity: 1 !important;
+}
+/* Celular e tablet (sem mouse): setas sempre visíveis */
+@media (hover: none) {
+    html body .listagem .flex-direction-nav a {
+        opacity: 1 !important;
+    }
+}
+html body .listagem .flexslider .flex-direction-nav a.flex-disabled {
+    opacity: 0 !important;
+    pointer-events: none !important;
 }
 
 

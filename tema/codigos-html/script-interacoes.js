@@ -170,6 +170,7 @@
     //    A fileira fica invisível até ser ajustada (no instante em que o carrossel liga) e aparece com
     //    um fade: assim não se vê o pedaço do próximo card nem o "pulo".
     //    Trava de segurança: mesmo que o ajuste não aconteça, a fileira aparece sozinha em 3 s (só CSS).
+    //    Também informa ao CSS onde ficam as setas (--uk-folga e --uk-meio).
     var estiloJanela = document.createElement('style');
     estiloJanela.textContent = '@keyframes ukMostrarFileira{to{opacity:1}}'
         + '.listagem .flex-viewport{opacity:0;animation:ukMostrarFileira .3s ease 3s forwards}'
@@ -192,6 +193,11 @@
                     janela.style.marginLeft = 'auto';
                     janela.style.marginRight = 'auto';
                 }
+                // Posição das setas (CSS, seção 8): encostadas na fileira, no meio da foto
+                var moldura = janela.parentElement;
+                var foto = janela.querySelector('.imagem-produto');
+                moldura.style.setProperty('--uk-folga', Math.max(0, (largura - Math.min(largura, util)) / 2) + 'px');
+                if (foto) moldura.style.setProperty('--uk-meio', (janela.offsetTop + foto.offsetTop + foto.offsetHeight / 2) + 'px');
             }
         }
         janela.classList.add('uk-ajustada');
