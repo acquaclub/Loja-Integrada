@@ -41,7 +41,7 @@
         }).observe(document.body, { childList: true, subtree: true });
     }
 
-    // 2. MARCA EM CIMA DO NOME NOS CARDS (como na página do produto)
+    // 2. CARDS: MARCA EM CIMA DO NOME (como na página do produto) E CÓDIGO EMBAIXO
     //    A marca é reconhecida pelo nome do produto, a partir desta lista (edite quando entrar uma marca nova).
     //    Card sem marca reconhecida ganha um espaço vazio do mesmo tamanho, para os nomes ficarem alinhados.
     var MARCAS = ['Bertazzoni', 'Tecno', 'Gorenje', 'Elica', 'U-Line', 'Cuisinart', 'Viking', 'Elettromec', 'Tramontina',
@@ -61,7 +61,10 @@
         + "font-family:'Urbane',sans-serif;font-size:10.5px;font-weight:700;line-height:1.4;letter-spacing:2.5px;text-transform:uppercase;color:#1a1a1a;text-align:left}"
         + 'html body .listagem-item .uk-card-marca::before{content:"";flex:0 0 16px;height:1px;background:#c49a45}'
         + 'html body .listagem-item .uk-card-marca.vazia{visibility:hidden}'
-        + 'html body .listagem .listagem-item .uk-card-marca + .nome-produto{margin-top:6px !important}';
+        + 'html body .listagem .listagem-item .uk-card-marca + .nome-produto{margin-top:6px !important}'
+        // Código do produto, embaixo do nome
+        + "html body .listagem-item .uk-card-codigo{margin:6px 0 0;font-family:'Urbane',sans-serif;font-size:11px;font-weight:300;line-height:1.4;letter-spacing:.6px;color:#8a8a8a;text-align:left}"
+        + 'html body .listagem-item .uk-card-codigo.vazia{visibility:hidden}';
     document.head.appendChild(estiloMarca);
 
     var marcarCards = function () {
@@ -79,6 +82,14 @@
             rotulo.className = 'uk-card-marca' + (achada ? '' : ' vazia');
             rotulo.textContent = achada || '—';
             nome.parentNode.insertBefore(rotulo, nome);
+
+            // Código (SKU) que o tema traz escondido no card; sem código, espaço vazio para alinhar
+            var fonte = item.querySelector('.produto-sku, [itemprop="sku"], [data-sku]');
+            var codigo = fonte ? (fonte.getAttribute('content') || fonte.getAttribute('data-sku') || fonte.textContent || '').trim() : '';
+            var linhaCodigo = document.createElement('div');
+            linhaCodigo.className = 'uk-card-codigo' + (codigo ? '' : ' vazia');
+            linhaCodigo.textContent = codigo ? 'Cód. ' + codigo : '—';
+            nome.parentNode.insertBefore(linhaCodigo, nome.nextSibling);
         });
     };
     marcarCards();

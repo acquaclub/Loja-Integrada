@@ -966,7 +966,8 @@ html body .listagem-item:hover .imagem-produto img {
     transform: scale(1.04) !important;
 }
 
-/* Nome do produto: escrita normal, duas linhas, sublinhado dourado no hover */
+/* Nome do produto: fino e em preto, duas linhas (a marca em cima e o código embaixo fazem a hierarquia);
+   sublinhado dourado no hover */
 html body .listagem .listagem-item .nome-produto,
 html body .listagem-item .nome-produto {
     display: -webkit-box !important;
@@ -979,8 +980,8 @@ html body .listagem-item .nome-produto {
     min-height: 2.9em !important;
     margin: 16px 0 0 0 !important;
     font-family: 'Urbane', sans-serif !important;
-    font-size: 14px !important;
-    font-weight: 600 !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
     line-height: 1.45 !important;
     letter-spacing: 0.2px !important;
     text-transform: none !important;
