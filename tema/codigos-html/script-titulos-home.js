@@ -6,7 +6,7 @@
 // Estrutura de títulos da home para o Google (nada muda no visual):
 // 1. O H1 da página deixa de ser o logo (uma imagem) e passa a ser uma frase em texto,
 //    lida pelo Google e por leitores de tela, mas sem aparecer na tela.
-// 2. Os títulos das vitrines ("DESTAQUES", "FOGÕES"...) viram <h2> (hoje são caixas <div> comuns).
+// 2. Os títulos das vitrines ("DESTAQUES", "FOGÕES"...) viram <h2> (hoje são uma caixa <div> ou um link <a>).
 (function () {
     var FRASE_H1 = 'Unikitchen: eletrodomésticos, louças e metais de alto padrão em Sorocaba';
 
@@ -35,10 +35,21 @@
         var corpo = document.getElementById('corpo') || document.body;
         corpo.insertBefore(h1, corpo.firstChild);
 
-        // 2. Títulos das vitrines: de <div> para <h2>, com a mesma altura de linha de antes
-        document.querySelectorAll('.listagem div.titulo-categoria').forEach(function (div) {
-            var altura = getComputedStyle(div).lineHeight;
-            var h2 = trocarTag(div, 'h2');
+        // 2. Títulos das vitrines viram <h2>, com a mesma altura de linha de antes.
+        //    "Destaques" é uma caixa <div>: vira o próprio <h2>.
+        //    Os das categorias são um link <a>: o <h2> assume as classes e o link fica dentro dele.
+        document.querySelectorAll('.listagem .titulo-categoria:not(h2)').forEach(function (titulo) {
+            var altura = getComputedStyle(titulo).lineHeight;
+            var h2;
+            if (titulo.tagName === 'A') {
+                h2 = document.createElement('h2');
+                h2.className = titulo.className;
+                titulo.removeAttribute('class');
+                titulo.parentNode.replaceChild(h2, titulo);
+                h2.appendChild(titulo);
+            } else {
+                h2 = trocarTag(titulo, 'h2');
+            }
             h2.style.setProperty('line-height', altura, 'important');
         });
     }
