@@ -27,8 +27,16 @@
             var dados = sku && nome && lista[sku.textContent.trim()];
             if (!dados || !dados[0]) return;
 
+            // A marca já aparece em cima do nome: se a descrição repetir a marca no título, ela sai
+            var curto = dados[0];
+            var marca = item.querySelector('.uk-card-marca:not(.vazia)');
+            if (marca) {
+                var texto = marca.textContent.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                curto = curto.replace(new RegExp('(^|\\s)' + texto + '(?=\\s|$)', 'i'), '$1').replace(/\s+/g, ' ').trim() || dados[0];
+            }
+
             nome.setAttribute('title', nome.textContent.trim());
-            nome.textContent = dados[0];
+            nome.textContent = curto;
 
             if (MOSTRAR_LINHA_TECNICA && dados[1]) {
                 var tecnico = document.createElement('div');
