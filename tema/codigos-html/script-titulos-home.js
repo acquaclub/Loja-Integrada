@@ -20,12 +20,11 @@
         return novo;
     }
 
-    function montar() {
-        if (document.querySelector('.uk-h1')) return;
-
+    function montarH1() {
         // 1. Logo: de <h1> para <div> (o estilo do logo é pela classe, não pela tag)
         var logo = document.querySelector('#cabecalho h1.logo');
         if (logo) trocarTag(logo, 'div');
+        if (document.querySelector('.uk-h1')) return;
 
         var h1 = document.createElement('h1');
         h1.className = 'uk-h1';
@@ -34,7 +33,9 @@
             + 'overflow:hidden !important;clip:rect(0 0 0 0) !important;white-space:nowrap !important;border:0 !important';
         var corpo = document.getElementById('corpo') || document.body;
         corpo.insertBefore(h1, corpo.firstChild);
+    }
 
+    function montarTitulos() {
         // 2. Títulos das vitrines viram <h2>, com a mesma altura de linha de antes.
         //    "Destaques" é uma caixa <div>: vira o próprio <h2>.
         //    Os das categorias são um link <a>: o <h2> assume as classes e o link fica dentro dele.
@@ -54,9 +55,16 @@
         });
     }
 
+    function montar() {
+        montarH1();
+        montarTitulos();
+    }
+
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', montar);
     } else {
         montar();
     }
+    // Vitrines que o tema coloca na página depois: converte de novo ao terminar de carregar
+    window.addEventListener('load', montarTitulos);
 })();
