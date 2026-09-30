@@ -4,8 +4,8 @@
 // 3. Ele percorre TODAS as categorias do menu (e as páginas 2, 3... de cada uma), junta todos os produtos,
 //    abre por trás a página de cada um e lê o título da descrição
 //    (ex.: "Torneira Versa | Tramontina" → "Torneira Versa") e a linha logo abaixo dele.
-// 4. Quando aparecer "Pronto", ele diz quantas partes gerou. Para cada parte, digite no Console
-//    copy(UK_LISTA_GERADA[0])  (depois [1], [2]...) e cole num Código HTML script-nomes-lista-1, -2...
+// 4. Quando aparecer "Pronto", ele diz quantos códigos gerou. Para cada um, digite no Console
+//    copy(UK_LISTA_GERADA[0])  (depois [1], [2]...) e substitua todo o Código HTML script-nomes-1, -2...
 //    (O copy() do Console só funciona digitado direto, não dentro do gerador.)
 // Produtos já na lista instalada não são lidos de novo (mais rápido). Para reler todos
 // (ex.: depois de mudar descrições), troque RELER_TODOS para true.
@@ -86,34 +86,36 @@
         await Promise.all(novos.slice(i, i + 4).map(ler));
     }
 
-    // 3. Monta o código em partes de até 14 mil caracteres
+    // 3. Monta os códigos do painel: script-nomes-1 (lista + a troca dos nomes), script-nomes-2 (resto da lista)...
+    //    Cada um com até 14 mil caracteres; se a loja crescer, ele cria o script-nomes-3 sozinho.
+    var LOGICA = "(function () {\n    var MOSTRAR_LINHA_TECNICA = true; // false = só o nome curto\n\n    var estilo = document.createElement('style');\n    estilo.textContent = \"html body .listagem-item .uk-card-tecnico{margin:4px 0 0;font-family:'Urbane',sans-serif;font-size:12px;font-weight:300;\"\n        + 'line-height:1.4;letter-spacing:.2px;color:#666;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}';\n    document.head.appendChild(estilo);\n\n    function trocarNomes() {\n        var lista = window.UK_NOMES;\n        if (!lista) return;\n        // Só cards que o script-interacoes já marcou: a marca é lida do nome completo, antes da troca\n        document.querySelectorAll('.listagem-item[data-uk-marca]:not([data-uk-nome])').forEach(function (item) {\n            item.setAttribute('data-uk-nome', '');\n            var sku = item.querySelector('.produto-sku');\n            var nome = item.querySelector('.nome-produto');\n            var dados = sku && nome && lista[sku.textContent.trim()];\n            if (!dados || !dados[0]) return;\n\n            // A marca já aparece em cima do nome: se a descrição repetir a marca no título, ela sai\n            var curto = dados[0];\n            var marca = item.querySelector('.uk-card-marca:not(.vazia)');\n            if (marca) {\n                var texto = marca.textContent.trim().replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');\n                curto = curto.replace(new RegExp('(^|\\\\s)' + texto + '(?=\\\\s|$)', 'i'), '$1').replace(/\\s+/g, ' ').trim() || dados[0];\n            }\n\n            nome.setAttribute('title', nome.textContent.trim());\n            nome.textContent = curto;\n\n            if (MOSTRAR_LINHA_TECNICA && dados[1]) {\n                var tecnico = document.createElement('div');\n                tecnico.className = 'uk-card-tecnico';\n                tecnico.textContent = dados[1].split('|').map(function (t) { return t.trim(); }).filter(Boolean).join(' · ');\n                nome.parentNode.insertBefore(tecnico, nome.nextSibling);\n            }\n        });\n    }\n\n    var agendado = false;\n    function agendar() {\n        if (agendado) return;\n        agendado = true;\n        requestAnimationFrame(function () {\n            agendado = false;\n            trocarNomes();\n        });\n    }\n    agendar();\n    if ('MutationObserver' in window) {\n        new MutationObserver(agendar).observe(document.documentElement, { childList: true, subtree: true, attributes: true, attributeFilter: ['data-uk-marca'] });\n    }\n})();\n";
     var cabecalho = function (n, total) {
         return '/*\n'
             + '  Painel Loja Integrada > Códigos HTML\n'
-            + '  Descrição: script-nomes-lista-' + n + '.js (parte ' + n + ' de ' + total + ')\n'
+            + '  Descrição: script-nomes-' + n + '.js (código ' + n + ' de ' + total + (n === 1 ? ': troca dos nomes + parte da lista' : ': parte da lista') + ')\n'
             + '  Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: JavaScript\n'
-            + '  Usada por: script-nomes-cards.js\n'
+            + (n === 1 ? '  Depende de: script-interacoes.js (marca e código nos cards).\n' : '  Usada por: script-nomes-1.js (a troca dos nomes)\n')
             + '*/\n'
-            + '// Nome curto de cada produto: código → [nome, linha técnica], tirado do título da descrição.\n'
-            + '// NÃO edite à mão: gere de novo com o tema/ferramentas/gerar-lista-nomes.js (Console do navegador).\n'
+            + '// Lista: código → [nome, linha técnica], tirada do título da descrição. Produto fora da lista mantém o nome normal.\n'
+            + '// Gerada pelo tema/ferramentas/gerar-lista-nomes.js (Console do navegador).\n'
             + 'window.UK_NOMES = Object.assign(window.UK_NOMES || {}, {\n';
     };
     var linhas = Object.keys(lista).map(function (sku) { return '    ' + JSON.stringify(sku) + ': ' + JSON.stringify(lista[sku]); });
     var grupos = [[]];
-    var tamanho = 600;
+    var tamanho = 700 + LOGICA.length; // o código 1 leva também a troca dos nomes
     linhas.forEach(function (linha) {
-        if (tamanho + linha.length + 2 > LIMITE_PARTE) { grupos.push([]); tamanho = 600; }
+        if (tamanho + linha.length + 2 > LIMITE_PARTE) { grupos.push([]); tamanho = 700; }
         grupos[grupos.length - 1].push(linha);
         tamanho += linha.length + 2;
     });
     window.UK_LISTA_GERADA = grupos.map(function (grupo, n) {
-        return cabecalho(n + 1, grupos.length) + grupo.join(',\n') + '\n});\n';
+        return cabecalho(n + 1, grupos.length) + grupo.join(',\n') + '\n});\n' + (n === 0 ? '\n' + LOGICA : '');
     });
 
     if (semTitulo.length) console.log('Sem título na descrição (ficam com o nome normal):\n' + semTitulo.join('\n'));
     var instrucoes = window.UK_LISTA_GERADA.map(function (parte, n) {
-        return '   copy(UK_LISTA_GERADA[' + n + '])  → cole no Código HTML  script-nomes-lista-' + (n + 1);
+        return '   copy(UK_LISTA_GERADA[' + n + '])  → substitua todo o Código HTML  script-nomes-' + (n + 1);
     }).join('\n');
-    console.log('Pronto: ' + linhas.length + ' produtos em ' + grupos.length + ' parte(s).\n\n'
+    console.log('Pronto: ' + linhas.length + ' produtos em ' + grupos.length + ' código(s).\n\n'
         + '>>> Para cada linha abaixo: digite o comando no Console, Enter, e cole no código indicado:\n' + instrucoes);
 })();
