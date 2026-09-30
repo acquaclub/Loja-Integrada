@@ -944,17 +944,14 @@ html body .listagem > ul > .listagem-linha {
     padding: 0 !important;
 }
 
-/* Foto: quadro quadrado off-white, com respiro igual em volta do produto e zoom suave no hover.
-   O "multiply" funde o fundo branco de cada foto ao quadro: todas ficam no mesmo tom.
-   Vale para a foto principal e para a segunda foto que o tema mostra no hover (.imagem-zoom);
-   não pega selos ou ícones do card. */
+/* Foto: fundo branco, quadrada, zoom suave no hover (só as fotos do produto, não selos ou ícones do card) */
 html body .listagem-item .imagem-produto,
 html body .listagem-item .foto-produto {
     overflow: hidden !important;
 }
-html body .listagem-item .imagem-produto {
-    background-color: #f6f5f2 !important;
-    isolation: isolate;
+html body .listagem-item .imagem-produto,
+html body .listagem-item .imagem-produto img {
+    background-color: #ffffff !important;
     border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -963,13 +960,6 @@ html body .listagem-item .imagem-produto img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: contain;
-    padding: 12% !important;
-    box-sizing: border-box !important;
-    background: transparent !important;
-    mix-blend-mode: multiply;
-    border: 0 !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
     transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
 }
 html body .listagem-item:hover .imagem-produto img {
