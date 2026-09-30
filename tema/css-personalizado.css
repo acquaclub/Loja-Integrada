@@ -308,14 +308,15 @@ html body #cabecalho .logo img {
         height: 14px;
     }
 
-    /* Linha principal: logo no centro exato; lupa na ponta esquerda e pino na direita
+    /* Linha principal: logo no centro exato, com um traço dourado curto embaixo; lupa e pino na ponta direita
        (a camada da busca fica por cima da linha inteira e só os ícones e o campo recebem clique) */
     html body #cabecalho > .conteiner > .row-fluid {
         position: relative !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        padding: 26px 0 14px !important;
+        padding: 26px 0 16px !important;
+        background: linear-gradient(90deg, rgba(196, 154, 69, 0), #c49a45 50%, rgba(196, 154, 69, 0)) no-repeat center bottom / 90px 1px !important;
     }
     /* Remove os "clearfix" do tema, que viram espaços extras dentro do flex */
     html body #cabecalho > .conteiner > .row-fluid::before,
@@ -407,16 +408,15 @@ html body #cabecalho .logo img {
         color: var(--uk-texto) !important;
     }
     /* Menu: centralizado, fonte da marca, sublinhado dourado no hover.
-       Em cima, fio cinza claro separando do logo; embaixo, traço curto em degradê dourado no centro
-       (os dois desenhados no fundo, sem mexer no posicionamento do submenu) e um respiro branco antes do banner */
+       Embaixo, fio cinza claro de ponta a ponta fechando o cabeçalho (desenhado no fundo,
+       sem mexer no posicionamento do submenu) e um respiro branco antes do banner */
     html body #cabecalho .menu.superior {
         margin-top: 0 !important;
         border-top: 0 !important;
         border-bottom: 0 !important;
         box-shadow: none !important;
         background:
-            linear-gradient(#ecebe8, #ecebe8) no-repeat center top / calc(100% - 60px) 1px,
-            linear-gradient(90deg, rgba(196, 154, 69, 0), #c49a45 50%, rgba(196, 154, 69, 0)) no-repeat center bottom / 22% 1px,
+            linear-gradient(#e6e3dd, #e6e3dd) no-repeat center bottom / calc(100% - 60px) 1px,
             #ffffff !important;
     }
     /* Menu com altura travada em 46px e texto no meio: zera os espaços que o tema põe em volta */
