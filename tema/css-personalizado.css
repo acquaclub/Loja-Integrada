@@ -335,7 +335,7 @@ html body #cabecalho .logo img {
     html body #cabecalho > .conteiner > .row-fluid > .conteudo-topo {
         position: absolute !important;
         top: 26px !important;
-        bottom: 14px !important;
+        bottom: 16px !important;
         left: 0 !important;
         right: 0 !important;
         display: flex !important;
