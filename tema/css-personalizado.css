@@ -408,7 +408,7 @@ html body #cabecalho .logo img {
         color: var(--uk-texto) !important;
     }
     /* Menu: centralizado, fonte da marca, sublinhado dourado no hover.
-       Embaixo, fio cinza claro de ponta a ponta fechando o cabeçalho (desenhado no fundo,
+       Embaixo, fio cinza claro em degradê (some nas pontas) fechando o cabeçalho (desenhado no fundo,
        sem mexer no posicionamento do submenu) e um respiro branco antes do banner */
     html body #cabecalho .menu.superior {
         margin-top: 0 !important;
@@ -416,7 +416,7 @@ html body #cabecalho .logo img {
         border-bottom: 0 !important;
         box-shadow: none !important;
         background:
-            linear-gradient(#e6e3dd, #e6e3dd) no-repeat center bottom / calc(100% - 60px) 1px,
+            linear-gradient(90deg, rgba(216, 212, 204, 0), #d8d4cc 25%, #d8d4cc 75%, rgba(216, 212, 204, 0)) no-repeat center bottom / calc(100% - 60px) 1px,
             #ffffff !important;
     }
     /* Menu com altura travada em 46px e texto no meio: zera os espaços que o tema põe em volta */
