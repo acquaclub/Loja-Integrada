@@ -1005,7 +1005,7 @@ html body .listagem-item .preco-venda {
 
 /* Setas dos carrosséis: só a seta fina, sem caixa, encostada na fileira e na altura do meio da foto.
    Aparecem com o mouse sobre a vitrine e somem quando não há mais produtos para aquele lado.
-   Distância da fileira (--uk-folga) e altura da foto (--uk-meio): script-interacoes.js, seção 5. */
+   Distância da fileira (--uk-folga) e altura da foto (--uk-meio): script-interacoes.js, seção 4. */
 html body .listagem .flexslider {
     position: relative !important;
 }

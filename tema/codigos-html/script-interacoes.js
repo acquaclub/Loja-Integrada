@@ -64,7 +64,11 @@
         + 'html body .listagem .listagem-item .uk-card-marca + .nome-produto{margin-top:6px !important}'
         // Código do produto, embaixo do nome
         + "html body .listagem-item .uk-card-codigo{margin:6px 0 0;font-family:'Urbane',sans-serif;font-size:11px;font-weight:300;line-height:1.4;letter-spacing:.6px;color:#8a8a8a;text-align:left}"
-        + 'html body .listagem-item .uk-card-codigo.vazia{visibility:hidden}';
+        + 'html body .listagem-item .uk-card-codigo.vazia{visibility:hidden}'
+        // O código fica por cima do link do card: clicar nele copia o código (não abre o produto)
+        + 'html body .listagem-item .uk-card-codigo:not(.vazia){position:relative;z-index:3;display:inline-block;cursor:copy;transition:color .2s ease}'
+        + 'html body .listagem-item .uk-card-codigo:not(.vazia):hover{color:#c49a45}'
+        + 'html body .listagem-item .uk-card-codigo.copiado{color:#c49a45}';
     document.head.appendChild(estiloMarca);
 
     var marcarCards = function () {
@@ -89,6 +93,10 @@
             var linhaCodigo = document.createElement('div');
             linhaCodigo.className = 'uk-card-codigo' + (codigo ? '' : ' vazia');
             linhaCodigo.textContent = codigo ? 'Cód. ' + codigo : '—';
+            if (codigo) {
+                linhaCodigo.title = 'Clique para copiar o código';
+                linhaCodigo.setAttribute('data-codigo', codigo);
+            }
             nome.parentNode.insertBefore(linhaCodigo, nome.nextSibling);
         });
     };
@@ -105,6 +113,38 @@
         }).observe(document.body, { childList: true, subtree: true });
     }
 
+    // Clique no código: copia para a área de transferência e mostra "Copiado ✓" por um instante
+    document.addEventListener('click', function (e) {
+        var alvo = e.target.closest && e.target.closest('.uk-card-codigo[data-codigo]');
+        if (!alvo) return;
+        e.preventDefault();
+        e.stopPropagation();
+        var codigo = alvo.getAttribute('data-codigo');
+        var avisar = function () {
+            alvo.textContent = 'Copiado ✓';
+            alvo.classList.add('copiado');
+            setTimeout(function () {
+                alvo.textContent = 'Cód. ' + codigo;
+                alvo.classList.remove('copiado');
+            }, 1500);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(codigo).then(avisar, function () { copiarAntigo(codigo); avisar(); });
+        } else {
+            copiarAntigo(codigo);
+            avisar();
+        }
+    }, true);
+    function copiarAntigo(texto) {
+        var campo = document.createElement('textarea');
+        campo.value = texto;
+        campo.style.cssText = 'position:fixed;top:0;left:0;opacity:0';
+        document.body.appendChild(campo);
+        campo.select();
+        try { document.execCommand('copy'); } catch (erro) { }
+        document.body.removeChild(campo);
+    }
+
     // 3. ACESSIBILIDADE (apontada pelo PageSpeed): região principal da página
     //    e nome nos botões que só têm ícone (setas dos carrosséis e menu do celular)
     var nomearBotoes = function () {
@@ -117,54 +157,7 @@
     if (document.readyState === 'complete') nomearBotoes();
     else window.addEventListener('load', nomearBotoes);
 
-    // 4. CARROSSÉIS DE PRODUTOS: ARRASTAR COM O MOUSE (no celular o tema já aceita o dedo)
-    //    Clicar, arrastar para o lado e soltar anda a fileira, como as setas.
-    //    Depois de um arrasto, o clique não abre o produto sem querer.
-    var estiloArrasto = document.createElement('style');
-    estiloArrasto.textContent = '@media (hover:hover) and (pointer:fine){.listagem .flex-viewport{cursor:grab}'
-        + '.listagem .flex-viewport.uk-arrastando,.listagem .flex-viewport.uk-arrastando a{cursor:grabbing}'
-        + '.listagem .flex-viewport img{-webkit-user-drag:none;user-select:none}}';
-    document.head.appendChild(estiloArrasto);
-
-    var arrasto = null;
-    var cancelarClique = false;
-    document.addEventListener('mousedown', function (e) {
-        if (e.button !== 0) return;
-        var janela = e.target.closest('.listagem .flex-viewport');
-        if (!janela) return;
-        arrasto = { janela: janela, x: e.clientX, y: e.clientY };
-    });
-    document.addEventListener('mousemove', function (e) {
-        if (!arrasto) return;
-        if (Math.abs(e.clientX - arrasto.x) > 8) {
-            arrasto.janela.classList.add('uk-arrastando');
-            e.preventDefault();
-        }
-    });
-    document.addEventListener('mouseup', function (e) {
-        if (!arrasto) return;
-        var dx = e.clientX - arrasto.x;
-        var janela = arrasto.janela;
-        arrasto = null;
-        janela.classList.remove('uk-arrastando');
-        if (Math.abs(dx) < 40) return;
-        cancelarClique = true;
-        setTimeout(function () { cancelarClique = false; }, 0);
-        var seta = janela.parentElement.querySelector(dx < 0 ? '.flex-next' : '.flex-prev');
-        if (seta && !seta.classList.contains('flex-disabled')) seta.click();
-    });
-    document.addEventListener('click', function (e) {
-        if (cancelarClique && e.target.closest('.listagem .flex-viewport')) {
-            e.preventDefault();
-            e.stopPropagation();
-            cancelarClique = false;
-        }
-    }, true);
-    document.addEventListener('dragstart', function (e) {
-        if (e.target.closest && e.target.closest('.listagem .flex-viewport')) e.preventDefault();
-    });
-
-    // 5. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
+    // 4. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
     //    O tema usa largura fixa por produto; com a página larga sobrava um pedaço do próximo card.
     //    A janela do carrossel passa a ter a largura exata dos produtos que cabem inteiros, centralizada.
     //    A fileira fica invisível até ser ajustada (no instante em que o carrossel liga) e aparece com
@@ -227,7 +220,7 @@
         }, 250);
     });
 
-    // 6. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
+    // 5. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
     document.body.addEventListener('minicart_state_changed', function () {
         document.querySelectorAll('#cabecalho .carrinho, .menu.flutuante .carrinho').forEach(function (carrinho) {
             carrinho.classList.add('animar-carrinho');
