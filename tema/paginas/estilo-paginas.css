@@ -238,6 +238,88 @@ html body .uk-pg .uk-pg__link:hover {
 }
 
 
+/* Bloco de programa de relacionamento (Acquaclub, na Área do Profissional):
+   apresentação à esquerda, pilares à direita e faixa de diferenciais embaixo */
+html body .uk-pg .uk-club {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 64px;
+    margin: 0 0 72px;
+    padding: 56px;
+    border: 1px solid #e6e3dc;
+    background: #ffffff;
+}
+html body .uk-pg .uk-club__titulo {
+    margin: 0 0 16px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    text-transform: none !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-club__sub {
+    margin: 0 0 16px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 1.6 !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-club__texto {
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+}
+html body .uk-pg .uk-club__pilares p {
+    margin: 0 0 24px !important;
+    padding: 0 0 0 20px !important;
+    border-left: 1px solid #c49a45;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    color: #666666 !important;
+}
+html body .uk-pg .uk-club__pilares p:last-child {
+    margin-bottom: 0 !important;
+}
+html body .uk-pg .uk-club__pilares strong {
+    display: block;
+    margin: 0 0 4px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-club__faixa {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 0;
+    margin: 0 !important;
+    padding: 28px 0 0 !important;
+    border-top: 1px solid #eeeeee;
+    list-style: none !important;
+}
+html body .uk-pg .uk-club__faixa li {
+    margin: 0 !important;
+    padding: 0 16px !important;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    list-style: none !important;
+}
+html body .uk-pg .uk-club__faixa li + li {
+    border-left: 1px solid #c49a45;
+}
+
+
 /* Documento longo (Política de Privacidade, termos…): uma coluna de leitura */
 html body .uk-pg .uk-doc {
     max-width: 780px;
@@ -649,5 +731,23 @@ html body .uk-pg .uk-evento__logo img {
     html body .uk-pg .uk-evento__logo {
         flex: 0 0 auto;
         height: 110px;
+    }
+    html body .uk-pg .uk-club {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 48px;
+        padding: 36px 24px;
+    }
+    html body .uk-pg .uk-club__titulo {
+        font-size: 24px !important;
+    }
+    html body .uk-pg .uk-club__faixa {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    html body .uk-pg .uk-club__faixa li {
+        padding: 0 0 0 14px !important;
+        border-left: 1px solid #c49a45;
+        white-space: normal;
     }
 }

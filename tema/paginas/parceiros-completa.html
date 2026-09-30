@@ -84,7 +84,7 @@ html body .uk-pg .uk-pg__icone--entrega { background-image: url("data:image/svg+
 }
 html body .uk-pg .uk-pg__icone--atendimento { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2'/%3E%3Ccircle cx='9' cy='7' r='4'/%3E%3Cpath d='M17 11l2 2 4-4'/%3E%3C/svg%3E");
 }
-html body .uk-pg .uk-pg__icone--parceria { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 3h12l4 6-10 12L2 9z'/%3E%3Cpath d='M2 9h20M9.5 3L8 9l4 12 4-12-1.5-6'/%3E%3C/svg%3E");
+html body .uk-pg .uk-pg__icone--loja { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9l1.5-5h15L21 9'/%3E%3Cpath d='M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0z'/%3E%3Cpath d='M5 13v8h14v-8M10 21v-5h4v5'/%3E%3C/svg%3E");
 }
 html body .uk-pg .uk-pg__card h3 {
     margin: 0 0 12px !important;
@@ -156,6 +156,100 @@ html body .uk-pg .uk-pg__card p a {
 html body .uk-pg .uk-pg__card p a:hover {
     color: #c49a45 !important;
 }
+html body .uk-pg .uk-pg__link {
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #c49a45;
+    padding-bottom: 3px;
+    transition: color 0.2s ease;
+}
+html body .uk-pg .uk-pg__link:hover {
+    color: #c49a45 !important;
+}
+html body .uk-pg .uk-club {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 64px;
+    margin: 0 0 72px;
+    padding: 56px;
+    border: 1px solid #e6e3dc;
+    background: #ffffff;
+}
+html body .uk-pg .uk-club__titulo {
+    margin: 0 0 16px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    text-transform: none !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-club__sub {
+    margin: 0 0 16px !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 1.6 !important;
+    color: #1a1a1a !important;
+}
+html body .uk-pg .uk-club__texto {
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.7 !important;
+    color: #666666 !important;
+}
+html body .uk-pg .uk-club__pilares p {
+    margin: 0 0 24px !important;
+    padding: 0 0 0 20px !important;
+    border-left: 1px solid #c49a45;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    color: #666666 !important;
+}
+html body .uk-pg .uk-club__pilares p:last-child {
+    margin-bottom: 0 !important;
+}
+html body .uk-pg .uk-club__pilares strong {
+    display: block;
+    margin: 0 0 4px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+html body .uk-pg .uk-club__faixa {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 0;
+    margin: 0 !important;
+    padding: 28px 0 0 !important;
+    border-top: 1px solid #eeeeee;
+    list-style: none !important;
+}
+html body .uk-pg .uk-club__faixa li {
+    margin: 0 !important;
+    padding: 0 16px !important;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    list-style: none !important;
+}
+html body .uk-pg .uk-club__faixa li + li {
+    border-left: 1px solid #c49a45;
+}
 html body .uk-pg .uk-pg__card .uk-pg__botao {
     margin-top: 24px;
 }
@@ -194,43 +288,82 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
         display: block;
         padding: 16px 20px;
     }
+    html body .uk-pg .uk-club {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 48px;
+        padding: 36px 24px;
+    }
+    html body .uk-pg .uk-club__titulo {
+        font-size: 24px !important;
+    }
+    html body .uk-pg .uk-club__faixa {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    html body .uk-pg .uk-club__faixa li {
+        padding: 0 0 0 14px !important;
+        border-left: 1px solid #c49a45;
+        white-space: normal;
+    }
 }
 </style>
 <div class="uk-pg">
 
   <div class="uk-pg__abertura">
     <p class="uk-pg__rotulo">Área do Profissional</p>
-    <h2 class="uk-pg__titulo">Arquitetos, designers e engenheiros</h2>
-    <p class="uk-pg__texto">Na Unikitchen, vocês encontram um parceiro estratégico para transformar projetos em realidade com excelência técnica e logística.</p>
+    <h2 class="uk-pg__titulo">Para quem projeta e constrói</h2>
+    <p class="uk-pg__texto">Arquitetos, designers, engenheiros e construtoras contam com apoio técnico em cada etapa da obra e showrooms para receber seus clientes.</p>
   </div>
 
   <div class="uk-pg__grade">
     <div class="uk-pg__card">
       <span class="uk-pg__icone uk-pg__icone--consultoria" aria-hidden="true">&nbsp;</span>
-      <h3>Consultoria Técnica</h3>
-      <p>Nossa equipe especializada auxilia na especificação correta de louças, metais e eletrodomésticos, garantindo a compatibilidade técnica e estética com o seu projeto.</p>
+      <h3>Acompanhamento de projeto</h3>
+      <p>Acompanhamos sua especificação item a item: conferimos disponibilidade, linhas descontinuadas e compatibilidade técnica, e indicamos alternativas equivalentes quando for preciso.</p>
     </div>
     <div class="uk-pg__card">
       <span class="uk-pg__icone uk-pg__icone--entrega" aria-hidden="true">&nbsp;</span>
-      <h3>Entrega Programada</h3>
-      <p>Sabemos que cada etapa da obra tem seu tempo. Armazenamos os produtos em nosso CD e entregamos conforme o cronograma, evitando danos e roubos no canteiro.</p>
+      <h3>Entrega fracionada</h3>
+      <p>Os produtos ficam guardados conosco e seguem para a obra conforme o cronograma, protegidos até a hora da instalação.</p>
     </div>
     <div class="uk-pg__card">
       <span class="uk-pg__icone uk-pg__icone--atendimento" aria-hidden="true">&nbsp;</span>
-      <h3>Atendimento VIP</h3>
-      <p>Canal exclusivo de atendimento para profissionais, com agilidade em orçamentos, resolução de dúvidas e acompanhamento pós-venda dedicado ao seu cliente.</p>
+      <h3>Atendimento direto</h3>
+      <p>Um canal só para profissionais, com orçamento ágil e acompanhamento até o pós-venda do seu cliente.</p>
     </div>
     <div class="uk-pg__card">
-      <span class="uk-pg__icone uk-pg__icone--parceria" aria-hidden="true">&nbsp;</span>
-      <h3>Programa de Parceria</h3>
-      <p>Valorizamos o seu trabalho. Oferecemos condições comerciais especiais e um programa de relacionamento pensado para fortalecer nossa parceria a longo prazo.</p>
+      <span class="uk-pg__icone uk-pg__icone--loja" aria-hidden="true">&nbsp;</span>
+      <h3>Showrooms em Sorocaba e Itapetininga</h3>
+      <p>Leve seu cliente para ver, tocar e testar os produtos antes de fechar o projeto.</p>
     </div>
   </div>
 
+  <div class="uk-club">
+    <div class="uk-club__intro">
+      <p class="uk-pg__rotulo">Programa de relacionamento</p>
+      <h2 class="uk-club__titulo">Acquaclub</h2>
+      <p class="uk-club__sub">O clube de quem constrói grandes projetos com a gente. Da Acqua, loja exclusiva Deca, Portinari e Ceusa do Grupo Unikitchen.</p>
+      <p class="uk-club__texto">Cada projeto especificado soma pontos que se transformam em experiências, encontros e reconhecimento.</p>
+      <a class="uk-pg__link" href="https://club.acquaexclusive.com.br/login" target="_blank" rel="noopener">Acessar o Acquaclub</a>
+    </div>
+    <div class="uk-club__pilares">
+      <p><strong>Experiências</strong>Viagens, gastronomia, bem-estar e inspiração.</p>
+      <p><strong>Encontros</strong>Almoços, talks e visitas técnicas com outros profissionais.</p>
+      <p><strong>Reconhecimento</strong>Premiações, visibilidade e benefícios exclusivos.</p>
+    </div>
+    <ul class="uk-club__faixa">
+      <li>Pontuação em diferentes categorias</li>
+      <li>Resgates rápidos</li>
+      <li>Experiências transferíveis</li>
+      <li>Curadoria exclusiva</li>
+    </ul>
+  </div>
+
   <div class="uk-pg__cta">
-    <h2>Seja um Parceiro Unikitchen</h2>
-    <p>Cadastre-se em nossa base de especificadores para receber novidades, convites para eventos exclusivos e acesso a condições especiais.</p>
-    <a class="uk-pg__botao" href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Sou%20profissional%20da%20%C3%A1rea%20(Arquiteto%2FDesigner%2FConstrutora)%20e%20gostaria%20de%20me%20cadastrar%20como%20parceiro." target="_blank" rel="noopener">Cadastrar meu escritório / construtora</a>
+    <h2>Faça parte</h2>
+    <p>Cadastre-se para receber lançamentos, convites para eventos e participar do Acquaclub.</p>
+    <a class="uk-pg__botao" href="https://wa.me/5515996100914?text=Ol%C3%A1%21%20Sou%20profissional%20%28arquitetura%2C%20design%2C%20engenharia%20ou%20construtora%29%20e%20gostaria%20de%20me%20cadastrar%20como%20parceiro%20Unikitchen." target="_blank" rel="noopener">Quero ser parceiro</a>
   </div>
 
 </div>
