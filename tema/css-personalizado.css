@@ -842,13 +842,18 @@ html body .secao-banners .flex-direction-nav a:hover {
    Sem bordas, tracejados ou sombras; hover discreto.
    ========================================================================== */
 
-/* Títulos das seções ("DESTAQUES"…): sem a linha preta, com traço dourado curto */
+/* Títulos das seções ("DESTAQUES"…): sem a linha preta, com traço dourado curto.
+   A caixa do título tem a largura do texto (display: table), para o traço poder crescer até ela */
 html body .listagem .titulo-categoria {
+    display: table !important;
+    float: none !important;
+    width: auto !important;
     border: 0 !important;
     padding: 0 !important;
-    margin: 72px 0 32px 0 !important;
+    margin: 72px auto 32px auto !important;
     background: none !important;
     text-align: center !important;
+    cursor: default;
 }
 html body .listagem .titulo-categoria strong,
 html body .listagem .titulo-categoria {
@@ -859,38 +864,27 @@ html body .listagem .titulo-categoria {
     text-transform: uppercase !important;
     color: var(--uk-preto) !important;
 }
-html body .listagem .titulo-categoria::after {
-    content: "" !important;
-    display: block !important;
-    width: 32px !important;
-    height: 1px !important;
-    margin: 12px auto 0 auto !important;
-    background: var(--uk-dourado) !important;
-}
-/* Título que leva à categoria: no hover fica dourado e o traço se alonga (dica de que é clicável).
-   Só vale para títulos com link; "Destaques", sem categoria, não muda. */
-html body .listagem .titulo-categoria,
-html body .listagem .titulo-categoria strong,
-html body .listagem .titulo-categoria a {
-    transition: color 0.25s ease !important;
-}
 html body .listagem .titulo-categoria a {
     color: inherit !important;
     text-decoration: none !important;
 }
+html body .listagem .titulo-categoria:has(a[href]) {
+    cursor: pointer;
+}
+/* Traço: 32px parado; no hover se estende por baixo da palavra inteira, como no menu do topo */
 html body .listagem .titulo-categoria::after {
-    transition: width 0.3s ease !important;
+    content: "" !important;
+    display: block !important;
+    width: 32px !important;
+    max-width: 100% !important;
+    height: 1px !important;
+    margin: 12px auto 0 auto !important;
+    background: var(--uk-dourado) !important;
+    transition: width 0.35s ease !important;
 }
-html body .listagem .titulo-categoria:has(a[href]):hover,
-html body .listagem .titulo-categoria:has(a[href]):hover strong,
-html body .listagem .titulo-categoria:has(a[href]):hover a,
-html body .listagem a[href]:hover > .titulo-categoria,
-html body .listagem a[href]:hover > .titulo-categoria strong {
-    color: var(--uk-dourado) !important;
-}
-html body .listagem .titulo-categoria:has(a[href]):hover::after,
+html body .listagem .titulo-categoria:hover::after,
 html body .listagem a[href]:hover > .titulo-categoria::after {
-    width: 56px !important;
+    width: 100% !important;
 }
 /* "Produtos relacionados" (página de produto): mesmo padrão dos títulos da home */
 html body .listagem.aproveite-tambem > .titulo {
