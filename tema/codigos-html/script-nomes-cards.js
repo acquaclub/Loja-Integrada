@@ -2,7 +2,7 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-nomes-cards.js
   Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: JavaScript
-  Depende de: script-nomes-lista.js (a lista UK_NOMES) e script-interacoes.js (marca e código nos cards)
+  Depende de: script-nomes-lista-1, -2... (a lista UK_NOMES) e script-interacoes.js (marca e código nos cards)
 */
 // Nos cards de produto, troca o nome longo da plataforma pelo nome curto do título da descrição
 // (ex.: "Adega Vetro") e mostra embaixo a linha técnica ("Built-In · 220V · 40 Garrafas").
