@@ -6,7 +6,8 @@
 */
 // Coluna lateral das categorias:
 // - em cima, bloco "TIPO" com as subcategorias da categoria aberta (ou as irmãs, se ela for uma subcategoria);
-// - embaixo, a lista de todas as categorias principais, com a atual destacada (o CSS esconde os subníveis).
+// - embaixo, a lista de todas as categorias principais, com a atual destacada (o CSS esconde os subníveis);
+// - nas categorias de marca, "CATEGORIAS" sai da lista de marcas e vira um bloco próprio.
 (function () {
     function caminho(url) {
         return url.replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
@@ -59,9 +60,54 @@
         menu.insertBefore(bloco, menu.firstChild);
     }
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', montarTipo);
-    } else {
+    function eCategorias(a) {
+        return a && (a.textContent.trim().toUpperCase() === 'CATEGORIAS' || caminho(a.pathname) === '/categoria');
+    }
+
+    // Nas categorias de marca (ex.: Bertazzoni), o tema lista "CATEGORIAS" junto das marcas.
+    // Ele sai do bloco "Marcas" e ganha um bloco próprio, com as categorias principais do menu do topo.
+    function separarCategorias() {
+        var marcas = document.querySelector('.coluna .menu.lateral.outras');
+        if (!marcas) return;
+        var itens = marcas.querySelectorAll('.nivel-um > li');
+        for (var i = 0; i < itens.length; i++) {
+            if (eCategorias(itens[i].querySelector('a'))) itens[i].parentNode.removeChild(itens[i]);
+        }
+
+        // Página de CATEGORIAS ou de uma subcategoria: a coluna já mostra a árvore de categorias
+        var principal = document.querySelector('.coluna .menu.lateral:not(.outras) .nivel-um > li > a');
+        if (eCategorias(principal) || document.querySelector('.coluna .uk-categorias')) return;
+
+        var topo = document.querySelectorAll('#cabecalho .menu.superior .nivel-um > li');
+        var links = null;
+        for (var j = 0; j < topo.length; j++) {
+            if (eCategorias(topo[j].querySelector('a'))) {
+                links = topo[j].querySelectorAll(':scope > ul > li > a');
+                break;
+            }
+        }
+        if (!links || !links.length) return;
+
+        var bloco = document.createElement('div');
+        bloco.className = 'uk-categorias';
+        bloco.style.marginBottom = '40px';
+        var html = '<p class="uk-tipo__titulo">Categorias</p><ul class="uk-tipo__lista">';
+        for (var k = 0; k < links.length; k++) {
+            html += '<li><a href="' + links[k].getAttribute('href') + '">' + links[k].textContent.trim() + '</a></li>';
+        }
+        html += '</ul>';
+        bloco.innerHTML = html;
+        marcas.parentNode.insertBefore(bloco, marcas);
+    }
+
+    function montar() {
         montarTipo();
+        separarCategorias();
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', montar);
+    } else {
+        montar();
     }
 })();
