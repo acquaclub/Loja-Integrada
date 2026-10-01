@@ -32,15 +32,18 @@
         + C + ' .uk-cel-linha .atalho-menu{display:flex !important;align-items:center;justify-content:center;flex:0 0 40px !important;width:40px !important;height:40px !important;'
         + 'margin:0 auto 0 0 !important;padding:0 !important;background:transparent !important;border:0 !important;box-shadow:none !important;font-size:0 !important;line-height:0 !important}'
         + C + ' .uk-cel-linha .atalho-menu::before{content:"" !important;display:block;width:20px;height:1.5px;margin:0;background:#1a1a1a;box-shadow:0 -6px 0 #1a1a1a,0 6px 0 #1a1a1a}'
-        // Campo de busca: fechado por padrão; abre embaixo do logo, só com a linha de baixo
-        + C + ' .uk-cel-linha .busca{position:absolute !important;top:64px;left:8px;right:8px;width:auto !important;height:0 !important;margin:0 !important;padding:0 !important;'
-        + 'border:0 !important;border-bottom:1px solid transparent !important;border-radius:0 !important;background:#ffffff !important;box-shadow:none !important;opacity:0;overflow:hidden !important;'
+        // Campo de busca: fechado por padrão; abre embaixo do logo como um campo claro, com lupa dourada e texto de exemplo
+        + C + ' .uk-cel-linha .busca{position:absolute !important;top:64px;left:12px;right:12px;width:auto !important;height:0 !important;margin:0 !important;padding:0 !important;'
+        + 'border:1px solid transparent !important;border-radius:0 !important;background:#f7f7f5 no-repeat 12px center / 18px 18px !important;box-shadow:none !important;opacity:0;overflow:hidden !important;'
         + 'transition:height .3s ease,opacity .3s ease,border-color .3s ease !important}'
-        + C + '.uk-cel-aberta .uk-cel-linha .busca{height:40px !important;opacity:1;border-bottom-color:#1a1a1a !important}'
-        + C + '.uk-cel-aberta > .conteiner{padding-bottom:52px !important}'
+        + C + '.uk-cel-aberta .uk-cel-linha .busca{height:44px !important;opacity:1;border-color:#e6e3dc !important;'
+        + 'background-image:url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23c49a45\' stroke-width=\'1.6\' stroke-linecap=\'round\'%3E%3Ccircle cx=\'10.5\' cy=\'10.5\' r=\'6.5\'/%3E%3Cpath d=\'M15.5 15.5L21 21\'/%3E%3C/svg%3E") !important}'
+        + C + '.uk-cel-aberta .uk-cel-linha .busca:focus-within{border-color:#c49a45 !important}'
+        + C + '.uk-cel-aberta > .conteiner{padding-bottom:60px !important}'
         + C + ' .uk-cel-linha .busca form{height:100% !important;margin:0 !important}'
-        + C + ' .uk-cel-linha .busca input{width:100% !important;height:100% !important;margin:0 !important;padding:0 4px !important;border:0 !important;background:transparent !important;'
-        + 'box-shadow:none !important;outline:none !important;font-size:16px !important}'
+        + C + ' .uk-cel-linha .busca input{width:100% !important;height:100% !important;margin:0 !important;padding:0 12px 0 40px !important;border:0 !important;background:transparent !important;'
+        + "box-shadow:none !important;outline:none !important;font-family:'Urbane',sans-serif !important;font-size:16px !important;color:#1a1a1a !important}"
+        + C + ' .uk-cel-linha .busca input::placeholder{color:#8a8a8a !important;opacity:1}'
         + C + ' .uk-cel-linha .busca button,' + C + ' .uk-cel-linha .uk-lupa-btn{display:none !important}'
         + C + ' .uk-cel-btn{display:inline-flex !important;align-items:center;justify-content:center;width:40px;height:40px;margin:0;padding:0;border:0;background:none;color:#1a1a1a !important}'
         + C + ' .uk-cel-btn svg{display:block;width:22px;height:22px}'
@@ -58,6 +61,7 @@
         estilo.textContent = ESTILO;
         document.head.appendChild(estilo);
         linha.classList.add('uk-cel-linha');
+        campo.setAttribute('placeholder', 'O que você procura?');
 
         var lupa = document.createElement('button');
         lupa.type = 'button';
