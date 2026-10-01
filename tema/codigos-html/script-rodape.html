@@ -3,7 +3,7 @@
   Descrição: script-rodapé.html
   Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: HTML
   Obs.: a classe "custom-footer-restored" é mantida porque a seção de marcas se posiciona antes dela.
-  Ao chegar em "Marcas de Prestígio" (ou no rodapé, nas outras páginas), o cabeçalho fixo sai de cena.
+  Ao chegar em "Marcas de Prestígio" (ou no rodapé, nas outras páginas), o cabeçalho fixo e o WhatsApp flutuante saem de cena.
 -->
 <div class="custom-footer-restored">
   <footer class="uk-rodape uk-rd">
@@ -100,6 +100,8 @@
 .uk-rd__legal{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 26px;padding:16px 30px;background:#1a1a1a;font-size:11px;font-weight:600;letter-spacing:.8px;color:#bdbdbd;text-align:center}
 #barraTopo{transition:transform .4s ease,opacity .4s ease}
 html.uk-foco-rodape #barraTopo{transform:translateY(-110%)!important;opacity:0!important;pointer-events:none!important}
+.wpp-flutuante-home{transition:transform .4s ease,opacity .4s ease}
+html.uk-foco-rodape .wpp-flutuante-home{transform:translateY(140%);opacity:0;pointer-events:none}
 @media (max-width:979px){
 .uk-rd__topo{grid-template-columns:1fr 1fr;gap:36px 24px;padding:44px 20px 32px}
 .uk-rd__col--marca{grid-column:1/-1}
@@ -119,7 +121,7 @@ html.uk-foco-rodape #barraTopo{transform:translateY(-110%)!important;opacity:0!i
   if (ano) ano.textContent = new Date().getFullYear();
 
   // Foco no rodapé: ao chegar em "Marcas de Prestígio" (home) ou no rodapé (demais páginas),
-  // o cabeçalho fixo sai de cena; ao subir de novo, ele volta.
+  // o cabeçalho fixo e o WhatsApp flutuante saem de cena; ao subir de novo, eles voltam.
   var alvo = document.querySelector('.uk-marcas') || document.querySelector('.uk-rd');
   if (!alvo || !('IntersectionObserver' in window)) return;
   new IntersectionObserver(function (entradas) {
