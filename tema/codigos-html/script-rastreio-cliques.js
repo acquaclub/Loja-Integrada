@@ -2,12 +2,12 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-rastreio-cliques.js
   Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: JavaScript
-  Depende de: Google Tag Manager (GTM-WMXKQ2QM, instalado pelo aplicativo nativo da Loja Integrada), que repassa os eventos ao GA4.
+  Depende de: aplicativo do gerenciador de tags instalado no painel, que repassa os eventos ao GA4, Google Ads e Pixel.
 */
 // Registra os cliques de contato para saber de onde eles vêm:
 // WhatsApp, telefone e "Como chegar", com o lugar do site, o tipo de página e, na página de produto, o produto.
 // Cada clique vira um evento no dataLayer (clique_whatsapp, clique_telefone, clique_como_chegar).
-// O envio ao GA4, Google Ads e Pixel da Meta é configurado no GTM (o código não chama o Pixel direto, para não contar em dobro).
+// O envio ao GA4, Google Ads e Pixel da Meta é configurado no gerenciador de tags (o código não chama o Pixel direto, para não contar em dobro).
 (function () {
     if (window.ukRastreioCliques) return;
     window.ukRastreioCliques = true;
