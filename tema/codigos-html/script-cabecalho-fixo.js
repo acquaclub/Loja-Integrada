@@ -23,7 +23,7 @@
     // À esquerda, frases que se alternam; à direita, telefone e WhatsApp fixos.
     // Para trocar o texto, edite a lista FRASES. O "|" vira o tracinho separador.
     var FRASES = [
-        'Showroom: seg a qui 9h–18h | sex 9h–17h | sáb 9h–13h',
+        'Showroom Sorocaba: seg a sex 9h–18h | sáb 9h–13h',
         'Showroom em Sorocaba | <a href="https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Av. Antônio Carlos Comitre, 1253 - Parque Campolim, Sorocaba - SP, 18047-620') + '" target="_blank" rel="noopener">Como chegar</a>',
         'Atendimento exclusivo para <a href="/pagina/parceiros.html">arquitetos e especificadores</a>'
     ];

@@ -49,14 +49,18 @@
         }
     };
 
-    // Seg a qui 9h–18h e sex 9h–17h nas três lojas; sábado 9h–13h só na matriz
-    function horarios(comSabado) {
-        var lista = [
+    // Matriz (Sorocaba): seg a sex 9h–18h e sáb 9h–13h. Acqua e Itapetininga: seg a qui 9h–18h e sex 9h–17h, sem sábado
+    function horarios(matriz) {
+        if (matriz) {
+            return [
+                horario(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], '09:00', '18:00'),
+                horario('Saturday', '09:00', '13:00')
+            ];
+        }
+        return [
             horario(['Monday', 'Tuesday', 'Wednesday', 'Thursday'], '09:00', '18:00'),
             horario('Friday', '09:00', '17:00')
         ];
-        if (comSabado) lista.push(horario('Saturday', '09:00', '13:00'));
-        return lista;
     }
 
     var LOJAS = [
