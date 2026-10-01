@@ -2,7 +2,7 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-barra-de-beneficios.html
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
-  Barra de qualidades logo abaixo do banner. Ajustes de celular: seção 12 do CSS Avançado (.uk-beneficios).
+  Barra de qualidades logo abaixo do banner, entre linhas finas (computador). Ajustes de celular: seção 12 do CSS Avançado (.uk-beneficios).
 -->
 <!-- BARRA DE QUALIDADES (ABAIXO DO BANNER) -->
 <div class="uk-beneficios">
@@ -100,6 +100,31 @@ a.uk-beneficio:hover svg {
 }
 a.uk-beneficio:hover .uk-beneficio__texto strong {
   color: #c49a45;
+}
+/* Computador: faixa entre linhas finas, com divisórias entre os itens e respiro igual ao das vitrines */
+@media (min-width: 980px) {
+  .uk-beneficios {
+    padding: 64px 30px 0;
+  }
+  .uk-beneficios__grid {
+    gap: 0;
+    padding: 34px 0;
+    border-top: 1px solid #e6e3dc;
+    border-bottom: 1px solid #e6e3dc;
+  }
+  .uk-beneficio {
+    gap: 14px;
+    padding: 0 16px;
+  }
+  .uk-beneficio + .uk-beneficio {
+    border-left: 1px solid #ece9e3;
+  }
+}
+/* Telas largas: título de cada item numa linha só */
+@media (min-width: 1240px) {
+  .uk-beneficio__texto strong {
+    white-space: nowrap;
+  }
 }
 @media (max-width: 979px) {
   .uk-beneficios {
