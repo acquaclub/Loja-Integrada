@@ -13,6 +13,7 @@
    8. Vitrine: títulos, cards, setas (home, categoria, marca, relacionados)
    9. Categoria e marca: coluna lateral, grade, paginação, ordenação
    10. Página de produto
+   10b. Aviso de cookies (todas as páginas)
    11. Tablet (até 979px)
    12. Celular (até 767px)
 
@@ -1629,6 +1630,85 @@ html body #descricao h2.uk-desc-titulo {
 
 
 /* ==========================================================================
+   10b. AVISO DE COOKIES (#avisoCookies, da própria plataforma)
+   Faixa discreta no rodapé da tela, no padrão do site: fundo off-white, fio bege, link dourado e botão de contorno.
+   ========================================================================== */
+html body #avisoCookies {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 100000 !important;
+    margin: 0 !important;
+    padding: 14px 0 !important;
+    background: #f7f7f5 !important;
+    border: 0 !important;
+    border-top: 1px solid #e6e3dc !important;
+    box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.05) !important;
+}
+html body #avisoCookies .conteiner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 28px !important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 30px !important;
+}
+html body #avisoCookies .conteiner::before,
+html body #avisoCookies .conteiner::after {
+    display: none !important;
+}
+html body #avisoCookies p {
+    margin: 0 !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 12.5px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    letter-spacing: 0.2px !important;
+    color: var(--uk-texto) !important;
+    text-align: left !important;
+}
+html body #avisoCookies p a,
+html body #avisoCookies p strong {
+    font-weight: 600 !important;
+    color: var(--uk-preto) !important;
+    text-decoration: none !important;
+}
+html body #avisoCookies p a {
+    border-bottom: 1px solid var(--uk-dourado) !important;
+    transition: color 0.2s ease !important;
+}
+html body #avisoCookies p a:hover,
+html body #avisoCookies p a:hover strong {
+    color: var(--uk-dourado) !important;
+}
+html body #avisoCookies #btn-aceito-cookies {
+    flex: 0 0 auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 10px 26px !important;
+    border: 1px solid var(--uk-preto) !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: var(--uk-preto) !important;
+    cursor: pointer !important;
+    transition: background-color 0.2s ease, color 0.2s ease !important;
+}
+html body #avisoCookies #btn-aceito-cookies:hover {
+    background: var(--uk-preto) !important;
+    color: #ffffff !important;
+}
+
+
+/* ==========================================================================
    11. TABLET (ATÉ 979PX)
    ========================================================================== */
 @media (max-width: 979px) {
@@ -1645,6 +1725,24 @@ html body #descricao h2.uk-desc-titulo {
    12. CELULAR (ATÉ 767PX)
    ========================================================================== */
 @media (max-width: 767px) {
+
+    /* --- Aviso de cookies: texto em cima, botão embaixo ocupando a largura --- */
+    html body #avisoCookies {
+        padding: 16px 0 calc(16px + env(safe-area-inset-bottom)) !important;
+    }
+    html body #avisoCookies .conteiner {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 12px !important;
+        padding: 0 20px !important;
+    }
+    html body #avisoCookies p {
+        font-size: 12px !important;
+    }
+    html body #avisoCookies #btn-aceito-cookies {
+        width: 100% !important;
+        padding: 12px 0 !important;
+    }
 
     /* --- Cabeçalho: sem a barra grafite fixa do tema e o espaço que ela reservava --- */
     html body .atalhos-mobile {
