@@ -7,7 +7,7 @@
    2. Base: tipografia, botões, ícones, animações
    3. Elementos escondidos
    4. Layout (largura do conteúdo)
-   5. Cabeçalho: logo, faixa superior, linha principal, busca, menu
+   5. Cabeçalho: logo, faixa superior (computador), linha principal, busca e menu (computador e tablet)
    6. Cabeçalho fixo ao rolar (#barraTopo)
    7. Home: banners
    8. Vitrine: títulos, cards, setas (home, categoria, marca, relacionados)
@@ -196,7 +196,7 @@ html body .conteiner-principal,
 html body #corpo {
     background-color: #ffffff !important;
 }
-@media (min-width: 980px) {
+@media (min-width: 768px) {
     html body .conteiner,
     html body #cabecalho .conteiner,
     html body #corpo .conteiner {
@@ -250,7 +250,7 @@ html body #cabecalho .logo img {
     opacity: 1 !important;
 }
 
-/* --- Computador --- */
+/* --- Computador: faixa superior (no tablet ela fica escondida, seção 11) --- */
 @media (min-width: 980px) {
 
     /* Faixa superior grafite (horário, telefone, WhatsApp).
@@ -308,6 +308,11 @@ html body #cabecalho .logo img {
         width: 14px;
         height: 14px;
     }
+
+}
+
+/* --- Computador e tablet (a partir de 768px): linha principal, busca e menu --- */
+@media (min-width: 768px) {
 
     /* Linha principal: logo no centro exato, com um traço dourado curto embaixo; lupa e pino na ponta direita
        (a camada da busca fica por cima da linha inteira e só os ícones e o campo recebem clique) */
@@ -442,10 +447,15 @@ html body #cabecalho .logo img {
         padding-bottom: 0 !important;
         line-height: inherit !important;
     }
+    /* A lista tem só a largura dos itens, centralizada: o fio de baixo vai de "CATEGORIAS" à última marca */
     html body #cabecalho .menu.superior .nivel-um {
         display: flex !important;
         justify-content: center !important;
         flex-wrap: wrap !important;
+        width: fit-content !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
     html body #cabecalho .menu.superior .nivel-um > li {
         border: none !important;
@@ -572,8 +582,13 @@ html body #cabecalho .logo img {
         transform: rotate(-45deg);
     }
 }
-/* Telas de 980 a 1239px: menu um pouco mais justo para as marcas caberem em uma linha */
-@media (min-width: 980px) and (max-width: 1239px) {
+/* Telas de 768 a 1239px (tablet e notebook pequeno): menu mais justo para tudo caber em uma linha.
+   O tema põe 20px de cada lado em cada item; aqui o espaço fica só no link */
+@media (min-width: 768px) and (max-width: 1239px) {
+    html body #cabecalho .menu.superior .nivel-um > li {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     html body #cabecalho .menu.superior .nivel-um > li > a,
     html body #cabecalho .menu.superior .nivel-um > li > a strong,
     html body #cabecalho .menu.superior .nivel-um > li > a span {
@@ -590,10 +605,42 @@ html body #cabecalho .logo img {
         background-size: calc(100% - 26px) 1px !important;
     }
 }
+/* Notebook comum (1240 a 1439px): sem os 20px extras do tema em cada item, para o menu caber em uma linha */
+@media (min-width: 1240px) and (max-width: 1439px) {
+    html body #cabecalho .menu.superior .nivel-um > li {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+/* Tablet em pé (768 a 979px): letra e espaços menores */
+@media (min-width: 768px) and (max-width: 979px) {
+    html body #cabecalho .menu.superior .nivel-um > li > a,
+    html body #cabecalho .menu.superior .nivel-um > li > a strong,
+    html body #cabecalho .menu.superior .nivel-um > li > a span {
+        font-size: 11px !important;
+        letter-spacing: 0.8px !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li > a {
+        padding: 0 7px !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li > a::after {
+        left: 7px;
+        right: 7px;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li:first-child {
+        margin-right: 6px !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um > li:first-child::after {
+        right: -3px;
+    }
+    html body #cabecalho .menu.superior .nivel-um {
+        background-size: calc(100% - 14px) 1px !important;
+    }
+}
 
 
 /* ==========================================================================
-   6. CABEÇALHO FIXO AO ROLAR (#barraTopo) — SÓ NO COMPUTADOR
+   6. CABEÇALHO FIXO AO ROLAR (#barraTopo) — COMPUTADOR E TABLET
    Ordem: logo | busca | WhatsApp (logo e WhatsApp inseridos pelo script-cabecalho-fixo.js)
    ========================================================================== */
 html body #barraTopo {

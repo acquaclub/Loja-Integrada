@@ -212,6 +212,25 @@
     };
     requestAnimationFrame(vigiarCarrosseis);
 
+    // No tablet estreito (até 769px, como o iPad Mini em pé) o tema mostra 1 produto por fileira: passa para 2
+    if (window.innerWidth >= 700 && window.innerWidth < 770) {
+        window.addEventListener('load', function () {
+            if (!window.jQuery) return;
+            jQuery('.listagem .produtos-carrossel .listagem-linha').each(function () {
+                var carrossel = jQuery(this).data('flexslider');
+                if (!carrossel) return;
+                carrossel.vars.minItems = 2;
+                carrossel.vars.maxItems = 2;
+                carrossel.vars.itemWidth = jQuery(this).width() / 2 - 10;
+                carrossel.doMath();
+                (carrossel.newSlides || carrossel.slides).width(carrossel.computedW);
+                carrossel.update(carrossel.pagingCount);
+                carrossel.setProps();
+            });
+            jQuery(window).trigger('resize');
+        });
+    }
+
     var esperaRedimensionar;
     window.addEventListener('resize', function () {
         clearTimeout(esperaRedimensionar);

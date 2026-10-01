@@ -111,7 +111,7 @@
         }
     }
 
-    // Busca (só no computador), no cabeçalho principal e no cabeçalho fixo que aparece ao rolar:
+    // Busca (computador e tablet), no cabeçalho principal e no cabeçalho fixo que aparece ao rolar:
     // no lugar do campo, uma lupa fina e um pino de mapa. Clicar na lupa abre o campo;
     // Enter ou a lupa pesquisam; Esc ou clicar fora (com o campo vazio) fecham.
     var LINK_MAPA = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Av. Antônio Carlos Comitre, 1253 - Parque Campolim, Sorocaba - SP, 18047-620');
@@ -122,7 +122,7 @@
         return R.map(function (r) { return r + sufixo; }).join(',');
     }
     var ESTILO_LUPA =
-        '@media (min-width: 980px){'
+        '@media (min-width: 768px){'
         + sel(' .uk-lupa-linha') + '{display:flex !important;align-items:center;justify-content:flex-end;gap:14px;width:100% !important;margin:0 !important}'
         + sel(' .uk-lupa-linha::before') + ',' + sel(' .uk-lupa-linha::after') + '{display:none !important}'
         + sel(' .uk-lupa-linha .busca') + '{flex:0 1 auto !important;float:none !important;width:420px !important;max-width:0 !important;margin:0 !important;padding:0 !important;opacity:0;'
@@ -194,7 +194,7 @@
     }
 
     function montarLupa() {
-        if (window.innerWidth < 980 || document.getElementById('uk-estilo-lupa')) return;
+        if (window.innerWidth < 768 || document.getElementById('uk-estilo-lupa')) return;
         var estilo = document.createElement('style');
         estilo.id = 'uk-estilo-lupa';
         estilo.textContent = ESTILO_LUPA;
@@ -204,12 +204,12 @@
         aplicarLupa(document.getElementById('barraTopo'));
     }
 
-    // Cabeçalho fixo (computador): desliza de cima quando o cabeçalho principal sai da tela; some no topo e no fim da página
+    // Cabeçalho fixo (computador e tablet): desliza de cima quando o cabeçalho principal sai da tela; some no topo e no fim da página
     function montarTransicao() {
         var estilo = document.createElement('style');
         // Tudo com !important: as animações do próprio tema (opacidade, altura, posição) não interferem
         var B = 'html body div#barraTopo';
-        estilo.textContent = '@media (min-width:980px){' + B + '{display:block !important;visibility:visible !important;position:fixed !important;top:0 !important;left:0;right:0;z-index:9000;'
+        estilo.textContent = '@media (min-width:768px){' + B + '{display:block !important;visibility:visible !important;position:fixed !important;top:0 !important;left:0;right:0;z-index:9000;'
             + 'margin:0 !important;padding:5px 0 !important;animation:none !important;transition:transform .5s cubic-bezier(.22,.61,.36,1),opacity .35s ease !important;'
             + 'transform:none !important;opacity:1 !important;pointer-events:auto !important}'
             + 'html:not(.uk-rolou) body div#barraTopo,html.uk-foco-rodape body div#barraTopo{transform:translateY(-110%) !important;opacity:0 !important;pointer-events:none !important}}';
