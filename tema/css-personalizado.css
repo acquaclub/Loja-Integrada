@@ -1795,8 +1795,8 @@ html body #descricao h2.uk-desc-titulo {
 
     /* --- Barra de benefícios em 2×2 --- */
     html body .uk-beneficios {
-        padding: 20px 16px !important;
-        margin: 0 0 24px 0 !important;
+        padding: 24px 16px 20px !important;
+        margin: 0 !important;
     }
     html body .uk-beneficios__grid {
         grid-template-columns: repeat(2, 1fr) !important;
