@@ -2,7 +2,7 @@
   Painel Loja Integrada > Códigos HTML
   Descrição: script-rastreio-cliques.js
   Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: JavaScript
-  Depende de: Google Tag Manager (GTM-WMXKQ2QM), que repassa os eventos ao Google Analytics 4.
+  Depende de: Google Tag Manager (GTM-WMXKQ2QM, instalado pelo aplicativo nativo da Loja Integrada), que repassa os eventos ao GA4.
 */
 // Registra os cliques de contato para saber de onde eles vêm:
 // WhatsApp, telefone e "Como chegar", com o lugar do site, o tipo de página e, na página de produto, o produto.
