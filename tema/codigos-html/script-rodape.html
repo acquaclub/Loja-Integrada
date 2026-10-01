@@ -3,25 +3,40 @@
   Descrição: script-rodapé.html
   Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: HTML
   Obs.: a classe "custom-footer-restored" é mantida porque a seção de marcas se posiciona antes dela.
+  Ao chegar em "Marcas de Prestígio" (ou no rodapé, nas outras páginas), o cabeçalho fixo sai de cena.
 -->
 <div class="custom-footer-restored">
-  <footer class="uk-rodape">
-    <div class="uk-rodape__conteudo">
+  <footer class="uk-rodape uk-rd">
+    <div class="uk-rd__topo">
 
-      <div class="uk-rodape__col uk-rodape__col--marca">
-        <p class="uk-rodape__titulo">Unikitchen</p>
-        <p class="uk-rodape__texto">Eletrodomésticos, louças e metais premium para cozinhas e áreas gourmet.</p>
-        <p class="uk-rodape__texto">
-          Av. Antônio Carlos Comitre, 1253<br>
-          Parque Campolim, Sorocaba - SP<br>
-          CEP 18047-620<br>
-          <a class="uk-rodape__destaque" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Ant%C3%B4nio%20Carlos%20Comitre%2C%201253%20-%20Parque%20Campolim%2C%20Sorocaba%20-%20SP%2C%2018047-620" target="_blank" rel="noopener">Como chegar →</a>
-        </p>
+      <div class="uk-rd__col uk-rd__col--marca">
+        <img class="uk-rd__logo" src="https://cdn.awsli.com.br/1080/1080230/arquivos/unikitchen-preto.svg" alt="Unikitchen" loading="lazy">
+        <p class="uk-rd__texto">Eletrodomésticos, louças e metais premium para cozinhas e áreas gourmet.</p>
+        <ul class="uk-rd__lista uk-rd__contatos">
+          <li><a href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Unikitchen%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 18.8z"/><path d="M9.5 9.2c.2 1.8 1.6 3.6 3.6 4.6l1.2-1.1 1.7.8-.4 1.6c-3.4.2-6.6-3-6.6-6.4l1.6-.4.8 1.7z"/></svg>WhatsApp (15) 99610-0914</a></li>
+          <li><a href="https://instagram.com/unikitchen/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.8"/><path d="M17.2 6.8h.01"/></svg>@unikitchen</a></li>
+        </ul>
       </div>
 
-      <div class="uk-rodape__col">
-        <p class="uk-rodape__titulo">Institucional</p>
-        <ul class="uk-rodape__lista">
+      <div class="uk-rd__col">
+        <p class="uk-rd__titulo">Sorocaba</p>
+        <p class="uk-rd__texto">Av. Antônio Carlos Comitre, 1253<br>Parque Campolim<br>Sorocaba - SP · 18047-620</p>
+        <p class="uk-rd__info"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Seg a sex, 9h às 18h<br>Sáb, 9h às 13h</p>
+        <p class="uk-rd__info"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg><a href="tel:+551532173499">(15) 3217-3499</a></p>
+        <a class="uk-rd__link" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Ant%C3%B4nio%20Carlos%20Comitre%2C%201253%20-%20Parque%20Campolim%2C%20Sorocaba%20-%20SP" target="_blank" rel="noopener">Como chegar →</a>
+      </div>
+
+      <div class="uk-rd__col">
+        <p class="uk-rd__titulo">Itapetininga</p>
+        <p class="uk-rd__texto">Av. Dr. José Ozi, 450<br>Urban Mall · Vila Nova<br>Itapetininga - SP · 18203-265</p>
+        <p class="uk-rd__info"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Seg a qui, 9h às 18h<br>Sex, 9h às 17h</p>
+        <p class="uk-rd__info"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg><a href="tel:+551535007995">(15) 3500-7995</a></p>
+        <a class="uk-rd__link" href="https://www.google.com/maps/search/?api=1&amp;query=Av.%20Dr.%20Jos%C3%A9%20Ozi%2C%20450%20-%20Urban%20Mall%2C%20Itapetininga%20-%20SP" target="_blank" rel="noopener">Como chegar →</a>
+      </div>
+
+      <div class="uk-rd__col">
+        <p class="uk-rd__titulo">Institucional</p>
+        <ul class="uk-rd__lista">
           <li><a href="/pagina/nossa-historia.html">Nossa História</a></li>
           <li><a href="/pagina/marcas.html">Marcas</a></li>
           <li><a href="/pagina/logistica.html">Diferenciais e Logística</a></li>
@@ -31,9 +46,9 @@
         </ul>
       </div>
 
-      <div class="uk-rodape__col">
-        <p class="uk-rodape__titulo">Ajuda</p>
-        <ul class="uk-rodape__lista">
+      <div class="uk-rd__col">
+        <p class="uk-rd__titulo">Ajuda</p>
+        <ul class="uk-rd__lista">
           <li><a href="/pagina/entrega.html">Entrega</a></li>
           <li><a href="/pagina/retirada-facil.html">Retirada Fácil</a></li>
           <li><a href="/pagina/troca-e-devolucao.html">Troca e Devolução</a></li>
@@ -41,167 +56,78 @@
           <li><a href="/pagina/politica-de-privacidade.html">Política de Privacidade</a></li>
         </ul>
       </div>
-
-      <div class="uk-rodape__col">
-        <p class="uk-rodape__titulo">Atendimento</p>
-        <p class="uk-rodape__texto">
-          <strong>Showroom</strong><br>
-          Seg a qui: 9h às 18h<br>
-          Sex: 9h às 17h<br>
-          Sáb: 9h às 13h
-        </p>
-        <p class="uk-rodape__texto">
-          <strong>SAC</strong><br>
-          Seg a sex: 8h às 15h
-        </p>
-        <ul class="uk-rodape__lista uk-rodape__contatos">
-          <li><a href="tel:+551532173499">(15) 3217-3499</a></li>
-          <li><a href="https://wa.me/5515996100914?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Unikitchen%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener">WhatsApp (15) 99610-0914</a></li>
-          <li>
-            <a class="uk-rodape__social" href="https://instagram.com/unikitchen/" target="_blank" rel="noopener" aria-label="Instagram da Unikitchen">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/></svg>
-              @unikitchen
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="uk-rodape__col">
-        <p class="uk-rodape__titulo">Pagamento</p>
-        <img src="https://cdn.awsli.com.br/1080/1080230/arquivos/form--pagamento.svg" class="uk-rodape__selo" alt="Formas de pagamento" loading="lazy">
-        <p class="uk-rodape__titulo uk-rodape__titulo--espaco">Segurança</p>
-        <img src="https://cdn.awsli.com.br/1080/1080230/arquivos/seguran-a.svg" class="uk-rodape__selo" alt="Site seguro" loading="lazy">
-      </div>
-
     </div>
 
-    <div class="uk-rodape__legal">
-      <div class="uk-rodape__legal-conteudo">
-        <span>© <span class="uk-rodape__ano">2026</span> Unikitchen Eletrodomésticos LTDA</span>
-        <span>CNPJ 15.068.805/0001-44</span>
-        <span>Av. Antônio Carlos Comitre, 1253 - Parque Campolim, Sorocaba - SP, 18047-620</span>
+    <div class="uk-rd__selos">
+      <div class="uk-rd__grupo">
+        <span class="uk-rd__rotulo">Pagamento</span>
+        <span class="uk-rd__tag">Visa</span><span class="uk-rd__tag">Mastercard</span><span class="uk-rd__tag">Elo</span><span class="uk-rd__tag">Hipercard</span><span class="uk-rd__tag">Amex</span><span class="uk-rd__tag">Diners</span><span class="uk-rd__tag">PayPal</span><span class="uk-rd__tag">Boleto</span>
       </div>
+      <div class="uk-rd__grupo">
+        <span class="uk-rd__rotulo">Segurança</span>
+        <span class="uk-rd__seg"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11V7.5a4 4 0 0 1 8 0V11"/></svg>Site seguro SSL</span>
+        <span class="uk-rd__seg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7.5 3v5.5c0 4.6-3.2 8.2-7.5 9.5-4.3-1.3-7.5-4.9-7.5-9.5V6z"/><path d="M9 12l2 2 4-4"/></svg>Dados protegidos · LGPD</span>
+        <span class="uk-rd__seg"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M8.5 12.2l2.3 2.3 4.7-4.7"/></svg>Navegação segura Google</span>
+      </div>
+    </div>
+
+    <div class="uk-rd__legal">
+      <span>© <span class="uk-rd__ano">2026</span> Unikitchen Eletrodomésticos LTDA</span>
+      <span>CNPJ 15.068.805/0001-44</span>
     </div>
   </footer>
 </div>
 
 <style>
-.uk-rodape {
-  background: #f7f7f5;
-  border-top: 1px solid #eaeaea;
-  margin-top: 60px;
-  font-family: 'Urbane', sans-serif;
-  color: #555555;
+.uk-rd{margin-top:60px;background:#f7f7f5;border-top:1px solid #eaeaea;font-family:'Urbane',sans-serif;color:#555}
+.uk-marcas + .custom-footer-restored .uk-rd .uk-rd__topo{border-top:1px solid #e6e3dc}
+.uk-rd *{box-sizing:border-box}
+.uk-rd__topo{max-width:1280px;margin:0 auto;padding:64px 30px 48px;display:grid;grid-template-columns:1.2fr 1.15fr 1.15fr .9fr .9fr;gap:40px}
+.uk-rd__logo{display:block;width:150px;height:auto;margin:0 0 20px}
+.uk-rd__titulo{margin:0 0 18px!important;font-size:11px!important;font-weight:700!important;letter-spacing:2px!important;text-transform:uppercase!important;color:#1a1a1a!important}
+.uk-rd__texto,.uk-rd__info{margin:0 0 14px!important;font-size:13px!important;font-weight:300!important;line-height:1.7!important;color:#555!important}
+.uk-rd__info{display:flex;gap:10px;align-items:flex-start}
+.uk-rd svg{flex:0 0 16px;width:16px;height:16px;margin-top:3px;fill:none;stroke:#c49a45;stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round}
+.uk-rd__lista{margin:0!important;padding:0!important;list-style:none!important}
+.uk-rd__lista li{margin:0 0 10px!important;padding:0!important;list-style:none!important}
+.uk-rd a{font-size:13px;font-weight:300;color:#555!important;text-decoration:none!important;transition:color .2s ease}
+.uk-rd a:hover{color:#c49a45!important}
+.uk-rd__contatos{margin-top:22px!important}
+.uk-rd__contatos a{display:inline-flex;gap:10px;align-items:flex-start;font-weight:600;color:#1a1a1a!important}
+.uk-rd a.uk-rd__link{display:inline-block;margin-top:4px;padding-bottom:3px;border-bottom:1px solid #c49a45;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1a1a1a!important}
+.uk-rd__selos{max-width:1280px;margin:0 auto;padding:24px 30px 28px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px 40px;border-top:1px solid #e6e3dc}
+.uk-rd__grupo{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px}
+.uk-rd__rotulo{margin-right:6px;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#1a1a1a}
+.uk-rd__tag{padding:5px 10px;border:1px solid #dedad2;background:#fff;font-size:10.5px;font-weight:600;letter-spacing:.8px;color:#666}
+.uk-rd__seg{display:inline-flex;align-items:center;gap:6px;margin-right:8px;font-size:11px;font-weight:600;letter-spacing:.3px;color:#666}
+.uk-rd__seg svg{margin-top:0}
+.uk-rd__legal{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 26px;padding:16px 30px;background:#1a1a1a;font-size:11px;font-weight:600;letter-spacing:.8px;color:#bdbdbd;text-align:center}
+#barraTopo{transition:transform .4s ease,opacity .4s ease}
+html.uk-foco-rodape #barraTopo{transform:translateY(-110%)!important;opacity:0!important;pointer-events:none!important}
+@media (max-width:979px){
+.uk-rd__topo{grid-template-columns:1fr 1fr;gap:36px 24px;padding:44px 20px 32px}
+.uk-rd__col--marca{grid-column:1/-1}
+.uk-rd__selos{padding:24px 20px;flex-direction:column}
 }
-.uk-rodape__conteudo {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 56px 30px 40px;
-  box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1.1fr 1.1fr;
-  gap: 40px;
-}
-.uk-rodape__titulo {
-  margin: 0 0 16px 0;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: #1a1a1a;
-}
-.uk-rodape__titulo--espaco {
-  margin-top: 28px;
-}
-.uk-rodape__texto {
-  margin: 0 0 14px 0;
-  font-size: 13px;
-  font-weight: 300;
-  line-height: 1.7;
-  color: #555555;
-}
-.uk-rodape__texto strong {
-  font-weight: 600;
-  color: #1a1a1a;
-}
-.uk-rodape__lista {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.uk-rodape__lista li {
-  margin: 0 0 9px 0;
-}
-.uk-rodape a {
-  font-size: 13px;
-  font-weight: 300;
-  color: #555555 !important;
-  text-decoration: none !important;
-  transition: color 0.2s ease;
-}
-.uk-rodape a:hover {
-  color: #c49a45 !important;
-}
-.uk-rodape .uk-rodape__destaque {
-  font-weight: 600;
-  color: #1a1a1a !important;
-}
-.uk-rodape__contatos a {
-  font-weight: 600;
-  color: #1a1a1a !important;
-}
-.uk-rodape__social {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.uk-rodape__selo {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.uk-rodape__legal {
-  background: #1a1a1a;
-}
-.uk-rodape__legal-conteudo {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 16px 30px;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 6px 26px;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.8px;
-  color: #bdbdbd;
-  text-align: center;
-}
-@media (max-width: 979px) {
-  .uk-rodape__conteudo {
-    grid-template-columns: 1fr 1fr;
-    gap: 32px 24px;
-    padding: 40px 20px 32px;
-  }
-  .uk-rodape__col--marca {
-    grid-column: 1 / -1;
-  }
-}
-@media (max-width: 520px) {
-  .uk-rodape__conteudo {
-    grid-template-columns: 1fr;
-  }
-  .uk-rodape__legal-conteudo {
-    flex-direction: column;
-    padding: 16px 20px;
-  }
+@media (max-width:520px){
+.uk-rd__topo{grid-template-columns:1fr}
+.uk-rd__legal{flex-direction:column;padding:16px 20px 96px;font-size:10px}
 }
 </style>
 
 <script>
 (function () {
-  var ano = document.querySelector('.uk-rodape__ano');
+  var ano = document.querySelector('.uk-rd__ano');
   if (ano) ano.textContent = new Date().getFullYear();
+
+  // Foco no rodapé: ao chegar em "Marcas de Prestígio" (home) ou no rodapé (demais páginas),
+  // o cabeçalho fixo sai de cena; ao subir de novo, ele volta.
+  var alvo = document.querySelector('.uk-marcas') || document.querySelector('.uk-rd');
+  if (!alvo || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(function (entradas) {
+    var e = entradas[0];
+    var chegou = e.isIntersecting || e.boundingClientRect.top < 0;
+    document.documentElement.classList.toggle('uk-foco-rodape', chegou);
+  }, { rootMargin: '0px 0px -35% 0px' }).observe(alvo);
 })();
 </script>
