@@ -113,9 +113,16 @@ html.uk-foco-rodape .wpp-flutuante-home{transform:translateY(140%);opacity:0;poi
 /* Telas de toque (celular, tablet e iPad grande): links com área maior para o dedo; mesmo visual, o espaço vem do próprio link */
 @media (pointer:coarse){
 .uk-rd__lista li{margin:0!important}
-.uk-rd__lista a,.uk-rd__info a{display:inline-block;padding:9px 0}
+.uk-rd__lista:not(.uk-rd__contatos) a{display:inline-block;padding:9px 0}
+.uk-rd__contatos li{margin:0 0 4px!important}
+.uk-rd__contatos a{padding:8px 0}
+.uk-rd__info a{padding:9px 0;margin:-9px 0}
 .uk-rd a.uk-rd__link{padding:10px 0 3px}
 .uk-rd .uk-rd__seg{padding:6px 0}
+}
+/* Tablet: bloco do rodapé com largura contida e centralizado na tela */
+@media (min-width:600px) and (max-width:979px){
+.uk-rd__topo{max-width:680px;padding:48px 32px 36px;gap:40px 56px}
 }
 @media (max-width:520px){
 .uk-rd__topo{grid-template-columns:1fr 1fr;gap:32px 20px}
