@@ -62,3 +62,13 @@ Dê a cada uma o mesmo nome do campo (ex.: variável "contato_lugar" com nome do
 
 O código não chama o Pixel direto: o contêiner já tem as tags "Pixel | Meta Ads | WhatsApp" e "Tag | Lead | WhatsApp" (Google Ads).
 Para elas usarem o mesmo clique, troque o acionador delas pelo acionador de evento personalizado `clique_whatsapp`.
+
+## Situação configurada em 01/10/2026
+
+- GTM-WMXKQ2QM instalado só pelo aplicativo nativo da Loja Integrada (sem código colado).
+- GA4 (G-WBGPWNLQDT) conta as visitas pelo aplicativo nativo; a "Tag | GA4" do GTM tem `send_page_view = false`.
+- Pixel 656247179541941 carregado pelo aplicativo nativo; "Pixel | Meta Ads | PageView" no GTM fica pausada.
+- Acionadores "Acionador | WhatsApp" e "[SITE NOVO]": Click URL corresponde a RegEx (ignorar caso) `wa\.me|api\.whatsapp|whatsapp\.com`.
+- Variáveis contato_lugar, tipo_pagina, produto_nome, produto_codigo; acionador "Cliques de contato"; tag "GA4 | Cliques de contato".
+- GA4: 4 dimensões personalizadas criadas; page_view desmarcado como evento principal; falta marcar clique_whatsapp (aparece em até 24 h).
+- GA4: domínios grupounikitchen.com e unikitchen.com.br na vinculação; tráfego interno "Loja Sorocaba" (201.92.132.107) com filtro ativo.
