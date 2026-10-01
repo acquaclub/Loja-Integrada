@@ -683,7 +683,7 @@ html body #barraTopo .uk-topo-wpp:hover {
 /* ==========================================================================
    7. HOME — BANNERS
    Barra de benefícios, marcas, atalhos do celular, WhatsApp flutuante e rodapé
-   têm o próprio estilo nos respectivos Códigos HTML (ajustes de celular do rodapé: seção 12).
+   têm o próprio estilo nos respectivos Códigos HTML.
    ========================================================================== */
 html body .secao-banners {
     margin-bottom: 0;
@@ -706,27 +706,25 @@ html body .flexslider .slides img {
     height: auto;
     display: block;
 }
-/* Altura do banner principal no computador */
+/* Banner na proporção das artes (1920×450): aparece inteiro, sem corte nem ampliação, em qualquer largura.
+   Se as artes mudarem de proporção, trocar os números 1920 / 450 nas duas regras abaixo. */
 html body .secao-banners .flexslider .slides img,
 html body #banner-home .flexslider .slides img {
-    height: 520px !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1920 / 450;
     object-fit: cover !important;
 }
-/* Espaço do banner reservado desde o início (computador): sem isso, o carrossel nasce com
-   altura 0 e empurra a página para baixo quando liga (Cumulative Layout Shift no PageSpeed) */
-@media (min-width: 980px) {
-    html body .secao-banners .flexslider,
-    html body #banner-home .flexslider {
-        min-height: 520px !important;
-    }
+/* Espaço do banner reservado desde o início: sem isso, o carrossel nasce com altura 0
+   e empurra a página para baixo quando liga (Cumulative Layout Shift no PageSpeed) */
+html body .secao-banners .flexslider,
+html body #banner-home .flexslider {
+    aspect-ratio: 1920 / 450;
 }
 /* Na home, o rodapé emenda na faixa das marcas: mesmo tom, sem espaço branco nem linha entre eles */
 html body .uk-marcas + .custom-footer-restored .uk-rodape {
     margin-top: 0 !important;
     border-top: 0 !important;
-}
-html body .uk-marcas + .custom-footer-restored .uk-rodape__conteudo {
-    border-top: 1px solid #e6e3dc !important;
 }
 /* Banner só na home */
 html body.pagina-produto .secao-banners,
@@ -1841,13 +1839,7 @@ html body #descricao h2.uk-desc-titulo {
         height: auto !important;
         object-fit: contain !important;
     }
-    /* Espaço do banner reservado desde o início (proporção das artes: 1920×600).
-       Sem isso, o banner nasce com altura 0 e empurra a barra de qualidades e os Destaques.
-       Se as artes mudarem de proporção, trocar os dois números abaixo. */
-    html body .secao-banners .flexslider,
-    html body #banner-home .flexslider {
-        min-height: calc(100vw * 600 / 1920) !important;
-    }
+    /* O espaço do banner já vem reservado pela proporção da seção 7 (1920×450) */
     html body .secao-banners .flex-control-nav {
         bottom: 10px !important;
         right: 16px !important;
@@ -1897,23 +1889,5 @@ html body #descricao h2.uk-desc-titulo {
     html body #descricao article.description h2 {
         font-size: 12px !important;
         letter-spacing: 1.5px !important;
-    }
-
-    /* --- Rodapé: Institucional e Ajuda lado a lado, selos menores, espaço para o WhatsApp --- */
-    html body .uk-rodape__conteudo {
-        grid-template-columns: 1fr 1fr !important;
-        gap: 28px 20px !important;
-    }
-    html body .uk-rodape__col--marca,
-    html body .uk-rodape__col:nth-child(4),
-    html body .uk-rodape__col:nth-child(5) {
-        grid-column: 1 / -1 !important;
-    }
-    html body .uk-rodape__selo {
-        max-width: 220px !important;
-    }
-    html body .uk-rodape__legal-conteudo {
-        padding-bottom: 96px !important;
-        font-size: 10px !important;
     }
 }
