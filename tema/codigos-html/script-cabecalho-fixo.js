@@ -204,13 +204,15 @@
         aplicarLupa(document.getElementById('barraTopo'));
     }
 
-    // Entrada suave do cabeçalho fixo (só no computador, mais baixo que o padrão): ele desliza de cima quando o cabeçalho
-    // principal sai da tela e sobe de volta ao retornar ao topo. O script-rodapé o esconde no fim da página.
+    // Cabeçalho fixo (computador): desliza de cima quando o cabeçalho principal sai da tela; some no topo e no fim da página
     function montarTransicao() {
         var estilo = document.createElement('style');
-        estilo.textContent = '@media (min-width:980px){html body #barraTopo{display:block !important;position:fixed !important;top:0 !important;left:0;right:0;z-index:9000;'
-            + 'transition:transform .5s cubic-bezier(.22,.61,.36,1),opacity .35s ease !important}html body div#barraTopo{padding:5px 0 !important}'
-            + 'html:not(.uk-rolou) body #barraTopo{transform:translateY(-110%);opacity:0;pointer-events:none}}';
+        // Tudo com !important: as animações do próprio tema (opacidade, altura, posição) não interferem
+        var B = 'html body div#barraTopo';
+        estilo.textContent = '@media (min-width:980px){' + B + '{display:block !important;visibility:visible !important;position:fixed !important;top:0 !important;left:0;right:0;z-index:9000;'
+            + 'margin:0 !important;padding:5px 0 !important;animation:none !important;transition:transform .5s cubic-bezier(.22,.61,.36,1),opacity .35s ease !important;'
+            + 'transform:none !important;opacity:1 !important;pointer-events:auto !important}'
+            + 'html:not(.uk-rolou) body div#barraTopo,html.uk-foco-rodape body div#barraTopo{transform:translateY(-110%) !important;opacity:0 !important;pointer-events:none !important}}';
         document.head.appendChild(estilo);
         var limite = 300;
         function medir() {
