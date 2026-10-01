@@ -249,3 +249,26 @@ Pendências de conteúdo destas páginas:
 - PageSpeed (29/09): celular 31 (FCP 6,1 s, LCP 15,7 s, CLS 0); computador 33 (CLS 0,388). Correção aplicada: altura do banner reservada no computador (aguarda nova medição). Acessibilidade: contraste do subtítulo das marcas, nomes nas setas e no menu, região principal.
 - Dados estruturados: grupo + 3 showrooms (HomeGoodsStore) com endereço, horário, marcas e perfis — validados no teste de pesquisa aprimorada. Produto: só falta "offers" (esperado no modo catálogo). Casa Osten (SP) fica fora por ser espaço de terceiros.
 - Pendências com a loja: reexportar banners em JPG (1920×520, área segura 1200×440; celular 800×800), meta descrição da home, revisar terceiros (GTM possivelmente duplicado, Enviou, login Google, SDK Facebook, Analytics antigo, ebit).
+
+## Rodapé — comparação com a referência Evol (01/10/2026)
+
+**O que a Evol tem e nós não:**
+- Logo da marca no rodapé (fecha a página com a marca).
+- Coluna de navegação por **produtos/ambientes** (Kitchen, Gourmet, Refrigeração, Smart) — a nossa só tem Institucional e Ajuda.
+- Contatos com **ícones** (telefone, WhatsApp, e-mail, relógio) — leitura mais rápida.
+- Várias **redes sociais** (Instagram, Facebook, LinkedIn, TikTok, YouTube, Pinterest) — nós só Instagram.
+- **Termos de uso** ao lado da Política de Privacidade.
+- **Aviso legal** curto ("imagens ilustrativas; informações sujeitas a alteração").
+
+**O que não vale copiar:** bloco de hashtags (#EvolSmart…) — não ajuda SEO e parece amador; copyright desatualizado (2024).
+
+**O que o nosso já faz melhor:** endereço completo com "Como chegar", horário do showroom detalhado, CNPJ e razão social na barra final, selos de pagamento/segurança.
+
+**Pontos para melhorar no nosso (propostas, a decidir):**
+1. Logo Unikitchen (versão para fundo claro) no topo da coluna "Unikitchen".
+2. Nova coluna "Produtos" com as categorias principais (links internos também ajudam o SEO).
+3. Ícones finos dourados nos contatos (telefone, WhatsApp, Instagram, relógio).
+4. Outras redes, se existirem (Pinterest e LinkedIn têm peso com arquitetos).
+5. Showrooms: hoje só aparece Sorocaba; incluir Itapetininga (e a Acqua, se fizer sentido).
+6. Aviso legal de catálogo e link de Termos de Uso, se a página existir.
+7. Rever o "SAC seg a sex 8h às 15h" ao lado do horário do showroom (dois horários confundem).
