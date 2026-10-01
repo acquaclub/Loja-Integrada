@@ -7,7 +7,7 @@
 // Registra os cliques de contato para saber de onde eles vêm:
 // WhatsApp, telefone e "Como chegar", com o lugar do site, o tipo de página e, na página de produto, o produto.
 // Cada clique vira um evento no dataLayer (clique_whatsapp, clique_telefone, clique_como_chegar).
-// O clique no WhatsApp também é enviado ao Pixel da Meta como "Contact", se o Pixel estiver na página.
+// O envio ao GA4, Google Ads e Pixel da Meta é configurado no GTM (o código não chama o Pixel direto, para não contar em dobro).
 (function () {
     if (window.ukRastreioCliques) return;
     window.ukRastreioCliques = true;
@@ -79,9 +79,5 @@
 
         window.dataLayer = window.dataLayer || [];
         window.dataLayer.push(dados);
-
-        if (evento === 'clique_whatsapp' && typeof window.fbq === 'function') {
-            window.fbq('track', 'Contact', { content_name: dados.contato_lugar, content_category: dados.tipo_pagina });
-        }
     }, true);
 })();

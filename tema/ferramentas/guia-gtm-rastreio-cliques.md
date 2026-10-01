@@ -58,6 +58,7 @@ Dê a cada uma o mesmo nome do campo (ex.: variável "contato_lugar" com nome do
    Sem isso, os dados chegam mas não aparecem nos relatórios.
 3. Para ver: **Relatórios > Engajamento > Eventos > clique_whatsapp**, e adicione a dimensão "contato_lugar" ou "Origem/mídia da sessão".
 
-## Pixel da Meta
+## Pixel da Meta e Google Ads
 
-Se o Pixel estiver instalado no site, o código já envia o evento padrão **Contact** a cada clique no WhatsApp. Não crie uma tag de Pixel para o mesmo clique no GTM, senão conta em dobro.
+O código não chama o Pixel direto: o contêiner já tem as tags "Pixel | Meta Ads | WhatsApp" e "Tag | Lead | WhatsApp" (Google Ads).
+Para elas usarem o mesmo clique, troque o acionador delas pelo acionador de evento personalizado `clique_whatsapp`.
