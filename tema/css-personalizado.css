@@ -1773,6 +1773,14 @@ html body #descricao h2.uk-desc-titulo {
         box-shadow: none !important;
     }
 
+    /* --- Títulos das vitrines: respiro menor que no computador (56px), na escala do celular --- */
+    html body .listagem .titulo-categoria {
+        margin: 40px auto 24px auto !important;
+    }
+    html body .listagem.aproveite-tambem > .titulo {
+        margin: 40px 0 24px 0 !important;
+    }
+
     /* --- Banner: sem cortar a arte (as setas já saem na seção 7) --- */
     html body .secao-banners .flexslider .slides img,
     html body #banner-home .flexslider .slides img {

@@ -111,8 +111,11 @@ html.uk-foco-rodape .wpp-flutuante-home{transform:translateY(140%);opacity:0;poi
 .uk-rd__rotulo{flex-basis:100%;text-align:center}
 }
 @media (max-width:520px){
-.uk-rd__topo{grid-template-columns:1fr}
-.uk-rd__legal{flex-direction:column;padding:16px 20px 96px;font-size:10px}
+.uk-rd__topo{grid-template-columns:1fr 1fr;gap:32px 20px}
+.uk-rd__col--marca,.uk-rd__col:nth-child(2),.uk-rd__col:nth-child(3){grid-column:1/-1}
+.uk-rd__legal{flex-direction:column;padding:16px 20px;font-size:10px}
+/* Página de produto: espaço para a barra fixa do WhatsApp não cobrir o CNPJ */
+.pagina-produto .uk-rd__legal{padding-bottom:88px}
 }
 </style>
 
