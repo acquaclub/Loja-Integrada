@@ -95,7 +95,7 @@
             img.src = logo.currentSrc || logo.getAttribute('src');
             img.alt = 'Unikitchen';
             // Tamanho inline: o logo nunca fica gigante, mesmo antes do CSS carregar
-            img.style.cssText = 'display:block !important;width:175px !important;height:35px !important;max-width:none !important;object-fit:cover !important;object-position:center !important;';
+            img.style.cssText = 'display:block !important;width:150px !important;height:30px !important;max-width:none !important;object-fit:cover !important;object-position:center !important;';
             link.textContent = '';
             link.appendChild(img);
             var titulo = link.closest('.titulo');
@@ -204,10 +204,33 @@
         aplicarLupa(document.getElementById('barraTopo'));
     }
 
+    // Entrada suave do cabeçalho fixo (só no computador, mais baixo que o padrão): ele desliza de cima quando o cabeçalho
+    // principal sai da tela e sobe de volta ao retornar ao topo. O script-rodapé o esconde no fim da página.
+    function montarTransicao() {
+        var estilo = document.createElement('style');
+        estilo.textContent = '@media (min-width:980px){html body #barraTopo{display:block !important;position:fixed !important;top:0 !important;left:0;right:0;z-index:9000;'
+            + 'transition:transform .5s cubic-bezier(.22,.61,.36,1),opacity .35s ease !important}html body div#barraTopo{padding:5px 0 !important}'
+            + 'html:not(.uk-rolou) body #barraTopo{transform:translateY(-110%);opacity:0;pointer-events:none}}';
+        document.head.appendChild(estilo);
+        var limite = 300;
+        function medir() {
+            var cabecalho = document.getElementById('cabecalho');
+            if (cabecalho) limite = Math.max(150, cabecalho.getBoundingClientRect().bottom + window.pageYOffset);
+        }
+        function verificar() {
+            document.documentElement.classList.toggle('uk-rolou', window.pageYOffset > limite);
+        }
+        medir();
+        verificar();
+        window.addEventListener('scroll', verificar, { passive: true });
+        window.addEventListener('load', function () { medir(); verificar(); });
+    }
+
     function montar() {
         montarFaixaSuperior();
         montarCabecalhoFixo();
         montarLupa();
+        montarTransicao();
     }
 
     if (document.readyState === 'loading') {
