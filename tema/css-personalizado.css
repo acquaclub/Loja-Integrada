@@ -408,16 +408,17 @@ html body #cabecalho .logo img {
         color: var(--uk-texto) !important;
     }
     /* Menu: centralizado, fonte da marca, sublinhado dourado no hover.
-       Embaixo, fio cinza claro em degradê (some nas pontas) fechando o cabeçalho (desenhado no fundo,
-       sem mexer no posicionamento do submenu) e um respiro branco antes do banner */
+       Embaixo, fio cinza claro em degradê fechando o cabeçalho: vai do começo de "CATEGORIAS" ao fim da última marca
+       e some nas pontas (desenhado no fundo da lista, sem mexer no posicionamento do submenu); depois, um respiro branco antes do banner */
     html body #cabecalho .menu.superior {
         margin-top: 0 !important;
         border-top: 0 !important;
         border-bottom: 0 !important;
         box-shadow: none !important;
-        background:
-            linear-gradient(90deg, rgba(216, 212, 204, 0), #d8d4cc 25%, #d8d4cc 75%, rgba(216, 212, 204, 0)) no-repeat center bottom / calc(100% - 60px) 1px,
-            #ffffff !important;
+        background: #ffffff !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um {
+        background: linear-gradient(90deg, rgba(216, 212, 204, 0), #d8d4cc 15%, #d8d4cc 85%, rgba(216, 212, 204, 0)) no-repeat center bottom / calc(100% - 40px) 1px !important;
     }
     /* Menu com altura travada em 46px e texto no meio: zera os espaços que o tema põe em volta */
     html body #cabecalho .menu.superior,
@@ -583,6 +584,9 @@ html body #cabecalho .logo img {
     html body #cabecalho .menu.superior .nivel-um > li > a::after {
         left: 13px;
         right: 13px;
+    }
+    html body #cabecalho .menu.superior .nivel-um {
+        background-size: calc(100% - 26px) 1px !important;
     }
 }
 
