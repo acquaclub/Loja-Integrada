@@ -1718,6 +1718,21 @@ html body #avisoCookies #btn-aceito-cookies:hover {
     html body .uk-faixa-topo {
         display: none !important;
     }
+    /* Cards: marca acima do nome um pouco maior, para leitura confortável em tela de toque */
+    html body .listagem-item .uk-card-marca {
+        font-size: 11px !important;
+    }
+    /* Tracinhos do banner: mesmo desenho (3px), com área de toque de 23px em volta */
+    html body .secao-banners .flex-control-nav li a,
+    html body .secao-banners .flex-control-nav li a.flex-active,
+    html body .secao-banners .flex-control-nav li a:hover {
+        height: 23px !important;
+        padding: 10px 0 !important;
+        background-clip: content-box !important;
+        box-sizing: border-box !important;
+        box-shadow: none !important;
+        filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    }
 }
 
 
@@ -1869,11 +1884,6 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         background: var(--uk-preto) !important;
         color: #ffffff !important;
         box-shadow: none !important;
-    }
-
-    /* --- Cards: marca acima do nome um pouco maior, para leitura confortável na tela pequena --- */
-    html body .listagem-item .uk-card-marca {
-        font-size: 11px !important;
     }
 
     /* --- Títulos das vitrines: respiro menor que no computador (56px), na escala do celular --- */
