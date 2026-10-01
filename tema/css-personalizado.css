@@ -14,7 +14,7 @@
    9. Categoria e marca: coluna lateral, grade, paginação, ordenação
    10. Página de produto
    10b. Aviso de cookies (todas as páginas)
-   11. Tablet (até 979px)
+   11. Tablet (até 979px) e telas de toque
    12. Celular (até 767px)
 
    Regra da casa: cada elemento é estilizado em UMA seção.
@@ -1718,7 +1718,11 @@ html body #avisoCookies #btn-aceito-cookies:hover {
     html body .uk-faixa-topo {
         display: none !important;
     }
-    /* Cards: marca acima do nome um pouco maior, para leitura confortável em tela de toque */
+}
+
+/* Telas de toque (celular, tablet e iPad grande, que mostra o layout de computador):
+   mesmo visual, com áreas de toque maiores e a marca dos cards um pouco maior */
+@media (pointer: coarse) {
     html body .listagem-item .uk-card-marca {
         font-size: 11px !important;
     }
@@ -1732,6 +1736,12 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         box-sizing: border-box !important;
         box-shadow: none !important;
         filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+    }
+    /* Links da faixa superior e WhatsApp do cabeçalho fixo */
+    html body .uk-faixa-topo a,
+    html body #barraTopo .uk-topo-wpp {
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
     }
 }
 

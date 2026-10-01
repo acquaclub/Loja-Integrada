@@ -109,7 +109,9 @@ html.uk-foco-rodape .wpp-flutuante-home{transform:translateY(140%);opacity:0;poi
 .uk-rd__selos{padding:24px 20px}
 .uk-rd__grupo{gap:10px 18px}
 .uk-rd__rotulo{flex-basis:100%;text-align:center}
-/* Toque: links com área maior para o dedo (mesmo visual, espaço vindo do próprio link) */
+}
+/* Telas de toque (celular, tablet e iPad grande): links com área maior para o dedo; mesmo visual, o espaço vem do próprio link */
+@media (pointer:coarse){
 .uk-rd__lista li{margin:0!important}
 .uk-rd__lista a,.uk-rd__info a{display:inline-block;padding:9px 0}
 .uk-rd a.uk-rd__link{padding:10px 0 3px}
