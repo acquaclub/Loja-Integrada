@@ -14,7 +14,7 @@
    9. Categoria e marca: coluna lateral, grade, paginação, ordenação
    10. Página de produto
    10b. Aviso de cookies (todas as páginas)
-   11. Tablet (até 979px) e telas de toque
+   11. Tablet (até 979px), telas de toque e celular deitado
    12. Celular (até 767px)
 
    Regra da casa: cada elemento é estilizado em UMA seção.
@@ -1792,6 +1792,50 @@ html body #avisoCookies #btn-aceito-cookies:hover {
     html body #avisoCookies p a {
         padding-top: 6px !important;
         padding-bottom: 6px !important;
+    }
+}
+
+
+/* Celular deitado (tela baixa, até 500px de altura): cabeçalho, aviso de cookies e WhatsApp mais compactos,
+   para sobrar espaço para o conteúdo */
+@media (orientation: landscape) and (max-height: 500px) {
+    html body #cabecalho > .conteiner > .row-fluid {
+        padding-top: 10px !important;
+        padding-bottom: 8px !important;
+    }
+    html body #cabecalho > .conteiner > .row-fluid > .conteudo-topo {
+        top: 10px !important;
+        bottom: 8px !important;
+    }
+    html body div#barraTopo {
+        padding: 2px 0 !important;
+    }
+    html body #avisoCookies {
+        padding: 8px 0 !important;
+    }
+    html body #avisoCookies .conteiner {
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 16px !important;
+    }
+    html body #avisoCookies p {
+        font-size: 11.5px !important;
+        line-height: 1.45 !important;
+    }
+    html body #avisoCookies #btn-aceito-cookies {
+        width: auto !important;
+        padding: 8px 18px !important;
+    }
+    html body .wpp-flutuante-home {
+        bottom: 12px !important;
+        right: 12px !important;
+    }
+    html body .wpp-flutuante-home .wpp-balao {
+        display: none !important;
+    }
+    html body .wpp-flutuante-home .wpp-icone-circle {
+        width: 46px !important;
+        height: 46px !important;
     }
 }
 

@@ -158,11 +158,8 @@
     else window.addEventListener('load', nomearBotoes);
 
     // 4. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
-    //    O tema usa largura fixa por produto; com a página larga sobrava um pedaço do próximo card.
-    //    A janela do carrossel passa a ter a largura exata dos produtos que cabem inteiros, centralizada.
-    //    A fileira fica invisível até ser ajustada (no instante em que o carrossel liga) e aparece com
-    //    um fade: assim não se vê o pedaço do próximo card nem o "pulo".
-    //    Trava de segurança: mesmo que o ajuste não aconteça, a fileira aparece sozinha em 3 s (só CSS).
+    //    A janela do carrossel fica com a largura exata dos produtos que cabem inteiros, centralizada,
+    //    e aparece com fade ao ser ajustada (sem pedaço do próximo card nem "pulo"; se falhar, aparece em 3 s).
     //    Também informa ao CSS onde ficam as setas (--uk-folga e --uk-meio).
     var estiloJanela = document.createElement('style');
     estiloJanela.textContent = '@keyframes ukMostrarFileira{to{opacity:1}}'
@@ -239,7 +236,26 @@
         }, 250);
     });
 
-    // 5. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
+    // 5. ARRASTAR OS CARROSSÉIS DE PRODUTOS COM O DEDO (celular e tablet)
+    //    O tema liga os carrosséis sem o deslize por toque (só as setas); um arraste para o lado passa os produtos.
+    var inicioToque = null;
+    document.addEventListener('touchstart', function (e) {
+        var janela = e.target.closest && e.target.closest('.listagem .flex-viewport');
+        inicioToque = janela && e.touches.length === 1 ? { janela: janela, x: e.touches[0].clientX, y: e.touches[0].clientY } : null;
+    }, { passive: true });
+    document.addEventListener('touchend', function (e) {
+        if (!inicioToque || !window.jQuery) return;
+        var toque = e.changedTouches[0];
+        var dx = toque.clientX - inicioToque.x;
+        var dy = toque.clientY - inicioToque.y;
+        var carrossel = jQuery(inicioToque.janela).closest('.listagem-linha').data('flexslider');
+        inicioToque = null;
+        // Só arraste claramente para o lado (o vertical continua rolando a página)
+        if (!carrossel || carrossel.animating || Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+        carrossel.flexAnimate(carrossel.getTarget(dx < 0 ? 'next' : 'prev'), true);
+    }, { passive: true });
+
+    // 6. PULSO SUTIL NO CARRINHO AO ADICIONAR PRODUTO
     document.body.addEventListener('minicart_state_changed', function () {
         document.querySelectorAll('#cabecalho .carrinho, .menu.flutuante .carrinho').forEach(function (carrinho) {
             carrinho.classList.add('animar-carrinho');
