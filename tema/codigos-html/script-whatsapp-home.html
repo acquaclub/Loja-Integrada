@@ -3,6 +3,7 @@
   Descrição: script-whatsapp-home.js
   Local publicação: Rodapé | Página: Página inicial - Home | Tipo: HTML
   O "x" fecha só o balão; o círculo verde continua. Fechado, o balão não volta até o fim da visita.
+  O botão só aparece depois que o cabeçalho sai da tela (junto com o cabeçalho fixo) e some de novo no fim da página (script-rodapé).
 -->
 <!-- BOTÃO FLUTUANTE DE WHATSAPP - EXCLUSIVO HOME -->
 <div class="wpp-flutuante-home">
@@ -27,6 +28,13 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  transition: transform .4s ease, opacity .4s ease;
+}
+/* No topo da página o botão fica escondido; aparece ao rolar, junto com o cabeçalho fixo */
+html:not(.uk-rolou) .wpp-flutuante-home {
+  transform: translateY(140%);
+  opacity: 0;
+  pointer-events: none;
 }
 .wpp-balao {
   position: relative;
@@ -111,6 +119,16 @@
 
 <script>
 (function () {
+  // Aparece depois de rolar além da altura do cabeçalho, medida no topo da página (sem o cabeçalho: 300px)
+  var cabecalho = document.getElementById('cabecalho');
+  var limite = cabecalho ? cabecalho.getBoundingClientRect().bottom + window.pageYOffset : 300;
+  if (!limite || limite < 150) limite = 300;
+  var verificar = function () {
+    document.documentElement.classList.toggle('uk-rolou', window.pageYOffset > limite);
+  };
+  window.addEventListener('scroll', verificar, { passive: true });
+  verificar();
+
   var balao = document.querySelector('.wpp-flutuante-home .wpp-balao');
   if (!balao) return;
   try { if (sessionStorage.getItem('uk-wpp-balao-fechado')) balao.classList.add('fechado'); } catch (e) {}
