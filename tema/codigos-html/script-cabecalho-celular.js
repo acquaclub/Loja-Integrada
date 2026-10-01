@@ -18,6 +18,10 @@
     var ESTILO = '@media (max-width: 767px){'
         // Logo: o tema deixa a imagem "solta" (absoluta, com margem negativa) e ela sai do centro
         + C + ' .logo img{position:static !important;margin:0 auto !important}'
+        // A caixa do logo vem do tema com 80px de altura para uma imagem de 32px: fica do tamanho do logo,
+        // e a linha do logo passa a ter os mesmos 60px da linha dos ícones (14 + 32 + 14), com o logo no meio deles
+        + C + ' .logo,' + C + ' .logo a{height:auto !important;min-height:0 !important;line-height:0 !important}'
+        + C + ' > .conteiner > .row-fluid > .span3{padding-top:14px !important;padding-bottom:14px !important}'
         // A linha da busca sobe para a mesma altura do logo
         + C + ' > .conteiner{position:relative !important;transition:padding-bottom .3s ease}'
         + C + ' .conteudo-topo,' + C + ' .conteudo-topo .inferior{position:static !important}'
