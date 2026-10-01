@@ -1871,6 +1871,11 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         box-shadow: none !important;
     }
 
+    /* --- Cards: marca acima do nome um pouco maior, para leitura confortável na tela pequena --- */
+    html body .listagem-item .uk-card-marca {
+        font-size: 11px !important;
+    }
+
     /* --- Títulos das vitrines: respiro menor que no computador (56px), na escala do celular --- */
     html body .listagem .titulo-categoria {
         margin: 40px auto 24px auto !important;
