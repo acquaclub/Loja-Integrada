@@ -108,21 +108,21 @@ a.uk-marca:hover {
   opacity: 1;
   transform: scale(1.05);
 }
+/* Tablet: as 14 marcas em 2 fileiras de 7, como no computador (com 4 por fileira sobrava uma linha pela metade) */
 @media (max-width: 979px) {
   .uk-marcas {
     padding: 44px 15px;
   }
-  .uk-marcas__grade {
-    grid-template-columns: repeat(4, 1fr);
-  }
   .uk-marca {
-    height: 120px;
+    height: 96px;
+    padding: 0 8px;
   }
   .uk-marca img {
-    height: 104px;
+    height: 80px;
   }
 }
-@media (max-width: 520px) {
+/* Celular: 2 por fileira (7 fileiras completas) */
+@media (max-width: 599px) {
   .uk-marcas__grade {
     grid-template-columns: repeat(2, 1fr);
   }

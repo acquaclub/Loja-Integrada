@@ -111,6 +111,7 @@ html body .uk-pg .uk-pg__card h3 {
     font-family: 'Urbane', sans-serif !important;
     font-size: 13px !important;
     font-weight: 700 !important;
+    line-height: 1.5 !important;
     letter-spacing: 2px !important;
     text-transform: uppercase !important;
     color: var(--uk-preto) !important;
@@ -636,6 +637,17 @@ html body .uk-pg .uk-evento__logo img {
 
 /* Tablet */
 @media (max-width: 979px) {
+    /* Acquaclub: os 4 diferenciais em 2×2, cada um com o próprio traço dourado (sem separador sobrando na quebra) */
+    html body .uk-pg .uk-club__faixa {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px 24px;
+    }
+    html body .uk-pg .uk-club__faixa li {
+        padding: 0 0 0 14px !important;
+        border-left: 1px solid #c49a45;
+        white-space: normal;
+    }
     html body .uk-pg .uk-pg__grade--3 {
         grid-template-columns: repeat(2, 1fr);
     }

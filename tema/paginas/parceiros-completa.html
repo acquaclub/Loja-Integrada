@@ -91,6 +91,7 @@ html body .uk-pg .uk-pg__card h3 {
     font-family: 'Urbane', sans-serif !important;
     font-size: 13px !important;
     font-weight: 700 !important;
+    line-height: 1.5 !important;
     letter-spacing: 2px !important;
     text-transform: uppercase !important;
     color: #1a1a1a !important;
@@ -257,7 +258,18 @@ html body .uk-pg .uk-pg__card .uk-pg__botao:hover {
     background: #1a1a1a;
     color: #ffffff !important;
 }
-
+@media (max-width: 979px) {
+    html body .uk-pg .uk-club__faixa {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px 24px;
+    }
+    html body .uk-pg .uk-club__faixa li {
+        padding: 0 0 0 14px !important;
+        border-left: 1px solid #c49a45;
+        white-space: normal;
+    }
+}
 @media (max-width: 767px) {
     html body .uk-pg {
         padding: 44px 16px 56px;
