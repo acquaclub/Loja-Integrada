@@ -127,13 +127,17 @@ html.uk-foco-rodape .uk-wpp-fixo{transform:translateY(110%)!important}
 }
 @media (max-width:520px){
 .uk-rd__topo{grid-template-columns:1fr 1fr;gap:32px 20px}
-.uk-rd__col--marca,.uk-rd__col:nth-child(2),.uk-rd__col:nth-child(3){grid-column:1/-1}
+.uk-rd__col{grid-column:1/-1}
 .uk-rd__legal{flex-direction:column;padding:16px 20px;font-size:11px}
 /* Celular: tudo centralizado, no mesmo eixo do selo de segurança e do CNPJ */
 .uk-rd__topo{text-align:center;padding:44px 16px 32px}
 .uk-rd__logo{margin:-6px auto 18px}
 .uk-rd__contatos{display:flex;flex-direction:column;align-items:center}
 .uk-rd__info{justify-content:center;text-align:left}
+/* Institucional e Ajuda: links em linhas corridas e centralizadas, em vez de duas colunas desiguais */
+.uk-rd__lista:not(.uk-rd__contatos){display:flex;flex-wrap:wrap;justify-content:center;gap:0 20px;max-width:330px;margin:0 auto!important}
+.uk-rd__lista:not(.uk-rd__contatos) li{margin:0!important}
+.uk-rd__lista:not(.uk-rd__contatos) a{display:inline-block;padding:6px 0}
 }
 </style>
 
