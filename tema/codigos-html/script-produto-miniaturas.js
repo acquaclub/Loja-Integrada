@@ -10,12 +10,12 @@
 // Clicar na foto abre uma janela ampliada própria, com setas, contador, começo e fim.
 (function () {
     var ALTURA = 520;         // altura fixa da moldura da foto e da coluna no computador (px)
-    var ALTURA_CELULAR = 360; // altura fixa da moldura da foto no celular (px)
+    var ALTURA_CELULAR = 360; // altura fixa da moldura da foto no celular (px); a foto usa 16px a menos, para a borda do tema não ser cortada
     var ESTILO =
         // Moldura fixa da foto: a descrição começa sempre no mesmo ponto, qualquer que seja a foto
         '.uk-moldura-foto{position:relative;height:' + ALTURA_CELULAR + 'px;display:flex;align-items:center;justify-content:center;overflow:hidden}'
-        + '.uk-moldura-foto #imagemProduto{width:auto !important;height:auto !important;max-width:100% !important;max-height:' + ALTURA_CELULAR + 'px !important;object-fit:contain}'
-        + '.uk-moldura-foto{cursor:zoom-in}'
+        + '.uk-moldura-foto #imagemProduto{width:auto !important;height:auto !important;max-width:100% !important;max-height:' + (ALTURA_CELULAR - 16) + 'px !important;object-fit:contain}'
+        + '.uk-moldura-foto{cursor:zoom-in}.uk-moldura-foto > div{margin-bottom:0 !important}'
         // Janela ampliada (substitui a do tema): setas fixas, começo e fim, contador
         + '.uk-ampliada{position:fixed;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;background:rgba(255,255,255,.97)}'
         + '.uk-ampliada.aberta{display:flex}'
@@ -38,7 +38,7 @@
         + '.uk-ampliada__contador{bottom:27px;font-size:11px;font-weight:500;letter-spacing:3px;color:#666666}}'
         + '@media (min-width:980px){'
         + '.uk-moldura-foto{height:' + ALTURA + 'px}'
-        + '.uk-moldura-foto #imagemProduto{max-height:' + ALTURA + 'px !important}'
+        + '.uk-moldura-foto #imagemProduto{max-height:' + (ALTURA - 16) + 'px !important}'
         + '.uk-galeria-produto{display:flex !important;align-items:flex-start;gap:24px}'
         + '.uk-galeria-produto > .uk-thumbs{order:0}'
         + '.uk-galeria-produto > .uk-galeria-produto__foto{order:1;flex:1 1 auto;min-width:0}'
