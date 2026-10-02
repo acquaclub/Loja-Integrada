@@ -13,10 +13,7 @@ Hoje o site mostra marcas fortes, mas nada da Unikitchen em ação.
 - Precisa do cliente: fotos, nomes/autorizações dos arquitetos, textos dos depoimentos.
 
 ### 2. Banner para celular
-- No celular, as artes de 1920×450 ficam com ~91px de altura (ilegível).
-- Cliente vai criar artes próprias para celular (sugestão: 1080×720).
-- Conferir se o painel de banners da Loja Integrada aceita imagem separada para celular; se não, resolver por código.
-- CSS do banner: seção 7 do `tema/css-personalizado.css` (proporção `1920 / 450` nas duas regras).
+- Feito em 02/10/2026: artes de celular em 767×440 (máximo da Loja Integrada), CSS na seção 12 com a mesma proporção.
 
 ### 3. PageSpeed
 - Rodar pagespeed.web.dev (aba Celular) e trazer o print.
