@@ -1676,6 +1676,14 @@ html body #descricao h2.uk-desc-titulo {
 }
 
 
+/* Descrição: o texto vem dentro de um bloco "container", que o tema trava em largura fixa (724px no tablet)
+   e corta à direita. Ele passa a acompanhar a largura da página */
+html body #descricao .container {
+    width: auto !important;
+    max-width: 100% !important;
+}
+
+
 /* ==========================================================================
    10b. AVISO DE COOKIES (#avisoCookies, da própria plataforma)
    Faixa discreta no rodapé da tela, no padrão do site: fundo off-white, fio bege, link dourado e botão de contorno.
@@ -1795,6 +1803,54 @@ html body #avisoCookies #btn-aceito-cookies:hover {
     }
 }
 
+
+/* Categoria, marca e busca no tablet em pé: sem a coluna lateral (como no celular; as categorias ficam no menu do topo)
+   e grade de 3 produtos por fileira, com nome e marca inteiros. O tema monta fileiras fixas de 4: a grade as dissolve */
+@media (min-width: 768px) and (max-width: 979px) {
+    html body.pagina-categoria .secao-principal > .coluna,
+    html body.pagina-marca .secao-principal > .coluna,
+    html body.pagina-busca .secao-principal > .coluna {
+        display: none !important;
+    }
+    html body.pagina-categoria .secao-principal > .conteudo,
+    html body.pagina-marca .secao-principal > .conteudo,
+    html body.pagina-busca .secao-principal > .conteudo {
+        width: 100% !important;
+        margin-left: 0 !important;
+        float: none !important;
+    }
+    html body.pagina-categoria .listagem > ul:not(.produtos-carrossel),
+    html body.pagina-marca .listagem > ul:not(.produtos-carrossel),
+    html body.pagina-busca .listagem > ul:not(.produtos-carrossel) {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 44px 0;
+        margin: 0 !important;
+    }
+    html body.pagina-categoria .listagem > ul:not(.produtos-carrossel) > .listagem-linha,
+    html body.pagina-categoria .listagem > ul:not(.produtos-carrossel) > .listagem-linha > ul,
+    html body.pagina-marca .listagem > ul:not(.produtos-carrossel) > .listagem-linha,
+    html body.pagina-marca .listagem > ul:not(.produtos-carrossel) > .listagem-linha > ul,
+    html body.pagina-busca .listagem > ul:not(.produtos-carrossel) > .listagem-linha,
+    html body.pagina-busca .listagem > ul:not(.produtos-carrossel) > .listagem-linha > ul {
+        display: contents !important;
+    }
+    html body .listagem > ul:not(.produtos-carrossel) > .listagem-linha li.span3 {
+        width: auto !important;
+        min-width: 0 !important;
+        margin: 0 !important;
+        float: none !important;
+    }
+    /* Os "clearfix" do tema viram casas vazias dentro da grade */
+    html body .listagem > ul:not(.produtos-carrossel)::before,
+    html body .listagem > ul:not(.produtos-carrossel)::after,
+    html body .listagem > ul:not(.produtos-carrossel) > .listagem-linha::before,
+    html body .listagem > ul:not(.produtos-carrossel) > .listagem-linha::after,
+    html body .listagem > ul:not(.produtos-carrossel) > .listagem-linha > ul::before,
+    html body .listagem > ul:not(.produtos-carrossel) > .listagem-linha > ul::after {
+        display: none !important;
+    }
+}
 
 /* Celular deitado (tela baixa, até 500px de altura): cabeçalho, aviso de cookies e WhatsApp mais compactos,
    para sobrar espaço para o conteúdo */
