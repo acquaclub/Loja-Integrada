@@ -1908,6 +1908,11 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 32px 12px;
     }
+    /* Paginação no centro da tela (o tema alinha à direita) */
+    html body .pagination {
+        text-align: center !important;
+        float: none !important;
+    }
 
     /* --- Menu do celular (☰): painel branco no padrão do site, em vez da caixa cinza do tema --- */
     html body #cabecalho .menu.superior {
