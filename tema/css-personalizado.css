@@ -1805,8 +1805,8 @@ html body #avisoCookies #btn-aceito-cookies:hover {
 
 
 /* Categoria, marca e busca no tablet em pé: sem a coluna lateral (como no celular; as categorias ficam no menu do topo)
-   e grade de 3 produtos por fileira, com nome e marca inteiros. O tema monta fileiras fixas de 4: a grade as dissolve */
-@media (min-width: 768px) and (max-width: 979px) {
+   e grade de 3 produtos por fileira (2 no celular, na seção 12), com nome e marca inteiros. O tema monta fileiras fixas de 4: a grade as dissolve */
+@media (max-width: 979px) {
     html body.pagina-categoria .secao-principal > .coluna,
     html body.pagina-marca .secao-principal > .coluna,
     html body.pagina-busca .secao-principal > .coluna {
@@ -1900,6 +1900,91 @@ html body #avisoCookies #btn-aceito-cookies:hover {
    12. CELULAR (ATÉ 767PX)
    ========================================================================== */
 @media (max-width: 767px) {
+
+    /* --- Categoria, marca e busca: 2 produtos por fileira (a grade está na seção 11) --- */
+    html body.pagina-categoria .listagem > ul:not(.produtos-carrossel),
+    html body.pagina-marca .listagem > ul:not(.produtos-carrossel),
+    html body.pagina-busca .listagem > ul:not(.produtos-carrossel) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 32px 12px;
+    }
+
+    /* --- Menu do celular (☰): painel branco no padrão do site, em vez da caixa cinza do tema --- */
+    html body #cabecalho .menu.superior {
+        margin: 0 !important;
+        background: #ffffff !important;
+        border: 0 !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um.active {
+        margin: 0 !important;
+        padding: 4px 20px 24px !important;
+        border: 0 !important;
+        border-top: 1px solid #e6e3dc !important;
+        background: #ffffff !important;
+        box-shadow: 0 14px 24px rgba(0, 0, 0, 0.06) !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um.active > li {
+        float: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 0 !important;
+        border-bottom: 1px solid #eeeeee !important;
+        background: none !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um.active > li > a {
+        display: block !important;
+        padding: 16px 0 !important;
+        background: none !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um.active > li > a,
+    html body #cabecalho .menu.superior .nivel-um.active > li > a .titulo,
+    html body #cabecalho .menu.superior .nivel-um.active > li > a strong {
+        margin: 0 !important;
+        font-family: 'Urbane', sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        line-height: 1.4 !important;
+        letter-spacing: 2px !important;
+        text-transform: uppercase !important;
+        color: var(--uk-preto) !important;
+    }
+    /* "CATEGORIAS": as categorias logo abaixo, com um traço dourado curto à esquerda */
+    html body #cabecalho .menu.superior .nivel-um.active > li:first-child > a .titulo::before {
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 1px;
+        margin: 0 10px 3px 0;
+        vertical-align: middle;
+        background: var(--uk-dourado);
+    }
+    html body #cabecalho .menu.superior .nivel-um.active .nivel-dois {
+        position: static !important;
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 0 14px 26px !important;
+        border: 0 !important;
+        background: none !important;
+        box-shadow: none !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um.active .nivel-dois li {
+        padding: 0 !important;
+        border: 0 !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um.active .nivel-dois li a {
+        display: block !important;
+        padding: 9px 0 !important;
+        font-family: 'Urbane', sans-serif !important;
+        font-size: 14px !important;
+        font-weight: 300 !important;
+        line-height: 1.4 !important;
+        color: var(--uk-texto) !important;
+        background: none !important;
+    }
+    html body #cabecalho .menu.superior .nivel-um.active .nivel-tres,
+    html body #cabecalho .menu.superior .nivel-um.active i {
+        display: none !important;
+    }
 
     /* --- Aviso de cookies: texto em cima, botão embaixo ocupando a largura --- */
     html body #avisoCookies {

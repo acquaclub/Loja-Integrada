@@ -3,7 +3,7 @@
   Descrição: script-rodapé.html
   Local publicação: Rodapé | Página: Todas as páginas exceto checkout | Tipo: HTML
   Obs.: a classe "custom-footer-restored" é mantida porque a seção de marcas se posiciona antes dela.
-  Ao chegar em "Marcas de Prestígio" (ou no rodapé, nas outras páginas), o cabeçalho fixo e o WhatsApp flutuante saem de cena.
+  Ao chegar em "Marcas de Prestígio" (ou no rodapé, nas outras páginas), o cabeçalho fixo, o WhatsApp flutuante e a barra de WhatsApp do produto saem de cena.
 -->
 <div class="custom-footer-restored">
   <footer class="uk-rodape uk-rd">
@@ -103,6 +103,7 @@
 html.uk-foco-rodape #barraTopo{transform:translateY(-110%)!important;opacity:0!important;pointer-events:none!important}
 .wpp-flutuante-home{transition:transform .4s ease,opacity .4s ease}
 html.uk-foco-rodape .wpp-flutuante-home{transform:translateY(140%);opacity:0;pointer-events:none}
+html.uk-foco-rodape .uk-wpp-fixo{transform:translateY(110%)!important}
 @media (max-width:979px){
 .uk-rd__topo{grid-template-columns:1fr 1fr;gap:36px 24px;padding:44px 20px 32px}
 .uk-rd__col--marca{grid-column:1/-1}
@@ -128,8 +129,6 @@ html.uk-foco-rodape .wpp-flutuante-home{transform:translateY(140%);opacity:0;poi
 .uk-rd__topo{grid-template-columns:1fr 1fr;gap:32px 20px}
 .uk-rd__col--marca,.uk-rd__col:nth-child(2),.uk-rd__col:nth-child(3){grid-column:1/-1}
 .uk-rd__legal{flex-direction:column;padding:16px 20px;font-size:11px}
-/* Página de produto: espaço para a barra fixa do WhatsApp não cobrir o CNPJ */
-.pagina-produto .uk-rd__legal{padding-bottom:88px}
 }
 </style>
 
