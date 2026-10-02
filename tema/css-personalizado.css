@@ -1998,13 +1998,19 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         margin: 40px 0 24px 0 !important;
     }
 
-    /* --- Banner: sem cortar a arte (as setas já saem na seção 7) --- */
+    /* --- Banner do celular: arte própria em 767×440 (no computador a arte é 1920×450, seção 7).
+       A proporção reserva o espaço desde o carregamento; se as artes do celular mudarem de tamanho, trocar 767 / 440 --- */
+    html body .secao-banners .flexslider,
+    html body #banner-home .flexslider {
+        aspect-ratio: 767 / 440;
+    }
     html body .secao-banners .flexslider .slides img,
     html body #banner-home .flexslider .slides img {
+        width: 100% !important;
         height: auto !important;
-        object-fit: contain !important;
+        aspect-ratio: 767 / 440;
+        object-fit: cover !important;
     }
-    /* O espaço do banner já vem reservado pela proporção da seção 7 (1920×450) */
     html body .secao-banners .flex-control-nav {
         bottom: 10px !important;
         right: 16px !important;
