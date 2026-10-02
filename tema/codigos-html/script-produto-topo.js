@@ -7,7 +7,8 @@
 // Topo da página de produto no modo catálogo, ao lado da foto:
 // marca (preta, com traço dourado) > nome > "Valores e condições sob consulta" > botão de WhatsApp >
 // garantias com ícone dourado > código do produto, discreto, no fim.
-// No celular, as miniaturas abaixo da foto ficam pequenas, inteiras e centralizadas (quebram linha se precisar).
+// No celular, as miniaturas abaixo da foto ficam pequenas, inteiras e centralizadas (quebram linha se precisar),
+// e a foto principal troca deslizando o dedo para o lado.
 // Esconde o ícone de WhatsApp do tema e as bordas da caixa de ações vazia.
 // O texto padrão do tema ("Para mais informações entre em contato…") é escondido.
 (function () {
@@ -86,6 +87,42 @@
         });
     }
 
+    // Celular e tablet: deslizar o dedo na foto principal passa para a próxima/anterior (para na primeira e na última)
+    function deslizarFoto() {
+        var foto = document.getElementById('imagemProduto');
+        var area = foto && (foto.closest('.uk-moldura-foto') || foto.parentElement);
+        if (!area || area.ukDeslizar) return;
+        area.ukDeslizar = true;
+        area.style.touchAction = 'pan-y';
+        var inicio = null;
+        area.addEventListener('touchstart', function (e) {
+            inicio = e.touches.length === 1 ? { x: e.touches[0].clientX, y: e.touches[0].clientY } : null;
+        }, { passive: true });
+        area.addEventListener('touchend', function (e) {
+            if (!inicio || window.innerWidth > 979) return;
+            var dx = e.changedTouches[0].clientX - inicio.x;
+            var dy = e.changedTouches[0].clientY - inicio.y;
+            inicio = null;
+            if (Math.abs(dx) < 40 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+            var itens = [].slice.call(document.querySelectorAll('#carouselImagem .miniaturas li:not(.clone)'));
+            if (itens.length < 2) return;
+            var atual = 0;
+            itens.forEach(function (li, i) { if (li.classList.contains('active')) atual = i; });
+            var destino = atual + (dx < 0 ? 1 : -1);
+            if (destino < 0 || destino >= itens.length) return;
+            var link = itens[destino].querySelector('a');
+            var antes = foto.src;
+            if (link) link.click();
+            // Se o tema não trocou a foto pelo clique, troca direto
+            var mini = itens[destino].querySelector('img');
+            setTimeout(function () {
+                var media = mini && mini.getAttribute('data-mediumimg');
+                if (foto.src === antes && media) foto.src = media;
+            }, 60);
+            itens.forEach(function (li, i) { li.classList.toggle('active', i === destino); });
+        });
+    }
+
     function montar() {
         esconderIconeWhatsAppTema();
         // Parte do bloco do produto (há botões com a classe "principal" antes dele na página)
@@ -97,6 +134,7 @@
         var estilo = document.createElement('style');
         estilo.textContent = ESTILO;
         document.head.appendChild(estilo);
+        deslizarFoto();
 
         // Marca acima do nome
         var marca = info.querySelector('[itemprop="brand"] a');
