@@ -843,6 +843,29 @@ html body .secao-banners .flex-control-nav li a:hover {
 html body .secao-banners .flex-direction-nav {
     display: none !important;
 }
+/* Espaço já reservado para a barra de benefícios, que o Código HTML do rodapé coloca abaixo do banner depois:
+   sem isso os Destaques "pulam" quando ela entra (CLS). Alturas medidas da barra em cada faixa de tela
+   (celular: seção 12) */
+@media (min-width: 768px) and (max-width: 979px) {
+    html body.pagina-inicial .secao-banners:not(:has(+ .uk-beneficios)) {
+        margin-bottom: 175px !important;
+    }
+}
+@media (min-width: 980px) and (max-width: 1239px) {
+    html body.pagina-inicial .secao-banners:not(:has(+ .uk-beneficios)) {
+        margin-bottom: 196px !important;
+    }
+}
+@media (min-width: 1240px) and (max-width: 1339px) {
+    html body.pagina-inicial .secao-banners:not(:has(+ .uk-beneficios)) {
+        margin-bottom: 178px !important;
+    }
+}
+@media (min-width: 1340px) {
+    html body.pagina-inicial .secao-banners:not(:has(+ .uk-beneficios)) {
+        margin-bottom: 162px !important;
+    }
+}
 
 
 /* ==========================================================================
@@ -1461,6 +1484,35 @@ html body #corpo i.fundo-secundario {
    10. PÁGINA DE PRODUTO
    ========================================================================== */
 
+/* --- Moldura da foto com a altura final já no primeiro desenho (o script-produto-miniaturas.js usa as mesmas
+       medidas): sem isso a página "pulava" quando o script rodava (CLS do PageSpeed) --- */
+html body.pagina-produto .produto .conteiner-imagem {
+    position: relative !important;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+html body.pagina-produto .produto .conteiner-imagem > div {
+    margin-bottom: 0 !important;
+}
+html body.pagina-produto .produto .conteiner-imagem #imagemProduto {
+    width: auto !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: 344px !important;
+    object-fit: contain;
+}
+@media (min-width: 980px) {
+    html body.pagina-produto .produto .conteiner-imagem {
+        height: 520px;
+    }
+    html body.pagina-produto .produto .conteiner-imagem #imagemProduto {
+        max-height: 504px !important;
+    }
+}
+
 /* --- Caminho de pastas (breadcrumb) — vale também para categoria/marca --- */
 html body .info-principal-produto .breadcrumbs,
 html body .breadcrumbs {
@@ -2060,38 +2112,42 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         padding: 0 16px !important;
     }
 
-    /* Logo centralizado e compacto */
+    /* Cabeçalho em uma linha só, já no primeiro desenho da página (antes ficava no script do celular e a página
+       "pulava" 108px quando ele rodava): menu à esquerda, logo no centro; a lupa e o pino entram pelo
+       script-cabecalho-celular.js. A busca fica fechada e abre embaixo do logo. */
+    html body #cabecalho > .conteiner {
+        position: relative !important;
+        transition: padding-bottom .3s ease;
+    }
     html body #cabecalho > .conteiner > .row-fluid > .span3 {
         float: none !important;
         width: auto !important;
         min-height: 0 !important;
         margin: 0 !important;
-        padding: 16px 0 12px 0 !important;
+        padding: 14px 0 !important;
         text-align: center !important;
         display: flex !important;
         justify-content: center !important;
     }
-    html body #cabecalho .logo {
-        display: block !important;
-        float: none !important;
-        margin: 0 auto !important;
-        position: static !important;
-    }
+    html body #cabecalho .logo,
     html body #cabecalho .logo a {
         display: block !important;
         float: none !important;
+        position: static !important;
+        height: auto !important;
+        min-height: 0 !important;
         margin: 0 auto !important;
         line-height: 0 !important;
     }
     html body #cabecalho .logo img {
+        position: static !important;
         width: 160px !important;
         height: 32px !important;
         margin: 0 auto !important;
     }
-
-    /* Linha de busca: botão de menu + campo branco com borda fina */
     html body #cabecalho .conteudo-topo,
     html body #cabecalho .conteudo-topo .inferior {
+        position: static !important;
         float: none !important;
         width: auto !important;
         min-height: 0 !important;
@@ -2100,46 +2156,85 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         background: transparent !important;
     }
     html body #cabecalho .busca-mobile {
+        position: absolute !important;
+        top: 0;
+        left: 8px;
+        right: 8px;
         display: flex !important;
         align-items: center !important;
-        gap: 8px !important;
+        gap: 0 !important;
         float: none !important;
         width: auto !important;
+        height: 60px !important;
         min-height: 0 !important;
         margin: 0 !important;
-        padding: 0 0 14px 0 !important;
+        padding: 0 !important;
         background: transparent !important;
         border: 0 !important;
         box-shadow: none !important;
+        overflow: visible !important;
+        pointer-events: none;
     }
+    html body #cabecalho .busca-mobile > * {
+        pointer-events: auto;
+    }
+    /* Menu: três traços finos */
     html body #cabecalho .busca-mobile .atalho-menu {
-        flex: 0 0 44px !important;
-        float: none !important;
-        width: 44px !important;
-        height: 44px !important;
-        margin: 0 !important;
-        padding: 0 !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+        flex: 0 0 40px !important;
+        float: none !important;
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0 auto 0 0 !important;
+        padding: 0 !important;
+        background: transparent !important;
+        border: 0 !important;
         border-radius: 0 !important;
-        font-size: 18px !important;
-        line-height: 44px !important;
         box-shadow: none !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
     }
+    html body #cabecalho .busca-mobile .atalho-menu::before {
+        content: "" !important;
+        display: block;
+        width: 20px;
+        height: 1.5px;
+        margin: 0;
+        background: #1a1a1a;
+        box-shadow: 0 -6px 0 #1a1a1a, 0 6px 0 #1a1a1a;
+    }
+    /* Campo de busca: fechado; a lupa abre embaixo do logo, claro, com lupa dourada e texto de exemplo */
     html body #cabecalho .busca-mobile .busca {
-        flex: 1 1 auto !important;
-        position: relative !important;
+        position: absolute !important;
+        top: 64px;
+        left: 12px;
+        right: 12px;
         float: none !important;
         width: auto !important;
-        height: 44px !important;
+        height: 0 !important;
         margin: 0 !important;
         padding: 0 !important;
-        border: 1px solid var(--uk-borda) !important;
+        border: 1px solid transparent !important;
         border-radius: 0 !important;
-        background: #ffffff !important;
+        background: #f7f7f5 no-repeat 12px center / 18px 18px !important;
         box-shadow: none !important;
+        opacity: 0;
         overflow: hidden !important;
+        transition: height .3s ease, opacity .3s ease, border-color .3s ease !important;
+    }
+    html body #cabecalho.uk-cel-aberta .busca-mobile .busca {
+        height: 44px !important;
+        opacity: 1;
+        border-color: #e6e3dc !important;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23c49a45' stroke-width='1.6' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6.5'/%3E%3Cpath d='M15.5 15.5L21 21'/%3E%3C/svg%3E") !important;
+    }
+    html body #cabecalho.uk-cel-aberta .busca-mobile .busca:focus-within {
+        border-color: var(--uk-dourado) !important;
+    }
+    html body #cabecalho.uk-cel-aberta > .conteiner {
+        padding-bottom: 60px !important;
     }
     html body #cabecalho .busca-mobile .busca form {
         height: 100% !important;
@@ -2149,30 +2244,52 @@ html body #avisoCookies #btn-aceito-cookies:hover {
         width: 100% !important;
         height: 100% !important;
         margin: 0 !important;
-        padding: 0 52px 0 14px !important;
+        padding: 0 12px 0 40px !important;
         border: 0 !important;
         border-radius: 0 !important;
         box-shadow: none !important;
+        outline: none !important;
         background: transparent !important;
         box-sizing: border-box !important;
         font-family: 'Urbane', sans-serif !important;
-        font-size: 14px !important;
-        color: var(--uk-texto) !important;
+        font-size: 16px !important;
+        color: var(--uk-preto) !important;
     }
-    html body #cabecalho .busca-mobile .busca button {
-        position: absolute !important;
-        top: 0 !important;
-        right: 0 !important;
-        bottom: 0 !important;
-        width: 44px !important;
-        height: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        border: 0 !important;
-        border-radius: 0 !important;
-        background: var(--uk-preto) !important;
-        color: #ffffff !important;
-        box-shadow: none !important;
+    html body #cabecalho .busca-mobile .busca input::placeholder {
+        color: #8a8a8a !important;
+        opacity: 1;
+    }
+    html body #cabecalho .busca-mobile .busca button,
+    html body #cabecalho .busca-mobile .uk-lupa-btn {
+        display: none !important;
+    }
+    /* Lupa e pino (criados pelo script) */
+    html body #cabecalho .uk-cel-btn {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background: none;
+        color: var(--uk-preto) !important;
+    }
+    html body #cabecalho .uk-cel-btn svg {
+        display: block;
+        width: 22px;
+        height: 22px;
+    }
+
+    /* Home: espaço já reservado para os atalhos de categorias e a barra de benefícios, que os Códigos HTML
+       do rodapé colocam no lugar depois; sem isso a página "pula" quando eles entram (CLS do PageSpeed).
+       Alturas medidas no celular: atalhos 101px, benefícios 115px. */
+    html body.pagina-inicial #cabecalho:not(:has(+ .uk-atalhos)) {
+        margin-bottom: 101px !important;
+    }
+    html body.pagina-inicial .secao-banners:not(:has(+ .uk-beneficios)) {
+        margin-bottom: 115px !important;
     }
 
     /* --- Títulos das vitrines: respiro menor que no computador (56px), na escala do celular --- */
