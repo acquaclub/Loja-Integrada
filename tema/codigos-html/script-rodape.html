@@ -139,6 +139,19 @@ html.uk-foco-rodape .uk-wpp-fixo{transform:translateY(110%)!important}
 .uk-rd__lista:not(.uk-rd__contatos) li{margin:0!important}
 .uk-rd__lista:not(.uk-rd__contatos) a{display:inline-block;padding:6px 0}
 }
+/* Celular deitado (tela baixa): mesmo padrão centralizado do celular, com as duas lojas lado a lado e menos altura */
+@media (orientation:landscape) and (max-height:500px) and (min-width:521px){
+.uk-rd__topo{max-width:760px;grid-template-columns:1fr 1fr;gap:28px 40px;padding:36px 24px 28px;text-align:center}
+.uk-rd__col--marca{grid-column:1/-1}
+.uk-rd__logo{margin:-6px auto 14px}
+.uk-rd__contatos{display:flex;flex-wrap:wrap;justify-content:center;gap:0 28px;margin-top:14px!important}
+.uk-rd__info{justify-content:center;text-align:left}
+.uk-rd__col .uk-rd__lista:not(.uk-rd__contatos){display:flex;flex-wrap:wrap;justify-content:center;gap:0 22px;margin:0 auto!important}
+.uk-rd__col .uk-rd__lista:not(.uk-rd__contatos) li{margin:0!important}
+.uk-rd__col .uk-rd__lista:not(.uk-rd__contatos) a{display:inline-block;padding:6px 0}
+.uk-rd__titulo{margin-bottom:12px!important}
+.uk-rd__selos{padding:18px 24px 20px}
+}
 </style>
 
 <script>
