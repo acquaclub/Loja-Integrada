@@ -189,6 +189,25 @@ html body .acoes-produto .produto-mais-info {
    4. LAYOUT
    Página contínua: sem os "painéis" com sombra do tema.
    ========================================================================== */
+
+/* Monitores grandes (2K e 4K sem ampliação do sistema): o site inteiro é ampliado na mesma proporção,
+   para ficar com o mesmo aspecto de uma tela Full HD (1920px), em vez de miúdo no meio da tela */
+@media (min-width: 2200px) {
+    html {
+        zoom: 1.15;
+    }
+}
+@media (min-width: 2500px) {
+    html {
+        zoom: 1.333;
+    }
+}
+@media (min-width: 3400px) {
+    html {
+        zoom: 2;
+    }
+}
+
 html body .conteiner {
     box-shadow: none !important;
 }
