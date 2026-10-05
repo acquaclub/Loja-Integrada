@@ -7,9 +7,7 @@
 
     // 1. SCROLL REVEAL (SURGIMENTO SUAVE DOS PRODUTOS)
     // Os produtos surgem quando entram na tela (os que já estão visíveis aparecem logo no início).
-    // Nada é medido na hora de carregar: o próprio navegador avisa quem está na tela,
-    // sem forçar recálculo da página (apontado pelo PageSpeed como "reflow forçado").
-    // Produtos carregados depois (paginação, filtros, carrossel) também são tratados.
+    // Sem medir nada ao carregar (evita o "reflow forçado" do PageSpeed); vale também para produtos carregados depois.
     if ('IntersectionObserver' in window && 'MutationObserver' in window) {
         var observador = new IntersectionObserver(function (entradas) {
             entradas.forEach(function (entrada) {
@@ -42,8 +40,7 @@
     }
 
     // 2. CARDS: MARCA EM CIMA DO NOME (como na página do produto) E CÓDIGO EMBAIXO
-    //    A marca é reconhecida pelo nome do produto, a partir desta lista (edite quando entrar uma marca nova).
-    //    Card sem marca reconhecida ganha um espaço vazio do mesmo tamanho, para os nomes ficarem alinhados.
+    //    Marca reconhecida pelo nome, a partir desta lista (edite quando entrar marca nova); sem marca, espaço vazio.
     var MARCAS = ['Bertazzoni', 'Tecno', 'Gorenje', 'Elica', 'U-Line', 'Cuisinart', 'Viking', 'Elettromec', 'Tramontina',
         'Smeg', 'Falmec', 'Lofra', 'Mekal', 'Dometic', 'Invita', 'SodaStream', 'Evol', 'Fulgor Milano', 'Franke', 'Crissair',
         'InSinkErator', 'Le Creuset', 'Cheffer', 'Speed Queen', 'Coyote', 'Weber', 'Lynx', 'Kamado Joe', 'De Bacco', 'Ooni',
@@ -65,7 +62,7 @@
         // Código do produto, embaixo do nome
         + "html body .listagem-item .uk-card-codigo{margin:6px 0 0;font-family:'Urbane',sans-serif;font-size:11px;font-weight:300;line-height:1.4;letter-spacing:.6px;color:#8a8a8a;text-align:left}"
         + 'html body .listagem-item .uk-card-codigo.vazia{visibility:hidden}'
-        // O código fica por cima do link do card: clicar nele copia o código (não abre o produto)
+        // Fica por cima do link do card: clicar copia o código
         + 'html body .listagem-item .uk-card-codigo:not(.vazia){position:relative;z-index:3;display:inline-block;cursor:copy;transition:color .2s ease}'
         + 'html body .listagem-item .uk-card-codigo:not(.vazia):hover{color:#c49a45}'
         + 'html body .listagem-item .uk-card-codigo.copiado{color:#c49a45}';
@@ -87,7 +84,7 @@
             rotulo.textContent = achada || '—';
             nome.parentNode.insertBefore(rotulo, nome);
 
-            // Código (SKU) que o tema traz escondido no card; sem código, espaço vazio para alinhar
+            // SKU escondido no card; sem código, espaço vazio para alinhar
             var fonte = item.querySelector('.produto-sku, [itemprop="sku"], [data-sku]');
             var codigo = fonte ? (fonte.getAttribute('content') || fonte.getAttribute('data-sku') || fonte.textContent || '').trim() : '';
             var linhaCodigo = document.createElement('div');
@@ -113,7 +110,7 @@
         }).observe(document.body, { childList: true, subtree: true });
     }
 
-    // Clique no código: copia para a área de transferência e mostra "Copiado ✓" por um instante
+    // Clique no código: copia e mostra "Copiado ✓"
     document.addEventListener('click', function (e) {
         var alvo = e.target.closest && e.target.closest('.uk-card-codigo[data-codigo]');
         if (!alvo) return;
@@ -158,9 +155,7 @@
     else window.addEventListener('load', nomearBotoes);
 
     // 4. CARROSSÉIS DE PRODUTOS: SÓ PRODUTOS INTEIROS NA FILEIRA
-    //    A janela do carrossel fica com a largura exata dos produtos que cabem inteiros, centralizada,
-    //    e aparece com fade ao ser ajustada (sem pedaço do próximo card nem "pulo"; se falhar, aparece em 3 s).
-    //    Também informa ao CSS onde ficam as setas (--uk-folga e --uk-meio).
+    //    Janela com a largura exata dos cards inteiros, centralizada, com fade (se falhar, aparece em 3 s).
     var estiloJanela = document.createElement('style');
     estiloJanela.textContent = '@keyframes ukMostrarFileira{to{opacity:1}}'
         + '.listagem .flex-viewport{opacity:0;animation:ukMostrarFileira .3s ease 3s forwards}'
@@ -183,7 +178,7 @@
                     janela.style.marginLeft = 'auto';
                     janela.style.marginRight = 'auto';
                 }
-                // Posição das setas (CSS, seção 8): encostadas na fileira, no meio da foto
+                // Setas (CSS, seção 8): encostadas na fileira, no meio da foto
                 var moldura = janela.parentElement;
                 var foto = janela.querySelector('.imagem-produto');
                 moldura.style.setProperty('--uk-folga', Math.max(0, (largura - Math.min(largura, util)) / 2) + 'px');
@@ -193,8 +188,7 @@
         janela.classList.add('uk-ajustada');
     };
 
-    // Vigia os carrosséis por alguns segundos (o tema cria a moldura da fileira só quando liga)
-    // e ajusta cada um assim que ele aparece com a largura definida.
+    // Vigia por alguns segundos: o tema cria a moldura da fileira só quando liga
     var inicioVigia = Date.now();
     var vigiarCarrosseis = function () {
         document.querySelectorAll('.listagem .flex-viewport:not(.uk-ajustada)').forEach(function (janela) {
@@ -209,35 +203,54 @@
     };
     requestAnimationFrame(vigiarCarrosseis);
 
-    // No tablet estreito (até 769px, como o iPad Mini em pé) o tema mostra 1 produto por fileira: passa para 2
+    // Cards por fileira conforme a largura: o tema só calcula ao abrir a página (ao girar o tablet sobrava
+    // pedaço do próximo card). De 700 a 769px (iPad Mini em pé) mostra 2 em vez de 1.
+    var produtosPorFileira = function (fileira) {
+        var w = window.innerWidth;
+        if (w < 700) return 1;
+        if (w < 770) return 2;
+        return parseInt(jQuery(fileira).closest('.produtos-carrossel').attr('data-produtos-linha'), 10) || 4;
+    };
+    var recalcularCarrosseis = function () {
+        if (!window.jQuery) return;
+        jQuery('.listagem .produtos-carrossel .listagem-linha').each(function () {
+            var carrossel = jQuery(this).data('flexslider');
+            if (!carrossel) return;
+            var janela = this.querySelector('.flex-viewport');
+            if (janela) janela.style.maxWidth = '';
+            var n = produtosPorFileira(this);
+            carrossel.vars.minItems = n;
+            carrossel.vars.maxItems = n;
+            carrossel.vars.itemWidth = jQuery(this).width() / n - 10;
+            carrossel.doMath();
+            (carrossel.newSlides || carrossel.slides).width(carrossel.computedW);
+            carrossel.update(carrossel.pagingCount);
+            carrossel.setProps();
+        });
+    };
     if (window.innerWidth >= 700 && window.innerWidth < 770) {
         window.addEventListener('load', function () {
-            if (!window.jQuery) return;
-            jQuery('.listagem .produtos-carrossel .listagem-linha').each(function () {
-                var carrossel = jQuery(this).data('flexslider');
-                if (!carrossel) return;
-                carrossel.vars.minItems = 2;
-                carrossel.vars.maxItems = 2;
-                carrossel.vars.itemWidth = jQuery(this).width() / 2 - 10;
-                carrossel.doMath();
-                (carrossel.newSlides || carrossel.slides).width(carrossel.computedW);
-                carrossel.update(carrossel.pagingCount);
-                carrossel.setProps();
-            });
+            recalcularCarrosseis();
             jQuery(window).trigger('resize');
         });
     }
 
+    // Só quando a largura muda (ao rolar no celular muda só a altura)
     var esperaRedimensionar;
+    var larguraAnterior = window.innerWidth;
     window.addEventListener('resize', function () {
         clearTimeout(esperaRedimensionar);
         esperaRedimensionar = setTimeout(function () {
+            if (window.innerWidth !== larguraAnterior) {
+                larguraAnterior = window.innerWidth;
+                recalcularCarrosseis();
+            }
             document.querySelectorAll('.listagem .flex-viewport').forEach(ajustarJanela);
         }, 250);
     });
 
     // 5. ARRASTAR OS CARROSSÉIS DE PRODUTOS COM O DEDO (celular e tablet)
-    //    O tema liga os carrosséis sem o deslize por toque (só as setas); um arraste para o lado passa os produtos.
+    //    O tema liga os carrosséis sem deslize por toque (só setas).
     var inicioToque = null;
     document.addEventListener('touchstart', function (e) {
         var janela = e.target.closest && e.target.closest('.listagem .flex-viewport');
