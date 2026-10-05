@@ -15,6 +15,10 @@ Hoje o site mostra marcas fortes, mas nada da Unikitchen em ação.
 ### 2. Banner para celular
 - Feito em 02/10/2026: artes de celular em 767×440 (máximo da Loja Integrada), CSS na seção 12 com a mesma proporção.
 
+### Responsivo (revisão por tamanho de tela)
+- Feito em 02–05/10/2026: celulares 320, 360, 390 e 430 (em pé e deitado), iPad Mini, iPad Air (em pé e deitado), iPad Pro 13 e monitores 2K/4K (ampliação moderada a partir de 2200px).
+- Conferir com calma quando der: 1366×768 e 1920×1080 nas páginas de categoria e produto.
+
 ### 3. PageSpeed
 - Rodar pagespeed.web.dev (aba Celular) e trazer o print.
 - Pontos já conhecidos: peso das artes do banner (meta: JPG < 300 KB), carregamento do banner (LCP), scripts de terceiros.
