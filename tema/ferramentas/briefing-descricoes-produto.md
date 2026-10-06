@@ -35,6 +35,16 @@ Estrutura de conteúdo atual (o que vale manter):
 - **CSS Avançado, seção 10** (`#descricao article.description h1/h2`, `h2.uk-desc-titulo`): estilo do título e subtítulo. Ajustar junto se mudar a marcação.
 - **`script-descricao-titulo.js`**: pode ser desativado **só depois** que todas as descrições estiverem corrigidas.
 
+## REGRA FIXA: títulos da descrição (não mudar)
+A página do produto tem **um único `<h1>`**: o nome do produto, que a plataforma coloca no topo (`.nome-produto`). Por isso, dentro da descrição:
+- **Nunca usar `<h1>`.**
+- O título da descrição é sempre **`<h2 class="uk-desc-titulo">Nome curto | Marca</h2>`**, por exemplo `<h2 class="uk-desc-titulo">Torneira Versa | Tramontina</h2>`.
+- A linha técnica logo abaixo **não é título**: `<p class="uk-desc-linha">Inox 304 | Bica Articulada | Instalação de Bancada</p>`. Ela não pode ser `h2`, para não haver dois `h2` seguidos no topo.
+- As seções (Detalhes do Produto, Especificações Técnicas, Dimensões e Peso, Garantia...) são todas **`<h3 class="section-title">`**: mesmo nível, sem `h4`, `h5`, `h6` ou `div.div-title`.
+- Hierarquia final da página: `h1` (nome do produto, da plataforma) > `h2.uk-desc-titulo` (título da descrição) > `h3.section-title` (seções).
+- Quando o modelo novo existir, o gerador de nomes (`gerar-lista-nomes.js`) passa a ler o título em `#descricao .uk-desc-titulo` e a linha em `#descricao .uk-desc-linha`. Para as descrições antigas, continua lendo `h1` e `h2` enquanto houver produto sem correção.
+- O `script-descricao-titulo.js` (remendo que troca `h1` por `h2` no navegador) continua ativo até o **último** produto ser corrigido; só então sai do painel.
+
 ## Objetivo proposto (validar com o cliente antes)
 1. **Modelo novo de descrição**, só o conteúdo (sem `<html>`, `<meta>`, `<title>`, `<style>`):
    - título como `<h2 class="uk-desc-titulo">Nome curto | Marca</h2>` e a linha técnica logo abaixo (ex.: `<p class="uk-desc-linha">Inox 304 | Bica Articulada | Instalação de Bancada</p>`);
