@@ -43,7 +43,8 @@ Estrutura de conteúdo atual (o que vale manter):
    - aviso e garantia com as classes atuais, sem emoji e sem cores próprias (o visual vem do CSS do site).
 2. Ajustar **gerador de nomes**, **sanfona** e **CSS** para o modelo novo, mantendo compatibilidade com as descrições antigas enquanto a troca acontece.
 3. **Revisar o texto** de cada produto: correção, tom premium, palavras de busca naturais (produto + marca + característica; Sorocaba só onde fizer sentido), sem inventar dados.
-4. Definir o **fluxo de troca** no painel (produto a produto), com uma lista de controle do que já foi feito.
+4. **SEO no lugar certo**: o texto da `<meta name="description">` que hoje está dentro da descrição vai para o campo de SEO do produto no painel da Loja Integrada (descrição para buscadores), onde ele vira a meta description real do `<head>`. `keywords` é ignorada pelo Google (não precisa migrar); `<title>` vem do campo de título/SEO do produto.
+5. Definir o **fluxo de troca** no painel (produto a produto), com uma lista de controle do que já foi feito.
 
 ## Material que o cliente precisa fornecer
 - O HTML atual das descrições (ou acesso via exportação/planilha de produtos da Loja Integrada), começando por poucos produtos para validar o modelo.
