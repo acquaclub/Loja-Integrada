@@ -4,19 +4,18 @@
   Local publicação: Rodapé | Página: Produto | Tipo: JavaScript
   Traz o próprio estilo (não depende do CSS Avançado).
 */
-// Topo da página de produto no modo catálogo, ao lado da foto:
-// marca (preta, com traço dourado) > nome > "Valores e condições sob consulta" > botão de WhatsApp >
-// garantias com ícone dourado > código do produto, discreto, no fim.
-// No celular, as miniaturas abaixo da foto ficam pequenas, inteiras e centralizadas (quebram linha se precisar),
-// e a foto principal troca deslizando o dedo para o lado.
-// Esconde o ícone de WhatsApp do tema e as bordas da caixa de ações vazia.
-// O texto padrão do tema ("Para mais informações entre em contato…") é escondido.
+// Topo do produto (catálogo): marca > nome curto + linha técnica > "sob consulta" > WhatsApp > garantias > código.
+// Celular: miniaturas inteiras e centralizadas; a foto troca deslizando o dedo. Esconde sobras do tema.
 (function () {
     var DOURADO = '#c49a45';
 
     var ESTILO =
         '.uk-topo__marca{display:inline-flex;align-items:center;gap:12px;margin:6px 0 0;font-family:\'Urbane\',sans-serif;font-size:13px;font-weight:700;'
         + 'letter-spacing:3px;text-transform:uppercase;color:#1a1a1a !important;text-decoration:none !important;transition:color .2s ease}'
+        // Linha técnica dentro do título, como nos cards
+        + '.uk-topo__linha{display:block;margin:10px 0 0;font-family:\'Urbane\',sans-serif;font-size:15px;font-weight:300;line-height:1.5;'
+        + 'letter-spacing:.2px;text-transform:none;color:#666666}'
+        + '@media (max-width:767px){.uk-topo__linha{font-size:14px;margin-top:8px}}'
         + '.uk-topo__marca::before{content:"";display:block;width:24px;height:1px;background:' + DOURADO + '}'
         + '.uk-topo__marca:hover{color:#9a7430 !important}'
         + '.info-principal-produto .nome-produto{margin-top:8px !important}'
@@ -51,7 +50,7 @@
         + '.uk-topo__codigo [itemprop="brand"]{display:none !important}'
         + '.uk-topo__codigo b{font-size:11px !important;font-weight:600 !important;letter-spacing:1px;text-transform:uppercase;color:#1a1a1a !important}'
         + '.uk-topo__codigo [itemprop="sku"]{font-size:12px !important;letter-spacing:.5px;color:#666666 !important}'
-        // Celular: miniaturas pequenas (48px), todas inteiras e centralizadas, sem as setas nem a faixa cortada
+        // Celular: miniaturas de 48px, inteiras e centralizadas, sem setas
         + '@media (max-width:767px){'
         + 'html body .produto-thumbs,html body .produto-thumbs #carouselImagem{height:auto !important;max-height:none !important;overflow:visible !important}'
         + 'html body .produto-thumbs #carouselImagem{padding:0 !important;margin:12px 0 0 !important}'
@@ -78,7 +77,7 @@
         [icone('<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M17 11l2 2 4-4"/>'), 'Consultoria especializada']
     ];
 
-    // Ícone de WhatsApp do tema (quadradinho verde sem desenho): o contato é o botão verde do script-whatsapp-produto.js
+    // Ícone de WhatsApp do tema (quadradinho verde vazio): o contato é o botão do script-whatsapp-produto.js
     function esconderIconeWhatsAppTema() {
         document.querySelectorAll('i.fa.fa-whatsapp').forEach(function (i) {
             if (i.closest('.wpp-produto-cta, .wpp-flutuante-home, .uk-rodape')) return;
@@ -87,7 +86,7 @@
         });
     }
 
-    // Celular e tablet: deslizar o dedo na foto principal passa para a próxima/anterior (para na primeira e na última)
+    // Celular e tablet: deslizar o dedo na foto troca para a próxima/anterior
     function deslizarFoto() {
         var foto = document.getElementById('imagemProduto');
         var area = foto && (foto.closest('.uk-moldura-foto') || foto.parentElement);
@@ -123,9 +122,46 @@
         });
     }
 
+    // Título como nos cards: nome curto + linha técnica (UK_NOMES, script-nomes-1 e 2). O nome completo fica
+    // no <title>, nos dados estruturados (meta itemprop="name") e no "title" do H1.
+    function nomeCurto() {
+        var info = document.querySelector('.info-principal-produto');
+        var nome = info && info.querySelector('.nome-produto');
+        var sku = info && info.querySelector('[itemprop="sku"]');
+        var lista = window.UK_NOMES;
+        if (!nome || !sku || !lista || nome.hasAttribute('data-uk-nome')) return;
+        var dados = lista[(sku.getAttribute('content') || sku.textContent || '').trim()];
+        if (!dados || !dados[0]) return;
+        nome.setAttribute('data-uk-nome', '');
+        var completo = nome.textContent.replace(/\s+/g, ' ').trim();
+        if (nome.getAttribute('itemprop') === 'name') {
+            var meta = document.createElement('meta');
+            meta.setAttribute('itemprop', 'name');
+            meta.setAttribute('content', completo);
+            nome.parentNode.insertBefore(meta, nome);
+            nome.removeAttribute('itemprop');
+        }
+        // Sem repetir a marca, que já aparece em cima
+        var curto = dados[0];
+        var marca = info.querySelector('[itemprop="brand"] a');
+        if (marca && marca.textContent.trim()) {
+            var texto = marca.textContent.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            curto = curto.replace(new RegExp('(^|\\s)' + texto + '(?=\\s|$)', 'i'), '$1').replace(/\s+/g, ' ').trim() || dados[0];
+        }
+        nome.setAttribute('title', completo);
+        nome.textContent = curto;
+        if (dados[1]) {
+            var linha = document.createElement('span');
+            linha.className = 'uk-topo__linha';
+            linha.textContent = dados[1].split('|').map(function (t) { return t.trim(); }).filter(Boolean).join(' · ');
+            nome.appendChild(document.createTextNode(' '));
+            nome.appendChild(linha);
+        }
+    }
+
     function montar() {
         esconderIconeWhatsAppTema();
-        // Parte do bloco do produto (há botões com a classe "principal" antes dele na página)
+        // Bloco do produto (há outros "principal" antes dele na página)
         var info = document.querySelector('.info-principal-produto');
         var principal = info && info.parentElement;
         var nome = info && info.querySelector('.nome-produto');
@@ -145,6 +181,8 @@
             linkMarca.textContent = marca.textContent.trim();
             nome.parentNode.insertBefore(linkMarca, nome);
         }
+
+        nomeCurto();
 
         // Frase no lugar do preço, logo abaixo do nome
         var consulta = document.createElement('p');
@@ -173,4 +211,6 @@
     }
     // O tema pode criar o ícone depois: confere de novo quando a página termina de carregar
     window.addEventListener('load', esconderIconeWhatsAppTema);
+    // A lista de nomes pode carregar depois deste código
+    window.addEventListener('load', nomeCurto);
 })();
