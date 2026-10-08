@@ -8,9 +8,10 @@
 //    copy(UK_LISTA_GERADA[0])  (depois [1], [2]...) e substitua todo o Código HTML script-nomes-1, -2...
 //    (O copy() do Console só funciona digitado direto, não dentro do gerador.)
 // Produtos já na lista instalada não são lidos de novo (mais rápido). Para reler todos
-// (ex.: depois de mudar descrições), troque RELER_TODOS para true.
+// (ex.: depois de mudar descrições), troque RELER_TODOS para true, ou ponha só os códigos alterados em RELER.
 (async function () {
     var RELER_TODOS = false;
+    var RELER = []; // ex.: ['CV-1BI-40-VT-2VPA'] (produtos com a descrição corrigida, para pegar o título novo)
     var LIMITE_PARTE = 14000; // caracteres por Código HTML (o painel aceita 15 mil)
 
     var lista = RELER_TODOS ? {} : Object.assign({}, window.UK_NOMES || {});
@@ -58,21 +59,24 @@
     }
 
     // 2. Página de cada produto novo: título e linha técnica da descrição
-    var novos = Object.keys(links).filter(function (sku) { return !lista[sku]; });
+    var novos = Object.keys(links).filter(function (sku) { return !lista[sku] || RELER.indexOf(sku) >= 0; });
     console.log('Produtos na loja: ' + Object.keys(links).length + ' | para ler agora: ' + novos.length);
     var semTitulo = [];
+    var modeloAntigo = [];
     var lidos = 0;
     async function ler(sku) {
         try {
             var pagina = await baixar(links[sku]);
             var descricao = pagina.querySelector('#descricao');
-            var titulo = descricao && descricao.querySelector('h1');
+            // Modelo novo: h2.uk-desc-titulo + p.uk-desc-linha. Modelo antigo: h1 + h2.
+            var titulo = descricao && (descricao.querySelector('.uk-desc-titulo') || descricao.querySelector('h1'));
             if (!titulo) { semTitulo.push(links[sku]); return; }
             var marca = pagina.querySelector('[itemprop="brand"] [itemprop="name"]');
             marca = marca ? (marca.getAttribute('content') || marca.textContent || '').trim().toLowerCase() : '';
             var nome = titulo.textContent.split('|').map(function (t) { return t.replace(/\s+/g, ' ').trim(); })
                 .filter(function (t) { return t && t.toLowerCase() !== marca; }).join(' ');
-            var linha = descricao.querySelector('h2');
+            var linha = descricao.querySelector('.uk-desc-linha') || descricao.querySelector('h2:not(.uk-desc-titulo)');
+            if (!descricao.querySelector('.uk-desc-titulo')) modeloAntigo.push(sku);
             var tecnico = linha ? linha.textContent.replace(/\s+/g, ' ').trim() : '';
             if (nome) lista[sku] = tecnico ? [nome, tecnico] : [nome];
         } catch (erro) {
@@ -112,6 +116,7 @@
         return cabecalho(n + 1, grupos.length) + grupo.join(',\n') + '\n});\n' + (n === 0 ? '\n' + LOGICA : '');
     });
 
+    if (modeloAntigo.length) console.log('Descrição ainda no modelo antigo (' + modeloAntigo.length + ', entre os lidos agora; com RELER_TODOS = true, a loja toda):\n' + modeloAntigo.join('\n'));
     if (semTitulo.length) console.log('Sem título na descrição (ficam com o nome normal):\n' + semTitulo.join('\n'));
     var instrucoes = window.UK_LISTA_GERADA.map(function (parte, n) {
         return '   copy(UK_LISTA_GERADA[' + n + '])  → substitua todo o Código HTML  script-nomes-' + (n + 1);
