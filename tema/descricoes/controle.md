@@ -18,6 +18,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CV-2BI-87-VT-2VPA | Adega Vetro 87 Garrafas Dual Zone Built-in 220V | Elettromec | `elettromec-adega-vetro-87-CV-2BI-87-VT-2VPA.html` | `elettromec-adega-vetro-87-CV-2BI-87-VT-2VPA-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir (ok) |
 | 94896001 | Adega Tramontina Senses Dual Zone T smart 27 garrafas, 38 cm, 220V | Tramontina | `tramontina-adega-senses-27-94896001.html` | `tramontina-adega-senses-27-94896001-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir |
 | 94896002 | Adega Tramontina Senses Dual Zone T smart 45 garrafas, 220V | Tramontina | `tramontina-adega-senses-45-94896002.html` | `tramontina-adega-senses-45-94896002-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir |
+| CV-2BI-181-VT-2VPB | Adega Vetro 181 Garrafas Dual Zone Built-in 220V | Elettromec | `elettromec-adega-vetro-181-CV-2BI-181-VT-2VPB.html` | `elettromec-adega-vetro-181-CV-2BI-181-VT-2VPB-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir (ok) |
 
 ## Pendências gerais
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
@@ -64,7 +65,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | Feito | SKU | Variações | Produto | Categoria | Ativo | Descrição | Ação pendente |
 |---|---|---|---|---|---|---|---|
 | x | CV-1BI-40-VT-2VPA | - | Adega Climatizada de Embutir Vetro 40 Garrafas 220V Elettromec | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
-|   | CV-2BI-181-VT-2VPB | - | Adega Elettromec Vetro 181 Garrafas, Dual Zone, 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
+| x | CV-2BI-181-VT-2VPB | - | Adega Elettromec Vetro 181 Garrafas, Dual Zone, 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 | x | CV-2BI-87-VT-2VPA | - | Adega Elettromec Vetro 87 Garrafas Dual-Zone Built-In 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | BC-BI-144-VT-2VPA | - | Beer Center Vetro 144 Litros Built-In 220V Elettromec | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | BC-BI-135-XV | BC-BI-135-XV-1ATF (127V), BC-BI-135-XV-2ATF (220V) | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | antigo | A: trocar código/ficha → BC-BI-145-XV-2VPA / 2VPB |
