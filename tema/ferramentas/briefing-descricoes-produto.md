@@ -12,6 +12,7 @@ Leia este arquivo inteiro antes de começar. Ele resume o que já existe e o que
 - Português, tom de conselheiro: aponte falhas primeiro, sem elogio de abertura. Marque a confiança: [Certeza] / [Provável] / [Chute] / [Fora do escopo].
 - Conciso. Um passo de cada vez.
 - **Nunca invente especificação técnica** (medida, voltagem, potência, garantia). Se faltar dado, pergunte ou deixe marcado para o cliente preencher.
+- **REGRA DO CLIENTE: só dado oficial.** Toda informação da descrição precisa estar no material oficial que o cliente manda (site/ficha/manual do fabricante). O que não estiver lá, ou for dedução (ordem L x A x P, lado de abertura, "da mesma linha"...), **sai do texto ou é avisado ao cliente antes**. Na dúvida, não colocar. O que vier só da descrição antiga também precisa ser confirmado na fonte oficial.
 - **Entrega**: o cliente cola no painel. Gere uma página com botão "COPIAR TUDO" e envie com `SendUserFile` usando `display: "render"` (abre no chat, sem download):
   `python3 tema/ferramentas/gerar-copia.py SAIDA.html "Título|caminho/do/arquivo|Instrução (termina em ...)"` (um bloco por argumento). Grave a saída no scratchpad.
 - Sempre diga **onde colar** e **como termina** o código. Faça commit e push a cada entrega.
