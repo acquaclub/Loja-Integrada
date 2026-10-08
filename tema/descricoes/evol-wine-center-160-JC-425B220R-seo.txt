@@ -9,3 +9,11 @@ Adega climatizada de embutir Evol Wine Center Smart, 160 garrafas, Dual Zone, 22
 
 URL (manter a atual)
 adega-vinhos-evol-smart-160g-jc425b220r
+
+CADASTRO / ESPECIFICAÇÕES (Loja Integrada) – conferido com a ficha oficial
+GTIN/EAN: vazio no cadastro; a ficha enviada não traz EAN (pedir à Evol / caixa do produto)
+Peso: cadastro 121 kg x ficha 113 kg (bruto) → usar 113
+Dimensões cadastro 66 x 184 x 70 (L x A x P): não batem com a ficha (produto 59,5 x 75 x 180 cm, L x P x A); profundidade 70 < 75 do produto. Ficha não traz embalagem. Sugestão: 60 x 180 x 75 (produto) até ter a embalagem oficial.
+Classificação: Eletrodomésticos » Refrigeração » Adegas Climatizadas
+Capacidade de garrafas: 160 | Modelo: JC-425B220 | Cor: Inox | Sistema de arrefecimento: Compressor
+Frequência: 60 Hz | Potência: 130 W | Largura: 595 mm | Linha: Gourmet (ficha: "Wine Center da Linha Gourmet"; "Smart" é o nome do produto/app)
