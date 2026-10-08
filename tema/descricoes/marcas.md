@@ -50,4 +50,14 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - Linha Gourmet by Evol; app **Evol Smart** (Wi-Fi).
 - Limpeza (manual): pano macio com água morna por dentro; frente com pano macio e detergente neutro; nada de esponja, palha de aço, abrasivos ou produtos cáusticos.
 
+## Glossário (termos usados por várias marcas)
+Pesquisado em 08/10/2026 a pedido do cliente, para explicar os termos. Na descrição, a explicação de cada produto segue o que **a própria marca** diz.
+- **Low-E** (*low emissivity*, baixa emissividade): revestimento fino no vidro que reduz a passagem de radiação infravermelha (calor) e ultravioleta sem escurecer o vidro. Na porta de adega, melhora o isolamento térmico e ajuda a controlar a condensação ("sudação") no vidro.
+  - Elettromec (oficial): absorve os raios infravermelhos, isolamento térmico, proteção contra raios UV e controle de sudação na porta.
+  - Evol (oficial): "porta com redução de umidade". A Evol não cita UV: não usar UV nas descrições Evol.
+- **Sudação**: condensação (gotículas) na superfície do vidro, quando o ar úmido encontra o vidro frio.
+- **ECM (Energy Cutoff Memory)**: memoriza a temperatura programada antes de uma queda de energia; quando a energia volta, o aparelho retoma a programação.
+  - Elettromec (oficial): "memoriza a última temperatura programada no instante anterior a uma queda de energia".
+  - Evol (oficial, ficha do Wine Center 46): "em caso de falha de energia, retoma automaticamente a temperatura programada anteriormente". Busca na web não achou página da Evol sobre o termo.
+
 <!-- Próximas marcas: Tramontina, Bertazzoni, Gorenje, Tecno, Evol, Jacuzzi, Smeg... (preencher conforme o cliente mandar) -->
