@@ -105,7 +105,8 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 ### Garantia de banheiras/ofurôs (Certificado de Garantia, recebido em 08/10/2026)
 - **5 anos** para a banheira/ofurô e **12 meses** para componentes, a partir da data de aquisição (nota fiscal). No **1º ano**, a Deca cobre a mão de obra da rede de Serviço Autorizado Deca. Responsabilidade restrita ao produto; válido no Brasil.
 - Não cobre: quedas, maus-tratos, manuseio/instalação incorretos, erro de especificação; danos ao acabamento por limpeza inadequada (químicos, solventes, abrasivos tipo saponáceo, palha de aço, esponja dupla face); desgaste natural (vedantes, gaxetas, anéis, guarnições, cunhas, mecanismos de vedação); reparo por não autorizados; peças não originais/adaptações; água não potável ou com impurezas; objetos estranhos. **Uso público: prazos reduzidos em 50%.**
-- Outras linhas Deca (metais, louças) podem ter prazos diferentes: conferir.
+- **Certificado de metais e louças sanitários Deca** (recebido em 08/10/2026, usado na banheira LK BH.54150.LK.BRFC, ficha "Garantia 36 meses"): **3 anos** a partir da aquisição (nota fiscal) + mão de obra da rede autorizada no 1º ano; mesmas exclusões e redução de 50% em uso público.
+- Regra: usar o prazo que a ficha do produto informa (Senses/ofurô: 5 anos; LK: 36 meses).
 
 ### Bloco de garantia (banheiras)
 ```html
