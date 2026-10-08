@@ -14,6 +14,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | TR14ARDB | Adega para revestir Tecno 136 L, 43 garrafas, Dual Zone, porta reversível, 220V | Tecno | `tecno-adega-revestir-136-TR14ARDB.html` | `tecno-adega-revestir-136-TR14ARDB-seo.txt` (URL mantida) | entregue (corrigido: era cadastrado como "abertura esquerda") | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso |
 | TR14AVDB | Adega Tecno Professional 136 L, 43 garrafas, Dual Zone, abertura esquerda, 220V | Tecno | `tecno-adega-professional-136-TR14AVDB.html` | `tecno-adega-professional-136-TR14AVDB-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso (hoje só "Adegas e Cervejeiras") |
 | TR08AVDA | Adega Tecno Professional 80 L, 23 garrafas, 38 cm, Dual Zone, abertura esquerda, 220V | Tecno | `tecno-adega-professional-80-TR08AVDA.html` | `tecno-adega-professional-80-TR08AVDA-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso (hoje só "Adegas e Cervejeiras") |
+| JC-115DR220 | Dual Wine & Beer Smart Evol (adega 18 garrafas + cervejeira 58 L), 220V | Evol | `evol-dual-wine-beer-JC-115DR220.html` | `evol-dual-wine-beer-JC-115DR220-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Cervejeiras |
 
 ## Pendências gerais
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
@@ -113,7 +114,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | x | JC-425B220R | - | Adega Climatizada Evol Wine Center 160 Garrafas Dual Zone Embutir 220V | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
 | x | JC-145B-R | JC-145B127R (127V), JC-145B220R (220V) | Adega Climatizada Evol Wine Center 46 Garrafas Dual Zone Embutir Abertura Direita | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
 | x | JC-145B-L | JC-145B220L (220V), JC-145B127L (127V) | Adega Climatizada Evol Wine Center 46 Garrafas Dual Zone Embutir Abertura Esquerda | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
-|   | JC-115DR220 | - | Adega e Cervejeira Evol Smart 58 Litros Dual Zone de Embutir 220V | Adegas e Cervejeiras | S | antigo |  |
+| x | JC-115DR220 | - | Adega e Cervejeira Evol Smart 58 Litros Dual Zone de Embutir 220V | Adegas e Cervejeiras | S | antigo |  |
 |   | JC-145C | JC-145C127-R (127V), JC-145C220-R (220V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | JC-145C-L | JC-145C220L (220V), JC-145C127L (127V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | JC-425C220R | - | Cervejeira de Embutir Evol Smart 425 Litros Abertura para Direita 220V | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
