@@ -17,6 +17,6 @@ Principal: Banheiras.
 CADASTRO / ESPECIFICAÇÕES
 Capacidade de água: 230 → 223 L (ficha) | Material dos pés ("Não possui") e Capacidade de pessoas (1): não constam → em branco
 Ok: BH.54150.LK.BRFC, De piso, Oval, Resina Acrílica, Branco Fosco, 43,2 kg, 75 cm, 60 cm, 150 cm
-GTIN: ficha não traz | Embalagem: ficha só diz "caixa kraft" (sem medidas)
+GTIN: ficha não traz | Embalagem: cadastro está ZERADO (0 kg, 0/0/0); ficha não traz medidas da caixa → usar produto: 43,2 kg, A 60, L 75, P 150
 Garantia: 36 meses (certificado de metais e louças Deca: 3 anos + mão de obra no 1º ano)
 Saiu: "spa residencial", "freestanding dispensa alvenaria", "lavabo", alerta de esgoto/nivelamento, "inclinação calculada em fábrica", "mais leve que banheiras tradicionais".
