@@ -12,6 +12,15 @@ Leia este arquivo inteiro antes de começar. Ele resume o que já existe e o que
 - `tema/descricoes/controle.md`: produtos já feitos (não repetir) e pendências.
 - `tema/descricoes/marcas.md`: informações oficiais por marca (garantia etc.) já recebidas do cliente.
 - `tema/descricoes/<marca>-<produto>-<código>.html` (+ `-seo.txt`): descrição e campos de SEO de cada produto.
+- `tema/descricoes/planilha/produtos-AAAA-MM-DD.csv`: última exportação de produtos da Loja Integrada (sem preços). Tem nome, SEO, categoria, ativo/inativo, variações e a **descrição atual** de cada produto: não é preciso pedir o HTML antigo ao cliente se o produto estiver nela.
+- `tema/descricoes/lista-outro-chat-2026-10-08.md`: plano do chat de cadastro (trocar código, reativar, corrigir, remover e 195 produtos novos). É planejamento, não dado oficial.
+
+## Fluxo combinado com o cliente (08/10/2026)
+1. O cliente manda, item a item, o **código** e a **descrição/ficha oficial** de produtos **ativos e inativos**.
+2. Antes de escrever, cruzar o código com `controle.md` (coluna "Ação pendente") e com a planilha, e **dizer ao cliente o que fazer com o item**: só atualizar a descrição, trocar o código/produto (Parte A), reativar (B), corrigir cadastro (C), excluir (D), virar variação de outro anúncio, cadastrar como novo etc.
+3. Depois fazer a descrição (modelo novo) + nome, title e meta description, e entregar.
+4. Atualizar `controle.md` (tabela de cima + marcar "x" no catálogo) e `marcas.md` (dados oficiais novos da marca). Commit e push a cada entrega: o repositório é o lugar seguro para não perder nada quando a conversa for compactada.
+5. Quando o cliente mandar uma planilha nova: salvar em `planilha/` (sem colunas de preço), regenerar o catálogo de `controle.md` e conferir o que mudou (produtos apagados, ativados, novos).
 
 ## Como trabalhar com o cliente
 - Português, tom de conselheiro: aponte falhas primeiro, sem elogio de abertura. Marque a confiança: [Certeza] / [Provável] / [Chute] / [Fora do escopo].
@@ -20,8 +29,8 @@ Leia este arquivo inteiro antes de começar. Ele resume o que já existe e o que
 - **REGRA DO CLIENTE: só dado oficial.** Toda informação da descrição precisa estar no material oficial que o cliente manda (site/ficha/manual do fabricante). O que não estiver lá, ou for dedução (ordem L x A x P, lado de abertura, "da mesma linha"...), **sai do texto ou é avisado ao cliente antes**. Na dúvida, não colocar. O que vier só da descrição antiga também precisa ser confirmado na fonte oficial.
 - **Ordem das medidas (L x A x P etc.): confirmar com o cliente a cada produto.** A aprovação vale só para aquele produto, nunca como regra geral.
 - **Largura comercial (regra do cliente):** largura real de 59,5 cm = largura comercial **60 cm**. Pode colocar sem perguntar quando a ficha oficial trouxer 59,5 cm (595 mm).
-- **Entrega**: o cliente cola no painel. Gere uma página com botão "COPIAR TUDO" e envie com `SendUserFile` usando `display: "render"` (abre no chat, sem download):
-  `python3 tema/ferramentas/gerar-copia.py SAIDA.html "Título|caminho/do/arquivo|Instrução (termina em ...)"` (um bloco por argumento). Grave a saída no scratchpad.
+- **Entrega (preferência do cliente):** 4 arquivos de texto **separados**, enviados com `SendUserFile` um a um: `1-nome-do-produto.txt`, `2-descricao.txt` (HTML indentado), `3-seo-titulo.txt`, `4-seo-descricao.txt`. Os textos curtos (nome, title, description) também vão direto no chat em blocos de código. Não usar a página "COPIAR TUDO" para isso (o cliente achou ruim de abrir). CSS: mandar o arquivo inteiro ou dizer exatamente onde colar.
+- **SEO:** nome do produto com o termo de busca ("Adega Climatizada de Embutir..."); title até ~60 caracteres terminando em "| Unikitchen"; meta description até ~155 caracteres terminando em "Lojas em Sorocaba e Itapetininga."; **URL: manter** (trocar perde indexação). Versões do mesmo produto (L/R) com titles diferentes.
 - Sempre diga **onde colar** e **como termina** o código. Faça commit e push a cada entrega.
 
 ## Como a descrição é hoje (problemas)
