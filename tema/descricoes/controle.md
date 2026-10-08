@@ -15,6 +15,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | TR14AVDB | Adega Tecno Professional 136 L, 43 garrafas, Dual Zone, abertura esquerda, 220V | Tecno | `tecno-adega-professional-136-TR14AVDB.html` | `tecno-adega-professional-136-TR14AVDB-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso (hoje só "Adegas e Cervejeiras") |
 | TR08AVDA | Adega Tecno Professional 80 L, 23 garrafas, 38 cm, Dual Zone, abertura esquerda, 220V | Tecno | `tecno-adega-professional-80-TR08AVDA.html` | `tecno-adega-professional-80-TR08AVDA-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso (hoje só "Adegas e Cervejeiras") |
 | JC-115DR220 | Dual Wine & Beer Smart Evol (adega 18 garrafas + cervejeira 58 L), 220V | Evol | `evol-dual-wine-beer-JC-115DR220.html` | `evol-dual-wine-beer-JC-115DR220-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Cervejeiras |
+| CV-2BI-87-VT-2VPA | Adega Vetro 87 Garrafas Dual Zone Built-in 220V | Elettromec | `elettromec-adega-vetro-87-CV-2BI-87-VT-2VPA.html` | `elettromec-adega-vetro-87-CV-2BI-87-VT-2VPA-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir (ok) |
 
 ## Pendências gerais
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
@@ -62,7 +63,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |---|---|---|---|---|---|---|---|
 | x | CV-1BI-40-VT-2VPA | - | Adega Climatizada de Embutir Vetro 40 Garrafas 220V Elettromec | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
 |   | CV-2BI-181-VT-2VPB | - | Adega Elettromec Vetro 181 Garrafas, Dual Zone, 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
-|   | CV-2BI-87-VT-2VPA | - | Adega Elettromec Vetro 87 Garrafas Dual-Zone Built-In 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
+| x | CV-2BI-87-VT-2VPA | - | Adega Elettromec Vetro 87 Garrafas Dual-Zone Built-In 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | BC-BI-144-VT-2VPA | - | Beer Center Vetro 144 Litros Built-In 220V Elettromec | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | BC-BI-135-XV | BC-BI-135-XV-1ATF (127V), BC-BI-135-XV-2ATF (220V) | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | antigo | A: trocar código/ficha → BC-BI-145-XV-2VPA / 2VPB |
 |   | BC-BI-86-XV-2ATB | - | Cervejeira de Embutir Elettromec 86 litros Connect 220v | Adegas e Cervejeiras > Cervejeiras | N | antigo | A: trocar código/ficha → BC-BI-88-XV-2VPA |
