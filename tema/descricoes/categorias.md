@@ -1,0 +1,91 @@
+# Árvore de categorias da loja (painel, prints do cliente em 08/10/2026)
+
+Regra (cliente, 08/10/2026): **em todo produto revisado, conferir e indicar a categoria correta, sempre no último nível** (subcategoria), nunca só na categoria-mãe.
+A exportação da planilha traz uma categoria por produto (`categoria-nome-nivel-2..5`). Se o painel permitir mais de uma, indicar também a secundária (ex.: adega "de piso e de embutir").
+★ = categoria marcada com estrela no painel.
+
+- CATEGORIAS
+  - Adegas e Cervejeiras ★
+    - Adegas de Embutir
+    - Adegas de Piso
+    - Cervejeiras
+  - Banheiras ★
+  - Cafeteiras
+  - Chopeiras
+  - Churrasqueiras ★
+    - Acessórios
+    - Churrasqueiras a Gás
+    - Side Burner
+  - Coifas ★
+    - Coifa de Bancada
+    - Coifa de Churrasqueira
+    - Coifa de Ilha
+    - Coifa de Parede
+  - Cooktops, Rangetops e Dominós ★
+    - Cooktops
+      - 4 a 5 Zonas Elétrico
+      - 4 a 5 Zonas Indução
+      - 4 Queimadores a Gás
+      - 5 Queimadores a Gás
+      - 6 a 8 Zonas Indução
+      - 6 Queimadores a Gás
+    - Dominós
+      - 1 Queimador a Gás
+      - 2 Queimadores a Gás
+      - 2 Zonas Elétrico
+      - 2 Zonas Indução
+      - Barbecue
+      - Chapa Teppan
+      - Fritadeira
+    - Rangetop
+      - 4 a 5 Queimadores a Gás
+      - 6 a 8 Queimadores a Gás
+  - Cubas e Tanques
+    - Acessórios Cuba
+    - Cuba Dupla
+    - Cuba Única
+  - Fogões ★
+    - 4 a 5 Zonas Indução
+    - 4 Queimadores a Gás
+    - 5 Queimadores a Gás
+    - 6 a 8 Queimadores a Gás
+  - Fornos e Micro-ondas ★
+    - Forno a Gás
+    - Forno Elétrico
+    - Forno e Micro-ondas Combinado
+    - Fornos de Pizza
+      - Acessórios
+      - Forno de Pizza
+    - Micro-ondas
+  - Gavetas Aquecidas e Refrigeradas ★
+    - Gavetas Aquecidas
+    - Gavetas Refrigeradas
+  - Lavadoras e Secadoras
+    - Lavadoras
+    - Lavadoras e Secadoras
+    - Secadoras
+  - Lava Louças ★
+    - Frente Lava-louças
+    - Lava-louças
+  - Lixeiras
+  - Máquinas de Gelo
+    - Máquina de Gelo de Embutir
+  - Misturadores e Torneiras
+    - Com Extensor
+    - Dosadores de sabão
+    - Sem Extensor
+  - Refrigeradores e Freezers ★
+    - All Freezer
+    - All Refrigerator
+    - Bottom
+    - French Door
+    - Frigobares
+    - Multidoor
+  - Trituradores de alimentos ★
+  - Umidores de Charuto
+    - Termoumidor de Charutos
+    - Umidor de Charutos
+
+## Observações
+- Os prints vieram em partes; pode haver categoria entre um print e outro que não apareceu. Todas as categorias usadas na planilha de 08/10 estão na árvore acima.
+- Achados na planilha de 08/10: 4 produtos só em "Adegas e Cervejeiras" (sem subcategoria), 2 só em "Máquinas de Gelo", e 1 sem categoria nenhuma (95800025, Coifa Tramontina Incasso 75 Split). Tratar quando o produto passar pela revisão.

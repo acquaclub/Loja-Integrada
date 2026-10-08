@@ -4,8 +4,8 @@ Antes de começar um produto, conferir aqui se ele já foi feito.
 Na loja, o SKU é o código do fabricante. Produto com variação de voltagem: o SKU "pai" (ex.: JC-145B-L) leva a descrição; as variações têm SKU próprio (ex.: JC-145B127L, JC-145B220L). Alguns SKUs não são código de fabricante (ex.: ActiveTwist, PescaraXL, números da Franke).
 Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para colar) · **no ar** (cliente confirmou no site).
 
-| SKU (= código do fabricante) | Produto | Marca | Arquivo | SEO (nome/title/description) | Status | Data |
-|---|---|---|---|---|---|---|
+| SKU (= código do fabricante) | Produto | Marca | Arquivo | SEO (nome/title/description) | Status | Data | Categoria correta |
+|---|---|---|---|---|---|---|---|
 | CV-1BI-40-VT-2VPA | Adega Vetro 40 Garrafas Built-in 220V | Elettromec | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA.html` | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA-seo.txt` (URL mantida) | no ar | 08/10/2026 |
 | JC-145B-L | Wine Center Smart 46 Garrafas Dual Zone, abertura esquerda, 127V/220V | Evol | `evol-wine-center-46-JC-145B-L.html` | `evol-wine-center-46-JC-145B-L-seo.txt` (URL mantida) | no ar (inversão de porta fora: ficha oficial x descrição antiga divergem) | 08/10/2026 |
 | JC-425B220R | Wine Center Smart 160 Garrafas Dual Zone, abertura direita, 220V | Evol | `evol-wine-center-160-JC-425B220R.html` | `evol-wine-center-160-JC-425B220R-seo.txt` (URL mantida) | no ar | 08/10/2026 |
