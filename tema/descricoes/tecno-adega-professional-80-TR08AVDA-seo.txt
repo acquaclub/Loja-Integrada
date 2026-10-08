@@ -16,5 +16,5 @@ CADASTRO / ESPECIFICAÇÕES (Loja Integrada) – conferido com a ficha oficial T
 Embalagem: hoje 39 kg, A 92, L 38, P 58 → ficha: 41 kg, A 87 (865 mm), L 46 (460 mm), P 64 (635 mm)
 GTIN: ficha não traz (não cobrar) | MPN: TR08AVDA (opcional)
 Capacidade: 23 | Modelo: TR08AVDA | Cor: Inox | Compressor | Frequência: em branco | Potência: 120 W → 242 W (ficha) | Largura: 380 mm | Linha: Professional | Zonas: 2 | Altura: 820 mm a 920 mm
-Ficha diz 242 W / 1,1 A (descrição antiga dizia 120 W / 1,2 A): vale a ficha. Sem consumo kWh na ficha. Largura comercial "40 cm" da descrição antiga: não está na ficha, fora.
+Ficha diz 242 W / 1,1 A (descrição antiga dizia 120 W / 1,2 A): vale a ficha. Sem consumo kWh na ficha. Largura comercial 40 cm (regra: 38 cm arredondado para cima).
 Par abertura direita TR08AVDB: na lista do outro chat como produto novo (pode virar variação).
