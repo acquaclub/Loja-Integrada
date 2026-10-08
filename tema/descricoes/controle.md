@@ -6,11 +6,11 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 
 | SKU (= código do fabricante) | Produto | Marca | Arquivo | SEO (nome/title/description) | Status | Data | Categoria correta |
 |---|---|---|---|---|---|---|---|
-| CV-1BI-40-VT-2VPA | Adega Vetro 40 Garrafas Built-in 220V | Elettromec | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA.html` | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA-seo.txt` (URL mantida) | no ar | 08/10/2026 |
-| JC-145B-L | Wine Center Smart 46 Garrafas Dual Zone, abertura esquerda, 127V/220V | Evol | `evol-wine-center-46-JC-145B-L.html` | `evol-wine-center-46-JC-145B-L-seo.txt` (URL mantida) | no ar (inversão de porta fora: ficha oficial x descrição antiga divergem) | 08/10/2026 |
-| JC-425B220R | Wine Center Smart 160 Garrafas Dual Zone, abertura direita, 220V | Evol | `evol-wine-center-160-JC-425B220R.html` | `evol-wine-center-160-JC-425B220R-seo.txt` (URL mantida) | no ar | 08/10/2026 |
-| JC-145B-R | Wine Center Smart 46 Garrafas Dual Zone, abertura direita, 127V/220V | Evol | `evol-wine-center-46-JC-145B-R.html` | `evol-wine-center-46-JC-145B-R-seo.txt` (URL mantida) | no ar | 08/10/2026 |
-| TR14AVDC | Adega Tecno Professional 136 L, 43 garrafas, Dual Zone, abertura direita, 220V | Tecno | `tecno-adega-professional-136-TR14AVDC.html` | `tecno-adega-professional-136-TR14AVDC-seo.txt` (URL mantida) | entregue (reativar no painel + subcategoria Adegas de Embutir) | 08/10/2026 |
+| CV-1BI-40-VT-2VPA | Adega Vetro 40 Garrafas Built-in 220V | Elettromec | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA.html` | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA-seo.txt` (URL mantida) | no ar | 08/10/2026 | Adegas de Embutir (ok) |
+| JC-145B-L | Wine Center Smart 46 Garrafas Dual Zone, abertura esquerda, 127V/220V | Evol | `evol-wine-center-46-JC-145B-L.html` | `evol-wine-center-46-JC-145B-L-seo.txt` (URL mantida) | no ar (inversão de porta fora: ficha oficial x descrição antiga divergem) | 08/10/2026 | Adegas de Embutir (ok) |
+| JC-425B220R | Wine Center Smart 160 Garrafas Dual Zone, abertura direita, 220V | Evol | `evol-wine-center-160-JC-425B220R.html` | `evol-wine-center-160-JC-425B220R-seo.txt` (URL mantida) | no ar | 08/10/2026 | Adegas de Embutir (ok) |
+| JC-145B-R | Wine Center Smart 46 Garrafas Dual Zone, abertura direita, 127V/220V | Evol | `evol-wine-center-46-JC-145B-R.html` | `evol-wine-center-46-JC-145B-R-seo.txt` (URL mantida) | no ar | 08/10/2026 | Adegas de Embutir (ok) |
+| TR14AVDC | Adega Tecno Professional 136 L, 43 garrafas, Dual Zone, abertura direita, 220V | Tecno | `tecno-adega-professional-136-TR14AVDC.html` | `tecno-adega-professional-136-TR14AVDC-seo.txt` (URL mantida) | entregue (reativar no painel + subcategoria Adegas de Embutir) | 08/10/2026 | Adegas de Embutir + Adegas de Piso (hoje só "Adegas e Cervejeiras") |
 
 ## Pendências gerais
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
