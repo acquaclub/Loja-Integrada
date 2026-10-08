@@ -1,7 +1,7 @@
 # Árvore de categorias da loja (painel, prints do cliente em 08/10/2026)
 
 Regra (cliente, 08/10/2026): **em todo produto revisado, conferir e indicar a categoria correta, sempre no último nível** (subcategoria), nunca só na categoria-mãe.
-A exportação da planilha traz uma categoria por produto (`categoria-nome-nivel-2..5`). Se o painel permitir mais de uma, indicar também a secundária (ex.: adega "de piso e de embutir").
+A exportação da planilha traz uma categoria por produto (`categoria-nome-nivel-2..5`). **Sempre indicar uma categoria PRINCIPAL** (cliente, 08/10/2026); se o produto servir em mais de uma, indicar as outras como secundárias (ex.: adega "de piso e de embutir": principal Adegas de Embutir, secundária Adegas de Piso).
 ★ = categoria marcada com estrela no painel.
 
 - CATEGORIAS
