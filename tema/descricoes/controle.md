@@ -20,9 +20,10 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 94896002 | Adega Tramontina Senses Dual Zone T smart 45 garrafas, 220V | Tramontina | `tramontina-adega-senses-45-94896002.html` | `tramontina-adega-senses-45-94896002-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir |
 | CV-2BI-181-VT-2VPB | Adega Vetro 181 Garrafas Dual Zone Built-in 220V | Elettromec | `elettromec-adega-vetro-181-CV-2BI-181-VT-2VPB.html` | `elettromec-adega-vetro-181-CV-2BI-181-VT-2VPB-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir (ok) |
 | BH-53135-AMFC | Banheira com Degrau (Ofurô Deca Senses) 135 cm Amêndoa Fosco | Deca | `deca-banheira-degrau-135-BH-53135-AMFC.html` | `deca-banheira-degrau-135-BH-53135-AMFC-seo.txt` (URL mantida) | entregue — **aguardando validação de estoque** (inativo; Deca indisponível) | 08/10/2026 | Banheiras (ok) |
+| BH-53135-BRFC | Banheira com Degrau (Ofurô Deca Senses) 135 cm Branco Fosco | Deca | `deca-banheira-degrau-135-BH-53135-BRFC.html` | `deca-banheira-degrau-135-BH-53135-BRFC-seo.txt` (URL mantida) | entregue — **aguardando validação de estoque** (inativo; Deca indisponível) | 08/10/2026 | Banheiras (ok) |
 
 ## Pendências gerais
-- **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
+- **Verificar estoque: BH-53135-AMFC e BH-53135-BRFC** (Banheira com Degrau Deca Amêndoa Fosco e Branco Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
 - `script-descricao-titulo.js` só sai do painel quando **todos** os produtos estiverem no modelo novo.
 - Sanfona: colocar o botão dentro do `h3` (acessibilidade/hierarquia). Não bloqueia as descrições.
@@ -59,7 +60,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | BH-54170-LK-BRFC | - | Banheira de Piso Oval Deca 170cm Branco Fosco Linha LK - BH.54170.LK.BRFC | Banheiras | N | antigo |  |
 |   | BH-54170-VL-BRFC | - | Banheira de Piso Oval Deca 170cm Branco Fosco Linha Velluto - BH.54170.VL.BRFC | Banheiras | N | antigo |  |
 | x | BH-53135-AMFC | - | Banheira de Piso com Degrau Deca 135cm Amêndoa Fosco - BH.53135.AMFC | Banheiras | N | antigo |  |
-|   | BH-53135-BRFC | - | Banheira de Piso com Degrau Deca 135cm Branco Fosco - BH.53135.BRFC | Banheiras | N | antigo |  |
+| x | BH-53135-BRFC | - | Banheira de Piso com Degrau Deca 135cm Branco Fosco - BH.53135.BRFC | Banheiras | N | antigo |  |
 |   | 1007-QUA-8-INX | - | Lixeira Quadrada com Sensor 8L Deca Suprema Inox - 1007.QUA.8.INX | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
 
 ### Elettromec (46)
