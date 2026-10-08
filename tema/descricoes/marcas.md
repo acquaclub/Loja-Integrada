@@ -77,6 +77,29 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - SAC 0800 041 5757; vendas diretas 0800 757 5757.
 - Linha Professional: puxador tubular em inox, aço inox escovado anti-manchas.
 
+## Tramontina
+
+### Garantia (site e ficha PDF das adegas Senses T smart, recebidos em 08/10/2026)
+- **1 ano**: 3 meses (90 dias) de garantia legal + 9 meses de garantia contratual, contra vícios ou defeitos de fabricação, contados da NF-e.
+- Extensível até **24 meses**: +6 meses registrando o produto (gratuito) em app.tramontina.cloud/additional-warranty/register; +6 meses instalando com o Serviço Autorizado Tramontina (instalação não gratuita). Sem o autorizado: até 18 meses. Registro dentro do período de garantia contratual; válido só no Brasil.
+- (Pode variar por linha: conferir na ficha de cada produto.)
+
+### Bloco de garantia usado nas descrições
+```html
+<div class="section">
+    <h3 class="section-title">Garantia</h3>
+    <div class="guarantee">
+        <p><strong>Até 2 anos de garantia Tramontina:</strong> 1 ano (3 meses de garantia legal + 9 meses de garantia contratual) contra vícios ou defeitos de fabricação, contado da nota fiscal.</p>
+        <p>Pode ser estendida em mais 6 meses registrando o produto gratuitamente no site da Tramontina e mais 6 meses instalando com o Serviço Autorizado Tramontina (instalação não gratuita). Sem o Serviço Autorizado, a garantia pode chegar a 18 meses. O registro deve ser feito dentro do período de garantia contratual.</p>
+    </div>
+</div>
+```
+
+### Outros
+- Referência com barra no site (94896/001) = SKU sem barra na loja (94896001).
+- Site Tramontina: no bloco "Especificações" (embalagem) os rótulos altura/largura parecem trocados (ex.: 94896001 "altura 445, largura 886"); usar altura = maior valor compatível.
+- Fichas anteriores guardadas em `fichas/` quando chegam antes da revisão.
+
 ## Glossário (termos usados por várias marcas)
 Pesquisado em 08/10/2026 a pedido do cliente. **Low-E e ECM são tecnologias de mercado, não exclusivas de uma marca** (cliente, 08/10/2026): a definição genérica abaixo pode ser usada em qualquer produto que a ficha oficial diga ter Low-E ou ECM. Benefícios além da definição (ex.: % de bloqueio UV) só se a marca disser.
 

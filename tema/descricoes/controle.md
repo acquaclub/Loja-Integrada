@@ -16,6 +16,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | TR08AVDA | Adega Tecno Professional 80 L, 23 garrafas, 38 cm, Dual Zone, abertura esquerda, 220V | Tecno | `tecno-adega-professional-80-TR08AVDA.html` | `tecno-adega-professional-80-TR08AVDA-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso (hoje só "Adegas e Cervejeiras") |
 | JC-115DR220 | Dual Wine & Beer Smart Evol (adega 18 garrafas + cervejeira 58 L), 220V | Evol | `evol-dual-wine-beer-JC-115DR220.html` | `evol-dual-wine-beer-JC-115DR220-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Cervejeiras |
 | CV-2BI-87-VT-2VPA | Adega Vetro 87 Garrafas Dual Zone Built-in 220V | Elettromec | `elettromec-adega-vetro-87-CV-2BI-87-VT-2VPA.html` | `elettromec-adega-vetro-87-CV-2BI-87-VT-2VPA-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir (ok) |
+| 94896001 | Adega Tramontina Senses Dual Zone T smart 27 garrafas, 38 cm, 220V | Tramontina | `tramontina-adega-senses-27-94896001.html` | `tramontina-adega-senses-27-94896001-seo.txt` (URL mantida) | entregue | 08/10/2026 | Adegas de Embutir |
 
 ## Pendências gerais
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
@@ -260,7 +261,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | Feito | SKU | Variações | Produto | Categoria | Ativo | Descrição | Ação pendente |
 |---|---|---|---|---|---|---|---|
 |   | 95800025 | - | Coifa de Embutir Tramontina Incasso 75 Split em Aço Inox 75 cm 220 V |  | S | antigo |  |
-|   | 94896001 | - | Adega Tramontina Senses Dual Zone TSmart para 27 Garrafas | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
+| x | 94896001 | - | Adega Tramontina Senses Dual Zone TSmart para 27 Garrafas | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | 94896002 | - | Adega Tramontina Senses Dual Zone TSmart para 45 Garrafas | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | 94896202 | - | Beer Center Tramontina Senses TSmart 145 L | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | 94896201 | - | Cervejeira Beer Center Tramontina Senses TSmart 85 L | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
