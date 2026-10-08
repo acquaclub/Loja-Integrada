@@ -12,6 +12,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | JC-145B-R | Wine Center Smart 46 Garrafas Dual Zone, abertura direita, 127V/220V | Evol | `evol-wine-center-46-JC-145B-R.html` | `evol-wine-center-46-JC-145B-R-seo.txt` (URL mantida) | no ar (especificações conferidas) | 08/10/2026 | Adegas de Embutir (ok) |
 | TR14AVDC | Adega Tecno Professional 136 L, 43 garrafas, Dual Zone, abertura direita, 220V | Tecno | `tecno-adega-professional-136-TR14AVDC.html` | `tecno-adega-professional-136-TR14AVDC-seo.txt` (URL mantida) | no ar (especificações e embalagem conferidas) | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso (hoje só "Adegas e Cervejeiras") |
 | TR14ARDB | Adega para revestir Tecno 136 L, 43 garrafas, Dual Zone, porta reversível, 220V | Tecno | `tecno-adega-revestir-136-TR14ARDB.html` | `tecno-adega-revestir-136-TR14ARDB-seo.txt` (URL mantida) | entregue (corrigido: era cadastrado como "abertura esquerda") | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso |
+| TR14AVDB | Adega Tecno Professional 136 L, 43 garrafas, Dual Zone, abertura esquerda, 220V | Tecno | `tecno-adega-professional-136-TR14AVDB.html` | `tecno-adega-professional-136-TR14AVDB-seo.txt` (URL mantida) | entregue | 08/10/2026 | principal Adegas de Embutir; secundária Adegas de Piso (hoje só "Adegas e Cervejeiras") |
 
 ## Pendências gerais
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
@@ -226,7 +227,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | Feito | SKU | Variações | Produto | Categoria | Ativo | Descrição | Ação pendente |
 |---|---|---|---|---|---|---|---|
 | x | TR14AVDC | - | Adega de Vinhos Tecno Professional Gourmet 136 Litros Dual Zone de Embutir 220V - Abertura p/ Direita | Adegas e Cervejeiras | N | antigo | B: reativar |
-|   | TR14AVDB | - | Adega de Vinhos Tecno Professional Gourmet 136 Litros Dual Zone de Embutir 220V - Abertura p/ Esquerda | Adegas e Cervejeiras | S | antigo |  |
+| x | TR14AVDB | - | Adega de Vinhos Tecno Professional Gourmet 136 Litros Dual Zone de Embutir 220V - Abertura p/ Esquerda | Adegas e Cervejeiras | S | antigo |  |
 | x | TR14ARDB | - | Adega de Vinhos Tecno Professional Gourmet 136 Litros Dual Zone de Embutir 220V - Abertura p/ Esquerda | Adegas e Cervejeiras > Adegas de Embutir | S | antigo | C: corrigir nome/descrição (versão para revestir, reversível) |
 |   | TR08AVDA | - | Adega de Vinhos Tecno Professional Gourmet 23 Garrafas Dual Zone de Embutir 220V - Abertura p/ Esquerda | Adegas e Cervejeiras | S | antigo |  |
 |   | TR14CVDD | - | Cervejeira Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
