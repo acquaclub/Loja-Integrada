@@ -16,4 +16,4 @@ Peso (kg): 54 (peso bruto)  |  Frete: embalagem 660 x 880 x 625 mm → largura 6
 Classificação de mercado: Eletrodomésticos » Refrigeração » Adegas Climatizadas
 Capacidade de garrafas: 40 | Modelo: CV-1BI-40-VT-2VPA | Cor: Preto | Sistema de arrefecimento: Compressor
 Frequência: 60 Hz | Potência: 100 W | Largura: 595 mm | Linha: Vetro
-"Ver mais": aguardando os campos
+"Ver mais": Quantidade de zonas de temperatura: 1 | Altura: 813 mm

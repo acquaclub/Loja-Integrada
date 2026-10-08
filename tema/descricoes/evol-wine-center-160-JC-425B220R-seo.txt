@@ -17,3 +17,4 @@ Dimensões cadastro 66 x 184 x 70 (L x A x P): não batem com a ficha (produto 5
 Classificação: Eletrodomésticos » Refrigeração » Adegas Climatizadas
 Capacidade de garrafas: 160 | Modelo: JC-425B220 | Cor: Inox | Sistema de arrefecimento: Compressor
 Frequência: 60 Hz | Potência: 130 W | Largura: 595 mm | Linha: Gourmet (ficha: "Wine Center da Linha Gourmet"; "Smart" é o nome do produto/app)
+"Ver mais": Quantidade de zonas de temperatura: 2 | Altura: 1800 mm (ok)
