@@ -52,17 +52,23 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 
 ## Tecno (Grupo Tecno: distribuidor oficial Lofra, Bertazzoni, Tecno e Elica no Brasil)
 
-### Garantia
-- Ficha oficial da adega TR14AVDC (folder vendas.tecnoeletros.com.br, recebido em 08/10/2026): **"2 anos contra defeitos de fabricação"**. Ainda não temos o termo de garantia completo da Tecno: confirmar a cada produto pela ficha (pode variar por linha).
-- A descrição antiga dizia "1 ano + 1 ano de extensão gratuita pelo formulário do site": **não aparece na ficha oficial**, não usar.
+### Garantia (Certificado de Garantia da TECNO SUD AMERICA LTDA, recebido em 08/10/2026)
+- **24 meses** contados da emissão da nota fiscal ao consumidor: **3 meses de garantia legal** (CDC) + **21 meses de garantia contratual**.
+- Cobre substituição gratuita de peças e mão de obra para defeitos de fabricação. Diagnóstico e reparo só pela **Rede de Serviços TECNO** (ou quem ela indicar). Sem defeito ou com uso inadequado: cobra taxa de visita. Peças podem ser novas ou recondicionadas; garantia das peças trocadas vai até o fim do prazo original.
+- **Componentes só com garantia legal de 90 dias** (tabela por categoria): Fornos e Micro-ondas (manípulos, lâmpadas, vidros, gaxeta, resistência); Fogões (manípulos, lâmpadas, vidros, trempes, espalhadores, gavetas, resistência); Cooktops e Rangetops (manípulos, vidros, trempes, espalhadores); Coifas e Lava-louças (filtros, lâmpadas, manípulos); Refrigeradores (filtro de água, lâmpadas, prateleiras, suportes internos, vidros). Adegas não aparecem nomeadas na tabela (confirmar com a Tecno se entram em "Refrigeradores").
+- Invalida: uso não doméstico; instalação fora do manual (nivelamento, local, tensão); condições elétricas/gás/água fora do recomendado; uso fora do manual; mau uso, modificações, conserto por não credenciados; violação ou adulteração do nº de série.
+- Não cobre: instalação; peças/acessórios que não pertencem ao produto; preparação do local; manutenção/limpeza; falta de energia/gás; sujeira, animais, objetos estranhos; transporte; quedas e fenômenos da natureza; produtos de saldo/mostruário com defeito estético (12 meses só para defeito funcional); oxidação por salinidade, sol e chuva, químicos; visita técnica sem defeito coberto; dúvidas de uso do manual. Contratual não cobre peças só estéticas, peças de desgaste (botões, puxadores, trempes, queimadores) e atendimento fora do perímetro urbano com serviço autorizado (custos por conta do consumidor).
+- Guardar nota fiscal e termo de garantia; válido no Brasil.
+- A descrição antiga dizia "1 ano + 1 ano de extensão pelo formulário do site": **não é o que diz o certificado**, não usar.
 
-### Bloco de garantia usado nas descrições (enquanto não houver termo completo)
+### Bloco de garantia usado nas descrições
 ```html
 <div class="section">
     <h3 class="section-title">Garantia</h3>
-    <div class="guarantee">
-        <p><strong>2 anos de garantia Tecno</strong> contra defeitos de fabricação.</p>
-    </div>
+        <div class="guarantee">
+            <p><strong>2 anos de garantia Tecno:</strong> 3 meses de garantia legal (Código de Defesa do Consumidor) mais 21 meses de garantia contratual, contados da emissão da nota fiscal, com substituição gratuita de peças e mão de obra para defeitos de fabricação.</p>
+            <p>O atendimento é feito pela Rede de Serviços Tecno, mediante nota fiscal e termo de garantia. A garantia não vale para uso não doméstico, instalação em desacordo com o manual ou conserto por pessoas não credenciadas pela Tecno.</p>
+        </div>
 </div>
 ```
 
