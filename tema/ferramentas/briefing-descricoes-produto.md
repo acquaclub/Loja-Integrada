@@ -16,7 +16,7 @@ Leia este arquivo inteiro antes de começar. Ele resume o que já existe e o que
 - `tema/descricoes/lista-outro-chat-2026-10-08.md`: plano do chat de cadastro (trocar código, reativar, corrigir, remover e 195 produtos novos). É planejamento, não dado oficial.
 
 ## Fluxo combinado com o cliente (08/10/2026)
-1. O cliente manda, item a item, o **código** e a **descrição/ficha oficial** de produtos **ativos e inativos**.
+1. O cliente manda **primeiro só o código**. Eu avalio (planilha + `controle.md` + lista do outro chat) e respondo **o que faremos** com o item e **o que preciso** (em geral, a ficha/site oficial; o HTML atual já está na planilha). Só então ele manda o resto. Vale para produtos **ativos e inativos**.
 2. Antes de escrever, cruzar o código com `controle.md` (coluna "Ação pendente") e com a planilha, e **dizer ao cliente o que fazer com o item**: só atualizar a descrição, trocar o código/produto (Parte A), reativar (B), corrigir cadastro (C), excluir (D), virar variação de outro anúncio, cadastrar como novo etc.
 3. Depois fazer a descrição (modelo novo) + nome, title e meta description, e entregar.
 4. Atualizar `controle.md` (tabela de cima + marcar "x" no catálogo) e `marcas.md` (dados oficiais novos da marca). Commit e push a cada entrega: o repositório é o lugar seguro para não perder nada quando a conversa for compactada.
