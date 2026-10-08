@@ -50,6 +50,27 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - Linha Gourmet by Evol; app **Evol Smart** (Wi-Fi).
 - Limpeza (manual): pano macio com água morna por dentro; frente com pano macio e detergente neutro; nada de esponja, palha de aço, abrasivos ou produtos cáusticos.
 
+## Tecno (Grupo Tecno: distribuidor oficial Lofra, Bertazzoni, Tecno e Elica no Brasil)
+
+### Garantia
+- Ficha oficial da adega TR14AVDC (folder vendas.tecnoeletros.com.br, recebido em 08/10/2026): **"2 anos contra defeitos de fabricação"**. Ainda não temos o termo de garantia completo da Tecno: confirmar a cada produto pela ficha (pode variar por linha).
+- A descrição antiga dizia "1 ano + 1 ano de extensão gratuita pelo formulário do site": **não aparece na ficha oficial**, não usar.
+
+### Bloco de garantia usado nas descrições (enquanto não houver termo completo)
+```html
+<div class="section">
+    <h3 class="section-title">Garantia</h3>
+    <div class="guarantee">
+        <p><strong>2 anos de garantia Tecno</strong> contra defeitos de fabricação.</p>
+    </div>
+</div>
+```
+
+### Outros
+- Fichas oficiais: folder em `vendas.tecnoeletros.com.br/folder/produto.php?id=...` (o cliente manda em PDF). Trazem medidas com rótulo (largura/altura/profundidade) e gabarito de nicho.
+- SAC 0800 041 5757; vendas diretas 0800 757 5757.
+- Linha Professional: puxador tubular em inox, aço inox escovado anti-manchas.
+
 ## Glossário (termos usados por várias marcas)
 Pesquisado em 08/10/2026 a pedido do cliente. **Low-E e ECM são tecnologias de mercado, não exclusivas de uma marca** (cliente, 08/10/2026): a definição genérica abaixo pode ser usada em qualquer produto que a ficha oficial diga ter Low-E ou ECM. Benefícios além da definição (ex.: % de bloqueio UV) só se a marca disser.
 
