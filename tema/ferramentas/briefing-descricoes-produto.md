@@ -8,6 +8,11 @@ Leia este arquivo inteiro antes de começar. Ele resume o que já existe e o que
 - Público premium: eletrodomésticos, louças e metais de alto padrão (Tramontina, Bertazzoni, Gorenje, Elettromec, Tecno, Evol, Jacuzzi, Smeg...).
 - Repositório: `/home/user/Loja-Integrada`, branch `claude/modest-gauss-4q5q91`. O código do site fica em `tema/` (CSS Avançado em `tema/css-personalizado.css`, Códigos HTML em `tema/codigos-html/`).
 
+## Arquivos de trabalho (ler antes de cada produto)
+- `tema/descricoes/controle.md`: produtos já feitos (não repetir) e pendências.
+- `tema/descricoes/marcas.md`: informações oficiais por marca (garantia etc.) já recebidas do cliente.
+- `tema/descricoes/<marca>-<produto>-<código>.html` (+ `-seo.txt`): descrição e campos de SEO de cada produto.
+
 ## Como trabalhar com o cliente
 - Português, tom de conselheiro: aponte falhas primeiro, sem elogio de abertura. Marque a confiança: [Certeza] / [Provável] / [Chute] / [Fora do escopo].
 - Conciso. Um passo de cada vez.
