@@ -7,6 +7,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | SKU (= código do fabricante) | Produto | Marca | Arquivo | SEO (nome/title/description) | Status | Data |
 |---|---|---|---|---|---|---|
 | CV-1BI-40-VT-2VPA | Adega Vetro 40 Garrafas Built-in 220V | Elettromec | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA.html` | `elettromec-adega-vetro-40-CV-1BI-40-VT-2VPA-seo.txt` (URL mantida) | entregue | 08/10/2026 |
+| JC-145B-L | Wine Center Smart 46 Garrafas Dual Zone, abertura esquerda, 127V/220V | Evol | `evol-wine-center-46-JC-145B-L.html` | `evol-wine-center-46-JC-145B-L-seo.txt` (URL mantida) | rascunho (inversão de porta e prateleiras a confirmar) | 08/10/2026 |
 
 ## Pendências gerais
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.

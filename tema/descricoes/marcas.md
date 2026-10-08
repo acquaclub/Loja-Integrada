@@ -25,4 +25,29 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 ### Site oficial
 - elettromec.com.br (bloqueado na rede deste ambiente: o cliente cola o texto da página).
 
+## Evol
+
+### Garantia (recebida em 08/10/2026, texto oficial da Política de Garantia)
+- **1 ano**: 90 dias de garantia legal (art. 26, II, do CDC) + 9 meses de garantia contratual, contados da emissão da nota fiscal ao usuário final.
+- Só para vícios e defeitos de fabricação (art. 18 do CDC), em condições normais de uso conforme o manual. Garantia = reparo gratuito e reposição de peças com defeito de fabricação, segundo o técnico autorizado.
+- Vale só com a **nota fiscal** de compra. Perde a garantia: reparo por pessoas não autorizadas, maus-tratos, acidentes, quedas, variações de tensão e sobrecarga, exposição direta na obra de alvenaria, má utilização.
+- Contato Evol para acionar: (11) 4990-2661. Atendimento em até 30 dias; se não atender, o cliente escolhe troca, devolução do valor ou abatimento.
+- Técnicos conveniados para instalação: lista em evol.com.br. (O texto oficial dá os mesmos 9 meses com ou sem técnico conveniado.)
+
+### Bloco de garantia usado nas descrições
+```html
+<div class="section">
+    <h3 class="section-title">Garantia</h3>
+    <div class="guarantee">
+        <p><strong>1 ano de garantia Evol:</strong> 90 dias de garantia legal (Código de Defesa do Consumidor) mais 9 meses de garantia contratual, contados da emissão da nota fiscal, para vícios e defeitos de fabricação.</p>
+        <p>A garantia vale mediante apresentação da nota fiscal de compra. Ela é perdida em caso de reparo por pessoas não autorizadas, maus-tratos, acidentes, quedas, variações de tensão elétrica ou má utilização do produto.</p>
+    </div>
+</div>
+```
+
+### Outros
+- SKU com sufixo de abertura da porta: **-L = esquerda (Left)**, **-R = direita (Right)**. Ex.: JC-145B-L.
+- Linha Gourmet by Evol; app **Evol Smart** (Wi-Fi).
+- Limpeza (manual): pano macio com água morna por dentro; frente com pano macio e detergente neutro; nada de esponja, palha de aço, abrasivos ou produtos cáusticos.
+
 <!-- Próximas marcas: Tramontina, Bertazzoni, Gorenje, Tecno, Evol, Jacuzzi, Smeg... (preencher conforme o cliente mandar) -->
