@@ -100,6 +100,24 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - Site Tramontina: no bloco "Especificações" (embalagem) os rótulos altura/largura parecem trocados (ex.: 94896001 "altura 445, largura 886"); usar altura = maior valor compatível.
 - Fichas anteriores guardadas em `fichas/` quando chegam antes da revisão.
 
+## Deca
+
+### Garantia de banheiras/ofurôs (Certificado de Garantia, recebido em 08/10/2026)
+- **5 anos** para a banheira/ofurô e **12 meses** para componentes, a partir da data de aquisição (nota fiscal). No **1º ano**, a Deca cobre a mão de obra da rede de Serviço Autorizado Deca. Responsabilidade restrita ao produto; válido no Brasil.
+- Não cobre: quedas, maus-tratos, manuseio/instalação incorretos, erro de especificação; danos ao acabamento por limpeza inadequada (químicos, solventes, abrasivos tipo saponáceo, palha de aço, esponja dupla face); desgaste natural (vedantes, gaxetas, anéis, guarnições, cunhas, mecanismos de vedação); reparo por não autorizados; peças não originais/adaptações; água não potável ou com impurezas; objetos estranhos. **Uso público: prazos reduzidos em 50%.**
+- Outras linhas Deca (metais, louças) podem ter prazos diferentes: conferir.
+
+### Bloco de garantia (banheiras)
+```html
+<div class="section">
+    <h3 class="section-title">Garantia</h3>
+    <div class="guarantee">
+        <p><strong>5 anos de garantia Deca</strong> para a banheira e 12 meses para os componentes, a partir da data de aquisição, mediante nota fiscal. No primeiro ano, a Deca cobre também a mão de obra dos serviços feitos pela rede de Serviço Autorizado Deca.</p>
+        <p>A garantia não se aplica a danos por quedas, maus-tratos, manuseio ou instalação incorretos, limpeza inadequada (produtos químicos, solventes, abrasivos, palha de aço, esponja dupla face), desgaste natural de vedações ou reparos por pessoas não autorizadas. Em uso público, o prazo é reduzido em 50%.</p>
+    </div>
+</div>
+```
+
 ## Glossário (termos usados por várias marcas)
 Pesquisado em 08/10/2026 a pedido do cliente. **Low-E e ECM são tecnologias de mercado, não exclusivas de uma marca** (cliente, 08/10/2026): a definição genérica abaixo pode ser usada em qualquer produto que a ficha oficial diga ter Low-E ou ECM. Benefícios além da definição (ex.: % de bloqueio UV) só se a marca disser.
 
