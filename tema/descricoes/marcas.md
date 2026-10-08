@@ -51,7 +51,11 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - Limpeza (manual): pano macio com água morna por dentro; frente com pano macio e detergente neutro; nada de esponja, palha de aço, abrasivos ou produtos cáusticos.
 
 ## Glossário (termos usados por várias marcas)
-Pesquisado em 08/10/2026 a pedido do cliente, para explicar os termos. Na descrição, a explicação de cada produto segue o que **a própria marca** diz.
+Pesquisado em 08/10/2026 a pedido do cliente. **Low-E e ECM são tecnologias de mercado, não exclusivas de uma marca** (cliente, 08/10/2026): a definição genérica abaixo pode ser usada em qualquer produto que a ficha oficial diga ter Low-E ou ECM. Benefícios além da definição (ex.: % de bloqueio UV) só se a marca disser.
+
+Texto padrão para as descrições:
+- Low-E: "vidro de baixa emissividade: melhor isolamento térmico e menos umidade e condensação na porta".
+- ECM: "memoriza a temperatura programada e a retoma automaticamente quando a energia volta, após uma queda".
 - **Low-E** (*low emissivity*, baixa emissividade): revestimento fino no vidro que reduz a passagem de radiação infravermelha (calor) e ultravioleta sem escurecer o vidro. Na porta de adega, melhora o isolamento térmico e ajuda a controlar a condensação ("sudação") no vidro.
   - Elettromec (oficial): absorve os raios infravermelhos, isolamento térmico, proteção contra raios UV e controle de sudação na porta.
   - Evol (oficial): "porta com redução de umidade". A Evol não cita UV: não usar UV nas descrições Evol.
