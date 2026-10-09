@@ -19,6 +19,7 @@ Leia este arquivo inteiro antes de começar. Ele resume o que já existe e o que
 ## Fluxo combinado com o cliente (08/10/2026)
 **PROTOCOLO ATUAL (substitui o passo 1 abaixo):**
 - 1º envio do cliente = o que está no site (nome, HTML antigo, embalagem, especificações). **Só processar em silêncio e responder curto pedindo a ficha oficial** (e a URL, se faltar). Nada de análise nesse momento.
+- **Em todo 1º envio, conferir o SKU em `descricoes/lista-outro-chat-2026-10-08.md` (A trocar código, B reativar, C corrigir, D remover) e na coluna "Ação pendente" do `controle.md`.** Se houver ação (excluir, trocar código etc.), avisar já na resposta curta, antes de fazer a descrição.
 - 2º envio = ficha oficial. Aí entregar **tudo de uma vez, objetivo, sem texto desnecessário**: os 4 arquivos + listas curtas do que **incluir / alterar / excluir** no cadastro (nome, SEO, categoria principal e secundárias, especificações, embalagem) e **o que saiu da descrição** (dados antigos sem fonte oficial).
 
 1. O cliente manda **primeiro só o código**. Eu avalio (planilha + `controle.md` + lista do outro chat) e respondo **o que faremos** com o item e **o que preciso** (em geral, a ficha/site oficial; o HTML atual já está na planilha). Só então ele manda o resto. Vale para produtos **ativos e inativos**.
