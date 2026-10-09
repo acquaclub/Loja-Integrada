@@ -29,6 +29,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | BH-54170-VL-BRFC | Banheira de Piso Oval Deca Velluto 170 cm Branco Fosco | Deca | `deca-banheira-velluto-170-BH-54170-VL-BRFC.html` | `deca-banheira-velluto-170-BH-54170-VL-BRFC-seo.txt` (URL mantida) | entregue (inativo no cadastro; está no site oficial) | 09/10/2026 | Banheiras (ok) |
 | 94896202 | Cervejeira Beer Center de Embutir Tramontina Senses T smart 145 L 220V | Tramontina | `tramontina-beer-center-senses-145-94896202.html` | `tramontina-beer-center-senses-145-94896202-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | BC-BI-144-VT-2VPA | Beer Center Cervejeira de Embutir Vetro 144 Litros 220V Elettromec | Elettromec | `elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA.html` | `elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
+| TCM45EXDP | Cafeteira Automática de Embutir Tecno Professional 60 cm 20 Bar 220V | Tecno | `tecno-cafeteira-embutir-professional-TCM45EXDP.html` | `tecno-cafeteira-embutir-professional-TCM45EXDP-seo.txt` (URL mantida) | entregue (B: reativar) | 09/10/2026 | Cafeteiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -252,7 +253,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | TR08CVDA | - | Cervejeira Tecno Professional Gourmet 80 Litros de Embutir Inox 220V - Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | TR14CRDD | - | Cervejeira Tecno Professional para Revestir 136 Litros de Embutir 220V - Abertura p/ Direita | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | TWD60EXDP | - | Dispenser Tecno Professional de Embutir para Vinhos e Destilados 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
-|   | TCM45EXDP | - | Cafeteira Automática Tecno Professional de Embutir 60cm 220V | Cafeteiras | N | antigo | B: reativar |
+|   | TCM45EXDP | - | Cafeteira Automática Tecno Professional de Embutir 60cm 220V | Cafeteiras | N | feito 09/10 (tecno-cafeteira-embutir-professional-TCM45EXDP) | B: reativar |
 |   | THV30BBQ | - | Cooktop Dominó Elétrico Tecno Original Barbecue 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | THV30FRYER | - | Cooktop Fryer Dominó Tecno Fritadeira Elétrica 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
