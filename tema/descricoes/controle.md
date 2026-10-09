@@ -85,7 +85,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | x | CV-2BI-181-VT-2VPB | - | Adega Elettromec Vetro 181 Garrafas, Dual Zone, 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 | x | CV-2BI-87-VT-2VPA | - | Adega Elettromec Vetro 87 Garrafas Dual-Zone Built-In 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | BC-BI-144-VT-2VPA | - | Beer Center Vetro 144 Litros Built-In 220V Elettromec | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA) |  |
-|   | BC-BI-135-XV | BC-BI-135-XV-1ATF (127V), BC-BI-135-XV-2ATF (220V) | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | EXCLUÍDO 09/10 (tinha vendas, não aceitava alteração) | criar novo: BC-BI-145-XV-2VPA / 2VPB (220V) |
+|   | BC-BI-135-XV | BC-BI-135-XV-1ATF (127V), BC-BI-135-XV-2ATF (220V) | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | EXCLUÍDO 09/10 (tinha vendas, não aceitava alteração) | criar novo: BC-BI-145-XV-2VPA / 2VPB (220V) – EM ESPERA: não está no site oficial (09/10) |
 |   | BC-BI-86-XV-2ATB | - | Cervejeira de Embutir Elettromec 86 litros Connect 220v | Adegas e Cervejeiras > Cervejeiras | N | feito 09/10 como BC-BI-88-XV-2VPA (elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA) | A: trocar código/ficha → BC-BI-88-XV-2VPA |
 |   | DBQ-IR-40-XX-NHUA | - | Churrasqueira Dominó Gás Infrared 40 cm Elettromec Inox | Churrasqueiras > Side Burner | S | antigo |  |
 |   | CFD-SOL-90-XV-2ATC | - | Coifa de Bancada Elettromec Sollevare Downdraft Connect 90cm 220V | Coifas > Coifa de Bancada | S | antigo |  |
