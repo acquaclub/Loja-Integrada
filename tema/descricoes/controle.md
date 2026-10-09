@@ -36,6 +36,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | JC-145C-L (var. JC-145C127L, JC-145C220L) | Cervejeira Beer Center de Embutir Evol Smart 135 Litros Abertura Esquerda | Evol | `evol-beer-center-135-JC-145C-L.html` | `evol-beer-center-135-JC-145C-L-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | JC-425C220R | Cervejeira Beer Center de Embutir Evol Smart 425 Litros Abertura Direita 220V | Evol | `evol-beer-center-425-JC-425C220R.html` | `evol-beer-center-425-JC-425C220R-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | TR14CVDD | Cervejeira Tecno Professional 136 Litros Embutir ou Piso Inox 220V Porta Direita | Tecno | `tecno-cervejeira-professional-136-TR14CVDD.html` | `tecno-cervejeira-professional-136-TR14CVDD-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
+| TR14CVDC | Cervejeira Tecno Professional 136 Litros Embutir ou Piso Inox 220V Porta Esquerda | Tecno | `tecno-cervejeira-professional-136-TR14CVDC.html` | `tecno-cervejeira-professional-136-TR14CVDC-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -255,7 +256,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | x | TR14ARDB | - | Adega de Vinhos Tecno Professional Gourmet 136 Litros Dual Zone de Embutir 220V - Abertura p/ Esquerda | Adegas e Cervejeiras > Adegas de Embutir | S | antigo | C: corrigir nome/descrição (versão para revestir, reversível) |
 | x | TR08AVDA | - | Adega de Vinhos Tecno Professional Gourmet 23 Garrafas Dual Zone de Embutir 220V - Abertura p/ Esquerda | Adegas e Cervejeiras | S | antigo |  |
 |   | TR14CVDD | - | Cervejeira Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tecno-cervejeira-professional-136-TR14CVDD) |  |
-|   | TR14CVDC | - | Cervejeira Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
+|   | TR14CVDC | - | Cervejeira Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tecno-cervejeira-professional-136-TR14CVDC) |  |
 |   | TR08CVDA | - | Cervejeira Tecno Professional Gourmet 80 Litros de Embutir Inox 220V - Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | TR14CRDD | - | Cervejeira Tecno Professional para Revestir 136 Litros de Embutir 220V - Abertura p/ Direita | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | TWD60EXDP | - | Dispenser Tecno Professional de Embutir para Vinhos e Destilados 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
