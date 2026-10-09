@@ -24,6 +24,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | BH-54150-LK-BRFC | Banheira de Piso Oval Deca LK 150 cm Branco Fosco | Deca | `deca-banheira-oval-lk-150-BH-54150-LK-BRFC.html` | `deca-banheira-oval-lk-150-BH-54150-LK-BRFC-seo.txt` (URL mantida) | entregue — **reativar** (disponível no site da Deca) | 08/10/2026 | Banheiras (ok) |
 | 99606246 | Banheira Freestanding Jacuzzi Maya 178 cm Branca | Jacuzzi | `jacuzzi-banheira-maya-178-99606246.html` | `jacuzzi-banheira-maya-178-99606246-seo.txt` (URL mantida) | entregue (garantia 1 ano completada em 09/10) | 09/10/2026 | Banheiras (ok) |
 | 99800963 | Banheira Freestanding Jacuzzi Piazza 150 x 75 cm | Jacuzzi | `jacuzzi-banheira-piazza-150-99800963.html` | `jacuzzi-banheira-piazza-150-99800963-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
+| 99606238 | Banheira Freestanding Jacuzzi Sunset 170 x 80 cm Acrílico | Jacuzzi | `jacuzzi-banheira-sunset-170-99606238.html` | `jacuzzi-banheira-sunset-170-99606238-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -222,7 +223,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |---|---|---|---|---|---|---|---|
 | x | 99606246 | - | Banheira Freestanding de Imersão Jacuzzi Maya 178cm – Branca | Banheiras | S | antigo |  |
 | x | 99800963 | - | Banheira Freestanding de Imersão Jacuzzi Piazza 150cm X 75cm – Acrílico | Banheiras | S | antigo |  |
-|   | 99606238 | - | Banheira Freestanding de Imersão Jacuzzi Sunset 170cm X 80cm – Acrílico Branco | Banheiras | S | antigo |  |
+|   | 99606238 | - | Banheira Freestanding de Imersão Jacuzzi Sunset 170cm X 80cm – Acrílico Branco | Banheiras | S | feito 09/10 (jacuzzi-banheira-sunset-170-99606238) |  |
 |   | 99501124 | - | Banheira Freestanding de Imersão Jacuzzi Troppo 150cm X 75cm – Acrílico | Banheiras | S | antigo |  |
 
 ### Speed Queen (4)
