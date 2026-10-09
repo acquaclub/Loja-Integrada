@@ -16,7 +16,7 @@ AÇÃO DA LISTA: nenhuma.
 
 CADASTRO / ESPECIFICAÇÕES (guia comercial)
 GTIN/EAN: 7898593938670 | NCM 8414.60.00 | Modelo alfanumérico: CFI-MOB-90-VP-2ATC
-Embalagem: 945 x 340 x 375 mm, 15 kg → A 34, L 95, P 38, 15 kg (embalagem atual não enviada)
+Embalagem: 945 x 340 x 375 mm, 15 kg → A 34, L 95, P 38, 15 kg (hoje 35,2 kg – peso da Sollevare –, 31 / 90 / 30 = produto)
 Preencher: Largura 90 cm; Altura 30,7 cm; Número de velocidades 3; Potência do motor 420 W (potência do produto)
 Linha: Mobile → Vetro? (guia: "Coifa Mobile Vetro"; deixar Mobile ou trocar por Vetro – escolha do cliente)
 Ok: Com saída Sim, controle remoto Não, Exaustor/Depurador, De embutir, Vidro
