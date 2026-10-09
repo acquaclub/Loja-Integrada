@@ -128,6 +128,10 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - Invalida: sem NF/termo; defeito causado por consumidor/terceiros; instalação/operação fora do manual; modificações; peças não originais; limpeza com saponáceos, químicos, abrasivos, solventes, palha de aço, esponja dupla face; quedas; violação/conserto por não autorizado; desgaste de guarnições, gaxetas, vedações; água com impurezas; objetos estranhos; falta de limpeza/manutenção; operação sem a água mínima. **Local público de uso intenso: prazo complementar reduzido a 50%.**
 - Proibido revestimento sobre a borda e furar a banheira (anulam a garantia).
 
+### Manual (recebido em 09/10/2026)
+- Desenho técnico das banheiras freestanding mostra **dreno** e **extravasor (ladrão)** (cotas C, X, Y, L, A, Z, C1, L1 sem valores no material recebido).
+- Orientação de banho: 38–40 °C → 5 min; 36–38 °C → 10 min; 34–36 °C → 20 min (depende das condições físicas e preferências de cada pessoa).
+
 ## Glossário (termos usados por várias marcas)
 Pesquisado em 08/10/2026 a pedido do cliente. **Low-E e ECM são tecnologias de mercado, não exclusivas de uma marca** (cliente, 08/10/2026): a definição genérica abaixo pode ser usada em qualquer produto que a ficha oficial diga ter Low-E ou ECM. Benefícios além da definição (ex.: % de bloqueio UV) só se a marca disser.
 
