@@ -39,6 +39,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | TR14CVDC | Cervejeira Tecno Professional 136 Litros Embutir ou Piso Inox 220V Porta Esquerda | Tecno | `tecno-cervejeira-professional-136-TR14CVDC.html` | `tecno-cervejeira-professional-136-TR14CVDC-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | TR08CVDA | Cervejeira Tecno Professional 80 Litros 38 cm Embutir ou Piso Inox 220V Porta Direita | Tecno | `tecno-cervejeira-professional-80-TR08CVDA.html` | `tecno-cervejeira-professional-80-TR08CVDA-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | TR14CRDD | Cervejeira para Revestir Tecno 136 Litros Embutir ou Piso 220V Porta Reversível | Tecno | `tecno-cervejeira-revestir-136-TR14CRDD.html` | `tecno-cervejeira-revestir-136-TR14CRDD-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
+| CBK200 | Churrasqueira a Gás de Embutir Evol Capri 2 Queimadores Inox 304 55 cm | Evol | `evol-churrasqueira-capri-CBK200.html` | `evol-churrasqueira-capri-CBK200-seo.txt` (URL mantida) | entregue | 09/10/2026 | Churrasqueiras a Gás (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -144,7 +145,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | JC-145C-L | JC-145C220L (220V), JC-145C127L (127V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (evol-beer-center-135-JC-145C-L) |  |
 |   | JC-425C220R | - | Cervejeira de Embutir Evol Smart 425 Litros Abertura para Direita 220V | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (evol-beer-center-425-JC-425C220R) |  |
 |   | CBK401B | - | Churrasqueira a Gás Evol Florence 4 Queimadores e Infrared 79cm | Churrasqueiras > Churrasqueiras a Gás | S | antigo |  |
-|   | CBK200 | - | Churrasqueira à Gás Evol Capri 2 Queimadores Inox 55cm | Churrasqueiras > Churrasqueiras a Gás | S | antigo |  |
+|   | CBK200 | - | Churrasqueira à Gás Evol Capri 2 Queimadores Inox 55cm | Churrasqueiras > Churrasqueiras a Gás | S | feito 09/10 (evol-churrasqueira-capri-CBK200) |  |
 |   | CBB300C | - | Churrasqueira à Gás Evol Prime Modena 28" 3 Queimadores e 1 Infrared Back Burner Inox | Churrasqueiras > Churrasqueiras a Gás | N | antigo | A: trocar código/ficha → CBY300 |
 |   | CBY400 | - | Churrasqueira à Gás Evol Prime Modena 34" 3 Queimadores e 1 Infrared Inox | Churrasqueiras > Churrasqueiras a Gás | N | antigo | B: reativar |
 |   | CBK301M | - | Churrasqueira à Gás Evol Verona 3 Queimadores e 1 Infrared 69cm | Churrasqueiras > Churrasqueiras a Gás | S | antigo |  |
