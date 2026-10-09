@@ -34,6 +34,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | BC-BI-88-XV-2VPA (era BC-BI-86-XV-2ATB) | Beer Center Cervejeira de Embutir Inox 88 Litros Connect 220V Elettromec | Elettromec | `elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA.html` | `elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA-seo.txt` (URL mantida) | entregue (A: trocar código; inativo) | 09/10/2026 | Cervejeiras (ok) |
 | JC-145C (var. JC-145C127-R, JC-145C220-R) | Cervejeira Beer Center de Embutir Evol Smart 135 Litros Abertura Direita | Evol | `evol-beer-center-135-JC-145C.html` | `evol-beer-center-135-JC-145C-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | JC-145C-L (var. JC-145C127L, JC-145C220L) | Cervejeira Beer Center de Embutir Evol Smart 135 Litros Abertura Esquerda | Evol | `evol-beer-center-135-JC-145C-L.html` | `evol-beer-center-135-JC-145C-L-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
+| JC-425C220R | Cervejeira Beer Center de Embutir Evol Smart 425 Litros Abertura Direita 220V | Evol | `evol-beer-center-425-JC-425C220R.html` | `evol-beer-center-425-JC-425C220R-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -137,7 +138,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | x | JC-115DR220 | - | Adega e Cervejeira Evol Smart 58 Litros Dual Zone de Embutir 220V | Adegas e Cervejeiras | S | antigo |  |
 |   | JC-145C | JC-145C127-R (127V), JC-145C220-R (220V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (evol-beer-center-135-JC-145C) |  |
 |   | JC-145C-L | JC-145C220L (220V), JC-145C127L (127V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (evol-beer-center-135-JC-145C-L) |  |
-|   | JC-425C220R | - | Cervejeira de Embutir Evol Smart 425 Litros Abertura para Direita 220V | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
+|   | JC-425C220R | - | Cervejeira de Embutir Evol Smart 425 Litros Abertura para Direita 220V | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (evol-beer-center-425-JC-425C220R) |  |
 |   | CBK401B | - | Churrasqueira a Gás Evol Florence 4 Queimadores e Infrared 79cm | Churrasqueiras > Churrasqueiras a Gás | S | antigo |  |
 |   | CBK200 | - | Churrasqueira à Gás Evol Capri 2 Queimadores Inox 55cm | Churrasqueiras > Churrasqueiras a Gás | S | antigo |  |
 |   | CBB300C | - | Churrasqueira à Gás Evol Prime Modena 28" 3 Queimadores e 1 Infrared Back Burner Inox | Churrasqueiras > Churrasqueiras a Gás | N | antigo | A: trocar código/ficha → CBY300 |
