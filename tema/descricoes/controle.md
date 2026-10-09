@@ -291,7 +291,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 
 | Feito | SKU | Variações | Produto | Categoria | Ativo | Descrição | Ação pendente |
 |---|---|---|---|---|---|---|---|
-|   | 95800025 | - | Coifa de Embutir Tramontina Incasso 75 Split em Aço Inox 75 cm 220 V |  | S | antigo |  |
+|   | 95800025 | - | Coifa de Embutir Tramontina Incasso 75 Split em Aço Inox 75 cm 220 V |  | S | antigo | categoria: Coifas > Coifa de Embutir (hoje sem categoria) |
 | x | 94896001 | - | Adega Tramontina Senses Dual Zone TSmart para 27 Garrafas | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 | x | 94896002 | - | Adega Tramontina Senses Dual Zone TSmart para 45 Garrafas | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | 94896202 | - | Beer Center Tramontina Senses TSmart 145 L | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tramontina-beer-center-senses-145-94896202) |  |

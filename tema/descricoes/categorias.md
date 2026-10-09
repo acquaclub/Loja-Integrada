@@ -19,7 +19,7 @@ A exportação da planilha traz uma categoria por produto (`categoria-nome-nivel
   - Coifas ★
     - Coifa de Bancada
     - Coifa de Churrasqueira
-    - Coifa de Embutir (criada em 09/10/2026 – coifas built-in, embutidas em armário/móvel)
+    - Coifa de Embutir (criada em 09/10/2026 – coifas built-in, embutidas em armário/móvel). Já no site: CFI-MOB-90-VP-2ATC; 95800025 (Tramontina Incasso 75 Split, hoje sem categoria). Novos: ECFEE0902A (Evol Kappa Embutir).
     - Coifa de Ilha
     - Coifa de Parede
   - Cooktops, Rangetops e Dominós ★
