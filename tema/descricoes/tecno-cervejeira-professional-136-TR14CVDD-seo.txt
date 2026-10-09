@@ -1,0 +1,25 @@
+NOME DO PRODUTO
+Cervejeira Tecno Professional 136 Litros Embutir ou Piso Inox 220V Porta Direita
+
+TAG TITLE
+Cervejeira Tecno Professional 136L Porta Direita | Unikitchen
+
+META DESCRIPTION
+Cervejeira Tecno Professional 136 litros, 133 latas, -5 a 10 °C, de embutir ou piso, vidro triplo Low-E, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (não enviada)
+
+CATEGORIAS
+Principal: Cervejeiras (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma. Par: TR14CVDC (abertura esquerda).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: 660 x 865 x 635 mm, 49 kg → A 87, L 66, P 64, 49 kg (hoje 43 kg, 92 / 60 / 58)
+Altura: "820 - 920 mm" → 820 mm (pés reguláveis até 920)
+Temperatura máxima: "10ª C" → 10 °C
+Modelo alfanumérico: TR14CVDD
+Ok: TR14CVDD, luz interior Sim, controle de temperatura Sim, Vertical, 1 porta, -5 °C, 595 mm, 136 Litros
+Em branco: Etiqueta de energia
+Garantia: site diz "1 ano + 2º ano pelo formulário"; certificado Tecno (08/10) = 24 meses (3+21) → bloco padrão Tecno 2 anos (regra de marcas.md).
+Saiu: porta com chave "Sim", "não reversível", Wi-Fi "Não", alarme de porta aberta/temperatura, cor interna preta, "luz fria", "compressor silencioso/baixa vibração", RoHS, garantia "1+1 por formulário".
