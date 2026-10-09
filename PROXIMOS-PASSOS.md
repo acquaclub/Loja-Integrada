@@ -19,8 +19,13 @@ Hoje o site mostra marcas fortes, mas nada da Unikitchen em ação.
 - Feito em 02–05/10/2026: celulares 320, 360, 390 e 430 (em pé e deitado), iPad Mini, iPad Air (em pé e deitado), iPad Pro 13 e monitores 2K/4K (ampliação moderada a partir de 2200px).
 - Conferir com calma quando der: 1366×768 e 1920×1080 nas páginas de categoria e produto.
 
+### Catálogo (pente fino de SKUs) – parado em 09/10/2026, retomar na terça pós-feriado
+- Ver `tema/ferramentas/pente-fino/LEIA-ME.md` e a lista `lista-cadastro-e-mudancas.md`.
+- Feito: exclusões de fora de linha (39 SKUs + 8 Smeg). Pendente: atualizar 26 códigos, reativar 8, 4 correções, remessa de 195 cadastros (via chat de descrições).
+- Faltam listas: Tramontina, Franke, Deca, Jacuzzi, Speed Queen.
+
 ### 3. PageSpeed
-- Rodar pagespeed.web.dev (aba Celular) e trazer o print.
+- 05/10: nota 31 no celular. CLS corrigido (código entregue); falta o cliente colar e rodar de novo. Pendentes: reflow forçado, compressão dos banners de celular (~50–60 KB), revisar apps de terceiros (SDK Facebook, Enviou, ebit).
 - Pontos já conhecidos: peso das artes do banner (meta: JPG < 300 KB), carregamento do banner (LCP), scripts de terceiros.
 
 ### 4. Textos de SEO nas categorias
