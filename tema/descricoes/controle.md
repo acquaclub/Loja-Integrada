@@ -31,6 +31,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | BC-BI-144-VT-2VPA | Beer Center Cervejeira de Embutir Vetro 144 Litros 220V Elettromec | Elettromec | `elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA.html` | `elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | TCM45EXDP | Cafeteira Automática de Embutir Tecno Professional 60 cm 20 Bar 220V | Tecno | `tecno-cafeteira-embutir-professional-TCM45EXDP.html` | `tecno-cafeteira-embutir-professional-TCM45EXDP-seo.txt` (URL mantida) | entregue (B: reativar) | 09/10/2026 | Cafeteiras (ok) |
 | 94896201 | Cervejeira Beer Center de Embutir Tramontina Senses T smart 85 L 220V | Tramontina | `tramontina-beer-center-senses-85-94896201.html` | `tramontina-beer-center-senses-85-94896201-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
+| BC-BI-88-XV-2VPA (era BC-BI-86-XV-2ATB) | Beer Center Cervejeira de Embutir Inox 88 Litros Connect 220V Elettromec | Elettromec | `elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA.html` | `elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA-seo.txt` (URL mantida) | entregue (A: trocar código; inativo) | 09/10/2026 | Cervejeiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -82,7 +83,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | x | CV-2BI-87-VT-2VPA | - | Adega Elettromec Vetro 87 Garrafas Dual-Zone Built-In 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | BC-BI-144-VT-2VPA | - | Beer Center Vetro 144 Litros Built-In 220V Elettromec | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA) |  |
 |   | BC-BI-135-XV | BC-BI-135-XV-1ATF (127V), BC-BI-135-XV-2ATF (220V) | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | antigo | A: trocar código/ficha → BC-BI-145-XV-2VPA / 2VPB |
-|   | BC-BI-86-XV-2ATB | - | Cervejeira de Embutir Elettromec 86 litros Connect 220v | Adegas e Cervejeiras > Cervejeiras | N | antigo | A: trocar código/ficha → BC-BI-88-XV-2VPA |
+|   | BC-BI-86-XV-2ATB | - | Cervejeira de Embutir Elettromec 86 litros Connect 220v | Adegas e Cervejeiras > Cervejeiras | N | feito 09/10 como BC-BI-88-XV-2VPA (elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA) | A: trocar código/ficha → BC-BI-88-XV-2VPA |
 |   | DBQ-IR-40-XX-NHUA | - | Churrasqueira Dominó Gás Infrared 40 cm Elettromec Inox | Churrasqueiras > Side Burner | S | antigo |  |
 |   | CFD-SOL-90-XV-2ATC | - | Coifa de Bancada Elettromec Sollevare Downdraft Connect 90cm 220V | Coifas > Coifa de Bancada | S | antigo |  |
 |   | CFI-MOB-90-VP-2ATC | - | Coifa de Embutir Armário Vetro 90 cm Mobile Elettromec | Coifas > Coifa de Parede | S | antigo |  |
