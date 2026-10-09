@@ -27,6 +27,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 99606238 | Banheira Freestanding Jacuzzi Sunset 170 x 80 cm Acrílico | Jacuzzi | `jacuzzi-banheira-sunset-170-99606238.html` | `jacuzzi-banheira-sunset-170-99606238-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
 | 99501124 | Banheira Freestanding Jacuzzi Troppo 150 x 75 cm Acrílico | Jacuzzi | `jacuzzi-banheira-troppo-150-99501124.html` | `jacuzzi-banheira-troppo-150-99501124-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
 | BH-54170-VL-BRFC | Banheira de Piso Oval Deca Velluto 170 cm Branco Fosco | Deca | `deca-banheira-velluto-170-BH-54170-VL-BRFC.html` | `deca-banheira-velluto-170-BH-54170-VL-BRFC-seo.txt` (URL mantida) | entregue (inativo no cadastro; está no site oficial) | 09/10/2026 | Banheiras (ok) |
+| 94896202 | Cervejeira Beer Center de Embutir Tramontina Senses T smart 145 L 220V | Tramontina | `tramontina-beer-center-senses-145-94896202.html` | `tramontina-beer-center-senses-145-94896202-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -274,7 +275,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 95800025 | - | Coifa de Embutir Tramontina Incasso 75 Split em Aço Inox 75 cm 220 V |  | S | antigo |  |
 | x | 94896001 | - | Adega Tramontina Senses Dual Zone TSmart para 27 Garrafas | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 | x | 94896002 | - | Adega Tramontina Senses Dual Zone TSmart para 45 Garrafas | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
-|   | 94896202 | - | Beer Center Tramontina Senses TSmart 145 L | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
+|   | 94896202 | - | Beer Center Tramontina Senses TSmart 145 L | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tramontina-beer-center-senses-145-94896202) |  |
 |   | 94896201 | - | Cervejeira Beer Center Tramontina Senses TSmart 85 L | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | 95800124 | - | Coifa de Ilha Tramontina Design Collection Dritta Isla Silent Pro 90 220 V em Aço Inox | Coifas > Coifa de Ilha | S | antigo |  |
 |   | 95800024 | - | Coifa de Ilha Tramontina Dritta Isla 90 Split em Aço Inox 90 cm 220V | Coifas > Coifa de Ilha | S | antigo |  |
