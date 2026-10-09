@@ -26,6 +26,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 99800963 | Banheira Freestanding Jacuzzi Piazza 150 x 75 cm | Jacuzzi | `jacuzzi-banheira-piazza-150-99800963.html` | `jacuzzi-banheira-piazza-150-99800963-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
 | 99606238 | Banheira Freestanding Jacuzzi Sunset 170 x 80 cm Acrílico | Jacuzzi | `jacuzzi-banheira-sunset-170-99606238.html` | `jacuzzi-banheira-sunset-170-99606238-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
 | 99501124 | Banheira Freestanding Jacuzzi Troppo 150 x 75 cm Acrílico | Jacuzzi | `jacuzzi-banheira-troppo-150-99501124.html` | `jacuzzi-banheira-troppo-150-99501124-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
+| BH-54170-VL-BRFC | Banheira de Piso Oval Deca Velluto 170 cm Branco Fosco | Deca | `deca-banheira-velluto-170-BH-54170-VL-BRFC.html` | `deca-banheira-velluto-170-BH-54170-VL-BRFC-seo.txt` (URL mantida) | entregue (inativo no cadastro; está no site oficial) | 09/10/2026 | Banheiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -63,7 +64,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |---|---|---|---|---|---|---|---|
 | x | BH-54150-LK-BRFC | - | Banheira de Piso Oval Deca 150cm Branco Fosco Linha LK - BH.54150.LK.BRFC | Banheiras | N | antigo |  |
 |   | BH-54170-LK-BRFC | - | Banheira de Piso Oval Deca 170cm Branco Fosco Linha LK - BH.54170.LK.BRFC | Banheiras | N | antigo |  |
-|   | BH-54170-VL-BRFC | - | Banheira de Piso Oval Deca 170cm Branco Fosco Linha Velluto - BH.54170.VL.BRFC | Banheiras | N | antigo |  |
+|   | BH-54170-VL-BRFC | - | Banheira de Piso Oval Deca 170cm Branco Fosco Linha Velluto - BH.54170.VL.BRFC | Banheiras | N | feito 09/10 (deca-banheira-velluto-170-BH-54170-VL-BRFC) |  |
 | x | BH-53135-AMFC | - | Banheira de Piso com Degrau Deca 135cm Amêndoa Fosco - BH.53135.AMFC | Banheiras | N | antigo |  |
 | x | BH-53135-BRFC | - | Banheira de Piso com Degrau Deca 135cm Branco Fosco - BH.53135.BRFC | Banheiras | N | antigo |  |
 |   | 1007-QUA-8-INX | - | Lixeira Quadrada com Sensor 8L Deca Suprema Inox - 1007.QUA.8.INX | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
