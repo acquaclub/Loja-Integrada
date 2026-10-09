@@ -5,7 +5,7 @@ TAG TITLE
 Dominó Churrasqueira Infrared Elettromec 40 cm | Unikitchen
 
 META DESCRIPTION
-Dominó churrasqueira a gás Elettromec Professional 40 cm, queimador infrared de 15.000 BTU, inox 304, de embutir. Lojas em Sorocaba e Itapetininga.
+Dominó churrasqueira a gás Elettromec Professional 40 cm, infrared de 15.000 BTU, GLP ou GN, grelha inox 304. Lojas em Sorocaba e Itapetininga.
 
 URL: manter a atual (não enviada)
 
@@ -14,11 +14,11 @@ Principal: Dominós (Cooktops, Rangetops e Dominós > Dominós) | Secundária: C
 
 AÇÃO DA LISTA: nenhuma.
 
-CADASTRO / ESPECIFICAÇÕES
-Modelo e Modelo alfanumérico: DBQ-IR-40-XX-NHUA | GTIN: em branco (sem guia)
-Embalagem: sem dado oficial → medidas do produto A 34, L 34, P 63 (já está); peso 15,7 kg não é oficial (manter até ter o guia)
-Preencher: Largura 33,9 cm; Altura 33,9 cm; Profundidade 62,7 cm; Bocas 1; Potência 15.000 BTU; Linha Professional
-Ok: É inflamável Sim, Aço inoxidável, Cor Inox
-Em branco (não oficial): depósito de gordura, medidor de temperatura, controle de temperatura, tipo de gás, tipo/espessura/comprimento/largura da área de cozimento, peso
-Saiu: grelha 8 mm, bandeja coletora, acendimento automático, GLP/GN, "Steak Zone", comandos frontais, peso 15,7/17,25 kg, "100% inox", "marcas de grelha", instalação por profissionais qualificados.
-Pedir: guia comercial (EAN, embalagem, peso, gás, grelha) para completar.
+CADASTRO / ESPECIFICAÇÕES (guia comercial)
+GTIN/EAN: 7898593938854 | NCM 7321.11.00 | Modelo e Modelo alfanumérico: DBQ-IR-40-XX-NHUA
+Embalagem: 385 x 350 x 667 mm, 17,25 kg → A 35, L 39, P 67, 17,25 kg (hoje 15,7 kg, 34 / 34 / 63)
+Preencher: Tipo de gás GLP e GN (ou GLP); Espessura (diâmetro da grelha) 8 mm; Largura 33,9 cm; Altura 33,9 cm; Profundidade 62,7 cm; Peso 15,7 kg; Bocas 1; Potência 15.000 BTU; Linha Professional
+Alterar: Com medidor de temperatura Sim → Não (guia: "-")
+Em branco: Com controle de temperatura; comprimento/largura da área de cozimento (não informados)
+Ok: É inflamável Sim, Aço inoxidável, depósito de gordura Sim, Cor Inox, Grade
+Saiu: "100% inox", "marcas de grelha perfeitas", comandos frontais, "instalação por profissionais qualificados".
