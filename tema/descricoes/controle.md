@@ -32,6 +32,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | TCM45EXDP | Cafeteira Automática de Embutir Tecno Professional 60 cm 20 Bar 220V | Tecno | `tecno-cafeteira-embutir-professional-TCM45EXDP.html` | `tecno-cafeteira-embutir-professional-TCM45EXDP-seo.txt` (URL mantida) | entregue (B: reativar) | 09/10/2026 | Cafeteiras (ok) |
 | 94896201 | Cervejeira Beer Center de Embutir Tramontina Senses T smart 85 L 220V | Tramontina | `tramontina-beer-center-senses-85-94896201.html` | `tramontina-beer-center-senses-85-94896201-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 | BC-BI-88-XV-2VPA (era BC-BI-86-XV-2ATB) | Beer Center Cervejeira de Embutir Inox 88 Litros Connect 220V Elettromec | Elettromec | `elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA.html` | `elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA-seo.txt` (URL mantida) | entregue (A: trocar código; inativo) | 09/10/2026 | Cervejeiras (ok) |
+| JC-145C (var. JC-145C127-R, JC-145C220-R) | Cervejeira Beer Center de Embutir Evol Smart 135 Litros Abertura Direita | Evol | `evol-beer-center-135-JC-145C.html` | `evol-beer-center-135-JC-145C-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -133,7 +134,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | x | JC-145B-R | JC-145B127R (127V), JC-145B220R (220V) | Adega Climatizada Evol Wine Center 46 Garrafas Dual Zone Embutir Abertura Direita | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
 | x | JC-145B-L | JC-145B220L (220V), JC-145B127L (127V) | Adega Climatizada Evol Wine Center 46 Garrafas Dual Zone Embutir Abertura Esquerda | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
 | x | JC-115DR220 | - | Adega e Cervejeira Evol Smart 58 Litros Dual Zone de Embutir 220V | Adegas e Cervejeiras | S | antigo |  |
-|   | JC-145C | JC-145C127-R (127V), JC-145C220-R (220V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
+|   | JC-145C | JC-145C127-R (127V), JC-145C220-R (220V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (evol-beer-center-135-JC-145C) |  |
 |   | JC-145C-L | JC-145C220L (220V), JC-145C127L (127V) | Cervejeira de Embutir Evol Smart 135 Litros Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | JC-425C220R | - | Cervejeira de Embutir Evol Smart 425 Litros Abertura para Direita 220V | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
 |   | CBK401B | - | Churrasqueira a Gás Evol Florence 4 Queimadores e Infrared 79cm | Churrasqueiras > Churrasqueiras a Gás | S | antigo |  |
