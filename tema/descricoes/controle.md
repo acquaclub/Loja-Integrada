@@ -42,6 +42,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CBK200 | Churrasqueira a Gás de Embutir Evol Capri 2 Queimadores Inox 304 55 cm | Evol | `evol-churrasqueira-capri-CBK200.html` | `evol-churrasqueira-capri-CBK200-seo.txt` (URL mantida) | entregue | 09/10/2026 | Churrasqueiras a Gás (ok) |
 | CBK401B | Churrasqueira a Gás de Embutir Evol Florence 3 Queimadores Sear e Infrared 79 cm | Evol | `evol-churrasqueira-florence-CBK401B.html` | `evol-churrasqueira-florence-CBK401B-seo.txt` (URL mantida) | entregue | 09/10/2026 | Churrasqueiras a Gás (ok) |
 | CBY300 (era CBB300C) | Churrasqueira a Gás de Embutir Evol Modena 28" 3 Queimadores e Infrared Inox 304 | Evol | `evol-churrasqueira-modena-28-CBY300.html` | `evol-churrasqueira-modena-28-CBY300-seo.txt` (URL mantida) | entregue (A: trocar código; inativo) | 09/10/2026 | Churrasqueiras a Gás (ok) |
+| CBY400 | Churrasqueira a Gás de Embutir Evol Modena 34" 3 Queimadores Sear Burner e Infrared | Evol | `evol-churrasqueira-modena-34-CBY400.html` | `evol-churrasqueira-modena-34-CBY400-seo.txt` (URL mantida) | entregue (B: reativar) | 09/10/2026 | Churrasqueiras a Gás (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -149,7 +150,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | CBK401B | - | Churrasqueira a Gás Evol Florence 4 Queimadores e Infrared 79cm | Churrasqueiras > Churrasqueiras a Gás | S | feito 09/10 (evol-churrasqueira-florence-CBK401B) |  |
 |   | CBK200 | - | Churrasqueira à Gás Evol Capri 2 Queimadores Inox 55cm | Churrasqueiras > Churrasqueiras a Gás | S | feito 09/10 (evol-churrasqueira-capri-CBK200) |  |
 |   | CBB300C | - | Churrasqueira à Gás Evol Prime Modena 28" 3 Queimadores e 1 Infrared Back Burner Inox | Churrasqueiras > Churrasqueiras a Gás | N | feito 09/10 como CBY300 (evol-churrasqueira-modena-28-CBY300) | A: trocar código/ficha → CBY300 |
-|   | CBY400 | - | Churrasqueira à Gás Evol Prime Modena 34" 3 Queimadores e 1 Infrared Inox | Churrasqueiras > Churrasqueiras a Gás | N | antigo | B: reativar |
+|   | CBY400 | - | Churrasqueira à Gás Evol Prime Modena 34" 3 Queimadores e 1 Infrared Inox | Churrasqueiras > Churrasqueiras a Gás | N | feito 09/10 (evol-churrasqueira-modena-34-CBY400) | B: reativar |
 |   | CBK301M | - | Churrasqueira à Gás Evol Verona 3 Queimadores e 1 Infrared 69cm | Churrasqueiras > Churrasqueiras a Gás | S | antigo |  |
 |   | CBY200SB | - | Side Burner à Gás Evol 2 Queimadores Tripla-Chama Inox 34cm | Churrasqueiras > Side Burner | S | antigo |  |
 |   | ECFEI0902A | - | Coifa Evol Smart Delta de Ilha 90cm Inox 220V | Coifas > Coifa de Ilha | S | antigo |  |
