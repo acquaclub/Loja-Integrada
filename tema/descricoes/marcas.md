@@ -119,6 +119,15 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 </div>
 ```
 
+## Jacuzzi
+
+### Garantia (termo do site oficial, recebido em 09/10/2026, banheira Maya)
+- Compreende substituição de peças no reparo de defeitos de fabricação constatados pela fabricante (ou defeito que torne o produto impróprio). Exige nota fiscal + termo de garantia preenchido pelo fornecedor na entrega.
+- **Prazo não aparece no texto recebido** (pedir).
+- Jacuzzi não oferece instalação; não cobre remoção/transporte/reinstalação.
+- Invalida: sem NF/termo; defeito causado por consumidor/terceiros; instalação/operação fora do manual; modificações; peças não originais; limpeza com saponáceos, químicos, abrasivos, solventes, palha de aço, esponja dupla face; quedas; violação/conserto por não autorizado; desgaste de guarnições, gaxetas, vedações; água com impurezas; objetos estranhos; falta de limpeza/manutenção; operação sem a água mínima. **Local público de uso intenso: prazo complementar reduzido a 50%.**
+- Proibido revestimento sobre a borda e furar a banheira (anulam a garantia).
+
 ## Glossário (termos usados por várias marcas)
 Pesquisado em 08/10/2026 a pedido do cliente. **Low-E e ECM são tecnologias de mercado, não exclusivas de uma marca** (cliente, 08/10/2026): a definição genérica abaixo pode ser usada em qualquer produto que a ficha oficial diga ter Low-E ou ECM. Benefícios além da definição (ex.: % de bloqueio UV) só se a marca disser.
 
