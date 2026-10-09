@@ -28,6 +28,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 99501124 | Banheira Freestanding Jacuzzi Troppo 150 x 75 cm Acrílico | Jacuzzi | `jacuzzi-banheira-troppo-150-99501124.html` | `jacuzzi-banheira-troppo-150-99501124-seo.txt` (URL mantida) | entregue | 09/10/2026 | Banheiras (ok) |
 | BH-54170-VL-BRFC | Banheira de Piso Oval Deca Velluto 170 cm Branco Fosco | Deca | `deca-banheira-velluto-170-BH-54170-VL-BRFC.html` | `deca-banheira-velluto-170-BH-54170-VL-BRFC-seo.txt` (URL mantida) | entregue (inativo no cadastro; está no site oficial) | 09/10/2026 | Banheiras (ok) |
 | 94896202 | Cervejeira Beer Center de Embutir Tramontina Senses T smart 145 L 220V | Tramontina | `tramontina-beer-center-senses-145-94896202.html` | `tramontina-beer-center-senses-145-94896202-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
+| BC-BI-144-VT-2VPA | Beer Center Cervejeira de Embutir Vetro 144 Litros 220V Elettromec | Elettromec | `elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA.html` | `elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA-seo.txt` (URL mantida) | entregue | 09/10/2026 | Cervejeiras (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -77,7 +78,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | x | CV-1BI-40-VT-2VPA | - | Adega Climatizada de Embutir Vetro 40 Garrafas 220V Elettromec | Adegas e Cervejeiras > Adegas de Embutir | S | novo |  |
 | x | CV-2BI-181-VT-2VPB | - | Adega Elettromec Vetro 181 Garrafas, Dual Zone, 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 | x | CV-2BI-87-VT-2VPA | - | Adega Elettromec Vetro 87 Garrafas Dual-Zone Built-In 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
-|   | BC-BI-144-VT-2VPA | - | Beer Center Vetro 144 Litros Built-In 220V Elettromec | Adegas e Cervejeiras > Cervejeiras | S | antigo |  |
+|   | BC-BI-144-VT-2VPA | - | Beer Center Vetro 144 Litros Built-In 220V Elettromec | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA) |  |
 |   | BC-BI-135-XV | BC-BI-135-XV-1ATF (127V), BC-BI-135-XV-2ATF (220V) | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | antigo | A: trocar código/ficha → BC-BI-145-XV-2VPA / 2VPB |
 |   | BC-BI-86-XV-2ATB | - | Cervejeira de Embutir Elettromec 86 litros Connect 220v | Adegas e Cervejeiras > Cervejeiras | N | antigo | A: trocar código/ficha → BC-BI-88-XV-2VPA |
 |   | DBQ-IR-40-XX-NHUA | - | Churrasqueira Dominó Gás Infrared 40 cm Elettromec Inox | Churrasqueiras > Side Burner | S | antigo |  |
