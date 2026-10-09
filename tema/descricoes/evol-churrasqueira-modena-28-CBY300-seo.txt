@@ -1,0 +1,23 @@
+NOME DO PRODUTO
+Churrasqueira a Gás de Embutir Evol Modena 28" 3 Queimadores e Infrared Inox 304
+
+TAG TITLE
+Churrasqueira a Gás Evol Modena 28 Polegadas | Unikitchen
+
+META DESCRIPTION
+Churrasqueira a gás de embutir Evol Modena 28", 3 queimadores + Infrared, 60.000 BTU/h, rotisserie e iluminação. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (não enviada)
+
+CATEGORIAS
+Principal: Churrasqueiras a Gás (já está). Sem secundária.
+
+AÇÃO DA LISTA: A – trocar código/ficha: CBB300C → CBY300 (mesmo modelo, código novo). Produto inativo: trocar SKU e ativar.
+
+CADASTRO / ESPECIFICAÇÕES (cadastro atual não enviado)
+SKU: CBB300C → CBY300 | Modelo e Modelo alfanumérico: CBY-300 | GTIN: em branco
+Embalagem: hoje 50,5 kg, 70 / 75 / 63 → peso 67,2 kg (bruto oficial); medidas 70 / 75 / 63 mantidas (maiores que o produto, parecem da caixa; não confirmadas)
+Preencher: Material Aço inoxidável; Cor Inox; Tipo de gás GLP (convertível GN); Tipo de área Grade; Espessura da área 8 mm; Comprimento da área 68 cm; Largura da área 47 cm; Largura 71 cm; Profundidade 60,5 cm; Altura 62,5 cm; Peso 60,9 kg; Bocas 4 (3 casting + Infrared); Potência 60.000 BTU/h; Linha Prime; depósito de gordura Sim; medidor de temperatura Sim
+Com controle de temperatura: em branco
+Peso: texto 60,9 kg (produto); características/guia 67,2 kg (bruto).
+Saiu: "Prime" no nome (vai para o campo Linha), "Infrared Back Burner".

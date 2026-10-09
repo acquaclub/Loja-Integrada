@@ -1722,8 +1722,9 @@ html body #carouselImagem .flex-direction-nav a.flex-disabled {
 }
 
 /* --- Descrição: títulos vindos do HTML de cada produto ---
-   O script-descricao-titulo.js troca o <h1> da descrição por <h2 class="uk-desc-titulo">.
-   A regra do h1 fica como reserva caso o script não rode. */
+   Modelo novo: <h2 class="uk-desc-titulo"> + <p class="uk-desc-linha">.
+   Modelo antigo: o script-descricao-titulo.js troca o <h1> por <h2 class="uk-desc-titulo">;
+   as regras de h1 e h2 ficam até o último produto ser corrigido. */
 html body #descricao article.description h1 {
     font-size: 26px !important;
     line-height: 1.25 !important;
@@ -1744,6 +1745,19 @@ html body #descricao h2.uk-desc-titulo {
     letter-spacing: 1px !important;
     text-transform: uppercase !important;
     color: var(--uk-preto) !important;
+}
+/* Modelo novo: linha técnica logo abaixo do título (<p class="uk-desc-linha">), no mesmo visual do antigo <h2>.
+   Seletor mais forte que o "#descricao article.description p" do script-produto-sanfona.js */
+html body #descricao article.description p.uk-desc-linha,
+html body #descricao p.uk-desc-linha {
+    margin: 6px 0 32px !important;
+    font-family: 'Urbane', sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    line-height: 1.5 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: var(--uk-cinza) !important;
 }
 
 
@@ -2359,7 +2373,9 @@ html body #avisoCookies #btn-aceito-cookies:hover {
     html body #descricao h2.uk-desc-titulo {
         font-size: 20px !important;
     }
-    html body #descricao article.description h2 {
+    html body #descricao article.description h2,
+    html body #descricao article.description p.uk-desc-linha,
+    html body #descricao p.uk-desc-linha {
         font-size: 12px !important;
         letter-spacing: 1.5px !important;
     }

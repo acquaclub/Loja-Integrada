@@ -1,0 +1,92 @@
+# Árvore de categorias da loja (painel, prints do cliente em 08/10/2026)
+
+Regra (cliente, 08/10/2026): **em todo produto revisado, conferir e indicar a categoria correta, sempre no último nível** (subcategoria), nunca só na categoria-mãe.
+A exportação da planilha traz uma categoria por produto (`categoria-nome-nivel-2..5`). **Sempre indicar uma categoria PRINCIPAL** (cliente, 08/10/2026); e **todas as outras em que o produto realmente se encaixa** como secundárias, sem limite (o painel aceita várias) (ex.: adega "de piso e de embutir": principal Adegas de Embutir, secundária Adegas de Piso).
+★ = categoria marcada com estrela no painel.
+
+- CATEGORIAS
+  - Adegas e Cervejeiras ★
+    - Adegas de Embutir
+    - Adegas de Piso
+    - Cervejeiras
+  - Banheiras ★
+  - Cafeteiras
+  - Chopeiras
+  - Churrasqueiras ★
+    - Acessórios
+    - Churrasqueiras a Gás
+    - Side Burner
+  - Coifas ★
+    - Coifa de Bancada
+    - Coifa de Churrasqueira
+    - Coifa de Embutir (criada em 09/10/2026 – coifas built-in, embutidas em armário/móvel). Já no site: CFI-MOB-90-VP-2ATC; 95800025 (Tramontina Incasso 75 Split, hoje sem categoria). Novos: ECFEE0902A (Evol Kappa Embutir). Downdraft (CFD-SOL-90-XV-2ATC, TCD91P): principal Coifa de Bancada, secundária Coifa de Embutir.
+    - Coifa de Ilha
+    - Coifa de Parede
+  - Cooktops, Rangetops e Dominós ★
+    - Cooktops
+      - 4 a 5 Zonas Elétrico
+      - 4 a 5 Zonas Indução
+      - 4 Queimadores a Gás
+      - 5 Queimadores a Gás
+      - 6 a 8 Zonas Indução
+      - 6 Queimadores a Gás
+    - Dominós
+      - 1 Queimador a Gás
+      - 2 Queimadores a Gás
+      - 2 Zonas Elétrico
+      - 2 Zonas Indução
+      - Barbecue
+      - Chapa Teppan
+      - Fritadeira
+    - Rangetop
+      - 4 a 5 Queimadores a Gás
+      - 6 a 8 Queimadores a Gás
+  - Cubas e Tanques
+    - Acessórios Cuba
+    - Cuba Dupla
+    - Cuba Única
+  - Fogões ★
+    - 4 a 5 Zonas Indução
+    - 4 Queimadores a Gás
+    - 5 Queimadores a Gás
+    - 6 a 8 Queimadores a Gás
+  - Fornos e Micro-ondas ★
+    - Forno a Gás
+    - Forno Elétrico
+    - Forno e Micro-ondas Combinado
+    - Fornos de Pizza
+      - Acessórios
+      - Forno de Pizza
+    - Micro-ondas
+  - Gavetas Aquecidas e Refrigeradas ★
+    - Gavetas Aquecidas
+    - Gavetas Refrigeradas
+  - Lavadoras e Secadoras
+    - Lavadoras
+    - Lavadoras e Secadoras
+    - Secadoras
+  - Lava Louças ★
+    - Frente Lava-louças
+    - Lava-louças
+  - Lixeiras
+  - Máquinas de Gelo
+    - Máquina de Gelo de Embutir
+  - Misturadores e Torneiras
+    - Com Extensor
+    - Dosadores de sabão
+    - Sem Extensor
+  - Refrigeradores e Freezers ★
+    - All Freezer
+    - All Refrigerator
+    - Bottom
+    - French Door
+    - Frigobares
+    - Multidoor
+  - Trituradores de alimentos ★
+  - Umidores de Charuto
+    - Termoumidor de Charutos
+    - Umidor de Charutos
+
+## Observações
+- Os prints vieram em partes; pode haver categoria entre um print e outro que não apareceu. Todas as categorias usadas na planilha de 08/10 estão na árvore acima.
+- Achados na planilha de 08/10: 4 produtos só em "Adegas e Cervejeiras" (sem subcategoria), 2 só em "Máquinas de Gelo", e 1 sem categoria nenhuma (95800025, Coifa Tramontina Incasso 75 Split). Tratar quando o produto passar pela revisão.

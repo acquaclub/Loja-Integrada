@@ -8,12 +8,40 @@ Leia este arquivo inteiro antes de começar. Ele resume o que já existe e o que
 - Público premium: eletrodomésticos, louças e metais de alto padrão (Tramontina, Bertazzoni, Gorenje, Elettromec, Tecno, Evol, Jacuzzi, Smeg...).
 - Repositório: `/home/user/Loja-Integrada`, branch `claude/modest-gauss-4q5q91`. O código do site fica em `tema/` (CSS Avançado em `tema/css-personalizado.css`, Códigos HTML em `tema/codigos-html/`).
 
+## Arquivos de trabalho (ler antes de cada produto)
+- `tema/descricoes/controle.md`: produtos já feitos (não repetir) e pendências.
+- `tema/descricoes/marcas.md`: informações oficiais por marca (garantia etc.) já recebidas do cliente.
+- `tema/descricoes/<marca>-<produto>-<código>.html` (+ `-seo.txt`): descrição e campos de SEO de cada produto.
+- `tema/descricoes/planilha/produtos-AAAA-MM-DD.csv`: última exportação de produtos da Loja Integrada (sem preços). Tem nome, SEO, categoria, ativo/inativo, variações e a **descrição atual** de cada produto: não é preciso pedir o HTML antigo ao cliente se o produto estiver nela.
+- `tema/descricoes/categorias.md`: árvore de categorias do painel. **Em todo produto, indicar a categoria correta (último nível)**.
+- `tema/descricoes/lista-outro-chat-2026-10-08.md`: plano do chat de cadastro (trocar código, reativar, corrigir, remover e 195 produtos novos). É planejamento, não dado oficial.
+
+## Fluxo combinado com o cliente (08/10/2026)
+**PROTOCOLO ATUAL (substitui o passo 1 abaixo):**
+- 1º envio do cliente = o que está no site (nome, HTML antigo, embalagem, especificações). **Só processar em silêncio e responder curto pedindo a ficha oficial** (e a URL, se faltar). Nada de análise nesse momento.
+- **Em todo 1º envio, conferir o SKU em `descricoes/lista-outro-chat-2026-10-08.md` (A trocar código, B reativar, C corrigir, D remover) e na coluna "Ação pendente" do `controle.md`.** Se houver ação (excluir, trocar código etc.), avisar já na resposta curta, antes de fazer a descrição.
+- 2º envio = ficha oficial. Aí entregar **tudo de uma vez, objetivo, sem texto desnecessário**: os 4 arquivos + listas curtas do que **incluir / alterar / excluir** no cadastro (nome, SEO, categoria principal e secundárias, especificações, embalagem) e **o que saiu da descrição** (dados antigos sem fonte oficial).
+
+1. O cliente manda **primeiro só o código**. Eu avalio (planilha + `controle.md` + lista do outro chat) e respondo **o que faremos** com o item e **o que preciso** (em geral, a ficha/site oficial; o HTML atual já está na planilha). Só então ele manda o resto. Vale para produtos **ativos e inativos**.
+   - **Um produto por vez: só o código enviado.** Produtos relacionados (par L/R, mesma família) eu só cito; não proponho fazer junto. **Cadastros novos ficam para o fim** (cliente, 08/10/2026).
+2. Antes de escrever, cruzar o código com `controle.md` (coluna "Ação pendente") e com a planilha, e **dizer ao cliente o que fazer com o item**: só atualizar a descrição, trocar o código/produto (Parte A), reativar (B), corrigir cadastro (C), excluir (D), virar variação de outro anúncio, cadastrar como novo etc.
+3. Depois fazer a descrição (modelo novo) + nome, title e meta description + **categoria correta** (conferir com `categorias.md`), e entregar.
+3b. **Especificações do cadastro** (painel "Especifique para melhorar resultados" + peso/dimensões + GTIN): conferir com a ficha e indicar valor por campo. Campos vistos em adegas: Classificação de mercado (Eletrodomésticos » Refrigeração » Adegas Climatizadas), Capacidade de garrafas, Modelo (código oficial), Cor, Sistema de arrefecimento, Frequência, Potência, Largura, Linha, Quantidade de zonas de temperatura, Altura. Peso/dimensões do cadastro = **embalagem** (o próprio painel pergunta "Qual é o tamanho da embalagem do produto?", usado no frete); sem dado de embalagem na ficha, usar o produto e avisar. GTIN = EAN da ficha: **preencher só quando a ficha/caixa/nota trouxer o EAN oficial; não cobrar quando não houver** (loja em modo catálogo, sem Shopping; GTIN errado é pior que vazio). Produto com variações: peso/dimensões ficam nas variações. Registrar no `-seo.txt` do produto.
+- **Modelo alfanumérico** (decidido em 09/10/2026): preencher sempre com o código oficial do fabricante (o mesmo do campo Modelo/SKU), em todos os produtos. Produtos entregues antes disso que tinham esse campo (adegas e cervejeiras): preencher quando o cliente revisar o cadastro.
+4. Atualizar `controle.md` (tabela de cima + marcar "x" no catálogo) e `marcas.md` (dados oficiais novos da marca). Commit e push a cada entrega: o repositório é o lugar seguro para não perder nada quando a conversa for compactada.
+5. Quando o cliente mandar uma planilha nova: salvar em `planilha/` (sem colunas de preço), regenerar o catálogo de `controle.md` e conferir o que mudou (produtos apagados, ativados, novos).
+
 ## Como trabalhar com o cliente
 - Português, tom de conselheiro: aponte falhas primeiro, sem elogio de abertura. Marque a confiança: [Certeza] / [Provável] / [Chute] / [Fora do escopo].
 - Conciso. Um passo de cada vez.
 - **Nunca invente especificação técnica** (medida, voltagem, potência, garantia). Se faltar dado, pergunte ou deixe marcado para o cliente preencher.
-- **Entrega**: o cliente cola no painel. Gere uma página com botão "COPIAR TUDO" e envie com `SendUserFile` usando `display: "render"` (abre no chat, sem download):
-  `python3 tema/ferramentas/gerar-copia.py SAIDA.html "Título|caminho/do/arquivo|Instrução (termina em ...)"` (um bloco por argumento). Grave a saída no scratchpad.
+- **REGRA DO CLIENTE: só dado oficial.** Toda informação da descrição precisa estar no material oficial que o cliente manda (site/ficha/manual do fabricante). O que não estiver lá, ou for dedução (ordem L x A x P, lado de abertura, "da mesma linha"...), **sai do texto ou é avisado ao cliente antes**. Na dúvida, não colocar. O que vier só da descrição antiga também precisa ser confirmado na fonte oficial.
+- **Fonte oficial contraditória (cliente, 08/10/2026: "tem que ser o que tiver no site oficial"):** não devolver como "ponto para o cliente decidir". Regra: vale o que a ficha repete e o que está na **tabela de especificações** (ex.: 43 garrafas na tabela x 44 num destaque → 43); se a tabela contradiz o texto principal sem como saber qual vale (ex.: puxador tubular inox numa adega "para revestir, escolha os puxadores"), **omitir** o dado e só registrar no `-seo.txt`. Termo de garantia: só aplicar restrições à categoria que o termo nomeia.
+- **Ordem das medidas (L x A x P etc.): confirmar com o cliente a cada produto.** A aprovação vale só para aquele produto, nunca como regra geral.
+- **Padrão de termos (cliente):** na linha técnica e nas tabelas usar **"Embutir"** (não "Built-in"); "Embutir ou Piso" quando a ficha disser os dois. Nome oficial de modelo que tenha "Built-in" fica como a marca escreve.
+- **Largura comercial (regra do cliente): SEMPRE colocar.** É a largura real arredondada **para cima, até a dezena de centímetros seguinte** ("sempre o número de cima"): 59,5 → 60 cm; 49,5 → 50 cm; 38 → 40 cm. Se a largura já for redonda (60 cm), fica igual. Vale mesmo quando a ficha não traz "largura comercial". **Na dúvida, perguntar ao cliente** (ele pediu): ex.: medidas que já são padrão de mercado (45 cm de lava-louças, 38 cm de undercounter) — confirmar antes.
+- **Entrega (preferência do cliente):** 4 arquivos de texto **separados**, enviados com `SendUserFile` um a um: `1-nome-do-produto.txt`, `2-descricao.txt` (HTML indentado), `3-seo-titulo.txt`, `4-seo-descricao.txt`. Os textos curtos (nome, title, description) também vão direto no chat em blocos de código. Não usar a página "COPIAR TUDO" para isso (o cliente achou ruim de abrir). CSS: mandar o arquivo inteiro ou dizer exatamente onde colar.
+- **SEO:** nome do produto com o termo de busca ("Adega Climatizada de Embutir..."); title até ~60 caracteres terminando em "| Unikitchen"; meta description até ~155 caracteres terminando em "Lojas em Sorocaba e Itapetininga."; **URL: manter** (trocar perde indexação). Versões do mesmo produto (L/R) com titles diferentes.
 - Sempre diga **onde colar** e **como termina** o código. Faça commit e push a cada entrega.
 
 ## Como a descrição é hoje (problemas)
