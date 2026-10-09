@@ -16,7 +16,7 @@ AÇÃO DA LISTA: nenhuma.
 
 CADASTRO / ESPECIFICAÇÕES (cadastro atual não enviado)
 Modelo e Modelo alfanumérico: CBK-301M | GTIN: em branco
-Embalagem: peso 41,4 kg (único peso oficial); medidas: conferir as atuais (sem dado oficial)
+Embalagem: hoje 34 kg, 60 / 69 / 48 (= produto, altura e profundidade trocadas) → A 48, L 69, P 60, 41,4 kg (sem embalagem oficial)
 Preencher: Material Aço inoxidável; Cor Inox; Tipo de gás GLP (convertível GN); Grade; Espessura 8 mm; Comprimento da área 60 cm; Largura da área 46 cm; Largura 69 cm; Profundidade 59,7 cm; Altura 47,3 cm; Peso 41,4 kg; Bocas 4 (3 + Infrared); Potência 48.000 BTU/h; Linha Design; depósito de gordura Sim; medidor de temperatura Sim
 Com controle de temperatura: em branco
 Conflito: texto do site "3 queimadores, incluindo um Infrared" x características do guia "3 queimadores + 1 Infrared" → usado o guia (tabela).
