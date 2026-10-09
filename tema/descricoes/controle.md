@@ -22,10 +22,9 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | BH-53135-AMFC | Banheira com Degrau (Ofurô Deca Senses) 135 cm Amêndoa Fosco | Deca | `deca-banheira-degrau-135-BH-53135-AMFC.html` | `deca-banheira-degrau-135-BH-53135-AMFC-seo.txt` (URL mantida) | entregue — **aguardando validação de estoque** (inativo; Deca indisponível) | 08/10/2026 | Banheiras (ok) |
 | BH-53135-BRFC | Banheira com Degrau (Ofurô Deca Senses) 135 cm Branco Fosco | Deca | `deca-banheira-degrau-135-BH-53135-BRFC.html` | `deca-banheira-degrau-135-BH-53135-BRFC-seo.txt` (URL mantida) | entregue — **reativar** (disponível no site da Deca) | 08/10/2026 | Banheiras (ok) |
 | BH-54150-LK-BRFC | Banheira de Piso Oval Deca LK 150 cm Branco Fosco | Deca | `deca-banheira-oval-lk-150-BH-54150-LK-BRFC.html` | `deca-banheira-oval-lk-150-BH-54150-LK-BRFC-seo.txt` (URL mantida) | entregue — **reativar** (disponível no site da Deca) | 08/10/2026 | Banheiras (ok) |
-| 99606246 | Banheira Freestanding Jacuzzi Maya 178 cm Branca | Jacuzzi | `jacuzzi-banheira-maya-178-99606246.html` | `jacuzzi-banheira-maya-178-99606246-seo.txt` (URL mantida) | entregue (garantia sem prazo no material oficial) | 09/10/2026 | Banheiras (ok) |
+| 99606246 | Banheira Freestanding Jacuzzi Maya 178 cm Branca | Jacuzzi | `jacuzzi-banheira-maya-178-99606246.html` | `jacuzzi-banheira-maya-178-99606246-seo.txt` (URL mantida) | entregue (garantia 1 ano completada em 09/10) | 09/10/2026 | Banheiras (ok) |
 
 ## Pendências gerais
-- **Prazo de garantia Jacuzzi** (banheiras): o termo oficial recebido não traz o prazo; quando o cliente conseguir, completar o bloco de garantia da 99606246 e das próximas Jacuzzi.
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
 - Depois de cada lote no ar: rodar `gerar-lista-nomes.js` com os SKUs da loja em `RELER`, para atualizar o nome curto dos cards.
 - `script-descricao-titulo.js` só sai do painel quando **todos** os produtos estiverem no modelo novo.
