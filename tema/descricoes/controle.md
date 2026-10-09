@@ -44,6 +44,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CBY300 (era CBB300C) | Churrasqueira a Gás de Embutir Evol Modena 28" 3 Queimadores e Infrared Inox 304 | Evol | `evol-churrasqueira-modena-28-CBY300.html` | `evol-churrasqueira-modena-28-CBY300-seo.txt` (URL mantida) | entregue (A: trocar código; inativo) | 09/10/2026 | Churrasqueiras a Gás (ok) |
 | CBY400 | Churrasqueira a Gás de Embutir Evol Modena 34" 3 Queimadores Sear Burner e Infrared | Evol | `evol-churrasqueira-modena-34-CBY400.html` | `evol-churrasqueira-modena-34-CBY400-seo.txt` (URL mantida) | entregue (B: reativar) | 09/10/2026 | Churrasqueiras a Gás (ok) |
 | CBK301M | Churrasqueira a Gás de Embutir Evol Verona 3 Queimadores e Infrared Inox 304 69 cm | Evol | `evol-churrasqueira-verona-CBK301M.html` | `evol-churrasqueira-verona-CBK301M-seo.txt` (URL mantida) | entregue | 09/10/2026 | Churrasqueiras a Gás (ok) |
+| DBQ-IR-40-XX-NHUA | Dominó Churrasqueira a Gás Infrared Elettromec Professional 40 cm Inox 304 | Elettromec | `elettromec-domino-churrasqueira-infrared-40-DBQ-IR-40-XX-NHUA.html` | `elettromec-domino-churrasqueira-infrared-40-DBQ-IR-40-XX-NHUA-seo.txt` (URL mantida) | entregue (enxuta; falta guia) | 09/10/2026 | Dominós + Churrasqueiras a Gás (tirar Side Burner) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -96,7 +97,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | BC-BI-144-VT-2VPA | - | Beer Center Vetro 144 Litros Built-In 220V Elettromec | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (elettromec-beer-center-vetro-144-BC-BI-144-VT-2VPA) |  |
 |   | BC-BI-135-XV | BC-BI-135-XV-1ATF (127V), BC-BI-135-XV-2ATF (220V) | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | EXCLUÍDO 09/10 (tinha vendas, não aceitava alteração) | criar novo: BC-BI-145-XV-2VPA / 2VPB (220V) – EM ESPERA: não está no site oficial (09/10) |
 |   | BC-BI-86-XV-2ATB | - | Cervejeira de Embutir Elettromec 86 litros Connect 220v | Adegas e Cervejeiras > Cervejeiras | N | feito 09/10 como BC-BI-88-XV-2VPA (elettromec-beer-center-inox-88-BC-BI-88-XV-2VPA) | A: trocar código/ficha → BC-BI-88-XV-2VPA |
-|   | DBQ-IR-40-XX-NHUA | - | Churrasqueira Dominó Gás Infrared 40 cm Elettromec Inox | Churrasqueiras > Side Burner | S | antigo |  |
+|   | DBQ-IR-40-XX-NHUA | - | Churrasqueira Dominó Gás Infrared 40 cm Elettromec Inox | Churrasqueiras > Side Burner | S | feito 09/10 (elettromec-domino-churrasqueira-infrared-40-DBQ-IR-40-XX-NHUA) |  |
 |   | CFD-SOL-90-XV-2ATC | - | Coifa de Bancada Elettromec Sollevare Downdraft Connect 90cm 220V | Coifas > Coifa de Bancada | S | antigo |  |
 |   | CFI-MOB-90-VP-2ATC | - | Coifa de Embutir Armário Vetro 90 cm Mobile Elettromec | Coifas > Coifa de Parede | S | antigo |  |
 |   | DI-2Q-30-CI-2XBB | - | Cooktop Dominó Elétrico Indução Elettromec 2 Bocas 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | N | antigo | A: trocar código/ficha → DI-2Q-30-CI-2KSA |
