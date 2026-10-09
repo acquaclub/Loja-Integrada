@@ -1,0 +1,25 @@
+NOME DO PRODUTO
+Cervejeira Beer Center de Embutir Evol Smart 135 Litros Abertura Esquerda
+
+TAG TITLE
+Beer Center Evol Smart 135 Litros Porta Esquerda | Unikitchen
+
+META DESCRIPTION
+Beer center de embutir Evol Smart 135 L, -9 a 5 °C, modo festa, app Evol Smart, inox 304, abertura esquerda. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (não enviada)
+
+CATEGORIAS
+Principal: Cervejeiras (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+CADASTRO / ESPECIFICAÇÕES (produto pai JC-145C-L; variações JC-145C127L e JC-145C220L)
+Modelo: JC-145C (código oficial do guia; o -L é o código de cadastro) | Modelo alfanumérico: JC-145C
+Variações (127 V e 220 V): peso 52 kg; embalagem sem dado oficial → medidas do produto A 82, L 60, P 58
+Preencher: Quantidade de portas 1
+Ok: luz interior Sim, controle de temperatura Sim, Vertical, -9 °C, 5 °C, 595 mm, 820 mm, 135 Litros
+Em branco: Etiqueta de energia
+Conflito oficial: latas = 173 (site) x 170 (guia) → omitido; ficou só 104 long necks (igual nos dois).
+Saiu: Freestanding, porta reversível/dobradiças cambiáveis, 3 prateleiras inox com corrediças telescópicas, "Seamless", circulador de ar, alerta de porta aberta/queda de energia 30 min, corrente 1,6/0,9 A, peso 43/47 kg, "Heating Glass", "+ puxador".
+Cadastro do L não foi enviado: conferir se está igual ao R (mesmos campos).
