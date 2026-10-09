@@ -10,7 +10,7 @@ Coifa de embutir Elettromec Mobile Vetro Connect 90 cm, vidro preto, 1.200 m³/h
 URL: manter a atual (não enviada)
 
 CATEGORIAS
-Principal: Coifa de Parede (já está; não existe "Coifa de Embutir"). Sem secundária.
+Principal: Coifa de Embutir (categoria nova, criada pelo cliente em 09/10). Tirar: Coifa de Parede.
 
 AÇÃO DA LISTA: nenhuma.
 

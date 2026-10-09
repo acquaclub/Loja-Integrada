@@ -19,6 +19,7 @@ A exportação da planilha traz uma categoria por produto (`categoria-nome-nivel
   - Coifas ★
     - Coifa de Bancada
     - Coifa de Churrasqueira
+    - Coifa de Embutir (criada em 09/10/2026 – coifas built-in, embutidas em armário/móvel)
     - Coifa de Ilha
     - Coifa de Parede
   - Cooktops, Rangetops e Dominós ★
