@@ -23,5 +23,5 @@ Modelo alfanumérico: TR14CVDC
 Ok: TR14CVDC, luz interior Sim, controle de temperatura Sim, Vertical, 1 porta, -5 °C, 595 mm, 136 Litros
 Em branco: Etiqueta de energia
 Garantia: site diz "1 ano + 2º ano pelo formulário"; certificado Tecno (08/10) = 24 meses (3+21) → bloco padrão Tecno 2 anos (regra de marcas.md).
-Saiu: porta com chave "Sim", "não reversível", Wi-Fi "Não", alarme de porta aberta/temperatura, cor interna preta, "luz fria", "compressor silencioso/baixa vibração", RoHS, garantia "1+1 por formulário".
+Saiu: porta com chave "Sim", Wi-Fi "Não", alarme de porta aberta/temperatura, cor interna preta, "luz fria", "compressor silencioso/baixa vibração", RoHS, garantia "1+1 por formulário".
 Diferença do CVDD: a página do CVDC não cita o "sensor de degelo automático" → retirado (Frost Free mantido). Abertura: "abre para a esquerda, não é reversível".
