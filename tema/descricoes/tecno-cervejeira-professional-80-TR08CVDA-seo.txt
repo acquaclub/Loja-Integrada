@@ -1,0 +1,28 @@
+NOME DO PRODUTO
+Cervejeira Tecno Professional 80 Litros 38 cm Embutir ou Piso Inox 220V Porta Direita
+
+TAG TITLE
+Cervejeira Tecno Professional 80L Porta Direita | Unikitchen
+
+META DESCRIPTION
+Cervejeira Tecno Professional 80 litros, 38 cm, 61 latas, -5 a 10 °C, de embutir ou piso, vidro triplo Low-E, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (não enviada)
+
+CATEGORIAS
+Principal: Cervejeiras (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma. Obs.: TR08CVDB (abertura esquerda) está na parte 2 (novos) – pode virar variação deste.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: 460 x 865 x 635 mm, 41 kg → A 87, L 46, P 64, 41 kg (hoje 39 kg, 92 / 38 / 58)
+Altura: "820 - 920 mm" → 820 mm (pés reguláveis até 920)
+Temperatura máxima: "10ª C" → 10 °C
+Modelo alfanumérico: TR08CVDA
+Ok: TR08CVDA, luz interior Sim, controle de temperatura Sim, Vertical, 1 porta, -5 °C, 380 mm, 80 Litros
+Em branco: Etiqueta de energia
+Largura comercial: 38 → 40 cm
+Abertura: oficial "abertura p/ direita" (nome do cadastro ok; HTML antigo dizia esquerda – errado).
+Conflito oficial: texto diz "capacidade de 180 litros ... e também barris"; tabela diz 80 litros e não lista barris → 80 L, barris omitidos.
+Garantia: página diz 2 anos → bloco padrão Tecno.
+Saiu: abertura esquerda, porta com chave, Wi-Fi "Não", alarmes, cor interna preta, "luz fria", "compressor silencioso", RoHS, peso 42 kg, garantia "1+1 por formulário".
