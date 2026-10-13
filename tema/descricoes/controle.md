@@ -62,6 +62,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | ECFEP0902B | Coifa de Parede Evol Smart Zeta 90 cm Inox 304 220V | Evol | `evol-coifa-zeta-parede-90-ECFEP0902B.html` | `evol-coifa-zeta-parede-90-ECFEP0902B-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 | 17988 | Coifa de Ilha Franke New Format FTMA H40 90 cm Inox 220V | Franke | `franke-coifa-new-format-ilha-90-17988.html` | `franke-coifa-new-format-ilha-90-17988-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
 | 17986 | Coifa de Parede Franke New Format FTMA H40 90 cm Inox 220V | Franke | `franke-coifa-new-format-parede-90-17986.html` | `franke-coifa-new-format-parede-90-17986-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
+| CKG-4Q-60-XQ-3ZEA | Cooktop a Gás Elettromec Quadratto 4 Queimadores Dual Flame 60 cm Inox Bivolt | Elettromec | `elettromec-cooktop-quadratto-60-CKG-4Q-60-XQ-3ZEA.html` | `elettromec-cooktop-quadratto-60-CKG-4Q-60-XQ-3ZEA-seo.txt` (URL mantida) | entregue | 13/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -127,7 +128,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | CKG-5Q-75-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-90-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Lateral Inox Gusa 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKI-4Q-60-CI-2XBB | - | Cooktop Elétrico Indução Elettromec 4 Bocas 60cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | A: trocar código/ficha → CKI-4Q-60-CI-2KSA |
-|   | CKG-4Q-60-XQ-3ZEA | - | Cooktop a Gás Elettromec Quadratto 4 Bocas Tripla Chama Inox Gusa 60cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | CKG-4Q-60-XQ-3ZEA | - | Cooktop a Gás Elettromec Quadratto 4 Bocas Tripla Chama Inox Gusa 60cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (elettromec-cooktop-quadratto-60-CKG-4Q-60-XQ-3ZEA) |  |
 |   | FGE-5Q-90-XP-2GMA | - | Fogão Freestanding Elettromec Profissional 5 Queimadores com Forno Elétrico Inox 90cm 220V | Fogões > 5 Queimadores a Gás | S | antigo |  |
 |   | FGG-5Q-90-XP-2GMA | - | Fogão Freestanding Elettromec Profissional 5 Queimadores com Forno à Gás 116 Litros Inox 90cm 220V | Fogões > 5 Queimadores a Gás | S | antigo |  |
 |   | FGG-6Q-36-XP-1SGA | - | Fogão Freestanding Elettromec Profissional 6 Queimadores com Forno à Gás 127 Litros Inox 91,5cm 110V | Fogões > 6 a 8 Queimadores a Gás | S | antigo |  |

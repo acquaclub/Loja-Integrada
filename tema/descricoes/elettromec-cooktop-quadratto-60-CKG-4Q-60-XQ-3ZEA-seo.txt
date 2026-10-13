@@ -1,0 +1,24 @@
+NOME DO PRODUTO
+Cooktop a Gás Elettromec Quadratto 4 Queimadores Dual Flame 60 cm Inox Bivolt
+
+TAG TITLE
+Cooktop Elettromec Quadratto 4 Bocas 60 cm Inox | Unikitchen
+
+META DESCRIPTION
+Cooktop a gás Elettromec Quadratto 60 cm, 4 queimadores com Dual Flame de 4,0 kW, trempes de ferro fundido e suporte Wok. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+CADASTRO / ESPECIFICAÇÕES (todos vazios hoje)
+Embalagem (guia: 645 x 125 x 580 mm, L x A x P): A 13 (12,5), L 65 (64,5), P 58 cm; peso 12 kg (hoje 12 kg, 15/60/51 → corrigir medidas)
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Quantidade de bocas 4; Modelo CKG-4Q-60-XQ-3ZEA; Conversível a gás natural Sim; Conversível a gás engarrafado Sim; Com temporizador Não; Com válvulas de segurança Sim; Tipo de ignição Superautomática (ou Automática); Materiais da superfície Aço inoxidável; Cor principal Inox; Tipo de controle Manual (botões giratórios); Tipo de gás GLP e GN; Largura 60 cm; Altura 6 cm; Peso 11 kg; Potência total 8,5 kW; Frequência 60 Hz; Largura de montagem 55,5 cm; Profundidade de montagem 47,5 cm
+Em branco (sem dado oficial): É ecológico, Proteção contra superaquecimento, Trava de segurança, Eficiência energética, Etiqueta de conservação, Comprimento de montagem (repetiria largura/profundidade)
+Conflitos: corrente – guia "0,01 A" x manual "2 W" → omitido; diâmetros de panela – manual (Dual Flame 18–26, semirrápido 12–22, auxiliar 8–18 cm) x guia (26 ou mais, 14–24, 8–14 cm) → omitido; garantia – termo de garantia (2 anos para todo produto desde 2022) x guia ("estender de 1 para 2 anos com cadastro no Inspire-se") → mantido o bloco padrão do termo; avisar o cliente.
+Saiu: "Inox 304" (oficial só diz aço inoxidável), "Gas Stop", "design italiano", "Componentes Sabaf... referência mundial", "válvula em todos os queimadores" (oficial: "caso a chama de algum queimador se apague" → mantido assim), "manípulos frontais", "corrente 0,01 A", "conversão por profissional qualificado", emoji.
+Entrou: Sabaf/Defendi, posição e potência de cada queimador, pressão e categoria do gás, entrada ½" BSP, classe I, cabo H05 RR-F, recorte 555 x 475 mm, 700 mm até o móvel superior, ponto de gás a até 1 m, embalagem, usos de cada queimador (guia).
+Guia salvo em fichas/elettromec-CKG-4Q-60-XQ-3ZEA-guia.pdf.
