@@ -77,6 +77,25 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - SAC 0800 041 5757; vendas diretas 0800 757 5757.
 - Linha Professional: puxador tubular em inox, aço inox escovado anti-manchas.
 
+## Franke
+
+### Garantia – eletrodomésticos (Certificado de Garantia Franke, recebido em 13/10/2026; vale para fogões de mesa, cooktops, coifas, fornos elétricos, micro-ondas e refrigeradores)
+- **1 ano (365 dias)**: 90 dias de garantia legal (CDC) + 275 dias de garantia contratual, contados da emissão da nota fiscal ao usuário final.
+- Atendimento: e-mail ks-info.br@franke.com ou 0800 477 3000, ou rede credenciada; exige nota fiscal. Peças e mão de obra cobertas durante o prazo; peças de reposição e mão de obra de atendimento já em garantia: só os 90 dias legais.
+- Não cobre: uso/instalação inadequados, sobrecarga ou tensão fora do especificado; manutenção incorreta; limpeza com produtos não adequados (corrosivos) que causem manchas, bolhas ou oxidação; peças não originais; sobrecarga elétrica; caso fortuito/força maior; danos por agentes externos, acidentes, quedas, transporte; alteração/remoção de etiquetas; instalação por terceiros não credenciados.
+- Válido só no Brasil, para produtos adquiridos de forma lícita, com nota fiscal.
+
+### Bloco de garantia usado nas descrições
+```html
+<div class="section">
+    <h3 class="section-title">Garantia</h3>
+    <div class="guarantee">
+        <p><strong>1 ano de garantia Franke:</strong> 90 dias de garantia legal (Código de Defesa do Consumidor) mais 275 dias de garantia contratual, contados da emissão da nota fiscal, contra vícios ou defeitos de fabricação.</p>
+        <p>O atendimento é feito pela Franke (0800 477 3000 ou ks-info.br@franke.com) ou por sua rede credenciada, mediante nota fiscal. A garantia não cobre uso ou instalação inadequados, tensão fora da especificada, limpeza com produtos não indicados, peças não originais, quedas ou danos de transporte.</p>
+    </div>
+</div>
+```
+
 ## Tramontina
 
 ### Coifas split (decisão do cliente, 13/10/2026)

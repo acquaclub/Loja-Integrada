@@ -1,0 +1,22 @@
+NOME DO PRODUTO
+Coifa de Ilha Franke New Format FTMA H40 90 cm Inox 220V
+
+TAG TITLE
+Coifa de Ilha Franke New Format 90 cm Inox | Unikitchen
+
+META DESCRIPTION
+Coifa de ilha Franke New Format 90 cm em inox, 870 m³/h, filtro Baffle, 65 dB, painel touch, 3 velocidades e timer, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Coifa de Ilha (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+CADASTRO / ESPECIFICAÇÕES (todos vazios hoje)
+Embalagem (ficha oficial 990 x 465 x 660 mm, sem rótulos; lida na mesma ordem do produto L x P x A): L 99, P 47 (46,5 arredondado), A 66 cm; peso 28 kg (hoje 0 kg, 15/90/15 → corrigir)
+Preencher: Modelo 17988; Com saída Sim; Controle remoto Não; Função Exaustor/Depurador; Tipo de instalação Ilha; Materiais Aço inoxidável; Largura 90 cm; Linha New Format; Velocidades 3; Potência do motor 300 W; Modelo alfanumérico 17988; Altura 59 cm (altura mínima com chaminé, conforme ficha)
+Conflitos resolvidos pela ficha técnica: extração 780 (texto do site) x 870 m³/h (ficha) → 870; frequência 50/60 Hz (site) x 60 Hz (ficha) → 60 Hz; instalação "ilha ou parede" (texto) x "ilha" (tabela/ficha) → ilha.
+Saiu: código "FTMA 904 I XS" (não bate com o modelo da ficha, FTMA H40 I XS 90), "consumo 0,300 kWh" (substituído pelas potências da ficha).
+Entrou: 870 m³/h, 306 W total / 300 W motor, 4 LEDs de 1,5 W (12 V), pesos 24/28 kg, embalagem, troca de lâmpadas só pela Assistência Técnica.
