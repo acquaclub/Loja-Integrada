@@ -146,6 +146,7 @@ Texto padrão para as descrições:
   - Elettromec (oficial): absorve os raios infravermelhos, isolamento térmico, proteção contra raios UV e controle de sudação na porta.
   - Evol (oficial): "porta com redução de umidade". A Evol não cita UV: não usar UV nas descrições Evol.
 - **Sudação**: condensação (gotículas) na superfície do vidro, quando o ar úmido encontra o vidro frio.
+- **Aço inox 304** (texto de mercado, pesquisado em 13/10/2026 a pedido do cliente; usar quando o fabricante informar inox 304): "tem mais cromo e níquel que o inox 430, usado na maior parte das coifas e eletrodomésticos, e por isso resiste melhor à corrosão; é uma escolha mais segura para cozinhas úmidas e casas em cidades litorâneas, onde a maresia favorece pontos de ferrugem no 430. A limpeza regular continua necessária." Não dizer "à prova de maresia" nem "ideal para o litoral" sem ressalva: o inox indicado para exposição direta à maresia é o 316 (com molibdênio).
 - **ECM (Energy Cutoff Memory)**: memoriza a temperatura programada antes de uma queda de energia; quando a energia volta, o aparelho retoma a programação.
   - Elettromec (oficial): "memoriza a última temperatura programada no instante anterior a uma queda de energia".
   - Evol (oficial, ficha do Wine Center 46): "em caso de falha de energia, retoma automaticamente a temperatura programada anteriormente". Busca na web não achou página da Evol sobre o termo.
