@@ -1,0 +1,23 @@
+NOME DO PRODUTO
+Coifa de Parede Tramontina Dritta Wall 90 Split em Aço Inox 90 cm 220 V (mantido)
+
+TAG TITLE
+Coifa de Parede Tramontina Dritta Wall 90 Split | Unikitchen
+
+META DESCRIPTION
+Coifa de parede Tramontina Dritta Wall 90 Split em aço inox, motor a até 6 m, 845 m³/h, 4 velocidades, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (não enviada)
+
+CATEGORIAS
+Principal: Coifa de Parede (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+CADASTRO / ESPECIFICAÇÕES (todos vazios hoje)
+Embalagem: site "altura 64, largura 45, comprimento 94 cm, 31,8 kg" → A 64, L 45, P 94, 31,8 kg (hoje 31,8 kg, 97 / 90 / 50)
+Preencher: Modelo 95800/023; Com saída Sim; Controle remoto Não; Função Exaustor; Tipo de instalação Parede; Materiais Aço inoxidável; Largura 90 cm; Linha Dritta Wall Split (ou Prime); Velocidades 4; Potência do motor 404 W; Modelo alfanumérico 95800023; Altura 54 a 102 cm (se pedir número, 102 cm)
+Conflitos: potência site/ficha 404 W x manual 401 W → 404; frequência site 60 Hz x manual 50-60 → 50-60; altura site 102 cm x desenho 540–1020 mm → desenho.
+Motor: 6 m (regra do cliente). A ficha deste modelo explica: até 6 m com o cabo que acompanha; até 12 m com extensão do cabo vendida pela Rede de Serviço Autorizado.
+T smart: só aparece no nome da tabela do manual ("Dritta Wall T smart 90 Split"); site e ficha não citam app → não usado.
+Saiu: "12 metros", "acetinado", "não aceita filtros de carvão", altura 640–945, peso 31,8 como líquido (é bruto), "reduzido pelo motor externo".

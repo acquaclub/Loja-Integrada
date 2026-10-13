@@ -53,6 +53,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 95800031 | Coifa de Ilha Tramontina Slim Isla T smart 90 Split em Aço Inox com Acabamento Acetinado 90 cm | Tramontina | `tramontina-coifa-slim-isla-tsmart-90-split-95800031.html` | `tramontina-coifa-slim-isla-tsmart-90-split-95800031-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
 | 94833221 | Coifa de Ilha Tramontina Tube Isla 35 em Aço Inox 220 V | Tramontina | `tramontina-coifa-tube-isla-35-94833221.html` | `tramontina-coifa-tube-isla-35-94833221-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
 | 95800123 | Coifa de Parede Tramontina Design Collection Dritta Wall Silent Pro 90 220 V em Aço Inox | Tramontina | `tramontina-coifa-dritta-wall-silent-pro-90-95800123.html` | `tramontina-coifa-dritta-wall-silent-pro-90-95800123-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
+| 95800023 | Coifa de Parede Tramontina Dritta Wall 90 Split em Aço Inox 90 cm 220 V | Tramontina | `tramontina-coifa-dritta-wall-90-split-95800023.html` | `tramontina-coifa-dritta-wall-90-split-95800023-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -308,7 +309,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 94833221 | - | Coifa de Ilha Tramontina Tube Isla 35 em Aço Inox 220 V | Coifas > Coifa de Ilha | S | feito 13/10 (tramontina-coifa-tube-isla-35-94833221) |  |
 |   | 95800123 | - | Coifa de Parede Tramontina Design Collection Dritta Wall Silent Pro 90 220 V em Aço Inox | Coifas > Coifa de Parede | S | feito 13/10 (tramontina-coifa-dritta-wall-silent-pro-90-95800123) |  |
 |   | 95800030 | - | Coifa de Parede Tramontina Slim Wall 90 Split em Aço Inox com Acabamento Acetinado 220 V | Coifas > Coifa de Parede | S | antigo |  |
-|   | 95800023 | - | Coifa de parede Tramontina Dritta Wall 90 Split em Aço Inox 90 cm 220 V | Coifas > Coifa de Parede | S | antigo |  |
+|   | 95800023 | - | Coifa de parede Tramontina Dritta Wall 90 Split em Aço Inox 90 cm 220 V | Coifas > Coifa de Parede | S | feito 13/10 (tramontina-coifa-dritta-wall-90-split-95800023) |  |
 |   | 94748022 | - | Cooktop Elétrico Tramontina New Dominó Vitrocerâmico com 2 Áreas de Aquecimento e Comando Touch | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | 94747022 | - | Cooktop Elétrico Tramontina New Square Vitrocerâmico com 4 Áreas de Aquecimento e Comando Touch | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | 94730104 | - | Cooktop a Gás Tramontina Design Collection Penta Glass Flat em Vidro Temperado e Trempes em Ferro Fundido com Acendimento Automático 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | antigo | C: duplicado com 94731 (manter um) |

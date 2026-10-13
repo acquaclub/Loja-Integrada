@@ -81,6 +81,7 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 
 ### Coifas split (decisão do cliente, 13/10/2026)
 - Distância do motor: o site diz "até 12 metros", a ficha PDF diz "até 6 metros" → **usar 6 metros** (Incasso 75 Split, Dritta Isla T smart 90 Split e demais split).
+- A ficha da Dritta Wall 90 Split explica a diferença: até 6 m com o cabo que acompanha a coifa; até 12 m com extensão do cabo vendida pela Rede de Serviço Autorizado.
 
 ### Garantia (site e ficha PDF das adegas Senses T smart, recebidos em 08/10/2026)
 - **1 ano**: 3 meses (90 dias) de garantia legal + 9 meses de garantia contratual, contra vícios ou defeitos de fabricação, contados da NF-e.
