@@ -1,0 +1,25 @@
+NOME DO PRODUTO
+Cooktop a Gás Tramontina Penta Inox Full 5GX 90 Safestop Inox 304 5 Queimadores Bivolt
+
+TAG TITLE
+Cooktop Tramontina Penta Inox Full 5GX 90 cm | Unikitchen
+
+META DESCRIPTION
+Cooktop a gás Tramontina Penta Inox Full 90 cm em inox 304, 5 queimadores, tripla chama de 4,1 kW, Safestop e suporte wok. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site 94728/174 e ficha PDF (03/2026). Manual do modelo não recebido (sem potência elétrica, categoria, pressões e diâmetros de panela).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (site Tramontina, "com embalagem"): A 18, L 97 (96,5), P 59 cm, 30,15 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 5; Modelo 94728174; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Aço inoxidável; Cor principal Inox; Tipo de controle Manípulos; Tipo de gás GLP e GN; Profundidade de montagem 48 cm; Altura 12,2 cm; Potência total 11,6 kW; Peso 26,95 kg; Frequência 50-60 Hz; Largura 90 cm; Largura de montagem 77 cm
+Em branco: ecológico, superaquecimento, trava, eficiência energética (rendimento 59%), comprimento de montagem, etiqueta.
+Conflitos: queimador auxiliar – ficha "1,10 kW" x site "1,0 kW" e soma da potência total 11,60 kW → 1,00 kW; uso – site "uso doméstico" x ficha "semiprofissional" → semiprofissional (mesmo critério dos outros Penta).
+Observação: o "Inox 304" que estava numa lista antiga de nomes agora é confirmado pela ficha ("aço inoxidável AISI 304") → entrou com o texto do glossário.
+Entrou: inox AISI 304 (ficha) + texto do glossário, suporte para wok, rendimento 59%, trempes inteiriças com apoio de borracha, zamak, medidas, pesos, embalagem, recorte 770 x 480, queimador selado, regra da conversão para GN.
