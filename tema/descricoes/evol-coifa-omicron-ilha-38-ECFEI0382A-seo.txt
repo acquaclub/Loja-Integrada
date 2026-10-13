@@ -17,7 +17,9 @@ AÇÃO DA LISTA: nenhuma.
 CADASTRO / ESPECIFICAÇÕES (todos vazios hoje)
 Embalagem: peso 0 kg → 24,4 kg (peso bruto oficial). Medidas 129 / 38 / 15 sem dado oficial → manter (conferir).
 Preencher: Modelo ECFEI0382A; Com saída Sim; Controle remoto Não; Função Exaustor/Depurador; Tipo de instalação Ilha; Materiais Aço inoxidável; Largura 38 cm; Linha Ômicron; Velocidades 3; Modelo alfanumérico ECFEI0382A
-Em branco: Potência do motor, Altura (não informadas)
-Conflito: "Diferenciais" do site dizem "filtro de aço inoxidável"; tabela do site e guia dizem "Alumínio" → alumínio.
+Em branco: Altura (não informada)
+Conflito filtro: site (tabela) e guia "Alumínio" x site (diferenciais) e manual "Aço inox" → material do filtro omitido.
+Conflito lâmpada maior: guia 2,7 W x manual 3 W → só "4 lâmpadas LED (3 de 1 W + 1 maior)".
+Manual: potência 386 W → Potência do motor 386 W.
 Inox 304: texto de mercado (marcas.md) aplicado.
 Saiu: altura 686–1286 mm "telescópica", "filtros de carvão vendidos separadamente", "varandas gourmet", "cooktops de até 60 cm", "Teto", "motor alta performance", "única linha tubular com inox 304" (superlativo).
