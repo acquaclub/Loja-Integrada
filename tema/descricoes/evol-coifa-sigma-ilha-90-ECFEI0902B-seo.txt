@@ -14,8 +14,9 @@ Principal: Coifa de Ilha (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma.
 
-CADASTRO / ESPECIFICAÇÕES (cadastro atual não enviado; usar igual à Delta)
+CADASTRO / ESPECIFICAÇÕES (todos vazios hoje)
 Embalagem: peso 28,6 kg (bruto oficial); medidas sem dado oficial → conferir
 Preencher: Modelo ECFEI0902B; Com saída Sim; Controle remoto Não; Função Exaustor/Depurador; Tipo de instalação Ilha; Materiais Aço inoxidável e vidro; Largura 90 cm; Linha Sigma; Velocidades 3; Potência do motor 390 W; Modelo alfanumérico ECFEI0902B; Altura 30 cm (corpo, sem chaminé)
 Peso: site "peso bruto 28,6" e manual "peso 28,3" → os dois (rótulos diferentes).
 Não usado: "única linha de coifas do mercado..." (superlativo).
+Saiu: "Cristal Preto emoldurado", "Baffle", "corta-chamas", "cozinhas profissionais", "ligue antes de chegar em casa", "filtros de carvão vendidos separadamente", "estrutura do teto deve suportar o peso", "motor alta performance", "Teto".
