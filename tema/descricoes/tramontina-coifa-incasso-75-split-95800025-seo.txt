@@ -5,7 +5,7 @@ TAG TITLE
 Coifa de Embutir Tramontina Incasso 75 Split | Unikitchen
 
 META DESCRIPTION
-Coifa de embutir Tramontina Incasso 75 Split em aço inox, motor a até 12 m, 830 m³/h, 4 velocidades, 220V. Lojas em Sorocaba e Itapetininga.
+Coifa de embutir Tramontina Incasso 75 Split em aço inox, motor separado e silencioso, 830 m³/h, 4 velocidades, 220V. Lojas em Sorocaba e Itapetininga.
 
 URL: manter a atual (não enviada)
 
@@ -19,4 +19,7 @@ Embalagem: site "altura 59, largura 36,5, comprimento 82 cm, 18,4 kg" → A 59, 
 Modelo: 95800/025 (ok) | Modelo alfanumérico: 95800025
 Preencher: Largura 75 cm; Altura 15 cm; Potência do motor 404 W (potência máxima)
 Ok: Com saída Sim, controle remoto Não, Exaustor, De embutir, Aço inoxidável, Incasso, 4 velocidades
-Saiu: motor a "6 metros" (oficial: 12 m), filtros "5 camadas" e "lava-louças", "Scotch Brite", "não aceita filtro de carvão", "renovação eficiente do ar", "móvel superior".
+Saiu: distância do motor (site 12 m x ficha 6 m – conflito, omitida), filtros "laváveis em lava-louças", "Scotch Brite", "não aceita filtro de carvão", "renovação eficiente do ar", "móvel superior".
+Ficha + manual (13/10): filtros com 5 camadas; vazão/ruído por velocidade; peso coifa 4,9 + motor 9,8, bruto 18,4; disjuntor 10 A; IPX0; Classe I; motor não pode ficar em ambiente externo; garantia até 18 meses sem autorizado.
+Potência: site e ficha 404 W x manual 401 W → 404 W (repetido).
+Manual chama o modelo de "Incasso T smart 75 Split" (mesma ref. 95800/025) – "T smart" não usado, não aparece no site nem na ficha.
