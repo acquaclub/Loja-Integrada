@@ -63,6 +63,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 17988 | Coifa de Ilha Franke New Format FTMA H40 90 cm Inox 220V | Franke | `franke-coifa-new-format-ilha-90-17988.html` | `franke-coifa-new-format-ilha-90-17988-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
 | 17986 | Coifa de Parede Franke New Format FTMA H40 90 cm Inox 220V | Franke | `franke-coifa-new-format-parede-90-17986.html` | `franke-coifa-new-format-parede-90-17986-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 | CKG-4Q-60-XQ-3ZEA | Cooktop a Gás Elettromec Quadratto 4 Queimadores Dual Flame 60 cm Inox Bivolt | Elettromec | `elettromec-cooktop-quadratto-60-CKG-4Q-60-XQ-3ZEA.html` | `elettromec-cooktop-quadratto-60-CKG-4Q-60-XQ-3ZEA-seo.txt` (URL mantida) | entregue | 13/10/2026 | Cooktops (ok) |
+| ECTGD5QM3A | Cooktop a Gás Evol 5 Queimadores Dual Flame 90 cm Inox 304 Bivolt | Evol | `evol-cooktop-5-queimadores-90-ECTGD5QM3A.html` | `evol-cooktop-5-queimadores-90-ECTGD5QM3A-seo.txt` (URL mantida) | entregue | 13/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -182,7 +183,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ECTGD4QM3C | - | Cooktop Evol à Gás Vidro Preto 4 Bocas 87cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | ECTID5QM2A | - | Cooktop de Indução Evol Smart Vidro Preto 5 Bocas 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | ECTGD4QM3A | - | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | excluído 13/10 ( 60 cm saiu de linha; 3C já cadastrado, 3D não existe no site oficial) |
-|   | ECTGD5QM3A | - | Cooktop à Gás Evol Inox 5 Bocas 90cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | ECTGD5QM3A | - | Cooktop à Gás Evol Inox 5 Bocas 90cm | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (evol-cooktop-5-queimadores-90-ECTGD5QM3A) |  |
 |   | EFGGF6QM2A | - | Fogão a Gás Profissional Evol 6 Queimadores 90 cm c/ Forno a Gás | Fogões > 6 a 8 Queimadores a Gás | S | antigo |  |
 |   | EFNEB0352A | - | Forno Elétrico de Embutir Evol IX13 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo | A: trocar código/ficha → EFNEB0352C ou EFNEB0352D |
 |   | EFNEB0352B | - | Forno Elétrico de Embutir Evol IX17 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | antigo | A: trocar código/ficha → EFNEB0352C ou EFNEB0352D |
