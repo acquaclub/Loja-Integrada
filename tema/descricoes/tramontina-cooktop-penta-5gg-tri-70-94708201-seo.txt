@@ -1,0 +1,26 @@
+NOME DO PRODUTO
+Cooktop a Gás Tramontina Penta 5GG TRI 70 Vidro Temperado Preto 5 Queimadores Bivolt
+
+TAG TITLE
+Cooktop Tramontina Penta 5GG TRI 70 cm Vidro | Unikitchen
+
+META DESCRIPTION
+Cooktop a gás Tramontina Penta 70 cm em vidro temperado preto, 5 queimadores com tripla chama de 3,8 kW, eficiência A. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (cliente decidiu manter, 13/10).
+
+FONTES: página do site 94708/201, ficha PDF (05/2023) e manual (fig. 2, tabelas 1, 2 e 3).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (site Tramontina, "com embalagem"): A 15, L 74, P 58 cm, 13,95 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 5; Modelo 94708201; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança NÃO; Ignição Superautomática; Materiais Vidro temperado; Eficiência energética A; Cor principal Preto; Tipo de controle Manípulos; Tipo de gás GLP e GN; Profundidade de montagem 48 cm; Altura 11,5 cm; Potência total 11,5 kW; Peso 11,25 kg; Frequência 50-60 Hz; Largura 69 cm (largura comercial 70 cm); Largura de montagem 60 cm
+Em branco: ecológico, superaquecimento, trava, comprimento de montagem, etiqueta.
+Conflitos: tripla chama "deslocado" (ficha) x desenho do manual e foto (no centro) → omitido "deslocado"; linha – site "Perfecta" x ficha (selo "Prime") → linha omitida; panelas – site "todos os tipos exceto barro" x manual "não usar fundo arredondado nem barro" → manual.
+Não usado: "manípulo que não aquece" (→ "resistente ao calor"); distâncias C/D/E da tabela 1 (sem legenda clara).
+Entrou: tudo da ficha/manual (produto antigo sem descrição revisada).
+Atenção: SEM válvula de segurança (site "Safestop: Não") → no cadastro, "Com válvulas de segurança: Não".
