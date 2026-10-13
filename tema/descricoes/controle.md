@@ -181,7 +181,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ECTGD2QM3A | - | Cooktop Dominó Evol a Gás 2 Queimadores 1 Tripla chama e 1 Rápido Bivolt Siena | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | ECTGD4QM3C | - | Cooktop Evol à Gás Vidro Preto 4 Bocas 87cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | ECTID5QM2A | - | Cooktop de Indução Evol Smart Vidro Preto 5 Bocas 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
-|   | ECTGD4QM3A | - | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | D: excluir (cliente 13/10: 60 cm saiu de linha; 3C já cadastrado, 3D não existe no site oficial) |
+|   | ECTGD4QM3A | - | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | excluído 13/10 ( 60 cm saiu de linha; 3C já cadastrado, 3D não existe no site oficial) |
 |   | ECTGD5QM3A | - | Cooktop à Gás Evol Inox 5 Bocas 90cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | EFGGF6QM2A | - | Fogão a Gás Profissional Evol 6 Queimadores 90 cm c/ Forno a Gás | Fogões > 6 a 8 Queimadores a Gás | S | antigo |  |
 |   | EFNEB0352A | - | Forno Elétrico de Embutir Evol IX13 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo | A: trocar código/ficha → EFNEB0352C ou EFNEB0352D |
