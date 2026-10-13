@@ -59,6 +59,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | ECFEI0382A | Coifa de Ilha Evol Smart Ômicron Tubular 38 cm Inox 304 220V | Evol | `evol-coifa-omicron-ilha-38-ECFEI0382A.html` | `evol-coifa-omicron-ilha-38-ECFEI0382A-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
 | ECFEI0902B | Coifa de Ilha Evol Smart Sigma 90 cm Inox 304 e Vidro Preto 220V | Evol | `evol-coifa-sigma-ilha-90-ECFEI0902B.html` | `evol-coifa-sigma-ilha-90-ECFEI0902B-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
 | ECFEP0902A | Coifa de Parede Evol Smart Sigma 90 cm Inox 304 220V | Evol | `evol-coifa-sigma-parede-90-ECFEP0902A.html` | `evol-coifa-sigma-parede-90-ECFEP0902A-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
+| ECFEP0902B | Coifa de Parede Evol Smart Zeta 90 cm Inox 304 220V | Evol | `evol-coifa-zeta-parede-90-ECFEP0902B.html` | `evol-coifa-zeta-parede-90-ECFEP0902B-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -172,7 +173,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ECFEI0902A | - | Coifa Evol Smart Delta de Ilha 90cm Inox 220V | Coifas > Coifa de Ilha | S | feito 13/10 (evol-coifa-delta-ilha-90-ECFEI0902A) |  |
 |   | ECFEI0902B | - | Coifa Evol Smart Sigma de Ilha 90cm Inox 220V | Coifas > Coifa de Ilha | S | feito 13/10 (evol-coifa-sigma-ilha-90-ECFEI0902B) |  |
 |   | ECFEP0902A | - | Coifa Evol Smart Sigma de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | feito 13/10 (evol-coifa-sigma-parede-90-ECFEP0902A) |  |
-|   | ECFEP0902B | - | Coifa Evol Smart Zeta de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | antigo |  |
+|   | ECFEP0902B | - | Coifa Evol Smart Zeta de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | feito 13/10 (evol-coifa-zeta-parede-90-ECFEP0902B) |  |
 |   | ECFEI0382A | - | Coifa Evol Smart Ômicron de Ilha 38cm Inox 220V | Coifas > Coifa de Ilha | S | feito 13/10 (evol-coifa-omicron-ilha-38-ECFEI0382A) |  |
 |   | ECTGD2QM3A | - | Cooktop Dominó Evol a Gás 2 Queimadores 1 Tripla chama e 1 Rápido Bivolt Siena | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | ECTGD4QM3C | - | Cooktop Evol à Gás Vidro Preto 4 Bocas 87cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
