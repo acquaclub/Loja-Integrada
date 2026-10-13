@@ -79,6 +79,9 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 
 ## Tramontina
 
+### Coifas split (decisão do cliente, 13/10/2026)
+- Distância do motor: o site diz "até 12 metros", a ficha PDF diz "até 6 metros" → **usar 6 metros** (Incasso 75 Split, Dritta Isla T smart 90 Split e demais split).
+
 ### Garantia (site e ficha PDF das adegas Senses T smart, recebidos em 08/10/2026)
 - **1 ano**: 3 meses (90 dias) de garantia legal + 9 meses de garantia contratual, contra vícios ou defeitos de fabricação, contados da NF-e.
 - Extensível até **24 meses**: +6 meses registrando o produto (gratuito) em app.tramontina.cloud/additional-warranty/register; +6 meses instalando com o Serviço Autorizado Tramontina (instalação não gratuita). Sem o autorizado: até 18 meses. Registro dentro do período de garantia contratual; válido só no Brasil.
