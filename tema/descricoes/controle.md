@@ -61,6 +61,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | ECFEP0902A | Coifa de Parede Evol Smart Sigma 90 cm Inox 304 220V | Evol | `evol-coifa-sigma-parede-90-ECFEP0902A.html` | `evol-coifa-sigma-parede-90-ECFEP0902A-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 | ECFEP0902B | Coifa de Parede Evol Smart Zeta 90 cm Inox 304 220V | Evol | `evol-coifa-zeta-parede-90-ECFEP0902B.html` | `evol-coifa-zeta-parede-90-ECFEP0902B-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 | 17988 | Coifa de Ilha Franke New Format FTMA H40 90 cm Inox 220V | Franke | `franke-coifa-new-format-ilha-90-17988.html` | `franke-coifa-new-format-ilha-90-17988-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
+| 17986 | Coifa de Parede Franke New Format FTMA H40 90 cm Inox 220V | Franke | `franke-coifa-new-format-parede-90-17986.html` | `franke-coifa-new-format-parede-90-17986-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -200,7 +201,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 | Feito | SKU | Variações | Produto | Categoria | Ativo | Descrição | Ação pendente |
 |---|---|---|---|---|---|---|---|
 |   | 17988 | - | Coifa New Format FTMA H40 Ilha 90cm - Franke | Coifas > Coifa de Ilha | S | feito 13/10 (franke-coifa-new-format-ilha-90-17988) |  |
-|   | 17986 | - | Coifa New Format FTMA H40 Parede 90cm - Franke | Coifas > Coifa de Parede | S | antigo |  |
+|   | 17986 | - | Coifa New Format FTMA H40 Parede 90cm - Franke | Coifas > Coifa de Parede | S | feito 13/10 (franke-coifa-new-format-parede-90-17986) |  |
 |   | 14609 | - | Cuba Box De Embutir e Sobrepor Franke 16x41 c/ válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |
 |   | 15196 | - | Cuba Box De Embutir e Sobrepor Franke 36x41 c/ Válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |
 |   | 15194 | - | Cuba Box De Embutir e Sobrepor Franke 45x41 c/ Válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |

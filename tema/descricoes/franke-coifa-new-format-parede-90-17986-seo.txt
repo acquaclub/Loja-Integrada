@@ -1,0 +1,23 @@
+NOME DO PRODUTO
+Coifa de Parede Franke New Format FTMA H40 90 cm Inox 220V
+
+TAG TITLE
+Coifa de Parede Franke New Format 90 cm Inox | Unikitchen
+
+META DESCRIPTION
+Coifa de parede Franke New Format 90 cm em inox, 870 m³/h, filtro Baffle, 65 dB, 3 velocidades e timer, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Coifa de Parede (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+CADASTRO / ESPECIFICAÇÕES (todos vazios hoje)
+Embalagem (manual: 940 x 365 x 545 mm, lida na ordem do produto L x P x A): L 94, P 37 (36,5), A 55 (54,5) cm; peso 18 kg (hoje 0 kg, 15/90/60 → corrigir)
+Preencher: Modelo 17986; Com saída Sim; Controle remoto Não; Função Exaustor/Depurador; Tipo de instalação Parede; Materiais Aço inoxidável; Largura 90 cm; Linha New Format; Velocidades 3; Potência do motor 300 W; Modelo alfanumérico 17986; Altura 53 cm (altura mínima com chaminé, 528 mm)
+Conflitos: extração 780 (destaques do site) x 870 m³/h (ficha do manual, imagem oficial) → 870; frequência 50/60 Hz (site) x 60 Hz (ficha) → 60 Hz; instalação "ilha ou parede" (texto/imagem) x "parede" (tabela/manual) → parede; corpo "em inox e vidro" (legenda do manual) x inox (site, imagens) → só inox.
+Saiu (texto antigo): profundidade "480 mm (aprox.)", "Aprox. 300 W", "consumo 0,300 kWh", explicação inventada do Baffle (calhas internas, cozinhas industriais), "surpreendentemente silenciosa", emoji do alerta.
+Entrou: 303 W total / 300 W motor, 2 LEDs de 1,5 W, medidas 895 x 500 x 528–978 mm, chaminé 324 x 283, pesos 15/18 kg, altura mínima 650 mm, duto 150/120 mm até 5 m, timer 1–60 min, troca de lâmpadas pela Assistência Técnica, filtro de carvão a cada 4 meses.
+Manual salvo em fichas/franke-FTMA-H40-XS-90-manual.pdf.
