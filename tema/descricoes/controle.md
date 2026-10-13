@@ -55,6 +55,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 95800123 | Coifa de Parede Tramontina Design Collection Dritta Wall Silent Pro 90 220 V em Aço Inox | Tramontina | `tramontina-coifa-dritta-wall-silent-pro-90-95800123.html` | `tramontina-coifa-dritta-wall-silent-pro-90-95800123-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 | 95800023 | Coifa de Parede Tramontina Dritta Wall 90 Split em Aço Inox 90 cm 220 V | Tramontina | `tramontina-coifa-dritta-wall-90-split-95800023.html` | `tramontina-coifa-dritta-wall-90-split-95800023-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
 | 95800030 | Coifa de Parede Tramontina Slim Wall T smart 90 Split em Aço Inox com Acabamento Acetinado 220 V | Tramontina | `tramontina-coifa-slim-wall-tsmart-90-split-95800030.html` | `tramontina-coifa-slim-wall-tsmart-90-split-95800030-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Parede (ok) |
+| ECFEI0902A | Coifa de Ilha Evol Smart Delta 90 cm Inox 304 220V | Evol | `evol-coifa-delta-ilha-90-ECFEI0902A.html` | `evol-coifa-delta-ilha-90-ECFEI0902A-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -165,7 +166,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | CBY400 | - | Churrasqueira à Gás Evol Prime Modena 34" 3 Queimadores e 1 Infrared Inox | Churrasqueiras > Churrasqueiras a Gás | N | feito 09/10 (evol-churrasqueira-modena-34-CBY400) | B: reativar |
 |   | CBK301M | - | Churrasqueira à Gás Evol Verona 3 Queimadores e 1 Infrared 69cm | Churrasqueiras > Churrasqueiras a Gás | S | feito 09/10 (evol-churrasqueira-verona-CBK301M) |  |
 |   | CBY200SB | - | Side Burner à Gás Evol 2 Queimadores Tripla-Chama Inox 34cm | Churrasqueiras > Side Burner | S | antigo |  |
-|   | ECFEI0902A | - | Coifa Evol Smart Delta de Ilha 90cm Inox 220V | Coifas > Coifa de Ilha | S | antigo |  |
+|   | ECFEI0902A | - | Coifa Evol Smart Delta de Ilha 90cm Inox 220V | Coifas > Coifa de Ilha | S | feito 13/10 (evol-coifa-delta-ilha-90-ECFEI0902A) |  |
 |   | ECFEI0902B | - | Coifa Evol Smart Sigma de Ilha 90cm Inox 220V | Coifas > Coifa de Ilha | S | antigo |  |
 |   | ECFEP0902A | - | Coifa Evol Smart Sigma de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | antigo |  |
 |   | ECFEP0902B | - | Coifa Evol Smart Zeta de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | antigo |  |
