@@ -14,10 +14,10 @@ Principal: Coifa de Parede (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma.
 
-CADASTRO / ESPECIFICAÇÕES (cadastro atual não enviado)
-Embalagem: peso 38,1 kg (bruto, manual); medidas: mandar "medidas com embalagem" do site
-Com saída: Sim | Função: Exaustor (somente exaustão – ficha)
-Preencher: Potência do motor 215 W; Altura 54 a 102 cm (se pedir número, 102 cm); Largura 90 cm; Velocidades 8; Modelo alfanumérico 95800123; Linha Dritta Wall Silent Pro
+CADASTRO / ESPECIFICAÇÕES (todos os campos vazios hoje)
+Embalagem: peso 38,1 kg (ok, bruto do manual); medidas 97 / 90 / 50 = produto → mandar "medidas com embalagem" do site
+Preencher: Modelo 95800/123; Com saída Sim; Controle remoto Não; Função Exaustor; Tipo de instalação Parede; Materiais Aço inoxidável; Largura 90 cm; Linha Dritta Wall Silent Pro; Velocidades 8; Potência do motor 215 W; Modelo alfanumérico 95800123; Altura 54 a 102 cm (se pedir número, 102 cm)
+Saiu da descrição antiga: modo depurador/filtro de carvão opcional, motor "a até 12 m", "acetinado", altura 490–970 (é só a chaminé; total 540–1020), peso 30,7 kg (oficial 16,7 + 14), "timer programável".
 Conflitos: acabamento site "acetinado" x ficha "scotch brite" → omitido (só "aço inox AISI 430").
 Não usado: distância do motor (ficha "até 12 metros"; site não cita; na Isla Silent Pro também ficou de fora).
 Grau de proteção: manual traz uma linha só (IPX4); ficha diz que a caixa do motor é IPX4.
