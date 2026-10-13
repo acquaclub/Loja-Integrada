@@ -16,7 +16,8 @@ AÇÃO DA LISTA: nenhuma.
 
 CADASTRO / ESPECIFICAÇÕES
 Com saída: Não → Sim (só exaustor)
-Embalagem: peso 41 kg (bruto, manual; já está). Medidas 124 / 90 / 60 = produto → mandar as "medidas com embalagem" do site para corrigir.
+Embalagem: site "altura 64,5, largura 45,5, comprimento 94 cm, 41 kg" → A 65, L 46, P 94, 41 kg (hoje 41 kg, 124 / 90 / 60 = produto)
+Altura do produto: site 124 cm x desenho 670–1150 mm → usado o desenho.
 Linha: DRITTA ISLA SPLIT → Dritta Isla T smart (opcional)
 Preencher: Potência do motor 404 W (potência elétrica total); Altura 67 a 115 cm (se o campo pedir um número, 115 cm); Modelo alfanumérico 95800024
 Ok: Exaustor, Ilha, Aço inoxidável, 90 cm, 4 velocidades, controle remoto Não
