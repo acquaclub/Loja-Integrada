@@ -49,6 +49,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CFI-MOB-90-VP-2ATC | Coifa de Embutir Elettromec Mobile Vetro Built-in Connect 90 cm Vidro Preto 220V | Elettromec | `elettromec-coifa-mobile-vetro-90-CFI-MOB-90-VP-2ATC.html` | `elettromec-coifa-mobile-vetro-90-CFI-MOB-90-VP-2ATC-seo.txt` (URL mantida) | entregue | 09/10/2026 | Coifa de Embutir (nova; tirar Coifa de Parede) |
 | 95800025 | Coifa de Embutir Tramontina Incasso 75 Split em Aço Inox 75 cm 220 V | Tramontina | `tramontina-coifa-incasso-75-split-95800025.html` | `tramontina-coifa-incasso-75-split-95800025-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Embutir (estava sem categoria) |
 | 95800124 | Coifa de Ilha Tramontina Design Collection Dritta Isla Silent Pro 90 220 V em Aço Inox | Tramontina | `tramontina-coifa-dritta-isla-silent-pro-90-95800124.html` | `tramontina-coifa-dritta-isla-silent-pro-90-95800124-seo.txt` (URL mantida) | entregue | 13/10/2026 | Coifa de Ilha (ok) |
+| 95800024 | Coifa de Ilha Tramontina Dritta Isla T smart 90 Split em Aço Inox 90 cm 220 V | Tramontina | `tramontina-coifa-dritta-isla-tsmart-90-split-95800024.html` | `tramontina-coifa-dritta-isla-tsmart-90-split-95800024-seo.txt` (URL mantida) | entregue (falta embalagem) | 13/10/2026 | Coifa de Ilha (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -299,7 +300,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 94896202 | - | Beer Center Tramontina Senses TSmart 145 L | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tramontina-beer-center-senses-145-94896202) |  |
 |   | 94896201 | - | Cervejeira Beer Center Tramontina Senses TSmart 85 L | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tramontina-beer-center-senses-85-94896201) |  |
 |   | 95800124 | - | Coifa de Ilha Tramontina Design Collection Dritta Isla Silent Pro 90 220 V em Aço Inox | Coifas > Coifa de Ilha | S | feito 13/10 (tramontina-coifa-dritta-isla-silent-pro-90-95800124) |  |
-|   | 95800024 | - | Coifa de Ilha Tramontina Dritta Isla 90 Split em Aço Inox 90 cm 220V | Coifas > Coifa de Ilha | S | antigo |  |
+|   | 95800024 | - | Coifa de Ilha Tramontina Dritta Isla 90 Split em Aço Inox 90 cm 220V | Coifas > Coifa de Ilha | S | feito 13/10 (tramontina-coifa-dritta-isla-tsmart-90-split-95800024) |  |
 |   | 95800031 | - | Coifa de Ilha Tramontina Slim Isla 90 Split em Aço Inox com Acabamento Acetinado 90 cm | Coifas > Coifa de Ilha | S | antigo |  |
 |   | 94833221 | - | Coifa de Ilha Tramontina Tube Isla 35 em Aço Inox 220 V | Coifas > Coifa de Ilha | S | antigo |  |
 |   | 95800123 | - | Coifa de Parede Tramontina Design Collection Dritta Wall Silent Pro 90 220 V em Aço Inox | Coifas > Coifa de Parede | S | antigo |  |
