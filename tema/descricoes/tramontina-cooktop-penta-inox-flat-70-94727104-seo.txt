@@ -1,0 +1,23 @@
+NOME DO PRODUTO
+Cooktop a Gás Tramontina Penta Inox Flat 5GX 70 Safestop Aço Inox 5 Queimadores Bivolt
+
+TAG TITLE
+Cooktop Tramontina Penta Inox Flat 5GX 70 cm | Unikitchen
+
+META DESCRIPTION
+Cooktop a gás Tramontina Penta Inox Flat 70 cm em aço inox, 5 queimadores, tripla chama de 4,1 kW e Safestop. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (site Tramontina, "com embalagem"): A 16, L 77, P 57 cm, 21,8 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 5; Modelo 94727104; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Aço inoxidável; Cor principal Inox; Tipo de controle Manípulos; Tipo de gás GLP e GN; Profundidade de montagem 48 cm; Altura 12,5 cm; Potência total 11,6 kW; Peso 19 kg; Frequência 50-60 Hz; Largura 70 cm; Largura de montagem 65,5 cm
+Em branco: ecológico, superaquecimento, trava, eficiência energética (classe não informada; rendimento 58%), comprimento de montagem, etiqueta.
+Conflitos: manípulos – texto do site "baquelite" x informações técnicas do site "Zamak" e ficha PDF "Zamak" → Zamak; "tripla chama deslocada" (texto) x desenho do manual (tripla chama no centro) → omitido "deslocada"; recorte – ficha 655 x 475 x manual e site 655 x 480 → 480.
+Saiu/não usado: "design premiado internacionalmente, vencendo nos prêmios mais importantes" (sem prêmio citado → superlativo), "produto exclusivo", "altamente sofisticada e tecnológica". Limpeza do site fala em "mesa de vidro" (erro de cópia) → descrição diz só "mesa".
+Entrou: rendimento 58% (ficha), medidas, pesos, potência elétrica 5 W e categoria II 2,3 (tabela do manual), recorte 655 x 480, diâmetro de panela por queimador, semiprofissional (manual), queimador selado, regra da conversão para GN.
