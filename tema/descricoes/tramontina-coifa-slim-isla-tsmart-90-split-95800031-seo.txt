@@ -1,0 +1,25 @@
+NOME DO PRODUTO
+Coifa de Ilha Tramontina Slim Isla T smart 90 Split em Aço Inox com Acabamento Acetinado 90 cm (oficial: "T smart")
+
+TAG TITLE
+Coifa de Ilha Tramontina Slim T smart 90 Split | Unikitchen
+
+META DESCRIPTION
+Coifa de ilha Tramontina Slim Isla T smart 90 Split, inox acetinado, motor a até 6 m, app e Alexa, 845 m³/h, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (não enviada)
+
+CATEGORIAS
+Principal: Coifa de Ilha (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: site "altura 64,5, largura 45,5, comprimento 94 cm, 48 kg" → A 65, L 46, P 94, 48 kg (hoje 48 kg, 115 / 90 / 60 = produto)
+Com saída: (vazio) → Sim | Função: Coifa → Exaustor
+Linha: Slim Isla Split → Slim Isla T smart (opcional)
+Preencher: Potência do motor 404 W; Altura 67 a 115 cm (se pedir número, 115 cm); Modelo alfanumérico 95800031
+Ok: Ilha, Aço inoxidável, 90 cm, 4 velocidades, controle remoto Não
+Conflitos: motor site 12 m x ficha 6 m → 6 m (regra do cliente); frequência site 60 Hz x manual 50-60 Hz → 50-60 (tabela); altura site 120 cm x desenho 670–1150 mm → desenho; pé-direito ficha "até 4 metros".
+Não usado (só no parágrafo do site, sem confirmação na ficha/manual): timer "de 5 minutos", "monitoramento do tempo de uso dos filtros", "desligamento automático contra superaquecimento", "Google Assistant" (ficha: Google Home).
+Saiu: 12 m, 405 W, peso 41,6 (oficial 31,8 + 9,8), "Teto", "silêncio absoluto", "timer programável".
