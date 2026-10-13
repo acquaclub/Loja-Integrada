@@ -17,6 +17,6 @@ AÇÃO DA LISTA: nenhuma.
 CADASTRO / ESPECIFICAÇÕES (todos vazios hoje)
 Embalagem: peso 0 kg → 27,5 kg (peso bruto oficial). Medidas 124 / 90 / 58 sem dado oficial de embalagem → manter.
 Preencher: Modelo ECFEI0902A; Com saída Sim; Controle remoto Não; Função Exaustor/Depurador; Tipo de instalação Ilha; Materiais Aço inoxidável; Largura 90 cm; Linha Delta; Velocidades 3; Modelo alfanumérico ECFEI0902A; Altura 30 cm (corpo, sem chaminé)
-Em branco: Potência do motor (oficial só traz vazão)
+Potência do motor: 390 W (tabela do manual, recebida em 13/10; manual diz peso 27,5 kg = bruto do site)
 Saiu: "Baffle", "corta-chamas", "uso em cozinhas industriais", "filtros de carvão vendidos separadamente", "estrutura do teto deve suportar o peso", "Teto/inteiramente em inox", "motor de alta performance", "única no mercado em inox 304" (superlativo, não usado).
 Inox 304 x litoral: texto de mercado (marcas.md, glossário) incluído a pedido do cliente, com ressalva de limpeza regular.
