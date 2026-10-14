@@ -1,0 +1,28 @@
+NOME DO PRODUTO
+Dominó a Gás Elettromec Quadratto 2 Queimadores 30 cm Inox Bivolt
+
+TAG TITLE
+Dominó a Gás Elettromec Quadratto 2 Queimadores | Unikitchen
+
+META DESCRIPTION
+Dominó a gás Elettromec Quadratto 30 cm em inox, 2 queimadores Sabaf, válvula de segurança e trempes de ferro fundido. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Dominós (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site Elettromec, guia comercial (PDF) e manual (desenho do produto, tabela de injetores). A tabela de especificações enviada é do DG-1Q-30 (1 queimador), não usada.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia: 368 x 125 x 585 mm, L x A x P): A 13 (12,5), L 37 (36,8), P 59 (58,5) cm, 6 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 2; Modelo DG-2Q-30-XQ-3ZEA; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Aço inoxidável; Cor principal Inox; Tipo de controle Manípulos; Tipo de gás GLP e GN; Altura 6 cm; Potência total 4 kW; Peso 5 kg; Largura 30,5 cm
+Em branco: ecológico, superaquecimento, trava, eficiência, frequência (só na tabela do DG-1Q), medidas de montagem (recorte não informado), etiqueta.
+Conflitos:
+- Queimador posterior: guia e site "rápido 3,0 kW" x desenho do manual "Dual Flame com trempe wok" → rápido 3,0 kW (2 fontes; soma 4,0 kW bate). Confirmar com a Elettromec.
+- Diâmetros de panela: manual x guia divergem → omitidos (mesmo caso do CKG-4Q-60).
+- Corrente: guia "0,01 A" (tabela do 2Q não enviada) → omitida.
+- Guia diz "Total de queimadores: 1" (erro; são 2).
+- Garantia: guia "estender de 1 para 2 anos" x termo (2 anos) → bloco padrão.
