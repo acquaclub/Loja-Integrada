@@ -80,6 +80,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | ECTID5QM2A | Cooktop de Indução Evol Smart 5 Zonas 90 cm Vitrocerâmico Preto 220V | Evol | `evol-cooktop-inducao-smart-5-zonas-90-ECTID5QM2A.html` | `evol-cooktop-inducao-smart-5-zonas-90-ECTID5QM2A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 | 947093 (94709301 preto, 94709371 branco) | Cooktop a Gás Tramontina Penta Side Plus 5GG TRI 90 Vidro Temperado 5 Queimadores Bivolt | Tramontina | `tramontina-cooktop-penta-side-plus-90-947093.html` | `tramontina-cooktop-penta-side-plus-90-947093-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 | 94748022 | Cooktop Elétrico Tramontina New Dominó Touch 2EV 30 Vitrocerâmico 2 Áreas 220V | Tramontina | `tramontina-domino-eletrico-new-domino-touch-2ev-30-94748022.html` | `tramontina-domino-eletrico-new-domino-touch-2ev-30-94748022-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
+| DE-BQ-30-XQ-2ZEA | Dominó Barbecue Elétrico Elettromec Quadratto 30 cm Inox 2.100 W 220V | Elettromec | `elettromec-domino-quadratto-barbecue-30-DE-BQ-30-XQ-2ZEA.html` | `elettromec-domino-quadratto-barbecue-30-DE-BQ-30-XQ-2ZEA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -138,7 +139,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | DI-2Q-30-CI-2XBB | - | Cooktop Dominó Elétrico Indução Elettromec 2 Bocas 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | N | feito 14/10 (elettromec-domino-inducao-30-DI-2Q-30-CI-2KSA) | A: trocar código → DI-2Q-30-CI-2KSA e reativar |
 |   | DG-1Q-30-XQ-3ZEA | - | Cooktop Elettromec Dominó Quadratto 1 Queimador Dual Flame Inox 30cm Bivolt | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | DG-2Q-30-XQ-3ZEA | - | Cooktop Elettromec Dominó Quadratto 2 Queimadores Inox 30cm Bivolt | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
-|   | DE-BQ-30-XQ-2ZEA | - | Cooktop Elettromec Dominó Quadratto Barbecue Elétrico Inox 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
+|   | DE-BQ-30-XQ-2ZEA | - | Cooktop Elettromec Dominó Quadratto Barbecue Elétrico Inox 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (elettromec-domino-quadratto-barbecue-30-DE-BQ-30-XQ-2ZEA) |  |
 |   | CKG-4Q-60-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 4 Bocas Inox 60cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-75-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-90-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
