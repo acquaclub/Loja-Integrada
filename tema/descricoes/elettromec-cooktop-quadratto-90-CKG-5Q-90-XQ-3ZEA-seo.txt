@@ -1,0 +1,23 @@
+NOME DO PRODUTO
+Cooktop a Gás Elettromec Quadratto 5 Queimadores Dual Flame 90 cm Inox Bivolt
+
+TAG TITLE
+Cooktop Elettromec Quadratto 5 Bocas 90 cm Inox | Unikitchen
+
+META DESCRIPTION
+Cooktop a gás Elettromec Quadratto 90 cm, 5 queimadores com Dual Flame de 4,0 kW, trempes de ferro fundido e suporte Wok. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site, guia comercial (PDF) e manual Quadratto (desenho dos modelos, tabela de injetores, cabos). A tabela de especificações enviada é do CKG-4Q-60 (não usada para medidas/frequência).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia: 915 x 125 x 580 mm, L x A x P): A 13 (12,5), L 92 (91,5), P 58 cm, 16 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 5; Modelo CKG-5Q-90-XQ-3ZEA; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Aço inoxidável; Cor principal Inox; Tipo de controle Manípulos; Tipo de gás GLP e GN; Altura 6 cm; Potência total 11,5 kW; Peso 14 kg; Largura 86 cm (largura comercial 90 cm)
+Em branco: ecológico, superaquecimento, trava, eficiência, frequência (tabela do 5Q não recebida), medidas de montagem (recorte não informado), etiqueta.
+Conflitos: corrente – guia "0,01 A" (tabela do 5Q não recebida) → omitida; diâmetros de panela – manual x guia divergem → omitidos (mesmo critério do CKG-4Q-60); garantia – guia "1 para 2 anos" x termo → bloco padrão de 2 anos.
