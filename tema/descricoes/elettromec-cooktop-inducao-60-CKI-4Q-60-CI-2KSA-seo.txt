@@ -1,0 +1,26 @@
+NOME DO PRODUTO
+Cooktop de Indução Elettromec Vetro 4 Zonas 60 cm Vidro Preto 220V
+
+TAG TITLE
+Cooktop de Indução Elettromec 60 cm 4 Zonas | Unikitchen
+
+META DESCRIPTION
+Cooktop de indução Elettromec 60 cm, 4 zonas, Semi Flex Zone, Booster, manípulo magnético e trava de segurança, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (avaliar trocar se tiver o código antigo 2XBB)
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA (A): trocar código CKI-4Q-60-CI-2XBB → CKI-4Q-60-CI-2KSA e REATIVAR o produto.
+
+FONTES: página do site, guia comercial (PDF) e manual (cap. 3, 9 e tabelas de potência e desligamento).
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: 7898593939202 | NCM 8516.60.00 | SKU/Modelo: CKI-4Q-60-CI-2KSA
+Embalagem (guia: 655 x 120 x 585 mm, L x A x P): A 12, L 66 (65,5), P 59 (58,5) cm, 9,7 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Elétrico; Bocas 4; Modelo CKI-4Q-60-CI-2KSA; Conversível GN Não; Conversível engarrafado Não; Temporizador Sim; Proteção contra superaquecimento Sim; Trava de segurança Sim; Válvulas de segurança Não; Materiais Vitrocerâmica (ou Vidro); Cor principal Preto; Tipo de controle Touch; Altura 6,2 cm; Potência total 7.200 W; Peso 8,4 kg; Frequência 60 Hz; Largura 59 cm
+Em branco: ecológico, tipo de ignição, eficiência, tipo de gás, profundidade/largura/comprimento de montagem (recorte não informado), etiqueta.
+Conflitos: cor – guia "Cor do acabamento: Inox" x mesa em vidro preto (guia, site, manual) → descrição diz "vidro preto com frame de aço inox"; no cadastro, Cor principal Preto (o inox é só o frame).
+Não informado: medidas do recorte na bancada → pedir à Elettromec ou conferir o manual de instalação.
+Entrou: tudo (descrição nova com o código novo).

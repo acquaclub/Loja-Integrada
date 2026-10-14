@@ -72,6 +72,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 94728174 | Cooktop a Gás Tramontina Penta Inox Full 5GX 90 Safestop Inox 304 5 Queimadores Bivolt | Tramontina | `tramontina-cooktop-penta-inox-full-90-94728174.html` | `tramontina-cooktop-penta-inox-full-90-94728174-seo.txt` (URL mantida) | entregue | 13/10/2026 | Cooktops (ok) |
 | 94700214 (novo, substitui 94702201) | Cooktop a Gás Tramontina Dominó 2GX HE Safestop 30 Inox 304 2 Queimadores Bivolt | Tramontina | `tramontina-domino-2gx-he-safestop-30-94700214.html` | `tramontina-domino-2gx-he-safestop-30-94700214-seo.txt` (URL nova) | entregue | 13/10/2026 | Dominós |
 | 94708201 | Cooktop a Gás Tramontina Penta 5GG TRI 70 Vidro Temperado Preto 5 Queimadores Bivolt | Tramontina | `tramontina-cooktop-penta-5gg-tri-70-94708201.html` | `tramontina-cooktop-penta-5gg-tri-70-94708201-seo.txt` (URL mantida) | entregue | 13/10/2026 | Cooktops (ok) |
+| CKI-4Q-60-CI-2KSA (era 2XBB) | Cooktop de Indução Elettromec Vetro 4 Zonas 60 cm Vidro Preto 220V | Elettromec | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA.html` | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -136,7 +137,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | CKG-5Q-90-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-75-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-90-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Lateral Inox Gusa 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
-|   | CKI-4Q-60-CI-2XBB | - | Cooktop Elétrico Indução Elettromec 4 Bocas 60cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | A: trocar código/ficha → CKI-4Q-60-CI-2KSA |
+|   | CKI-4Q-60-CI-2XBB | - | Cooktop Elétrico Indução Elettromec 4 Bocas 60cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | feito 14/10 (elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA) | A: trocar código → CKI-4Q-60-CI-2KSA e reativar |
 |   | CKG-4Q-60-XQ-3ZEA | - | Cooktop a Gás Elettromec Quadratto 4 Bocas Tripla Chama Inox Gusa 60cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (elettromec-cooktop-quadratto-60-CKG-4Q-60-XQ-3ZEA) |  |
 |   | FGE-5Q-90-XP-2GMA | - | Fogão Freestanding Elettromec Profissional 5 Queimadores com Forno Elétrico Inox 90cm 220V | Fogões > 5 Queimadores a Gás | S | antigo |  |
 |   | FGG-5Q-90-XP-2GMA | - | Fogão Freestanding Elettromec Profissional 5 Queimadores com Forno à Gás 116 Litros Inox 90cm 220V | Fogões > 5 Queimadores a Gás | S | antigo |  |
