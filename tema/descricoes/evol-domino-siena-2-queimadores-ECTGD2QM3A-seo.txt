@@ -14,14 +14,15 @@ Principal: Dominós (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma.
 
-FONTES: página do site Evol, guia comercial (PDF) e manual Evol de cooktops (tabelas de modelos, tamanhos/corte e diâmetro de panela).
+FONTES: página do site Evol, guia comercial (PDF) e manual Evol de cooktops (especificações, tamanhos/corte, desenho dos queimadores, instalação, diâmetro de panela).
 
 CADASTRO / ESPECIFICAÇÕES
 Embalagem: sem medida oficial → manter as atuais se plausíveis; peso: 6,3 kg (único peso oficial, sem dizer se bruto ou líquido).
 Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 2; Modelo ECTGD2QM3A; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Aço inoxidável; Cor principal Inox; Tipo de controle Manípulos; Tipo de gás GLP e GN; Profundidade de montagem 48 cm; Altura 10 cm; Potência total 5,8 kW; Peso 6,3 kg; Frequência 60 Hz; Largura 29 cm; Largura de montagem 27 cm
 Em branco: ecológico, superaquecimento, trava, eficiência, comprimento de montagem, etiqueta.
 Conflitos:
-- Queimadores: nome atual do cadastro "1 Tripla chama e 1 Rápido" e selo do site "1 Queimador Tripla Chama" x guia, características do site e manual "Dual Flame 4,0 kW + semirrápido 1,8 kW" → Dual Flame + semirrápido (nome corrigido).
+- Queimadores: nome atual do cadastro "1 Tripla chama e 1 Rápido" e selo do site "1 Queimador Tripla Chama" x guia, características do site e manual (desenho: 4 = Dual Flame, 2 = semirrápido) "Dual Flame 4,0 kW + semirrápido 1,8 kW" → Dual Flame + semirrápido (nome corrigido).
 - Linha: site "Linha Kitchen, coleção Essencial" x guia "Linha Design" → linha omitida.
 - Peso: site "6,3kW" (erro de unidade) → 6,3 kg.
-Não usado: "renomada marca", "desempenho superior", "eleva o visual", "qualidade incomparável", "superioridade", "o que há de mais moderno" (superlativos); "150 mm no mínimo" do desenho de instalação (sem legenda clara).
+Não usado: "renomada marca", "desempenho superior", "eleva o visual", "qualidade incomparável", "superioridade", "o que há de mais moderno" (superlativos); item "c" do manual sobre altura da coifa (texto cortado).
+Entrou da página de instalação do manual: bancada 20–40 mm, móvel ao lado a 110 mm, armário acima a 700 mm, locais permitidos.
