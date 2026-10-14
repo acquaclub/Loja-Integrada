@@ -74,6 +74,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 94708201 | Cooktop a Gás Tramontina Penta 5GG TRI 70 Vidro Temperado Preto 5 Queimadores Bivolt | Tramontina | `tramontina-cooktop-penta-5gg-tri-70-94708201.html` | `tramontina-cooktop-penta-5gg-tri-70-94708201-seo.txt` (URL mantida) | entregue | 13/10/2026 | Cooktops (ok) |
 | CKI-4Q-60-CI-2KSA (era 2XBB) | Cooktop de Indução Elettromec Vetro 4 Zonas 60 cm Vidro Preto 220V | Elettromec | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA.html` | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 | THV30DFL | Cooktop Dominó a Gás Tecno Original THV30DFL Queimador Triplo 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-gas-tripla-chama-30-THV30DFL.html` | `tecno-domino-gas-tripla-chama-30-THV30DFL-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
+| ECTGD2QM3A | Cooktop Dominó a Gás Evol Siena 2 Queimadores Dual Flame Inox 304 29 cm Bivolt | Evol | `evol-domino-siena-2-queimadores-ECTGD2QM3A.html` | `evol-domino-siena-2-queimadores-ECTGD2QM3A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -189,7 +190,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ECFEP0902A | - | Coifa Evol Smart Sigma de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | feito 13/10 (evol-coifa-sigma-parede-90-ECFEP0902A) |  |
 |   | ECFEP0902B | - | Coifa Evol Smart Zeta de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | feito 13/10 (evol-coifa-zeta-parede-90-ECFEP0902B) |  |
 |   | ECFEI0382A | - | Coifa Evol Smart Ômicron de Ilha 38cm Inox 220V | Coifas > Coifa de Ilha | S | feito 13/10 (evol-coifa-omicron-ilha-38-ECFEI0382A) |  |
-|   | ECTGD2QM3A | - | Cooktop Dominó Evol a Gás 2 Queimadores 1 Tripla chama e 1 Rápido Bivolt Siena | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
+|   | ECTGD2QM3A | - | Cooktop Dominó Evol a Gás 2 Queimadores 1 Tripla chama e 1 Rápido Bivolt Siena | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (evol-domino-siena-2-queimadores-ECTGD2QM3A) |  |
 |   | ECTGD4QM3C | - | Cooktop Evol à Gás Vidro Preto 4 Bocas 87cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | ECTID5QM2A | - | Cooktop de Indução Evol Smart Vidro Preto 5 Bocas 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | ECTGD4QM3A | - | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | excluído 13/10 ( 60 cm saiu de linha; 3C já cadastrado, 3D não existe no site oficial) |
