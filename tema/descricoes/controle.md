@@ -313,7 +313,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | THV30BBQ | - | Cooktop Dominó Elétrico Tecno Original Barbecue 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-barbecue-eletrico-30-THV30BBQ) |  |
 |   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-gas-tripla-chama-30-THV30DFL) |  |
 |   | THV30FRYER | - | Cooktop Fryer Dominó Tecno Fritadeira Elétrica 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
-|   | THV100 | - | Cooktop Tecno Original Rota Gás 5 Bocas Vitrocerâmico 151cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | B: reativar |
+|   | THV100 | - | Cooktop Tecno Original Rota Gás 5 Bocas Vitrocerâmico 151cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | cliente 14/10: substituir por outro produto (aguarda código) |
 |   | THV90L2 | - | Cooktop Tecno Original à Gás 5 Bocas Vitrocerâmico 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | THV30TEPPAN | - | Cooktop Vitrocerâmico Chapa Teppan Elétrica Tecno 220V Dominó - THV30TEPPAN | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | TO73EXDB | - | Forno Elétrico Multifunções Tecno Air Fry 73 Litros Inox 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | antigo | A: trocar código/ficha → TO81EXDAP |
