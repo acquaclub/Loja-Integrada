@@ -77,6 +77,21 @@ Serve para reaproveitar em várias descrições sem pedir de novo. Se a marca mu
 - SAC 0800 041 5757; vendas diretas 0800 757 5757.
 - Linha Professional: puxador tubular em inox, aço inox escovado anti-manchas.
 
+## Bertazzoni (distribuída no Brasil pelo Grupo Tecno)
+
+### Garantia (folder oficial Tecno do P905L HERXG, recebido em 14/10/2026)
+- Folder: "2 anos de garantia contra defeitos de fabricação". Atendimento pelo Grupo Tecno (SAC 0800 041 5757). Certificado próprio da Bertazzoni ainda não recebido.
+
+### Bloco de garantia usado nas descrições
+```html
+<div class="section">
+    <h3 class="section-title">Garantia</h3>
+    <div class="guarantee">
+        <p><strong>2 anos de garantia</strong> contra defeitos de fabricação, com atendimento pelo Grupo Tecno, distribuidor oficial Bertazzoni no Brasil (SAC 0800 041 5757), mediante nota fiscal.</p>
+    </div>
+</div>
+```
+
 ## Franke
 
 ### Garantia – eletrodomésticos (Certificado de Garantia Franke, recebido em 13/10/2026; vale para fogões de mesa, cooktops, coifas, fornos elétricos, micro-ondas e refrigeradores)
