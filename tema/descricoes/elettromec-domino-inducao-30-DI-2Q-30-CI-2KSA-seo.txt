@@ -1,0 +1,26 @@
+NOME DO PRODUTO
+Dominó de Indução Elettromec Vetro 2 Zonas 30 cm Vidro Preto 220V
+
+TAG TITLE
+Dominó de Indução Elettromec 30 cm 2 Zonas | Unikitchen
+
+META DESCRIPTION
+Dominó de indução Elettromec 30 cm, 2 zonas, Semi Flex Zone, Booster, manípulo magnético e trava de segurança, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual (avaliar trocar se tiver o código antigo 2XBB)
+
+CATEGORIAS
+Principal: Dominós (já está). Sem secundária.
+
+AÇÃO DA LISTA (A): trocar código DI-2Q-30-CI-2XBB → DI-2Q-30-CI-2KSA e REATIVAR o produto.
+
+FONTES: guia comercial (PDF) e manual (cap. 3, dimensões, funções, tabela de potência, especificações).
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: 7898593939196 | NCM 8516.60.00 | SKU/Modelo: DI-2Q-30-CI-2KSA
+Embalagem (guia: 590 x 120 x 415 mm, L x A x P): A 12, L 59, P 42 (41,5) cm, 5,4 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Elétrico; Bocas 2; Modelo DI-2Q-30-CI-2KSA; Conversível GN Não; Conversível engarrafado Não; Temporizador Sim; Trava de segurança Sim; Válvulas de segurança Não; Materiais Vitrocerâmica (ou Vidro); Cor principal Preto; Tipo de controle Touch; Altura 6,2 cm; Potência total 3.500 W; Peso 4,5 kg; Frequência 60 Hz; Largura 29 cm
+Em branco: ecológico, proteção contra superaquecimento (não aparece nas páginas recebidas), ignição, eficiência, tipo de gás, medidas de montagem (recorte não informado), etiqueta.
+Conflitos: corrente – guia 16 A x manual 33 A (igual ao do cooktop de 60 cm) → omitida; confirmar com a Elettromec.
+Não informado: recorte na bancada.
+PDF anexado junto (GC_Cooktop-Siena-2Q) é do Evol Siena, não deste produto → ignorado.

@@ -76,6 +76,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | THV30DFL | Cooktop Dominó a Gás Tecno Original THV30DFL Queimador Triplo 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-gas-tripla-chama-30-THV30DFL.html` | `tecno-domino-gas-tripla-chama-30-THV30DFL-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | ECTGD2QM3A | Cooktop Dominó a Gás Evol Siena 2 Queimadores Dual Flame Inox 304 29 cm Bivolt | Evol | `evol-domino-siena-2-queimadores-ECTGD2QM3A.html` | `evol-domino-siena-2-queimadores-ECTGD2QM3A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | THV30BBQ | Cooktop Dominó Elétrico Barbecue Tecno Original THV30BBQ 2.100 W 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-barbecue-eletrico-30-THV30BBQ.html` | `tecno-domino-barbecue-eletrico-30-THV30BBQ-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
+| DI-2Q-30-CI-2KSA (era 2XBB) | Dominó de Indução Elettromec Vetro 2 Zonas 30 cm Vidro Preto 220V | Elettromec | `elettromec-domino-inducao-30-DI-2Q-30-CI-2KSA.html` | `elettromec-domino-inducao-30-DI-2Q-30-CI-2KSA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -131,7 +132,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | DBQ-IR-40-XX-NHUA | - | Churrasqueira Dominó Gás Infrared 40 cm Elettromec Inox | Churrasqueiras > Side Burner | S | feito 09/10 (elettromec-domino-churrasqueira-infrared-40-DBQ-IR-40-XX-NHUA) |  |
 |   | CFD-SOL-90-XV-2ATC | - | Coifa de Bancada Elettromec Sollevare Downdraft Connect 90cm 220V | Coifas > Coifa de Bancada | S | feito 09/10 (elettromec-coifa-sollevare-downdraft-90-CFD-SOL-90-XV-2ATC) |  |
 |   | CFI-MOB-90-VP-2ATC | - | Coifa de Embutir Armário Vetro 90 cm Mobile Elettromec | Coifas > Coifa de Parede | S | feito 09/10 (elettromec-coifa-mobile-vetro-90-CFI-MOB-90-VP-2ATC) |  |
-|   | DI-2Q-30-CI-2XBB | - | Cooktop Dominó Elétrico Indução Elettromec 2 Bocas 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | N | antigo | A: trocar código/ficha → DI-2Q-30-CI-2KSA |
+|   | DI-2Q-30-CI-2XBB | - | Cooktop Dominó Elétrico Indução Elettromec 2 Bocas 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | N | feito 14/10 (elettromec-domino-inducao-30-DI-2Q-30-CI-2KSA) | A: trocar código → DI-2Q-30-CI-2KSA e reativar |
 |   | DG-1Q-30-XQ-3ZEA | - | Cooktop Elettromec Dominó Quadratto 1 Queimador Dual Flame Inox 30cm Bivolt | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | DG-2Q-30-XQ-3ZEA | - | Cooktop Elettromec Dominó Quadratto 2 Queimadores Inox 30cm Bivolt | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | DE-BQ-30-XQ-2ZEA | - | Cooktop Elettromec Dominó Quadratto Barbecue Elétrico Inox 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
