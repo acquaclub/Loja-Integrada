@@ -77,6 +77,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | ECTGD2QM3A | Cooktop Dominó a Gás Evol Siena 2 Queimadores Dual Flame Inox 304 29 cm Bivolt | Evol | `evol-domino-siena-2-queimadores-ECTGD2QM3A.html` | `evol-domino-siena-2-queimadores-ECTGD2QM3A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | THV30BBQ | Cooktop Dominó Elétrico Barbecue Tecno Original THV30BBQ 2.100 W 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-barbecue-eletrico-30-THV30BBQ.html` | `tecno-domino-barbecue-eletrico-30-THV30BBQ-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | DI-2Q-30-CI-2KSA (era 2XBB) | Dominó de Indução Elettromec Vetro 2 Zonas 30 cm Vidro Preto 220V | Elettromec | `elettromec-domino-inducao-30-DI-2Q-30-CI-2KSA.html` | `elettromec-domino-inducao-30-DI-2Q-30-CI-2KSA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
+| ECTID5QM2A | Cooktop de Indução Evol Smart 5 Zonas 90 cm Vitrocerâmico Preto 220V | Evol | `evol-cooktop-inducao-smart-5-zonas-90-ECTID5QM2A.html` | `evol-cooktop-inducao-smart-5-zonas-90-ECTID5QM2A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -194,7 +195,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ECFEI0382A | - | Coifa Evol Smart Ômicron de Ilha 38cm Inox 220V | Coifas > Coifa de Ilha | S | feito 13/10 (evol-coifa-omicron-ilha-38-ECFEI0382A) |  |
 |   | ECTGD2QM3A | - | Cooktop Dominó Evol a Gás 2 Queimadores 1 Tripla chama e 1 Rápido Bivolt Siena | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (evol-domino-siena-2-queimadores-ECTGD2QM3A) |  |
 |   | ECTGD4QM3C | - | Cooktop Evol à Gás Vidro Preto 4 Bocas 87cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
-|   | ECTID5QM2A | - | Cooktop de Indução Evol Smart Vidro Preto 5 Bocas 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | ECTID5QM2A | - | Cooktop de Indução Evol Smart Vidro Preto 5 Bocas 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (evol-cooktop-inducao-smart-5-zonas-90-ECTID5QM2A) |  |
 |   | ECTGD4QM3A | - | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | excluído 13/10 ( 60 cm saiu de linha; 3C já cadastrado, 3D não existe no site oficial) |
 |   | ECTGD5QM3A | - | Cooktop à Gás Evol Inox 5 Bocas 90cm | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (evol-cooktop-5-queimadores-90-ECTGD5QM3A) |  |
 |   | EFGGF6QM2A | - | Fogão a Gás Profissional Evol 6 Queimadores 90 cm c/ Forno a Gás | Fogões > 6 a 8 Queimadores a Gás | S | antigo |  |

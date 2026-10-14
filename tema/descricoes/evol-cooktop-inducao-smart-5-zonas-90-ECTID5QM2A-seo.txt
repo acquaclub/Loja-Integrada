@@ -1,0 +1,29 @@
+NOME DO PRODUTO
+Cooktop de Indução Evol Smart 5 Zonas 90 cm Vitrocerâmico Preto 220V
+
+TAG TITLE
+Cooktop de Indução Evol Smart 5 Zonas 90 cm | Unikitchen
+
+META DESCRIPTION
+Cooktop de indução Evol Smart 90 cm, 5 zonas, 9.300 W (12.200 W com Boost), Zona Flex e app que liga a coifa Evol, 220V. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma para este SKU. Lista de produtos novos (item 97) traz o ECTID5QM2B ("outra versão do ECTID5QM2A, 12.200 W, Free Zone") → decidir depois se vira variação ou anúncio novo.
+
+FONTES: página do site Evol, guia comercial (PDF) e manual (instalação, tabela de potência, desligamento automático, descrição do produto).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: sem medida oficial → manter as atuais se plausíveis; peso 14,8 kg (bruto oficial).
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Elétrico; Bocas 5; Modelo ECTID5QM2A; Conversível GN Não; Conversível engarrafado Não; Temporizador Sim; Trava de segurança Sim; Válvulas de segurança Não; Materiais Vitrocerâmica; Cor principal Preto; Tipo de controle Touch; Profundidade de montagem 49 cm; Altura 6 cm; Potência total 9.300 W; Peso 14,8 kg; Frequência 60 Hz; Largura 90 cm; Largura de montagem 87 cm
+Em branco: ecológico, superaquecimento, ignição, eficiência, tipo de gás, comprimento de montagem, etiqueta.
+Conflitos:
+- Potência: guia e site 9.300 W (12.200 W com Boost) x tabela do manual 6.800 W → 9.300 W (2 fontes); CONFIRMAR COM A EVOL.
+- Medidas: guia e site 904 x 523 x 60 mm x manual 900 x 520 x 60 mm → 904 x 523 (2 fontes, inclusive tabela de instalação do guia).
+- Função: site "Steak" x guia "BBQ" → nome da função omitido.
+Saiu (texto antigo): "Wi-Fi", "Manter Aquecido", "Pause & Go", "sensor de panela", "instalação flush/nivelada", "conexão direta sem plugue e disjuntor exclusivo", "50-60 Hz", "potência profissional", "rapidez incomparável", "impressionantes", emoji.
+Não usado: "tecnologia inovadora e revolucionária", "luxury home appliance", "superioridade", "o que há de mais moderno", "escolha perfeita", "tecnologia de ponta" (superlativos); "Easy Clean" (sem explicação oficial).
+Entrou: Boost (1 segundo, 5 minutos), app (status + cenário da coifa, só coifas Evol), Slider Control, 9 níveis, desligamento automático por nível, recorte 870 x 490, 50 mm ao redor, bancada ≥ 30 mm resistente ao calor, teste do ímã, limpeza.
