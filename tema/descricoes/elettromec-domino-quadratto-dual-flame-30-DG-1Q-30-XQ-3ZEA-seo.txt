@@ -1,0 +1,23 @@
+NOME DO PRODUTO
+Dominó a Gás Elettromec Quadratto Dual Flame 30 cm Inox Bivolt
+
+TAG TITLE
+Dominó a Gás Elettromec Quadratto Dual Flame | Unikitchen
+
+META DESCRIPTION
+Dominó a gás Elettromec Quadratto 30 cm em inox, queimador Dual Flame Sabaf de 4,0 kW, suporte wok e válvula de segurança. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Dominós (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site Elettromec, guia comercial (PDF), manual (tabela de especificações do DG-1Q, desenho do produto).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia: 368 x 125 x 580 mm, L x A x P): A 13 (12,5), L 37 (36,8), P 58 cm, 6 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 1; Modelo DG-1Q-30-XQ-3ZEA; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Aço inoxidável; Cor principal Inox; Tipo de controle Manípulos; Tipo de gás GLP e GN; Altura 6 cm; Potência total 4 kW; Peso 5 kg; Frequência 60 Hz; Largura 30,5 cm
+Em branco: ecológico, superaquecimento, trava, eficiência, medidas de montagem (recorte não informado), etiqueta.
+Conflitos: corrente – guia "0,01 A" x manual "2 W" → omitida; diâmetro de panela – manual (18–26 cm) x guia (tabela só com "rápido 20–28") → omitido; garantia – guia "1 para 2 anos" x termo (2 anos) → bloco padrão.
