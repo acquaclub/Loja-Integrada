@@ -84,6 +84,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | DG-2Q-30-XQ-3ZEA | Dominó a Gás Elettromec Quadratto 2 Queimadores 30 cm Inox Bivolt | Elettromec | `elettromec-domino-quadratto-2-queimadores-30-DG-2Q-30-XQ-3ZEA.html` | `elettromec-domino-quadratto-2-queimadores-30-DG-2Q-30-XQ-3ZEA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | DG-1Q-30-XQ-3ZEA | Dominó a Gás Elettromec Quadratto Dual Flame 30 cm Inox Bivolt | Elettromec | `elettromec-domino-quadratto-dual-flame-30-DG-1Q-30-XQ-3ZEA.html` | `elettromec-domino-quadratto-dual-flame-30-DG-1Q-30-XQ-3ZEA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | CKG-5Q-90-XQ-3ZEA | Cooktop a Gás Elettromec Quadratto 5 Queimadores Dual Flame 90 cm Inox Bivolt | Elettromec | `elettromec-cooktop-quadratto-90-CKG-5Q-90-XQ-3ZEA.html` | `elettromec-cooktop-quadratto-90-CKG-5Q-90-XQ-3ZEA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
+| CKG-5Q-75-XQ-3ZEA | Cooktop a Gás Elettromec Quadratto 5 Queimadores Dual Flame 75 cm Inox Bivolt | Elettromec | `elettromec-cooktop-quadratto-75-CKG-5Q-75-XQ-3ZEA.html` | `elettromec-cooktop-quadratto-75-CKG-5Q-75-XQ-3ZEA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -146,7 +147,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | CKG-4Q-60-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 4 Bocas Inox 60cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-75-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-90-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
-|   | CKG-5Q-75-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | CKG-5Q-75-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (elettromec-cooktop-quadratto-75-CKG-5Q-75-XQ-3ZEA) |  |
 |   | CKG-5Q-90-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Lateral Inox Gusa 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (elettromec-cooktop-quadratto-90-CKG-5Q-90-XQ-3ZEA) |  |
 |   | CKI-4Q-60-CI-2XBB | - | Cooktop Elétrico Indução Elettromec 4 Bocas 60cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | feito 14/10 (elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA) | A: trocar código → CKI-4Q-60-CI-2KSA e reativar |
 |   | CKG-4Q-60-XQ-3ZEA | - | Cooktop a Gás Elettromec Quadratto 4 Bocas Tripla Chama Inox Gusa 60cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (elettromec-cooktop-quadratto-60-CKG-4Q-60-XQ-3ZEA) |  |
