@@ -75,6 +75,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CKI-4Q-60-CI-2KSA (era 2XBB) | Cooktop de Indução Elettromec Vetro 4 Zonas 60 cm Vidro Preto 220V | Elettromec | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA.html` | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 | THV30DFL | Cooktop Dominó a Gás Tecno Original THV30DFL Queimador Triplo 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-gas-tripla-chama-30-THV30DFL.html` | `tecno-domino-gas-tripla-chama-30-THV30DFL-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | ECTGD2QM3A | Cooktop Dominó a Gás Evol Siena 2 Queimadores Dual Flame Inox 304 29 cm Bivolt | Evol | `evol-domino-siena-2-queimadores-ECTGD2QM3A.html` | `evol-domino-siena-2-queimadores-ECTGD2QM3A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
+| THV30BBQ | Cooktop Dominó Elétrico Barbecue Tecno Original THV30BBQ 2.100 W 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-barbecue-eletrico-30-THV30BBQ.html` | `tecno-domino-barbecue-eletrico-30-THV30BBQ-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -299,7 +300,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | TR14CRDD | - | Cervejeira Tecno Professional para Revestir 136 Litros de Embutir 220V - Abertura p/ Direita | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tecno-cervejeira-revestir-136-TR14CRDD) |  |
 |   | TWD60EXDP | - | Dispenser Tecno Professional de Embutir para Vinhos e Destilados 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | TCM45EXDP | - | Cafeteira Automática Tecno Professional de Embutir 60cm 220V | Cafeteiras | N | feito 09/10 (tecno-cafeteira-embutir-professional-TCM45EXDP) | B: reativar |
-|   | THV30BBQ | - | Cooktop Dominó Elétrico Tecno Original Barbecue 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
+|   | THV30BBQ | - | Cooktop Dominó Elétrico Tecno Original Barbecue 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-barbecue-eletrico-30-THV30BBQ) |  |
 |   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-gas-tripla-chama-30-THV30DFL) |  |
 |   | THV30FRYER | - | Cooktop Fryer Dominó Tecno Fritadeira Elétrica 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | THV100 | - | Cooktop Tecno Original Rota Gás 5 Bocas Vitrocerâmico 151cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | B: reativar |
