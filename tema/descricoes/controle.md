@@ -75,7 +75,6 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CKI-4Q-60-CI-2KSA (era 2XBB) | Cooktop de Indução Elettromec Vetro 4 Zonas 60 cm Vidro Preto 220V | Elettromec | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA.html` | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 | THV30DFL | Cooktop Dominó a Gás Tecno Original THV30DFL Queimador Triplo 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-gas-tripla-chama-30-THV30DFL.html` | `tecno-domino-gas-tripla-chama-30-THV30DFL-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 | ECTGD2QM3A | Cooktop Dominó a Gás Evol Siena 2 Queimadores Dual Flame Inox 304 29 cm Bivolt | Evol | `evol-domino-siena-2-queimadores-ECTGD2QM3A.html` | `evol-domino-siena-2-queimadores-ECTGD2QM3A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
-| ECTGD2QM3A | Cooktop Dominó a Gás Evol Siena 2 Queimadores Dual Flame Inox 304 29 cm Bivolt | Evol | `evol-domino-siena-2-queimadores-ECTGD2QM3A.html` | `evol-domino-siena-2-queimadores-ECTGD2QM3A-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
