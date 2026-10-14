@@ -73,6 +73,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 94700214 (novo, substitui 94702201) | Cooktop a Gás Tramontina Dominó 2GX HE Safestop 30 Inox 304 2 Queimadores Bivolt | Tramontina | `tramontina-domino-2gx-he-safestop-30-94700214.html` | `tramontina-domino-2gx-he-safestop-30-94700214-seo.txt` (URL nova) | entregue | 13/10/2026 | Dominós |
 | 94708201 | Cooktop a Gás Tramontina Penta 5GG TRI 70 Vidro Temperado Preto 5 Queimadores Bivolt | Tramontina | `tramontina-cooktop-penta-5gg-tri-70-94708201.html` | `tramontina-cooktop-penta-5gg-tri-70-94708201-seo.txt` (URL mantida) | entregue | 13/10/2026 | Cooktops (ok) |
 | CKI-4Q-60-CI-2KSA (era 2XBB) | Cooktop de Indução Elettromec Vetro 4 Zonas 60 cm Vidro Preto 220V | Elettromec | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA.html` | `elettromec-cooktop-inducao-60-CKI-4Q-60-CI-2KSA-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
+| THV30DFL | Cooktop Dominó a Gás Tecno Original THV30DFL Queimador Triplo 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-gas-tripla-chama-30-THV30DFL.html` | `tecno-domino-gas-tripla-chama-30-THV30DFL-seo.txt` (URL mantida) | entregue | 14/10/2026 | Dominós (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -298,7 +299,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | TWD60EXDP | - | Dispenser Tecno Professional de Embutir para Vinhos e Destilados 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
 |   | TCM45EXDP | - | Cafeteira Automática Tecno Professional de Embutir 60cm 220V | Cafeteiras | N | feito 09/10 (tecno-cafeteira-embutir-professional-TCM45EXDP) | B: reativar |
 |   | THV30BBQ | - | Cooktop Dominó Elétrico Tecno Original Barbecue 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
-|   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
+|   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-gas-tripla-chama-30-THV30DFL) |  |
 |   | THV30FRYER | - | Cooktop Fryer Dominó Tecno Fritadeira Elétrica 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | THV100 | - | Cooktop Tecno Original Rota Gás 5 Bocas Vitrocerâmico 151cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | B: reativar |
 |   | THV90L2 | - | Cooktop Tecno Original à Gás 5 Bocas Vitrocerâmico 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
