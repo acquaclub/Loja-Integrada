@@ -23,7 +23,7 @@ Preencher (campos da Loja Integrada – dispenser de bebidas): Modelo Enoteca TW
 Em branco: Inclui base, Material da base, Acessórios incluídos (cilindro de argônio, se houver opção), Material da torneira, Material do corpo (gabinete sem material informado), Quantidade de torneiras (não informada), Diâmetro total (não se aplica).
 Obs.: o tipo de produto escolhido na Loja Integrada é de dispenser de bebidas genérico (garrafão com torneira); avaliar se há um tipo de adega com campos melhores.
 Conflitos:
-- código – folder TWD60EXDP (título) e "TWD60 EXDA" (subtítulo); manual TWD60EXDA → descrição usa TWD60EXDP (código da loja e do folder).
+- código – folder TWD60EXDP (título) e "TWD60 EXDA" (subtítulo); manual TWD60EXDA → descrição usa TWD60EXDP (cliente confirmou em 15/10 que é o modelo vendido).
 - profundidade do nicho – tabela do manual 330 mm x desenho 380 mm (e corpo de 380 mm no desenho) → omitida.
 - altura do nicho – tabela 605 mm x desenho 605~620 mm → "605 a 620 mm".
 - garantia – folder "Garantia de 2 anos" e "1 ano + 2º ano grátis pelo formulário" → bloco padrão Tecno de 2 anos (mesmo caso dos demais Tecno; confirmar).
