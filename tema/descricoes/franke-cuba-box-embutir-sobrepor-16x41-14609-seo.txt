@@ -1,0 +1,27 @@
+NOME DO PRODUTO
+Cuba Franke Box 16 x 41 cm Inox 304 de Embutir e Sobrepor com Válvula 4,5"
+
+TAG TITLE
+Cuba Franke Box 16x41 Inox 304 | Unikitchen
+
+META DESCRIPTION
+Cuba Franke Box 16 x 41 cm em inox 304 de 1,0 mm, de embutir ou sobrepor, com válvula 4,5" e sifão. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cuba Única (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site Franke (texto e especificações técnicas) e desenho técnico.
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: não informado na página enviada.
+Embalagem: sem medida oficial → manter as atuais se plausíveis.
+Preencher (campos da Loja Integrada para pias): Tipo de pia Simple; Modelo Box; Material Aço inoxidável; Tipos de instalação Embutir + Sobrepor; Modelo alfanumérico 14609; Modelo detalhado Cuba Box de Embutir e Sobrepor 16 x 41 cm com Válvula 4,5"; Espessura 1,0 mm; Largura 20 cm; Comprimento 45 cm; Linha Box; Fabricante Franke. Produto: altura 14 cm (profundidade da cuba).
+Em branco: Acabamento (conflito), Capacidade em volume (não informada), peso, recorte.
+Conflitos: acabamento – texto "aço inox escovado" x especificações "Fosco" → omitido.
+Não usado: "se adaptam perfeitamente a qualquer estilo", "aproveitando cada centímetro", "ótimo aproveitamento", "exclusivo", "vedação perfeita e zero dor de cabeça", "turbinar" (marketing).
+Medidas: nome "16x41" = medidas internas do desenho (160 x 410 mm); externas 200 x 450 mm.
+Garantia: site "1 ano"; bloco curto (certificado de eletrodomésticos não cobre cubas).
