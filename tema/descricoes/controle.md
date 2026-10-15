@@ -93,6 +93,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 94751022 | Cooktop por Indução Tramontina Square Basic 4EI 60 Vitrocerâmico 4 Áreas 220V | Tramontina | `tramontina-cooktop-inducao-square-basic-4ei-60-94751022.html` | `tramontina-cooktop-inducao-square-basic-4ei-60-94751022-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 | THV30TEPPAN | Cooktop Dominó Elétrico Teppan Tecno Original THV30TEPPAN 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-teppan-eletrico-30-THV30TEPPAN.html` | `tecno-domino-teppan-eletrico-30-THV30TEPPAN-seo.txt` (URL mantida) | entregue | 15/10/2026 | Dominós (ok) |
 | THV90L2 | Cooktop a Gás Tecno Original THV90L2 5 Queimadores Dual Flame 90 cm Vitrocerâmico 220V | Tecno | `tecno-cooktop-gas-5-queimadores-90-THV90L2.html` | `tecno-cooktop-gas-5-queimadores-90-THV90L2-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
+| THV30FRYER | Cooktop Dominó Elétrico Fryer Tecno Original THV30FRYER 1.900 W 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-fryer-eletrico-30-THV30FRYER.html` | `tecno-domino-fryer-eletrico-30-THV30FRYER-seo.txt` (URL mantida) | entregue | 15/10/2026 | Dominós (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -319,7 +320,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | TCM45EXDP | - | Cafeteira Automática Tecno Professional de Embutir 60cm 220V | Cafeteiras | N | feito 09/10 (tecno-cafeteira-embutir-professional-TCM45EXDP) | B: reativar |
 |   | THV30BBQ | - | Cooktop Dominó Elétrico Tecno Original Barbecue 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-barbecue-eletrico-30-THV30BBQ) |  |
 |   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-gas-tripla-chama-30-THV30DFL) |  |
-|   | THV30FRYER | - | Cooktop Fryer Dominó Tecno Fritadeira Elétrica 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
+|   | THV30FRYER | - | Cooktop Fryer Dominó Tecno Fritadeira Elétrica 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 15/10 (tecno-domino-fryer-eletrico-30-THV30FRYER) |  |
 |   | THV100 | - | Cooktop Tecno Original Rota Gás 5 Bocas Vitrocerâmico 151cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | cliente 14/10: substituído pelo Bertazzoni P905LHERXG (bertazzoni-cooktop-heritage-90-P905LHERXG) |
 |   | THV90L2 | - | Cooktop Tecno Original à Gás 5 Bocas Vitrocerâmico 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (tecno-cooktop-gas-5-queimadores-90-THV90L2) |  |
 |   | THV30TEPPAN | - | Cooktop Vitrocerâmico Chapa Teppan Elétrica Tecno 220V Dominó - THV30TEPPAN | Cooktops, Rangetops e Dominós > Dominós | S | feito 15/10 (tecno-domino-teppan-eletrico-30-THV30TEPPAN) |  |
