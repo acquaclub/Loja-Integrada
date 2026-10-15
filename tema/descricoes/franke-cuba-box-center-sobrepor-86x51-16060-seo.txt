@@ -19,7 +19,7 @@ FONTES: página do site Franke (texto e especificações técnicas) e desenho t�
 CADASTRO / ESPECIFICAÇÕES
 GTIN/EAN: 7892162160608. Código Franke (FUN): 127.0538.259.
 Embalagem: sem medida oficial → manter as atuais se plausíveis.
-Preencher (campos da Loja Integrada para pias): Tipo de pia Cuba dupla (ou 1 e meia, se houver); Modelo Box Center; Acabamento Fosco (ou Escovado, se não houver Fosco); Material Aço inoxidável; Tipos de instalação Sobrepor + Embutir/rente (flushmount); Modelo alfanumérico 16060; Modelo detalhado Cuba Box Center de Sobrepor 86 x 51 cm com Acessórios; Largura 86 cm; Comprimento 51 cm; Linha Box Center; Fabricante Franke. Produto: altura 20 cm (profundidade da cuba, única medida de altura oficial).
+Preencher (campos da Loja Integrada para pias): Tipo de pia Duplo (opções: Canto, Duplo, Simple, Triplo; 1 cuba e meia = 2 cubas); Modelo Box Center; Acabamento Fosco (ou Escovado, se não houver Fosco); Material Aço inoxidável; Tipos de instalação Sobrepor + Embutir/rente (flushmount); Modelo alfanumérico 16060; Modelo detalhado Cuba Box Center de Sobrepor 86 x 51 cm com Acessórios; Largura 86 cm; Comprimento 51 cm; Linha Box Center; Fabricante Franke. Produto: altura 20 cm (profundidade da cuba, única medida de altura oficial).
 Em branco: Espessura (espessura do inox não informada; não confundir com profundidade), Capacidade em volume (não informada). Também sem dado: peso, recorte.
 Conflitos: "Cuba Dupla" (campo Dimensões) x "1 Cuba e meia" (Número de cubas) → descrição usa "1 cuba e meia" com as duas medidas.
 Garantia: site traz "1 ano" (especificações). Certificado Franke de eletrodomésticos não cobre cubas → bloco curto, sem condições/contatos; trocar quando vier o termo de garantia das cubas.
