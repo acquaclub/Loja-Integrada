@@ -1,0 +1,25 @@
+NOME DO PRODUTO
+Cooktop a Gás Elettromec Luce 5 Queimadores Dual Flame 75 cm Inox Bivolt
+
+TAG TITLE
+Cooktop Elettromec Luce 5 Bocas 75 cm Inox | Unikitchen
+
+META DESCRIPTION
+Cooktop a gás Elettromec Luce 75 cm em inox, 5 queimadores com Dual Flame de 4,0 kW e Step Flame de 9 níveis. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site, guia comercial (PDF) e manual Luce 60/75/90.
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: o guia traz "789859E+12" (número quebrado pela planilha) → não preencher; pedir o EAN completo à Elettromec. NCM 7321.11.00
+Embalagem (guia: 800 x 125 x 580 mm, L x A x P): A 13 (12,5), L 80, P 58 cm, 15 kg
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 5; Modelo CKG-5Q-75-LC-3ZEA; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Aço inoxidável; Cor principal Inox; Tipo de controle Manípulos; Tipo de gás GLP e GN; Altura 6 cm; Potência total 11,3 kW; Peso 14 kg; Frequência 60 Hz; Largura 75 cm
+Em branco: ecológico, superaquecimento, trava, eficiência, medidas de montagem (recorte não informado), etiqueta.
+Conflitos: corrente – guia 0,01 A x manual 0,03 A → omitida; altura – desenho 55 mm x tabela, guia e site 60 mm → 60 mm.
+Não usado: "marca fabricante líder em qualidade".

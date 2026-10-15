@@ -88,6 +88,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 94747022 | Cooktop Elétrico Tramontina New Square Touch 4EV 60 Vitrocerâmico 4 Áreas 220V | Tramontina | `tramontina-cooktop-eletrico-new-square-touch-4ev-60-94747022.html` | `tramontina-cooktop-eletrico-new-square-touch-4ev-60-94747022-seo.txt` (URL mantida) | entregue | 14/10/2026 | Cooktops (ok) |
 | P905LHERXG (novo, substitui THV100) | Cooktop a Gás Bertazzoni Heritage P905L HERXG 5 Queimadores Dual Flame 90 cm Inox 220V | Bertazzoni | `bertazzoni-cooktop-heritage-90-P905LHERXG.html` | `bertazzoni-cooktop-heritage-90-P905LHERXG-seo.txt` (URL nova) | entregue | 14/10/2026 | Cooktops |
 | CKG-4Q-60-LC-3ZEA | Cooktop a Gás Elettromec Luce 4 Queimadores Dual Flame 60 cm Inox Bivolt | Elettromec | `elettromec-cooktop-luce-60-CKG-4Q-60-LC-3ZEA.html` | `elettromec-cooktop-luce-60-CKG-4Q-60-LC-3ZEA-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
+| CKG-5Q-75-LC-3ZEA | Cooktop a Gás Elettromec Luce 5 Queimadores Dual Flame 75 cm Inox Bivolt | Elettromec | `elettromec-cooktop-luce-75-CKG-5Q-75-LC-3ZEA.html` | `elettromec-cooktop-luce-75-CKG-5Q-75-LC-3ZEA-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -148,7 +149,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | DG-2Q-30-XQ-3ZEA | - | Cooktop Elettromec Dominó Quadratto 2 Queimadores Inox 30cm Bivolt | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (elettromec-domino-quadratto-2-queimadores-30-DG-2Q-30-XQ-3ZEA) |  |
 |   | DE-BQ-30-XQ-2ZEA | - | Cooktop Elettromec Dominó Quadratto Barbecue Elétrico Inox 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (elettromec-domino-quadratto-barbecue-30-DE-BQ-30-XQ-2ZEA) |  |
 |   | CKG-4Q-60-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 4 Bocas Inox 60cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (elettromec-cooktop-luce-60-CKG-4Q-60-LC-3ZEA) |  |
-|   | CKG-5Q-75-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | CKG-5Q-75-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (elettromec-cooktop-luce-75-CKG-5Q-75-LC-3ZEA) |  |
 |   | CKG-5Q-90-LC-3ZEA | - | Cooktop Elettromec Luce à Gás 5 Bocas Inox 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
 |   | CKG-5Q-75-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Inox 75cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (elettromec-cooktop-quadratto-75-CKG-5Q-75-XQ-3ZEA) |  |
 |   | CKG-5Q-90-XQ-3ZEA | - | Cooktop Elettromec a Gás Quadratto 5 Bocas Tripla Chama Lateral Inox Gusa 90cm Bivolt | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (elettromec-cooktop-quadratto-90-CKG-5Q-90-XQ-3ZEA) |  |
