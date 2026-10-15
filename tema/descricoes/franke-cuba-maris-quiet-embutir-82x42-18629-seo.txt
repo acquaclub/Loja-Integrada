@@ -1,0 +1,29 @@
+NOME DO PRODUTO
+Cuba de Embutir Franke Maris Quiet MQX 110-82 82 x 42 cm Inox 304 com Acessórios
+
+TAG TITLE
+Cuba Franke Maris Quiet 82x42 Inox 304 | Unikitchen
+
+META DESCRIPTION
+Cuba de embutir Franke Maris Quiet 82 x 42 cm em inox 304, 59 litros, manta antirruído, cesto coletor de 7", tábua e escorredor. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cuba Única (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site Franke (texto, especificações, ícones) e desenho técnico (planta e corte).
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: 7892162186295. Código Franke (FUN): 122.0694.479.
+Embalagem: sem medida oficial → manter as atuais se plausíveis.
+Preencher (campos da Loja Integrada para pias): Tipo de pia Cuba única; Modelo Maris Quiet; Material Aço inoxidável; Tipos de instalação Embutir; Modelo alfanumérico MQX 110-82; Modelo detalhado Cuba de Embutir Maris Quiet MQX 110-82 82 x 42 cm com Acessórios; Largura 86 cm; Comprimento 46,4 cm; Capacidade em volume 59 L; Linha Maris Quiet; Fabricante Franke.
+Em branco: Acabamento (site diz só "Inox", sem indicar fosco/escovado), Espessura (não informada), altura do produto (conflito), peso, recorte.
+Conflitos:
+- profundidade – site 20 cm x desenho 192 mm → omitida na descrição.
+- ruído – "até 20%" (introdução, descrição, especificações) x "até 20 dB" (bloco Silenciosa) → 20%.
+Medidas: nome "82x42" = medidas internas do desenho (820 x 424 mm); externas 860 x 464 mm.
+Não usado: "enorme", "exclusiva", "primazia", "máxima higiene", "sonhe grande", "invisível", "esqueça o entupimento e cheiros", "inspiração nas tecnologias sul-coreanas e japonesas" (marketing); largura de 900 mm do gabinete no desenho de corte (sem legenda).
+Garantia: site "1 ano"; bloco curto (certificado de eletrodomésticos não cobre cubas).

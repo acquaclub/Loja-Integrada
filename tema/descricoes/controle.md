@@ -96,6 +96,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | THV30FRYER | Cooktop Dominó Elétrico Fryer Tecno Original THV30FRYER 1.900 W 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-fryer-eletrico-30-THV30FRYER.html` | `tecno-domino-fryer-eletrico-30-THV30FRYER-seo.txt` (URL mantida) | entregue | 15/10/2026 | Dominós (ok) |
 | ECTGD4QM3C | Cooktop a Gás Evol Black Glass 4 Queimadores 2 Dual Flame 87 cm Vidro Preto Bivolt | Evol | `evol-cooktop-black-glass-4-queimadores-87-ECTGD4QM3C.html` | `evol-cooktop-black-glass-4-queimadores-87-ECTGD4QM3C-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 | 16060 | Cuba de Sobrepor Franke Box Center 86 x 51 cm Inox 304 com Acessórios e Válvula 4,5" | Franke | `franke-cuba-box-center-sobrepor-86x51-16060.html` | `franke-cuba-box-center-sobrepor-86x51-16060-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Dupla (avaliar 1 e meia) |
+| 18629 | Cuba de Embutir Franke Maris Quiet MQX 110-82 82 x 42 cm Inox 304 com Acessórios | Franke | `franke-cuba-maris-quiet-embutir-82x42-18629.html` | `franke-cuba-maris-quiet-embutir-82x42-18629-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Única (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -243,7 +244,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 15190 | - | Cuba Box De Embutir e Sobrepor Franke 68x41 c/ válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |
 |   | 15198 | - | Cuba Box Dupla Embutir e Sobrepor Franke 78x45 c/ Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | antigo |  |
 |   | 16060 | - | Cuba De Sobrepor Box Center Franke 86x51 c/ Acessórios e Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | feito 15/10 (franke-cuba-box-center-sobrepor-86x51-16060) |  |
-|   | 18629 | - | Cuba de embutir em aço inox Maris Quiet MQX 110-82 82x42cm com acessórios | Cubas e Tanques > Cuba Única | S | antigo |  |
+|   | 18629 | - | Cuba de embutir em aço inox Maris Quiet MQX 110-82 82x42cm com acessórios | Cubas e Tanques > Cuba Única | S | feito 15/10 (franke-cuba-maris-quiet-embutir-82x42-18629) |  |
 |   | 13546 | - | Lixeira de Sobrepor Quadrada Franke Aço Inox Escovado - 10 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
 |   | 16168 | - | Lixeira de Sobrepor Redonda Franke Aço Inox Escovado - 5 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
 |   | 09888 | - | Lixeira de Sobrepor Redonda Franke Balde Removível - 12 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
