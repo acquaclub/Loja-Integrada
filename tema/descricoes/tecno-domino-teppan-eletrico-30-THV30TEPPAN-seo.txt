@@ -1,0 +1,29 @@
+NOME DO PRODUTO
+Cooktop Dominó Elétrico Teppan Tecno Original THV30TEPPAN 30 cm Vitrocerâmico 220V
+
+TAG TITLE
+Cooktop Dominó Teppan Tecno THV30 30 cm | Unikitchen
+
+META DESCRIPTION
+Cooktop dominó teppan elétrico Tecno THV30, 30 cm, chapa inox 304 com 2 zonas, 45 a 250 °C, mesa Schott Nextrema. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Dominós (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: folder oficial Tecno (vendas.tecnoeletros.com.br, id 568, em fichas/tecno-THV30TEPPAN-folder.pdf), com especificações e gabarito; manual (apresentação, tabela de preparo, componentes, cabos, dados técnicos, certificado de garantia).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (folder: 355 x 195 x 565 mm, L x A x P): A 20 (19,5), L 36 (35,5), P 57 (56,5) cm, 10,5 kg (folder; manual diz 10,3 kg – ver conflitos)
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Elétrico; Bocas 1; Modelo THV30TEPPAN; Conversível GN Não; Conversível engarrafado Não; Proteção contra superaquecimento Sim; Válvulas de segurança Não; Materiais Vitrocerâmica; Cor principal Preto; Tipo de controle Manípulos; Profundidade de montagem 48,2 cm; Altura 7,5 cm; Peso 9,7 kg; Frequência 50-60 Hz; Largura 30 cm; Largura de montagem 28,2 cm
+Em branco: temporizador, ecológico, trava, ignição, eficiência, tipo de gás, potência total (conflito), comprimento de montagem, etiqueta.
+Conflitos:
+- potência – folder 2.100 W (texto, diferenciais e especificações) x manual 2.400 W (dados técnicos, componentes, cabos; elemento parcial 1.200 W / total 2.400 W) → omitida; confirmar com a Tecno.
+- peso bruto – folder 10,50 kg x manual 10,3 kg → omitido na descrição; cadastro com 10,5 kg (mesma fonte das medidas da caixa).
+- profundidade – manual 515 mm x folder 505 mm (especificações e gabarito) → 505 mm.
+- garantia – manual: 12 meses (3 + 9); folder: "1 ano + 2º ano grátis pelo formulário" e selo "2 anos" → bloco padrão Tecno de 2 anos (mesmo caso do THV30DFL/BBQ; confirmar com a Tecno).
+- ventilação – folder do Teppan "12 cm" x folder do BBQ (mesmo texto da linha) "2 cm" → omitida.
+Não usado: "encantam a visão e o paladar", "mais sofisticados espaços gourmet", "alta performance", "mais completa/ampla linha", "exclusiva e inovadora", "resistência incomparável", "uma das melhores escolhas" (superlativos).
