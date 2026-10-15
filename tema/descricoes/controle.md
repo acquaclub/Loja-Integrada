@@ -90,6 +90,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CKG-4Q-60-LC-3ZEA | Cooktop a Gás Elettromec Luce 4 Queimadores Dual Flame 60 cm Inox Bivolt | Elettromec | `elettromec-cooktop-luce-60-CKG-4Q-60-LC-3ZEA.html` | `elettromec-cooktop-luce-60-CKG-4Q-60-LC-3ZEA-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 | CKG-5Q-75-LC-3ZEA | Cooktop a Gás Elettromec Luce 5 Queimadores Dual Flame 75 cm Inox Bivolt | Elettromec | `elettromec-cooktop-luce-75-CKG-5Q-75-LC-3ZEA.html` | `elettromec-cooktop-luce-75-CKG-5Q-75-LC-3ZEA-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 | CKG-5Q-90-LC-3ZEA | Cooktop a Gás Elettromec Luce 5 Queimadores Dual Flame 90 cm Inox Bivolt | Elettromec | `elettromec-cooktop-luce-90-CKG-5Q-90-LC-3ZEA.html` | `elettromec-cooktop-luce-90-CKG-5Q-90-LC-3ZEA-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
+| 94751022 | Cooktop por Indução Tramontina Square Basic 4EI 60 Vitrocerâmico 4 Áreas 220V | Tramontina | `tramontina-cooktop-inducao-square-basic-4ei-60-94751022.html` | `tramontina-cooktop-inducao-square-basic-4ei-60-94751022-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -357,7 +358,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 94702201 | - | Cooktop a Gás Tramontina Dominó em Vidro Temperado Preto com Trempes em Aço Carbono e Acendimento superautomático 2 Queimadores | Cooktops, Rangetops e Dominós > Dominós | S | antigo | D: remover (cliente 13/10); substituto 94700214 entregue 13/10 (tramontina-domino-2gx-he-safestop-30-94700214) |
 |   | 947093 | 94709301 (-), 94709371 (-) | Cooktop a Gás Tramontina Penta Side Plus em Vidro Temperado com Trempes em Aço Carbono e Acendimento superautomático 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (tramontina-cooktop-penta-side-plus-90-947093) |  |
 |   | 94708201 | - | Cooktop a Gás Tramontina Penta em Vidro Temperado Preto com Trempes em Aço Carbono e Acendimento superautomático 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (tramontina-cooktop-penta-5gg-tri-70-94708201) |  |
-|   | 94751022 | - | Cooktop por Indução Tramontina Square Basic 4EI 60 | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | 94751022 | - | Cooktop por Indução Tramontina Square Basic 4EI 60 | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (tramontina-cooktop-inducao-square-basic-4ei-60-94751022) |  |
 |   | 948 | 94869220 (-), 94870220 (-) | Forno Elétrico de Embutir Tramontina Glass Cook em Vidro Temperado Preto 7 Funções 73 L | Fornos e Micro-ondas > Forno Elétrico | N | antigo | D: remover (sugestão, aguarda cliente) |
 |   | 94880006 | - | Micro-ondas de Embutir Tramontina Inox 60 25 L em Aço Inox com Acabamento Acetinado 8 Funções | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | 94895214 | - | Lava-Louças Tramontina Inox 14 Serviços SB14X 60 com 6 Programas e 4 Funções 220V | Lava Louças > Lava-louças | S | antigo |  |
