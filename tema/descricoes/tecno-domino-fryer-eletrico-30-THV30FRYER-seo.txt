@@ -14,11 +14,14 @@ Principal: Dominós (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma.
 
-FONTES: folder oficial Tecno (vendas.tecnoeletros.com.br, id 567, em fichas/tecno-THV30FRYER-folder.pdf), com especificações e gabarito. Manual não recebido.
+FONTES: folder oficial Tecno (vendas.tecnoeletros.com.br, id 567, em fichas/tecno-THV30FRYER-folder.pdf), com especificações e gabarito; manual (instalação, componentes elétricos, cabos, dados técnicos).
 
 CADASTRO / ESPECIFICAÇÕES
-Embalagem (folder: 382 x 242 x 552 mm, L x A x P): A 24 (24,2), L 38 (38,2), P 55 (55,2) cm, 8,3 kg
-Preencher: Tipo de montagem Embutir; Tipos de alimentação Elétrico; Bocas 1; Modelo THV30FRYER; Conversível GN Não; Conversível engarrafado Não; Válvulas de segurança Não; Materiais Vitrocerâmica; Cor principal Preto; Tipo de controle Manípulos; Profundidade de montagem 48,2 cm; Altura 16 cm; Potência total 1.900 W; Peso 7,5 kg; Largura 30 cm; Largura de montagem 28,2 cm
-Em branco: temporizador, ecológico, superaquecimento, trava, ignição, eficiência, tipo de gás, frequência (não informada), comprimento de montagem, etiqueta.
-Conflitos: garantia – folder "1 ano + 2º ano grátis pelo formulário" e selo "2 anos" → bloco padrão Tecno de 2 anos (mesmo caso THV30DFL/BBQ/TEPPAN/THV90L2; confirmar com a Tecno).
-Não usado: "encantam a visão e o paladar", "mais sofisticados espaços gourmet", "alta performance", "potente", "mais completa/ampla linha", "exclusiva e inovadora", "resistência incomparável", "uma das melhores escolhas", "grande capacidade" (superlativos).
+Embalagem (folder: 382 x 242 x 552 mm, L x A x P): A 24 (24,2), L 38 (38,2), P 55 (55,2) cm, 8,3 kg (folder, mesma fonte das medidas da caixa; manual diz 8,65 kg)
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Elétrico; Bocas 1; Modelo THV30FRYER; Conversível GN Não; Conversível engarrafado Não; Válvulas de segurança Não; Materiais Vitrocerâmica; Cor principal Preto; Tipo de controle Manípulos; Profundidade de montagem 48,2 cm; Altura 16 cm; Potência total 1.900 W; Frequência 50-60 Hz; Largura 30 cm; Largura de montagem 28,2 cm
+Em branco: temporizador, ecológico, superaquecimento, trava, ignição, eficiência, tipo de gás, peso (conflito), comprimento de montagem, etiqueta.
+Conflitos:
+- peso – folder 7,50 kg líquido / 8,30 kg bruto x manual 7,55 kg / 8,65 kg → omitido na descrição; peso do produto em branco no cadastro.
+- frequência – dados técnicos 50/60 Hz x tabela de cabos "220V 60Hz" → 50-60 Hz (tabela de dados técnicos).
+- garantia – folder "1 ano + 2º ano grátis pelo formulário" e selo "2 anos" → bloco padrão Tecno de 2 anos (mesmo caso THV30DFL/BBQ/TEPPAN/THV90L2; confirmar com a Tecno).
+Não usado: medidas C, D (59 mm) e E (100 mm mín.) da tabela de instalação, sem legenda; "encantam a visão e o paladar", "mais sofisticados espaços gourmet", "alta performance", "potente", "mais completa/ampla linha", "exclusiva e inovadora", "resistência incomparável", "uma das melhores escolhas", "grande capacidade" (superlativos).
