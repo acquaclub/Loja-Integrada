@@ -14,11 +14,11 @@ Principal: Cooktops (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma (substitui o ECTGD4QM3A, excluído em 13/10).
 
-FONTES: guia comercial Evol (fichas/evol-ECTGD4QM3C-guia.pdf). Site e manual não recebidos.
+FONTES: guia comercial Evol (fichas/evol-ECTGD4QM3C-guia.pdf) e página do site (descrição e características). Manual não recebido.
 
 CADASTRO / ESPECIFICAÇÕES
 Embalagem: sem medida oficial; peso 22,4 kg (bruto). Medidas da caixa → manter as atuais se plausíveis.
-Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 4; Modelo ECTGD4QM3C; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Vidro temperado; Cor principal Preto; Tipo de controle Manípulos; Profundidade de montagem 48 cm; Altura 10 cm; Potência total 10,8 kW; Largura 87 cm; Largura de montagem 84 cm
-Em branco: conversível GN e engarrafado, tipo de gás (guia só diz "à gás"), ecológico, superaquecimento, trava, eficiência, peso do produto (guia só traz o bruto), frequência, comprimento de montagem, etiqueta.
-Conflitos: nenhum (fonte única). "Medidas 87,4 x 51,0 x 10,0 cm" sem dizer se é produto ou embalagem → descrição usa o rótulo "Medidas", como no guia.
-Não usado: "impressionar", "luxury home appliance high end", "matéria prima arrojada", "design inovador", "detalhes que surpreendem", "exímio controle", "superioridade", "requinte", "o que há de mais moderno" (superlativos); distâncias do desenho de instalação (700/400/150 mm) sem legenda.
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 4; Modelo ECTGD4QM3C; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Superautomática; Materiais Vidro temperado; Cor principal Preto; Tipo de controle Manípulos; Tipo de gás GLP e GN; Profundidade de montagem 48 cm; Altura 10 cm; Potência total 10,8 kW; Largura 87 cm; Largura de montagem 84 cm
+Em branco: ecológico, superaquecimento, trava, eficiência, peso do produto (guia só traz o bruto), frequência, comprimento de montagem, etiqueta.
+Conflitos: largura – texto do site "90 cm" (2x) x medidas do guia e das características do site 87,4 cm → 87 cm; não chamar de 90 cm. "Medidas 87,4 x 51,0 x 10,0 cm" sem dizer se é produto ou embalagem → descrição usa o rótulo "Medidas", como no guia.
+Não usado: "máxima performance", "visual sofisticado", "generosa largura", "alta performance", "a escolha ideal", "elegância", "impressionar", "luxury home appliance high end", "matéria prima arrojada", "design inovador", "detalhes que surpreendem", "exímio controle", "superioridade", "requinte", "o que há de mais moderno" (superlativos); distâncias do desenho de instalação (700/400/150 mm) sem legenda.
