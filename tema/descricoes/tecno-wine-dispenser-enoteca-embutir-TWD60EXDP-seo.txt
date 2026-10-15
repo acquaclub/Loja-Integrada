@@ -1,0 +1,29 @@
+NOME DO PRODUTO
+Wine Dispenser de Embutir Tecno Professional Enoteca TWD60EXDP 3 Garrafas com Argônio 220V
+
+TAG TITLE
+Wine Dispenser Tecno Enoteca 3 Garrafas | Unikitchen
+
+META DESCRIPTION
+Wine dispenser de embutir Tecno Enoteca para 3 garrafas, de 5 a 22 °C, com argônio que preserva o vinho por até 60 dias. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Adegas de Embutir (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: folder oficial Tecno (vendas.tecnoeletros.com.br, id 718, em fichas/tecno-TWD60EXDP-folder.pdf) e manual TWD60EXDA (capa, nicho, apresentação, dados técnicos).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (folder: 663 x 718 x 483 mm, L x A x P): A 72 (71,8), L 66 (66,3), P 48 (48,3) cm, 50 kg
+Produto: 597 x 637 x 395 mm (L x A x P), 44 kg; 220 V, 60 Hz, 110 W, 0,5 A; R600a; 3 garrafas; 5 a 22 °C; 45 dB; 10,2 kWh/mês.
+Campos da Loja Integrada para esta categoria: pedir a lista ao cliente.
+Conflitos:
+- código – folder TWD60EXDP (título) e "TWD60 EXDA" (subtítulo); manual TWD60EXDA → descrição usa TWD60EXDP (código da loja e do folder).
+- profundidade do nicho – tabela do manual 330 mm x desenho 380 mm (e corpo de 380 mm no desenho) → omitida.
+- altura do nicho – tabela 605 mm x desenho 605~620 mm → "605 a 620 mm".
+- garantia – folder "Garantia de 2 anos" e "1 ano + 2º ano grátis pelo formulário" → bloco padrão Tecno de 2 anos (mesmo caso dos demais Tecno; confirmar).
+- cor – manual "Espelhado / Inox"; folder "vidro espelhado e painel interno grafite" e "vidro espelhado e inox" → "vidro espelhado, com painel interno grafite".
+Não usado: "único wine dispenser de embutir do mercado" (sem comprovação), "centro das atenções", "melhores lojas de vinhos", "perfeitas condições", "elevada precisão", "mais altos padrões", "refinado", "sofisticada", "elegante" (superlativos); medida 555 mm do desenho (sem legenda).

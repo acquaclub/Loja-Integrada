@@ -103,6 +103,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 15194 | Cuba Franke Box 45 x 41 cm Inox 304 de Embutir e Sobrepor com Válvula 4,5" | Franke | `franke-cuba-box-embutir-sobrepor-45x41-15194.html` | `franke-cuba-box-embutir-sobrepor-45x41-15194-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Única (ok) |
 | 15196 | Cuba Franke Box 36 x 41 cm Inox 304 de Embutir e Sobrepor com Válvula 4,5" | Franke | `franke-cuba-box-embutir-sobrepor-36x41-15196.html` | `franke-cuba-box-embutir-sobrepor-36x41-15196-seo.txt` (URL mantida) | entregue (sem desenho) | 15/10/2026 | Cuba Única (ok) |
 | 14609 | Cuba Franke Box 16 x 41 cm Inox 304 de Embutir e Sobrepor com Válvula 4,5" | Franke | `franke-cuba-box-embutir-sobrepor-16x41-14609.html` | `franke-cuba-box-embutir-sobrepor-16x41-14609-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Única (ok) |
+| TWD60EXDP | Wine Dispenser de Embutir Tecno Professional Enoteca TWD60EXDP 3 Garrafas com Argônio 220V | Tecno | `tecno-wine-dispenser-enoteca-embutir-TWD60EXDP.html` | `tecno-wine-dispenser-enoteca-embutir-TWD60EXDP-seo.txt` (URL mantida) | entregue | 15/10/2026 | Adegas de Embutir (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -325,7 +326,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | TR14CVDC | - | Cervejeira Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tecno-cervejeira-professional-136-TR14CVDC) |  |
 |   | TR08CVDA | - | Cervejeira Tecno Professional Gourmet 80 Litros de Embutir Inox 220V - Abertura para Direita | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tecno-cervejeira-professional-80-TR08CVDA) |  |
 |   | TR14CRDD | - | Cervejeira Tecno Professional para Revestir 136 Litros de Embutir 220V - Abertura p/ Direita | Adegas e Cervejeiras > Cervejeiras | S | feito 09/10 (tecno-cervejeira-revestir-136-TR14CRDD) |  |
-|   | TWD60EXDP | - | Dispenser Tecno Professional de Embutir para Vinhos e Destilados 220V | Adegas e Cervejeiras > Adegas de Embutir | S | antigo |  |
+|   | TWD60EXDP | - | Dispenser Tecno Professional de Embutir para Vinhos e Destilados 220V | Adegas e Cervejeiras > Adegas de Embutir | S | feito 15/10 (tecno-wine-dispenser-enoteca-embutir-TWD60EXDP) |  |
 |   | TCM45EXDP | - | Cafeteira Automática Tecno Professional de Embutir 60cm 220V | Cafeteiras | N | feito 09/10 (tecno-cafeteira-embutir-professional-TCM45EXDP) | B: reativar |
 |   | THV30BBQ | - | Cooktop Dominó Elétrico Tecno Original Barbecue 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-barbecue-eletrico-30-THV30BBQ) |  |
 |   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-gas-tripla-chama-30-THV30DFL) |  |
