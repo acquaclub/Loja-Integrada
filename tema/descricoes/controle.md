@@ -94,6 +94,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | THV30TEPPAN | Cooktop Dominó Elétrico Teppan Tecno Original THV30TEPPAN 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-teppan-eletrico-30-THV30TEPPAN.html` | `tecno-domino-teppan-eletrico-30-THV30TEPPAN-seo.txt` (URL mantida) | entregue | 15/10/2026 | Dominós (ok) |
 | THV90L2 | Cooktop a Gás Tecno Original THV90L2 5 Queimadores Dual Flame 90 cm Vitrocerâmico 220V | Tecno | `tecno-cooktop-gas-5-queimadores-90-THV90L2.html` | `tecno-cooktop-gas-5-queimadores-90-THV90L2-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 | THV30FRYER | Cooktop Dominó Elétrico Fryer Tecno Original THV30FRYER 1.900 W 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-fryer-eletrico-30-THV30FRYER.html` | `tecno-domino-fryer-eletrico-30-THV30FRYER-seo.txt` (URL mantida) | entregue | 15/10/2026 | Dominós (ok) |
+| ECTGD4QM3C | Cooktop a Gás Evol Black Glass 4 Queimadores 2 Dual Flame 87 cm Vidro Preto Bivolt | Evol | `evol-cooktop-black-glass-4-queimadores-87-ECTGD4QM3C.html` | `evol-cooktop-black-glass-4-queimadores-87-ECTGD4QM3C-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -210,7 +211,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ECFEP0902B | - | Coifa Evol Smart Zeta de Parede 90cm Inox 220V | Coifas > Coifa de Parede | S | feito 13/10 (evol-coifa-zeta-parede-90-ECFEP0902B) |  |
 |   | ECFEI0382A | - | Coifa Evol Smart Ômicron de Ilha 38cm Inox 220V | Coifas > Coifa de Ilha | S | feito 13/10 (evol-coifa-omicron-ilha-38-ECFEI0382A) |  |
 |   | ECTGD2QM3A | - | Cooktop Dominó Evol a Gás 2 Queimadores 1 Tripla chama e 1 Rápido Bivolt Siena | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (evol-domino-siena-2-queimadores-ECTGD2QM3A) |  |
-|   | ECTGD4QM3C | - | Cooktop Evol à Gás Vidro Preto 4 Bocas 87cm | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | ECTGD4QM3C | - | Cooktop Evol à Gás Vidro Preto 4 Bocas 87cm | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (evol-cooktop-black-glass-4-queimadores-87-ECTGD4QM3C) |  |
 |   | ECTID5QM2A | - | Cooktop de Indução Evol Smart Vidro Preto 5 Bocas 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (evol-cooktop-inducao-smart-5-zonas-90-ECTID5QM2A) |  |
 |   | ECTGD4QM3A | - | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | excluído 13/10 ( 60 cm saiu de linha; 3C já cadastrado, 3D não existe no site oficial) |
 |   | ECTGD5QM3A | - | Cooktop à Gás Evol Inox 5 Bocas 90cm | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (evol-cooktop-5-queimadores-90-ECTGD5QM3A) |  |
