@@ -14,14 +14,14 @@ Principal: Cuba Dupla (já está). Avaliar se existe categoria "1 cuba e meia" �
 
 AÇÃO DA LISTA: nenhuma.
 
-FONTES: página do site Franke (texto e especificações técnicas). Ficha/gabarito e termo de garantia de cubas não recebidos.
+FONTES: página do site Franke (texto e especificações técnicas) e desenho técnico (medidas externas, cubas, furos). Recorte e termo de garantia de cubas não recebidos.
 
 CADASTRO / ESPECIFICAÇÕES
 GTIN/EAN: 7892162160608. Código Franke (FUN): 127.0538.259.
 Embalagem: sem medida oficial → manter as atuais se plausíveis.
-Preencher (conforme campos disponíveis para cubas): Material Aço inox 304; Acabamento Fosco; Instalação Sobrepor / Flushmount; Número de cubas 1 e meia; Profundidade 20 cm; Largura 86 cm; Comprimento/Profundidade externa 51 cm; Válvula 4,5"; Furo para torneira Sim.
+Preencher (conforme campos disponíveis para cubas): Material Aço inox 304; Acabamento Fosco; Instalação Sobrepor / Flushmount; Número de cubas 1 e meia; Profundidade 20 cm; Largura 86 cm; Comprimento/Profundidade externa 51 cm; Válvula 4,5"; Furo para torneira Sim (2 furos Ø 35 mm).
 Em branco: peso, recorte, espessura do inox (não informados).
 Conflitos: "Cuba Dupla" (campo Dimensões) x "1 Cuba e meia" (Número de cubas) → descrição usa "1 cuba e meia" com as duas medidas.
 Garantia: site traz "1 ano" (especificações). Certificado Franke de eletrodomésticos não cobre cubas → bloco curto, sem condições/contatos; trocar quando vier o termo de garantia das cubas.
-Medidas externas 86 x 51 cm: só no nome do produto no site (sem tabela) → mantidas.
+Medidas externas 860 x 510 mm: nome do produto no site + desenho técnico. Cubas 540 x 410 e 270 x 480 mm: site + desenho.
 Não usado: "combinação perfeita" (3x), "síntese perfeita", "design surpreendente", "impecavelmente", "sem deixar nada a desejar", "prazerosa", "inteligente e altamente prática", "posicionados perfeitamente", "pura higiene" (superlativos); "Sistema de Cozinha Crystal" (sem explicação oficial).
