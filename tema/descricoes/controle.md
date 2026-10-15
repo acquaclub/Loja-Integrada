@@ -92,6 +92,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | CKG-5Q-90-LC-3ZEA | Cooktop a Gás Elettromec Luce 5 Queimadores Dual Flame 90 cm Inox Bivolt | Elettromec | `elettromec-cooktop-luce-90-CKG-5Q-90-LC-3ZEA.html` | `elettromec-cooktop-luce-90-CKG-5Q-90-LC-3ZEA-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 | 94751022 | Cooktop por Indução Tramontina Square Basic 4EI 60 Vitrocerâmico 4 Áreas 220V | Tramontina | `tramontina-cooktop-inducao-square-basic-4ei-60-94751022.html` | `tramontina-cooktop-inducao-square-basic-4ei-60-94751022-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 | THV30TEPPAN | Cooktop Dominó Elétrico Teppan Tecno Original THV30TEPPAN 30 cm Vitrocerâmico 220V | Tecno | `tecno-domino-teppan-eletrico-30-THV30TEPPAN.html` | `tecno-domino-teppan-eletrico-30-THV30TEPPAN-seo.txt` (URL mantida) | entregue | 15/10/2026 | Dominós (ok) |
+| THV90L2 | Cooktop a Gás Tecno Original THV90L2 5 Queimadores Dual Flame 90 cm Vitrocerâmico 220V | Tecno | `tecno-cooktop-gas-5-queimadores-90-THV90L2.html` | `tecno-cooktop-gas-5-queimadores-90-THV90L2-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cooktops (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -320,7 +321,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | THV30DFL | - | Cooktop Dominó Gás Tecno Original 1 Boca Tripla-Chama 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | feito 14/10 (tecno-domino-gas-tripla-chama-30-THV30DFL) |  |
 |   | THV30FRYER | - | Cooktop Fryer Dominó Tecno Fritadeira Elétrica 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | S | antigo |  |
 |   | THV100 | - | Cooktop Tecno Original Rota Gás 5 Bocas Vitrocerâmico 151cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | cliente 14/10: substituído pelo Bertazzoni P905LHERXG (bertazzoni-cooktop-heritage-90-P905LHERXG) |
-|   | THV90L2 | - | Cooktop Tecno Original à Gás 5 Bocas Vitrocerâmico 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo |  |
+|   | THV90L2 | - | Cooktop Tecno Original à Gás 5 Bocas Vitrocerâmico 90cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (tecno-cooktop-gas-5-queimadores-90-THV90L2) |  |
 |   | THV30TEPPAN | - | Cooktop Vitrocerâmico Chapa Teppan Elétrica Tecno 220V Dominó - THV30TEPPAN | Cooktops, Rangetops e Dominós > Dominós | S | feito 15/10 (tecno-domino-teppan-eletrico-30-THV30TEPPAN) |  |
 |   | TO73EXDB | - | Forno Elétrico Multifunções Tecno Air Fry 73 Litros Inox 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | antigo | A: trocar código/ficha → TO81EXDAP |
 |   | TG14EXAP | - | Gaveta Aquecida Tecno Professional Inox 220V TG14EXAP | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | N | antigo | A: trocar código/ficha → TG14EXDP |

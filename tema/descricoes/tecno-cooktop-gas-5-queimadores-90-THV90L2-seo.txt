@@ -1,0 +1,29 @@
+NOME DO PRODUTO
+Cooktop a Gás Tecno Original THV90L2 5 Queimadores Dual Flame 90 cm Vitrocerâmico 220V
+
+TAG TITLE
+Cooktop a Gás Tecno THV90L2 5 Bocas 90 cm | Unikitchen
+
+META DESCRIPTION
+Cooktop a gás Tecno THV90L2, 90 cm, mesa vitrocerâmica, 5 queimadores Sabaf com Dual Flame de até 5.500 W e Gas-Stop. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Cooktops (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: folder oficial Tecno (vendas.tecnoeletros.com.br, id 129, em fichas/tecno-THV90L2-folder.pdf) e manual THV33DFL2/THV90L2 (apresentação, instalação, desenho, tabela de injetores, dados técnicos).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (folder: 1000 x 75 x 550 mm, L x A x P): A 8 (7,5), L 100, P 55 cm, 14 kg (folder; ver conflito de peso)
+Preencher: Tipo de montagem Embutir; Tipos de alimentação Gás; Bocas 5; Modelo THV90L2; Conversível GN Sim; Conversível engarrafado Sim; Temporizador Não; Válvulas de segurança Sim; Ignição Automática; Materiais Vitrocerâmica; Eficiência energética C; Cor principal Preto; Tipo de controle Manípulos; Tipo de gás GLP e GN; Profundidade de montagem 48 cm; Altura 5,5 cm; Frequência 60 Hz; Largura 90 cm; Largura de montagem 86 cm
+Em branco: ecológico, superaquecimento, trava, potência total (conflito), peso (conflito), comprimento de montagem, etiqueta.
+Conflitos:
+- Dual Flame máximo – folder 5.500 W (texto, diferenciais, especificações) e manual tabela de injetores 5,50 kW x manual dados técnicos 5.000 W → 5.500 W.
+- Potência total – manual 10.650 W (única fonte; não fecha com 5 queimadores nem com o Dual Flame de 5.500 W) → omitida.
+- Peso – manual 17,54 kg líquido x folder 13 kg líquido / 14 kg bruto → omitido na descrição; cadastro do produto em branco; peso da embalagem 14 kg (folder) até confirmar.
+- Quantidade por tipo de queimador – manual nomeia tripla, semirrápido, rápido e chama mínima (o 5º queimador sem legenda); folder só lista as 4 faixas de potência → descrição traz só as faixas, sem quantidade por tipo.
+- Garantia – folder "1 ano + 2º ano grátis pelo formulário LOFRA" e selo "2 anos" → bloco padrão Tecno de 2 anos (mesmo caso THV30DFL/BBQ/TEPPAN; confirmar com a Tecno).
+Não usado: "encantam a visão e o paladar", "mais sofisticados gourmets", "alta performance", "resultados memoráveis", "durabilidade por toda a vida", "uma das melhores escolhas" (superlativos); "não porosas com esmaltamento antiaderente" (só marketing).
