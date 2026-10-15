@@ -98,6 +98,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 16060 | Cuba de Sobrepor Franke Box Center 86 x 51 cm Inox 304 com Acessórios e Válvula 4,5" | Franke | `franke-cuba-box-center-sobrepor-86x51-16060.html` | `franke-cuba-box-center-sobrepor-86x51-16060-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Dupla (avaliar 1 e meia) |
 | 18629 | Cuba de Embutir Franke Maris Quiet MQX 110-82 82 x 42 cm Inox 304 com Acessórios | Franke | `franke-cuba-maris-quiet-embutir-82x42-18629.html` | `franke-cuba-maris-quiet-embutir-82x42-18629-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Única (ok) |
 | 15198 | Cuba Dupla Franke Box 78 x 45 cm Inox 304 de Embutir e Sobrepor com Válvula 4,5" | Franke | `franke-cuba-box-dupla-embutir-sobrepor-78x45-15198.html` | `franke-cuba-box-dupla-embutir-sobrepor-78x45-15198-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Dupla (ok) |
+| 15190 | Cuba Franke Box 68 x 41 cm Inox 304 de Embutir e Sobrepor com Válvula 4,5" | Franke | `franke-cuba-box-embutir-sobrepor-68x41-15190.html` | `franke-cuba-box-embutir-sobrepor-68x41-15190-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Única (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -242,7 +243,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 15196 | - | Cuba Box De Embutir e Sobrepor Franke 36x41 c/ Válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |
 |   | 15194 | - | Cuba Box De Embutir e Sobrepor Franke 45x41 c/ Válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |
 |   | 15192 | - | Cuba Box De Embutir e Sobrepor Franke 54x41 c/ Válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |
-|   | 15190 | - | Cuba Box De Embutir e Sobrepor Franke 68x41 c/ válvula 4,5 | Cubas e Tanques > Cuba Única | S | antigo |  |
+|   | 15190 | - | Cuba Box De Embutir e Sobrepor Franke 68x41 c/ válvula 4,5 | Cubas e Tanques > Cuba Única | S | feito 15/10 (franke-cuba-box-embutir-sobrepor-68x41-15190) |  |
 |   | 15198 | - | Cuba Box Dupla Embutir e Sobrepor Franke 78x45 c/ Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | feito 15/10 (franke-cuba-box-dupla-embutir-sobrepor-78x45-15198) |  |
 |   | 16060 | - | Cuba De Sobrepor Box Center Franke 86x51 c/ Acessórios e Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | feito 15/10 (franke-cuba-box-center-sobrepor-86x51-16060) |  |
 |   | 18629 | - | Cuba de embutir em aço inox Maris Quiet MQX 110-82 82x42cm com acessórios | Cubas e Tanques > Cuba Única | S | feito 15/10 (franke-cuba-maris-quiet-embutir-82x42-18629) |  |
