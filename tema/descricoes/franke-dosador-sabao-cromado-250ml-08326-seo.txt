@@ -20,7 +20,8 @@ CADASTRO / ESPECIFICAÇÕES
 GTIN/EAN: 7892162083266. Código Franke (FUN): 119.0066.497.
 Embalagem: sem medida oficial → manter as atuais se plausíveis.
 Produto: altura total 28,5 cm; capacidade 250 ml; acabamento cromado alto brilho; comando pulsante; abastecimento por cima.
-Campos da Loja Integrada para dosadores: pedir a lista ao cliente.
+Preencher (campos da Loja Integrada para dosadores): Consistências do produto Líquido; Cor principal Cromado (ou Prata); Tipos de produtos compatíveis Sabão; Tipo de instalação Embutir / Sobrepor; Tipo de dosagem Pulsante (ou Manual); Largura 10,3 cm (do bico à base, desenho); Comprimento 5 cm (diâmetro da base); Altura 28,5 cm; Capacidade em volume 250 ml.
+Em branco: Com chave de segurança, Com viseira (não informados), Material, Peso.
 Em branco: material (site não informa; "cromado" é acabamento), peso, diâmetro do furo na bancada (desenho não indica).
 Conflitos: nenhum.
 Não usado: "sofisticação", "charmosa e moderna" (marketing).
