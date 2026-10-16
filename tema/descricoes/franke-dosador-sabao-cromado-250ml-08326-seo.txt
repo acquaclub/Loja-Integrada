@@ -1,0 +1,27 @@
+NOME DO PRODUTO
+Dosador de Sabão Franke de Embutir e Sobrepor Cromado Alto Brilho 250 ml
+
+TAG TITLE
+Dosador de Sabão Franke Cromado 250 ml | Unikitchen
+
+META DESCRIPTION
+Dosador de sabão Franke de embutir e sobrepor, cromado alto brilho, 250 ml, abastecimento por cima e comando pulsante. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Dosadores de sabão (já está). Sem secundária.
+
+AÇÃO DA LISTA: "D: remover (sugestão, aguarda cliente)" → cliente enviou material em 16/10; mantido e descrição feita.
+
+FONTES: página do site Franke (texto e especificações) e desenho técnico.
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: 7892162083266. Código Franke (FUN): 119.0066.497.
+Embalagem: sem medida oficial → manter as atuais se plausíveis.
+Produto: altura total 28,5 cm; capacidade 250 ml; acabamento cromado alto brilho; comando pulsante; abastecimento por cima.
+Campos da Loja Integrada para dosadores: pedir a lista ao cliente.
+Em branco: material (site não informa; "cromado" é acabamento), peso, diâmetro do furo na bancada (desenho não indica).
+Conflitos: nenhum.
+Não usado: "sofisticação", "charmosa e moderna" (marketing).
+Garantia: site "1 ano"; bloco curto.
