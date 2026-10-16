@@ -1,0 +1,26 @@
+NOME DO PRODUTO
+Dosador de Sabão Franke de Sobrepor Redondo Aço Escovado 330 ml
+
+TAG TITLE
+Dosador de Sabão Franke Aço Escovado 330 ml | Unikitchen
+
+META DESCRIPTION
+Dosador de sabão Franke de sobrepor, redondo, aço escovado, 330 ml, abastecimento por cima e bico giratório 360°. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Dosadores de sabão (já está). Sem secundária.
+
+AÇÃO DA LISTA: "D: remover (sugestão, aguarda cliente)" → cliente enviou material em 16/10; mantido e descrição feita.
+
+FONTES: página do site Franke (texto e especificações) e desenho técnico.
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: 7892162133183. Código Franke (FUN): 119.0294.775.
+Embalagem: sem medida oficial → manter as atuais se plausíveis.
+Preencher (campos da Loja Integrada para dosadores): Consistências do produto Líquido; Cor principal Aço escovado (ou Prata/Inox); Tipos de produtos compatíveis Detergente + Sabonete líquido; Tipo de instalação Sobrepor; Material Aço; Largura 8,1 cm (alcance do bico, desenho); Comprimento 5,5 cm (diâmetro do reservatório, maior diâmetro do desenho); Altura 27,5 cm; Capacidade em volume 330 ml.
+Em branco: Com chave de segurança, Com viseira, Tipo de dosagem (não informados), Peso.
+Conflitos: nenhum. Site traz "Redondo Fosco" no texto e "Aço Escovado" no nome/texto → descrição usa "aço escovado".
+Não usado: "sofisticação", "charmosa e moderna" (marketing).
+Garantia: site "1 ano"; bloco curto.

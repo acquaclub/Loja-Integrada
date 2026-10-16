@@ -105,6 +105,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 14609 | Cuba Franke Box 16 x 41 cm Inox 304 de Embutir e Sobrepor com Válvula 4,5" | Franke | `franke-cuba-box-embutir-sobrepor-16x41-14609.html` | `franke-cuba-box-embutir-sobrepor-16x41-14609-seo.txt` (URL mantida) | entregue | 15/10/2026 | Cuba Única (ok) |
 | TWD60EXDP | Wine Dispenser de Embutir Tecno Professional Enoteca TWD60EXDP 3 Garrafas com Argônio 220V | Tecno | `tecno-wine-dispenser-enoteca-embutir-TWD60EXDP.html` | `tecno-wine-dispenser-enoteca-embutir-TWD60EXDP-seo.txt` (URL mantida) | entregue | 15/10/2026 | Adegas de Embutir (ok) |
 | 08326 | Dosador de Sabão Franke de Embutir e Sobrepor Cromado Alto Brilho 250 ml | Franke | `franke-dosador-sabao-cromado-250ml-08326.html` | `franke-dosador-sabao-cromado-250ml-08326-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
+| 13318 | Dosador de Sabão Franke de Sobrepor Redondo Aço Escovado 330 ml | Franke | `franke-dosador-sabao-redondo-escovado-330ml-13318.html` | `franke-dosador-sabao-redondo-escovado-330ml-13318-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -258,7 +259,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 09888 | - | Lixeira de Sobrepor Redonda Franke Balde Removível - 12 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
 |   | 16592 | - | Dosador de Sabão De Embutir e Sobrepor Franke Black Matte - 300ml | Misturadores e Torneiras > Dosadores de sabão | S | antigo | D: remover (sugestão, aguarda cliente) |
 |   | 13320 | - | Dosador de Sabão De Sobrepor em Aço Escovado Franke Quadrado - 330ml | Misturadores e Torneiras > Dosadores de sabão | S | antigo | D: remover (sugestão, aguarda cliente) |
-|   | 13318 | - | Dosador de Sabão De Sobrepor em Aço Escovado Franke Redondo - 330ml | Misturadores e Torneiras > Dosadores de sabão | S | antigo | D: remover (sugestão, aguarda cliente) |
+|   | 13318 | - | Dosador de Sabão De Sobrepor em Aço Escovado Franke Redondo - 330ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-redondo-escovado-330ml-13318) | D: cliente manteve (16/10) |
 |   | 08326 | - | Dosador de Sabão Embutir e Sobrepor Franke Cromado Alto Brilho 250ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-cromado-250ml-08326) | D: cliente manteve (16/10) |
 |   | 16590 | - | Misturador Active Plus Pull Out Franke Black Matte Bica Alta Giratória | Misturadores e Torneiras > Com Extensor | S | antigo |  |
 |   | PescaraXL | 15403 (-), 15405 (-) | Misturador De Mesa Monocomando Franke Pescara XL Bica Alta Giratória Fosco e Alto Brilho | Misturadores e Torneiras > Sem Extensor | N | antigo |  |
