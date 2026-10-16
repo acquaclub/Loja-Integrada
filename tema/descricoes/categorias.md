@@ -1,6 +1,6 @@
 # Descrições das categorias (SEO)
 
-Texto comum, sem HTML: colar direto no campo "Descrição" da categoria. "Nome da categoria": trocar só onde indica "antes:"; antes de renomear, conferir se a URL da categoria muda junto. "Título" e "Meta" vão nos campos de SEO da categoria (título da página e meta description).
+Texto comum, sem HTML: colar direto no campo "Descrição" da categoria. "Nome da categoria": manter os nomes atuais; trocar só os 2 com erro de escrita (indicados com "antes:"). "Título" e "Meta" vão nos campos de SEO da categoria (título da página e meta description).
 Marcas citadas: só as que tinham produto ativo na categoria no catálogo de 08/10/2026. Se a marca sair da categoria, tirar do texto.
 
 ## CATEGORIAS (categoria raiz)
@@ -85,7 +85,7 @@ Churrasqueiras para o espaço gourmet e a área de lazer, com acendimento práti
 Na escolha, observe o tipo de gás, o número de queimadores, o tamanho da grelha e se o modelo é de embutir ou de bancada. Fale com nossa equipe pelo WhatsApp ou visite as lojas de Sorocaba e Itapetininga.
 
 ## Churrasqueiras > Acessórios
-Nome da categoria: Acessórios para Churrasqueira (antes: Acessórios)
+Nome da categoria: Acessórios (manter)
 Título: Acessórios para Churrasqueira | Unikitchen
 Meta: Acessórios para churrasqueira a gás e espaço gourmet: peças, capas e complementos originais. Atendimento pelo WhatsApp e lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -184,7 +184,7 @@ O cooktop é embutido na bancada e libera espaço na cozinha, já que o forno po
 Trabalhamos com marcas como Tramontina, Elettromec, Evol, Tecno e Gorenje. Na escolha, compare o tipo de energia, a potência dos queimadores ou zonas, os recursos de segurança e as medidas do recorte. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Cooktops > 4 a 5 Zonas Elétrico
-Nome da categoria: Cooktop Elétrico 4 e 5 Zonas (antes: 4 a 5 Zonas Elétrico)
+Nome da categoria: 4 a 5 Zonas Elétrico (manter)
 Título: Cooktop Elétrico Vitrocerâmico 4 e 5 Zonas | Unikitchen
 Meta: Cooktops elétricos com mesa vitrocerâmica e 4 ou 5 zonas de aquecimento, com comando touch. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -193,7 +193,7 @@ O cooktop elétrico aquece por resistências sob a mesa vitrocerâmica e funcion
 Confira a potência total, a tensão (220 V na maioria dos modelos), o disjuntor indicado e as medidas do recorte. Na Unikitchen, você tira suas dúvidas pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Cooktops > 4 a 5 Zonas Indução
-Nome da categoria: Cooktop de Indução 4 e 5 Zonas (antes: 4 a 5 Zonas Indução)
+Nome da categoria: 4 a 5 Zonas Indução (manter)
 Título: Cooktop de Indução 4 e 5 Zonas | Unikitchen
 Meta: Cooktops de indução com 4 ou 5 zonas, mesa vitrocerâmica, comando touch e recursos de segurança. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -202,7 +202,7 @@ O cooktop de indução aquece a panela diretamente por campo magnético, e a mes
 Antes de escolher, confira a potência total, o disjuntor recomendado, a tensão e as medidas do recorte na bancada. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Cooktops > 4 Queimadores a Gás
-Nome da categoria: Cooktop a Gás 4 Bocas (antes: 4 Queimadores a Gás)
+Nome da categoria: 4 Queimadores a Gás (manter)
 Título: Cooktop a Gás 4 Bocas | Unikitchen
 Meta: Cooktops a gás de 4 bocas em inox ou vidro, com acendimento automático e válvula de segurança. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -211,7 +211,7 @@ O cooktop a gás de 4 bocas é a escolha mais comum para cozinhas de tamanho mé
 Confira a potência de cada queimador, o tipo de gás (GLP ou natural) e as medidas do recorte. Na Unikitchen, você tira suas dúvidas pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Cooktops > 5 Queimadores a Gás
-Nome da categoria: Cooktop a Gás 5 Bocas (antes: 5 Queimadores a Gás)
+Nome da categoria: 5 Queimadores a Gás (manter)
 Título: Cooktop a Gás 5 Bocas | Unikitchen
 Meta: Cooktops a gás de 5 bocas com queimador tripla chama ou Dual Flame, em inox ou vidro, de 70 a 90 cm. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -220,7 +220,7 @@ O cooktop a gás de 5 bocas oferece mais espaço para cozinhar ao mesmo tempo e 
 Na escolha, compare a potência dos queimadores, o material da mesa (inox ou vidro), os recursos de segurança e as medidas do recorte. Fale com a Unikitchen pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Cooktops > 6 a 8 Zonas Indução
-Nome da categoria: Cooktop de Indução 6 a 8 Zonas (antes: 6 a 8 Zonas Indução)
+Nome da categoria: 6 a 8 Zonas Indução (manter)
 Título: Cooktop de Indução 6 a 8 Zonas | Unikitchen
 Meta: Cooktops de indução de 6 a 8 zonas e áreas flexíveis para cozinhas amplas e quem cozinha para muitas pessoas. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -229,7 +229,7 @@ Os cooktops de indução com 6 a 8 zonas, ou com áreas flexíveis que unem zona
 Por terem maior potência total, confira com atenção o disjuntor e a instalação elétrica indicados pelo fabricante. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Cooktops > 6 Queimadores a Gás
-Nome da categoria: Cooktop a Gás 6 Bocas (antes: 6 Queimadores a Gás)
+Nome da categoria: 6 Queimadores a Gás (manter)
 Título: Cooktop a Gás 6 Bocas | Unikitchen
 Meta: Cooktops a gás de 6 bocas para cozinhas amplas, com queimadores de alta potência e mesa em inox ou vidro. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -247,7 +247,7 @@ O cooktop dominó é um módulo estreito, em geral de 30 cm, que pode ser instal
 Na Unikitchen, você encontra dominós de marcas como Tecno, Elettromec, Tramontina e Evol. Confira o tipo de energia, a potência e as medidas do recorte de cada módulo, e fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Dominós > 1 Queimador a Gás
-Nome da categoria: Dominó a Gás 1 Queimador (antes: 1 Queimador a Gás)
+Nome da categoria: 1 Queimador a Gás (manter)
 Título: Dominó a Gás 1 Queimador | Unikitchen
 Meta: Cooktops dominó a gás com 1 queimador de alta potência (tripla chama ou Dual Flame), para panelas grandes e wok. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -256,7 +256,7 @@ O dominó a gás de 1 queimador traz um queimador de alta potência, como tripla
 Confira a potência do queimador, o tipo de gás e as medidas do recorte. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Dominós > 2 Queimadores a Gás
-Nome da categoria: Dominó a Gás 2 Queimadores (antes: 2 Queimadores a Gás)
+Nome da categoria: 2 Queimadores a Gás (manter)
 Título: Dominó a Gás 2 Queimadores | Unikitchen
 Meta: Cooktops dominó a gás com 2 queimadores, para cozinhas compactas ou para combinar com outros módulos. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -265,7 +265,7 @@ O dominó a gás de 2 queimadores é indicado para cozinhas compactas ou para co
 Compare a potência dos queimadores, o material da mesa e as medidas do recorte. Na Unikitchen, você tira suas dúvidas pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Dominós > 2 Zonas Elétrico
-Nome da categoria: Dominó Elétrico 2 Zonas (antes: 2 Zonas Elétrico)
+Nome da categoria: 2 Zonas Elétrico (manter)
 Título: Dominó Elétrico 2 Zonas | Unikitchen
 Meta: Cooktops dominó elétricos com 2 zonas e mesa vitrocerâmica, para usar sozinhos ou combinados. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -274,7 +274,7 @@ O dominó elétrico de 2 zonas tem mesa vitrocerâmica com aquecimento por resis
 Confira a potência, a tensão, o disjuntor indicado e as medidas do recorte. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Dominós > 2 Zonas Indução
-Nome da categoria: Dominó de Indução 2 Zonas (antes: 2 Zonas Indução)
+Nome da categoria: 2 Zonas Indução (manter)
 Título: Dominó de Indução 2 Zonas | Unikitchen
 Meta: Cooktops dominó de indução com 2 zonas, para cozinhas compactas ou para combinar com módulos a gás. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -283,7 +283,7 @@ O dominó de indução de 2 zonas aquece a panela diretamente por campo magnéti
 Confira a potência, o disjuntor indicado e as medidas do recorte. Na Unikitchen, você tira suas dúvidas pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Dominós > Barbecue
-Nome da categoria: Dominó Barbecue (antes: Barbecue)
+Nome da categoria: Barbecue (manter)
 Título: Dominó Barbecue Elétrico | Unikitchen
 Meta: Cooktops dominó barbecue elétricos para grelhar carnes e legumes na bancada da cozinha ou do espaço gourmet. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -292,7 +292,7 @@ O dominó barbecue é um módulo elétrico com grelha, para preparar carnes, leg
 Confira a potência, a tensão e as medidas do recorte. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Dominós > Chapa Teppan
-Nome da categoria: Dominó Chapa Teppan (antes: Chapa Teppan)
+Nome da categoria: Chapa Teppan (manter)
 Título: Dominó Chapa Teppan (Teppanyaki) | Unikitchen
 Meta: Cooktops dominó com chapa teppan (teppanyaki) elétrica para grelhar direto na chapa de inox. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -301,7 +301,7 @@ O dominó com chapa teppan, ou teppanyaki, é uma chapa elétrica de aço para g
 Confira a faixa de temperatura, a potência, a tensão e as medidas do recorte. Na Unikitchen, você tira suas dúvidas pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Dominós > Fritadeira
-Nome da categoria: Dominó Fritadeira (antes: Fritadeira)
+Nome da categoria: Fritadeira (manter)
 Título: Dominó Fritadeira Elétrica de Embutir | Unikitchen
 Meta: Cooktops dominó fritadeira elétrica de embutir, com cesto e temperatura regulável, para frituras e massas. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -319,7 +319,7 @@ O rangetop é uma mesa de cocção a gás de estilo profissional, com estrutura 
 Compare o número de queimadores, a potência, o tipo de gás e as medidas de instalação. Na Unikitchen, você tira suas dúvidas pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Rangetop > 4 a 5 Queimadores a Gás
-Nome da categoria: Rangetop 4 e 5 Queimadores (antes: 4 a 5 Queimadores a Gás)
+Nome da categoria: 4 a 5 Queimadores a Gás (manter)
 Título: Rangetop a Gás 4 e 5 Queimadores | Unikitchen
 Meta: Rangetops a gás de 4 e 5 queimadores, com estrutura robusta e manípulos frontais. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -328,7 +328,7 @@ Rangetops a gás de 4 e 5 queimadores, com estrutura robusta e acabamento profis
 Confira a potência dos queimadores, o tipo de gás e as medidas de instalação. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Cooktops, Rangetops e Dominós > Rangetop > 6 a 8 Queimadores a Gás
-Nome da categoria: Rangetop 6 a 8 Queimadores (antes: 6 a 8 Queimadores a Gás)
+Nome da categoria: 6 a 8 Queimadores a Gás (manter)
 Título: Rangetop a Gás 6 a 8 Queimadores | Unikitchen
 Meta: Rangetops a gás de 6 a 8 queimadores para cozinhas amplas e quem cozinha para muitas pessoas. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -382,7 +382,7 @@ Fogões de piso com mesa de cocção e forno no mesmo equipamento, a gás ou de 
 Na escolha, compare o número de bocas, o tipo de forno (a gás ou elétrico), a capacidade do forno e as medidas. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Fogões > 4 a 5 Zonas Indução
-Nome da categoria: Fogão de Indução 4 e 5 Zonas (antes: 4 a 5 Zonas Indução)
+Nome da categoria: 4 a 5 Zonas Indução (manter)
 Título: Fogão de Indução 4 e 5 Zonas | Unikitchen
 Meta: Fogões com mesa de indução de 4 ou 5 zonas e forno elétrico, para cozinhar com precisão e segurança. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -391,7 +391,7 @@ O fogão de indução une a mesa de indução, que aquece a panela diretamente p
 Confira a potência total, o disjuntor indicado, a capacidade do forno e as medidas. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Fogões > 4 Queimadores a Gás
-Nome da categoria: Fogão a Gás 4 Bocas (antes: 4 Queimadores a Gás)
+Nome da categoria: 4 Queimadores a Gás (manter)
 Título: Fogão a Gás 4 Bocas | Unikitchen
 Meta: Fogões a gás de 4 queimadores com forno a gás ou elétrico, de marcas como Bertazzoni. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -400,7 +400,7 @@ Fogões a gás de 4 queimadores, com cerca de 60 cm de largura, para cozinhas de
 Compare a potência dos queimadores, o tipo e a capacidade do forno e as medidas. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Fogões > 5 Queimadores a Gás
-Nome da categoria: Fogão a Gás 5 Bocas (antes: 5 Queimadores a Gás)
+Nome da categoria: 5 Queimadores a Gás (manter)
 Título: Fogão a Gás 5 Bocas | Unikitchen
 Meta: Fogões a gás de 5 queimadores com forno, de marcas como Elettromec, para cozinhas que pedem mais espaço. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -409,7 +409,7 @@ Fogões a gás de 5 queimadores, com espaço para mais panelas e, em geral, um q
 Compare a potência dos queimadores, o tipo e a capacidade do forno e as medidas. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Fogões > 6 a 8 Queimadores a Gás
-Nome da categoria: Fogão a Gás 6 a 8 Bocas (antes: 6 a 8 Queimadores a Gás)
+Nome da categoria: 6 a 8 Queimadores a Gás (manter)
 Título: Fogão a Gás 6 a 8 Bocas | Unikitchen
 Meta: Fogões a gás de 6 a 8 queimadores, de 90 a 120 cm, com um ou dois fornos, de marcas como Elettromec e Evol. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -463,7 +463,7 @@ Fornos de pizza para casa, para o espaço gourmet e para a área de lazer, que a
 Confira o tipo de combustível, a temperatura máxima, o tamanho da pizza e o espaço de instalação. Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Fornos e Micro-ondas > Fornos de Pizza > Acessórios
-Nome da categoria: Acessórios para Forno de Pizza (antes: Acessórios)
+Nome da categoria: Acessórios (manter)
 Título: Acessórios para Forno de Pizza | Unikitchen
 Meta: Acessórios para forno de pizza: pás, pedras, capas e complementos. Atendimento pelo WhatsApp e lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -535,7 +535,7 @@ Lavadoras de roupas com diferentes capacidades e programas de lavagem. Compare a
 Na Unikitchen, você conta com atendimento pelo WhatsApp e nas lojas de Sorocaba e Itapetininga.
 
 ## Lavadoras e Secadoras > Lavadoras e Secadoras
-Nome da categoria: Lava e Seca (antes: Lavadoras e Secadoras)
+Nome da categoria: Lavadoras e Secadoras (manter)
 Título: Lava e Seca de Roupas | Unikitchen
 Meta: Máquinas lava e seca que lavam e secam as roupas no mesmo aparelho. Atendimento pelo WhatsApp e lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -562,7 +562,7 @@ Lava-louças de embutir, de piso e frentes para revestimento com o mesmo acabame
 Na escolha, compare a capacidade em serviços, os programas, o consumo de água e energia, a tensão e as medidas do nicho. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Lava Louças > Frente Lava-louças
-Nome da categoria: Frente para Lava-louças (antes: Frente Lava-louças)
+Nome da categoria: Frente Lava-louças (manter)
 Título: Frente para Lava-louças de Embutir | Unikitchen
 Meta: Frentes para lava-louças de embutir, para revestir a porta com o mesmo acabamento da cozinha. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -571,7 +571,7 @@ A frente para lava-louças reveste a porta da lava-louças de embutir, que fica 
 Antes de comprar, confira a compatibilidade com o modelo da sua lava-louças e as medidas. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Lava Louças > Lava-louças
-Nome da categoria: Lava-louças de Embutir e Piso (antes: Lava-louças)
+Nome da categoria: Lava-louças (manter)
 Título: Lava-louças | Unikitchen
 Meta: Lava-louças de embutir e de piso, de 8 a 15 serviços, de marcas como Tramontina, Elettromec, Evol, Gorenje e Tecno. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -616,7 +616,7 @@ Misturadores monocomando, torneiras e dosadores de sabão para a pia da cozinha.
 Na escolha, compare o tipo de instalação (mesa ou parede), a altura e o alcance da bica e o acabamento. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Misturadores e Torneiras > Com Extensor
-Nome da categoria: Misturadores com Extensor (antes: Com Extensor)
+Nome da categoria: Com Extensor (manter)
 Título: Misturador com Ducha Extensível | Unikitchen
 Meta: Misturadores monocomando com ducha extensível para cozinha, de marcas como Tramontina e Franke. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -634,7 +634,7 @@ O dosador de sabão fica instalado na bancada ou na cuba, com o reservatório so
 Confira a capacidade, o acabamento e a espessura máxima da bancada indicada para cada modelo. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Misturadores e Torneiras > Sem Extensor
-Nome da categoria: Misturadores sem Extensor (antes: Sem Extensor)
+Nome da categoria: Sem Extensor (manter)
 Título: Misturador Monocomando para Cozinha | Unikitchen
 Meta: Misturadores monocomando e torneiras para cozinha sem ducha extensível, da Tramontina. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -670,7 +670,7 @@ O all refrigerator é um refrigerador sem freezer, todo dedicado à refrigeraç�
 Confira a capacidade, o tipo de instalação, a tensão e as medidas. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## Refrigeradores e Freezers > Bottom
-Nome da categoria: Bottom Freezer (antes: Bottom)
+Nome da categoria: Bottom (manter)
 Título: Geladeira Bottom Freezer | Unikitchen
 Meta: Geladeiras bottom freezer, com o freezer embaixo e o refrigerador na altura dos olhos, de marcas como Gorenje e Elettromec. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -742,7 +742,7 @@ O umidor de charutos mantém os charutos com a umidade controlada, para conserva
 Compare a capacidade em charutos e o tipo de controle de umidade. Fale com a gente pelo WhatsApp ou nas lojas de Sorocaba e Itapetininga.
 
 ## TRAMONTINA
-Nome da categoria: Tramontina (antes: TRAMONTINA)
+Nome da categoria: TRAMONTINA (manter)
 Título: Tramontina: Cooktops, Coifas e Torneiras | Unikitchen
 Meta: Produtos Tramontina: cooktops, coifas, lava-louças, cervejeiras, misturadores e mais. Atendimento pelo WhatsApp e lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -751,7 +751,7 @@ A Tramontina é uma marca brasileira de utensílios e eletrodomésticos. Na Unik
 Fale com a gente pelo WhatsApp ou visite nossas lojas em Sorocaba e Itapetininga.
 
 ## BERTAZZONI
-Nome da categoria: Bertazzoni (antes: BERTAZZONI)
+Nome da categoria: BERTAZZONI (manter)
 Título: Bertazzoni: Fogões e Cooktops | Unikitchen
 Meta: Produtos Bertazzoni: fogões e cooktops a gás de padrão profissional. Atendimento pelo WhatsApp e lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -760,7 +760,7 @@ A Bertazzoni é uma marca italiana de fogões e eletrodomésticos para cozinha. 
 Fale com a gente pelo WhatsApp ou visite nossas lojas em Sorocaba e Itapetininga.
 
 ## GORENJE
-Nome da categoria: Gorenje (antes: GORENJE)
+Nome da categoria: GORENJE (manter)
 Título: Gorenje: Fornos, Cooktops e Refrigeradores | Unikitchen
 Meta: Produtos Gorenje: fornos, cooktops, lava-louças e refrigeradores. Atendimento pelo WhatsApp e lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -769,7 +769,7 @@ A Gorenje é uma marca europeia de eletrodomésticos. Na Unikitchen, você encon
 Fale com a gente pelo WhatsApp ou visite nossas lojas em Sorocaba e Itapetininga.
 
 ## ELETTROMEC
-Nome da categoria: Elettromec (antes: ELETTROMEC)
+Nome da categoria: ELETTROMEC (manter)
 Título: Elettromec: Cooktops, Fornos e Adegas | Unikitchen
 Meta: Produtos Elettromec: cooktops, fogões, fornos, coifas, adegas, lava-louças e refrigeradores. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -778,7 +778,7 @@ A Elettromec é uma marca do Grupo Elettromec, de Campinas (SP), especializada e
 Fale com a gente pelo WhatsApp ou visite nossas lojas em Sorocaba e Itapetininga.
 
 ## TECNO
-Nome da categoria: Tecno (antes: TECNO)
+Nome da categoria: TECNO (manter)
 Título: Tecno: Dominós, Adegas e Cervejeiras | Unikitchen
 Meta: Produtos Tecno: cooktops dominó, adegas, cervejeiras, wine dispenser, cafeteira e máquinas de gelo. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -787,7 +787,7 @@ A Tecno é uma marca criada em 2009 pela Lofra Sud America, com eletrodoméstico
 Fale com a gente pelo WhatsApp ou visite nossas lojas em Sorocaba e Itapetininga.
 
 ## EVOL
-Nome da categoria: Evol (antes: EVOL)
+Nome da categoria: EVOL (manter)
 Título: Evol: Churrasqueiras, Adegas e Cooktops | Unikitchen
 Meta: Produtos Evol: churrasqueiras a gás, adegas, cervejeiras, cooktops, coifas, fornos e micro-ondas. Lojas em Sorocaba e Itapetininga.
 Descrição:
@@ -796,7 +796,7 @@ A Evol é uma marca de eletrodomésticos para cozinha e espaço gourmet. Na Unik
 Fale com a gente pelo WhatsApp ou visite nossas lojas em Sorocaba e Itapetininga.
 
 ## JACUZZI
-Nome da categoria: Jacuzzi (antes: JACUZZI)
+Nome da categoria: JACUZZI (manter)
 Título: Jacuzzi: Banheiras de Hidromassagem | Unikitchen
 Meta: Banheiras de hidromassagem Jacuzzi para o seu banheiro. Atendimento pelo WhatsApp e lojas em Sorocaba e Itapetininga.
 Descrição:
