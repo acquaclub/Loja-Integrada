@@ -107,6 +107,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 08326 | Dosador de Sabão Franke de Embutir e Sobrepor Cromado Alto Brilho 250 ml | Franke | `franke-dosador-sabao-cromado-250ml-08326.html` | `franke-dosador-sabao-cromado-250ml-08326-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
 | 13318 | Dosador de Sabão Franke de Sobrepor Redondo Aço Escovado 330 ml | Franke | `franke-dosador-sabao-redondo-escovado-330ml-13318.html` | `franke-dosador-sabao-redondo-escovado-330ml-13318-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
 | 13320 | Dosador de Sabão Franke de Sobrepor Quadrado Aço Escovado 330 ml | Franke | `franke-dosador-sabao-quadrado-escovado-330ml-13320.html` | `franke-dosador-sabao-quadrado-escovado-330ml-13320-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
+| 16592 | Dosador de Sabão Franke de Embutir e Sobrepor Black Matte 300 ml | Franke | `franke-dosador-sabao-black-matte-300ml-16592.html` | `franke-dosador-sabao-black-matte-300ml-16592-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -258,7 +259,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 13546 | - | Lixeira de Sobrepor Quadrada Franke Aço Inox Escovado - 10 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
 |   | 16168 | - | Lixeira de Sobrepor Redonda Franke Aço Inox Escovado - 5 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
 |   | 09888 | - | Lixeira de Sobrepor Redonda Franke Balde Removível - 12 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
-|   | 16592 | - | Dosador de Sabão De Embutir e Sobrepor Franke Black Matte - 300ml | Misturadores e Torneiras > Dosadores de sabão | S | antigo | D: remover (sugestão, aguarda cliente) |
+|   | 16592 | - | Dosador de Sabão De Embutir e Sobrepor Franke Black Matte - 300ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-black-matte-300ml-16592) | D: cliente manteve (16/10) |
 |   | 13320 | - | Dosador de Sabão De Sobrepor em Aço Escovado Franke Quadrado - 330ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-quadrado-escovado-330ml-13320) | D: cliente manteve (16/10) |
 |   | 13318 | - | Dosador de Sabão De Sobrepor em Aço Escovado Franke Redondo - 330ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-redondo-escovado-330ml-13318) | D: cliente manteve (16/10) |
 |   | 08326 | - | Dosador de Sabão Embutir e Sobrepor Franke Cromado Alto Brilho 250ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-cromado-250ml-08326) | D: cliente manteve (16/10) |
