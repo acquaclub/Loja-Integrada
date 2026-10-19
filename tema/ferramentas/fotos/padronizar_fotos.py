@@ -157,6 +157,11 @@ def processar_produto(rgba, perfil):
 def processar_detalhe(rgba):
     im = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
     im.alpha_composite(rgba)
+    # tira faixas brancas inteiras nas bordas (foto horizontal colocada num quadrado branco)
+    claro = (np.asarray(im)[..., :3] >= BRANCO).all(axis=2)
+    linhas, colunas = np.nonzero(~claro.all(axis=1))[0], np.nonzero(~claro.all(axis=0))[0]
+    if len(linhas) and len(colunas):
+        im = im.crop((colunas[0], linhas[0], colunas[-1] + 1, linhas[-1] + 1))
     lado = min(im.size)
     escala = TAMANHO / lado
     im = ImageOps.fit(im, (TAMANHO, TAMANHO), Image.LANCZOS, centering=(0.5, 0.5))
@@ -258,7 +263,7 @@ def main():
                     tela, metodo, escala = processar_detalhe(rgba)
                 else:
                     tela, metodo, escala = processar_medidas(rgba)
-                if escala > 2.0:
+                if escala > 2.6:
                     avisos.append(f"foto {f.stem}: pequena ({rgba.size[0]}x{rgba.size[1]}), ampliada {escala:.1f}x")
                 if "IA indisponível" in metodo:
                     avisos.append(f"foto {f.stem}: fundo não é branco puro e a remoção por IA falhou")
