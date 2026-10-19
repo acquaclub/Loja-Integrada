@@ -115,6 +115,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | MAS604GMFESXE | Fogão Bertazzoni Master 60 cm 4 Queimadores a Gás Forno Elétrico 60 L Inox 220V | Bertazzoni | `bertazzoni-fogao-master-60-forno-eletrico-MAS604GMFESXE.html` | `bertazzoni-fogao-master-60-forno-eletrico-MAS604GMFESXE-seo.txt` (URL mantida) | entregue | 19/10/2026 | 4 Queimadores a Gás (ok) |
 | MAS604GGEVSXE | Fogão Bertazzoni Master 60 cm 4 Queimadores a Gás Forno a Gás 60 L Inox 220V | Bertazzoni | `bertazzoni-fogao-master-60-forno-gas-MAS604GGEVSXE.html` | `bertazzoni-fogao-master-60-forno-gas-MAS604GGEVSXE-seo.txt` (URL mantida) | entregue | 19/10/2026 | 4 Queimadores a Gás (ok) |
 | EFGGF6QM2A | Fogão a Gás Evol Profissional 6 Queimadores Forno 163 L Air Fry Pirolítico Inox 90 cm 220V | Evol | `evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A.html` | `evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A-seo.txt` (URL mantida) | entregue | 19/10/2026 | 6 a 8 Queimadores a Gás (ok) |
+| EMCEB0352C (era EMCEB0352A) | Micro-ondas Combinado de Embutir Evol IX13 42 Litros Inox e Vidro Preto 220V | Evol | `evol-microondas-combinado-ix13-42-EMCEB0352C.html` | `evol-microondas-combinado-ix13-42-EMCEB0352C-seo.txt` (URL mantida) | entregue (A: trocar código para EMCEB0352C) | 19/10/2026 | Micro-ondas → sugerido Forno e Micro-ondas Combinado |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -238,7 +239,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | EFGGF6QM2A | - | Fogão a Gás Profissional Evol 6 Queimadores 90 cm c/ Forno a Gás | Fogões > 6 a 8 Queimadores a Gás | S | feito 19/10 (evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A) |  |
 |   | EFNEB0352A | - | Forno Elétrico de Embutir Evol IX13 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo | A: trocar código/ficha → EFNEB0352C ou EFNEB0352D |
 |   | EFNEB0352B | - | Forno Elétrico de Embutir Evol IX17 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | antigo | A: trocar código/ficha → EFNEB0352C ou EFNEB0352D |
-|   | EMCEB0352A | - | Forno Micro-ondas Combinado Evol IX13 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo | A: trocar código/ficha → EMCEB0352B ou EMCEB0352C |
+|   | EMCEB0352A | - | Forno Micro-ondas Combinado Evol IX13 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | feito 19/10 (evol-microondas-combinado-ix13-42-EMCEB0352C) | A: código → EMCEB0352C (cliente enviou material do C) |
 |   | EMCEB0352B | - | Forno Micro-ondas Combinado Evol IX17 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | EMOEB0252B | - | Forno Micro-ondas Evol de Embutir 25L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | EGAEB0062B | - | Gaveta Aquecida Evol IX13 de Embutir 6 Serviços 24L 60cm 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo | A: trocar código/ficha → EGAEB0062C ou EGAEB0062D |
