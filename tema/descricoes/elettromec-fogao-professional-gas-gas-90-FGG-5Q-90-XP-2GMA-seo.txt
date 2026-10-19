@@ -1,0 +1,27 @@
+NOME DO PRODUTO
+Fogão Elettromec Professional 5 Queimadores Forno a Gás 116 L Inox 90 cm 220V
+
+TAG TITLE
+Fogão Elettromec Professional Gás/Gás 90 cm | Unikitchen
+
+META DESCRIPTION
+Fogão Elettromec Professional 90 cm, 5 queimadores com 2 Dual Flame, forno a gás 116 L e chapa bistequeira. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fogões > 5 Queimadores a Gás (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: guia comercial (fichas/elettromec-FGG-5Q-90-XP-2GMA-guia.pdf) e página do site. Manual não recebido.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia: 960 x 880 x 710 mm, mesma ordem L x A x P do produto): L 96, A 88, P 71 cm, 95,5 kg
+GTIN/EAN e corrente: não constam no guia nem no site.
+CAMPOS LOJA INTEGRADA (fogões, na ordem da tela): Classificação de mercado Eletrodomésticos » Fornos e Fogões » Fogões; Tipo de montagem De piso (+ De embutir, se aceitar mais de uma); Modelo Professional Gás/Gás 90 cm; Com tampa (em branco); Com estufa (em branco); Com temporizador Sim; É conversível a GLP Sim; Com forno duplo Não; Com válvulas de segurança Sim; É industrial Não; É conversível a GN Sim; Tipo de porta do forno Vidro; Tipo de alimentação Gás; Eficiência energética dos queimadores (em branco); Tipo de gás GLP e GN; Eficiência energética (em branco); Tipo de ignição Superautomática; Altura 98,5 cm (máxima; regulável de 91,5 a 98,5); Modelo alfanumérico FGG-5Q-90-XP-2GMA; Peso 81 kg; Largura 90 cm; Quantidade de queimadores elétricos 0; Quantidade de bocas 5; INMETRO (em branco); Etiqueta (em branco); Capacidade em volume do forno 116 L.
+Conflitos:
+- garantia – guia "2 anos*" com nota "estender de 1 para 2 anos com cadastro no Inspire-se" x bloco Elettromec (2 anos: 90 dias + 21 meses) → mantido o bloco; CONFIRMAR COM A ELETTROMEC (mesmo caso do FGE-5Q-90).
+- instalação – site "Fogão de Piso" x guia "possibilidade de usar embutido, mantendo os pés" → piso, podendo ser embutido.
+- potência do forno 2,7 kW – guia não diz se é térmica (gás) ou elétrica (grill) → mantida como "potência do forno".
+Não usado: "design, performance e segurança e tecnologia ideal" (marketing); tabela de receitas do forno.
