@@ -108,6 +108,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | 13318 | Dosador de Sabão Franke de Sobrepor Redondo Aço Escovado 330 ml | Franke | `franke-dosador-sabao-redondo-escovado-330ml-13318.html` | `franke-dosador-sabao-redondo-escovado-330ml-13318-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
 | 13320 | Dosador de Sabão Franke de Sobrepor Quadrado Aço Escovado 330 ml | Franke | `franke-dosador-sabao-quadrado-escovado-330ml-13320.html` | `franke-dosador-sabao-quadrado-escovado-330ml-13320-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
 | 16592 | Dosador de Sabão Franke de Embutir e Sobrepor Black Matte 300 ml | Franke | `franke-dosador-sabao-black-matte-300ml-16592.html` | `franke-dosador-sabao-black-matte-300ml-16592-seo.txt` (URL mantida) | entregue | 16/10/2026 | Dosadores de sabão (ok) |
+| FGG-8Q-48-XP-1SGA | Fogão a Gás Elettromec Professional 48" 8 Queimadores 2 Fornos 156 L Inox 127V | Elettromec | `elettromec-fogao-professional-8-queimadores-48-FGG-8Q-48-XP-1SGA.html` | `elettromec-fogao-professional-8-queimadores-48-FGG-8Q-48-XP-1SGA-seo.txt` (URL mantida) | entregue | 19/10/2026 | 6 a 8 Queimadores a Gás (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -177,7 +178,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | FGE-5Q-90-XP-2GMA | - | Fogão Freestanding Elettromec Profissional 5 Queimadores com Forno Elétrico Inox 90cm 220V | Fogões > 5 Queimadores a Gás | S | antigo |  |
 |   | FGG-5Q-90-XP-2GMA | - | Fogão Freestanding Elettromec Profissional 5 Queimadores com Forno à Gás 116 Litros Inox 90cm 220V | Fogões > 5 Queimadores a Gás | S | antigo |  |
 |   | FGG-6Q-36-XP-1SGA | - | Fogão Freestanding Elettromec Profissional 6 Queimadores com Forno à Gás 127 Litros Inox 91,5cm 110V | Fogões > 6 a 8 Queimadores a Gás | S | antigo |  |
-|   | FGG-8Q-48-XP-1SGA | - | Fogão Freestanding Elettromec Profissional 8 Queimadores com 2 Fornos à Gás 156 Litros Inox 122cm 110V | Fogões > 6 a 8 Queimadores a Gás | S | antigo |  |
+|   | FGG-8Q-48-XP-1SGA | - | Fogão Freestanding Elettromec Profissional 8 Queimadores com 2 Fornos à Gás 156 Litros Inox 122cm 110V | Fogões > 6 a 8 Queimadores a Gás | S | feito 19/10 (elettromec-fogao-professional-8-queimadores-48-FGG-8Q-48-XP-1SGA) |  |
 |   | FM-EL-75-LC-2TNA | - | Forno Elettromec Elétrico Multifunções Luce Inox 75cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
 |   | FM-EL-90-LC-2LCA | - | Forno Elettromec Luce Elétrico Multifunções 125 Litros Inox e Vidro 90cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | antigo | A: trocar código/ficha → FM-EL-90-LC-2TNA |
 |   | FM-EL-60-LC-2TNA | - | Forno Elettromec Luce Elétrico Multifunções Inox e Vidro 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
