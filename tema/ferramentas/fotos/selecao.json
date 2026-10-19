@@ -1,0 +1,9 @@
+{
+ "_ajuda": "SKU -> fotos do cadastro (número do baixar_fotos.py) na ordem final. 1ª = vitrine, 2ª = mouse, depois detalhes; desenho técnico vai sempre por último. Tipo opcional depois de ':' (produto, detalhe, medidas).",
+ "CBK200": ["1", "3", "2", "4:medidas"],
+ "CBK301M": ["1", "2", "4"],
+ "CBK401B": ["1", "2", "4"],
+ "CBY300": ["1", "2", "4"],
+ "CBY400": ["1", "2", "4", "9"],
+ "DBQ-IR-40-XX-NHUA": ["1", "4", "3"]
+}
