@@ -387,7 +387,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 947093 | 94709301 (-), 94709371 (-) | Cooktop a Gás Tramontina Penta Side Plus em Vidro Temperado com Trempes em Aço Carbono e Acendimento superautomático 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (tramontina-cooktop-penta-side-plus-90-947093) |  |
 |   | 94708201 | - | Cooktop a Gás Tramontina Penta em Vidro Temperado Preto com Trempes em Aço Carbono e Acendimento superautomático 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (tramontina-cooktop-penta-5gg-tri-70-94708201) |  |
 |   | 94751022 | - | Cooktop por Indução Tramontina Square Basic 4EI 60 | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (tramontina-cooktop-inducao-square-basic-4ei-60-94751022) |  |
-|   | 948 | 94869220 (-), 94870220 (-) | Forno Elétrico de Embutir Tramontina Glass Cook em Vidro Temperado Preto 7 Funções 73 L | Fornos e Micro-ondas > Forno Elétrico | N | antigo | D: remover (sugestão, aguarda cliente) |
+|   | 948 | 94869220 (-), 94870220 (-) | Forno Elétrico de Embutir Tramontina Glass Cook em Vidro Temperado Preto 7 Funções 73 L | Fornos e Micro-ondas > Forno Elétrico | N | deletado 19/10 | D: cliente vai deletar (19/10) |
 |   | 94880006 | - | Micro-ondas de Embutir Tramontina Inox 60 25 L em Aço Inox com Acabamento Acetinado 8 Funções | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | 94895214 | - | Lava-Louças Tramontina Inox 14 Serviços SB14X 60 com 6 Programas e 4 Funções 220V | Lava Louças > Lava-louças | S | antigo |  |
 |   | 94895220 | - | Lava-Louças Tramontina Inox 15 Serviços S15X 60 com 8 Programas e 6 Funções 220 V | Lava Louças > Lava-louças | S | antigo |  |
