@@ -286,7 +286,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |---|---|---|---|---|---|---|---|
 |   | IS846BG | - | Cooktop Elétrico Indução Gorenje HomeMade 4 Bocas Touch 80cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo | adiado 14/10: site oficial Gorenje fora do ar |
 |   | GW951X-BR | - | Cooktop a Gás Gorenje 5 Bocas Inox 90cm GW951X-BR 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo | adiado 13/10: site oficial Gorenje fora do ar |
-|   | BOS6737E13XBR | - | Forno Elétrico Multifunções Gorenje HomeMade 77 Litros Inox 60cm 220V BOS6737E13XBR | Fornos e Micro-ondas > Forno Elétrico | S | antigo | B: reativar (já está ativo na planilha: conferir) |
+|   | BOS6737E13XBR | - | Forno Elétrico Multifunções Gorenje HomeMade 77 Litros Inox 60cm 220V BOS6737E13XBR | Fornos e Micro-ondas > Forno Elétrico | S | antigo | B: reativar (já está ativo na planilha: conferir); adiado 19/10: site oficial Gorenje fora do ar |
 |   | BOS6747A01XBR | - | Forno Elétrico Multifunções Gorenje HomeMade Air Fryer 77 Litros Inox 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
 |   | BM321A7X-BR | - | Forno Micro-ondas Combinado de Embutir Gorenje Inox 60cm 220V | Fornos e Micro-ondas > Forno e Micro-ondas Combinado | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
 |   | BCM4547A10XBR | - | Micro-ondas e Forno Elétrico Combinado 60 cm 50L Embutir BCM4547A10XBR Gorenje | Fornos e Micro-ondas > Forno e Micro-ondas Combinado | S | antigo |  |
