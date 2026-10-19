@@ -1,0 +1,52 @@
+NOME DO PRODUTO
+Forno Elétrico de Embutir Tecno Professional Air Fry 81 Litros 60 cm Inox 304 220V
+
+TAG TITLE
+Forno Elétrico Tecno Professional Air Fry 81 L | Unikitchen
+
+META DESCRIPTION
+Forno elétrico de embutir Tecno Professional, 81 L, Air Fry, 15 funções, sonda de temperatura e inox 304. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Forno Elétrico (já está). Sem secundária.
+
+AÇÃO DA LISTA: A – código mudou: TO73EXDB → TO81EXDAP (Professional; cliente enviou o folder do TO81EXDAP em 19/10). Trocar SKU/código, nome (73 → 81 L) e REATIVAR o anúncio. Lista do outro chat indicava disponibilidade só na 2ª quinzena de outubro – conferir estoque.
+
+FONTES: folder de vendas Tecno do TO81EXDAP (fichas/tecno-TO81EX-folder.pdf; mesmo texto colado pelo cliente) e manual TO81EX (imagens: tabela técnica e tabela de cozimento).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (folder): L 64,8 (65), A 67,9 (68), P 68,8 (69) cm, 42,4 kg.
+Produto: 594 x 594 x 550 mm (L x A x P), 36,2 kg; cavidade 493 x 415 x 463 mm; 81 L úteis / 92 L brutos; 220 V, 60 Hz, 2,85 kW, 13 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
+- Classificação de mercado: Eletrodomésticos » Fornos e Fogões » Fornos
+- Tipo de montagem: Embutir
+- Tipos de forno: Elétrico
+- Modelo: Forno Tecno Professional
+- Com material autolimpante: (em branco)
+- Com grill: Sim
+- Com função autolimpante: (em branco - Steam Clean é limpeza a vapor, não autolimpeza)
+- Com temporizador: Sim
+- Com função microondas: Não
+- Com material de fácil limpeza: (em branco - só a bandeja tem esmalte easy-clean)
+- Com convecção: Sim
+- Cor principal: Inox
+- Tipo de gás: (em branco - elétrico)
+- Número de registro/certificação INMETRO: (em branco)
+- Largura: 59,4 cm
+- Quantidade de fogões: (em branco)
+- Capacidade em volume: 81 L
+- Modelo alfanumérico: TO81EXDAP
+- Altura: 59,4 cm
+- Etiqueta de conservação de energia: (em branco)
+Conflitos (regra de 19/10: escolher um):
+- profundidade – manual TO81EX (genérico) 575 mm x folder TO81EXDAP 550 mm → 550 mm (fonte específica do código vence).
+- potência – manual 2.900 W (nominal) x folder 2,85 kW (máxima) → 2,85 kW (fonte específica do código).
+- acessórios – manual "1 grelha + 1 cesta para fritadeira a ar + 2 bandejas" x folder "2 prateleiras (1 para AirFry) + 2 bandejas" → folder (mesma contagem, descrita diferente).
+- frequência 60 Hz – só no manual (sem conflito).
+- folder "Classificação Energética: 220V" – dado sem sentido, ignorado.
+- folder "total acesso aos 2 vidros" com porta de vidro triplo – mantido só "vidro triplo removível".
+- lista de funções: o material cita 13 nomes para 15 funções → texto diz "entre outras".
+Não usado: "maior capacidade útil da categoria", "surpreender", "deliciosos", "refinado", "ampla gama", "resultados profissionais", "potente", "intuitiva", "mais altos padrões de qualidade", "elegantes", "incomparáveis", "melhores escolhas", "sem fumaça", "redução de 25% do tempo", "drasticamente" (superlativos e promessas de marketing).
