@@ -1,0 +1,30 @@
+NOME DO PRODUTO
+Fogão a Gás Elettromec Professional 36" 6 Queimadores Forno 127 L Inox 304 127V
+
+TAG TITLE
+Fogão Elettromec Professional 6 Bocas 127 L | Unikitchen
+
+META DESCRIPTION
+Fogão a gás Elettromec Professional 36" inox 304, 6 queimadores com Dual Flame e forno de 127 L com grill e convecção. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fogões > 6 a 8 Queimadores a Gás (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: guia comercial (imagens enviadas em 19/10) e página do site (fichas/elettromec-FGG-6Q-36-XP-1SGA-site.pdf). Manual não recebido.
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: 7898593937345. NCM 7321.11.00.
+Embalagem (guia: 1015 x 1155 x 810 mm, na mesma ordem L x A x P do produto): L 102 (101,5), A 116 (115,5), P 81 cm, 140 kg
+Produto: 916 x 955 x 735 mm, 125 kg; 127 V, 60 Hz, 4,5 A; GLP/GN; 6 queimadores; forno 127 L.
+Conflitos:
+- tensão – nome atual da loja "110V" x guia 127 V → 127V no nome.
+- Dual Flame – diferencial do guia "4,39 kW" x tabela de informações técnicas 5,86 kW → 5,86 kW.
+- grill – diferencial do guia "Grill Elétrico" x tabela "Gás" e site "Grill a gás" → gás.
+- vidro da porta – site "vidro duplo" x guia (tabela "3" e diferencial "vidro triplo") → triplo.
+- largura – site/guia "90 cm" x largura comercial 915 mm e produto 916 mm → 91,5 cm (comercial) no nome.
+- instalação – guia e site (texto) "piso ou embutida" x site (especificações) "Fogão de Piso" → piso ou embutido.
+Não usado: "design robusto", "alta performance", "tradicional, elegante e perfeito", "ideal para preparos exigentes" (marketing).
