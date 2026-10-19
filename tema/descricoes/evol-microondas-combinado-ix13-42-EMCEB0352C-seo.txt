@@ -20,7 +20,7 @@ CADASTRO / ESPECIFICAÇÕES
 Embalagem (manual: 660 x 650 x 512 mm, sem ordem indicada): conferir as medidas atuais; peso 38,6 kg.
 Produto: 595 x 568 x 455 mm (L x P x A pelo site/guia: 59,5 x 57 x 45,5 cm), 34,6 kg; 220 V, 60 Hz; 42 L.
 GTIN/EAN: não informado.
-Campos da Loja Integrada para esta categoria: pedir a lista ao cliente.
+CAMPOS LOJA INTEGRADA (micro-ondas, na ordem da tela): Cor Inox; Modelo Micro-ondas Combinado IX13; Com grill Sim; Com porta espelhada (em branco); Tipos de montagem do microondas Embutir; Etiqueta (em branco); Homologação Anatel (em branco); Potência 1.550 W (nominal do micro-ondas; saída máxima 1.000 W); Modelo alfanumérico EMCEB0352C; Capacidade em volume 42 L; Fabricante Evol; INMETRO (em branco).
 Conflitos (regra de 19/10: escolher um):
 - capacidade – manual "42 (37)" x site/guia 42 L → 42 L.
 - profundidade – manual 568 mm x site/guia 57 cm → 568 mm (mais preciso; mesma medida).
