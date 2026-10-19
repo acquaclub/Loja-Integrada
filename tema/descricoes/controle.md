@@ -194,7 +194,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | FMC-LT-25-LC-2GZB | - | Forno Micro-ondas de Embutir Elettromec Luce Flat Inox 25 Litros 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | FMC-LT-25-VT-2GZA | - | Forno Micro-ondas de Embutir Elettromec Vetro Flat 23 Litros 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | FG-AN-60-LC-2TNA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 60cm 220V | Fornos e Micro-ondas > Forno a Gás | S | antigo |  |
-|   | FG-AN-90-LC-2LCA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 90cm 220V | Fornos e Micro-ondas > Forno a Gás | N | antigo | A: trocar código/ficha → FG-AN-90-LC-2TNA |
+|   | FG-AN-90-LC-2LCA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 90cm 220V | Fornos e Micro-ondas > Forno a Gás | N | antigo | D: cliente vai deletar (19/10); troca p/ 2TNA não confirmada no site |
 |   | GA-12S-30-XX-2TNA | - | Gaveta Aquecida Inox 30cm 220v Elettromec | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo |  |
 |   | GA-6S-14-XX-2TNA | - | Gaveta Aquecida Inox Elettromec 14cm 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo |  |
 |   | GA-6S-14-VT-2TNA | - | Gaveta Aquecida Vetro Elettromec 14cm Vidro Preto 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | N | antigo | A: trocar código/ficha → GA-6S-14-XX-2TNA |
