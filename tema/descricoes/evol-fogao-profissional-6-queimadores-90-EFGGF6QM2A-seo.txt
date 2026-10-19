@@ -1,0 +1,27 @@
+NOME DO PRODUTO
+Fogão a Gás Evol Profissional 6 Queimadores Forno 163 L Air Fry Pirolítico Inox 90 cm 220V
+
+TAG TITLE
+Fogão Evol Profissional 6 Bocas Forno 163 L | Unikitchen
+
+META DESCRIPTION
+Fogão a gás Evol Profissional 90 cm inox, 6 queimadores com Dual Flame, forno de 163 L com Air Fry e limpeza pirolítica. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fogões > 6 a 8 Queimadores a Gás (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do site Evol (texto colado em 19/10), guia comercial (fichas/evol-EFGGF6QM2A-guia.pdf) e manual (painel, funções, prateleiras).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: peso 130,2 kg (site: "peso bruto"); medidas da caixa não informadas → manter as atuais se plausíveis.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fogões, na ordem da tela): Classificação de mercado Eletrodomésticos » Fornos e Fogões » Fogões; Tipo de montagem De piso; Modelo Fogão Profissional 6Q; Com tampa (em branco); Com estufa (em branco); Com temporizador Sim; É conversível a GLP (em branco); Com forno duplo Não; Com válvulas de segurança (em branco); É industrial Não; É conversível a GN (em branco); Tipo de porta do forno (em branco); Tipo de alimentação Gás; Eficiência energética dos queimadores (em branco); Tipo de gás (em branco); Eficiência energética (em branco); Tipo de ignição Superautomática; Altura 96 cm; Modelo alfanumérico EFGGF6QM2A; Peso (em branco: só há peso bruto, 130,2 kg); Largura 90,5 cm; Quantidade de queimadores elétricos 0; Quantidade de bocas 6; INMETRO (em branco); Etiqueta (em branco); Capacidade em volume do forno 163 L.
+Conflitos (regra de 19/10: escolher um):
+- peso – site "peso bruto 130,2 kg" x guia "peso 130,2 kg" (sem dizer se é bruto) → tratado como bruto.
+- potência total – site 22,8 kW (mesa) x guia 33,3 kW (mesa + forno 6,5 + grill 4,0) → os dois, com rótulo.
+- garantia – produto: 2 anos + 5 anos nos queimadores (site e guia) x política geral Evol 1 ano → específica do produto.
+Não usado: "solução perfeita", "imponência", "tecnologia de ponta", "novos patamares", "ápice da potência e da sofisticação", "impressionante", "desempenho superior", "o maior do mercado", "verdadeira revolução", "inovadora", "crocância perfeita", "máxima flexibilidade", "design exclusivo, patenteado", "excelência", "impressionar", "luxury home appliance high end", "matéria prima arrojada", "exímio", "superioridade", "requinte" (superlativos); medidas do desenho de instalação (coifa e parede).
