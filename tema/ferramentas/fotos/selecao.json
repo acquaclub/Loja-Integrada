@@ -38,7 +38,10 @@
  "DBQ-IR-40-XX-NHUA": [
   "1",
   "4",
-  "3"
+  "3",
+  "e4:detalhe",
+  "f1:medidas",
+  "f2:medidas"
  ],
  "94897001": [
   "1",
@@ -48,7 +51,8 @@
  "ERDEB5042A": [
   "1",
   "2",
-  "3"
+  "3",
+  "f1:medidas"
  ],
  "FNI5182A1": [
   "2",
@@ -58,7 +62,8 @@
  "FZ-DU-307-XX-2VSA": [
   "1",
   "2",
-  "3"
+  "3",
+  "f1:medidas"
  ],
  "GRF-49W": [
   "1",
@@ -74,17 +79,24 @@
  "RF-BF-510-VT-2VSA": [
   "1",
   "2",
-  "5"
+  "e2:detalhe",
+  "5",
+  "f1:medidas",
+  "f2:medidas"
  ],
  "RF-BF-510-XX-2VSA": [
   "1",
   "2",
-  "4"
+  "e1:detalhe",
+  "4",
+  "f1:medidas",
+  "f2:medidas"
  ],
  "RF-DU-404-XX-2VSA": [
   "1",
   "2",
-  "3"
+  "3",
+  "f1:medidas"
  ],
  "RI5182A1": [
   "1",
@@ -94,7 +106,7 @@
  ],
  "TR10FZDA": [
   "1:produto",
-  "2",
+  "2:produto",
   "4",
   "11:medidas"
  ],
@@ -123,7 +135,9 @@
  "BC-BI-144-VT-2VPA": [
   "1",
   "2",
-  "5"
+  "5",
+  "f1:medidas",
+  "f2:medidas"
  ],
  "BC-BI-88-XV-2VPA": [
   "1",
@@ -145,26 +159,31 @@
  "CV-2BI-87-VT-2VPA": [
   "1",
   "2",
-  "4"
+  "4",
+  "f1:medidas",
+  "f2:medidas"
  ],
  "JC-115DR220": [
   "1",
   "4",
-  "3"
+  "3",
+  "f1:medidas"
  ],
  "JC-145B-L": [
   "1",
   "2",
-  "4"
+  "4",
+  "f1:medidas"
  ],
  "JC-145B-R": [
   "1",
   "2",
-  "6"
+  "6",
+  "f1:medidas"
  ],
  "JC-145C": [
   "1",
-  "2",
+  "2:produto",
   "4",
   "6:medidas"
  ],
@@ -183,7 +202,8 @@
  "JC-425C220R": [
   "1",
   "5",
-  "2"
+  "2",
+  "f1:medidas"
  ],
  "TR08AVDA": [
   "1",
@@ -197,8 +217,8 @@
   "6"
  ],
  "TR14ARDB": [
-  "1",
-  "2",
+  "1:produto",
+  "2:produto",
   "4",
   "6"
  ],
@@ -210,27 +230,27 @@
   "9:medidas"
  ],
  "TR14AVDC": [
-  "1",
-  "2",
+  "1:produto",
+  "2:produto",
   "3",
   "7",
   "8:medidas"
  ],
  "TR14CRDD": [
   "1",
-  "2",
+  "2:produto",
   "3"
  ],
  "TR14CVDC": [
-  "1",
-  "2",
+  "1:produto",
+  "2:produto",
   "3",
   "6",
   "8:medidas"
  ],
  "TR14CVDD": [
   "1",
-  "2",
+  "2:produto",
   "3",
   "6",
   "8:medidas"

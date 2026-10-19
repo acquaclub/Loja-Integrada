@@ -18,6 +18,7 @@ Tipos de foto:
 Uso:  python3 padronizar_fotos.py <entrada> <saida> [--png] [--so=SKU1,SKU2]
       --png  também grava uma versão PNG com fundo transparente das fotos de produto
       --so   processa só esses SKUs
+      --ia   usa remoção de fundo por IA (rembg) quando o fundo não é branco puro
 """
 import json
 import sys
@@ -32,6 +33,7 @@ TAMANHO = 2000
 QUALIDADE = 88
 BRANCO = 243          # a partir deste valor (nos 3 canais) o pixel conta como fundo branco
 TIPOS = ("produto", "detalhe", "medidas")
+USAR_IA = "--ia" in sys.argv   # remoção de fundo por IA (rembg): só com --ia
 PALAVRAS_MEDIDAS = ("medida", "tecnico", "técnico", "dimens", "desenho")
 
 
@@ -118,7 +120,7 @@ def compor(recorte_rgba, escala, x, y):
 
 def processar_produto(rgba, perfil):
     masc, metodo = mascara_produto(rgba)
-    if metodo == "fundo-branco" and borda_branca(rgba) < 0.97:
+    if USAR_IA and metodo == "fundo-branco" and borda_branca(rgba) < 0.97:
         try:
             masc, metodo = remover_fundo_ia(rgba)
         except Exception as e:  # sem rembg: segue com o recorte simples
