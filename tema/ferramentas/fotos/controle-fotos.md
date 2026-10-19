@@ -6,7 +6,7 @@ Entrega: zip com a pasta `FOTOS SITE RENDERIZADAS/<SKU>/`, para descompactar em 
 
 Status: **a fazer** · **entregue** (zip enviado) · **no ar** (fotos trocadas na loja).
 
-Lista tirada do site em 19/10/2026: 188 produtos que aparecem nas categorias. Produto inativo ou fora de categoria não entra aqui.
+Todos os produtos da plataforma: 188 que aparecem nas categorias do site (lista de 19/10/2026) + 32 do catálogo de 08/10 que não aparecem (no fim do arquivo). Total: 220. Produtos ainda não cadastrados ficam de fora até entrarem na loja.
 
 ## Resumo
 
@@ -29,7 +29,8 @@ Lista tirada do site em 19/10/2026: 188 produtos que aparecem nas categorias. Pr
 | Banheiras | 7 | 0 | 0 |
 | Compactos | 28 | 0 | 0 |
 | Acessórios | 4 | 0 | 0 |
-| **Total** | **188** | **6** | **0** |
+| Fora das categorias do site | 32 | 0 | 0 |
+| **Total** | **220** | **6** | **0** |
 
 ## Churrasqueiras
 
@@ -303,3 +304,42 @@ Lista tirada do site em 19/10/2026: 188 produtos que aparecem nas categorias. Pr
 | 16592 | Dosador de Sabão Franke de Embutir e Sobrepor Black Matte 300 ml | 3 | a fazer |  |  |
 | 08326 | Dosador de Sabão Franke de Embutir e Sobrepor Cromado Alto Brilho 250 ml | 2 | a fazer |  |  |
 | 13318 | Dosador de Sabão Franke de Sobrepor Redondo Aço Escovado 330 ml | 4 | a fazer |  |  |
+
+## Produtos da plataforma que não aparecem nas categorias do site
+
+32 produtos do catálogo de 08/10/2026 (`tema/descricoes/controle.md`) que não estavam nas listagens do site em 19/10. A maioria está inativa; as fotos atuais deles saem do painel ou do fabricante.
+
+| SKU | Produto | Categoria no cadastro | Ativo | Status | Data | Observações |
+|---|---|---|---|---|---|---|
+| BC-BI-135-XV | Cervejeira Elettromec 135 Litros Built-in Connect Abertura para Esquerda | Adegas e Cervejeiras > Cervejeiras | N | a fazer |  |  |
+| BC-BI-86-XV-2ATB | Cervejeira de Embutir Elettromec 86 litros Connect 220v | Adegas e Cervejeiras > Cervejeiras | N | a fazer |  |  |
+| BH-54170-LK-BRFC | Banheira de Piso Oval Deca 170cm Branco Fosco Linha LK - BH.54170.LK.BRFC | Banheiras | N | a fazer |  |  |
+| BH-53135-AMFC | Banheira de Piso com Degrau Deca 135cm Amêndoa Fosco - BH.53135.AMFC | Banheiras | N | a fazer |  |  |
+| CBB300C | Churrasqueira à Gás Evol Prime Modena 28" 3 Queimadores e 1 Infrared Back Burner Inox | Churrasqueiras > Churrasqueiras a Gás | N | a fazer |  |  |
+| CKI-4Q-60-CI-2XBB | Cooktop Elétrico Indução Elettromec 4 Bocas 60cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | a fazer |  |  |
+| ECTGD4QM3A | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | a fazer |  |  |
+| THV100 | Cooktop Tecno Original Rota Gás 5 Bocas Vitrocerâmico 151cm 220V | Cooktops, Rangetops e Dominós > Cooktops | N | a fazer |  |  |
+| DI-2Q-30-CI-2XBB | Cooktop Dominó Elétrico Indução Elettromec 2 Bocas 30cm 220V | Cooktops, Rangetops e Dominós > Dominós | N | a fazer |  |  |
+| FM-EL-90-LC-2LCA | Forno Elettromec Luce Elétrico Multifunções 125 Litros Inox e Vidro 90cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | a fazer |  |  |
+| EFNEB0352B | Forno Elétrico de Embutir Evol IX17 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | a fazer |  |  |
+| TO73EXDB | Forno Elétrico Multifunções Tecno Air Fry 73 Litros Inox 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | a fazer |  |  |
+| 948 | Forno Elétrico de Embutir Tramontina Glass Cook em Vidro Temperado Preto 7 Funções 73 L | Fornos e Micro-ondas > Forno Elétrico | N | a fazer |  |  |
+| FG-AN-90-LC-2LCA | Forno a Gás Elettromec Luce Grill Elétrico Inox 90cm 220V | Fornos e Micro-ondas > Forno a Gás | N | a fazer |  |  |
+| EMCEB0352A | Forno Micro-ondas Combinado Evol IX13 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | a fazer |  | ativo, mas fora das categorias do site |
+| GA-6S-14-VT-2TNA | Gaveta Aquecida Vetro Elettromec 14cm Vidro Preto 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | N | a fazer |  |  |
+| TG14EXAP | Gaveta Aquecida Tecno Professional Inox 220V TG14EXAP | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | N | a fazer |  |  |
+| DM50CF | Gaveta Refrigerada 50L Dometic Embutir/Revestir Minibar | Gavetas Aquecidas e Refrigeradas > Gavetas Refrigeradas | N | a fazer |  |  |
+| TR14GXDA | Gaveta Refrigerada 136 Litros Tecno Professional Gourmet Inox 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Refrigeradas | N | a fazer |  |  |
+| FR-LL-60-VT-NLGB | Painel Lava-louças Elettromec Vetro 14 Serviços com Puxador 220V | Lava Louças > Frente Lava-louças | N | a fazer |  |  |
+| LL-14S-60-SR-2VSA | Lava-louças 14 Serviços para Revestimento Elettromec 220v Inox | Lava Louças > Lava-louças | N | a fazer |  |  |
+| AFNE9BSP545DW04 | Lavadora Residencial De Abertura Frontal Speed Queen 10,5 Kg 220V Branca | Lavadoras e Secadoras > Lavadoras | N | a fazer |  |  |
+| ATEE9ASP545DW04 | Lavadora e Secadora Branca Speed Queen Conjugada Elétrica Inox 220v | Lavadoras e Secadoras > Lavadoras e Secadoras | N | a fazer |  |  |
+| ATEE9ASP543DN04 | Lavadora e Secadora Inox Speed Queen Conjugada Elétrica Inox 220v | Lavadoras e Secadoras > Lavadoras e Secadoras | N | a fazer |  |  |
+| ADGE9BGS545DW01 | Secadora de Roupas Elétrica Residencial 10,5kg Abertura Frontal Branco 220V - Speed Queen | Lavadoras e Secadoras > Secadoras | N | a fazer |  |  |
+| ActiveTwist | Misturador Monocomando Maris Franke Active Twist Inox Preto Fosco ou Fosco Bica Alt | Misturadores e Torneiras > Com Extensor | S | a fazer |  | ativo, mas fora das categorias do site |
+| PescaraXL | Misturador De Mesa Monocomando Franke Pescara XL Bica Alta Giratória Fosco e Alto Brilho | Misturadores e Torneiras > Sem Extensor | N | a fazer |  |  |
+| TIM50ERDA | Máquina de Gelo para Revestir Tecno Professional TIM50ERDA | Máquinas de Gelo | N | a fazer |  |  |
+| JC145CL | Freezer de Embutir Evol Inverter Smart 142 Litros Inox 220V - Abertura para Direita | Refrigeradores e Freezers > All Freezer | N | a fazer |  |  |
+| FB-BI-86-XV-2ATB | Frigobar Elettromec 86 Litros Built-in Connect 220V | Refrigeradores e Freezers > Frigobares | N | a fazer |  |  |
+| FB-BI-135-XV | Frigobar Elettromec de Embutir 135 Litros Connect Inox Abertura para Esquerda | Refrigeradores e Freezers > Frigobares | N | a fazer |  |  |
+| 15813 | Triturador de Resíduos de Alimentos Turbo Elite TE75 Franke 220V | Trituradores de alimentos | N | a fazer |  |  |
