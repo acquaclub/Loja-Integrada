@@ -1,0 +1,26 @@
+NOME DO PRODUTO
+Fogão Elettromec Professional 5 Queimadores a Gás Forno Elétrico 116 L Inox 90 cm 220V
+
+TAG TITLE
+Fogão Elettromec Professional 5 Bocas 90 cm | Unikitchen
+
+META DESCRIPTION
+Fogão Elettromec Professional 90 cm, 5 queimadores com 2 Dual Flame e forno elétrico de 116 L com 8 funções e grill. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fogões > 5 Queimadores a Gás (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: guia comercial (fichas/elettromec-FGE-5Q-90-XP-2GMA-guia.pdf) e página do site. Manual não recebido.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia: 960 x 870 x 720 mm, mesma ordem L x A x P do produto): L 96, A 87, P 72 cm, 94,5 kg
+Produto: 900 x 815–985 x 650 mm, 81 kg; 220 V, 60 Hz, 12,2 A, forno 2.650 W; GLP/GN; 5 queimadores; forno 116 L.
+GTIN/EAN: não consta no guia nem no site.
+Conflitos:
+- garantia – guia: "Você pode estender sua garantia de 1 para 2 anos, basta se cadastrar no Programa de Relacionamento Inspire-se" x bloco Elettromec (2 anos: 90 dias + 21 meses, do certificado) → mantido o bloco; CONFIRMAR COM A ELETTROMEC (pode afetar todas as descrições Elettromec).
+- guia "Acessórios: Não" x "Suporte para panela wok: Sim" e "Chapa bistequeira: Sim" (mesma tabela) → wok e chapa citados.
+Não usado: "design, performance e segurança e a tecnologia ideal" (marketing); tabela de receitas do forno (temperaturas indicativas).
