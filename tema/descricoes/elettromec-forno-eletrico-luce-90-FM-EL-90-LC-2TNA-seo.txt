@@ -1,0 +1,27 @@
+NOME DO PRODUTO
+Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V
+
+TAG TITLE
+Forno Elétrico Elettromec Luce 90 cm 125 L | Unikitchen
+
+META DESCRIPTION
+Forno elétrico de embutir Elettromec Luce 90 cm, 125 L, 13 programas, convecção, grill e timer digital. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Forno Elétrico (já está). Sem secundária.
+
+AÇÃO DA LISTA: A – código mudou: FM-EL-90-LC-2LCA → FM-EL-90-LC-2TNA (site atual). Trocar SKU/código e REATIVAR o anúncio (está inativo).
+
+FONTES: página do site com o código novo FM-EL-90-LC-2TNA (fichas/elettromec-FM-EL-90-LC-2TNA-site.pdf) e guia comercial do código antigo FM-EL-90-LC-2LCA (fichas/elettromec-FM-EL-90-LC-2LCA-guia.pdf) para os dados técnicos que o site não traz.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia 2LCA: 965 x 650 x 650 mm, mesma ordem L x A x P do produto): L 97 (96,5), A 65, P 65 cm, 60,85 kg
+Produto: 896 x 595 x 548 mm, 56,8 kg; 220 V, 60 Hz, 3.300 W, 14,78 A; 125 L.
+GTIN/EAN: o guia traz 7898593937390, mas é do código antigo 2LCA → não usar no 2TNA sem confirmar com a Elettromec.
+Campos da Loja Integrada para esta categoria: pedir a lista ao cliente.
+Conflitos (regra de 19/10: escolher um):
+- número de funções – site (2TNA) "13 programas" x guia (2LCA) "12 funções" → 13 (fonte do código novo).
+- dados técnicos do 2LCA (guia) aplicados ao 2TNA por falta de guia do código novo; conferir quando houver.
+Não usado: "sofisticação e praticidade", "ideal para diversos tipos de receitas" (marketing).

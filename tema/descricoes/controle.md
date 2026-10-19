@@ -116,6 +116,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | MAS604GGEVSXE | Fogão Bertazzoni Master 60 cm 4 Queimadores a Gás Forno a Gás 60 L Inox 220V | Bertazzoni | `bertazzoni-fogao-master-60-forno-gas-MAS604GGEVSXE.html` | `bertazzoni-fogao-master-60-forno-gas-MAS604GGEVSXE-seo.txt` (URL mantida) | entregue | 19/10/2026 | 4 Queimadores a Gás (ok) |
 | EFGGF6QM2A | Fogão a Gás Evol Profissional 6 Queimadores Forno 163 L Air Fry Pirolítico Inox 90 cm 220V | Evol | `evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A.html` | `evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A-seo.txt` (URL mantida) | entregue | 19/10/2026 | 6 a 8 Queimadores a Gás (ok) |
 | EMCEB0352C (era EMCEB0352A) | Micro-ondas Combinado de Embutir Evol IX13 42 Litros Inox e Vidro Preto 220V | Evol | `evol-microondas-combinado-ix13-42-EMCEB0352C.html` | `evol-microondas-combinado-ix13-42-EMCEB0352C-seo.txt` (URL mantida) | entregue (A: trocar código para EMCEB0352C) | 19/10/2026 | Micro-ondas → sugerido Forno e Micro-ondas Combinado |
+| FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -187,7 +188,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | FGG-6Q-36-XP-1SGA | - | Fogão Freestanding Elettromec Profissional 6 Queimadores com Forno à Gás 127 Litros Inox 91,5cm 110V | Fogões > 6 a 8 Queimadores a Gás | S | feito 19/10 (elettromec-fogao-professional-6-queimadores-36-FGG-6Q-36-XP-1SGA) |  |
 |   | FGG-8Q-48-XP-1SGA | - | Fogão Freestanding Elettromec Profissional 8 Queimadores com 2 Fornos à Gás 156 Litros Inox 122cm 110V | Fogões > 6 a 8 Queimadores a Gás | S | feito 19/10 (elettromec-fogao-professional-8-queimadores-48-FGG-8Q-48-XP-1SGA) |  |
 |   | FM-EL-75-LC-2TNA | - | Forno Elettromec Elétrico Multifunções Luce Inox 75cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
-|   | FM-EL-90-LC-2LCA | - | Forno Elettromec Luce Elétrico Multifunções 125 Litros Inox e Vidro 90cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | antigo | A: trocar código/ficha → FM-EL-90-LC-2TNA |
+|   | FM-EL-90-LC-2LCA | - | Forno Elettromec Luce Elétrico Multifunções 125 Litros Inox e Vidro 90cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | feito 19/10 (elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA) | A: código → FM-EL-90-LC-2TNA; reativar |
 |   | FM-EL-60-LC-2TNA | - | Forno Elettromec Luce Elétrico Multifunções Inox e Vidro 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
 |   | FM-EL-60-VT-2TNA | - | Forno Elettromec Vetro Elétrico Multifunções 68 Litros Vidro Preto 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
 |   | FMC-LT-25-LC-2GZB | - | Forno Micro-ondas de Embutir Elettromec Luce Flat Inox 25 Litros 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
