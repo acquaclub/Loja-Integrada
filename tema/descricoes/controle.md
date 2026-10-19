@@ -287,15 +287,15 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | IS846BG | - | Cooktop Elétrico Indução Gorenje HomeMade 4 Bocas Touch 80cm 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo | adiado 14/10: site oficial Gorenje fora do ar |
 |   | GW951X-BR | - | Cooktop a Gás Gorenje 5 Bocas Inox 90cm GW951X-BR 220V | Cooktops, Rangetops e Dominós > Cooktops | S | antigo | adiado 13/10: site oficial Gorenje fora do ar |
 |   | BOS6737E13XBR | - | Forno Elétrico Multifunções Gorenje HomeMade 77 Litros Inox 60cm 220V BOS6737E13XBR | Fornos e Micro-ondas > Forno Elétrico | S | antigo | B: reativar (já está ativo na planilha: conferir); adiado 19/10: site oficial Gorenje fora do ar |
-|   | BOS6747A01XBR | - | Forno Elétrico Multifunções Gorenje HomeMade Air Fryer 77 Litros Inox 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
+|   | BOS6747A01XBR | - | Forno Elétrico Multifunções Gorenje HomeMade Air Fryer 77 Litros Inox 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
 |   | BM321A7X-BR | - | Forno Micro-ondas Combinado de Embutir Gorenje Inox 60cm 220V | Fornos e Micro-ondas > Forno e Micro-ondas Combinado | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
-|   | BCM4547A10XBR | - | Micro-ondas e Forno Elétrico Combinado 60 cm 50L Embutir BCM4547A10XBR Gorenje | Fornos e Micro-ondas > Forno e Micro-ondas Combinado | S | antigo |  |
-|   | GV693C60UVBR | - | Lava-louças 16 Serviços 60 cm Embutir/Revestir GV693C60UVBR Gorenje 220V | Lava Louças > Lava-louças | S | antigo |  |
-|   | DFD72EXB | - | Painel Decorativo Gorenje HomeMade para Lava-Louças Inox 60cm | Lava Louças > Frente Lava-louças | S | antigo |  |
-|   | FNI5182A1 | - | Freezer Vertical de Embutir Gorenje No Frost 1 Porta 235 Litros 220V - FNI5182A1 | Refrigeradores e Freezers > All Freezer | S | antigo |  |
-|   | GRF-49W | - | Refrigerador Gorenje French Door Triple Zone 466 Litros Inverter 220V | Refrigeradores e Freezers > French Door | S | antigo |  |
-|   | NRKI5182A2 | - | Refrigerador de Embutir Gorenje Bottom Freezer 2 Portas 269 Litros 220V | Refrigeradores e Freezers > Bottom | S | antigo |  |
-|   | RI5182A1 | - | Refrigerador de Embutir/Revestir Gorenje 1 Porta 305 Litros 220V | Refrigeradores e Freezers > All Refrigerator | S | antigo |  |
+|   | BCM4547A10XBR | - | Micro-ondas e Forno Elétrico Combinado 60 cm 50L Embutir BCM4547A10XBR Gorenje | Fornos e Micro-ondas > Forno e Micro-ondas Combinado | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
+|   | GV693C60UVBR | - | Lava-louças 16 Serviços 60 cm Embutir/Revestir GV693C60UVBR Gorenje 220V | Lava Louças > Lava-louças | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
+|   | DFD72EXB | - | Painel Decorativo Gorenje HomeMade para Lava-Louças Inox 60cm | Lava Louças > Frente Lava-louças | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
+|   | FNI5182A1 | - | Freezer Vertical de Embutir Gorenje No Frost 1 Porta 235 Litros 220V - FNI5182A1 | Refrigeradores e Freezers > All Freezer | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
+|   | GRF-49W | - | Refrigerador Gorenje French Door Triple Zone 466 Litros Inverter 220V | Refrigeradores e Freezers > French Door | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
+|   | NRKI5182A2 | - | Refrigerador de Embutir Gorenje Bottom Freezer 2 Portas 269 Litros 220V | Refrigeradores e Freezers > Bottom | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
+|   | RI5182A1 | - | Refrigerador de Embutir/Revestir Gorenje 1 Porta 305 Litros 220V | Refrigeradores e Freezers > All Refrigerator | S | antigo | adiado 19/10: site oficial Gorenje fora do ar |
 
 ### InSinkErator (6)
 
