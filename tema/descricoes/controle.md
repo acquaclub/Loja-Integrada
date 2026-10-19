@@ -117,6 +117,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | EFGGF6QM2A | Fogão a Gás Evol Profissional 6 Queimadores Forno 163 L Air Fry Pirolítico Inox 90 cm 220V | Evol | `evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A.html` | `evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A-seo.txt` (URL mantida) | entregue | 19/10/2026 | 6 a 8 Queimadores a Gás (ok) |
 | EMCEB0352C (era EMCEB0352A) | Micro-ondas Combinado de Embutir Evol IX13 42 Litros Inox e Vidro Preto 220V | Evol | `evol-microondas-combinado-ix13-42-EMCEB0352C.html` | `evol-microondas-combinado-ix13-42-EMCEB0352C-seo.txt` (URL mantida) | entregue (A: trocar código para EMCEB0352C) | 19/10/2026 | Micro-ondas → sugerido Forno e Micro-ondas Combinado |
 | EFNEB0352C (era EFNEB0352B) | Forno Elétrico de Embutir Evol IX13 com Air Fry 73 Litros 60 cm Inox e Vidro Preto 220V | Evol | `evol-forno-eletrico-ix13-73-EFNEB0352C.html` | `evol-forno-eletrico-ix13-73-EFNEB0352C-seo.txt` (URL mantida) | entregue (A: trocar código para EFNEB0352C; nome IX17 → IX13; reativar) | 19/10/2026 | Fornos e Micro-ondas > Forno Elétrico |
+| FG-AN-60-LC-2TNA | Forno a Gás de Embutir Elettromec Luce 68 Litros 60 cm Inox com Grill Elétrico 220V | Elettromec | `elettromec-forno-gas-luce-60-FG-AN-60-LC-2TNA.html` | `elettromec-forno-gas-luce-60-FG-AN-60-LC-2TNA-seo.txt` (URL mantida) | entregue | 19/10/2026 | Fornos e Micro-ondas > Forno a Gás |
 | FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
@@ -194,7 +195,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | FM-EL-60-VT-2TNA | - | Forno Elettromec Vetro Elétrico Multifunções 68 Litros Vidro Preto 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo |  |
 |   | FMC-LT-25-LC-2GZB | - | Forno Micro-ondas de Embutir Elettromec Luce Flat Inox 25 Litros 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | FMC-LT-25-VT-2GZA | - | Forno Micro-ondas de Embutir Elettromec Vetro Flat 23 Litros 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
-|   | FG-AN-60-LC-2TNA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 60cm 220V | Fornos e Micro-ondas > Forno a Gás | S | antigo |  |
+|   | FG-AN-60-LC-2TNA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 60cm 220V | Fornos e Micro-ondas > Forno a Gás | S | feito 19/10 (elettromec-forno-gas-luce-60-FG-AN-60-LC-2TNA) |  |
 |   | FG-AN-90-LC-2LCA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 90cm 220V | Fornos e Micro-ondas > Forno a Gás | N | antigo | D: cliente vai deletar (19/10); troca p/ 2TNA não confirmada no site |
 |   | GA-12S-30-XX-2TNA | - | Gaveta Aquecida Inox 30cm 220v Elettromec | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo |  |
 |   | GA-6S-14-XX-2TNA | - | Gaveta Aquecida Inox Elettromec 14cm 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo |  |

@@ -1,0 +1,50 @@
+NOME DO PRODUTO
+Forno a Gás de Embutir Elettromec Luce 68 Litros 60 cm Inox com Grill Elétrico 220V
+
+TAG TITLE
+Forno a Gás Elettromec Luce 60 cm 68 L | Unikitchen
+
+META DESCRIPTION
+Forno a gás de embutir Elettromec Luce 60 cm, 68 L, convecção, grill elétrico e válvula de segurança. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Forno a Gás (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (código atual no site; ativo).
+
+FONTES: página do site (fichas/elettromec-FG-AN-60-LC-2TNA-site.pdf) e guia comercial (fichas/elettromec-FG-AN-60-LC-2TNA-guia.pdf), ambos de 19/10.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia, L x A x P 645 x 645 x 650 mm): L 64,5 (65), A 64,5 (65), P 65 cm, 36 kg.
+Produto: 595 x 600 x 570 mm (L x A x P), 32 kg; cavidade 475 x 340 x 420 mm; 68 L; 220 V, 10 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
+- Classificação de mercado: Eletrodomésticos » Fornos e Fogões » Fornos
+- Tipo de montagem: Embutir
+- Tipos de forno: A gás
+- Modelo: Forno Luce Gás 60 cm
+- Com material autolimpante: (em branco)
+- Com grill: Sim
+- Com função autolimpante: (em branco)
+- Com temporizador: Sim
+- Com função microondas: Não
+- Com material de fácil limpeza: (em branco - só a bandeja tem esmalte antiaderente)
+- Com convecção: Sim
+- Cor principal: Inox
+- Tipo de gás: (em branco - site e guia não informam GLP/GN)
+- Número de registro/certificação INMETRO: (em branco)
+- Largura: 59,5 cm
+- Quantidade de fogões: (em branco)
+- Capacidade em volume: 68 L
+- Modelo alfanumérico: FG-AN-60-LC-2TNA
+- Altura: 60 cm
+- Etiqueta de conservação de energia: (em branco)
+Conflitos (regra de 19/10: escolher um):
+- funções – guia, ícone "5 funções" (iluminação, ventilador, queimador, grill, timer) x guia, tabela "3" → 3 (tabela vence texto de marketing); os 5 itens entram como "Recursos".
+- potência – tabela "1,66 kW" x "Potência do grill 1.956 W" e corrente 10 A (≈2,2 kW em 220 V): 1,66 kW é menor que o grill sozinho → descartado 1,66 kW; usados grill 1.956 W e 10 A.
+- timer – site "mecânico" x guia "sonoro" → os dois (não se contradizem).
+- garantia – guia "2 anos* (estender de 1 para 2 anos via Inspire-se)" x bloco de marcas.md 2 anos → bloco de marcas.md (pendência geral Elettromec).
+- site "Funcionamento: Depurador ou Exaustor" → erro do site (campo de coifa), ignorado.
+Não usado: "sofisticação", "design", "elegância", "alta capacidade", "ideal para diversos tipos de receitas" (superlativos/genéricos).
