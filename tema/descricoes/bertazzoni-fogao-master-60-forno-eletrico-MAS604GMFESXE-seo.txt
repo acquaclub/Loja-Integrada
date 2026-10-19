@@ -1,0 +1,28 @@
+NOME DO PRODUTO
+Fogão Bertazzoni Master 60 cm 4 Queimadores a Gás Forno Elétrico 60 L Inox 220V
+
+TAG TITLE
+Fogão Bertazzoni Master 60 cm Forno Elétrico | Unikitchen
+
+META DESCRIPTION
+Fogão Bertazzoni Master 60 cm inox, 4 queimadores Sabaf com tripla chama, forno elétrico de 60 L com 9 funções e grill. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fogões > 4 Queimadores a Gás (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma.
+
+FONTES: página do portal Tecno (texto e especificações, colados pelo cliente em 19/10) e folder Bertazzoni Master Series 2023 (fichas/bertazzoni-master-series-folder-2023.pdf).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (site): L 66, A 97, P 68 cm, 45 kg
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fogões, na ordem da tela): Classificação de mercado Eletrodomésticos » Fornos e Fogões » Fogões; Tipo de montagem De piso (+ De embutir); Modelo Master Series 60 cm; Com tampa (em branco); Com estufa (em branco); Com temporizador (em branco); É conversível a GLP (em branco); Com forno duplo Não; Com válvulas de segurança Sim; É industrial Não; É conversível a GN (em branco); Tipo de porta do forno Vidro; Tipo de alimentação Gás e elétrico; Eficiência energética dos queimadores (em branco); Tipo de gás (em branco); Eficiência energética (em branco); Tipo de ignição Superautomática; Altura 91,5 cm (máxima; regulável de 87,5 a 91,5); Modelo alfanumérico MAS604GMFESXE; Peso 40 kg; Largura 59,5 cm; Quantidade de queimadores elétricos 0; Quantidade de bocas 4; INMETRO (em branco); Etiqueta (em branco); Capacidade em volume do forno 60 L.
+Conflitos:
+- código – texto do site traz "MAS606GMFESXE" no subtítulo x título e folder MAS604GMFESXE → MAS604GMFESXE.
+- altura de embutimento – site "gabinete com os pés 76 cm / sem os pés sobre base 77,5 cm" x folder "altura do fogão sem pés (embutido) 76 cm" → omitida; descrição remete ao nicho do folder/manual.
+- garantia – site "2 anos" x folder "2º ano obtido com o formulário de extensão no site da Bertazzoni" → bloco Bertazzoni de 2 anos (confirmar com o Grupo Tecno; mesmo caso dos produtos Tecno).
+- tipo de gás (GLP/GN) – não informado nas fontes → cadastro em branco.
+Não usado: "atraente", "alta performance", "escolha natural", "mais altos padrões", "considerado o melhor do mundo", "excepcional", "durabilidade por toda a vida", "drasticamente", "altíssima qualidade", "exclusivo dos fogões TECNO" (mostrador); itens do folder marcados para outros modelos (forno de 142 L, corrediça telescópica, Soft Motion, compartimento inferior).

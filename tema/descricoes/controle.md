@@ -112,6 +112,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | FGG-6Q-36-XP-1SGA | Fogão a Gás Elettromec Professional 36" 6 Queimadores Forno 127 L Inox 304 127V | Elettromec | `elettromec-fogao-professional-6-queimadores-36-FGG-6Q-36-XP-1SGA.html` | `elettromec-fogao-professional-6-queimadores-36-FGG-6Q-36-XP-1SGA-seo.txt` (URL mantida) | entregue | 19/10/2026 | 6 a 8 Queimadores a Gás (ok) |
 | FGE-5Q-90-XP-2GMA | Fogão Elettromec Professional 5 Queimadores a Gás Forno Elétrico 116 L Inox 90 cm 220V | Elettromec | `elettromec-fogao-professional-gas-eletrico-90-FGE-5Q-90-XP-2GMA.html` | `elettromec-fogao-professional-gas-eletrico-90-FGE-5Q-90-XP-2GMA-seo.txt` (URL mantida) | entregue | 19/10/2026 | 5 Queimadores a Gás (ok) |
 | FGG-5Q-90-XP-2GMA | Fogão Elettromec Professional 5 Queimadores Forno a Gás 116 L Inox 90 cm 220V | Elettromec | `elettromec-fogao-professional-gas-gas-90-FGG-5Q-90-XP-2GMA.html` | `elettromec-fogao-professional-gas-gas-90-FGG-5Q-90-XP-2GMA-seo.txt` (URL mantida) | entregue | 19/10/2026 | 5 Queimadores a Gás (ok) |
+| MAS604GMFESXE | Fogão Bertazzoni Master 60 cm 4 Queimadores a Gás Forno Elétrico 60 L Inox 220V | Bertazzoni | `bertazzoni-fogao-master-60-forno-eletrico-MAS604GMFESXE.html` | `bertazzoni-fogao-master-60-forno-eletrico-MAS604GMFESXE-seo.txt` (URL mantida) | entregue | 19/10/2026 | 4 Queimadores a Gás (ok) |
 
 ## Pendências gerais
 - **Verificar estoque: BH-53135-AMFC** (Banheira com Degrau Deca Amêndoa Fosco) — inativa na loja e "indisponível" no site da Deca. Descrição pronta; só reativar depois que o cliente validar.
@@ -140,7 +141,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 
 | Feito | SKU | Variações | Produto | Categoria | Ativo | Descrição | Ação pendente |
 |---|---|---|---|---|---|---|---|
-|   | MAS604GMFESXE | - | Fogão Bertazzoni Master 4 Queimadores Sabaf Gás / Forno Elétrico 220V 60cm - MAS604GMFESXE | Fogões > 4 Queimadores a Gás | S | antigo |  |
+|   | MAS604GMFESXE | - | Fogão Bertazzoni Master 4 Queimadores Sabaf Gás / Forno Elétrico 220V 60cm - MAS604GMFESXE | Fogões > 4 Queimadores a Gás | S | feito 19/10 (bertazzoni-fogao-master-60-forno-eletrico-MAS604GMFESXE) |  |
 |   | MAS604GGEVSXE | - | Fogão Bertazzoni Master 4 Queimadores Sabaf Gás / Forno a Gás 220V 60cm - MAS604GGEVSXE | Fogões > 4 Queimadores a Gás | S | antigo |  |
 
 ### Deca (6)
