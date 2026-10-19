@@ -240,7 +240,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ECTGD4QM3A | - | Cooktop à Gás Evol Inox 4 Bocas 60cm | Cooktops, Rangetops e Dominós > Cooktops | N | antigo | excluído 13/10 ( 60 cm saiu de linha; 3C já cadastrado, 3D não existe no site oficial) |
 |   | ECTGD5QM3A | - | Cooktop à Gás Evol Inox 5 Bocas 90cm | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (evol-cooktop-5-queimadores-90-ECTGD5QM3A) |  |
 |   | EFGGF6QM2A | - | Fogão a Gás Profissional Evol 6 Queimadores 90 cm c/ Forno a Gás | Fogões > 6 a 8 Queimadores a Gás | S | feito 19/10 (evol-fogao-profissional-6-queimadores-90-EFGGF6QM2A) |  |
-|   | EFNEB0352A | - | Forno Elétrico de Embutir Evol IX13 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | antigo | decidir: duplica o EFNEB0352C (feito a partir do B em 19/10); manter um anúncio só |
+|   | EFNEB0352A | - | Forno Elétrico de Embutir Evol IX13 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | deletado 19/10 | D: cliente deletou (duplicava o EFNEB0352C) |
 |   | EFNEB0352B | - | Forno Elétrico de Embutir Evol IX17 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | feito 19/10 (evol-forno-eletrico-ix13-73-EFNEB0352C) | A: código → EFNEB0352C (material oficial é IX13) |
 |   | EMCEB0352A | - | Forno Micro-ondas Combinado Evol IX13 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | feito 19/10 (evol-microondas-combinado-ix13-42-EMCEB0352C) | A: código → EMCEB0352C (cliente enviou material do C) |
 |   | EMCEB0352B | - | Forno Micro-ondas Combinado Evol IX17 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
