@@ -1,0 +1,49 @@
+NOME DO PRODUTO
+Forno Elétrico de Embutir Evol IX13 com Air Fry 73 Litros 60 cm Inox e Vidro Preto 220V
+
+TAG TITLE
+Forno Elétrico Evol IX13 Air Fry 73 Litros | Unikitchen
+
+META DESCRIPTION
+Forno elétrico de embutir Evol IX13, 73 L, com Air Fry, convecção, grill, 12 funções e Painel Wake Up. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Forno Elétrico. Sem secundária.
+
+AÇÃO DA LISTA: A – código mudou: EFNEB0352B → EFNEB0352C (cliente escolheu o C em 19/10). Trocar SKU/código no anúncio. O material oficial do C é da linha IX13 (nome antigo do B dizia IX17) → nome corrigido para IX13. Atenção: o EFNEB0352A (IX13, ativo) também apontava para C/D → decidir qual anúncio fica com o C e deletar o outro, para não duplicar.
+
+FONTES: página do site Evol (texto colado em 19/10), guia comercial Essential/Linha Kitchen (imagens: informações técnicas, funcionalidades, higiene, desenho de instalação) e quadro de especificações técnicas (dimensões internas).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: medidas não informadas no material; conferir as atuais. Peso bruto 39,0 kg.
+Produto: 595 x 570 x 595 mm (L x P x A; guia/site "59,5 x 57,0 x 59,5 cm", ordem confirmada pelo desenho: largura 595, altura 595); cavidade 423 x 407 x 392 mm; 73 L; 220 V, 60 Hz, 3.050 W.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
+- Classificação de mercado: Eletrodomésticos » Fornos e Fogões » Fornos
+- Tipo de montagem: Embutir
+- Tipos de forno: Elétrico
+- Modelo: Forno Elétrico IX13
+- Com material autolimpante: (em branco)
+- Com grill: Sim
+- Com função autolimpante: (em branco - o site cita limpeza a vapor, não autolimpeza)
+- Com temporizador: Sim
+- Com função microondas: Não
+- Com material de fácil limpeza: (em branco)
+- Com convecção: Sim
+- Cor principal: Inox
+- Tipo de gás: (em branco - elétrico)
+- Número de registro/certificação INMETRO: (em branco)
+- Largura: 59,5 cm
+- Quantidade de fogões: (em branco)
+- Capacidade em volume: 73 L
+- Modelo alfanumérico: EFNEB0352C
+- Altura: 59,5 cm
+- Etiqueta de conservação de energia: (em branco)
+Conflitos (regra de 19/10: escolher um):
+- funções – guia "12 Funções de Cozimento" x site "12 Funções de Cozimento e 4 Especiais" → usado o texto do site (não contradiz o guia, só acrescenta).
+- material – guia "Aço Inox" x site "Aço Inox e Vidro Triplo Temperado Preto" → site (complementa).
+- desenho de instalação: medidas do nicho ilegíveis na imagem → não usadas; mantida só a abertura de ventilação 45 x 560 mm (texto).
+Só no site (sem conflito): temperatura 50–260 °C, limpeza a vapor, vidro triplo.
+Não usado: "escolha perfeita", "toque de luxo", "sofisticação", "alta performance", "acabamento premium", "inovadora", "resultados perfeitos", "dourar com perfeição", "extremamente intuitivo", "impressionar", "lifestyle sofisticado", "superioridade", "requinte", "o que há de mais moderno", "ampla gama" (superlativos).
