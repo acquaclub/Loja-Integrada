@@ -1,0 +1,207 @@
+{
+ "_ajuda": "Enquadramento por categoria. Tela quadrada de 'tamanho' px. encaixe: 'largura' (produto largo), 'altura' (produto alto) ou 'maior' (o lado maior). ocupa = fração da tela que o lado escolhido ocupa. limite = fração máxima do outro lado. base = linha onde fica o pé do produto (fração da altura; null = centralizado). A base fixa evita que a foto 2 (a do mouse) pule em relação à foto 1.",
+ "padrao": {
+  "encaixe": "maior",
+  "ocupa": 0.84,
+  "limite": 0.84,
+  "base": null
+ },
+ "churrasqueiras": {
+  "encaixe": "largura",
+  "ocupa": 0.84,
+  "limite": 0.64,
+  "base": 0.82
+ },
+ "cooktops": {
+  "encaixe": "largura",
+  "ocupa": 0.88,
+  "limite": 0.7,
+  "base": null
+ },
+ "rangetop": {
+  "encaixe": "largura",
+  "ocupa": 0.88,
+  "limite": 0.7,
+  "base": null
+ },
+ "fogoes": {
+  "encaixe": "maior",
+  "ocupa": 0.86,
+  "limite": 0.86,
+  "base": 0.93
+ },
+ "fornos": {
+  "encaixe": "largura",
+  "ocupa": 0.82,
+  "limite": 0.84,
+  "base": null
+ },
+ "micro-ondas": {
+  "encaixe": "largura",
+  "ocupa": 0.82,
+  "limite": 0.84,
+  "base": null
+ },
+ "gavetas": {
+  "encaixe": "largura",
+  "ocupa": 0.82,
+  "limite": 0.7,
+  "base": null
+ },
+ "coifas": {
+  "encaixe": "maior",
+  "ocupa": 0.86,
+  "limite": 0.86,
+  "base": null
+ },
+ "geladeiras": {
+  "encaixe": "altura",
+  "ocupa": 0.88,
+  "limite": 0.86,
+  "base": 0.94
+ },
+ "adegas": {
+  "encaixe": "altura",
+  "ocupa": 0.88,
+  "limite": 0.86,
+  "base": 0.94
+ },
+ "lava-loucas": {
+  "encaixe": "altura",
+  "ocupa": 0.86,
+  "limite": 0.86,
+  "base": 0.93
+ },
+ "lavadoras": {
+  "encaixe": "altura",
+  "ocupa": 0.86,
+  "limite": 0.86,
+  "base": 0.93
+ },
+ "torneiras": {
+  "encaixe": "altura",
+  "ocupa": 0.86,
+  "limite": 0.84,
+  "base": 0.93
+ },
+ "cubas": {
+  "encaixe": "largura",
+  "ocupa": 0.86,
+  "limite": 0.8,
+  "base": null
+ },
+ "banheiras": {
+  "encaixe": "largura",
+  "ocupa": 0.88,
+  "limite": 0.8,
+  "base": null
+ },
+ "acessorios": {
+  "encaixe": "maior",
+  "ocupa": 0.8,
+  "limite": 0.8,
+  "base": null
+ },
+ "compactos": {
+  "encaixe": "maior",
+  "ocupa": 0.82,
+  "limite": 0.82,
+  "base": null
+ },
+ "coifas-ilha": {
+  "encaixe": "altura",
+  "ocupa": 0.88,
+  "limite": 0.8,
+  "base": null
+ },
+ "coifas-embutir": {
+  "encaixe": "largura",
+  "ocupa": 0.86,
+  "limite": 0.7,
+  "base": null
+ },
+ "categorias": {
+  "_ajuda": "slug da categoria na loja -> perfil. Produto em várias categorias: vale a primeira desta lista em que ele aparece.",
+  "acessorios-para-churrasqueira": "acessorios",
+  "acessorios-para-cuba": "acessorios",
+  "acessorios-para-forno-de-pizza": "acessorios",
+  "dosador-de-sabao": "acessorios",
+  "side-burner": "compactos",
+  "churrasqueiras-a-gas": "churrasqueiras",
+  "churrasqueiras": "churrasqueiras",
+  "cooktop-domino-a-gas-1-queimador": "compactos",
+  "cooktop-domino-a-gas-2-queimadores": "compactos",
+  "cooktop-domino-eletrico-2-zonas": "compactos",
+  "cooktop-domino-de-inducao-2-zonas": "compactos",
+  "cooktop-domino-barbecue": "compactos",
+  "cooktop-domino-chapa-teppanyaki": "compactos",
+  "cooktop-domino-fritadeira": "compactos",
+  "cooktop-domino": "compactos",
+  "rangetop-4-e-5-queimadores": "rangetop",
+  "rangetop-6-a-8-queimadores": "rangetop",
+  "rangetop": "rangetop",
+  "cooktop-eletrico-4-e-5-zonas": "cooktops",
+  "cooktop-de-inducao-4-e-5-zonas": "cooktops",
+  "cooktop-a-gas-4-queimadores": "cooktops",
+  "cooktop-a-gas-5-queimadores": "cooktops",
+  "cooktop-de-inducao-6-a-8-zonas": "cooktops",
+  "cooktop-a-gas-6-queimadores": "cooktops",
+  "cooktops": "cooktops",
+  "cooktops-rangetops-e-dominos": "cooktops",
+  "coifa-de-ilha": "coifas-ilha",
+  "coifa-de-parede": "coifas",
+  "coifa-de-embutir": "coifas-embutir",
+  "coifa-de-bancada": "coifas-embutir",
+  "coifa-para-churrasqueira": "coifas",
+  "coifas": "coifas",
+  "fogao-de-inducao": "fogoes",
+  "fogao-a-gas-4-queimadores": "fogoes",
+  "fogao-a-gas-5-queimadores": "fogoes",
+  "fogao-a-gas-6-a-8-queimadores": "fogoes",
+  "fogoes": "fogoes",
+  "forno-de-pizza": "compactos",
+  "fornos-de-pizza": "compactos",
+  "micro-ondas": "micro-ondas",
+  "forno-e-micro-ondas-combinado": "fornos",
+  "forno-a-gas-de-embutir": "fornos",
+  "forno-eletrico": "fornos",
+  "fornos-e-micro-ondas": "fornos",
+  "cafeteiras": "fornos",
+  "gavetas-aquecidas": "gavetas",
+  "gaveta-refrigerada": "gavetas",
+  "gavetas-aquecidas-e-refrigeradas": "gavetas",
+  "frigobar": "compactos",
+  "freezer-vertical-all-freezer": "geladeiras",
+  "refrigerador-all-refrigerator": "geladeiras",
+  "geladeira-bottom-freezer": "geladeiras",
+  "geladeira-french-door": "geladeiras",
+  "refrigerador-multidoor": "geladeiras",
+  "refrigeradores-e-freezers": "geladeiras",
+  "adegas-de-embutir": "adegas",
+  "adegas-de-piso": "adegas",
+  "cervejeiras": "adegas",
+  "adegas-cervejeiras": "adegas",
+  "chopeiras": "compactos",
+  "frente-lava-loucas": "lava-loucas",
+  "lava-loucas-embutir": "lava-loucas",
+  "lava-loucas": "lava-loucas",
+  "lavadoras": "lavadoras",
+  "lava-e-seca": "lavadoras",
+  "secadoras": "lavadoras",
+  "lavadoras-e-secadoras": "lavadoras",
+  "misturador-com-extensor": "torneiras",
+  "misturador-sem-extensor": "torneiras",
+  "misturadores-e-torneiras": "torneiras",
+  "cuba-dupla": "cubas",
+  "cuba-simples": "cubas",
+  "cubas-e-tanques": "cubas",
+  "banheiras": "banheiras",
+  "lixeiras": "compactos",
+  "maquina-de-gelo-de-embutir": "compactos",
+  "maquinas-de-gelo": "compactos",
+  "triturador-de-alimentos": "compactos",
+  "termoumidor-de-charutos": "compactos",
+  "umidor-de-charutos": "compactos",
+  "umidores-de-charuto": "compactos"
+ }
+}
