@@ -14,7 +14,7 @@ Principal: Fornos e Micro-ondas > Micro-ondas (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma (ativo). 23 L do cadastro antigo confere com o manual.
 
-FONTES: guia comercial (fichas/elettromec-FMC-LT-25-VT-2GZA-guia.pdf), desenho de instalação do VT e manual LC/VT (imagens), 20/10. Sem página do site.
+FONTES: página do site (fichas/elettromec-FMC-LT-25-VT-2GZA-site.pdf), guia comercial (fichas/elettromec-FMC-LT-25-VT-2GZA-guia.pdf), desenho de instalação do VT e manual LC/VT (imagens), 20/10.
 
 CADASTRO / ESPECIFICAÇÕES
 Embalagem (guia, L x A x P 653 x 440 x 410 mm): L 65,3 (65), A 44, P 41 cm, 17 kg.
@@ -22,9 +22,9 @@ Produto: 595 x 390 x 350 mm (L x A x P), 15 kg; cavidade 340 x 197 x 338 mm; nic
 GTIN/EAN: não informado.
 CAMPOS LOJA INTEGRADA (micro-ondas, na ordem da tela): Cor Preto; Modelo Micro-ondas Vetro Flat 23 litros; Com grill Sim; Com porta espelhada (em branco); Tipos de montagem do microondas Embutir; Etiqueta (em branco); Homologação Anatel (em branco); Potência 1.300 W (micro-ondas; saída 800 W); Modelo alfanumérico FMC-LT-25-VT-2GZA; Capacidade em volume 23 L; Fabricante Elettromec; INMETRO (em branco).
 Conflitos (regra de 19/10):
-- acabamento – manual (tabela) "Acrílico Preto" x guia (card) "Vidro Preto" → acrílico preto (tabela vence card; manual > guia).
+- acabamento – manual "Acrílico Preto" x guia "Vidro Preto" x site "Acrílico e vidro preto" / "moldura em acrílico preto" → site (concilia os dois: moldura em acrílico, frente com vidro).
 - tipo de cocção – manual "Micro-ondas e Grill" x guia "Micro-ondas / Forno" → manual.
 - comando – guia tabela "Digital" x guia card "Comando eletrônico" → digital (tabela vence card).
-- funções 13 (guia = manual); sem site para a regra do cliente.
+- funções 13 (guia = manual); site não dá total, só "8 programas de cocção e 2 combinados" (bate com a divisão do guia) → 13.
 - garantia – guia "2 anos* (estender de 1 para 2 via Inspire-se)" → bloco padrão Elettromec (pendência geral).
 Não usado: "sofisticação", "praticidade" (genéricos).
