@@ -1,0 +1,25 @@
+NOME DO PRODUTO
+Micro-ondas de Embutir Elettromec Vetro Flat 23 Litros Acrílico Preto com Grill 220V
+
+TAG TITLE
+Micro-ondas Embutir Elettromec Vetro Flat 23 L | Unikitchen
+
+META DESCRIPTION
+Micro-ondas de embutir Elettromec Vetro Flat, 23 L, acrílico preto, sem prato giratório, grill e 13 funções. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Micro-ondas (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (ativo). 23 L do cadastro antigo confere com o manual.
+
+FONTES: manual LC/VT (imagens enviadas em 20/10: especificações técnicas com coluna do FMC-LT-25-VT-2GZA, auto cozimento, combinações, níveis de potência, desenho). Sem guia comercial e sem página do site do VT.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: não informada para o VT (sem guia) → manter as medidas atuais; peso líquido 15 kg.
+Produto: 595 x 390 x 350 mm (L x A x P), 15 kg; cavidade 340 x 197 x 338 mm; 23 L total / 22 L útil; 220 V, 60 Hz, 5,48 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (micro-ondas, na ordem da tela): Cor Preto; Modelo Micro-ondas Vetro Flat 23 litros; Com grill Sim; Com porta espelhada (em branco); Tipos de montagem do microondas Embutir; Etiqueta (em branco); Homologação Anatel (em branco); Potência 1.300 W (micro-ondas; saída 800 W); Modelo alfanumérico FMC-LT-25-VT-2GZA; Capacidade em volume 23 L; Fabricante Elettromec; INMETRO (em branco).
+Faltam (estão só no guia do LC, não confirmados para o VT): trava de segurança, vidro frontal duplo, iluminação interna, suporte para grelhar, embalagem. Incluir se vier o guia/site do VT.
+Conflitos: nenhum. Funções 13 (manual); sem site para a regra do cliente.
