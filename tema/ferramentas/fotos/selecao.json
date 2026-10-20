@@ -1339,5 +1339,53 @@
   "1",
   "2",
   "3:medidas"
+ ],
+ "94700214": [
+  "t94700214PDM001",
+  "t94700214IXM001:produto",
+  "t94700214PRM001:detalhe",
+  "t94700214DCM002:medidas"
+ ],
+ "EFNEB0352C": [
+  "m2",
+  "m6:produto",
+  "m8:produto",
+  "m4:produto",
+  "m10:detalhe",
+  "m12:detalhe",
+  "f1:medidas"
+ ],
+ "FB-BI-145-XV-2VPA": [
+  "m1",
+  "m5:produto",
+  "m2:produto",
+  "m3:produto",
+  "m6:detalhe",
+  "m7:detalhe",
+  "m4:detalhe"
+ ],
+ "FB-BI-88-XV-2VPA": [
+  "m1",
+  "m6:produto",
+  "m2:produto",
+  "m3:produto",
+  "m4:produto",
+  "m7:detalhe",
+  "m8:detalhe",
+  "m5:detalhe"
+ ],
+ "FM-EL-90-LC-2TNA": [
+  "m2",
+  "m1:produto",
+  "m3:produto",
+  "f1:medidas",
+  "f2:medidas"
+ ],
+ "JC145CL": [
+  "m2",
+  "m4:produto",
+  "m3:produto",
+  "m5:detalhe",
+  "f1:medidas"
  ]
 }
