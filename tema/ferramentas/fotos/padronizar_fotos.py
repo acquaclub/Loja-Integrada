@@ -12,7 +12,7 @@ Saída:    <saida>/<categoria>/<codigo>-<NN>.jpg   (2000x2000, fundo branco, JPG
 
 Tipos de foto:
   produto  produto recortado do fundo, centralizado e encostando na margem de segurança
-  detalhe  foto de detalhe sem fundo branco: foto inteira dentro da margem, sem corte
+  detalhe  foto de detalhe sem fundo branco: foto cheia nos 2000x2000 (corte central quadrado)
   ambiente foto do produto instalado: igual ao detalhe, mas vai depois das fotos do produto
   medidas  desenho técnico: tira a sobra branca e centraliza com margem fixa
 
@@ -66,6 +66,33 @@ def mascara_produto(rgba):
     borda = borda[borda > 0]
     fundo = np.isin(rotulos, borda)
     return ~fundo, "fundo-branco"
+
+
+def tirar_sombra_reflexo(rgba, masc):
+    """Tira sombra e reflexo no chão: área clara, cinza e lisa (sem contorno) presa ao produto.
+    O enquadramento passa a usar só a parte com contorno nítido (o produto de fato)."""
+    a = np.asarray(rgba)[..., :3].astype(float)
+    cinza = a.mean(axis=2)
+    croma = a.max(axis=2) - a.min(axis=2)
+    gx = ndimage.sobel(cinza, axis=1)
+    gy = ndimage.sobel(cinza, axis=0)
+    borda = np.hypot(gx, gy) > 60                     # contorno nítido
+    borda = ndimage.binary_dilation(borda, iterations=2)
+    forte = masc & (borda | (cinza < 120) | (croma > 30))
+    forte = limpar(forte)
+    ys, xs = np.nonzero(forte)
+    if len(ys) == 0:
+        return masc, False
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+    caixa = np.zeros_like(masc)
+    caixa[y0:y1, x0:x1] = True
+    fraco = masc & ~caixa
+    # só tira se a sobra for clara, sem cor e sem contorno (sombra/reflexo), e for relevante
+    if fraco.sum() < masc.sum() * 0.01:
+        return masc, False
+    if cinza[fraco].mean() < 150 or croma[fraco].mean() > 20 or borda[fraco].mean() > 0.15:
+        return masc, False
+    return masc & caixa, True
 
 
 def remover_fundo_ia(rgba):
@@ -138,6 +165,10 @@ def processar_produto(rgba, perfil=None):
         except Exception as e:  # sem rembg: segue com o recorte simples
             metodo = f"fundo-branco (IA indisponível: {e.__class__.__name__})"
     masc = limpar(masc)
+    if metodo == "fundo-branco":
+        masc, tirou = tirar_sombra_reflexo(rgba, masc)
+        if tirou:
+            metodo += ", sem sombra/reflexo"
     ys, xs = np.nonzero(masc)
     if len(ys) == 0:
         raise ValueError("produto não encontrado na imagem")
@@ -157,11 +188,17 @@ def tirar_faixas_brancas(im):
 
 
 def processar_detalhe(rgba):
-    """Ambiente ou detalhe: a foto inteira, sem corte, dentro da margem, sobre branco."""
+    """Ambiente ou detalhe: foto cheia, ocupando os 2000x2000 inteiros (corte central para ficar
+    quadrada), sem margem branca. Corte diferente do central: usar "corte" no recortes.json."""
     im = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
     im.alpha_composite(rgba)
-    tela, escala = encaixar(tirar_faixas_brancas(im))
-    return tela, "foto inteira", escala
+    im = tirar_faixas_brancas(im)
+    w, h = im.size
+    lado = min(w, h)
+    x0, y0 = (w - lado) // 2, (h - lado) // 2
+    im = im.crop((x0, y0, x0 + lado, y0 + lado))
+    escala = TAMANHO / lado
+    return im.resize((TAMANHO, TAMANHO), Image.LANCZOS), "foto cheia", escala
 
 
 def processar_medidas(rgba):
