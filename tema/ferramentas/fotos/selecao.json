@@ -166,6 +166,7 @@
  "94896201": [
   "1",
   "2",
+  "t2:detalhe",
   "5",
   "6",
   "7:medidas"
@@ -196,6 +197,9 @@
  ],
  "CV-1BI-40-VT-2VPA": [
   "1",
+  "e2:produto",
+  "e3:produto",
+  "e1:detalhe",
   "2",
   "3",
   "4:medidas",
@@ -382,6 +386,7 @@
  "94728104": [
   "1",
   "2",
+  "t2:detalhe",
   "3:medidas"
  ],
  "94728174": [
@@ -559,11 +564,18 @@
  ],
  "FGG-6Q-36-XP-1SGA": [
   "1",
+  "e3:produto",
+  "e1:detalhe",
+  "e2:detalhe",
   "2",
   "3:medidas"
  ],
  "FGG-8Q-48-XP-1SGA": [
-  "1",
+  "e3",
+  "e4:produto",
+  "e5:produto",
+  "e2:produto",
+  "e1:detalhe",
   "2:medidas"
  ],
  "MAS604GGEVSXE": [
@@ -729,7 +741,7 @@
   "f2:medidas"
  ],
  "17986": [
-  "1",
+  "kPP001",
   "2",
   "f1:medidas"
  ],
@@ -780,7 +792,7 @@
   "f1:medidas"
  ],
  "17988": [
-  "1",
+  "kPP001",
   "2:medidas"
  ],
  "94833221": [
@@ -796,6 +808,7 @@
  ],
  "95800031": [
   "1",
+  "t1:produto",
   "3",
   "4:medidas"
  ],
@@ -834,6 +847,8 @@
  "95800025": [
   "1",
   "3",
+  "t2:detalhe",
+  "t4:detalhe",
   "4:medidas"
  ],
  "CFD-SOL-90-XV-2ATC": [
@@ -875,11 +890,12 @@
   "3"
  ],
  "ESPLL0001": [
-  "1",
+  "e3",
   "2"
  ],
  "FR-LL-45-XX-NCLA": [
-  "1"
+  "1",
+  "e2:produto"
  ],
  "FR-LL-60-XX-NCLB": [
   "1"
@@ -916,34 +932,43 @@
   "7:medidas"
  ],
  "16590": [
-  "1",
-  "2",
+  "kPP001",
+  "kAP003:detalhe",
+  "kAP001:detalhe",
+  "kAP005:detalhe",
+  "kAP007:detalhe",
+  "kAP009:detalhe",
+  "kPD001:detalhe",
   "3:medidas"
  ],
  "18095": [
-  "1",
-  "4",
-  "2",
-  "3",
+  "kPP001",
+  "kAP001:detalhe",
+  "kAP002:detalhe",
+  "kAP003:detalhe",
+  "kAP004:detalhe",
+  "kPD001:detalhe",
+  "kPD003:detalhe",
   "5:medidas"
  ],
  "18097": [
-  "1",
-  "7",
-  "8",
-  "4",
-  "5",
-  "6",
-  "2",
-  "3",
+  "kPP001",
+  "kAP002:detalhe",
+  "kAP004:detalhe",
+  "kAP001:detalhe",
+  "kAP005:detalhe",
+  "kAP006:detalhe",
+  "kPD001:detalhe",
+  "kPD002:detalhe",
   "9:medidas",
   "10:medidas"
  ],
  "18099": [
-  "1",
-  "4",
-  "3",
-  "2",
+  "kPP001",
+  "kAP002:detalhe",
+  "kAP001:detalhe",
+  "kPD003:detalhe",
+  "kPD001:detalhe",
   "5:medidas"
  ],
  "94520017": [
@@ -959,13 +984,13 @@
  "94520021": [
   "1",
   "2",
-  "3",
+  "3:detalhe",
   "4:medidas"
  ],
  "94520022": [
   "1",
   "2",
-  "3",
+  "3:detalhe",
   "4:medidas"
  ],
  "94520024": [
@@ -1022,13 +1047,13 @@
  "94520312": [
   "1",
   "2",
-  "3",
+  "3:detalhe",
   "5:medidas"
  ],
  "94520512": [
   "1",
   "2",
-  "3",
+  "3:detalhe",
   "4:medidas"
  ],
  "14609": [
@@ -1059,11 +1084,14 @@
   "3:medidas"
  ],
  "16060": [
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
+  "kPP001",
+  "kAP005:detalhe",
+  "kAP002:detalhe",
+  "kAP007:detalhe",
+  "kAP022:detalhe",
+  "kAP025:detalhe",
+  "kAP028:detalhe",
+  "kPD001:detalhe",
   "6:medidas"
  ],
  "18629": [
@@ -1090,7 +1118,8 @@
  ],
  "99800963": [
   "1",
-  "2"
+  "2",
+  "j4:detalhe"
  ],
  "BH-53135-BRFC": [
   "1",
@@ -1129,8 +1158,8 @@
   "4:medidas"
  ],
  "16168": [
-  "1",
-  "2",
+  "kPP001",
+  "kAP001:detalhe",
   "3:medidas"
  ],
  "9452200": [
@@ -1298,15 +1327,14 @@
   "2"
  ],
  "13318": [
-  "1",
+  "kPP001",
   "2",
   "3:medidas"
  ],
  "13320": [
-  "1",
-  "4",
+  "kPP001",
   "2",
-  "3",
+  "4:detalhe",
   "5:medidas"
  ],
  "16592": [
