@@ -43,5 +43,5 @@ CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
 - Etiqueta de conservação de energia: (em branco)
 Conflitos (regra de 19/10 + decisão do cliente de 20/10: número de programas = site):
 - programas – site "11 programas, sendo 8 cocções e 3 opções de timer" x guia "11 funções: 7 de cocção, 3 de timer e 1 de iluminação" → site (11 = 8 + 3). Descartado: 7 de cocção + 1 iluminação (guia).
-Sem manual: frequência e lâmpada não informadas (em branco).
+Desenho do manual (LC/VT, enviado 20/10): 595 L x 595 A; corpo 545 + frente 25 = 570 P → confere com o guia. Frequência e lâmpada não informadas (em branco).
 Não usado: "sofisticação", "tecnologia", "alta capacidade", "ideal para diversos tipos de receitas" (superlativos/genéricos).
