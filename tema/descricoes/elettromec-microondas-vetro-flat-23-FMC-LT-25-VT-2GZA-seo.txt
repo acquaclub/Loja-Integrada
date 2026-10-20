@@ -5,7 +5,7 @@ TAG TITLE
 Micro-ondas Embutir Elettromec Vetro Flat 23 L | Unikitchen
 
 META DESCRIPTION
-Micro-ondas de embutir Elettromec Vetro Flat, 23 L, acrílico preto, sem prato giratório, grill e 13 funções. Lojas em Sorocaba e Itapetininga.
+Micro-ondas de embutir Elettromec Vetro Flat, 23 L, acrílico preto, sem prato giratório, grill, 13 funções e trava. Lojas em Sorocaba e Itapetininga.
 
 URL: manter a atual
 
@@ -14,12 +14,17 @@ Principal: Fornos e Micro-ondas > Micro-ondas (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma (ativo). 23 L do cadastro antigo confere com o manual.
 
-FONTES: manual LC/VT (imagens enviadas em 20/10: especificações técnicas com coluna do FMC-LT-25-VT-2GZA, auto cozimento, combinações, níveis de potência, desenho). Sem guia comercial e sem página do site do VT.
+FONTES: guia comercial (fichas/elettromec-FMC-LT-25-VT-2GZA-guia.pdf), desenho de instalação do VT e manual LC/VT (imagens), 20/10. Sem página do site.
 
 CADASTRO / ESPECIFICAÇÕES
-Embalagem: não informada para o VT (sem guia) → manter as medidas atuais; peso líquido 15 kg.
-Produto: 595 x 390 x 350 mm (L x A x P), 15 kg; cavidade 340 x 197 x 338 mm; 23 L total / 22 L útil; 220 V, 60 Hz, 5,48 A.
+Embalagem (guia, L x A x P 653 x 440 x 410 mm): L 65,3 (65), A 44, P 41 cm, 17 kg.
+Produto: 595 x 390 x 350 mm (L x A x P), 15 kg; cavidade 340 x 197 x 338 mm; nicho 560 x 365 x mín. 410 mm, abertura superior 100 mm; 23 L total / 22 L útil; 220 V, 60 Hz, 5,48 A.
 GTIN/EAN: não informado.
 CAMPOS LOJA INTEGRADA (micro-ondas, na ordem da tela): Cor Preto; Modelo Micro-ondas Vetro Flat 23 litros; Com grill Sim; Com porta espelhada (em branco); Tipos de montagem do microondas Embutir; Etiqueta (em branco); Homologação Anatel (em branco); Potência 1.300 W (micro-ondas; saída 800 W); Modelo alfanumérico FMC-LT-25-VT-2GZA; Capacidade em volume 23 L; Fabricante Elettromec; INMETRO (em branco).
-Faltam (estão só no guia do LC, não confirmados para o VT): trava de segurança, vidro frontal duplo, iluminação interna, suporte para grelhar, embalagem. Incluir se vier o guia/site do VT.
-Conflitos: nenhum. Funções 13 (manual); sem site para a regra do cliente.
+Conflitos (regra de 19/10):
+- acabamento – manual (tabela) "Acrílico Preto" x guia (card) "Vidro Preto" → acrílico preto (tabela vence card; manual > guia).
+- tipo de cocção – manual "Micro-ondas e Grill" x guia "Micro-ondas / Forno" → manual.
+- comando – guia tabela "Digital" x guia card "Comando eletrônico" → digital (tabela vence card).
+- funções 13 (guia = manual); sem site para a regra do cliente.
+- garantia – guia "2 anos* (estender de 1 para 2 via Inspire-se)" → bloco padrão Elettromec (pendência geral).
+Não usado: "sofisticação", "praticidade" (genéricos).
