@@ -341,7 +341,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |---|---|---|---|---|---|---|---|
 |   | AFNE9BSP545DW04 | - | Lavadora Residencial De Abertura Frontal Speed Queen 10,5 Kg 220V Branca | Lavadoras e Secadoras > Lavadoras | N | antigo | adiado 20/10: cliente deixou para depois |
 |   | ATEE9ASP545DW04 | - | Lavadora e Secadora Branca Speed Queen Conjugada Elétrica Inox 220v | Lavadoras e Secadoras > Lavadoras e Secadoras | N | antigo |  |
-|   | ATEE9ASP543DN04 | - | Lavadora e Secadora Inox Speed Queen Conjugada Elétrica Inox 220v | Lavadoras e Secadoras > Lavadoras e Secadoras | N | antigo |  |
+|   | ATEE9ASP543DN04 | - | Lavadora e Secadora Inox Speed Queen Conjugada Elétrica Inox 220v | Lavadoras e Secadoras > Lavadoras e Secadoras | N | antigo | adiado 20/10: cliente deixou para depois |
 |   | ADGE9BGS545DW01 | - | Secadora de Roupas Elétrica Residencial 10,5kg Abertura Frontal Branco 220V - Speed Queen | Lavadoras e Secadoras > Secadoras | N | antigo |  |
 
 ### Tecno (25)
