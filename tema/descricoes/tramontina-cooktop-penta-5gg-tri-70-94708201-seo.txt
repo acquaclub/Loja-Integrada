@@ -24,3 +24,5 @@ Conflitos: tripla chama "deslocado" (ficha) x desenho do manual e foto (no centr
 Não usado: "manípulo que não aquece" (→ "resistente ao calor"); distâncias C/D/E da tabela 1 (sem legenda clara).
 Entrou: tudo da ficha/manual (produto antigo sem descrição revisada).
 Atenção: SEM válvula de segurança (site "Safestop: Não") → no cadastro, "Com válvulas de segurança: Não".
+
+Pesquisa 20/10 (site oficial Tramontina, 94708201): texto diz "linha Perfecta"; ficha (selo) diz Prime → mantido Prime (ficha > site).

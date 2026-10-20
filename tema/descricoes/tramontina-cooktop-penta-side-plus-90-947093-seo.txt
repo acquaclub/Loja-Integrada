@@ -26,3 +26,5 @@ Em branco: ecológico, superaquecimento, trava, comprimento de montagem, etiquet
 Conflitos: linha – página do preto "Prime" x página do branco "Perfecta" → linha omitida; panelas – site "todos os tipos exceto barro" x manual "não usar barro nem fundo arredondado" → manual.
 Atenção: SEM válvula de segurança (site "Safestop: Não") → "Com válvulas de segurança: Não".
 Não usado: "características únicas", "manípulo que não aquece" (→ "resistente ao calor").
+
+Pesquisa 20/10 (site oficial Tramontina): página do preto 94709301 = "linha Prime"; página do branco 94709371 = "linha Perfecta". Mantido Prime (cor principal do anúncio); a linha muda conforme a cor no próprio site.

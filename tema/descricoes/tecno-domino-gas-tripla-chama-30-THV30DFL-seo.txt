@@ -26,3 +26,5 @@ Conflitos:
 - Potência nominal máxima "1100 W" (tabela de dados técnicos do manual, mesma nos modelos de 1 e 2 queimadores) → incoerente para cooktop a gás com só acendimento elétrico; omitida, conferir com a Tecno.
 Não usado: "refinamento", "encantam a visão e o paladar", "mais sofisticados espaços gourmet", "mais completa linha" (superlativos); "alum. pyral" (sem explicação oficial); "esmalte antiaderente" e "não poroso" (só no texto de marketing; mantido "ferro gusa esmaltado, vai à lava-louças").
 Entrou: tudo (descrição revisada a partir do site e do manual).
+
+Pesquisa 20/10: THV30DFL não aparece no catálogo oficial da Tecno; 1.100 W segue fora.

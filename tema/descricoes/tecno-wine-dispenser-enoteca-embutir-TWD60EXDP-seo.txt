@@ -29,3 +29,5 @@ Conflitos:
 - garantia – folder "Garantia de 2 anos" e "1 ano + 2º ano grátis pelo formulário" → bloco padrão Tecno de 2 anos (mesmo caso dos demais Tecno; confirmar).
 - cor – manual "Espelhado / Inox"; folder "vidro espelhado e painel interno grafite" e "vidro espelhado e inox" → "vidro espelhado, com painel interno grafite".
 Não usado: "único wine dispenser de embutir do mercado" (sem comprovação), "centro das atenções", "melhores lojas de vinhos", "perfeitas condições", "elevada precisão", "mais altos padrões", "refinado", "sofisticada", "elegante" (superlativos); medida 555 mm do desenho (sem legenda).
+
+Pesquisa 20/10 (catálogo oficial Tecno, id 718): profundidade do produto 395 mm (altura 718 mm = embalagem). Nicho de 330 mm seria menor que o corpo de 380 mm do desenho → mantido 380 mm.

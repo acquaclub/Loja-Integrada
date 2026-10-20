@@ -26,3 +26,5 @@ Conflito oficial: tabela diz "Puxador da porta: tubular em aço inox"; texto diz
 Aplicação: tabela "de piso e de embutir" (título diz só "de embutir") → Embutir ou Piso.
 Garantia: página diz 2 anos → bloco padrão Tecno.
 Saiu: abertura direita/"não reversível", porta com chave, Wi-Fi "Não", cor interna preta, "luz fria", "compressor silencioso/antivibração", RoHS, "espumantes", "Panel Ready", "painel não incluso", garantia "1+1 por formulário".
+
+Pesquisa 20/10 (catálogo oficial Tecno, id 711): ficha do site não cita puxador; continua a dúvida tabela (tubular inox) x texto (cliente escolhe). Decisão do cliente pendente.
