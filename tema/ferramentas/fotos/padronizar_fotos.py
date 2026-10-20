@@ -258,7 +258,7 @@ def main():
             avisos, saidas, tipos = [], [], []
             for ordem, (f, tipo) in enumerate(escolha):
                 rgba = abrir(f)
-                tipo = tipo or detectar_tipo(f.stem, rgba)
+                tipo = tipo or ("produto" if ordem == 0 else detectar_tipo(f.stem, rgba))  # a 1ª é sempre o produto
                 if tipo == "produto":
                     tela, metodo, escala = processar_produto(rgba, perfil)
                 elif tipo == "detalhe":
