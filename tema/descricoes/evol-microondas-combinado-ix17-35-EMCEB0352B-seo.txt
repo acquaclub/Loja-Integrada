@@ -1,0 +1,29 @@
+NOME DO PRODUTO
+Micro-ondas Combinado de Embutir Evol IX17 35 Litros Inox e Vidro Preto 220V
+
+TAG TITLE
+Micro-ondas Combinado Evol IX17 35 Litros | Unikitchen
+
+META DESCRIPTION
+Micro-ondas combinado de embutir Evol IX17, 35 L, com micro-ondas, convecção e grill, 11 funções e Painel Wake Up. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: hoje em Micro-ondas → sugerido mover para Forno e Micro-ondas Combinado (igual ao EMCEB0352C). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (código atual; ativo). Produto diferente do EMCEB0352C (IX13 42 L): o B é IX17 35 L → não duplica.
+
+FONTES: página do site Evol (texto colado em 20/10), guia comercial IX17 black (fichas/evol-EMCEB0352B-guia.pdf) e manual EMCEB0352 (imagens: especificação técnica, painel, potências).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (manual: 675 x 666 x 525 mm, sem ordem indicada): conferir as medidas atuais; peso 38,6 kg.
+Produto: 594 x 580 x 455 mm (L x P x A), 34,6 kg; 220 V, 60 Hz; 35 L.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (micro-ondas, na ordem da tela): Cor Inox; Modelo Micro-ondas Combinado IX17; Com grill Sim; Com porta espelhada (em branco); Tipos de montagem do microondas Embutir; Etiqueta (em branco); Homologação Anatel (em branco); Potência 1.550 W (entrada do micro-ondas; saída 1.000 W); Modelo alfanumérico EMCEB0352B; Capacidade em volume 35 L; Fabricante Evol; INMETRO (em branco).
+Conflitos (regra de 19/10 + decisão do cliente de 20/10: número de funções = site):
+- funções – site traz 3 números: "8 de cozimento e 3 especiais" (lista de características) = 11, "7 de cozimento e 4 especiais" (texto) = 11 e ícone "12 Funções de Cozimento"; guia 11 → 11 (valor repetido, inclusive no site). Divisão: 8 + 3 (lista de características vence texto de marketing). Descartados: 12 (ícone do site) e 7 + 4 (texto do site).
+- medidas – manual 594 x 580 x 455 mm x site/guia 59,5 x 58 x 45,5 cm → manual (mais preciso).
+- potência – guia/site "1550W" = manual "onda de entrada de micro-ondas 1550 W" → mantido com rótulo.
+Só no manual (sem conflito): grill 1.525 W, convecção 1.425 W, 2.450 MHz, disjuntor 16 A, prato 315 mm, 6 níveis de potência, aquecimento de prato 40–85 °C até 10 h.
+Não usado: "eleve sua cozinha", "design moderno", "tecnologia avançada", "elegante", "ampla variedade", "eficiência", "intuitiva e moderna", "todas as ferramentas necessárias", "toque final perfeito", "dourado irresistível", "funcionalidades de ponta", "escolha perfeita", "impressionar", "lifestyle sofisticado", "superioridade", "requinte", "o que há de mais moderno" (superlativos).

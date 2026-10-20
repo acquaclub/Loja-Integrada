@@ -122,6 +122,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | FM-EL-75-LC-2TNA | Forno Elétrico de Embutir Elettromec Luce Multifunção 78 Litros 75 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-75-FM-EL-75-LC-2TNA.html` | `elettromec-forno-eletrico-luce-75-FM-EL-75-LC-2TNA-seo.txt` (URL mantida) | entregue | 20/10/2026 | Fornos e Micro-ondas > Forno Elétrico |
 | FM-EL-60-LC-2TNA | Forno Elétrico de Embutir Elettromec Luce Multifunção 68 Litros 60 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-60-FM-EL-60-LC-2TNA.html` | `elettromec-forno-eletrico-luce-60-FM-EL-60-LC-2TNA-seo.txt` (URL mantida) | entregue | 20/10/2026 | Fornos e Micro-ondas > Forno Elétrico |
 | FM-EL-60-VT-2TNA | Forno Elétrico de Embutir Elettromec Vetro Multifunção 68 Litros 60 cm Vidro Preto 220V | Elettromec | `elettromec-forno-eletrico-vetro-60-FM-EL-60-VT-2TNA.html` | `elettromec-forno-eletrico-vetro-60-FM-EL-60-VT-2TNA-seo.txt` (URL mantida) | entregue | 20/10/2026 | Fornos e Micro-ondas > Forno Elétrico |
+| EMCEB0352B | Micro-ondas Combinado de Embutir Evol IX17 35 Litros Inox e Vidro Preto 220V | Evol | `evol-microondas-combinado-ix17-35-EMCEB0352B.html` | `evol-microondas-combinado-ix17-35-EMCEB0352B-seo.txt` (URL mantida) | entregue | 20/10/2026 | Micro-ondas → sugerido Forno e Micro-ondas Combinado |
 | FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
@@ -247,7 +248,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | EFNEB0352A | - | Forno Elétrico de Embutir Evol IX13 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | S | deletado 19/10 | D: cliente deletou (duplicava o EFNEB0352C) |
 |   | EFNEB0352B | - | Forno Elétrico de Embutir Evol IX17 com Air Fryer 73L 60cm 220V | Fornos e Micro-ondas > Forno Elétrico | N | feito 19/10 (evol-forno-eletrico-ix13-73-EFNEB0352C) | A: código → EFNEB0352C (material oficial é IX13) |
 |   | EMCEB0352A | - | Forno Micro-ondas Combinado Evol IX13 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | feito 19/10 (evol-microondas-combinado-ix13-42-EMCEB0352C) | A: código → EMCEB0352C (cliente enviou material do C) |
-|   | EMCEB0352B | - | Forno Micro-ondas Combinado Evol IX17 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
+|   | EMCEB0352B | - | Forno Micro-ondas Combinado Evol IX17 35L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | feito 20/10 (evol-microondas-combinado-ix17-35-EMCEB0352B) |  |
 |   | EMOEB0252B | - | Forno Micro-ondas Evol de Embutir 25L 60cm 220V | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | EGAEB0062B | - | Gaveta Aquecida Evol IX13 de Embutir 6 Serviços 24L 60cm 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo | A: trocar código/ficha → EGAEB0062C ou EGAEB0062D |
 |   | EGAEB0062A | - | Gaveta Aquecida Evol IX17 de Embutir 6 Serviços 24L 60cm 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo | A: trocar código/ficha → EGAEB0062C ou EGAEB0062D |
