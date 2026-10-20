@@ -5,7 +5,7 @@ TAG TITLE
 Forno Elétrico Elettromec Luce 75 cm 78 L | Unikitchen
 
 META DESCRIPTION
-Forno elétrico de embutir Elettromec Luce 75 cm, 78 L, 7 funções de cocção, convecção, grill e timer digital. Lojas em Sorocaba e Itapetininga.
+Forno elétrico de embutir Elettromec Luce 75 cm, 78 L, 12 programas, convecção, grill e timer digital. Lojas em Sorocaba e Itapetininga.
 
 URL: manter a atual
 
@@ -42,6 +42,6 @@ CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
 - Altura: 59 cm
 - Etiqueta de conservação de energia: (em branco)
 Conflitos (regra de 19/10: escolher um):
-- funções – site "12 programas" x guia "11 funções (7 de cocção + 3 de timer + 1 de iluminação)" x manual "8 funções" no seletor (7 de cocção + luz) → manual (manual > guia > site); guia e manual batem em 7 de cocção. Descartado: 12 (site) e 11 (guia, conta o timer).
+- funções – site "12 programas" x guia "11 funções" x manual "7 de cocção + luz" → 12 (DECISÃO DO CLIENTE em 20/10: usar o número do site). Descartados: 11 (guia) e 7 (manual).
 Só no manual (sem conflito): 60 Hz, lâmpada E14 15 W, aviso de termostato até 200 °C nos modos grill.
 Não usado: "sofisticação", "tecnologia", "alta capacidade", "ideal para diversos tipos de receitas" (superlativos/genéricos).

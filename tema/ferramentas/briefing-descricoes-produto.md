@@ -91,3 +91,5 @@ A página do produto tem **um único `<h1>`**: o nome do produto, que a platafor
 - Página de produto: título visível = nome curto + linha técnica (de `UK_NOMES`); nome completo continua no `<title>`, em `meta itemprop="name"` e no `title` do H1 (`script-produto-topo.js`).
 - Descrição exibida com título em maiúsculas, subtítulo em caixa alta espaçada e seções em sanfona (já no ar).
 - Limite de 15 mil caracteres por Código HTML; CSS Avançado tem cache de 15–20 min (testar com `?teste=1`).
+
+- Exceção decidida pelo cliente (20/10): no número de funções/programas de fornos, usar o número do site do fabricante, mesmo se manual ou guia disserem outro (ex.: Luce 75 → 12 programas). Registrar os valores descartados no -seo.txt.
