@@ -1,4 +1,4 @@
-# Regra do título curto e do subtítulo (proposta v2, 20/10/2026)
+# Regra do título curto e do subtítulo (aprovada em 20/10/2026)
 
 Onde aparecem: o `<h2 class="uk-desc-titulo">` e o `<p class="uk-desc-linha">` de cada descrição viram, pela lista UK_NOMES (script-nomes-1 e 2), o **título curto** e a **linha técnica** nos cards e no topo da página do produto. O nome completo da plataforma (SEO) não muda.
 
@@ -9,6 +9,8 @@ Onde aparecem: o `<h2 class="uk-desc-titulo">` e o `<p class="uk-desc-linha">` d
 - Título até ~40 caracteres, sem a marca (no HTML continua "Título | Marca"; o script tira a marca).
 - Subtítulo: só os campos da categoria, nesta ordem, separados por " | ". Campo sem dado oficial: pula. Tensão sempre por último; produto sem energia não leva tensão.
 - Nada de adjetivos ("premium", "sofisticado").
+- **Sem campo "Diferencial"** (decisão do cliente em 20/10): só os campos fixos da categoria.
+- Regra aprovada pelo cliente em 20/10 ("gostei como ficou").
 
 ## Por categoria
 
