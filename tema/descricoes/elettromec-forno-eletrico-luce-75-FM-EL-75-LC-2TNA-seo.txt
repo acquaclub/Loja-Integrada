@@ -1,0 +1,47 @@
+NOME DO PRODUTO
+Forno Elétrico de Embutir Elettromec Luce Multifunção 78 Litros 75 cm Inox 220V
+
+TAG TITLE
+Forno Elétrico Elettromec Luce 75 cm 78 L | Unikitchen
+
+META DESCRIPTION
+Forno elétrico de embutir Elettromec Luce 75 cm, 78 L, 7 funções de cocção, convecção, grill e timer digital. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Forno Elétrico (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (código atual no site; ativo).
+
+FONTES: página do site (fichas/elettromec-FM-EL-75-LC-2TNA-site.pdf), guia comercial (fichas/elettromec-FM-EL-75-LC-2TNA-guia.pdf) e manual (imagens: seletor de funções, especificações técnicas, desenho de dimensões), 20/10.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia, L x A x P 815 x 665 x 650 mm): L 81,5 (82), A 66,5 (67), P 65 cm, 44 kg.
+Produto: 750 x 590 x 562 mm (L x A x P), 39 kg; cavidade 590 x 350 x 380 mm; 78 L; 220 V, 60 Hz, 2.780 W, 15,45 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
+- Classificação de mercado: Eletrodomésticos » Fornos e Fogões » Fornos
+- Tipo de montagem: Embutir
+- Tipos de forno: Elétrico
+- Modelo: Forno Luce Multifunção Elétrico 75 cm
+- Com material autolimpante: (em branco)
+- Com grill: Sim
+- Com função autolimpante: (em branco)
+- Com temporizador: Sim
+- Com função microondas: Não
+- Com material de fácil limpeza: (em branco - só a bandeja tem esmalte antiaderente)
+- Com convecção: Sim
+- Cor principal: Inox
+- Tipo de gás: (em branco - elétrico)
+- Número de registro/certificação INMETRO: (em branco)
+- Largura: 75 cm
+- Quantidade de fogões: (em branco)
+- Capacidade em volume: 78 L
+- Modelo alfanumérico: FM-EL-75-LC-2TNA
+- Altura: 59 cm
+- Etiqueta de conservação de energia: (em branco)
+Conflitos (regra de 19/10: escolher um):
+- funções – site "12 programas" x guia "11 funções (7 de cocção + 3 de timer + 1 de iluminação)" x manual "8 funções" no seletor (7 de cocção + luz) → manual (manual > guia > site); guia e manual batem em 7 de cocção. Descartado: 12 (site) e 11 (guia, conta o timer).
+Só no manual (sem conflito): 60 Hz, lâmpada E14 15 W, aviso de termostato até 200 °C nos modos grill.
+Não usado: "sofisticação", "tecnologia", "alta capacidade", "ideal para diversos tipos de receitas" (superlativos/genéricos).
