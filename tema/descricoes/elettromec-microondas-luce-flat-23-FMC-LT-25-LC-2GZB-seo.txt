@@ -1,0 +1,29 @@
+NOME DO PRODUTO
+Micro-ondas de Embutir Elettromec Luce Flat 23 Litros Inox com Grill 220V
+
+TAG TITLE
+Micro-ondas Embutir Elettromec Luce Flat 23 L | Unikitchen
+
+META DESCRIPTION
+Micro-ondas de embutir Elettromec Luce Flat, 23 L, sem prato giratório, grill, 13 funções e trava de segurança. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Micro-ondas (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (ativo). Nome antigo dizia "25 Litros" → corrigido para 23 L (guia e manual). O "25" é só parte do código.
+
+FONTES: guia comercial (fichas/elettromec-FMC-LT-25-LC-2GZB-guia.pdf) e manual LC/VT (imagens: especificações técnicas, auto cozimento, combinações, níveis de potência, desenho de dimensões), 20/10. Sem página do site.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia, L x A x P 653 x 440 x 410 mm): L 65,3 (65), A 44, P 41 cm, 17 kg.
+Produto: 595 x 390 x 350 mm (L x A x P), 15 kg; cavidade 340 x 197 x 338 mm; 23 L total / 22 L útil; 220 V, 60 Hz, 5,48 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (micro-ondas, na ordem da tela): Cor Inox; Modelo Micro-ondas Luce Flat 23 litros; Com grill Sim; Com porta espelhada (em branco); Tipos de montagem do microondas Embutir; Etiqueta (em branco); Homologação Anatel (em branco); Potência 1.300 W (micro-ondas; saída 800 W); Modelo alfanumérico FMC-LT-25-LC-2GZB; Capacidade em volume 23 L; Fabricante Elettromec; INMETRO (em branco).
+Conflitos (regra de 19/10):
+- capacidade – cadastro antigo "25 Litros" x guia/manual 23 L total (22 L útil) → 23 L.
+- funções – guia 13 = manual 13; sem página do site (regra do cliente: número do site) → 13. Conferir se o site disser outro número.
+- manual cita "itens 7, 8 e 9" no auto cozimento, mas a tabela tem 8 itens → ignorado.
+- garantia – guia não informa → bloco padrão Elettromec (marcas.md).
+Não usado: "sofisticação", "praticidade" (genéricos).
