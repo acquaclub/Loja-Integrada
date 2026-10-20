@@ -196,9 +196,8 @@
   "7"
  ],
  "CV-1BI-40-VT-2VPA": [
-  "1",
-  "e2:produto",
   "e3:produto",
+  "e2:produto",
   "e1:detalhe",
   "2",
   "3",
@@ -890,8 +889,7 @@
   "3"
  ],
  "ESPLL0001": [
-  "e3",
-  "2"
+  "e3"
  ],
  "FR-LL-45-XX-NCLA": [
   "1",
