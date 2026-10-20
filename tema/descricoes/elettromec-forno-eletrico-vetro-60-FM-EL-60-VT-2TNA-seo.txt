@@ -1,0 +1,47 @@
+NOME DO PRODUTO
+Forno Elétrico de Embutir Elettromec Vetro Multifunção 68 Litros 60 cm Vidro Preto 220V
+
+TAG TITLE
+Forno Elétrico Elettromec Vetro 60 cm 68 L | Unikitchen
+
+META DESCRIPTION
+Forno elétrico de embutir Elettromec Vetro 60 cm, vidro preto, 68 L, 12 programas, convecção, grill e timer digital. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Forno Elétrico (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (código atual no site; ativo).
+
+FONTES: página do site (fichas/elettromec-FM-EL-60-VT-2TNA-site.pdf), guia comercial (fichas/elettromec-FM-EL-60-VT-2TNA-guia.pdf) e manual LC/VT (imagens: desenho de dimensões e especificações técnicas), 20/10.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia, L x A x P 645 x 645 x 650 mm): L 64,5 (65), A 64,5 (65), P 65 cm, 36 kg.
+Produto: 595 x 595 x 570 mm (L x A x P), 32 kg; cavidade 475 x 340 x 420 mm; 68 L; 220 V, 2.700 W, 12,27 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
+- Classificação de mercado: Eletrodomésticos » Fornos e Fogões » Fornos
+- Tipo de montagem: Embutir
+- Tipos de forno: Elétrico
+- Modelo: Forno Vetro Multifunção Elétrico 60 cm
+- Com material autolimpante: (em branco)
+- Com grill: Sim
+- Com função autolimpante: (em branco)
+- Com temporizador: Sim
+- Com função microondas: Não
+- Com material de fácil limpeza: (em branco - só a bandeja tem esmalte antiaderente)
+- Com convecção: Sim
+- Cor principal: Preto
+- Tipo de gás: (em branco - elétrico)
+- Número de registro/certificação INMETRO: (em branco)
+- Largura: 59,5 cm
+- Quantidade de fogões: (em branco)
+- Capacidade em volume: 68 L
+- Modelo alfanumérico: FM-EL-60-VT-2TNA
+- Altura: 59,5 cm
+- Etiqueta de conservação de energia: (em branco)
+Conflitos (regra de 19/10 + decisão do cliente de 20/10: número de programas = site):
+- programas – site "12 programas" x guia "11 funções: 7 de cocção, 3 de timer e 1 de iluminação" → 12 (decisão do cliente: número do site). Descartado: 11 (guia).
+Desenho do manual (LC/VT, enviado 20/10): 595 L x 595 A; corpo 545 + frente 25 = 570 P → confere com o guia. Manual: 60 Hz e lâmpada E9 25 W (incluídos); demais dados iguais ao guia.
+Não usado: "design moderno", "a combinação perfeita", "potencializa", "alta capacidade" (superlativos/genéricos).

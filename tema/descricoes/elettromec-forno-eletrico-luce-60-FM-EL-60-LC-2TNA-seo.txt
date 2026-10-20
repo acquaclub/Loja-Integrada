@@ -14,7 +14,7 @@ Principal: Fornos e Micro-ondas > Forno Elétrico (já está). Sem secundária.
 
 AÇÃO DA LISTA: nenhuma (código atual no site; ativo). Guia: "FM-EL-60-LC-2TNA substitui o LC-2XBA".
 
-FONTES: página do site (fichas/elettromec-FM-EL-60-LC-2TNA-site.pdf) e guia comercial (fichas/elettromec-FM-EL-60-LC-2TNA-guia.pdf), 20/10. Sem manual.
+FONTES: página do site (fichas/elettromec-FM-EL-60-LC-2TNA-site.pdf), guia comercial (fichas/elettromec-FM-EL-60-LC-2TNA-guia.pdf) e manual LC/VT (imagens: desenho de dimensões e especificações técnicas), 20/10.
 
 CADASTRO / ESPECIFICAÇÕES
 Embalagem (guia, L x A x P 645 x 645 x 650 mm): L 64,5 (65), A 64,5 (65), P 65 cm, 36 kg.
@@ -43,5 +43,5 @@ CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
 - Etiqueta de conservação de energia: (em branco)
 Conflitos (regra de 19/10 + decisão do cliente de 20/10: número de programas = site):
 - programas – site "11 programas, sendo 8 cocções e 3 opções de timer" x guia "11 funções: 7 de cocção, 3 de timer e 1 de iluminação" → site (11 = 8 + 3). Descartado: 7 de cocção + 1 iluminação (guia).
-Desenho do manual (LC/VT, enviado 20/10): 595 L x 595 A; corpo 545 + frente 25 = 570 P → confere com o guia. Frequência e lâmpada não informadas (em branco).
+Desenho do manual (LC/VT, enviado 20/10): 595 L x 595 A; corpo 545 + frente 25 = 570 P → confere com o guia. Manual: 60 Hz e lâmpada E9 25 W (incluídos); demais dados iguais ao guia.
 Não usado: "sofisticação", "tecnologia", "alta capacidade", "ideal para diversos tipos de receitas" (superlativos/genéricos).
