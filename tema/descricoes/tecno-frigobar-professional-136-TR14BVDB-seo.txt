@@ -1,0 +1,31 @@
+NOME DO PRODUTO
+Frigobar Tecno Professional 136 Litros Embutir ou Piso Inox 220V Porta Esquerda
+
+TAG TITLE
+Frigobar Tecno Professional 136L Porta Esquerda | Unikitchen
+
+META DESCRIPTION
+Frigobar Tecno Professional 136 litros, 133 latas, -2 a 18 °C, Frost Free, de embutir ou piso, abertura esquerda. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Refrigeradores e Freezers > Frigobares (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (ativo).
+
+FONTES: folder de vendas Tecno do TR14BVDB (fichas/tecno-TR14BVDB-folder.pdf) e manual TR14AVDA/CVDA/BVDA (imagens: capa, alarmes, carregamento), 20/10.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (folder): L 66, A 86,5 (87), P 63,5 (64) cm, 49 kg.
+Produto: 595 x 820–920 x 575 mm (L x A x P), 43 kg; 136 L; 220 V, 242 W, 1,1 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA: pedir ao cliente a lista de campos de frigobar (ordem da tela).
+Conflitos (regra de 19/10):
+- prateleiras – folder texto "três" x folder tabela "4" → 4 (tabela vence texto).
+- latas – folder diferenciais "133 latas de 355 ml" x tabela e manual "133 latas de 350 ml" → 350 ml (repetido).
+- alarme porta aberta – folder TR14BVDB "1 minuto" x manual TR14BVDA "5 minutos" → 1 minuto (fonte específica do código).
+- capacidades 473 ml, 355 ml e barril – manual lista só para o CVDA; folder do BVDB lista → folder (código específico).
+- altura "820 a 920 mm" mantida como no folder (pés niveladores frontais), igual ao TR14CVDC.
+- garantia – bloco padrão Tecno 2 anos (folder também diz 2 anos).
+Não usado: "sofisticada apresentação", "eficiente", "robusto", "elegante", "mais refinados ambientes", "alta qualidade", "perfeita preservação", "mais altos padrões de qualidade", "desfrutar plenamente", "com precisão", "evita marcas de dedo", "fácil de limpar" (superlativos e promessas).

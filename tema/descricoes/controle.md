@@ -129,6 +129,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | TR10FZDA | Freezer de Embutir Tecno Professional 100 Litros 2 Gavetas Inox 304 220V | Tecno | `tecno-freezer-professional-100-TR10FZDA.html` | `tecno-freezer-professional-100-TR10FZDA-seo.txt` (URL mantida) | entregue | 20/10/2026 | All Freezer (ok) |
 | FZ-DU-307-XX-2VSA | Freezer Vertical Elettromec Inox Duo 307 Litros No Frost 220V | Elettromec | `elettromec-freezer-inox-duo-307-FZ-DU-307-XX-2VSA.html` | `elettromec-freezer-inox-duo-307-FZ-DU-307-XX-2VSA-seo.txt` (URL mantida) | entregue | 20/10/2026 | All Freezer (ok) |
 | JC145CL | Freezer de Embutir Evol Smart Inverter 142 Litros Inox 220V | Evol | `evol-freezer-smart-142-JC145CL.html` | `evol-freezer-smart-142-JC145CL-seo.txt` (URL mantida) | entregue (reativar) | 20/10/2026 | All Freezer (ok) |
+| TR14BVDB | Frigobar Tecno Professional 136 Litros Embutir ou Piso Inox 220V Porta Esquerda | Tecno | `tecno-frigobar-professional-136-TR14BVDB.html` | `tecno-frigobar-professional-136-TR14BVDB-seo.txt` (URL mantida) | entregue (falta lista de campos de frigobar) | 20/10/2026 | Frigobares (ok) |
 | FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
@@ -367,7 +368,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | TIM50EXDA | - | Máquina de Gelo Tecno Professional TIM50EXDA | Máquinas de Gelo | S | antigo |  |
 |   | TIM50ERDA | - | Máquina de Gelo para Revestir Tecno Professional TIM50ERDA | Máquinas de Gelo | N | antigo | B: reativar |
 |   | TR10FZDA | - | Freezer Tecno 100L Professional TR10FZDA | Refrigeradores e Freezers > All Freezer | S | feito 20/10 (tecno-freezer-professional-100-TR10FZDA) |  |
-|   | TR14BVDB | - | Frigobar Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura p/ Esquerda | Refrigeradores e Freezers > Frigobares | S | antigo |  |
+|   | TR14BVDB | - | Frigobar Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura p/ Esquerda | Refrigeradores e Freezers > Frigobares | S | feito 20/10 (tecno-frigobar-professional-136-TR14BVDB) |  |
 |   | TR08HC | - | Umidor de Charutos Tecno Professional 38cm 220V | Umidores de Charuto > Umidor de Charutos | S | antigo | A: trocar código/ficha → TR06HC |
 
 ### Tramontina (47)
