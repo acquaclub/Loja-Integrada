@@ -34,7 +34,7 @@ Onde aparecem: o `<h2 class="uk-desc-titulo">` e o `<p class="uk-desc-linha">` d
 | Dosador de sabão | Dosador de Sabão + formato + capacidade (ml) | Acabamento · Abastecimento · Instalação |
 | Lixeira | Lixeira + formato + litros | Material · Instalação |
 | Banheira | Banheira de Hidro/Imersão + Linha + comprimento | Material · Instalação · Tensão |
-| Churrasqueira | Churrasqueira a Gás/Carvão/Elétrica + Linha + medida | Nº de queimadores · Instalação · Tensão |
+| Churrasqueira | Churrasqueira a Gás/Carvão/Elétrica + Linha + medida | Nº de queimadores · Potência (BTU/h) · Instalação · Tensão |
 | Lavadora / Secadora | Lavadora/Lava e Seca + Linha + kg | Abertura · Cor · Tensão |
 | Máquina de gelo | Máquina de Gelo + Linha + produção (kg/dia) | Reservatório · Instalação · Tensão |
 | Cafeteira / Wine dispenser / Umidor | Tipo + Linha | Instalação · Largura · Função principal · Tensão |
