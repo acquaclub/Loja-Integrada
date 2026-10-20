@@ -95,3 +95,4 @@ A página do produto tem **um único `<h1>`**: o nome do produto, que a platafor
 - Exceção decidida pelo cliente (20/10): no número de funções/programas de fornos, usar o número do site do fabricante, mesmo se manual ou guia disserem outro (ex.: Luce 75 → 12 programas). Registrar os valores descartados no -seo.txt.
 
 - Preferência do cliente (20/10): quando ele mandar só o SKU, responder em uma linha: "faremos" (pedir material), "já feito", "ficou para depois (motivo curto)" ou "trocar por outro (código)". Sem justificativas.
+- Complemento (20/10): se o controle ou a lista do outro chat indicar substituto/troca de código, citar SEMPRE o código substituto na resposta de uma linha (ex.: "trocar por outro: FB-BI-145-XV-2VPA, não confirmado no site") e se o anúncio está desativado.
