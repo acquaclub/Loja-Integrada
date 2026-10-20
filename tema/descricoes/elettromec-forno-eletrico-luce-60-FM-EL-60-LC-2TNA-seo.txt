@@ -1,0 +1,47 @@
+NOME DO PRODUTO
+Forno Elétrico de Embutir Elettromec Luce Multifunção 68 Litros 60 cm Inox 220V
+
+TAG TITLE
+Forno Elétrico Elettromec Luce 60 cm 68 L | Unikitchen
+
+META DESCRIPTION
+Forno elétrico de embutir Elettromec Luce 60 cm, 68 L, 11 programas, convecção, grill e timer digital. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Fornos e Micro-ondas > Forno Elétrico (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (código atual no site; ativo). Guia: "FM-EL-60-LC-2TNA substitui o LC-2XBA".
+
+FONTES: página do site (fichas/elettromec-FM-EL-60-LC-2TNA-site.pdf) e guia comercial (fichas/elettromec-FM-EL-60-LC-2TNA-guia.pdf), 20/10. Sem manual.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (guia, L x A x P 645 x 645 x 650 mm): L 64,5 (65), A 64,5 (65), P 65 cm, 36 kg.
+Produto: 595 x 595 x 570 mm (L x A x P), 32 kg; cavidade 475 x 340 x 420 mm; 68 L; 220 V, 2.700 W, 12,27 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (fornos, na ordem da tela):
+- Classificação de mercado: Eletrodomésticos » Fornos e Fogões » Fornos
+- Tipo de montagem: Embutir
+- Tipos de forno: Elétrico
+- Modelo: Forno Luce Multifunção Elétrico 60 cm
+- Com material autolimpante: (em branco)
+- Com grill: Sim
+- Com função autolimpante: (em branco)
+- Com temporizador: Sim
+- Com função microondas: Não
+- Com material de fácil limpeza: (em branco - só a bandeja tem esmalte antiaderente)
+- Com convecção: Sim
+- Cor principal: Inox
+- Tipo de gás: (em branco - elétrico)
+- Número de registro/certificação INMETRO: (em branco)
+- Largura: 59,5 cm
+- Quantidade de fogões: (em branco)
+- Capacidade em volume: 68 L
+- Modelo alfanumérico: FM-EL-60-LC-2TNA
+- Altura: 59,5 cm
+- Etiqueta de conservação de energia: (em branco)
+Conflitos (regra de 19/10 + decisão do cliente de 20/10: número de programas = site):
+- programas – site "11 programas, sendo 8 cocções e 3 opções de timer" x guia "11 funções: 7 de cocção, 3 de timer e 1 de iluminação" → site (11 = 8 + 3). Descartado: 7 de cocção + 1 iluminação (guia).
+Sem manual: frequência e lâmpada não informadas (em branco).
+Não usado: "sofisticação", "tecnologia", "alta capacidade", "ideal para diversos tipos de receitas" (superlativos/genéricos).
