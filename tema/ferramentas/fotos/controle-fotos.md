@@ -1,6 +1,6 @@
 # Controle das fotos do site
 
-Padrão: 2000×2000 px, JPG, fundo branco, mesmo enquadramento dentro de cada categoria (perfis em `perfis.json`).
+Padrão: 1000×1000 px, JPG (máximo 5 MB), fundo branco, mesmo enquadramento dentro de cada categoria (perfis em `perfis.json`).
 Ordem das fotos: 01 vitrine (frente) · 02 a do mouse (mesmo ângulo, aberto/aceso) · detalhes · desenho técnico por último.
 Entrega: zip com a pasta `FOTOS SITE RENDERIZADAS/<SKU>/`, para descompactar em Documentos > 1. Workflow > Site.
 

@@ -6,7 +6,7 @@ Entrada:  <entrada>/<perfil>/<SKU>/<n>.<jpg|png|webp>   (é o que o baixar_fotos
           selecao.json (nesta pasta) diz quais fotos usar e em que ordem: {"SKU": ["2", "3", "1:medidas"]}
           tipo depois de ":" (opcional): produto | detalhe | medidas. Sem tipo, a ferramenta detecta.
           SKU fora da seleção: usa todas as fotos na ordem do cadastro.
-Saída:    <saida>/<categoria>/<codigo>-<NN>.jpg   (2000x2000, fundo branco, JPG)
+Saída:    <saida>/<categoria>/<codigo>-<NN>.jpg   (1000x1000, fundo branco, JPG, bem abaixo de 5 MB)
           <saida>/<categoria>/_conferencia.png      (folha para conferir o resultado)
           <saida>/relatorio.md                      (avisos por produto)
 
@@ -18,6 +18,7 @@ Tipos de foto:
 Uso:  python3 padronizar_fotos.py <entrada> <saida> [--png] [--so=SKU1,SKU2]
       --png  também grava uma versão PNG com fundo transparente das fotos de produto
       --so   processa só esses SKUs
+      --ia   usa remoção de fundo por IA (rembg) quando o fundo não é branco puro
 """
 import json
 import sys
@@ -28,10 +29,13 @@ from PIL import Image, ImageOps
 from scipy import ndimage
 
 AQUI = Path(__file__).resolve().parent
-TAMANHO = 2000
-QUALIDADE = 88
+TAMANHO = 1000
+QUALIDADE = 90
+LIMITE_FOTO = 1.5      # ampliação máxima aceita para foto (acima disso perde nitidez em 1000 px)
+LIMITE_DESENHO = 2.5   # desenho técnico aguenta um pouco mais de ampliação
 BRANCO = 243          # a partir deste valor (nos 3 canais) o pixel conta como fundo branco
 TIPOS = ("produto", "detalhe", "medidas")
+USAR_IA = "--ia" in sys.argv   # remoção de fundo por IA (rembg): só com --ia
 PALAVRAS_MEDIDAS = ("medida", "tecnico", "técnico", "dimens", "desenho")
 
 
@@ -118,7 +122,7 @@ def compor(recorte_rgba, escala, x, y):
 
 def processar_produto(rgba, perfil):
     masc, metodo = mascara_produto(rgba)
-    if metodo == "fundo-branco" and borda_branca(rgba) < 0.97:
+    if USAR_IA and metodo == "fundo-branco" and borda_branca(rgba) < 0.97:
         try:
             masc, metodo = remover_fundo_ia(rgba)
         except Exception as e:  # sem rembg: segue com o recorte simples
@@ -256,15 +260,19 @@ def main():
             avisos, saidas, tipos = [], [], []
             for ordem, (f, tipo) in enumerate(escolha):
                 rgba = abrir(f)
-                tipo = tipo or detectar_tipo(f.stem, rgba)
+                tipo = tipo or ("produto" if ordem == 0 else detectar_tipo(f.stem, rgba))  # a 1ª é sempre o produto
                 if tipo == "produto":
                     tela, metodo, escala = processar_produto(rgba, perfil)
                 elif tipo == "detalhe":
                     tela, metodo, escala = processar_detalhe(rgba)
                 else:
                     tela, metodo, escala = processar_medidas(rgba)
-                if escala > 2.6:
-                    avisos.append(f"foto {f.stem}: pequena ({rgba.size[0]}x{rgba.size[1]}), ampliada {escala:.1f}x")
+                limite = LIMITE_DESENHO if tipo == "medidas" else LIMITE_FOTO
+                if escala > limite:
+                    if ordem >= 2:   # complementar fraca: fica de fora
+                        avisos.append(f"foto {f.stem} descartada: baixa resolução ({rgba.size[0]}x{rgba.size[1]})")
+                        continue
+                    avisos.append(f"BAIXA QUALIDADE na foto {ordem + 1} (cadastro {f.stem}, {rgba.size[0]}x{rgba.size[1]}): buscar original melhor")
                 if "IA indisponível" in metodo:
                     avisos.append(f"foto {f.stem}: fundo não é branco puro e a remoção por IA falhou")
                 tipos.append(tipo)
