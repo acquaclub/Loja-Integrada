@@ -1,0 +1,3 @@
+{
+ "_ajuda": "Ajuste por foto antes de padronizar. Chave: SKU/arquivo (sem extensão). corte = [x0,y0,x1,y1] e apagar = lista de retângulos, tudo em frações da imagem (0 a 1). Usado para deixar no desenho técnico só o desenho com as cotas."
+}

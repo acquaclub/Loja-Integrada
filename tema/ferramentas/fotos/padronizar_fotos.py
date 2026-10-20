@@ -11,8 +11,9 @@ Saída:    <saida>/<categoria>/<codigo>-<NN>.jpg   (2000x2000, fundo branco, JPG
           <saida>/relatorio.md                      (avisos por produto)
 
 Tipos de foto:
-  produto  produto recortado do fundo e enquadrado pelo perfil da categoria (perfis.json)
-  detalhe  foto de detalhe sem fundo branco: corte quadrado central, sem recorte
+  produto  produto recortado do fundo, centralizado e encostando na margem de segurança
+  detalhe  foto de detalhe sem fundo branco: foto inteira dentro da margem, sem corte
+  ambiente foto do produto instalado: igual ao detalhe, mas vai depois das fotos do produto
   medidas  desenho técnico: tira a sobra branca e centraliza com margem fixa
 
 Uso:  python3 padronizar_fotos.py <entrada> <saida> [--png] [--so=SKU1,SKU2]
@@ -31,6 +32,7 @@ from scipy import ndimage
 AQUI = Path(__file__).resolve().parent
 TAMANHO = 2000
 QUALIDADE = 90
+MARGEM = 0.05         # margem de segurança em cada lado (o produto encosta nela)
 LIMITE_FOTO = 3.0      # ampliação máxima aceita (equivale a 1,5x numa saída de 1000 px)
 LIMITE_DESENHO = 5.0   # desenho técnico aguenta mais ampliação
 BRANCO = 243          # a partir deste valor (nos 3 canais) o pixel conta como fundo branco
@@ -120,7 +122,15 @@ def compor(recorte_rgba, escala, x, y):
     return tela
 
 
-def processar_produto(rgba, perfil):
+def encaixar(recorte):
+    """Centraliza e amplia até o lado que limita encostar na margem de segurança."""
+    w, h = recorte.size
+    area = TAMANHO * (1 - 2 * MARGEM)
+    escala = min(area / w, area / h)
+    return compor(recorte, escala, (TAMANHO - w * escala) / 2, (TAMANHO - h * escala) / 2), escala
+
+
+def processar_produto(rgba, perfil=None):
     masc, metodo = mascara_produto(rgba)
     if USAR_IA and metodo == "fundo-branco" and borda_branca(rgba) < 0.97:
         try:
@@ -134,57 +144,47 @@ def processar_produto(rgba, perfil):
     y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
     a = np.asarray(rgba).copy()
     a[..., 3] = np.where(masc, a[..., 3], 0)            # fundo vira transparente
-    recorte = Image.fromarray(a[y0:y1, x0:x1])
-    w, h = recorte.size
-
-    T = TAMANHO
-    enc, ocupa, limite, base = perfil["encaixe"], perfil["ocupa"], perfil["limite"], perfil["base"]
-    if enc == "largura":
-        escala = min(T * ocupa / w, T * limite / h)
-    elif enc == "altura":
-        escala = min(T * ocupa / h, T * limite / w)
-    else:
-        escala = T * ocupa / max(w, h)
-    nw, nh = w * escala, h * escala
-    x = (T - nw) / 2
-    if base is None:
-        y = (T - nh) / 2
-    else:
-        y = T * base - nh
-        topo = T * (1 - limite) / 2 if enc != "altura" else T * (1 - ocupa) / 2
-        if y < topo:                                    # produto alto demais para a base: sobe só o necessário
-            y = max(topo, (T - nh) / 2)
-    tela = compor(recorte, escala, x, y)
+    tela, escala = encaixar(Image.fromarray(a[y0:y1, x0:x1]))
     return tela, metodo, escala
 
 
-def processar_detalhe(rgba):
-    im = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
-    im.alpha_composite(rgba)
-    # tira faixas brancas inteiras nas bordas (foto horizontal colocada num quadrado branco)
+def tirar_faixas_brancas(im):
     claro = (np.asarray(im)[..., :3] >= BRANCO).all(axis=2)
     linhas, colunas = np.nonzero(~claro.all(axis=1))[0], np.nonzero(~claro.all(axis=0))[0]
     if len(linhas) and len(colunas):
         im = im.crop((colunas[0], linhas[0], colunas[-1] + 1, linhas[-1] + 1))
-    lado = min(im.size)
-    escala = TAMANHO / lado
-    im = ImageOps.fit(im, (TAMANHO, TAMANHO), Image.LANCZOS, centering=(0.5, 0.5))
-    return im, "corte-quadrado", escala
+    return im
+
+
+def processar_detalhe(rgba):
+    """Ambiente ou detalhe: a foto inteira, sem corte, dentro da margem, sobre branco."""
+    im = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
+    im.alpha_composite(rgba)
+    tela, escala = encaixar(tirar_faixas_brancas(im))
+    return tela, "foto inteira", escala
 
 
 def processar_medidas(rgba):
-    masc, metodo = mascara_produto(rgba)
-    a = np.asarray(rgba)
-    escuro = ~(((a[..., :3] >= BRANCO).all(axis=2)) | (a[..., 3] < 10))
-    ys, xs = np.nonzero(escuro)
-    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
     base = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
     base.alpha_composite(rgba)
-    recorte = base.crop((x0, y0, x1, y1))
-    w, h = recorte.size
-    escala = TAMANHO * 0.90 / max(w, h)
-    tela = compor(recorte, escala, (TAMANHO - w * escala) / 2, (TAMANHO - h * escala) / 2)
+    a = np.asarray(base).copy()
+    a[(a[..., :3].min(axis=2) >= 232)] = (255, 255, 255, 255)   # fundo cinza claro vira branco
+    tela, escala = encaixar(tirar_faixas_brancas(Image.fromarray(a)))
     return tela, "desenho", escala
+
+
+def aplicar_recorte(rgba, regra):
+    """regra: {"corte": [x0,y0,x1,y1], "apagar": [[x0,y0,x1,y1], ...]} em frações da imagem."""
+    W, H = rgba.size
+    if "apagar" in regra:
+        a = np.asarray(rgba).copy()
+        for x0, y0, x1, y1 in regra["apagar"]:
+            a[int(y0 * H):int(y1 * H), int(x0 * W):int(x1 * W)] = (255, 255, 255, 255)
+        rgba = Image.fromarray(a)
+    if "corte" in regra:
+        x0, y0, x1, y1 = regra["corte"]
+        rgba = rgba.crop((int(x0 * W), int(y0 * H), int(x1 * W), int(y1 * H)))
+    return rgba
 
 
 def no_branco(tela):
@@ -226,6 +226,9 @@ def main():
     entrada, saida = Path(args[0]), Path(args[1])
     com_png = "--png" in sys.argv
     perfis = carregar_perfis()
+    arq_rec = AQUI / "recortes.json"
+    recortes = json.loads(arq_rec.read_text(encoding="utf-8")) if arq_rec.exists() else {}
+    recortes.pop("_ajuda", None)
     arq_sel = AQUI / "selecao.json"
     selecao = json.loads(arq_sel.read_text(encoding="utf-8")) if arq_sel.exists() else {}
     selecao.pop("_ajuda", None)
@@ -260,10 +263,13 @@ def main():
             avisos, saidas, tipos = [], [], []
             for ordem, (f, tipo) in enumerate(escolha):
                 rgba = abrir(f)
+                regra = recortes.get(f"{codigo}/{f.stem}")
+                if regra:
+                    rgba = aplicar_recorte(rgba, regra)
                 tipo = tipo or ("produto" if ordem == 0 else detectar_tipo(f.stem, rgba))  # a 1ª é sempre o produto
                 if tipo == "produto":
                     tela, metodo, escala = processar_produto(rgba, perfil)
-                elif tipo == "detalhe":
+                elif tipo in ("detalhe", "ambiente"):
                     tela, metodo, escala = processar_detalhe(rgba)
                 else:
                     tela, metodo, escala = processar_medidas(rgba)
@@ -278,13 +284,17 @@ def main():
                 tipos.append(tipo)
                 saidas.append((ordem, f, tipo, metodo, tela))
 
-            # desenho técnico sempre por último; o resto fica na ordem escolhida
-            saidas.sort(key=lambda s: (s[2] == "medidas", s[0]))
-            # a 2ª (a do mouse) tem de ser o produto em outro ângulo, no fundo branco: ambiente e detalhe descem
-            if len(saidas) > 1 and saidas[1][2] != "produto":
-                j = next((i for i in range(2, len(saidas)) if saidas[i][2] == "produto"), None)
-                if j:
-                    saidas.insert(1, saidas.pop(j))
+            # ordem: 1 = principal; 2 = o produto em outra perspectiva (fundo branco);
+            # depois fotos do produto, detalhes, ambientes e, por último, as medidas
+            GRUPO = {"produto": 0, "detalhe": 1, "ambiente": 2, "medidas": 3}
+            if saidas:
+                primeira, resto = saidas[0], saidas[1:]
+                j = next((i for i, s_ in enumerate(resto) if s_[2] == "produto"), None)
+                segunda = [resto.pop(j)] if j is not None else []
+                resto.sort(key=lambda s_: (GRUPO.get(s_[2], 1), s_[0]))
+                if not segunda and resto and resto[0][2] != "medidas":
+                    segunda = [resto.pop(0)]
+                saidas = [primeira] + segunda + resto
             tipos = [s[2] for s in saidas]
             prontos[codigo] = []
             linhas = []
