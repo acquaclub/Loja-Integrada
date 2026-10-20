@@ -280,6 +280,11 @@ def main():
 
             # desenho técnico sempre por último; o resto fica na ordem escolhida
             saidas.sort(key=lambda s: (s[2] == "medidas", s[0]))
+            # a 2ª (a do mouse) tem de ser o produto em outro ângulo, no fundo branco: ambiente e detalhe descem
+            if len(saidas) > 1 and saidas[1][2] != "produto":
+                j = next((i for i in range(2, len(saidas)) if saidas[i][2] == "produto"), None)
+                if j:
+                    saidas.insert(1, saidas.pop(j))
             tipos = [s[2] for s in saidas]
             prontos[codigo] = []
             linhas = []
@@ -298,7 +303,7 @@ def main():
             if tipos[0] != "produto":
                 avisos.append("a foto 1 não é foto de produto")
             elif len(tipos) < 2 or tipos[1] != "produto":
-                avisos.append("a foto 2 (a do mouse) não é foto de produto")
+                avisos.append("SEM 2º ÂNGULO: a foto 2 (a do mouse) não é o produto em outro ângulo")
             relatorio.append(f"- **{codigo}**" + (" ⚠ " + "; ".join(avisos) if avisos else " ok"))
             relatorio += linhas
         relatorio.append("")
