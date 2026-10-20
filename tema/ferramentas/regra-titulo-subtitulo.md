@@ -52,3 +52,9 @@ Onde aparecem: o `<h2 class="uk-desc-titulo">` e o `<p class="uk-desc-linha">` d
 | Coifa de Ilha New Format 90 cm | 1.000 m³/h · Filtro Baffle · 65 dB · 220V (valores ilustrativos) |
 | Lixeira Quadrada 10 Litros | Plástico e Inox · Sobrepor |
 | Misturador Monocomando Eos Neo | Inox 304 Maciço · Bica Extensível em J · Fosco · Bancada |
+
+## Exceções aplicadas em 20/10
+- Produto com versão de porta esquerda/direita: "Porta Esquerda"/"Porta Direita" antes da tensão (senão os dois cards ficam iguais).
+- Banheira: subtítulo = Material · Acabamento (cor, quando há versões) · Volume · Instalação.
+- Cooktops Tramontina Penta: o nome da linha (Penta Glass Flat etc.) é mantido inteiro; o título passa de 40 caracteres (até 50).
+- Fogão Evol EFGGF6QM2A: o material não diz o tipo do forno → "Forno de 163 L".

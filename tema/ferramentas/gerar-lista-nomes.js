@@ -1,3 +1,6 @@
+// ATENÇÃO (20/10/2026): a lista UK_NOMES foi reescrita à mão com a regra de tema/ferramentas/regra-titulo-subtitulo.md.
+// NÃO rode com RELER_TODOS = true enquanto houver descrição antiga colada na loja: ele leria o título antigo e desfaria a lista.
+// Use RELER só com os códigos cuja descrição nova já foi colada.
 // GERADOR DA LISTA DE NOMES CURTOS (não vai para o painel; roda no Console do navegador)
 // 1. Abra qualquer página da loja (a home serve).
 // 2. F12 > Console > cole este código inteiro > Enter.
