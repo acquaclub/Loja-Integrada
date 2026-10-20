@@ -173,7 +173,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | BH-54170-VL-BRFC | - | Banheira de Piso Oval Deca 170cm Branco Fosco Linha Velluto - BH.54170.VL.BRFC | Banheiras | N | feito 09/10 (deca-banheira-velluto-170-BH-54170-VL-BRFC) |  |
 | x | BH-53135-AMFC | - | Banheira de Piso com Degrau Deca 135cm Amêndoa Fosco - BH.53135.AMFC | Banheiras | N | antigo |  |
 | x | BH-53135-BRFC | - | Banheira de Piso com Degrau Deca 135cm Branco Fosco - BH.53135.BRFC | Banheiras | N | antigo |  |
-|   | 1007-QUA-8-INX | - | Lixeira Quadrada com Sensor 8L Deca Suprema Inox - 1007.QUA.8.INX | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
+|   | 1007-QUA-8-INX | - | Lixeira Quadrada com Sensor 8L Deca Suprema Inox - 1007.QUA.8.INX | Lixeiras | S | antigo | cliente manteve (20/10): fazer descrição |
 
 ### Elettromec (46)
 
@@ -210,7 +210,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | FMC-LT-25-LC-2GZB | - | Forno Micro-ondas de Embutir Elettromec Luce Flat Inox 25 Litros 220V | Fornos e Micro-ondas > Micro-ondas | S | feito 20/10 (elettromec-microondas-luce-flat-23-FMC-LT-25-LC-2GZB) |  |
 |   | FMC-LT-25-VT-2GZA | - | Forno Micro-ondas de Embutir Elettromec Vetro Flat 23 Litros 220V | Fornos e Micro-ondas > Micro-ondas | S | feito 20/10 (elettromec-microondas-vetro-flat-23-FMC-LT-25-VT-2GZA) |  |
 |   | FG-AN-60-LC-2TNA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 60cm 220V | Fornos e Micro-ondas > Forno a Gás | S | feito 19/10 (elettromec-forno-gas-luce-60-FG-AN-60-LC-2TNA) |  |
-|   | FG-AN-90-LC-2LCA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 90cm 220V | Fornos e Micro-ondas > Forno a Gás | N | antigo | D: cliente vai deletar (19/10); troca p/ 2TNA não confirmada no site |
+|   | FG-AN-90-LC-2LCA | - | Forno a Gás Elettromec Luce Grill Elétrico Inox 90cm 220V | Fornos e Micro-ondas > Forno a Gás | N | deletado (20/10: não consta mais na loja) | - |
 |   | GA-12S-30-XX-2TNA | - | Gaveta Aquecida Inox 30cm 220v Elettromec | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo |  |
 |   | GA-6S-14-XX-2TNA | - | Gaveta Aquecida Inox Elettromec 14cm 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | S | antigo |  |
 |   | GA-6S-14-VT-2TNA | - | Gaveta Aquecida Vetro Elettromec 14cm Vidro Preto 220V | Gavetas Aquecidas e Refrigeradas > Gavetas Aquecidas | N | antigo | A: trocar código/ficha → GA-6S-14-XX-2TNA |
@@ -281,9 +281,9 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 15198 | - | Cuba Box Dupla Embutir e Sobrepor Franke 78x45 c/ Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | feito 15/10 (franke-cuba-box-dupla-embutir-sobrepor-78x45-15198) |  |
 |   | 16060 | - | Cuba De Sobrepor Box Center Franke 86x51 c/ Acessórios e Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | feito 15/10 (franke-cuba-box-center-sobrepor-86x51-16060) |  |
 |   | 18629 | - | Cuba de embutir em aço inox Maris Quiet MQX 110-82 82x42cm com acessórios | Cubas e Tanques > Cuba Única | S | feito 15/10 (franke-cuba-maris-quiet-embutir-82x42-18629) |  |
-|   | 13546 | - | Lixeira de Sobrepor Quadrada Franke Aço Inox Escovado - 10 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
-|   | 16168 | - | Lixeira de Sobrepor Redonda Franke Aço Inox Escovado - 5 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
-|   | 09888 | - | Lixeira de Sobrepor Redonda Franke Balde Removível - 12 Litros | Lixeiras | S | antigo | D: remover (sugestão, aguarda cliente) |
+|   | 13546 | - | Lixeira de Sobrepor Quadrada Franke Aço Inox Escovado - 10 Litros | Lixeiras | S | antigo | cliente manteve (20/10): fazer descrição |
+|   | 16168 | - | Lixeira de Sobrepor Redonda Franke Aço Inox Escovado - 5 Litros | Lixeiras | S | antigo | cliente manteve (20/10): fazer descrição |
+|   | 09888 | - | Lixeira de Sobrepor Redonda Franke Balde Removível - 12 Litros | Lixeiras | S | antigo | cliente manteve (20/10): fazer descrição |
 |   | 16592 | - | Dosador de Sabão De Embutir e Sobrepor Franke Black Matte - 300ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-black-matte-300ml-16592) | D: cliente manteve (16/10) |
 |   | 13320 | - | Dosador de Sabão De Sobrepor em Aço Escovado Franke Quadrado - 330ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-quadrado-escovado-330ml-13320) | D: cliente manteve (16/10) |
 |   | 13318 | - | Dosador de Sabão De Sobrepor em Aço Escovado Franke Redondo - 330ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-redondo-escovado-330ml-13318) | D: cliente manteve (16/10) |
@@ -397,11 +397,11 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 94727104 | - | Cooktop a Gás Tramontina Design Collection Penta Inox Flat 5 GX 70 em Aço Inox e Trempes em Ferro Fundido com Acendimento Automático e 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (tramontina-cooktop-penta-inox-flat-70-94727104) |  |
 |   | 94728104 | - | Cooktop a Gás Tramontina Design Collection Penta Inox Flat 5 GX 90 em Aço Inox e Trempes em Ferro Fundido com Acendimento Automático e 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (tramontina-cooktop-penta-inox-flat-90-94728104) |  |
 |   | 94728174 | - | Cooktop a Gás Tramontina Design Collection Penta Inox Full 5 GX 90 em Aço Inox e Trempes em Ferro Fundido | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (tramontina-cooktop-penta-inox-full-90-94728174) |  |
-|   | 94702201 | - | Cooktop a Gás Tramontina Dominó em Vidro Temperado Preto com Trempes em Aço Carbono e Acendimento superautomático 2 Queimadores | Cooktops, Rangetops e Dominós > Dominós | S | antigo | D: remover (cliente 13/10); substituto 94700214 entregue 13/10 (tramontina-domino-2gx-he-safestop-30-94700214) |
+|   | 94702201 | - | Cooktop a Gás Tramontina Dominó em Vidro Temperado Preto com Trempes em Aço Carbono e Acendimento superautomático 2 Queimadores | Cooktops, Rangetops e Dominós > Dominós | S | feito (cliente 20/10: mantido, já atualizado) | mantido; substituto 94700214 entregue 13/10 (tramontina-domino-2gx-he-safestop-30-94700214) |
 |   | 947093 | 94709301 (-), 94709371 (-) | Cooktop a Gás Tramontina Penta Side Plus em Vidro Temperado com Trempes em Aço Carbono e Acendimento superautomático 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 14/10 (tramontina-cooktop-penta-side-plus-90-947093) |  |
 |   | 94708201 | - | Cooktop a Gás Tramontina Penta em Vidro Temperado Preto com Trempes em Aço Carbono e Acendimento superautomático 5 Queimadores | Cooktops, Rangetops e Dominós > Cooktops | S | feito 13/10 (tramontina-cooktop-penta-5gg-tri-70-94708201) |  |
 |   | 94751022 | - | Cooktop por Indução Tramontina Square Basic 4EI 60 | Cooktops, Rangetops e Dominós > Cooktops | S | feito 15/10 (tramontina-cooktop-inducao-square-basic-4ei-60-94751022) |  |
-|   | 948 | 94869220 (-), 94870220 (-) | Forno Elétrico de Embutir Tramontina Glass Cook em Vidro Temperado Preto 7 Funções 73 L | Fornos e Micro-ondas > Forno Elétrico | N | deletado 19/10 | D: cliente vai deletar (19/10) |
+|   | 948 | 94869220 (-), 94870220 (-) | Forno Elétrico de Embutir Tramontina Glass Cook em Vidro Temperado Preto 7 Funções 73 L | Fornos e Micro-ondas > Forno Elétrico | N | deletado 19/10 | - (20/10: não consta mais na loja) |
 |   | 94880006 | - | Micro-ondas de Embutir Tramontina Inox 60 25 L em Aço Inox com Acabamento Acetinado 8 Funções | Fornos e Micro-ondas > Micro-ondas | S | antigo |  |
 |   | 94895214 | - | Lava-Louças Tramontina Inox 14 Serviços SB14X 60 com 6 Programas e 4 Funções 220V | Lava Louças > Lava-louças | S | antigo |  |
 |   | 94895220 | - | Lava-Louças Tramontina Inox 15 Serviços S15X 60 com 8 Programas e 6 Funções 220 V | Lava Louças > Lava-louças | S | antigo |  |
