@@ -20,7 +20,22 @@ CADASTRO / ESPECIFICAÇÕES
 GTIN/EAN: 7892162135460. Código Franke (FUN): 134.0313.305.
 Embalagem: sem medida oficial → manter as atuais se plausíveis.
 Produto: 24 x 24 x 30 cm (L x P x A); 10 L.
-CAMPOS LOJA INTEGRADA: pedir ao cliente a lista de campos de lixeira (ordem da tela).
+CAMPOS LOJA INTEGRADA (lixeira, na ordem da tela):
+- Unidades por kit: 1
+- É de embutir: Não
+- Materiais da estrutura: Plástico (provável: "Cor: Plástico - Inox" = corpo plástico, tampa inox)
+- Lugar de colocação: Cozinha
+- Tipos de aberturas: (em branco - não informado)
+- Cor principal: Inox
+- Material da tampa: Aço inoxidável (provável)
+- Formato de venda: Unidade
+- Peso: (em branco)
+- Número de licença do CONAMA: (em branco)
+- Capacidade em volume: 10 L
+- Altura: 30 cm
+- Comprimento: 24 cm
+- Modelo: Lixeira Quadrada de Sobrepor 10 L
+- Largura: 24 cm
 Conflitos (regra de 19/10):
 - material – nome/texto "aço inox escovado" x tabela "Cor: Plástico - Inox" → "plástico e aço inox escovado" (tabela vence texto; o nome do site cita só o inox).
 Não usado: "encaixa perfeitamente", "tamanho ideal", "excelente acabamento", "alta resistência", "charmosa e moderna" (marketing).
