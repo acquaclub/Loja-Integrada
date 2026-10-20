@@ -132,6 +132,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | TR14BVDB | Frigobar Tecno Professional 136 Litros Embutir ou Piso Inox 220V Porta Esquerda | Tecno | `tecno-frigobar-professional-136-TR14BVDB.html` | `tecno-frigobar-professional-136-TR14BVDB-seo.txt` (URL mantida) | entregue | 20/10/2026 | Frigobares (ok) |
 | FB-BI-145-XV-2VPA (era FB-BI-135-XV) | Frigobar de Embutir Elettromec Built-In Connect 145 Litros Inox 304 220V | Elettromec | `elettromec-frigobar-built-in-connect-145-FB-BI-145-XV-2VPA.html` | `elettromec-frigobar-built-in-connect-145-FB-BI-145-XV-2VPA-seo.txt` (URL mantida) | entregue (trocar código, tirar 127V, reativar) | 20/10/2026 | Frigobares (ok) |
 | FB-BI-88-XV-2VPA (era FB-BI-86-XV-2ATB) | Frigobar de Embutir Elettromec Built-In Connect 88 Litros Inox 304 220V | Elettromec | `elettromec-frigobar-built-in-connect-88-FB-BI-88-XV-2VPA.html` | `elettromec-frigobar-built-in-connect-88-FB-BI-88-XV-2VPA-seo.txt` (URL mantida) | entregue (trocar código, reativar) | 20/10/2026 | Frigobares (ok) |
+| 13546 | Lixeira de Sobrepor Quadrada Franke 10 Litros Inox Escovado 24 x 24 x 30 cm | Franke | `franke-lixeira-quadrada-sobrepor-10l-13546.html` | `franke-lixeira-quadrada-sobrepor-10l-13546-seo.txt` (URL mantida) | entregue (falta lista de campos de lixeira) | 20/10/2026 | Lixeiras (ok) |
 | FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
@@ -281,7 +282,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | 15198 | - | Cuba Box Dupla Embutir e Sobrepor Franke 78x45 c/ Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | feito 15/10 (franke-cuba-box-dupla-embutir-sobrepor-78x45-15198) |  |
 |   | 16060 | - | Cuba De Sobrepor Box Center Franke 86x51 c/ Acessórios e Válvula 4,5 | Cubas e Tanques > Cuba Dupla | S | feito 15/10 (franke-cuba-box-center-sobrepor-86x51-16060) |  |
 |   | 18629 | - | Cuba de embutir em aço inox Maris Quiet MQX 110-82 82x42cm com acessórios | Cubas e Tanques > Cuba Única | S | feito 15/10 (franke-cuba-maris-quiet-embutir-82x42-18629) |  |
-|   | 13546 | - | Lixeira de Sobrepor Quadrada Franke Aço Inox Escovado - 10 Litros | Lixeiras | S | antigo | cliente manteve (20/10): fazer descrição |
+|   | 13546 | - | Lixeira de Sobrepor Quadrada Franke Aço Inox Escovado - 10 Litros | Lixeiras | S | feito 20/10 (franke-lixeira-quadrada-sobrepor-10l-13546) | cliente manteve (20/10) |
 |   | 16168 | - | Lixeira de Sobrepor Redonda Franke Aço Inox Escovado - 5 Litros | Lixeiras | S | antigo | cliente manteve (20/10): fazer descrição |
 |   | 09888 | - | Lixeira de Sobrepor Redonda Franke Balde Removível - 12 Litros | Lixeiras | S | antigo | cliente manteve (20/10): fazer descrição |
 |   | 16592 | - | Dosador de Sabão De Embutir e Sobrepor Franke Black Matte - 300ml | Misturadores e Torneiras > Dosadores de sabão | S | feito 16/10 (franke-dosador-sabao-black-matte-300ml-16592) | D: cliente manteve (16/10) |

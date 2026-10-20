@@ -1,0 +1,26 @@
+NOME DO PRODUTO
+Lixeira de Sobrepor Quadrada Franke 10 Litros Inox Escovado 24 x 24 x 30 cm
+
+TAG TITLE
+Lixeira Quadrada Franke 10 Litros Inox Escovado | Unikitchen
+
+META DESCRIPTION
+Lixeira de sobrepor quadrada Franke, 10 litros, 24 x 24 x 30 cm, plástico e inox escovado, retirada do lixo por cima. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Lixeiras (já está). Sem secundária.
+
+AÇÃO DA LISTA: era sugestão de remover; cliente manteve (20/10).
+
+FONTES: página do site Franke (texto e desenho colados em 20/10).
+
+CADASTRO / ESPECIFICAÇÕES
+GTIN/EAN: 7892162135460. Código Franke (FUN): 134.0313.305.
+Embalagem: sem medida oficial → manter as atuais se plausíveis.
+Produto: 24 x 24 x 30 cm (L x P x A); 10 L.
+CAMPOS LOJA INTEGRADA: pedir ao cliente a lista de campos de lixeira (ordem da tela).
+Conflitos (regra de 19/10):
+- material – nome/texto "aço inox escovado" x tabela "Cor: Plástico - Inox" → "plástico e aço inox escovado" (tabela vence texto; o nome do site cita só o inox).
+Não usado: "encaixa perfeitamente", "tamanho ideal", "excelente acabamento", "alta resistência", "charmosa e moderna" (marketing).
