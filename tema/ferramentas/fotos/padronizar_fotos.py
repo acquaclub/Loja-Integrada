@@ -292,8 +292,12 @@ def main():
                 j = next((i for i, s_ in enumerate(resto) if s_[2] == "produto"), None)
                 segunda = [resto.pop(j)] if j is not None else []
                 resto.sort(key=lambda s_: (GRUPO.get(s_[2], 1), s_[0]))
-                if not segunda and resto and resto[0][2] != "medidas":
-                    segunda = [resto.pop(0)]
+                if not segunda:   # sem outro ângulo: o produto instalado (ambiente) mostra mais que um close
+                    j = next((i for i, s_ in enumerate(resto) if s_[2] == "ambiente"), None)
+                    if j is None:
+                        j = next((i for i, s_ in enumerate(resto) if s_[2] == "detalhe"), None)
+                    if j is not None:
+                        segunda = [resto.pop(j)]
                 saidas = [primeira] + segunda + resto
             tipos = [s[2] for s in saidas]
             prontos[codigo] = []
