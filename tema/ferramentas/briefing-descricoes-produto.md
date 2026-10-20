@@ -93,3 +93,5 @@ A página do produto tem **um único `<h1>`**: o nome do produto, que a platafor
 - Limite de 15 mil caracteres por Código HTML; CSS Avançado tem cache de 15–20 min (testar com `?teste=1`).
 
 - Exceção decidida pelo cliente (20/10): no número de funções/programas de fornos, usar o número do site do fabricante, mesmo se manual ou guia disserem outro (ex.: Luce 75 → 12 programas). Registrar os valores descartados no -seo.txt.
+
+- Preferência do cliente (20/10): quando ele mandar só o SKU, responder em uma linha: "faremos" (pedir material), "já feito", "ficou para depois (motivo curto)" ou "trocar por outro (código)". Sem justificativas.

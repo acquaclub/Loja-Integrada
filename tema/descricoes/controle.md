@@ -127,6 +127,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | FMC-LT-25-VT-2GZA | Micro-ondas de Embutir Elettromec Vetro Flat 23 Litros Acrílico Preto com Grill 220V | Elettromec | `elettromec-microondas-vetro-flat-23-FMC-LT-25-VT-2GZA.html` | `elettromec-microondas-vetro-flat-23-FMC-LT-25-VT-2GZA-seo.txt` (URL mantida) | entregue (completado com guia 20/10) | 20/10/2026 | Micro-ondas (ok) |
 | EMOEB0252B | Micro-ondas de Embutir Evol 25 Litros Inox e Vidro Preto com Grill 220V | Evol | `evol-microondas-embutir-25-EMOEB0252B.html` | `evol-microondas-embutir-25-EMOEB0252B-seo.txt` (URL mantida) | entregue | 20/10/2026 | Micro-ondas (ok) |
 | TR10FZDA | Freezer de Embutir Tecno Professional 100 Litros 2 Gavetas Inox 304 220V | Tecno | `tecno-freezer-professional-100-TR10FZDA.html` | `tecno-freezer-professional-100-TR10FZDA-seo.txt` (URL mantida) | entregue | 20/10/2026 | All Freezer (ok) |
+| FZ-DU-307-XX-2VSA | Freezer Vertical Elettromec Inox Duo 307 Litros No Frost 220V | Elettromec | `elettromec-freezer-inox-duo-307-FZ-DU-307-XX-2VSA.html` | `elettromec-freezer-inox-duo-307-FZ-DU-307-XX-2VSA-seo.txt` (URL mantida) | entregue | 20/10/2026 | All Freezer (ok) |
 | FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
@@ -214,7 +215,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | LL-10S-45-SR-2VSA | - | Lava-louças 10 Serviços para Revestimento Elettromec 220v Inox | Lava Louças > Lava-louças | S | antigo |  |
 |   | LL-14S-60-SR-2VSA | - | Lava-louças 14 Serviços para Revestimento Elettromec 220v Inox | Lava Louças > Lava-louças | N | antigo | B: reativar |
 |   | FR-LL-60-VT-NLGB | - | Painel Lava-louças Elettromec Vetro 14 Serviços com Puxador 220V | Lava Louças > Frente Lava-louças | N | antigo | A: trocar código/ficha → FR-LL-60-XX-NPLA ou FR-LL-60-XX-NGZA |
-|   | FZ-DU-307-XX-2VSA | - | Freezer Inox Duo 307 Litros 220V Elettromec | Refrigeradores e Freezers > All Freezer | S | antigo |  |
+|   | FZ-DU-307-XX-2VSA | - | Freezer Inox Duo 307 Litros 220V Elettromec | Refrigeradores e Freezers > All Freezer | S | feito 20/10 (elettromec-freezer-inox-duo-307-FZ-DU-307-XX-2VSA) |  |
 |   | FB-BI-86-XV-2ATB | - | Frigobar Elettromec 86 Litros Built-in Connect 220V | Refrigeradores e Freezers > Frigobares | N | antigo | A: trocar código/ficha → FB-BI-88-XV-2VPA |
 |   | FB-BI-135-XV | FB-BI-135-XV-2ATC (220V), FB-BI-135-XV-1ATC (127V) | Frigobar Elettromec de Embutir 135 Litros Connect Inox Abertura para Esquerda | Refrigeradores e Freezers > Frigobares | N | antigo | A: trocar código/ficha → FB-BI-145-XV-2VPA |
 |   | RF-BF-510-XX-2VSA | - | Refrigerador Elettromec Inox Bottom Freezer 510 Litros 220v | Refrigeradores e Freezers > Bottom | S | antigo |  |
