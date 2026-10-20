@@ -107,8 +107,8 @@ def detectar_tipo(nome, rgba):
     rgb = caixa[..., :3].astype(int)
     claro = ((rgb >= BRANCO).all(axis=2) | (caixa[..., 3] < 10)).mean()
     cor = (rgb.max(axis=2) - rgb.min(axis=2)).mean()
-    if claro > 0.80 and cor < 12:                       # traço fino sobre branco: desenho técnico
-        return "medidas"
+    # desenho técnico só quando marcado (":medidas" na seleção ou no nome do arquivo):
+    # produto branco ou inox sobre fundo branco era confundido com desenho
     return "produto"
 
 
