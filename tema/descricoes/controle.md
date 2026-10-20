@@ -128,6 +128,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | EMOEB0252B | Micro-ondas de Embutir Evol 25 Litros Inox e Vidro Preto com Grill 220V | Evol | `evol-microondas-embutir-25-EMOEB0252B.html` | `evol-microondas-embutir-25-EMOEB0252B-seo.txt` (URL mantida) | entregue | 20/10/2026 | Micro-ondas (ok) |
 | TR10FZDA | Freezer de Embutir Tecno Professional 100 Litros 2 Gavetas Inox 304 220V | Tecno | `tecno-freezer-professional-100-TR10FZDA.html` | `tecno-freezer-professional-100-TR10FZDA-seo.txt` (URL mantida) | entregue | 20/10/2026 | All Freezer (ok) |
 | FZ-DU-307-XX-2VSA | Freezer Vertical Elettromec Inox Duo 307 Litros No Frost 220V | Elettromec | `elettromec-freezer-inox-duo-307-FZ-DU-307-XX-2VSA.html` | `elettromec-freezer-inox-duo-307-FZ-DU-307-XX-2VSA-seo.txt` (URL mantida) | entregue | 20/10/2026 | All Freezer (ok) |
+| JC145CL | Freezer de Embutir Evol Smart Inverter 142 Litros Inox 220V | Evol | `evol-freezer-smart-142-JC145CL.html` | `evol-freezer-smart-142-JC145CL-seo.txt` (URL mantida) | entregue (reativar) | 20/10/2026 | All Freezer (ok) |
 | FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
@@ -260,7 +261,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | ELLER0152A | - | Lava-Louças Evol de Revestir 15 Serviços 60cm 220V | Lava Louças > Lava-louças | S | antigo |  |
 |   | ESPLL0001 | - | Painel Decorativo Evol em Inox para Lava-Louças 60cm | Lava Louças > Frente Lava-louças | S | antigo |  |
 |   | JG36I | - | Máquina de Gelo para Embutir Evol Inox 220V | Máquinas de Gelo > Máquina de Gelo de Embutir | S | antigo |  |
-|   | JC145CL | - | Freezer de Embutir Evol Inverter Smart 142 Litros Inox 220V - Abertura para Direita | Refrigeradores e Freezers > All Freezer | N | antigo | A: trocar código/ficha → JC-145CL220R |
+|   | JC145CL | - | Freezer de Embutir Evol Inverter Smart 142 Litros Inox 220V - Abertura para Direita | Refrigeradores e Freezers > All Freezer | N | feito 20/10 (evol-freezer-smart-142-JC145CL) | código mantido JC145CL (troca p/ JC-145CL220R não confirmada); reativar |
 |   | ERDEB5042A | - | Refrigerador Multidoor Evol 504L Smart de Embutir | Refrigeradores e Freezers > Multidoor | S | antigo |  |
 
 ### Franke (25)

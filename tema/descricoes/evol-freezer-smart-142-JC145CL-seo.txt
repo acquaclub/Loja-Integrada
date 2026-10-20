@@ -1,0 +1,38 @@
+NOME DO PRODUTO
+Freezer de Embutir Evol Smart Inverter 142 Litros Inox 220V
+
+TAG TITLE
+Freezer de Embutir Evol Smart 142 Litros | Unikitchen
+
+META DESCRIPTION
+Freezer de embutir Evol Smart, 142 L, -18 a 0 °C, compressor inverter, App Evol Smart, 3 cestos e classe A. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Refrigeradores e Freezers > All Freezer (já está). Sem secundária.
+
+AÇÃO DA LISTA: o material oficial (site e guia, 20/10) usa o código JC145CL / modelo JC-145CL → código MANTIDO. A troca para "JC-145CL220R" vinha da lista do outro chat e não foi confirmada. Anúncio inativo → reativar se for vender. Nome antigo dizia "Abertura para Direita": a porta é reversível, então saiu do nome.
+
+FONTES: página do site Evol (texto colado em 20/10) e guia comercial (fichas/evol-JC145CL-guia.pdf, com desenho de instalação e etiqueta INMETRO).
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem: medidas não informadas → manter as atuais; peso bruto 44,4 kg.
+Produto: 595 x 820 x 578 mm (L x A x P); 142 L; 220 V, 60 Hz, 160 W, 1,0 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA (freezer, na ordem da tela):
+- Tipo de freezer: Vertical (etiqueta INMETRO: "congelador vertical")
+- Modelo: Freezer Smart 142 Litros
+- Eficiência energética Brasil: A
+- Cor principal: Inox
+- Largura: 59,5 cm
+- Capacidade em volume: 142 L
+- Modelo alfanumérico: JC145CL
+- Etiqueta de conservação de energia: A (28,2 kWh/mês)
+- Número de registro/certificação INMETRO: 008249/2022
+- Altura: 82 cm
+Conflitos (regra de 19/10):
+- cestos – site "3 cestos, 2 com corrediças" x guia "dois cestos com corrediças telescópicas" → 3 (o próprio guia cita "um terceiro cesto inferior").
+- peso – site 44,4 kg (bruto) x guia 44,35 kg → 44,4 kg com embalagem.
+- inox 304 – só no texto do site ("porta em aço inox 304"); tabela diz "aço inox" → usado "aço inox; porta em aço inox 304" + glossário.
+Não usado: "tecnologia de ponta", "escolha perfeita", "desempenho confiável", "design moderno", "solução ideal", "altamente eficiente", "preservação superior", "maximizando", "pureza do ar", "controle preciso", "elegante", "sofisticação", "requinte", "qualidade incomparável", "revolucionária", "luxury", "lifestyle sofisticado", "superioridade", "o que há de mais moderno" (superlativos).
