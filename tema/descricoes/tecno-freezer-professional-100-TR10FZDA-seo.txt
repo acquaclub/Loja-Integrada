@@ -1,0 +1,27 @@
+NOME DO PRODUTO
+Freezer de Embutir Tecno Professional 100 Litros 2 Gavetas Inox 304 220V
+
+TAG TITLE
+Freezer de Embutir Tecno Professional 100 L | Unikitchen
+
+META DESCRIPTION
+Freezer de embutir Tecno Professional TR10FZDA, 100 L, -24 a -12 °C, 2 gavetas, inox 304 e uso interno ou externo. Lojas em Sorocaba e Itapetininga.
+
+URL: manter a atual
+
+CATEGORIAS
+Principal: Refrigeradores e Freezers > All Freezer (já está). Sem secundária.
+
+AÇÃO DA LISTA: nenhuma (ativo).
+
+FONTES: folder de vendas Tecno (fichas/tecno-TR10FZDA-folder.pdf) e manual (imagem: dados técnicos), 20/10.
+
+CADASTRO / ESPECIFICAÇÕES
+Embalagem (folder): L 66, A 86,5 (87), P 63,5 (64) cm, 48 kg.
+Produto: 595 x 820 x 575 mm (L x A x P; 625 com puxador), 40 kg; nicho 605 x 825 x 610 mm; 100 L; 220 V, 60 Hz, 242 W, 1,0 A.
+GTIN/EAN: não informado.
+CAMPOS LOJA INTEGRADA: pedir ao cliente a lista de campos de freezer (ordem da tela).
+Conflitos (regra de 19/10):
+- altura – manual 820 mm x folder "820 mm a 920 mm" → 820 mm (manual > folder; o folder não explica a faixa).
+- garantia – folder "1 ano + 2º ano via formulário de extensão TECNO" x bloco Tecno 2 anos → bloco de marcas.md (pendência geral Tecno).
+Não usado: "maior e mais inovador conjunto de diferenciais de sua categoria", "a mais baixa temperatura", "melhor preservar seus nutrientes, sabores, aromas e texturas", "robusto", "elegante", "mais refinados ambientes", "mais altos padrões de qualidade", "melhores escolhas", "reduz o consumo de energia", "temperatura mais precisa e estável", "evita marcas de dedo", "fácil de limpar" (superlativos e promessas).

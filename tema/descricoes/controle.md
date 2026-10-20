@@ -126,6 +126,7 @@ Status: **rascunho** (aguardando dado/validação) · **entregue** (enviado para
 | FMC-LT-25-LC-2GZB | Micro-ondas de Embutir Elettromec Luce Flat 23 Litros Inox com Grill 220V | Elettromec | `elettromec-microondas-luce-flat-23-FMC-LT-25-LC-2GZB.html` | `elettromec-microondas-luce-flat-23-FMC-LT-25-LC-2GZB-seo.txt` (URL mantida) | entregue (nome 25 → 23 L) | 20/10/2026 | Micro-ondas (ok) |
 | FMC-LT-25-VT-2GZA | Micro-ondas de Embutir Elettromec Vetro Flat 23 Litros Acrílico Preto com Grill 220V | Elettromec | `elettromec-microondas-vetro-flat-23-FMC-LT-25-VT-2GZA.html` | `elettromec-microondas-vetro-flat-23-FMC-LT-25-VT-2GZA-seo.txt` (URL mantida) | entregue (completado com guia 20/10) | 20/10/2026 | Micro-ondas (ok) |
 | EMOEB0252B | Micro-ondas de Embutir Evol 25 Litros Inox e Vidro Preto com Grill 220V | Evol | `evol-microondas-embutir-25-EMOEB0252B.html` | `evol-microondas-embutir-25-EMOEB0252B-seo.txt` (URL mantida) | entregue | 20/10/2026 | Micro-ondas (ok) |
+| TR10FZDA | Freezer de Embutir Tecno Professional 100 Litros 2 Gavetas Inox 304 220V | Tecno | `tecno-freezer-professional-100-TR10FZDA.html` | `tecno-freezer-professional-100-TR10FZDA-seo.txt` (URL mantida) | entregue (falta lista de campos de freezer) | 20/10/2026 | All Freezer (ok) |
 | FM-EL-90-LC-2TNA (era FM-EL-90-LC-2LCA) | Forno Elétrico de Embutir Elettromec Luce Multifunção 125 Litros 90 cm Inox 220V | Elettromec | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA.html` | `elettromec-forno-eletrico-luce-90-FM-EL-90-LC-2TNA-seo.txt` (URL mantida) | entregue (A: trocar código; reativar) | 19/10/2026 | Forno Elétrico (ok) |
 
 ## Pendências gerais
@@ -363,7 +364,7 @@ Fonte: `planilha/produtos-2026-10-08.csv` (exportação da Loja Integrada, sem a
 |   | TD14WP | - | Lava-Louças de Embutir Tecno Original 14 Serviços Sem Revestimento Inox 60cm 220V | Lava Louças > Lava-louças | S | antigo |  |
 |   | TIM50EXDA | - | Máquina de Gelo Tecno Professional TIM50EXDA | Máquinas de Gelo | S | antigo |  |
 |   | TIM50ERDA | - | Máquina de Gelo para Revestir Tecno Professional TIM50ERDA | Máquinas de Gelo | N | antigo | B: reativar |
-|   | TR10FZDA | - | Freezer Tecno 100L Professional TR10FZDA | Refrigeradores e Freezers > All Freezer | S | antigo |  |
+|   | TR10FZDA | - | Freezer Tecno 100L Professional TR10FZDA | Refrigeradores e Freezers > All Freezer | S | feito 20/10 (tecno-freezer-professional-100-TR10FZDA) |  |
 |   | TR14BVDB | - | Frigobar Tecno Professional Gourmet 136 Litros de Embutir Inox 220V - Abertura p/ Esquerda | Refrigeradores e Freezers > Frigobares | S | antigo |  |
 |   | TR08HC | - | Umidor de Charutos Tecno Professional 38cm 220V | Umidores de Charuto > Umidor de Charutos | S | antigo | A: trocar código/ficha → TR06HC |
 
