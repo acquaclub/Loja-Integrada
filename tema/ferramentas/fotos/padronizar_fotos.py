@@ -3,6 +3,8 @@
 Padroniza as fotos de produto da Unikitchen.
 
 Entrada:  <entrada>/<perfil>/<SKU>/<n>.<jpg|png|webp>   (é o que o baixar_fotos.py grava)
+          Também aceita <SKU>-01.jpg, <SKU>-02.jpg... (ordem pelo número no fim do nome).
+          No PC: com as fotos em Sites/L.I/<SKU>/, usar <entrada> = Sites (perfil = "L.I").
           selecao.json (nesta pasta) diz quais fotos usar e em que ordem: {"SKU": ["2", "3", "1:medidas"]}
           tipo depois de ":" (opcional): produto | detalhe | medidas. Sem tipo, a ferramenta detecta.
           SKU fora da seleção: usa todas as fotos na ordem do cadastro.
@@ -28,6 +30,13 @@ from pathlib import Path
 import numpy as np
 from PIL import Image, ImageOps
 from scipy import ndimage
+import re
+
+
+def ordem_foto(nome):
+    """Ordena "1", "2"... e também "SKU-01", "SKU-02" (número no fim do nome)."""
+    m = re.search(r"(\d+)$", nome)
+    return (int(m.group(1)) if m else 999, nome)
 
 AQUI = Path(__file__).resolve().parent
 TAMANHO = 2000
@@ -294,7 +303,7 @@ def main():
                     if n in disponiveis:
                         escolha.append((disponiveis[n], tipo or None))
             else:
-                escolha = [(disponiveis[k], None) for k in sorted(disponiveis, key=lambda k: int(k) if k.isdigit() else 999)]
+                escolha = [(disponiveis[k], None) for k in sorted(disponiveis, key=ordem_foto)]
             if not escolha:
                 continue
             destino.mkdir(parents=True, exist_ok=True)

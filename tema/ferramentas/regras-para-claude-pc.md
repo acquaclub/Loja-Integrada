@@ -1,3 +1,5 @@
+> **Substituído por `INSTRUCOES-CLAUDE-PC.md` (21/10/2026).** Use aquele arquivo.
+
 # Regras da Unikitchen para o Claude do PC (acrescentar ao CLAUDE.md da pasta "1. Workflow\API")
 
 Versão de 21/10/2026, definida junto com o Claude da nuvem (repositório GitHub acquaclub/Loja-Integrada, branch claude/modest-gauss-4q5q91). Quando houver diferença entre estas regras e as anteriores deste arquivo, valem estas.
