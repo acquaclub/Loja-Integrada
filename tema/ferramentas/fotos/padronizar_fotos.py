@@ -32,6 +32,7 @@ from scipy import ndimage
 AQUI = Path(__file__).resolve().parent
 TAMANHO = 2000
 QUALIDADE = 90
+SEM_TIRAR_SOMBRA = {"banheiras"}   # produto branco de borda suave: a borda seria lida como sombra
 MARGEM = 0.05         # margem de segurança em cada lado (o produto encosta nela)
 LIMITE_FOTO = 3.0      # ampliação máxima aceita (equivale a 1,5x numa saída de 1000 px)
 LIMITE_DESENHO = 5.0   # desenho técnico aguenta mais ampliação
@@ -157,7 +158,7 @@ def encaixar(recorte):
     return compor(recorte, escala, (TAMANHO - w * escala) / 2, (TAMANHO - h * escala) / 2), escala
 
 
-def processar_produto(rgba, perfil=None):
+def processar_produto(rgba, perfil=None, manter_sombra=False):
     masc, metodo = mascara_produto(rgba)
     if USAR_IA and metodo == "fundo-branco" and borda_branca(rgba) < 0.97:
         try:
@@ -165,7 +166,7 @@ def processar_produto(rgba, perfil=None):
         except Exception as e:  # sem rembg: segue com o recorte simples
             metodo = f"fundo-branco (IA indisponível: {e.__class__.__name__})"
     masc = limpar(masc)
-    if metodo == "fundo-branco":
+    if metodo == "fundo-branco" and not manter_sombra:
         masc, tirou = tirar_sombra_reflexo(rgba, masc)
         if tirou:
             metodo += ", sem sombra/reflexo"
@@ -305,7 +306,8 @@ def main():
                     rgba = aplicar_recorte(rgba, regra)
                 tipo = tipo or ("produto" if ordem == 0 else detectar_tipo(f.stem, rgba))  # a 1ª é sempre o produto
                 if tipo == "produto":
-                    tela, metodo, escala = processar_produto(rgba, perfil)
+                    manter = bool((regra or {}).get("manter_sombra")) or categoria in SEM_TIRAR_SOMBRA
+                    tela, metodo, escala = processar_produto(rgba, perfil, manter)
                 elif tipo in ("detalhe", "ambiente"):
                     tela, metodo, escala = processar_detalhe(rgba)
                 else:
