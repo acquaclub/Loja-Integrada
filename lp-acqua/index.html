@@ -71,11 +71,12 @@ a { color: inherit; }
 .aq-foto--vazia::after { content: attr(data-rotulo); position: absolute; left: 16px; bottom: 14px; right: 16px; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: rgba(17,17,17,.55); }
 
 /* ---------- Cabeçalho ---------- */
-.aq-topo { position: fixed; inset: 0 0 auto 0; z-index: 50; transition: background .3s, box-shadow .3s; }
+.aq-topo { position: fixed; inset: 0 0 auto 0; z-index: 50; background: rgba(255,255,255,.9); backdrop-filter: blur(8px); transition: background .3s, box-shadow .3s; }
 .aq-topo__barra { display: flex; align-items: center; justify-content: space-between; height: 84px; }
 .aq-logo { font-family: var(--aq-serif); font-size: 28px; letter-spacing: .12em; text-decoration: none; color: var(--aq-preto); line-height: 1; }
 .aq-logo small { display: block; font-family: var(--aq-sans); font-size: 9px; letter-spacing: .5em; text-transform: uppercase; color: var(--aq-ouro-escuro); margin-top: 6px; }
-.aq-logo img { height: 40px; width: auto; }
+.aq-logo img { height: 64px; width: auto; }
+.aq-logo--claro img { filter: brightness(0) invert(1); }
 .aq-menu { display: flex; gap: 34px; align-items: center; }
 .aq-menu a { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; text-decoration: none; color: var(--aq-grafite); }
 .aq-menu a:hover { color: var(--aq-ouro-escuro); }
@@ -153,8 +154,13 @@ a { color: inherit; }
 .aq-painel svg { width: 36px; height: 36px; color: var(--aq-ouro); stroke-width: 1.2; }
 .aq-painel h3 { font-family: var(--aq-serif); font-weight: 400; font-size: 26px; color: var(--aq-preto); margin: 22px 0 8px; line-height: 1.2; }
 .aq-painel p { margin: 0; font-size: 15px; color: var(--aq-cinza); }
-.aq-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; margin-top: 18px; }
-.aq-logos img { height: 22px; width: auto; filter: grayscale(1); opacity: .8; }
+.aq-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-top: 18px; }
+/* Os arquivos de logo têm margens diferentes: cada caixa recorta só a palavra */
+.aq-logos span { display: flex; align-items: center; justify-content: center; height: 30px; overflow: hidden; }
+.aq-logos img { width: auto; max-width: none; filter: grayscale(1); opacity: .85; }
+.aq-logos__deca { width: 70px; } .aq-logos__deca img { height: 80px; }
+.aq-logos__portinari { width: 112px; } .aq-logos__portinari img { height: 94px; }
+.aq-logos__ceusa img { height: 20px; }
 .aq-logos b { font-family: var(--aq-serif); font-weight: 500; font-size: 20px; letter-spacing: .14em; text-transform: uppercase; color: var(--aq-preto); }
 
 /* ---------- 7. CTA do showroom ---------- */
@@ -231,6 +237,7 @@ a { color: inherit; }
   .aq-menu a:not(.aq-btn) { display: none; }
   .aq-topo__barra { height: 68px; }
   .aq-logo { font-size: 22px; }
+  .aq-logo img { height: 40px; }
   .aq-hero__texto { padding-top: 116px; }
   .aq-hero__sub { font-size: 17px; }
   .aq-hero__marcas { gap: 16px; margin-top: 40px; font-size: 10px; letter-spacing: .22em; }
@@ -287,8 +294,7 @@ a { color: inherit; }
 <header class="aq-topo" id="aq-topo">
   <div class="aq-container aq-topo__barra">
     <a class="aq-logo" href="#inicio" aria-label="Acqua Exclusive — início">
-      <!-- Troque pelo logo: <img src="URL-DO-LOGO" alt="Acqua Exclusive"> -->
-      ACQUA<small>Exclusive</small>
+      <img src="https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/logo-acqua-preta.png" alt="Acqua Deca Portinari" width="1080" height="575">
     </a>
     <nav class="aq-menu" aria-label="Seções">
       <a href="#portfolio">Portfólio</a>
@@ -313,7 +319,7 @@ a { color: inherit; }
       <a class="aq-btn aq-btn--vazado" href="#portfolio" data-aq-cta="hero_portfolio">Explore o portfólio</a>
     </div>
   </div>
-  <div class="aq-foto" data-aq-foto="hero" data-rotulo="Foto do showroom ou de peça premium (vertical, mín. 1400 px)"></div>
+  <div class="aq-foto" data-aq-foto="hero" data-rotulo="Foto do showroom ou de peça premium"></div>
 </section>
 
 <!-- 2. MARCAS E PORTFÓLIO -->
@@ -412,8 +418,7 @@ a { color: inherit; }
       <div class="aq-painel">
         <svg><use href="#aq-i-selo"/></svg>
         <h3>Marcas consagradas</h3>
-        <!-- Troque cada <b> pelo logo: <img src="URL" alt="Deca"> -->
-        <div class="aq-logos"><b>Deca</b><b>Portinari</b><b>Ceusa</b></div>
+        <div class="aq-logos"><span class="aq-logos__deca"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/deca-256-150x150.png" alt="Deca" loading="lazy"></span><span class="aq-logos__portinari"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/ChatGPT-Image-26-de-fev.-de-2026-10_50_24-300x200.png" alt="Portinari" loading="lazy"></span><span class="aq-logos__ceusa"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/585a93f0-1c25-4ec0-a65d-2ae546e0c819-Photoroom.png" alt="Ceusa" loading="lazy"></span></div>
       </div>
       <div class="aq-painel">
         <svg><use href="#aq-i-conversa"/></svg>
@@ -452,7 +457,7 @@ a { color: inherit; }
       <h2 class="aq-titulo">Visite nosso showroom</h2>
       <ul class="aq-show__lista">
         <li><svg><use href="#aq-i-pino"/></svg><div><strong>Endereço</strong><a href="https://www.google.com/maps/search/?api=1&query=Rod.+Jo%C3%A3o+Leme+dos+Santos,+147,+Sorocaba,+SP" target="_blank" rel="noopener" data-aq-cta="mapa">Rod. João Leme dos Santos, 147 — Parque Reserva Fazenda Imperial, Sorocaba/SP</a></div></li>
-        <li><svg><use href="#aq-i-relogio"/></svg><div><strong>Horário</strong>Segunda a quinta, 9h às 18h · Sexta, 9h às 17h</div></li>
+        <li><svg><use href="#aq-i-relogio"/></svg><div><strong>Horário</strong>Segunda a sexta, 9h às 18h</div></li>
         <li><svg><use href="#aq-i-zap"/></svg><div><strong>WhatsApp</strong><a href="#" data-aq-whats="especialista" data-aq-whats-texto data-aq-cta="showroom_whats"></a></div></li>
       </ul>
       <div class="aq-botoes">
@@ -470,7 +475,7 @@ a { color: inherit; }
 <footer class="aq-rodape">
   <div class="aq-container">
     <div class="aq-rodape__linha">
-      <span class="aq-logo">ACQUA<small>Exclusive</small></span>
+      <span class="aq-logo aq-logo--claro"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/logo-acqua-preta.png" alt="Acqua Deca Portinari" width="1080" height="575" loading="lazy"></span>
       <div class="aq-rodape__contatos">
         <a href="tel:+551532024531" data-aq-cta="rodape_telefone"><svg><use href="#aq-i-tel"/></svg>(15) 3202-4531</a>
         <a href="#" data-aq-whats="especialista" data-aq-cta="rodape_whats"><svg><use href="#aq-i-zap"/></svg><span data-aq-whats-texto></span></a>
@@ -501,32 +506,31 @@ a { color: inherit; }
    com a descrição da foto que deve entrar ali.
    ============================================================ */
 var AQ = {
-  // PENDENTE: confirmar o WhatsApp da Acqua (só números, com 55 + DDD)
-  whatsapp: '5515000000000',
-  whatsappTexto: '(15) 0000-0000',
+  whatsapp: '5515997145343',
+  whatsappTexto: '(15) 99714-5343',
   mensagens: {
     visita: 'Olá! Vi a página da Acqua Exclusive e gostaria de agendar uma visita ao showroom.',
     especialista: 'Olá! Vi a página da Acqua Exclusive e gostaria de falar com um especialista.'
   },
-  // PENDENTE: link do PDF do catálogo Exclusive
+  // PENDENTE: link do PDF do catálogo Exclusive (sem link, o botão pede o catálogo pelo WhatsApp)
   catalogo: '',
 
   fotos: {
-    hero: '',
-    showroom: ''
+    hero: 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/loucas-e-metais-deca-lp-3.jpg',
+    showroom: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/ChatGPT-Image-26-de-fev.-de-2026-14_18_19.png'
   },
 
   // Seção 2: galeria de ambientes. Cada ambiente abre um carrossel com as fotos dele.
   ambientes: [
-    { titulo: 'Banho', legenda: 'Louças e metais Deca', fotos: ['', '', ''] },
-    { titulo: 'Cozinha', legenda: 'Metais Deca · Revestimentos Portinari', fotos: ['', '', ''] },
-    { titulo: 'Gourmet', legenda: 'Revestimentos Portinari', fotos: ['', ''] },
-    { titulo: 'Lavabo', legenda: 'Louças e metais Deca', fotos: ['', ''] },
-    { titulo: 'Living', legenda: 'Revestimentos Ceusa', fotos: ['', ''] },
-    { titulo: 'Área externa', legenda: 'Revestimentos Portinari e Ceusa', fotos: ['', ''] }
+    { titulo: 'Banho', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3866-HDR-scaled.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM100042_GGG.webp', 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/loucas-e-metais-deca-lp-3.jpg'] },
+    { titulo: 'Gourmet', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3824-HDR-scaled.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3812-HDR-scaled.jpg'] },
+    { titulo: 'Cozinha', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3788-HDR-scaled.jpg'] },
+    { titulo: 'Lavabo', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3686-HDR-scaled.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3695-HDR-scaled.jpg'] },
+    { titulo: 'Revestimentos', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/gallery_06.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/thumb_CANOVACALACATAWH.jpg'] },
+    { titulo: 'Detalhes', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102412_GGG.webp', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102406_GGG.webp'] }
   ],
 
-  // Seção 4: depoimentos (PENDENTE: textos, nomes e autorização dos arquitetos)
+  // Seção 4: depoimentos (PENDENTE: fotos dos projetos, textos, nomes e autorização dos arquitetos)
   depoimentos: [
     { foto: '', rosto: '', texto: 'A Acqua ampliou minha gama de possibilidades e transformou minha especificação em realidade.', nome: 'Nome do arquiteto', cargo: 'Arquiteto' },
     { foto: '', rosto: '', texto: 'Citação curta do segundo arquiteto sobre o projeto.', nome: 'Nome do arquiteto', cargo: 'Arquiteta' },
@@ -535,16 +539,17 @@ var AQ = {
   ],
 
   // Seção 5: produtos. categoria = banheiro | cozinha | gourmet | revestimentos. Sem códigos.
+  // PENDENTE: confirmar nomes e marcas (provisórios, deduzidos das fotos).
   produtos: [
-    { categoria: 'banheiro', nome: 'Misturador monocomando', marca: 'Deca', src: '' },
-    { categoria: 'banheiro', nome: 'Cuba de apoio', marca: 'Deca', src: '' },
-    { categoria: 'banheiro', nome: 'Chuveiro de teto', marca: 'Deca', src: '' },
-    { categoria: 'cozinha', nome: 'Monocomando gourmet', marca: 'Deca', src: '' },
-    { categoria: 'cozinha', nome: 'Porcelanato para bancada', marca: 'Portinari', src: '' },
-    { categoria: 'gourmet', nome: 'Torneira com ducha extensível', marca: 'Deca', src: '' },
-    { categoria: 'gourmet', nome: 'Revestimento de parede', marca: 'Ceusa', src: '' },
-    { categoria: 'revestimentos', nome: 'Porcelanato grande formato', marca: 'Portinari', src: '' },
-    { categoria: 'revestimentos', nome: 'Revestimento texturizado', marca: 'Ceusa', src: '' }
+    { categoria: 'banheiro', nome: 'Lavatório com metais pretos', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102412_GGG.webp' },
+    { categoria: 'banheiro', nome: 'Bacia suspensa preta', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102406_GGG.webp' },
+    { categoria: 'banheiro', nome: 'Box com chuveiro de teto', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM100042_GGG.webp' },
+    { categoria: 'banheiro', nome: 'Banheira de apoio', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/loucas-e-metais-deca-lp-3.jpg' },
+    { categoria: 'cozinha', nome: 'Cuba e misturador gourmet', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3788-HDR-683x1024.jpg' },
+    { categoria: 'gourmet', nome: 'Bancada com adega', marca: 'Projeto', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3812-HDR-683x1024.jpg' },
+    { categoria: 'revestimentos', nome: 'Porcelanato Canova Calacata', marca: 'Portinari', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/thumb_CANOVACALACATAWH.jpg' },
+    { categoria: 'revestimentos', nome: 'Revestimento tridimensional', marca: 'Ceusa', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/gallery_06.jpg' },
+    { categoria: 'revestimentos', nome: 'Revestimento amadeirado', marca: 'Portinari', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3866-HDR-683x1024.jpg' }
   ]
 };
 
@@ -573,6 +578,8 @@ var AQ = {
       if (rotulo) el.setAttribute('data-rotulo', rotulo);
     }
   }
+  // Na grade usa a versão média da foto; a grande fica para a janela ampliada
+  function miniatura(src) { return (src || '').replace('-HDR-scaled.jpg', '-HDR-683x1024.jpg'); }
   function novaFoto(src, rotulo, i, alt) { var d = document.createElement('div'); d.className = 'aq-foto'; pintar(d, src, rotulo, i, alt); return d; }
 
   // WhatsApp e catálogo
@@ -641,7 +648,7 @@ var AQ = {
     b.type = 'button'; b.className = 'aq-amb aq-amb--' + (i + 1);
     b.setAttribute('aria-label', 'Ver fotos: ' + amb.titulo);
     b.setAttribute('data-aq-cta', 'ambiente_' + amb.titulo.toLowerCase());
-    b.appendChild(novaFoto(amb.fotos[0], 'Ambiente: ' + amb.titulo.toLowerCase(), i, amb.titulo));
+    b.appendChild(novaFoto(miniatura(amb.fotos[0]), 'Ambiente: ' + amb.titulo.toLowerCase(), i, amb.titulo));
     b.insertAdjacentHTML('beforeend', '<span class="aq-amb__legenda"><span></span><strong></strong></span>');
     b.querySelector('.aq-amb__legenda span').textContent = amb.legenda;
     b.querySelector('.aq-amb__legenda strong').textContent = amb.titulo;
