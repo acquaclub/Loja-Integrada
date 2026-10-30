@@ -3,27 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Acqua Exclusive | Deca, Portinari e Ceusa em Sorocaba</title>
-<meta name="description" content="Showroom exclusivo de louças e metais Deca, revestimentos Portinari e Ceusa em Sorocaba. Curadoria para arquitetos, engenheiros e projetos de alto padrão.">
+<title>Acqua Exclusive</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
-   LP Acqua Exclusive
-   Paleta: branco, preto, cinza escuro e ouro suave.
-   Todas as classes começam com "aq-" para não conflitar com o tema.
+   LP Acqua Exclusive — somente o conteúdo do documento
+   "ALTERAÇÕES LP ACQUA".
+   Cores: branco, preto, cinza escuro; destaque em ouro suave.
+   Tipografia: títulos serifados grandes, corpo leve.
+   Classes com prefixo "aq-" para não conflitar com o tema.
    ============================================================ */
 :root {
   --aq-branco: #ffffff;
-  --aq-fundo: #f7f5f1;      /* off-white quente, para alternar seções */
+  --aq-fundo: #f5f4f2;
   --aq-preto: #111111;
   --aq-grafite: #2b2b2b;
   --aq-cinza: #6b6b6b;
-  --aq-linha: #e4dfd6;
-  --aq-ouro: #b39566;       /* destaque: ouro suave */
+  --aq-linha: #e4e1dc;
+  --aq-ouro: #b39566;
   --aq-ouro-escuro: #8c7148;
-  --aq-terra: #8a6f55;
   --aq-serif: "Cormorant Garamond", Georgia, serif;
   --aq-sans: "Jost", "Helvetica Neue", Arial, sans-serif;
   --aq-largura: 1240px;
@@ -37,22 +37,16 @@ a { color: inherit; }
 .aq-secao { padding: 120px 0; }
 .aq-secao--fundo { background: var(--aq-fundo); }
 .aq-secao--escura { background: var(--aq-preto); color: #e9e6e0; }
-
-/* Tipografia */
-.aq-sobretitulo { font-size: 12px; letter-spacing: .28em; text-transform: uppercase; color: var(--aq-ouro-escuro); font-weight: 500; margin: 0 0 18px; }
-.aq-secao--escura .aq-sobretitulo { color: var(--aq-ouro); }
-.aq-titulo { font-family: var(--aq-serif); font-weight: 400; font-size: clamp(34px, 4.4vw, 58px); line-height: 1.1; color: var(--aq-preto); margin: 0 0 24px; letter-spacing: -.01em; }
+.aq-titulo { font-family: var(--aq-serif); font-weight: 400; font-size: clamp(34px, 4.4vw, 58px); line-height: 1.1; color: var(--aq-preto); margin: 0 0 24px; text-wrap: balance; }
 .aq-secao--escura .aq-titulo { color: #fff; }
-.aq-texto { max-width: 620px; color: var(--aq-cinza); margin: 0 0 16px; }
+.aq-texto { max-width: 680px; color: var(--aq-cinza); margin: 0 0 16px; }
 .aq-centro { text-align: center; }
 .aq-centro .aq-texto { margin-left: auto; margin-right: auto; }
-.aq-traco { width: 48px; height: 1px; background: var(--aq-ouro); border: 0; margin: 0 0 28px; }
-.aq-centro .aq-traco { margin-left: auto; margin-right: auto; }
 
 /* Botões */
 .aq-botoes { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 36px; }
 .aq-centro .aq-botoes { justify-content: center; }
-.aq-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 54px; padding: 0 34px; font-family: var(--aq-sans); font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; text-decoration: none; border: 1px solid var(--aq-preto); cursor: pointer; transition: background .25s, color .25s, border-color .25s; }
+.aq-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 34px; font-family: var(--aq-sans); font-size: 13px; font-weight: 500; letter-spacing: .18em; text-transform: uppercase; text-decoration: none; border: 1px solid var(--aq-preto); cursor: pointer; transition: background .25s, color .25s, border-color .25s; }
 .aq-btn--cheio { background: var(--aq-preto); color: #fff; }
 .aq-btn--cheio:hover { background: var(--aq-ouro-escuro); border-color: var(--aq-ouro-escuro); }
 .aq-btn--vazado { background: transparent; color: var(--aq-preto); }
@@ -61,49 +55,30 @@ a { color: inherit; }
 .aq-btn--ouro:hover { background: #fff; border-color: #fff; }
 .aq-btn--claro { border-color: rgba(255,255,255,.6); color: #fff; background: transparent; }
 .aq-btn--claro:hover { background: #fff; color: #111; }
-.aq-btn--grande { min-height: 66px; padding: 0 44px; font-size: 14px; }
-.aq-btn svg { width: 18px; height: 18px; flex: none; }
+.aq-btn--grande { min-height: 68px; padding: 0 48px; font-size: 14px; }
 
-/* Foto ou espaço reservado (enquanto a foto real não chega) */
-.aq-foto { position: relative; overflow: hidden; background: #d9d1c4; }
+/* Foto ou espaço reservado (enquanto a foto não chega) */
+.aq-foto { position: relative; overflow: hidden; background: #d9d3c9; }
 .aq-foto img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s cubic-bezier(.2,.7,.2,1); }
-.aq-foto--vazia { background: linear-gradient(135deg, var(--aq-tom1, #e2d9cb), var(--aq-tom2, #b9a88f)); }
-.aq-foto--vazia::after { content: attr(data-rotulo); position: absolute; left: 16px; bottom: 14px; right: 16px; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: rgba(17,17,17,.55); }
+.aq-foto--vazia { background: linear-gradient(135deg, #e6e0d6, #b9ad9b); }
+.aq-foto--vazia::after { content: attr(data-rotulo); position: absolute; left: 14px; top: 12px; right: 14px; font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: rgba(17,17,17,.55); }
 
-/* ---------- Cabeçalho ---------- */
-.aq-topo { position: fixed; inset: 0 0 auto 0; z-index: 50; background: rgba(255,255,255,.9); backdrop-filter: blur(8px); transition: background .3s, box-shadow .3s; }
-.aq-topo__barra { display: flex; align-items: center; justify-content: space-between; height: 84px; }
-.aq-logo { font-family: var(--aq-serif); font-size: 28px; letter-spacing: .12em; text-decoration: none; color: var(--aq-preto); line-height: 1; }
-.aq-logo small { display: block; font-family: var(--aq-sans); font-size: 9px; letter-spacing: .5em; text-transform: uppercase; color: var(--aq-ouro-escuro); margin-top: 6px; }
-.aq-logo img { height: 64px; width: auto; }
-.aq-logo--claro img { filter: brightness(0) invert(1); }
-.aq-menu { display: flex; gap: 34px; align-items: center; }
-.aq-menu a { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; text-decoration: none; color: var(--aq-grafite); }
-.aq-menu a:hover { color: var(--aq-ouro-escuro); }
-.aq-menu .aq-btn { min-height: 42px; padding: 0 22px; font-size: 11px; color: #fff; }
-.aq-topo.is-rolado { background: rgba(255,255,255,.96); box-shadow: 0 1px 0 var(--aq-linha); backdrop-filter: blur(8px); }
-
-/* ---------- 1. Hero ---------- */
-.aq-hero { position: relative; min-height: 100vh; display: grid; grid-template-columns: 1fr 1.15fr; align-items: stretch; background: var(--aq-fundo); }
-.aq-hero__texto { display: flex; flex-direction: column; justify-content: center; padding: 140px 64px 80px max(24px, calc((100vw - var(--aq-largura)) / 2 + 24px)); }
-.aq-hero__titulo { font-family: var(--aq-serif); font-weight: 400; font-size: clamp(42px, 4.6vw, 72px); line-height: 1.04; color: var(--aq-preto); margin: 0 0 28px; letter-spacing: -.015em; }
+/* ---------- TOPO (Hero Visual) ---------- */
+.aq-hero { display: grid; grid-template-columns: 1fr 1.15fr; min-height: 92vh; background: var(--aq-fundo); }
+.aq-hero__texto { display: flex; flex-direction: column; justify-content: center; padding: 96px 64px 96px max(24px, calc((100vw - var(--aq-largura)) / 2 + 24px)); }
+.aq-hero__titulo { font-family: var(--aq-serif); font-weight: 400; font-size: clamp(42px, 4.6vw, 72px); line-height: 1.05; color: var(--aq-preto); margin: 0 0 28px; }
 .aq-hero__titulo em { font-style: italic; color: var(--aq-ouro-escuro); }
 .aq-hero__sub { font-size: 19px; color: var(--aq-cinza); max-width: 460px; margin: 0; }
-.aq-hero .aq-foto { min-height: 100vh; }
-.aq-hero__marcas { display: flex; gap: 28px; margin-top: 64px; font-size: 11px; letter-spacing: .3em; text-transform: uppercase; color: var(--aq-cinza); }
 
-/* ---------- 2. Portfólio (galeria de ambientes) ---------- */
-.aq-portfolio__topo { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: end; margin-bottom: 64px; }
+/* ---------- Marcas e Portfólio (grid de ambientes) ---------- */
+.aq-portfolio__texto { margin-bottom: 64px; }
 .aq-grade { display: grid; grid-template-columns: repeat(12, 1fr); grid-auto-rows: 120px; gap: 16px; }
-.aq-amb { position: relative; padding: 0; border: 0; cursor: zoom-in; text-align: left; font: inherit; color: #fff; }
+.aq-amb { position: relative; padding: 0; border: 0; cursor: zoom-in; font: inherit; color: #fff; text-align: left; }
 .aq-amb .aq-foto { position: absolute; inset: 0; }
-.aq-amb::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,.55), rgba(0,0,0,0) 55%); transition: opacity .4s; }
-.aq-amb__legenda { position: absolute; z-index: 2; left: 28px; bottom: 24px; right: 28px; }
-.aq-amb__legenda strong { display: block; font-family: var(--aq-serif); font-weight: 400; font-size: 30px; line-height: 1.1; }
-.aq-amb__legenda span { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; opacity: .85; }
+.aq-amb::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0) 45%); }
+.aq-amb strong { position: absolute; z-index: 2; left: 24px; bottom: 18px; font-family: var(--aq-serif); font-weight: 400; font-size: 28px; }
 .aq-amb:hover img { transform: scale(1.05); }
-.aq-amb .aq-foto--vazia::after { top: 16px; bottom: auto; }
-.aq-amb:focus-visible { outline: 2px solid var(--aq-ouro); outline-offset: 4px; }
+.aq-amb:focus-visible, .aq-prod:focus-visible { outline: 2px solid var(--aq-ouro); outline-offset: 4px; }
 .aq-amb--1 { grid-column: span 7; grid-row: span 5; }
 .aq-amb--2 { grid-column: span 5; grid-row: span 3; }
 .aq-amb--3 { grid-column: span 5; grid-row: span 2; }
@@ -111,160 +86,115 @@ a { color: inherit; }
 .aq-amb--5 { grid-column: span 4; grid-row: span 3; }
 .aq-amb--6 { grid-column: span 4; grid-row: span 3; }
 
-/* ---------- 3. Por que somos Exclusive ---------- */
-.aq-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(255,255,255,.12); margin-top: 72px; }
-.aq-card { background: var(--aq-preto); padding: 56px 44px; }
-.aq-card__num { font-family: var(--aq-serif); font-size: 18px; color: var(--aq-ouro); letter-spacing: .1em; }
-.aq-card h3 { font-family: var(--aq-serif); font-weight: 400; font-size: 32px; line-height: 1.15; color: #fff; margin: 22px 0 18px; }
+/* ---------- Acqua Exclusive (cards) ---------- */
+.aq-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(255,255,255,.14); margin-top: 56px; text-align: left; }
+.aq-card { background: var(--aq-preto); padding: 52px 44px; }
+.aq-card h3 { font-family: var(--aq-serif); font-weight: 400; font-size: 32px; line-height: 1.15; color: #fff; margin: 0 0 18px; }
 .aq-card p { margin: 0; color: #b8b3aa; }
 
-/* ---------- 4. Depoimentos ---------- */
-.aq-depo { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
-.aq-depo__fotos { position: relative; aspect-ratio: 4 / 5; }
-.aq-depo__fotos .aq-foto { position: absolute; inset: 0; opacity: 0; transition: opacity .8s; }
-.aq-depo__fotos .aq-foto.is-ativo { opacity: 1; }
-.aq-depo__aspas { font-family: var(--aq-serif); font-size: 120px; line-height: .6; color: var(--aq-ouro); height: 48px; }
-.aq-depo__citacao { font-family: var(--aq-serif); font-size: clamp(26px, 2.6vw, 38px); line-height: 1.3; color: var(--aq-preto); margin: 0 0 36px; min-height: 4em; }
-.aq-depo__autor { display: flex; align-items: center; gap: 16px; }
-.aq-depo__autor .aq-foto { width: 64px; height: 64px; border-radius: 50%; flex: none; }
-.aq-depo__autor .aq-foto--vazia::after { display: none; }
-.aq-depo__autor strong { display: block; font-weight: 500; color: var(--aq-preto); }
-.aq-depo__autor span { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--aq-cinza); }
-.aq-depo__nav { display: flex; align-items: center; gap: 18px; margin-top: 48px; }
-.aq-seta { width: 52px; height: 52px; border: 1px solid var(--aq-linha); background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--aq-preto); transition: border-color .2s; }
+/* ---------- Depoimentos Visuais (carrossel) ---------- */
+.aq-depo { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 48px) / 3); gap: 24px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding-bottom: 4px; }
+.aq-depo::-webkit-scrollbar { display: none; }
+.aq-depo__item { scroll-snap-align: start; margin: 0; }
+.aq-depo__item .aq-foto { aspect-ratio: 4 / 3; margin-bottom: 22px; }
+.aq-depo__item blockquote { font-family: var(--aq-serif); font-size: 24px; line-height: 1.35; color: var(--aq-preto); margin: 0 0 14px; }
+.aq-depo__item figcaption { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--aq-cinza); }
+.aq-depo__nav { display: flex; justify-content: center; gap: 14px; margin-top: 40px; }
+.aq-seta { width: 52px; height: 52px; border: 1px solid var(--aq-linha); background: transparent; cursor: pointer; display: grid; place-items: center; color: var(--aq-preto); }
 .aq-seta:hover { border-color: var(--aq-preto); }
 .aq-seta svg { width: 18px; height: 18px; }
-.aq-depo__contador { font-size: 13px; letter-spacing: .2em; color: var(--aq-cinza); }
 
-/* ---------- 5. Galeria de produtos com filtros ---------- */
-.aq-filtros { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 36px; margin: 48px 0 56px; border-bottom: 1px solid var(--aq-linha); }
+/* ---------- Galeria de Produtos ---------- */
+.aq-filtros { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 36px; margin: 40px 0 56px; border-bottom: 1px solid var(--aq-linha); }
 .aq-filtro { background: none; border: 0; border-bottom: 1px solid transparent; margin-bottom: -1px; padding: 0 0 16px; font: inherit; font-size: 13px; letter-spacing: .22em; text-transform: uppercase; color: var(--aq-cinza); cursor: pointer; }
 .aq-filtro.is-ativo, .aq-filtro:hover { color: var(--aq-preto); border-bottom-color: var(--aq-ouro); }
 .aq-produtos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 48px 28px; }
 .aq-prod { padding: 0; border: 0; background: none; text-align: left; cursor: zoom-in; font: inherit; color: inherit; }
-.aq-prod .aq-foto { aspect-ratio: 4 / 5; margin-bottom: 20px; }
+.aq-prod .aq-foto { aspect-ratio: 4 / 5; margin-bottom: 18px; }
 .aq-prod:hover img { transform: scale(1.04); }
 .aq-prod strong { display: block; font-family: var(--aq-serif); font-weight: 400; font-size: 26px; color: var(--aq-preto); line-height: 1.2; }
-.aq-prod span { font-size: 11px; letter-spacing: .24em; text-transform: uppercase; color: var(--aq-ouro-escuro); }
-.aq-prod[hidden] { display: none; }
 
-/* ---------- 6. Painéis com ícones ---------- */
-.aq-paineis { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--aq-linha); border-left: 1px solid var(--aq-linha); margin-top: 64px; }
+/* ---------- Painéis visuais com ícones ---------- */
+.aq-paineis { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--aq-linha); border-left: 1px solid var(--aq-linha); }
 .aq-painel { padding: 48px 40px; border-right: 1px solid var(--aq-linha); border-bottom: 1px solid var(--aq-linha); background: var(--aq-branco); }
-.aq-painel svg { width: 36px; height: 36px; color: var(--aq-ouro); stroke-width: 1.2; }
-.aq-painel h3 { font-family: var(--aq-serif); font-weight: 400; font-size: 26px; color: var(--aq-preto); margin: 22px 0 8px; line-height: 1.2; }
-.aq-painel p { margin: 0; font-size: 15px; color: var(--aq-cinza); }
-.aq-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-top: 18px; }
+.aq-painel svg { width: 36px; height: 36px; color: var(--aq-ouro); }
+.aq-painel h3 { font-family: var(--aq-serif); font-weight: 400; font-size: 26px; color: var(--aq-preto); margin: 22px 0 0; line-height: 1.2; }
 /* Os arquivos de logo têm margens diferentes: cada caixa recorta só a palavra */
+.aq-logos { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin-top: 18px; }
 .aq-logos span { display: flex; align-items: center; justify-content: center; height: 30px; overflow: hidden; }
 .aq-logos img { width: auto; max-width: none; filter: grayscale(1); opacity: .85; }
 .aq-logos__deca { width: 70px; } .aq-logos__deca img { height: 80px; }
 .aq-logos__portinari { width: 112px; } .aq-logos__portinari img { height: 94px; }
 .aq-logos__ceusa img { height: 20px; }
-.aq-logos b { font-family: var(--aq-serif); font-weight: 500; font-size: 20px; letter-spacing: .14em; text-transform: uppercase; color: var(--aq-preto); }
 
-/* ---------- 7. CTA do showroom ---------- */
-.aq-show { display: grid; grid-template-columns: 1.1fr 1fr; min-height: 620px; }
-.aq-show__texto { padding: 110px 72px; }
-.aq-show__lista { list-style: none; padding: 0; margin: 40px 0 0; }
-.aq-show__lista li { display: grid; grid-template-columns: 28px 1fr; gap: 18px; padding: 22px 0; border-top: 1px solid rgba(255,255,255,.12); }
-.aq-show__lista li:last-child { border-bottom: 1px solid rgba(255,255,255,.12); }
+/* ---------- CTA Estruturado ---------- */
+.aq-show__lista { list-style: none; padding: 0; margin: 40px auto 0; max-width: 560px; text-align: left; }
+.aq-show__lista li { display: grid; grid-template-columns: 28px 1fr; gap: 18px; padding: 22px 0; border-top: 1px solid rgba(255,255,255,.14); }
+.aq-show__lista li:last-child { border-bottom: 1px solid rgba(255,255,255,.14); }
 .aq-show__lista svg { width: 22px; height: 22px; color: var(--aq-ouro); margin-top: 4px; }
 .aq-show__lista strong { display: block; font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: var(--aq-ouro); font-weight: 500; margin-bottom: 4px; }
 .aq-show__lista a { text-decoration: none; }
 .aq-show__lista a:hover { color: var(--aq-ouro); }
-.aq-show .aq-foto { min-height: 100%; }
 
 /* ---------- Rodapé ---------- */
-.aq-rodape { background: #0b0b0b; color: #9a958c; padding: 64px 0 40px; font-size: 14px; }
-.aq-rodape__linha { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 32px; }
-.aq-rodape .aq-logo { color: #fff; }
-.aq-rodape__contatos { display: flex; flex-wrap: wrap; gap: 36px; }
+.aq-rodape { background: #0b0b0b; padding: 48px 0; font-size: 14px; }
+.aq-rodape__contatos { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 44px; }
 .aq-rodape__contatos a { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: #d8d3ca; letter-spacing: .06em; }
 .aq-rodape__contatos a:hover { color: var(--aq-ouro); }
 .aq-rodape__contatos svg { width: 18px; height: 18px; color: var(--aq-ouro); }
-.aq-rodape__fim { margin-top: 48px; padding-top: 24px; border-top: 1px solid #222; font-size: 12px; letter-spacing: .04em; }
-
-/* ---------- WhatsApp flutuante ---------- */
-.aq-zap { position: fixed; right: 24px; bottom: 24px; z-index: 60; width: 58px; height: 58px; border-radius: 50%; background: var(--aq-preto); color: #fff; display: grid; place-items: center; box-shadow: 0 8px 24px rgba(0,0,0,.18); transition: background .25s, transform .25s; }
-.aq-zap:hover { background: var(--aq-ouro-escuro); transform: translateY(-2px); }
-.aq-zap svg { width: 26px; height: 26px; }
 
 /* ---------- Janela ampliada (carrossel de fotos) ---------- */
 .aq-lb { position: fixed; inset: 0; z-index: 100; background: #0d0d0d; display: none; flex-direction: column; color: #fff; }
 .aq-lb.is-aberto { display: flex; }
-.aq-lb__topo { display: flex; justify-content: space-between; align-items: center; padding: 20px 28px; font-size: 12px; letter-spacing: .24em; text-transform: uppercase; }
+.aq-lb__topo { display: flex; justify-content: space-between; align-items: center; padding: 20px 28px; font-size: 12px; letter-spacing: .24em; }
 .aq-lb__fechar { background: none; border: 0; color: #fff; cursor: pointer; width: 44px; height: 44px; display: grid; place-items: center; }
 .aq-lb__fechar svg { width: 22px; height: 22px; }
-.aq-lb__palco { flex: 1; display: flex; align-items: center; justify-content: center; position: relative; padding: 0 96px; min-height: 0; }
-.aq-lb__palco .aq-foto { width: min(1200px, 100%); height: min(76vh, 760px); background-color: #222; }
+.aq-lb__palco { flex: 1; display: flex; align-items: center; justify-content: center; position: relative; padding: 0 96px 40px; min-height: 0; }
+.aq-lb__palco .aq-foto { width: min(1200px, 100%); height: min(80vh, 820px); background: #222; }
 .aq-lb__palco .aq-foto img { object-fit: contain; }
-.aq-lb__palco .aq-foto--vazia::after { color: rgba(255,255,255,.6); }
 .aq-lb .aq-seta { position: absolute; top: 50%; transform: translateY(-50%); border-color: rgba(255,255,255,.25); color: #fff; }
 .aq-lb .aq-seta:hover { border-color: #fff; }
 .aq-lb__ant { left: 24px; } .aq-lb__prox { right: 24px; }
-.aq-lb__rodape { text-align: center; padding: 22px 24px 30px; }
-.aq-lb__rodape strong { font-family: var(--aq-serif); font-weight: 400; font-size: 26px; display: block; }
-.aq-lb__rodape span { font-size: 12px; letter-spacing: .2em; color: #aaa; }
 
-/* Revelar ao rolar (só quando o JavaScript está ativo) */
-.aq-js .aq-revela { opacity: 0; transform: translateY(24px); transition: opacity .9s ease, transform .9s ease; }
-.aq-js .aq-revela.is-visivel { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .aq-js .aq-revela { opacity: 1; transform: none; transition: none; }
   .aq-foto img { transition: none; }
 }
 
 /* ---------- Responsivo ---------- */
 @media (max-width: 1024px) {
   .aq-secao { padding: 96px 0; }
-  .aq-hero { grid-template-columns: 1fr; }
-  .aq-hero__texto { padding: 140px 24px 56px; order: 1; }
-  .aq-hero .aq-foto { min-height: 62vh; order: 2; }
-  .aq-portfolio__topo, .aq-depo { grid-template-columns: 1fr; gap: 32px; }
+  .aq-hero { grid-template-columns: 1fr; min-height: 0; }
+  .aq-hero__texto { padding: 72px 24px 56px; }
+  .aq-hero .aq-foto { min-height: 62vh; }
   .aq-cards { grid-template-columns: 1fr; }
+  .aq-depo { grid-auto-columns: calc((100% - 24px) / 2); }
   .aq-produtos { grid-template-columns: repeat(2, 1fr); }
   .aq-paineis { grid-template-columns: repeat(2, 1fr); }
-  .aq-show { grid-template-columns: 1fr; }
-  .aq-show__texto { padding: 88px 24px; }
-  .aq-show .aq-foto { min-height: 360px; }
-  .aq-depo__fotos { aspect-ratio: 4 / 3; }
 }
 @media (max-width: 760px) {
   body { font-size: 16px; }
   .aq-secao { padding: 80px 0; }
-  .aq-menu a:not(.aq-btn) { display: none; }
-  .aq-topo__barra { height: 68px; }
-  .aq-logo { font-size: 22px; }
-  .aq-logo img { height: 40px; }
-  .aq-hero__texto { padding-top: 116px; }
   .aq-hero__sub { font-size: 17px; }
-  .aq-hero__marcas { gap: 16px; margin-top: 40px; font-size: 10px; letter-spacing: .22em; }
   .aq-botoes { flex-direction: column; }
   .aq-botoes .aq-btn { width: 100%; }
+  .aq-btn--grande { padding: 0 24px; }
   .aq-grade { grid-template-columns: 1fr 1fr; grid-auto-rows: 150px; gap: 10px; }
-  .aq-amb--1 { grid-column: span 2; grid-row: span 2; }
+  .aq-amb--1, .aq-amb--6 { grid-column: span 2; grid-row: span 2; }
   .aq-amb--2, .aq-amb--3, .aq-amb--4, .aq-amb--5 { grid-column: span 1; grid-row: span 2; }
-  .aq-amb--6 { grid-column: span 2; grid-row: span 2; }
-  .aq-amb__legenda { left: 16px; bottom: 14px; right: 16px; }
-  .aq-amb__legenda strong { font-size: 22px; }
-  .aq-amb__legenda span { font-size: 9px; letter-spacing: .18em; }
-  .aq-amb--2 .aq-amb__legenda span, .aq-amb--3 .aq-amb__legenda span, .aq-amb--4 .aq-amb__legenda span, .aq-amb--5 .aq-amb__legenda span { display: none; }
-  .aq-amb .aq-foto--vazia::after { font-size: 9px; letter-spacing: .12em; }
+  .aq-amb strong { left: 16px; bottom: 12px; font-size: 22px; }
   .aq-card { padding: 44px 28px; }
+  .aq-depo { grid-auto-columns: 85%; }
   .aq-filtros { gap: 4px 22px; justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
   .aq-filtro { white-space: nowrap; font-size: 12px; }
   .aq-produtos { grid-template-columns: 1fr 1fr; gap: 32px 14px; }
   .aq-prod strong { font-size: 20px; }
-  .aq-prod span { font-size: 9px; }
   .aq-paineis { grid-template-columns: 1fr; }
   .aq-painel { padding: 36px 28px; }
-  .aq-lb__palco { padding: 0 12px; }
-  .aq-lb .aq-seta { top: auto; bottom: -70px; transform: none; }
-  .aq-lb__ant { left: 24px; } .aq-lb__prox { right: 24px; }
+  .aq-lb__palco { padding: 0 12px 90px; }
+  .aq-lb .aq-seta { top: auto; bottom: 20px; transform: none; }
   .aq-lb__palco .aq-foto { height: 62vh; }
-  .aq-rodape__contatos { flex-direction: column; gap: 18px; }
+  .aq-rodape__contatos { flex-direction: column; align-items: center; }
 }
 </style>
 </head>
@@ -290,115 +220,74 @@ a { color: inherit; }
   </defs>
 </svg>
 
-<!-- Cabeçalho -->
-<header class="aq-topo" id="aq-topo">
-  <div class="aq-container aq-topo__barra">
-    <a class="aq-logo" href="#inicio" aria-label="Acqua Exclusive — início">
-      <img src="https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/logo-acqua-preta.png" alt="Acqua Deca Portinari" width="1080" height="575">
-    </a>
-    <nav class="aq-menu" aria-label="Seções">
-      <a href="#portfolio">Portfólio</a>
-      <a href="#exclusive">Exclusive</a>
-      <a href="#produtos">Produtos</a>
-      <a href="#showroom">Showroom</a>
-      <a class="aq-btn aq-btn--cheio" href="#" data-aq-whats="visita" data-aq-cta="topo_agendar">Agende sua visita</a>
-    </nav>
-  </div>
-</header>
-
 <main>
 
-<!-- 1. HERO -->
+<!-- TOPO (Hero Visual) -->
 <section class="aq-hero" id="inicio">
   <div class="aq-hero__texto">
-    <p class="aq-sobretitulo">Deca · Portinari · Ceusa</p>
     <h1 class="aq-hero__titulo">Design Exclusivo.<br>Portfólio Premium.<br><em>Experiência que se vive.</em></h1>
-    <p class="aq-hero__sub">Conheça as soluções que só quem é Exclusive pode oferecer.</p>
+    <p class="aq-hero__sub">Conheça as soluções que só quem é exclusive pode oferecer.</p>
     <div class="aq-botoes">
-      <a class="aq-btn aq-btn--cheio" href="#" data-aq-whats="visita" data-aq-cta="hero_agendar">Agende uma visita</a>
-      <a class="aq-btn aq-btn--vazado" href="#portfolio" data-aq-cta="hero_portfolio">Explore o portfólio</a>
+      <a class="aq-btn aq-btn--cheio" href="#" data-aq-whats>Agende uma visita</a>
+      <a class="aq-btn aq-btn--vazado" href="#portfolio">Explore o portfólio</a>
     </div>
   </div>
-  <div class="aq-foto" data-aq-foto="hero" data-rotulo="Foto do showroom ou de peça premium"></div>
+  <div class="aq-foto" data-aq-foto="hero" data-rotulo="Imagem do showroom ou de peças premium"></div>
 </section>
 
-<!-- 2. MARCAS E PORTFÓLIO -->
+<!-- Seção de Marcas e Portfólio -->
 <section class="aq-secao" id="portfolio">
   <div class="aq-container">
-    <div class="aq-portfolio__topo aq-revela">
-      <div>
-        <p class="aq-sobretitulo">Marcas e portfólio</p>
-        <h2 class="aq-titulo">Mais do que uma loja, uma curadoria.</h2>
-      </div>
-      <div>
-        <p class="aq-texto">Mais do que uma loja, a Acqua é uma curadoria de marcas, soluções e acabamentos para projetos de alto padrão.</p>
-        <p class="aq-texto">Trabalhamos com um portfólio selecionado, incluindo linhas e SKUs exclusivos, pensados para arquitetos, engenheiros e clientes finais que valorizam design, qualidade e diferenciação.</p>
-      </div>
+    <div class="aq-portfolio__texto">
+      <p class="aq-texto">Mais do que uma loja, a Acqua é uma curadoria de marcas, soluções e acabamentos para projetos de alto padrão.</p>
+      <p class="aq-texto">Trabalhamos com um portfólio selecionado, incluindo linhas e SKUs exclusivos, pensados para arquitetos, engenheiros e clientes finais que valorizam design, qualidade e diferenciação.</p>
     </div>
-    <div class="aq-grade aq-revela" id="aq-grade"></div>
+    <div class="aq-grade" id="aq-grade"></div>
   </div>
 </section>
 
-<!-- 3. POR QUE SOMOS EXCLUSIVE (CTA do meio) -->
-<section class="aq-secao aq-secao--escura" id="exclusive">
+<!-- Seção "Acqua Exclusive" -->
+<section class="aq-secao aq-secao--escura">
   <div class="aq-container aq-centro">
-    <p class="aq-sobretitulo">Acqua Exclusive</p>
     <h2 class="aq-titulo">Por que somos Exclusive</h2>
-    <div class="aq-cards aq-revela" style="text-align:left">
+    <div class="aq-cards">
       <article class="aq-card">
-        <span class="aq-card__num">01</span>
         <h3>Portfólio Diferenciado</h3>
         <p>Seleção de produtos e acabamentos que não estão disponíveis em revendas convencionais, mesmo dentro de grandes marcas.</p>
       </article>
       <article class="aq-card">
-        <span class="aq-card__num">02</span>
         <h3>Curadoria Personalizada</h3>
         <p>Não vendemos por catálogo. Ajudamos você a escolher soluções que façam sentido para o projeto, estética e uso.</p>
       </article>
       <article class="aq-card">
-        <span class="aq-card__num">03</span>
         <h3>Experiência Imersiva</h3>
         <p>Aqui você vê, toca e compara texturas, cores e acabamentos pessoalmente, com orientação especializada.</p>
       </article>
     </div>
     <div class="aq-botoes">
-      <a class="aq-btn aq-btn--ouro" href="#" data-aq-whats="visita" data-aq-cta="meio_agendar">Agende uma visita</a>
-      <a class="aq-btn aq-btn--claro" href="#" data-aq-catalogo data-aq-cta="meio_catalogo">Baixe o catálogo Exclusive</a>
+      <a class="aq-btn aq-btn--ouro" href="#" data-aq-whats>Agende uma visita</a>
+      <a class="aq-btn aq-btn--claro" href="#" data-aq-catalogo>Baixe o catálogo Exclusive</a>
     </div>
   </div>
 </section>
 
-<!-- 4. DEPOIMENTOS VISUAIS -->
-<section class="aq-secao aq-secao--fundo" id="depoimentos">
-  <div class="aq-container aq-depo">
-    <div class="aq-depo__fotos aq-revela" id="aq-depo-fotos"></div>
-    <div class="aq-revela">
-      <p class="aq-sobretitulo">Projetos reais</p>
-      <div class="aq-depo__aspas" aria-hidden="true">“</div>
-      <blockquote class="aq-depo__citacao" id="aq-depo-citacao" aria-live="polite"></blockquote>
-      <div class="aq-depo__autor">
-        <div class="aq-foto" id="aq-depo-rosto"></div>
-        <div><strong id="aq-depo-nome"></strong><span id="aq-depo-cargo"></span></div>
-      </div>
-      <div class="aq-depo__nav">
-        <button class="aq-seta" type="button" id="aq-depo-ant" aria-label="Depoimento anterior"><svg><use href="#aq-i-seta-e"/></svg></button>
-        <button class="aq-seta" type="button" id="aq-depo-prox" aria-label="Próximo depoimento"><svg><use href="#aq-i-seta-d"/></svg></button>
-        <span class="aq-depo__contador" id="aq-depo-contador"></span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 5. GALERIA DE PRODUTOS COM FILTROS -->
-<section class="aq-secao" id="produtos">
+<!-- Depoimentos Visuais -->
+<section class="aq-secao aq-secao--fundo">
   <div class="aq-container">
-    <div class="aq-centro aq-revela">
-      <p class="aq-sobretitulo">Galeria</p>
-      <h2 class="aq-titulo">Um portfólio pensado para projetos exigentes</h2>
+    <div class="aq-depo" id="aq-depo"></div>
+    <div class="aq-depo__nav">
+      <button class="aq-seta" type="button" id="aq-depo-ant" aria-label="Depoimento anterior"><svg><use href="#aq-i-seta-e"/></svg></button>
+      <button class="aq-seta" type="button" id="aq-depo-prox" aria-label="Próximo depoimento"><svg><use href="#aq-i-seta-d"/></svg></button>
     </div>
+  </div>
+</section>
+
+<!-- Galeria de Produtos -->
+<section class="aq-secao">
+  <div class="aq-container">
+    <h2 class="aq-titulo aq-centro">Um portfólio pensado para projetos exigentes</h2>
     <div class="aq-filtros" role="tablist" aria-label="Filtrar por ambiente">
-      <button class="aq-filtro is-ativo" type="button" data-filtro="todos">Todos</button>
-      <button class="aq-filtro" type="button" data-filtro="banheiro">Banheiro</button>
+      <button class="aq-filtro is-ativo" type="button" data-filtro="banheiro">Banheiro</button>
       <button class="aq-filtro" type="button" data-filtro="cozinha">Cozinha</button>
       <button class="aq-filtro" type="button" data-filtro="gourmet">Gourmet</button>
       <button class="aq-filtro" type="button" data-filtro="revestimentos">Revestimentos</button>
@@ -407,65 +296,37 @@ a { color: inherit; }
   </div>
 </section>
 
-<!-- 6. PAINÉIS VISUAIS COM ÍCONES -->
+<!-- Painéis visuais com ícones -->
 <section class="aq-secao aq-secao--fundo">
   <div class="aq-container">
-    <div class="aq-centro aq-revela">
-      <p class="aq-sobretitulo">Diferenciais</p>
-      <h2 class="aq-titulo">Tudo o que um projeto de alto padrão pede</h2>
-    </div>
-    <div class="aq-paineis aq-revela">
+    <div class="aq-paineis">
       <div class="aq-painel">
         <svg><use href="#aq-i-selo"/></svg>
         <h3>Marcas consagradas</h3>
         <div class="aq-logos"><span class="aq-logos__deca"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/deca-256-150x150.png" alt="Deca" loading="lazy"></span><span class="aq-logos__portinari"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/ChatGPT-Image-26-de-fev.-de-2026-10_50_24-300x200.png" alt="Portinari" loading="lazy"></span><span class="aq-logos__ceusa"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/585a93f0-1c25-4ec0-a65d-2ae546e0c819-Photoroom.png" alt="Ceusa" loading="lazy"></span></div>
       </div>
-      <div class="aq-painel">
-        <svg><use href="#aq-i-conversa"/></svg>
-        <h3>Atendimento consultivo dedicado</h3>
-        <p>Especialistas que acompanham o projeto do início à entrega.</p>
-      </div>
-      <div class="aq-painel">
-        <svg><use href="#aq-i-diamante"/></svg>
-        <h3>Materiais premium</h3>
-        <p>Com 10 anos de garantia.</p>
-      </div>
-      <div class="aq-painel">
-        <svg><use href="#aq-i-escudo"/></svg>
-        <h3>Foco em alto padrão</h3>
-        <p>Linhas e acabamentos selecionados para projetos exigentes.</p>
-      </div>
-      <div class="aq-painel">
-        <svg><use href="#aq-i-caixa"/></svg>
-        <h3>Armazenamento seguro</h3>
-        <p>Seu pedido guardado com cuidado até a hora da obra.</p>
-      </div>
-      <div class="aq-painel">
-        <svg><use href="#aq-i-caminhao"/></svg>
-        <h3>Entrega fracionada</h3>
-        <p>Cada etapa recebe o que precisa, no tempo da obra.</p>
-      </div>
+      <div class="aq-painel"><svg><use href="#aq-i-conversa"/></svg><h3>Atendimento consultivo dedicado</h3></div>
+      <div class="aq-painel"><svg><use href="#aq-i-diamante"/></svg><h3>Materiais premium com 10 anos de garantia</h3></div>
+      <div class="aq-painel"><svg><use href="#aq-i-escudo"/></svg><h3>Foco em alto padrão</h3></div>
+      <div class="aq-painel"><svg><use href="#aq-i-caixa"/></svg><h3>Armazenamento Seguro</h3></div>
+      <div class="aq-painel"><svg><use href="#aq-i-caminhao"/></svg><h3>Entrega fracionada</h3></div>
     </div>
   </div>
 </section>
 
-<!-- 7. CTA ESTRUTURADO (final) -->
-<section class="aq-secao--escura" id="showroom">
-  <div class="aq-show">
-    <div class="aq-show__texto aq-revela">
-      <p class="aq-sobretitulo">Showroom</p>
-      <h2 class="aq-titulo">Visite nosso showroom</h2>
-      <ul class="aq-show__lista">
-        <li><svg><use href="#aq-i-pino"/></svg><div><strong>Endereço</strong><a href="https://www.google.com/maps/search/?api=1&query=Rod.+Jo%C3%A3o+Leme+dos+Santos,+147,+Sorocaba,+SP" target="_blank" rel="noopener" data-aq-cta="mapa">Rod. João Leme dos Santos, 147 — Parque Reserva Fazenda Imperial, Sorocaba/SP</a></div></li>
-        <li><svg><use href="#aq-i-relogio"/></svg><div><strong>Horário</strong>Segunda a sexta, 9h às 18h</div></li>
-        <li><svg><use href="#aq-i-zap"/></svg><div><strong>WhatsApp</strong><a href="#" data-aq-whats="especialista" data-aq-whats-texto data-aq-cta="showroom_whats"></a></div></li>
-      </ul>
-      <div class="aq-botoes">
-        <a class="aq-btn aq-btn--ouro aq-btn--grande" href="#" data-aq-whats="visita" data-aq-cta="final_agendar">✔ Agendar visita</a>
-        <a class="aq-btn aq-btn--claro aq-btn--grande" href="#" data-aq-whats="especialista" data-aq-cta="final_especialista">✔ Falar com especialista</a>
-      </div>
+<!-- CTA Estruturado -->
+<section class="aq-secao aq-secao--escura" id="showroom">
+  <div class="aq-container aq-centro">
+    <h2 class="aq-titulo">Visite nosso showroom</h2>
+    <ul class="aq-show__lista">
+      <li><svg><use href="#aq-i-pino"/></svg><div><strong>Endereço</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=Rod.+Jo%C3%A3o+Leme+dos+Santos,+147,+Sorocaba,+SP" target="_blank" rel="noopener">Rod. João Leme dos Santos, 147 — Sorocaba/SP</a></div></li>
+      <li><svg><use href="#aq-i-relogio"/></svg><div><strong>Horário</strong>Segunda a sexta, 9h às 18h</div></li>
+      <li><svg><use href="#aq-i-zap"/></svg><div><strong>WhatsApp</strong><a href="#" data-aq-whats data-aq-whats-texto></a></div></li>
+    </ul>
+    <div class="aq-botoes">
+      <a class="aq-btn aq-btn--ouro aq-btn--grande" href="#" data-aq-whats>✔ Agendar visita</a>
+      <a class="aq-btn aq-btn--claro aq-btn--grande" href="#" data-aq-whats>✔ Falar com especialista</a>
     </div>
-    <div class="aq-foto" data-aq-foto="showroom" data-rotulo="Foto da fachada ou do interior do showroom"></div>
   </div>
 </section>
 
@@ -473,144 +334,106 @@ a { color: inherit; }
 
 <!-- Rodapé -->
 <footer class="aq-rodape">
-  <div class="aq-container">
-    <div class="aq-rodape__linha">
-      <span class="aq-logo aq-logo--claro"><img src="https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/logo-acqua-preta.png" alt="Acqua Deca Portinari" width="1080" height="575" loading="lazy"></span>
-      <div class="aq-rodape__contatos">
-        <a href="tel:+551532024531" data-aq-cta="rodape_telefone"><svg><use href="#aq-i-tel"/></svg>(15) 3202-4531</a>
-        <a href="#" data-aq-whats="especialista" data-aq-cta="rodape_whats"><svg><use href="#aq-i-zap"/></svg><span data-aq-whats-texto></span></a>
-        <a href="https://www.instagram.com/acquaexclusive/" target="_blank" rel="noopener" data-aq-cta="rodape_instagram"><svg><use href="#aq-i-insta"/></svg>@acquaexclusive</a>
-      </div>
-    </div>
-    <p class="aq-rodape__fim">Acqua Exclusive · Grupo Unikitchen · Imagens ilustrativas.</p>
+  <div class="aq-container aq-rodape__contatos">
+    <a href="tel:+551532024531"><svg><use href="#aq-i-tel"/></svg>(15) 3202-4531</a>
+    <a href="#" data-aq-whats><svg><use href="#aq-i-zap"/></svg><span data-aq-whats-texto></span></a>
+    <a href="https://www.instagram.com/acquaexclusive/" target="_blank" rel="noopener"><svg><use href="#aq-i-insta"/></svg>@acquaexclusive</a>
   </div>
 </footer>
 
-<a class="aq-zap" href="#" data-aq-whats="especialista" data-aq-cta="flutuante_whats" aria-label="Falar no WhatsApp"><svg><use href="#aq-i-zap"/></svg></a>
-
-<!-- Janela ampliada -->
-<div class="aq-lb" id="aq-lb" role="dialog" aria-modal="true" aria-label="Galeria de fotos">
+<!-- Janela ampliada (carrossel de fotos) -->
+<div class="aq-lb" id="aq-lb" role="dialog" aria-modal="true" aria-label="Fotos ampliadas">
   <div class="aq-lb__topo"><span id="aq-lb-contador"></span><button class="aq-lb__fechar" type="button" id="aq-lb-fechar" aria-label="Fechar"><svg><use href="#aq-i-fechar"/></svg></button></div>
   <div class="aq-lb__palco">
     <button class="aq-seta aq-lb__ant" type="button" id="aq-lb-ant" aria-label="Foto anterior"><svg><use href="#aq-i-seta-e"/></svg></button>
     <div class="aq-foto" id="aq-lb-foto"></div>
     <button class="aq-seta aq-lb__prox" type="button" id="aq-lb-prox" aria-label="Próxima foto"><svg><use href="#aq-i-seta-d"/></svg></button>
   </div>
-  <div class="aq-lb__rodape"><strong id="aq-lb-titulo"></strong><span id="aq-lb-legenda"></span></div>
 </div>
 
 <script>
 /* ============================================================
    CONFIGURAÇÃO — edite só este bloco.
-   Fotos: cole a URL em "src". Sem URL, aparece um espaço reservado
-   com a descrição da foto que deve entrar ali.
+   Foto sem URL aparece como espaço reservado.
    ============================================================ */
+var U = 'https://www.acquaexclusive.com.br/wp-content/uploads/';
 var AQ = {
   whatsapp: '5515997145343',
   whatsappTexto: '(15) 99714-5343',
-  mensagens: {
-    visita: 'Olá! Vi a página da Acqua Exclusive e gostaria de agendar uma visita ao showroom.',
-    especialista: 'Olá! Vi a página da Acqua Exclusive e gostaria de falar com um especialista.'
-  },
-  // PENDENTE: link do PDF do catálogo Exclusive (sem link, o botão pede o catálogo pelo WhatsApp)
+  // PENDENTE: link do PDF do catálogo Exclusive
   catalogo: '',
 
-  fotos: {
-    hero: 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/loucas-e-metais-deca-lp-3.jpg',
-    showroom: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/ChatGPT-Image-26-de-fev.-de-2026-14_18_19.png'
-  },
+  fotoHero: U + '2025/02/loucas-e-metais-deca-lp-3.jpg',
 
-  // Seção 2: galeria de ambientes. Cada ambiente abre um carrossel com as fotos dele.
+  // Marcas e Portfólio: grid de ambientes (banheiro, cozinha, gourmet).
+  // Cada imagem amplia e abre o carrossel com as fotos do mesmo ambiente.
   ambientes: [
-    { titulo: 'Banho', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3866-HDR-scaled.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM100042_GGG.webp', 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/loucas-e-metais-deca-lp-3.jpg'] },
-    { titulo: 'Gourmet', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3824-HDR-scaled.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3812-HDR-scaled.jpg'] },
-    { titulo: 'Cozinha', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3788-HDR-scaled.jpg'] },
-    { titulo: 'Lavabo', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3686-HDR-scaled.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3695-HDR-scaled.jpg'] },
-    { titulo: 'Revestimentos', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/gallery_06.jpg', 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/thumb_CANOVACALACATAWH.jpg'] },
-    { titulo: 'Detalhes', legenda: 'Ver projeto', fotos: ['https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102412_GGG.webp', 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102406_GGG.webp'] }
+    { ambiente: 'Banheiro', src: U + '2026/02/DSC3866-HDR-scaled.jpg' },
+    { ambiente: 'Gourmet', src: U + '2026/02/DSC3824-HDR-scaled.jpg' },
+    { ambiente: 'Cozinha', src: U + '2026/02/DSC3788-HDR-scaled.jpg' },
+    { ambiente: 'Banheiro', src: U + '2026/02/DSC3686-HDR-scaled.jpg' },
+    { ambiente: 'Banheiro', src: U + '2026/02/DSC3695-HDR-scaled.jpg' },
+    { ambiente: 'Gourmet', src: U + '2026/02/DSC3812-HDR-scaled.jpg' }
   ],
 
-  // Seção 4: depoimentos (PENDENTE: fotos dos projetos, textos, nomes e autorização dos arquitetos)
+  // Depoimentos Visuais: 4 fotos de projetos reais com citação curta do arquiteto.
+  // PENDENTE: fotos dos projetos, 3 citações, nomes.
   depoimentos: [
-    { foto: '', rosto: '', texto: 'A Acqua ampliou minha gama de possibilidades e transformou minha especificação em realidade.', nome: 'Nome do arquiteto', cargo: 'Arquiteto' },
-    { foto: '', rosto: '', texto: 'Citação curta do segundo arquiteto sobre o projeto.', nome: 'Nome do arquiteto', cargo: 'Arquiteta' },
-    { foto: '', rosto: '', texto: 'Citação curta do terceiro arquiteto sobre o projeto.', nome: 'Nome do arquiteto', cargo: 'Arquiteto' },
-    { foto: '', rosto: '', texto: 'Citação curta do quarto arquiteto sobre o projeto.', nome: 'Nome do arquiteto', cargo: 'Arquiteta' }
+    { foto: '', texto: '“A Acqua ampliou minha gama de possibilidades e transformou minha especificação em realidade.”', autor: '— Nome, Arquiteto' },
+    { foto: '', texto: '“Citação do arquiteto.”', autor: '— Nome, Arquiteto' },
+    { foto: '', texto: '“Citação do arquiteto.”', autor: '— Nome, Arquiteto' },
+    { foto: '', texto: '“Citação do arquiteto.”', autor: '— Nome, Arquiteto' }
   ],
 
-  // Seção 5: produtos. categoria = banheiro | cozinha | gourmet | revestimentos. Sem códigos.
-  // PENDENTE: confirmar nomes e marcas (provisórios, deduzidos das fotos).
+  // Galeria de Produtos: imagem grande + nome (sem códigos).
+  // PENDENTE: nome de cada produto.
   produtos: [
-    { categoria: 'banheiro', nome: 'Lavatório com metais pretos', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102412_GGG.webp' },
-    { categoria: 'banheiro', nome: 'Bacia suspensa preta', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM102406_GGG.webp' },
-    { categoria: 'banheiro', nome: 'Box com chuveiro de teto', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/IM100042_GGG.webp' },
-    { categoria: 'banheiro', nome: 'Banheira de apoio', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/loucas-e-metais-deca-lp-3.jpg' },
-    { categoria: 'cozinha', nome: 'Cuba e misturador gourmet', marca: 'Deca', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3788-HDR-683x1024.jpg' },
-    { categoria: 'gourmet', nome: 'Bancada com adega', marca: 'Projeto', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3812-HDR-683x1024.jpg' },
-    { categoria: 'revestimentos', nome: 'Porcelanato Canova Calacata', marca: 'Portinari', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2025/02/thumb_CANOVACALACATAWH.jpg' },
-    { categoria: 'revestimentos', nome: 'Revestimento tridimensional', marca: 'Ceusa', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/gallery_06.jpg' },
-    { categoria: 'revestimentos', nome: 'Revestimento amadeirado', marca: 'Portinari', src: 'https://www.acquaexclusive.com.br/wp-content/uploads/2026/02/DSC3866-HDR-683x1024.jpg' }
+    { categoria: 'banheiro', nome: 'Nome do produto', src: U + '2026/02/IM102412_GGG.webp' },
+    { categoria: 'banheiro', nome: 'Nome do produto', src: U + '2026/02/IM102406_GGG.webp' },
+    { categoria: 'banheiro', nome: 'Nome do produto', src: U + '2026/02/IM100042_GGG.webp' },
+    { categoria: 'banheiro', nome: 'Nome do produto', src: U + '2025/02/loucas-e-metais-deca-lp-3.jpg' },
+    { categoria: 'cozinha', nome: 'Nome do produto', src: U + '2026/02/DSC3788-HDR-683x1024.jpg' },
+    { categoria: 'gourmet', nome: 'Nome do produto', src: U + '2026/02/DSC3812-HDR-683x1024.jpg' },
+    { categoria: 'revestimentos', nome: 'Nome do produto', src: U + '2025/02/thumb_CANOVACALACATAWH.jpg' },
+    { categoria: 'revestimentos', nome: 'Nome do produto', src: U + '2026/02/gallery_06.jpg' }
   ]
 };
 
 (function () {
   'use strict';
-  document.documentElement.classList.add('aq-js');
-  var TONS = [['#e6ddcf', '#b8a58a'], ['#d8d2c8', '#8f877b'], ['#e9e2d6', '#c4ab86'], ['#cfc6b8', '#7d6e5d'], ['#ebe6de', '#a99c88']];
 
-  function rastrear(nome) {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({ event: 'aq_cta', aq_cta: nome });
-  }
-
-  // Preenche um .aq-foto com a imagem, ou com o espaço reservado
-  function pintar(el, src, rotulo, i, alt) {
+  function pintar(el, src, rotulo, alt) {
     el.innerHTML = '';
     el.classList.toggle('aq-foto--vazia', !src);
     if (src) {
       var img = document.createElement('img');
-      img.src = src; img.alt = alt || rotulo || ''; img.loading = 'lazy'; img.decoding = 'async';
+      img.src = src; img.alt = alt || ''; img.loading = 'lazy'; img.decoding = 'async';
       el.appendChild(img);
-    } else {
-      var t = TONS[(i || 0) % TONS.length];
-      el.style.setProperty('--aq-tom1', t[0]);
-      el.style.setProperty('--aq-tom2', t[1]);
-      if (rotulo) el.setAttribute('data-rotulo', rotulo);
+    } else if (rotulo) {
+      el.setAttribute('data-rotulo', rotulo);
     }
   }
+  function novaFoto(src, rotulo, alt) { var d = document.createElement('div'); d.className = 'aq-foto'; pintar(d, src, rotulo, alt); return d; }
   // Na grade usa a versão média da foto; a grande fica para a janela ampliada
   function miniatura(src) { return (src || '').replace('-HDR-scaled.jpg', '-HDR-683x1024.jpg'); }
-  function novaFoto(src, rotulo, i, alt) { var d = document.createElement('div'); d.className = 'aq-foto'; pintar(d, src, rotulo, i, alt); return d; }
 
   // WhatsApp e catálogo
   document.querySelectorAll('[data-aq-whats]').forEach(function (a) {
-    var msg = AQ.mensagens[a.getAttribute('data-aq-whats')] || '';
-    a.href = 'https://wa.me/' + AQ.whatsapp + '?text=' + encodeURIComponent(msg);
-    a.target = '_blank'; a.rel = 'noopener';
+    a.href = 'https://wa.me/' + AQ.whatsapp; a.target = '_blank'; a.rel = 'noopener';
   });
   document.querySelectorAll('[data-aq-whats-texto]').forEach(function (el) { el.textContent = AQ.whatsappTexto; });
   document.querySelectorAll('[data-aq-catalogo]').forEach(function (a) {
     if (AQ.catalogo) { a.href = AQ.catalogo; a.target = '_blank'; a.rel = 'noopener'; }
-    else { a.href = 'https://wa.me/' + AQ.whatsapp + '?text=' + encodeURIComponent('Olá! Gostaria de receber o catálogo Exclusive da Acqua.'); a.target = '_blank'; }
-  });
-  document.addEventListener('click', function (e) {
-    var a = e.target.closest('[data-aq-cta]');
-    if (a) rastrear(a.getAttribute('data-aq-cta'));
   });
 
-  // Fotos fixas
-  document.querySelectorAll('[data-aq-foto]').forEach(function (el, i) {
-    pintar(el, AQ.fotos[el.getAttribute('data-aq-foto')], el.getAttribute('data-rotulo'), i + 2, 'Showroom Acqua Exclusive');
-  });
+  pintar(document.querySelector('[data-aq-foto="hero"]'), AQ.fotoHero, 'Imagem do showroom ou de peças premium', 'Acqua Exclusive');
 
   // Janela ampliada
   var lb = document.getElementById('aq-lb'), lbFoto = document.getElementById('aq-lb-foto');
   var lbItens = [], lbPos = 0, lbVolta = null;
   function lbMostrar() {
     var it = lbItens[lbPos];
-    pintar(lbFoto, it.src, it.rotulo, lbPos, it.titulo);
-    document.getElementById('aq-lb-titulo').textContent = it.titulo;
-    document.getElementById('aq-lb-legenda').textContent = it.legenda || '';
+    pintar(lbFoto, it.src, it.rotulo, it.alt);
     document.getElementById('aq-lb-contador').textContent = (lbPos + 1) + ' / ' + lbItens.length;
     var varias = lbItens.length > 1;
     document.getElementById('aq-lb-ant').hidden = !varias;
@@ -641,91 +464,62 @@ var AQ = {
     if (Math.abs(d) > 50) lbPasso(d < 0 ? 1 : -1);
   });
 
-  // Seção 2: grade de ambientes
+  // Grid de ambientes
   var grade = document.getElementById('aq-grade');
-  AQ.ambientes.slice(0, 6).forEach(function (amb, i) {
+  AQ.ambientes.slice(0, 6).forEach(function (item, i) {
     var b = document.createElement('button');
     b.type = 'button'; b.className = 'aq-amb aq-amb--' + (i + 1);
-    b.setAttribute('aria-label', 'Ver fotos: ' + amb.titulo);
-    b.setAttribute('data-aq-cta', 'ambiente_' + amb.titulo.toLowerCase());
-    b.appendChild(novaFoto(miniatura(amb.fotos[0]), 'Ambiente: ' + amb.titulo.toLowerCase(), i, amb.titulo));
-    b.insertAdjacentHTML('beforeend', '<span class="aq-amb__legenda"><span></span><strong></strong></span>');
-    b.querySelector('.aq-amb__legenda span').textContent = amb.legenda;
-    b.querySelector('.aq-amb__legenda strong').textContent = amb.titulo;
+    b.setAttribute('aria-label', 'Ampliar: ' + item.ambiente);
+    b.appendChild(novaFoto(miniatura(item.src), item.ambiente, item.ambiente));
+    var nome = document.createElement('strong'); nome.textContent = item.ambiente; b.appendChild(nome);
     b.onclick = function () {
-      lbAbrir(amb.fotos.map(function (src, n) {
-        return { src: src, titulo: amb.titulo, legenda: amb.legenda, rotulo: amb.titulo + ' — foto ' + (n + 1) };
-      }), 0, b);
+      var mesmos = AQ.ambientes.filter(function (o) { return o.ambiente === item.ambiente; });
+      lbAbrir(mesmos.map(function (o) { return { src: o.src, alt: o.ambiente, rotulo: o.ambiente }; }), mesmos.indexOf(item), b);
     };
     grade.appendChild(b);
   });
 
-  // Seção 4: depoimentos
-  var dFotos = document.getElementById('aq-depo-fotos'), dPos = 0, dTimer = null;
-  var dLista = AQ.depoimentos.map(function (d, i) {
-    var f = novaFoto(d.foto, 'Foto do projeto ' + (i + 1), i, 'Projeto de ' + d.nome);
-    dFotos.appendChild(f); return f;
+  // Depoimentos (carrossel)
+  var depo = document.getElementById('aq-depo');
+  AQ.depoimentos.forEach(function (d, i) {
+    var f = document.createElement('figure'); f.className = 'aq-depo__item';
+    f.appendChild(novaFoto(d.foto, 'Foto do projeto ' + (i + 1), 'Projeto'));
+    var q = document.createElement('blockquote'); q.textContent = d.texto; f.appendChild(q);
+    var c = document.createElement('figcaption'); c.textContent = d.autor; f.appendChild(c);
+    depo.appendChild(f);
   });
-  function depoMostrar(n) {
-    dPos = (n + AQ.depoimentos.length) % AQ.depoimentos.length;
-    var d = AQ.depoimentos[dPos];
-    dLista.forEach(function (f, i) { f.classList.toggle('is-ativo', i === dPos); });
-    document.getElementById('aq-depo-citacao').textContent = d.texto;
-    document.getElementById('aq-depo-nome').textContent = d.nome;
-    document.getElementById('aq-depo-cargo').textContent = d.cargo;
-    pintar(document.getElementById('aq-depo-rosto'), d.rosto, '', dPos + 1, d.nome);
-    document.getElementById('aq-depo-contador').textContent = String(dPos + 1).padStart(2, '0') + ' / ' + String(AQ.depoimentos.length).padStart(2, '0');
+  function depoPasso(n) {
+    var item = depo.querySelector('.aq-depo__item');
+    depo.scrollBy({ left: n * (item.offsetWidth + 24), behavior: 'smooth' });
   }
-  function depoAuto() {
-    clearInterval(dTimer);
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) dTimer = setInterval(function () { depoMostrar(dPos + 1); }, 7000);
-  }
-  document.getElementById('aq-depo-ant').onclick = function () { depoMostrar(dPos - 1); depoAuto(); };
-  document.getElementById('aq-depo-prox').onclick = function () { depoMostrar(dPos + 1); depoAuto(); };
-  depoMostrar(0); depoAuto();
+  document.getElementById('aq-depo-ant').onclick = function () { depoPasso(-1); };
+  document.getElementById('aq-depo-prox').onclick = function () { depoPasso(1); };
 
-  // Seção 5: produtos com filtro
+  // Galeria de produtos com filtros
   var caixa = document.getElementById('aq-produtos');
-  var cards = AQ.produtos.map(function (p, i) {
+  var filtroAtual = 'banheiro';
+  var cards = AQ.produtos.map(function (p) {
     var b = document.createElement('button');
-    b.type = 'button'; b.className = 'aq-prod aq-revela'; b.dataset.categoria = p.categoria;
-    b.appendChild(novaFoto(p.src, p.nome, i, p.nome + ' ' + p.marca));
-    b.insertAdjacentHTML('beforeend', '<span></span><strong></strong>');
-    b.querySelector('span').textContent = p.marca;
-    b.querySelector('strong').textContent = p.nome;
+    b.type = 'button'; b.className = 'aq-prod'; b.dataset.categoria = p.categoria;
+    b.appendChild(novaFoto(p.src, p.nome, p.nome));
+    var n = document.createElement('strong'); n.textContent = p.nome; b.appendChild(n);
     b.onclick = function () {
-      var visiveis = AQ.produtos.filter(function (q) { return filtroAtual === 'todos' || q.categoria === filtroAtual; });
-      lbAbrir(visiveis.map(function (q) { return { src: q.src, titulo: q.nome, legenda: q.marca, rotulo: q.nome }; }), visiveis.indexOf(p), b);
+      var visiveis = AQ.produtos.filter(function (q) { return q.categoria === filtroAtual; });
+      lbAbrir(visiveis.map(function (q) { return { src: q.src, alt: q.nome, rotulo: q.nome }; }), visiveis.indexOf(p), b);
     };
     caixa.appendChild(b); return b;
   });
-  var filtroAtual = 'todos';
+  function filtrar() { cards.forEach(function (c) { c.hidden = c.dataset.categoria !== filtroAtual; }); }
   document.querySelectorAll('.aq-filtro').forEach(function (bt) {
     bt.setAttribute('role', 'tab');
     bt.setAttribute('aria-selected', bt.classList.contains('is-ativo'));
     bt.onclick = function () {
       filtroAtual = bt.dataset.filtro;
       document.querySelectorAll('.aq-filtro').forEach(function (o) { o.classList.toggle('is-ativo', o === bt); o.setAttribute('aria-selected', o === bt); });
-      cards.forEach(function (c) { c.hidden = !(filtroAtual === 'todos' || c.dataset.categoria === filtroAtual); });
-      rastrear('filtro_' + filtroAtual);
+      filtrar();
     };
   });
-
-  // Cabeçalho ao rolar
-  var topo = document.getElementById('aq-topo');
-  function aoRolar() { topo.classList.toggle('is-rolado', window.scrollY > 40); }
-  window.addEventListener('scroll', aoRolar, { passive: true }); aoRolar();
-
-  // Revelar ao rolar
-  var itens = document.querySelectorAll('.aq-revela');
-  if ('IntersectionObserver' in window) {
-    var obs = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-visivel'); obs.unobserve(e.target); } });
-    }, { rootMargin: '0px 0px -8% 0px' });
-    itens.forEach(function (el) { obs.observe(el); });
-  } else {
-    itens.forEach(function (el) { el.classList.add('is-visivel'); });
-  }
+  filtrar();
 })();
 </script>
 </body>
