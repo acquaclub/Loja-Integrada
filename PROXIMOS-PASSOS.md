@@ -33,6 +33,7 @@ Hoje o site mostra marcas fortes, mas nada da Unikitchen em ação.
 
 ### 5. Favicon e logo em PNG
 - Feito pelo cliente em 01/10/2026.
+- 30/10/2026: a marca não usa mais a assinatura "Home Parts" (que aparece no manual de marca da Tucam). Usar só "Unikitchen" em textos, títulos e dados estruturados. Conferir se o logo enviado na Loja Integrada ainda traz "home parts" embaixo; se trouxer, trocar pela versão só "unikitchen".
 
 ## Lembretes de medição (ver `tema/ferramentas/guia-gtm-rastreio-cliques.md`)
 - 02/10/2026: marcar `clique_whatsapp` como evento principal no GA4 (Administrador > Eventos > Eventos recentes > estrela).
